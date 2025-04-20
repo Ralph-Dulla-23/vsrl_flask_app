@@ -1,0 +1,538 @@
+{
+  "image_id": "1641",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          54,
+          543
+        ],
+        [
+          120,
+          564
+        ]
+      ],
+      "value": "Sunlight",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          361,
+          487
+        ],
+        [
+          413,
+          505
+        ]
+      ],
+      "value": "Umbra",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          608,
+          550
+        ],
+        [
+          742,
+          566
+        ]
+      ],
+      "value": "Area of total eclipse",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          794,
+          485
+        ],
+        [
+          847,
+          499
+        ]
+      ],
+      "value": "Earth",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          143,
+          40
+        ],
+        [
+          219,
+          63
+        ]
+      ],
+      "value": "The Moon",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          437,
+          36
+        ],
+        [
+          510,
+          52
+        ]
+      ],
+      "value": "Penumbra",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          614,
+          36
+        ],
+        [
+          763,
+          58
+        ]
+      ],
+      "value": "Area of partial eclipse",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          169,
+          249
+        ],
+        [
+          184,
+          256
+        ],
+        [
+          196,
+          265
+        ],
+        [
+          206,
+          288
+        ],
+        [
+          208,
+          324
+        ],
+        [
+          193,
+          344
+        ],
+        [
+          173,
+          358
+        ],
+        [
+          137,
+          356
+        ],
+        [
+          111,
+          340
+        ],
+        [
+          99,
+          303
+        ],
+        [
+          107,
+          272
+        ],
+        [
+          121,
+          261
+        ],
+        [
+          140,
+          250
+        ],
+        [
+          169,
+          248
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          615,
+          284
+        ],
+        [
+          621,
+          258
+        ],
+        [
+          639,
+          235
+        ],
+        [
+          660,
+          203
+        ],
+        [
+          696,
+          182
+        ],
+        [
+          742,
+          174
+        ],
+        [
+          793,
+          180
+        ],
+        [
+          838,
+          204
+        ],
+        [
+          867,
+          243
+        ],
+        [
+          883,
+          300
+        ],
+        [
+          872,
+          372
+        ],
+        [
+          842,
+          407
+        ],
+        [
+          802,
+          430
+        ],
+        [
+          738,
+          441
+        ],
+        [
+          681,
+          426
+        ],
+        [
+          649,
+          399
+        ],
+        [
+          621,
+          361
+        ],
+        [
+          614,
+          285
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          154,
+          62
+        ],
+        [
+          154,
+          246
+        ],
+        [
+          161,
+          243
+        ],
+        [
+          162,
+          62
+        ],
+        [
+          156,
+          62
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          443,
+          57
+        ],
+        [
+          445,
+          254
+        ],
+        [
+          453,
+          254
+        ],
+        [
+          455,
+          58
+        ],
+        [
+          441,
+          56
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          621,
+          60
+        ],
+        [
+          623,
+          266
+        ],
+        [
+          632,
+          264
+        ],
+        [
+          631,
+          60
+        ],
+        [
+          625,
+          59
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          805,
+          414
+        ],
+        [
+          807,
+          476
+        ],
+        [
+          817,
+          474
+        ],
+        [
+          816,
+          414
+        ],
+        [
+          807,
+          414
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          612,
+          316
+        ],
+        [
+          613,
+          543
+        ],
+        [
+          624,
+          542
+        ],
+        [
+          623,
+          315
+        ],
+        [
+          612,
+          317
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          366,
+          311
+        ],
+        [
+          368,
+          485
+        ],
+        [
+          378,
+          483
+        ],
+        [
+          380,
+          311
+        ],
+        [
+          367,
+          310
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          62,
+          366
+        ],
+        [
+          64,
+          540
+        ],
+        [
+          74,
+          542
+        ],
+        [
+          74,
+          365
+        ],
+        [
+          64,
+          365
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T2+A4+B1",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B1",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T3+A3+B1",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B1",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T4+B0",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+A2+B1",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B1",
+      "connector": "A2",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "sunlight umbra area of total eclipse earth the moon penumbra area of partial eclipse"
+  },
+  "questions": [
+    {
+      "question_text": "The label A stands for ?",
+      "question_id": "1641.png-1",
+      "answers": [
+        "Moon",
+        "Umbra",
+        "Penumbra",
+        "Earth"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which label represents Sunlight in the above diagram?",
+      "question_id": "1641.png-0",
+      "answers": [
+        "A",
+        "E",
+        "B",
+        "G"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

@@ -1,0 +1,608 @@
+{
+  "image_id": "385",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          23,
+          22
+        ],
+        [
+          63,
+          51
+        ]
+      ],
+      "value": "L",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          120,
+          1
+        ],
+        [
+          244,
+          49
+        ]
+      ],
+      "value": "Adult plant with flowers",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          300,
+          5
+        ],
+        [
+          331,
+          39
+        ]
+      ],
+      "value": "M",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          262,
+          70
+        ],
+        [
+          392,
+          118
+        ]
+      ],
+      "value": "ADULT PLANT WITH FRUITS",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          299,
+          155
+        ],
+        [
+          334,
+          184
+        ]
+      ],
+      "value": "N",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          162,
+          171
+        ],
+        [
+          218,
+          191
+        ]
+      ],
+      "value": "Seed",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          39,
+          161
+        ],
+        [
+          79,
+          188
+        ]
+      ],
+      "value": "K",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          9,
+          86
+        ],
+        [
+          98,
+          113
+        ]
+      ],
+      "value": "Seedling",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          48,
+          111
+        ],
+        [
+          64,
+          121
+        ],
+        [
+          59,
+          126
+        ],
+        [
+          68,
+          146
+        ],
+        [
+          77,
+          159
+        ],
+        [
+          86,
+          167
+        ],
+        [
+          107,
+          174
+        ],
+        [
+          165,
+          180
+        ],
+        [
+          164,
+          187
+        ],
+        [
+          114,
+          184
+        ],
+        [
+          87,
+          176
+        ],
+        [
+          73,
+          166
+        ],
+        [
+          65,
+          155
+        ],
+        [
+          51,
+          130
+        ],
+        [
+          47,
+          128
+        ],
+        [
+          46,
+          111
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          321,
+          114
+        ],
+        [
+          310,
+          136
+        ],
+        [
+          296,
+          160
+        ],
+        [
+          284,
+          171
+        ],
+        [
+          273,
+          177
+        ],
+        [
+          252,
+          179
+        ],
+        [
+          232,
+          178
+        ],
+        [
+          230,
+          175
+        ],
+        [
+          229,
+          172
+        ],
+        [
+          215,
+          181
+        ],
+        [
+          229,
+          191
+        ],
+        [
+          232,
+          186
+        ],
+        [
+          260,
+          188
+        ],
+        [
+          280,
+          183
+        ],
+        [
+          300,
+          168
+        ],
+        [
+          318,
+          138
+        ],
+        [
+          330,
+          116
+        ],
+        [
+          321,
+          115
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          250,
+          33
+        ],
+        [
+          294,
+          36
+        ],
+        [
+          306,
+          40
+        ],
+        [
+          318,
+          51
+        ],
+        [
+          326,
+          65
+        ],
+        [
+          323,
+          68
+        ],
+        [
+          337,
+          79
+        ],
+        [
+          338,
+          59
+        ],
+        [
+          332,
+          60
+        ],
+        [
+          321,
+          42
+        ],
+        [
+          312,
+          34
+        ],
+        [
+          297,
+          29
+        ],
+        [
+          254,
+          25
+        ],
+        [
+          250,
+          25
+        ],
+        [
+          251,
+          34
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          51,
+          90
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          75,
+          45
+        ],
+        [
+          81,
+          38
+        ],
+        [
+          92,
+          33
+        ],
+        [
+          100,
+          30
+        ],
+        [
+          103,
+          35
+        ],
+        [
+          115,
+          22
+        ],
+        [
+          97,
+          18
+        ],
+        [
+          96,
+          23
+        ],
+        [
+          84,
+          27
+        ],
+        [
+          71,
+          36
+        ],
+        [
+          61,
+          51
+        ],
+        [
+          49,
+          75
+        ],
+        [
+          44,
+          87
+        ],
+        [
+          52,
+          91
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A3",
+      "type": "arrowDescriptor",
+      "source": "T0",
+      "target": "A3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A2+T3",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T3",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T2+A2",
+      "type": "arrowDescriptor",
+      "source": "T2",
+      "target": "A2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+A1+T5",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T5",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T4+A1",
+      "type": "arrowDescriptor",
+      "source": "T4",
+      "target": "A1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+A0+T7",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T7",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T6+A0",
+      "type": "arrowDescriptor",
+      "source": "T6",
+      "target": "A0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T7+A3+T1",
+      "type": "interObjectLinkage",
+      "source": "T7",
+      "target": "T1",
+      "connector": "A3",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "l adult plant with flowers m adult plant with fruits n seed k seedling"
+  },
+  "questions": [
+    {
+      "question_text": "In the diagram, what letter occurs between seed and seedling?",
+      "question_id": "385.png-0",
+      "answers": [
+        "M",
+        "N",
+        "K",
+        "L"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the life cycle shown to us, what product comes from a seed (what's next in the cycle)?",
+      "question_id": "385.png-3",
+      "answers": [
+        "adult plant with fruits",
+        "adult plant with flowers",
+        "Seedling",
+        "firewood"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "The seedling stage is shown by which letter?",
+      "question_id": "385.png-2",
+      "answers": [
+        "C",
+        "F",
+        "B",
+        "E"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "What stage best represents an adult plant with fruit?",
+      "question_id": "385.png-4",
+      "answers": [
+        "F",
+        "B",
+        "E",
+        "C"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "What stage comes between the seed and an adult plant with flowers?",
+      "question_id": "385.png-1",
+      "answers": [
+        "C",
+        "B",
+        "F",
+        "D"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

@@ -1,0 +1,642 @@
+{
+  "image_id": "2991",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          74,
+          0
+        ],
+        [
+          126,
+          15
+        ]
+      ],
+      "value": "dendrites",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          217,
+          10
+        ],
+        [
+          297,
+          40
+        ]
+      ],
+      "value": "axons from other neurons",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          176,
+          67
+        ],
+        [
+          227,
+          80
+        ]
+      ],
+      "value": "cell body",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          202,
+          100
+        ],
+        [
+          268,
+          113
+        ]
+      ],
+      "value": "axon hillock",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          163,
+          145
+        ],
+        [
+          244,
+          159
+        ]
+      ],
+      "value": "terminal fibers",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          170,
+          177
+        ],
+        [
+          255,
+          194
+        ]
+      ],
+      "value": "terminal button",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          23,
+          103
+        ],
+        [
+          67,
+          115
+        ]
+      ],
+      "value": "nucleus",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          44
+        ],
+        [
+          52,
+          61
+        ]
+      ],
+      "value": "synapses",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          142,
+          102
+        ],
+        [
+          170,
+          113
+        ]
+      ],
+      "value": "axon",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          84,
+          6
+        ],
+        [
+          45,
+          39
+        ],
+        [
+          31,
+          90
+        ],
+        [
+          78,
+          125
+        ],
+        [
+          72,
+          176
+        ],
+        [
+          84,
+          194
+        ],
+        [
+          180,
+          194
+        ],
+        [
+          195,
+          177
+        ],
+        [
+          162,
+          127
+        ],
+        [
+          209,
+          122
+        ],
+        [
+          238,
+          61
+        ],
+        [
+          174,
+          5
+        ],
+        [
+          87,
+          5
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          67,
+          113
+        ],
+        [
+          130,
+          69
+        ],
+        [
+          123,
+          62
+        ],
+        [
+          58,
+          102
+        ],
+        [
+          67,
+          114
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          123,
+          97
+        ],
+        [
+          205,
+          113
+        ],
+        [
+          209,
+          105
+        ],
+        [
+          128,
+          82
+        ],
+        [
+          123,
+          97
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          142,
+          73
+        ],
+        [
+          177,
+          81
+        ],
+        [
+          180,
+          70
+        ],
+        [
+          146,
+          61
+        ],
+        [
+          141,
+          73
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          39,
+          87
+        ],
+        [
+          60,
+          84
+        ],
+        [
+          80,
+          72
+        ],
+        [
+          80,
+          56
+        ],
+        [
+          71,
+          57
+        ],
+        [
+          65,
+          69
+        ],
+        [
+          38,
+          81
+        ],
+        [
+          38,
+          88
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          43,
+          71
+        ],
+        [
+          55,
+          58
+        ],
+        [
+          47,
+          52
+        ],
+        [
+          75,
+          44
+        ],
+        [
+          72,
+          57
+        ],
+        [
+          59,
+          67
+        ],
+        [
+          50,
+          76
+        ],
+        [
+          43,
+          73
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          159,
+          20
+        ],
+        [
+          167,
+          5
+        ],
+        [
+          161,
+          1
+        ],
+        [
+          149,
+          19
+        ],
+        [
+          158,
+          21
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          189,
+          13
+        ],
+        [
+          222,
+          14
+        ],
+        [
+          222,
+          24
+        ],
+        [
+          191,
+          25
+        ],
+        [
+          191,
+          13
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          198,
+          29
+        ],
+        [
+          223,
+          21
+        ],
+        [
+          225,
+          25
+        ],
+        [
+          203,
+          37
+        ],
+        [
+          199,
+          33
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A3+H2",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H3",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H0",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H4",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H1",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T1+A7+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T2+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T3+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T4+B0",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T5",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T7+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T8+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T8",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "dendrites axons from other neurons cell body axon hillock terminal fibers terminal button nucleus synapses axon"
+  },
+  "questions": [
+    {
+      "question_text": "What is depicted by D in the diagram?",
+      "question_id": "2991.png-0",
+      "answers": [
+        "cell body",
+        "nucleus",
+        "axons from other neurons",
+        "none of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is the center of the diagram?",
+      "question_id": "2991.png-1",
+      "answers": [
+        "dendrites",
+        "cell body",
+        "none of the above",
+        "nucleus"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is the root like object at the bottom",
+      "question_id": "2991.png-2",
+      "answers": [
+        "Synapses",
+        "Nucleus",
+        "Terminal Fibers",
+        "Dendrite"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

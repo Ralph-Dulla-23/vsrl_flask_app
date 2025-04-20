@@ -1,0 +1,524 @@
+{
+  "image_id": "500",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          252,
+          49
+        ],
+        [
+          344,
+          80
+        ]
+      ],
+      "value": "grass",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          34,
+          248
+        ],
+        [
+          241,
+          283
+        ]
+      ],
+      "value": "grasshopper",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          437,
+          213
+        ],
+        [
+          510,
+          247
+        ]
+      ],
+      "value": "deer",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          98,
+          446
+        ],
+        [
+          166,
+          487
+        ]
+      ],
+      "value": "frog",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          339,
+          461
+        ],
+        [
+          432,
+          496
+        ]
+      ],
+      "value": "cobra",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          457,
+          620
+        ],
+        [
+          531,
+          658
+        ]
+      ],
+      "value": "tiger",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          251,
+          88
+        ],
+        [
+          138,
+          190
+        ],
+        [
+          146,
+          201
+        ],
+        [
+          259,
+          94
+        ],
+        [
+          251,
+          90
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          334,
+          84
+        ],
+        [
+          440,
+          174
+        ],
+        [
+          433,
+          186
+        ],
+        [
+          325,
+          89
+        ],
+        [
+          336,
+          80
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          89,
+          295
+        ],
+        [
+          124,
+          418
+        ],
+        [
+          143,
+          415
+        ],
+        [
+          105,
+          287
+        ],
+        [
+          89,
+          299
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          169,
+          464
+        ],
+        [
+          303,
+          464
+        ],
+        [
+          305,
+          481
+        ],
+        [
+          165,
+          479
+        ],
+        [
+          171,
+          463
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          405,
+          498
+        ],
+        [
+          481,
+          584
+        ],
+        [
+          475,
+          595
+        ],
+        [
+          394,
+          503
+        ],
+        [
+          407,
+          495
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          484,
+          254
+        ],
+        [
+          484,
+          589
+        ],
+        [
+          498,
+          589
+        ],
+        [
+          498,
+          589
+        ],
+        [
+          496,
+          244
+        ],
+        [
+          483,
+          254
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H4",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H5",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+T1",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T1",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T0+A1+T2",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T2",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T1+A2+T3",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T3",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T2+A5+T5",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T5",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T3+A3+T4",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T4",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T4+A4+T5",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T5",
+      "connector": "A4",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "grass grasshopper deer frog cobra tiger"
+  },
+  "questions": [
+    {
+      "question_text": "Base your answers on the diagram of a food chain below and on your knowledge of science. The cobra in the food chain represents",
+      "question_id": "500.png-6",
+      "answers": [
+        "producer",
+        "prey",
+        "secondary consumer",
+        "decomposer"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Based on the diagram shown and on your knowledge of science. Identify two consumers in this food web that eat producers.",
+      "question_id": "500.png-2",
+      "answers": [
+        "Grasshopper and deer",
+        "Tiger and cobra",
+        "Grasshopper and frog",
+        "Deer and frog"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Deer is the main food for _____?",
+      "question_id": "500.png-5",
+      "answers": [
+        "Tiger",
+        "grasshopper",
+        "frog",
+        "cobra"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Grasshopper is classified as what?",
+      "question_id": "500.png-1",
+      "answers": [
+        "Primary consumer",
+        "Producer",
+        "Decomposer",
+        "None of the above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "If frog was to vanish who would go extinct?",
+      "question_id": "500.png-9",
+      "answers": [
+        "tiger",
+        "cobra",
+        "grasshopper",
+        "none of the above"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Name two herbivores in the example diagram of a food web.",
+      "question_id": "500.png-4",
+      "answers": [
+        "grasshopper and frog",
+        "deer and grasshopper",
+        "frog and cobra",
+        "deer and frog"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Tiger is the top predator in the food chain true or false?",
+      "question_id": "500.png-3",
+      "answers": [
+        "False the Cobra is",
+        "False the deer is",
+        "False the frog is",
+        "True"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Use the example diagram and your scientific knowledge to get your answer. Should all the frogs be removed from the ecosystem, the cobra would most probably",
+      "question_id": "500.png-8",
+      "answers": [
+        "decrease",
+        "remain the same (D) increase",
+        "NA",
+        "increase"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is a carnivore?",
+      "question_id": "500.png-10",
+      "answers": [
+        "grass",
+        "deer",
+        "tiger",
+        "grasshopper"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What organism represents the producer of the food web shown?",
+      "question_id": "500.png-7",
+      "answers": [
+        "Deer",
+        "Grass",
+        "Tiger",
+        "Grasshopper"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would happen to the deer if the grass all died?",
+      "question_id": "500.png-0",
+      "answers": [
+        "can't predict",
+        "decrease",
+        "stay the same",
+        "increase"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

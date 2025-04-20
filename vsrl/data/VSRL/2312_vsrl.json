@@ -1,0 +1,900 @@
+{
+  "image_id": "2312",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          75,
+          82
+        ],
+        [
+          110,
+          96
+        ]
+      ],
+      "value": "adult",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          73,
+          148
+        ],
+        [
+          115,
+          164
+        ]
+      ],
+      "value": "pupae",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T10": {
+      "id": "T10",
+      "type": "text",
+      "bbox": [
+        [
+          319,
+          212
+        ],
+        [
+          360,
+          228
+        ]
+      ],
+      "value": "adult",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T11": {
+      "id": "T11",
+      "type": "text",
+      "bbox": [
+        [
+          216,
+          226
+        ],
+        [
+          315,
+          238
+        ]
+      ],
+      "value": "Dengue Virus Not .com",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          181,
+          149
+        ],
+        [
+          223,
+          163
+        ]
+      ],
+      "value": "larvae",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          182,
+          84
+        ],
+        [
+          209,
+          98
+        ]
+      ],
+      "value": "egg",
+      "replacementText": "K",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          326,
+          19
+        ],
+        [
+          353,
+          36
+        ]
+      ],
+      "value": "egg",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          356,
+          49
+        ],
+        [
+          406,
+          65
+        ]
+      ],
+      "value": "2-7 days",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          318,
+          77
+        ],
+        [
+          362,
+          100
+        ]
+      ],
+      "value": "larvae",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          317,
+          142
+        ],
+        [
+          366,
+          161
+        ]
+      ],
+      "value": "pupae",
+      "replacementText": "L",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          354,
+          112
+        ],
+        [
+          401,
+          126
+        ]
+      ],
+      "value": ">4 days",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          358,
+          177
+        ],
+        [
+          396,
+          195
+        ]
+      ],
+      "value": "2 days",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          33,
+          75
+        ],
+        [
+          53,
+          73
+        ],
+        [
+          56,
+          59
+        ],
+        [
+          71,
+          57
+        ],
+        [
+          99,
+          76
+        ],
+        [
+          77,
+          56
+        ],
+        [
+          100,
+          59
+        ],
+        [
+          80,
+          48
+        ],
+        [
+          54,
+          49
+        ],
+        [
+          46,
+          61
+        ],
+        [
+          42,
+          68
+        ],
+        [
+          35,
+          73
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          56,
+          195
+        ],
+        [
+          75,
+          193
+        ],
+        [
+          77,
+          177
+        ],
+        [
+          71,
+          172
+        ],
+        [
+          55,
+          175
+        ],
+        [
+          49,
+          177
+        ],
+        [
+          43,
+          188
+        ],
+        [
+          43,
+          196
+        ],
+        [
+          52,
+          202
+        ],
+        [
+          62,
+          205
+        ],
+        [
+          69,
+          206
+        ],
+        [
+          55,
+          196
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          169,
+          46
+        ],
+        [
+          171,
+          56
+        ],
+        [
+          192,
+          66
+        ],
+        [
+          236,
+          61
+        ],
+        [
+          248,
+          54
+        ],
+        [
+          243,
+          43
+        ],
+        [
+          190,
+          46
+        ],
+        [
+          170,
+          45
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          184,
+          211
+        ],
+        [
+          189,
+          215
+        ],
+        [
+          201,
+          201
+        ],
+        [
+          229,
+          176
+        ],
+        [
+          235,
+          175
+        ],
+        [
+          230,
+          170
+        ],
+        [
+          229,
+          158
+        ],
+        [
+          227,
+          170
+        ],
+        [
+          196,
+          196
+        ],
+        [
+          194,
+          197
+        ],
+        [
+          186,
+          197
+        ],
+        [
+          182,
+          210
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          332,
+          34
+        ],
+        [
+          332,
+          82
+        ],
+        [
+          343,
+          83
+        ],
+        [
+          344,
+          34
+        ],
+        [
+          332,
+          34
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          332,
+          95
+        ],
+        [
+          333,
+          146
+        ],
+        [
+          343,
+          146
+        ],
+        [
+          345,
+          95
+        ],
+        [
+          334,
+          95
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          332,
+          159
+        ],
+        [
+          333,
+          213
+        ],
+        [
+          344,
+          213
+        ],
+        [
+          344,
+          161
+        ],
+        [
+          334,
+          160
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          110,
+          31
+        ],
+        [
+          135,
+          20
+        ],
+        [
+          152,
+          23
+        ],
+        [
+          159,
+          30
+        ],
+        [
+          175,
+          30
+        ],
+        [
+          171,
+          9
+        ],
+        [
+          142,
+          3
+        ],
+        [
+          117,
+          7
+        ],
+        [
+          104,
+          20
+        ],
+        [
+          110,
+          31
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          17,
+          86
+        ],
+        [
+          28,
+          95
+        ],
+        [
+          32,
+          109
+        ],
+        [
+          27,
+          125
+        ],
+        [
+          35,
+          146
+        ],
+        [
+          42,
+          153
+        ],
+        [
+          35,
+          162
+        ],
+        [
+          16,
+          150
+        ],
+        [
+          10,
+          133
+        ],
+        [
+          9,
+          107
+        ],
+        [
+          17,
+          88
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          117,
+          213
+        ],
+        [
+          133,
+          225
+        ],
+        [
+          152,
+          227
+        ],
+        [
+          168,
+          217
+        ],
+        [
+          177,
+          227
+        ],
+        [
+          160,
+          243
+        ],
+        [
+          138,
+          246
+        ],
+        [
+          122,
+          242
+        ],
+        [
+          109,
+          235
+        ],
+        [
+          106,
+          221
+        ],
+        [
+          119,
+          214
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          243,
+          94
+        ],
+        [
+          255,
+          85
+        ],
+        [
+          270,
+          104
+        ],
+        [
+          274,
+          127
+        ],
+        [
+          263,
+          156
+        ],
+        [
+          246,
+          161
+        ],
+        [
+          244,
+          143
+        ],
+        [
+          255,
+          125
+        ],
+        [
+          252,
+          107
+        ],
+        [
+          243,
+          93
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H2",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H3",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H0",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H4",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H6",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H5",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H1",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A3+B2",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B2",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "B1+A4+B0",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B0",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "B2+A6+B3",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B3",
+      "connector": "A6",
+      "directional": true
+    },
+    {
+      "id": "B3+A5+B1",
+      "type": "interObjectLinkage",
+      "source": "B3",
+      "target": "B1",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B1",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T11+I0",
+      "type": "misc",
+      "source": "T11",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B3",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B2",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+A0+T6",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T6",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T6+A1+T7",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T7",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T7+A2+T10",
+      "type": "interObjectLinkage",
+      "source": "T7",
+      "target": "T10",
+      "connector": "A2",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T10": "part_label",
+    "T11": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "adult pupae adult dengue virus not .com larvae egg egg 2-7 days larvae pupae >4 days 2 days"
+  },
+  "questions": [
+    {
+      "question_text": "Between what stages is pupae in this diagram?",
+      "question_id": "2312.png-0",
+      "answers": [
+        "Larvae and Adult.",
+        "Adult and Egg.",
+        "Adult and Larvae.",
+        "Egg and Larvae."
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "How long before egg becomes larvae?",
+      "question_id": "2312.png-1",
+      "answers": [
+        "2-5 Days.",
+        "2-6 Days.",
+        "3-5 Days.",
+        "2-7 Days."
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "image_id": "2598",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          73,
+          76
+        ],
+        [
+          118,
+          91
+        ]
+      ],
+      "value": "Earth",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          257,
+          56
+        ],
+        [
+          302,
+          109
+        ]
+      ],
+      "value": "Force from Moon",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          32,
+          28
+        ],
+        [
+          57,
+          13
+        ],
+        [
+          84,
+          6
+        ],
+        [
+          109,
+          7
+        ],
+        [
+          137,
+          13
+        ],
+        [
+          155,
+          23
+        ],
+        [
+          169,
+          36
+        ],
+        [
+          179,
+          50
+        ],
+        [
+          185,
+          66
+        ],
+        [
+          187,
+          75
+        ],
+        [
+          187,
+          87
+        ],
+        [
+          184,
+          105
+        ],
+        [
+          176,
+          121
+        ],
+        [
+          166,
+          135
+        ],
+        [
+          148,
+          148
+        ],
+        [
+          131,
+          156
+        ],
+        [
+          114,
+          159
+        ],
+        [
+          101,
+          162
+        ],
+        [
+          86,
+          160
+        ],
+        [
+          72,
+          159
+        ],
+        [
+          56,
+          153
+        ],
+        [
+          42,
+          145
+        ],
+        [
+          32,
+          137
+        ],
+        [
+          19,
+          124
+        ],
+        [
+          11,
+          110
+        ],
+        [
+          6,
+          89
+        ],
+        [
+          8,
+          68
+        ],
+        [
+          14,
+          51
+        ],
+        [
+          22,
+          39
+        ],
+        [
+          30,
+          31
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          186,
+          77
+        ],
+        [
+          252,
+          75
+        ],
+        [
+          244,
+          91
+        ],
+        [
+          188,
+          95
+        ],
+        [
+          184,
+          80
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "B0": "whole",
+    "A0": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "earth force from moon"
+  },
+  "questions": [
+    {
+      "question_text": "What body is shown in the figure?",
+      "question_id": "2598.png-0",
+      "answers": [
+        "sun",
+        "moon",
+        "none of the above",
+        "earth"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Where is the referenced force from?",
+      "question_id": "2598.png-1",
+      "answers": [
+        "sun",
+        "moon",
+        "star",
+        "none of the above"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

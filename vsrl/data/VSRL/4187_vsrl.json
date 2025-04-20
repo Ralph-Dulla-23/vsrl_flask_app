@@ -1,0 +1,318 @@
+{
+  "image_id": "4187",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          16,
+          16
+        ],
+        [
+          171,
+          48
+        ]
+      ],
+      "value": "Weathering causes the rocks to break down",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          301,
+          6
+        ],
+        [
+          494,
+          56
+        ]
+      ],
+      "value": "Erosion (water) and transport moves the sediments downhill to another place",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          268,
+          100
+        ],
+        [
+          289,
+          221
+        ]
+      ],
+      "value": "eschooltoday.com",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          13,
+          81
+        ],
+        [
+          25,
+          78
+        ],
+        [
+          31,
+          72
+        ],
+        [
+          37,
+          66
+        ],
+        [
+          51,
+          66
+        ],
+        [
+          55,
+          76
+        ],
+        [
+          65,
+          89
+        ],
+        [
+          81,
+          121
+        ],
+        [
+          96,
+          154
+        ],
+        [
+          123,
+          182
+        ],
+        [
+          214,
+          183
+        ],
+        [
+          214,
+          242
+        ],
+        [
+          15,
+          243
+        ],
+        [
+          14,
+          83
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          293,
+          80
+        ],
+        [
+          302,
+          80
+        ],
+        [
+          311,
+          66
+        ],
+        [
+          324,
+          66
+        ],
+        [
+          342,
+          82
+        ],
+        [
+          342,
+          82
+        ],
+        [
+          368,
+          131
+        ],
+        [
+          389,
+          171
+        ],
+        [
+          401,
+          182
+        ],
+        [
+          489,
+          184
+        ],
+        [
+          492,
+          241
+        ],
+        [
+          295,
+          243
+        ],
+        [
+          294,
+          243
+        ],
+        [
+          294,
+          243
+        ],
+        [
+          292,
+          78
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          76,
+          136
+        ],
+        [
+          87,
+          138
+        ],
+        [
+          116,
+          45
+        ],
+        [
+          105,
+          42
+        ],
+        [
+          72,
+          135
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          410,
+          66
+        ],
+        [
+          426,
+          60
+        ],
+        [
+          464,
+          218
+        ],
+        [
+          454,
+          222
+        ],
+        [
+          409,
+          64
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "B1+A1+T1",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "T1",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T0+A0+B0",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T2+I0",
+      "type": "misc",
+      "source": "T2",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector"
+  },
+  "educational_context": {
+    "subject": "earth_science",
+    "diagram_type": "labeled_illustration",
+    "text_content": "weathering causes the rocks to break down erosion (water) and transport moves the sediments downhill to another place eschooltoday.com"
+  },
+  "questions": [
+    {
+      "question_text": "In the diagram, what is causing initial breakdown of rocks?",
+      "question_id": "4187.png-0",
+      "answers": [
+        "magma",
+        "earthquakes",
+        "weathering",
+        "hurricanes"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the diagram, what is the phenomenon that is causing the rocks to move downhill?",
+      "question_id": "4187.png-1",
+      "answers": [
+        "erosion",
+        "telekinesis",
+        "man-made structures",
+        "hurricanes"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What happens at stage A?",
+      "question_id": "4187.png-2",
+      "answers": [
+        "Rocks are formed",
+        "Weathering causes the rock to break down",
+        "Rocks melt",
+        "Erosion"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

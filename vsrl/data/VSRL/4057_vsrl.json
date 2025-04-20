@@ -1,0 +1,638 @@
+{
+  "image_id": "4057",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          556,
+          60
+        ],
+        [
+          601,
+          77
+        ]
+      ],
+      "value": "Crust",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          547,
+          130
+        ],
+        [
+          662,
+          148
+        ]
+      ],
+      "value": "Lower Mantle",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          553,
+          84
+        ],
+        [
+          820,
+          101
+        ]
+      ],
+      "value": "Mohorovicic Discontinuity(Moho)",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          547,
+          107
+        ],
+        [
+          662,
+          125
+        ]
+      ],
+      "value": "Upper Mantle",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          547,
+          155
+        ],
+        [
+          694,
+          171
+        ]
+      ],
+      "value": "Outer Core(Fluid)",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          551,
+          176
+        ],
+        [
+          689,
+          194
+        ]
+      ],
+      "value": "Inner Core (Solid)",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          547,
+          379
+        ],
+        [
+          641,
+          403
+        ]
+      ],
+      "value": "lithosphere",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          552,
+          407
+        ],
+        [
+          673,
+          424
+        ]
+      ],
+      "value": "asthenosphere ",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          30,
+          522
+        ],
+        [
+          453,
+          551
+        ]
+      ],
+      "value": "The Earth's interior: A Diagram",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          311,
+          26
+        ],
+        [
+          364,
+          34
+        ],
+        [
+          408,
+          53
+        ],
+        [
+          444,
+          74
+        ],
+        [
+          471,
+          97
+        ],
+        [
+          499,
+          132
+        ],
+        [
+          524,
+          184
+        ],
+        [
+          539,
+          244
+        ],
+        [
+          533,
+          304
+        ],
+        [
+          516,
+          365
+        ],
+        [
+          484,
+          410
+        ],
+        [
+          463,
+          437
+        ],
+        [
+          423,
+          465
+        ],
+        [
+          381,
+          486
+        ],
+        [
+          321,
+          504
+        ],
+        [
+          268,
+          504
+        ],
+        [
+          221,
+          488
+        ],
+        [
+          161,
+          456
+        ],
+        [
+          121,
+          412
+        ],
+        [
+          87,
+          352
+        ],
+        [
+          68,
+          282
+        ],
+        [
+          68,
+          282
+        ],
+        [
+          77,
+          198
+        ],
+        [
+          104,
+          138
+        ],
+        [
+          159,
+          73
+        ],
+        [
+          219,
+          41
+        ],
+        [
+          313,
+          30
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          428,
+          69
+        ],
+        [
+          551,
+          62
+        ],
+        [
+          550,
+          77
+        ],
+        [
+          435,
+          84
+        ],
+        [
+          430,
+          73
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          449,
+          97
+        ],
+        [
+          548,
+          83
+        ],
+        [
+          546,
+          100
+        ],
+        [
+          455,
+          109
+        ],
+        [
+          452,
+          99
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          463,
+          120
+        ],
+        [
+          551,
+          110
+        ],
+        [
+          553,
+          122
+        ],
+        [
+          473,
+          134
+        ],
+        [
+          463,
+          121
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          404,
+          184
+        ],
+        [
+          553,
+          131
+        ],
+        [
+          558,
+          143
+        ],
+        [
+          407,
+          199
+        ],
+        [
+          407,
+          185
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          371,
+          229
+        ],
+        [
+          553,
+          153
+        ],
+        [
+          552,
+          168
+        ],
+        [
+          378,
+          241
+        ],
+        [
+          375,
+          230
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          327,
+          259
+        ],
+        [
+          551,
+          183
+        ],
+        [
+          552,
+          196
+        ],
+        [
+          331,
+          273
+        ],
+        [
+          325,
+          261
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          529,
+          285
+        ],
+        [
+          540,
+          394
+        ],
+        [
+          549,
+          395
+        ],
+        [
+          539,
+          281
+        ],
+        [
+          530,
+          282
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          513,
+          294
+        ],
+        [
+          550,
+          390
+        ],
+        [
+          541,
+          399
+        ],
+        [
+          506,
+          297
+        ],
+        [
+          510,
+          293
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          451,
+          369
+        ],
+        [
+          558,
+          412
+        ],
+        [
+          554,
+          425
+        ],
+        [
+          449,
+          386
+        ],
+        [
+          452,
+          369
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T2+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T3+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T4+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T5+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T6+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T6+A7+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T7+A8+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A8",
+      "directional": false
+    },
+    {
+      "id": "T8+I0",
+      "type": "imageTitle",
+      "source": "T8",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "title",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "crust lower mantle mohorovicic discontinuity(moho) upper mantle outer core(fluid) inner core (solid) lithosphere asthenosphere  the earth's interior: a diagram"
+  },
+  "questions": [
+    {
+      "question_text": "What diagram is shown above?",
+      "question_id": "4057.png-0",
+      "answers": [
+        "Crust",
+        "Earth",
+        "Plant",
+        "Upper Mantle"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

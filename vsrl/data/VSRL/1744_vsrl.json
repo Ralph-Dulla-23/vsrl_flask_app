@@ -1,0 +1,424 @@
+{
+  "image_id": "1744",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          355,
+          125
+        ],
+        [
+          444,
+          143
+        ]
+      ],
+      "value": "Thrust fault",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          69,
+          126
+        ],
+        [
+          190,
+          143
+        ]
+      ],
+      "value": "Strike-slip fault",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          1,
+          19
+        ],
+        [
+          0,
+          86
+        ],
+        [
+          106,
+          125
+        ],
+        [
+          155,
+          110
+        ],
+        [
+          173,
+          116
+        ],
+        [
+          255,
+          93
+        ],
+        [
+          253,
+          24
+        ],
+        [
+          196,
+          10
+        ],
+        [
+          184,
+          6
+        ],
+        [
+          176,
+          4
+        ],
+        [
+          164,
+          0
+        ],
+        [
+          158,
+          3
+        ],
+        [
+          151,
+          3
+        ],
+        [
+          142,
+          4
+        ],
+        [
+          135,
+          6
+        ],
+        [
+          62,
+          15
+        ],
+        [
+          58,
+          15
+        ],
+        [
+          54,
+          14
+        ],
+        [
+          50,
+          13
+        ],
+        [
+          43,
+          12
+        ],
+        [
+          33,
+          9
+        ],
+        [
+          32,
+          12
+        ],
+        [
+          29,
+          14
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          4,
+          16
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          288,
+          18
+        ],
+        [
+          290,
+          82
+        ],
+        [
+          392,
+          122
+        ],
+        [
+          408,
+          119
+        ],
+        [
+          408,
+          123
+        ],
+        [
+          519,
+          92
+        ],
+        [
+          519,
+          24
+        ],
+        [
+          461,
+          8
+        ],
+        [
+          434,
+          2
+        ],
+        [
+          419,
+          4
+        ],
+        [
+          409,
+          4
+        ],
+        [
+          403,
+          4
+        ],
+        [
+          350,
+          14
+        ],
+        [
+          335,
+          6
+        ],
+        [
+          314,
+          6
+        ],
+        [
+          312,
+          9
+        ],
+        [
+          306,
+          13
+        ],
+        [
+          285,
+          15
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          130,
+          60
+        ],
+        [
+          115,
+          73
+        ],
+        [
+          150,
+          99
+        ],
+        [
+          178,
+          83
+        ],
+        [
+          133,
+          59
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          182,
+          69
+        ],
+        [
+          223,
+          88
+        ],
+        [
+          240,
+          73
+        ],
+        [
+          189,
+          52
+        ],
+        [
+          184,
+          65
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          408,
+          91
+        ],
+        [
+          419,
+          99
+        ],
+        [
+          437,
+          69
+        ],
+        [
+          426,
+          60
+        ],
+        [
+          408,
+          88
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          425,
+          92
+        ],
+        [
+          433,
+          99
+        ],
+        [
+          454,
+          68
+        ],
+        [
+          439,
+          61
+        ],
+        [
+          429,
+          90
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H2",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H0",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+B1",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "thrust fault strike-slip fault"
+  },
+  "questions": [
+    {
+      "question_text": "How many types of faults are shown in the figure?",
+      "question_id": "1744.png-1",
+      "answers": [
+        "3",
+        "4",
+        "2",
+        "none of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What fault moves side to side?",
+      "question_id": "1744.png-0",
+      "answers": [
+        "both",
+        "strike-slip",
+        "neither",
+        "thrust"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

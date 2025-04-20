@@ -1,0 +1,562 @@
+{
+  "image_id": "1959",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          27,
+          19
+        ],
+        [
+          90,
+          35
+        ]
+      ],
+      "value": "PRODUCER",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          202,
+          25
+        ],
+        [
+          340,
+          41
+        ]
+      ],
+      "value": "SECONDARY CONSUMER ",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          140,
+          169
+        ],
+        [
+          261,
+          187
+        ]
+      ],
+      "value": "PRIMARY CONSUMER",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          14,
+          258
+        ],
+        [
+          99,
+          276
+        ]
+      ],
+      "value": "DECOMPOSER",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          372,
+          256
+        ],
+        [
+          496,
+          276
+        ]
+      ],
+      "value": "TERTIARY CONSUMER",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          43,
+          40
+        ],
+        [
+          62,
+          40
+        ],
+        [
+          60,
+          254
+        ],
+        [
+          45,
+          255
+        ],
+        [
+          43,
+          42
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          105,
+          21
+        ],
+        [
+          187,
+          21
+        ],
+        [
+          184,
+          39
+        ],
+        [
+          107,
+          40
+        ],
+        [
+          102,
+          21
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          254,
+          54
+        ],
+        [
+          406,
+          257
+        ],
+        [
+          415,
+          247
+        ],
+        [
+          263,
+          42
+        ],
+        [
+          256,
+          50
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          245,
+          189
+        ],
+        [
+          241,
+          202
+        ],
+        [
+          363,
+          248
+        ],
+        [
+          367,
+          235
+        ],
+        [
+          248,
+          189
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          90,
+          47
+        ],
+        [
+          82,
+          54
+        ],
+        [
+          183,
+          169
+        ],
+        [
+          193,
+          159
+        ],
+        [
+          92,
+          47
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          237,
+          48
+        ],
+        [
+          253,
+          56
+        ],
+        [
+          215,
+          169
+        ],
+        [
+          204,
+          163
+        ],
+        [
+          239,
+          47
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          172,
+          191
+        ],
+        [
+          180,
+          200
+        ],
+        [
+          91,
+          256
+        ],
+        [
+          83,
+          246
+        ],
+        [
+          171,
+          191
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          105,
+          253
+        ],
+        [
+          104,
+          271
+        ],
+        [
+          368,
+          269
+        ],
+        [
+          367,
+          254
+        ],
+        [
+          105,
+          253
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          67,
+          237
+        ],
+        [
+          231,
+          45
+        ],
+        [
+          239,
+          51
+        ],
+        [
+          81,
+          246
+        ],
+        [
+          69,
+          236
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H8",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H8",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H4",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H7",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H1",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H2",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H6",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H5",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H0",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A8+H3",
+      "type": "arrowHeadTail",
+      "source": "A8",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+T3",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T3",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T0+A1+T1",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T1",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T0+A4+T2",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T2",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T1+A2+T4",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T4",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T1+A8+T3",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T3",
+      "connector": "A8",
+      "directional": true
+    },
+    {
+      "id": "T2+A3+T4",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T4",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T2+A5+T1",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T1",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T2+A6+T3",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T3",
+      "connector": "A6",
+      "directional": true
+    },
+    {
+      "id": "T4+A7+T3",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T3",
+      "connector": "A7",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "producer secondary consumer  primary consumer decomposer tertiary consumer"
+  },
+  "questions": [
+    {
+      "question_text": "If there were fewer producer organisms, which would be most affected?",
+      "question_id": "1959.png-2",
+      "answers": [
+        "Primary consumers",
+        "Carnivores",
+        "None of these",
+        "Tertiary consumers"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the diagram of the food web shown how many pathways lead to the decomposer?",
+      "question_id": "1959.png-1",
+      "answers": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What could cause the number of secondary consumers to grow?",
+      "question_id": "1959.png-0",
+      "answers": [
+        "Increase in tertiary consumers",
+        "Increase in decomposers",
+        "Increase in primary consumers",
+        "Decrease in primary consumers"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What feeds on secondary consumers?",
+      "question_id": "1959.png-3",
+      "answers": [
+        "decomposers",
+        "tertiary consumers",
+        "primary consumers",
+        "all of the above"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What feeds on the producer?",
+      "question_id": "1959.png-4",
+      "answers": [
+        "primary consumer",
+        "tertiary consumer",
+        "none of the above",
+        "all of the above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

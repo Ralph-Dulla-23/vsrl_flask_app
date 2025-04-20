@@ -1,0 +1,322 @@
+{
+  "image_id": "1841",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          88,
+          18
+        ],
+        [
+          162,
+          38
+        ]
+      ],
+      "value": "Humans",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          8,
+          66
+        ],
+        [
+          59,
+          87
+        ]
+      ],
+      "value": "Cows",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          202,
+          68
+        ],
+        [
+          242,
+          90
+        ]
+      ],
+      "value": "Pigs",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          6,
+          127
+        ],
+        [
+          61,
+          149
+        ]
+      ],
+      "value": "Grass",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          203,
+          126
+        ],
+        [
+          243,
+          150
+        ]
+      ],
+      "value": "Slop",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          29,
+          89
+        ],
+        [
+          29,
+          129
+        ],
+        [
+          37,
+          130
+        ],
+        [
+          37,
+          89
+        ],
+        [
+          33,
+          89
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          48,
+          71
+        ],
+        [
+          109,
+          43
+        ],
+        [
+          106,
+          36
+        ],
+        [
+          42,
+          66
+        ],
+        [
+          46,
+          72
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          131,
+          44
+        ],
+        [
+          211,
+          68
+        ],
+        [
+          213,
+          63
+        ],
+        [
+          133,
+          37
+        ],
+        [
+          132,
+          43
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          220,
+          91
+        ],
+        [
+          220,
+          131
+        ],
+        [
+          228,
+          131
+        ],
+        [
+          229,
+          89
+        ],
+        [
+          221,
+          89
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A1+T1",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T1",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T0+A2+T2",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T2",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T1+A0+T3",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T3",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T2+A3+T4",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T4",
+      "connector": "A3",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "humans cows pigs grass slop"
+  },
+  "questions": [
+    {
+      "question_text": "What do pigs dine on?",
+      "question_id": "1841.png-1",
+      "answers": [
+        "cows",
+        "slop",
+        "grass",
+        "humans"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What feeds on the grass?",
+      "question_id": "1841.png-2",
+      "answers": [
+        "slop",
+        "humarn",
+        "cow",
+        "pig"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is a producer?",
+      "question_id": "1841.png-4",
+      "answers": [
+        "cows",
+        "grass",
+        "pigs",
+        "slop"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is an herbivore?",
+      "question_id": "1841.png-5",
+      "answers": [
+        "slop",
+        "human",
+        "cow",
+        "grass"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is at the top of the food web?",
+      "question_id": "1841.png-0",
+      "answers": [
+        "human",
+        "slop",
+        "cows",
+        "pig"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What's at the top of the food web?",
+      "question_id": "1841.png-3",
+      "answers": [
+        "slop",
+        "grass",
+        "humans",
+        "pigs"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "image_id": "4279",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          314,
+          348
+        ],
+        [
+          486,
+          377
+        ]
+      ],
+      "value": "NATURAL GAS",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          374,
+          381
+        ],
+        [
+          428,
+          411
+        ]
+      ],
+      "value": "OIL",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          308,
+          426
+        ],
+        [
+          491,
+          459
+        ]
+      ],
+      "value": "POROUS ROCK",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          277,
+          499
+        ],
+        [
+          527,
+          535
+        ]
+      ],
+      "value": "NONPOROUS ROCK",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          301,
+          560
+        ],
+        [
+          494,
+          598
+        ]
+      ],
+      "value": "POROUS ROCK",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          314,
+          228
+        ],
+        [
+          496,
+          255
+        ]
+      ],
+      "value": "POROUS ROCK",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          279,
+          297
+        ],
+        [
+          520,
+          326
+        ]
+      ],
+      "value": "NONPOROUS ROCK",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          9,
+          257
+        ],
+        [
+          101,
+          243
+        ],
+        [
+          188,
+          230
+        ],
+        [
+          286,
+          213
+        ],
+        [
+          362,
+          206
+        ],
+        [
+          443,
+          209
+        ],
+        [
+          525,
+          216
+        ],
+        [
+          622,
+          229
+        ],
+        [
+          733,
+          249
+        ],
+        [
+          801,
+          263
+        ],
+        [
+          804,
+          611
+        ],
+        [
+          9,
+          615
+        ],
+        [
+          7,
+          258
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T4",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T5",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T6",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "B0": "whole"
+  },
+  "educational_context": {
+    "subject": "earth_science",
+    "diagram_type": "labeled_illustration",
+    "text_content": "natural gas oil porous rock nonporous rock porous rock porous rock nonporous rock"
+  },
+  "questions": [
+    {
+      "question_text": "In the diagram, what is the bottom rock called?",
+      "question_id": "4279.png-0",
+      "answers": [
+        "Natural Gas",
+        "Oil",
+        "Porous Rock",
+        "Nonporous Rock"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

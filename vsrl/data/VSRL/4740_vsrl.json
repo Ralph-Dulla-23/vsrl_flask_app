@@ -1,0 +1,466 @@
+{
+  "image_id": "4740",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          28,
+          105
+        ],
+        [
+          72,
+          125
+        ]
+      ],
+      "value": "Linear",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          103,
+          106
+        ],
+        [
+          150,
+          126
+        ]
+      ],
+      "value": "Oblong",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          184,
+          107
+        ],
+        [
+          214,
+          125
+        ]
+      ],
+      "value": "Oval",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          35,
+          244
+        ],
+        [
+          85,
+          267
+        ]
+      ],
+      "value": "Round",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          148,
+          247
+        ],
+        [
+          204,
+          264
+        ]
+      ],
+      "value": "Butterfly",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          49,
+          94
+        ],
+        [
+          45,
+          89
+        ],
+        [
+          41,
+          38
+        ],
+        [
+          51,
+          11
+        ],
+        [
+          59,
+          25
+        ],
+        [
+          57,
+          63
+        ],
+        [
+          56,
+          92
+        ],
+        [
+          47,
+          93
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          123,
+          96
+        ],
+        [
+          123,
+          87
+        ],
+        [
+          116,
+          81
+        ],
+        [
+          112,
+          60
+        ],
+        [
+          111,
+          28
+        ],
+        [
+          122,
+          16
+        ],
+        [
+          137,
+          17
+        ],
+        [
+          147,
+          41
+        ],
+        [
+          143,
+          81
+        ],
+        [
+          130,
+          86
+        ],
+        [
+          130,
+          97
+        ],
+        [
+          121,
+          97
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          193,
+          91
+        ],
+        [
+          195,
+          81
+        ],
+        [
+          188,
+          68
+        ],
+        [
+          184,
+          49
+        ],
+        [
+          193,
+          24
+        ],
+        [
+          207,
+          20
+        ],
+        [
+          218,
+          39
+        ],
+        [
+          220,
+          57
+        ],
+        [
+          213,
+          73
+        ],
+        [
+          205,
+          80
+        ],
+        [
+          201,
+          82
+        ],
+        [
+          204,
+          92
+        ],
+        [
+          195,
+          91
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          54,
+          235
+        ],
+        [
+          56,
+          228
+        ],
+        [
+          46,
+          217
+        ],
+        [
+          38,
+          209
+        ],
+        [
+          36,
+          190
+        ],
+        [
+          46,
+          176
+        ],
+        [
+          57,
+          167
+        ],
+        [
+          73,
+          173
+        ],
+        [
+          81,
+          188
+        ],
+        [
+          82,
+          201
+        ],
+        [
+          76,
+          217
+        ],
+        [
+          64,
+          225
+        ],
+        [
+          64,
+          236
+        ],
+        [
+          53,
+          234
+        ]
+      ],
+      "category": "object"
+    },
+    "B4": {
+      "id": "B4",
+      "type": "blob",
+      "polygon": [
+        [
+          150,
+          217
+        ],
+        [
+          145,
+          194
+        ],
+        [
+          150,
+          179
+        ],
+        [
+          157,
+          179
+        ],
+        [
+          174,
+          197
+        ],
+        [
+          188,
+          176
+        ],
+        [
+          199,
+          168
+        ],
+        [
+          207,
+          177
+        ],
+        [
+          210,
+          195
+        ],
+        [
+          200,
+          218
+        ],
+        [
+          194,
+          224
+        ],
+        [
+          175,
+          223
+        ],
+        [
+          183,
+          236
+        ],
+        [
+          170,
+          233
+        ],
+        [
+          170,
+          226
+        ],
+        [
+          155,
+          223
+        ],
+        [
+          152,
+          218
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+B0",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B1",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B2",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B3",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B4",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B4",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "B4": "whole"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "linear oblong oval round butterfly"
+  },
+  "questions": [
+    {
+      "question_text": "Which leaf is narrow and elongated with nearly parallel margins?",
+      "question_id": "4740.png-0",
+      "answers": [
+        "Round",
+        "Linear Leaf",
+        "Oblong Leaf",
+        "Oval"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which of these leaves have more width?",
+      "question_id": "4740.png-1",
+      "answers": [
+        "round",
+        "oval",
+        "butterfly",
+        "oblong"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

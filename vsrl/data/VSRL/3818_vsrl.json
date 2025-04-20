@@ -1,0 +1,420 @@
+{
+  "image_id": "3818",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          90,
+          55
+        ],
+        [
+          144,
+          70
+        ]
+      ],
+      "value": "Cotyledon",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          302,
+          38
+        ],
+        [
+          368,
+          53
+        ]
+      ],
+      "value": "Endosperm",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          302,
+          18
+        ],
+        [
+          362,
+          37
+        ]
+      ],
+      "value": "Seed Coat",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          75,
+          94
+        ],
+        [
+          125,
+          108
+        ]
+      ],
+      "value": "Epicotyl",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          77,
+          141
+        ],
+        [
+          120,
+          154
+        ]
+      ],
+      "value": "Radicle",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          110,
+          201
+        ],
+        [
+          314,
+          215
+        ]
+      ],
+      "value": "Fig.4.16 (i) Monocot Seed Structure",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          164,
+          48
+        ],
+        [
+          178,
+          34
+        ],
+        [
+          203,
+          19
+        ],
+        [
+          241,
+          9
+        ],
+        [
+          278,
+          9
+        ],
+        [
+          288,
+          17
+        ],
+        [
+          296,
+          38
+        ],
+        [
+          297,
+          68
+        ],
+        [
+          284,
+          98
+        ],
+        [
+          255,
+          140
+        ],
+        [
+          229,
+          168
+        ],
+        [
+          203,
+          184
+        ],
+        [
+          179,
+          184
+        ],
+        [
+          154,
+          179
+        ],
+        [
+          136,
+          161
+        ],
+        [
+          128,
+          137
+        ],
+        [
+          138,
+          94
+        ],
+        [
+          154,
+          61
+        ],
+        [
+          164,
+          47
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          143,
+          67
+        ],
+        [
+          174,
+          79
+        ],
+        [
+          177,
+          71
+        ],
+        [
+          144,
+          60
+        ],
+        [
+          141,
+          67
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          265,
+          51
+        ],
+        [
+          305,
+          51
+        ],
+        [
+          305,
+          42
+        ],
+        [
+          264,
+          43
+        ],
+        [
+          262,
+          49
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          285,
+          34
+        ],
+        [
+          302,
+          34
+        ],
+        [
+          302,
+          27
+        ],
+        [
+          283,
+          28
+        ],
+        [
+          283,
+          33
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          122,
+          107
+        ],
+        [
+          160,
+          101
+        ],
+        [
+          160,
+          94
+        ],
+        [
+          120,
+          99
+        ],
+        [
+          120,
+          106
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          119,
+          152
+        ],
+        [
+          162,
+          168
+        ],
+        [
+          164,
+          158
+        ],
+        [
+          120,
+          146
+        ],
+        [
+          117,
+          153
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T2+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T3+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T4+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T5+I0",
+      "type": "imageTitle",
+      "source": "T5",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "title",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "cotyledon endosperm seed coat epicotyl radicle fig.4.16 (i) monocot seed structure"
+  },
+  "questions": [
+    {
+      "question_text": "What is the nutritive tissue within seeds of flowering plants, surrounding and absorbed by the embryo?",
+      "question_id": "3818.png-1",
+      "answers": [
+        "radicle",
+        "endosperm",
+        "epicotyl",
+        "seed coat"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the outer protective covering of a seed?",
+      "question_id": "3818.png-0",
+      "answers": [
+        "radicle",
+        "epicotyl",
+        "seed coat",
+        "cotyledon"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

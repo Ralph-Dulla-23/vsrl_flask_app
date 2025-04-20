@@ -1,0 +1,446 @@
+{
+  "image_id": "3750",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          38,
+          162
+        ],
+        [
+          117,
+          180
+        ]
+      ],
+      "value": "Pulmones",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          298,
+          93
+        ],
+        [
+          347,
+          111
+        ]
+      ],
+      "value": "Nariz",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          293,
+          138
+        ],
+        [
+          334,
+          157
+        ]
+      ],
+      "value": "Boca",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          291,
+          174
+        ],
+        [
+          355,
+          191
+        ]
+      ],
+      "value": "Traquea",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          243,
+          433
+        ],
+        [
+          332,
+          448
+        ]
+      ],
+      "value": "Diafragma",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          191,
+          9
+        ],
+        [
+          269,
+          18
+        ],
+        [
+          262,
+          44
+        ],
+        [
+          280,
+          79
+        ],
+        [
+          283,
+          111
+        ],
+        [
+          277,
+          152
+        ],
+        [
+          268,
+          173
+        ],
+        [
+          251,
+          180
+        ],
+        [
+          244,
+          181
+        ],
+        [
+          317,
+          213
+        ],
+        [
+          353,
+          236
+        ],
+        [
+          367,
+          334
+        ],
+        [
+          364,
+          350
+        ],
+        [
+          325,
+          369
+        ],
+        [
+          314,
+          429
+        ],
+        [
+          108,
+          446
+        ],
+        [
+          93,
+          367
+        ],
+        [
+          35,
+          365
+        ],
+        [
+          37,
+          313
+        ],
+        [
+          41,
+          245
+        ],
+        [
+          63,
+          220
+        ],
+        [
+          157,
+          172
+        ],
+        [
+          158,
+          154
+        ],
+        [
+          148,
+          160
+        ],
+        [
+          131,
+          147
+        ],
+        [
+          131,
+          133
+        ],
+        [
+          116,
+          75
+        ],
+        [
+          129,
+          40
+        ],
+        [
+          189,
+          9
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          208,
+          371
+        ],
+        [
+          274,
+          425
+        ],
+        [
+          281,
+          417
+        ],
+        [
+          214,
+          363
+        ],
+        [
+          208,
+          369
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          150,
+          289
+        ],
+        [
+          73,
+          189
+        ],
+        [
+          75,
+          186
+        ],
+        [
+          253,
+          274
+        ],
+        [
+          246,
+          281
+        ],
+        [
+          95,
+          203
+        ],
+        [
+          158,
+          281
+        ],
+        [
+          148,
+          292
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          192,
+          202
+        ],
+        [
+          278,
+          175
+        ],
+        [
+          282,
+          183
+        ],
+        [
+          200,
+          214
+        ],
+        [
+          195,
+          201
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          260,
+          136
+        ],
+        [
+          266,
+          129
+        ],
+        [
+          290,
+          140
+        ],
+        [
+          287,
+          146
+        ],
+        [
+          262,
+          139
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          267,
+          108
+        ],
+        [
+          276,
+          118
+        ],
+        [
+          295,
+          107
+        ],
+        [
+          291,
+          95
+        ],
+        [
+          269,
+          106
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T1+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T2+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T3+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T4+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "pulmones nariz boca traquea diafragma"
+  },
+  "questions": [
+    {
+      "question_text": "What layer is between A and D",
+      "question_id": "3750.png-1",
+      "answers": [
+        "B",
+        "E",
+        "C",
+        "A"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "What part of the lungs is represented in the above diagram?",
+      "question_id": "3750.png-0",
+      "answers": [
+        "Boca",
+        "Pulmones",
+        "Diafragma",
+        "Nariz"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

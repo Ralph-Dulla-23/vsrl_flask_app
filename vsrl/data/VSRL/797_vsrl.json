@@ -1,0 +1,560 @@
+{
+  "image_id": "797",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          29,
+          25
+        ],
+        [
+          398,
+          56
+        ]
+      ],
+      "value": "TERTIARY CONSUMERS",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          9,
+          186
+        ],
+        [
+          394,
+          224
+        ]
+      ],
+      "value": "SECONDARY CONSUMERS",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          33,
+          336
+        ],
+        [
+          374,
+          374
+        ]
+      ],
+      "value": "PRIMARY CONSUMERS",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          105,
+          475
+        ],
+        [
+          302,
+          515
+        ]
+      ],
+      "value": "PRODUCERS",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          504,
+          480
+        ],
+        [
+          625,
+          515
+        ]
+      ],
+      "value": "GRASS",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          491,
+          348
+        ],
+        [
+          632,
+          383
+        ]
+      ],
+      "value": "INSECTS",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          466,
+          186
+        ],
+        [
+          645,
+          220
+        ]
+      ],
+      "value": "SPARROWS",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          476,
+          20
+        ],
+        [
+          613,
+          58
+        ]
+      ],
+      "value": "HAWKS",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          186,
+          61
+        ],
+        [
+          180,
+          192
+        ],
+        [
+          219,
+          186
+        ],
+        [
+          219,
+          54
+        ],
+        [
+          219,
+          54
+        ],
+        [
+          186,
+          56
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          531,
+          60
+        ],
+        [
+          536,
+          187
+        ],
+        [
+          570,
+          186
+        ],
+        [
+          565,
+          61
+        ],
+        [
+          533,
+          62
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          547,
+          231
+        ],
+        [
+          547,
+          352
+        ],
+        [
+          574,
+          350
+        ],
+        [
+          569,
+          230
+        ],
+        [
+          548,
+          232
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          547,
+          386
+        ],
+        [
+          547,
+          482
+        ],
+        [
+          572,
+          483
+        ],
+        [
+          572,
+          385
+        ],
+        [
+          544,
+          386
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          186,
+          222
+        ],
+        [
+          183,
+          350
+        ],
+        [
+          216,
+          348
+        ],
+        [
+          219,
+          218
+        ],
+        [
+          187,
+          216
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          187,
+          366
+        ],
+        [
+          180,
+          483
+        ],
+        [
+          235,
+          487
+        ],
+        [
+          224,
+          375
+        ],
+        [
+          190,
+          365
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H4",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H5",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A0+T0",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T0",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T2+A4+T1",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T1",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T3+A5+T2",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T2",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T4+A3+T5",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T5",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T5+A2+T6",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T6",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T6+A1+T7",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T7",
+      "connector": "A1",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "tertiary consumers secondary consumers primary consumers producers grass insects sparrows hawks"
+  },
+  "questions": [
+    {
+      "question_text": "According to the given food chain , which is the biggest creature?",
+      "question_id": "797.png-9",
+      "answers": [
+        "owl",
+        "insects",
+        "sparrow",
+        "hawk"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "According to the given food chain, which animal act as tertiary consumers?",
+      "question_id": "797.png-2",
+      "answers": [
+        "sparrows",
+        "insects",
+        "hawks",
+        "none of the above."
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "According to the given food chain, which organism eats other animals and also becomes food for other animals?",
+      "question_id": "797.png-6",
+      "answers": [
+        "hawks",
+        "producers",
+        "grass",
+        "secondary consumers, sparrow"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "According to the given food chain, which organism receives direct energy from grass?",
+      "question_id": "797.png-1",
+      "answers": [
+        "none",
+        "sparrows",
+        "insects",
+        "hawks"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Based on the diagram below, what is a primary consumer?",
+      "question_id": "797.png-8",
+      "answers": [
+        "hawks",
+        "insects",
+        "sparrow",
+        "humans"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Based on the picture below, what is considered as a producer?",
+      "question_id": "797.png-10",
+      "answers": [
+        "hawks",
+        "sparrows",
+        "grass",
+        "insects"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Choose the correct statement that describes the grass as",
+      "question_id": "797.png-4",
+      "answers": [
+        "a source of energy for consumers.",
+        "a shelter for other organisms.",
+        "a predator of other living things.",
+        "a decomposer of dead matter."
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the food web shown. Which of the following organisms in the food web shown are both predator and prey?",
+      "question_id": "797.png-0",
+      "answers": [
+        "Hawk.",
+        "Grass.",
+        "Insects.",
+        "Sparrow."
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Using the food web shown, what would happen to the other organisms if the number of hawks were decreased?",
+      "question_id": "797.png-5",
+      "answers": [
+        "Sparrows population would increase.",
+        "Cannot determine.",
+        "Sparrow will start eating grass.",
+        "Insects population would increase."
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is a primary consumer in this diagram?",
+      "question_id": "797.png-7",
+      "answers": [
+        "grass",
+        "insect",
+        "hawk",
+        "sparrow"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would happen if there was an increase in producers?",
+      "question_id": "797.png-3",
+      "answers": [
+        "decrease in primary consumers",
+        "increase in primary consumers",
+        "increase in decomposers",
+        "decrease in insects"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

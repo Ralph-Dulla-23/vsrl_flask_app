@@ -1,0 +1,391 @@
+{
+  "image_id": "1687",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          256,
+          15
+        ],
+        [
+          428,
+          32
+        ]
+      ],
+      "value": "Dark region on the Earth",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          330,
+          130
+        ],
+        [
+          371,
+          146
+        ]
+      ],
+      "value": "Earth",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          245,
+          102
+        ],
+        [
+          287,
+          117
+        ]
+      ],
+      "value": "Moon",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          48,
+          0
+        ],
+        [
+          79,
+          17
+        ]
+      ],
+      "value": "Sun",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          78,
+          20
+        ],
+        [
+          106,
+          34
+        ],
+        [
+          119,
+          49
+        ],
+        [
+          129,
+          70
+        ],
+        [
+          127,
+          85
+        ],
+        [
+          122,
+          98
+        ],
+        [
+          107,
+          113
+        ],
+        [
+          90,
+          122
+        ],
+        [
+          65,
+          123
+        ],
+        [
+          42,
+          115
+        ],
+        [
+          32,
+          108
+        ],
+        [
+          22,
+          96
+        ],
+        [
+          15,
+          74
+        ],
+        [
+          27,
+          46
+        ],
+        [
+          44,
+          30
+        ],
+        [
+          61,
+          23
+        ],
+        [
+          78,
+          19
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          312,
+          73
+        ],
+        [
+          321,
+          58
+        ],
+        [
+          334,
+          47
+        ],
+        [
+          350,
+          44
+        ],
+        [
+          369,
+          47
+        ],
+        [
+          381,
+          56
+        ],
+        [
+          389,
+          69
+        ],
+        [
+          389,
+          93
+        ],
+        [
+          380,
+          107
+        ],
+        [
+          366,
+          116
+        ],
+        [
+          346,
+          118
+        ],
+        [
+          329,
+          112
+        ],
+        [
+          319,
+          101
+        ],
+        [
+          310,
+          87
+        ],
+        [
+          313,
+          78
+        ],
+        [
+          312,
+          72
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          274,
+          69
+        ],
+        [
+          283,
+          74
+        ],
+        [
+          280,
+          84
+        ],
+        [
+          272,
+          92
+        ],
+        [
+          265,
+          92
+        ],
+        [
+          260,
+          90
+        ],
+        [
+          258,
+          86
+        ],
+        [
+          255,
+          80
+        ],
+        [
+          262,
+          67
+        ],
+        [
+          270,
+          67
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          265,
+          80
+        ],
+        [
+          265,
+          107
+        ],
+        [
+          272,
+          107
+        ],
+        [
+          273,
+          81
+        ],
+        [
+          262,
+          79
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          306,
+          33
+        ],
+        [
+          307,
+          77
+        ],
+        [
+          320,
+          79
+        ],
+        [
+          318,
+          33
+        ],
+        [
+          307,
+          33
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          343,
+          100
+        ],
+        [
+          343,
+          133
+        ],
+        [
+          353,
+          133
+        ],
+        [
+          351,
+          102
+        ],
+        [
+          342,
+          99
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T1+B1",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B2",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "dark region on the earth earth moon sun"
+  },
+  "questions": []
+}

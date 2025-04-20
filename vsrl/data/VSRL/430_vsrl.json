@@ -1,0 +1,302 @@
+{
+  "image_id": "430",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          106,
+          20
+        ],
+        [
+          151,
+          54
+        ]
+      ],
+      "value": "Adult plant",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          175,
+          117
+        ],
+        [
+          226,
+          150
+        ]
+      ],
+      "value": "Young plant",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          36,
+          119
+        ],
+        [
+          77,
+          139
+        ]
+      ],
+      "value": "Seed",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          168,
+          51
+        ],
+        [
+          249,
+          69
+        ]
+      ],
+      "value": "Fertilisation",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          49
+        ],
+        [
+          81,
+          67
+        ]
+      ],
+      "value": "Germination",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          61,
+          99
+        ],
+        [
+          87,
+          52
+        ],
+        [
+          97,
+          58
+        ],
+        [
+          72,
+          103
+        ],
+        [
+          63,
+          98
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          102,
+          129
+        ],
+        [
+          158,
+          129
+        ],
+        [
+          156,
+          142
+        ],
+        [
+          98,
+          142
+        ],
+        [
+          100,
+          126
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          158,
+          59
+        ],
+        [
+          183,
+          105
+        ],
+        [
+          194,
+          103
+        ],
+        [
+          164,
+          53
+        ],
+        [
+          158,
+          62
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A2+T1",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T1",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T1+A1+T2",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T2",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T2+A0+T0",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T0",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T3+A2",
+      "type": "arrowDescriptor",
+      "source": "T3",
+      "target": "A2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+A0",
+      "type": "arrowDescriptor",
+      "source": "T4",
+      "target": "A0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "adult plant young plant seed fertilisation germination"
+  },
+  "questions": [
+    {
+      "question_text": "What is the stage at letter A called?",
+      "question_id": "430.png-1",
+      "answers": [
+        "seed",
+        "young plant",
+        "germination",
+        "fertilisation"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "What letter corresponds to young plant in the diagram?",
+      "question_id": "430.png-2",
+      "answers": [
+        "E",
+        "D",
+        "C",
+        "A"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which Letter in the diagram  represents Fertilisation ?",
+      "question_id": "430.png-3",
+      "answers": [
+        "D",
+        "B",
+        "C",
+        "A"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which Letter in the diagram  represents Germination ?",
+      "question_id": "430.png-0",
+      "answers": [
+        "C",
+        "D",
+        "A",
+        "B"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}

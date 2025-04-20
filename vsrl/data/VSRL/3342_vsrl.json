@@ -1,0 +1,335 @@
+{
+  "image_id": "3342",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          23,
+          32
+        ],
+        [
+          80,
+          45
+        ]
+      ],
+      "value": "nucleus",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          255,
+          25
+        ],
+        [
+          359,
+          44
+        ]
+      ],
+      "value": "cell membrane",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          290,
+          150
+        ],
+        [
+          362,
+          164
+        ]
+      ],
+      "value": "cytoplasm",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          60,
+          176
+        ],
+        [
+          163,
+          193
+        ]
+      ],
+      "value": "An animal cell",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          179,
+          21
+        ],
+        [
+          131,
+          48
+        ],
+        [
+          112,
+          77
+        ],
+        [
+          112,
+          116
+        ],
+        [
+          116,
+          146
+        ],
+        [
+          140,
+          168
+        ],
+        [
+          175,
+          179
+        ],
+        [
+          213,
+          181
+        ],
+        [
+          257,
+          160
+        ],
+        [
+          278,
+          126
+        ],
+        [
+          280,
+          98
+        ],
+        [
+          266,
+          83
+        ],
+        [
+          246,
+          69
+        ],
+        [
+          227,
+          44
+        ],
+        [
+          206,
+          30
+        ],
+        [
+          181,
+          21
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          81,
+          46
+        ],
+        [
+          123,
+          68
+        ],
+        [
+          122,
+          76
+        ],
+        [
+          158,
+          84
+        ],
+        [
+          137,
+          54
+        ],
+        [
+          130,
+          60
+        ],
+        [
+          85,
+          36
+        ],
+        [
+          81,
+          43
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          268,
+          57
+        ],
+        [
+          290,
+          47
+        ],
+        [
+          285,
+          39
+        ],
+        [
+          266,
+          48
+        ],
+        [
+          264,
+          43
+        ],
+        [
+          234,
+          68
+        ],
+        [
+          272,
+          65
+        ],
+        [
+          272,
+          59
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          289,
+          160
+        ],
+        [
+          233,
+          138
+        ],
+        [
+          230,
+          143
+        ],
+        [
+          201,
+          120
+        ],
+        [
+          238,
+          122
+        ],
+        [
+          237,
+          130
+        ],
+        [
+          293,
+          153
+        ],
+        [
+          290,
+          159
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T2+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T3+I0",
+      "type": "imageTitle",
+      "source": "T3",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "title",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "nucleus cell membrane cytoplasm an animal cell"
+  },
+  "questions": []
+}

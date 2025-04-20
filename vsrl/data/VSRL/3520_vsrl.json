@@ -1,0 +1,1150 @@
+{
+  "image_id": "3520",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          350,
+          24
+        ],
+        [
+          463,
+          78
+        ]
+      ],
+      "value": "Nucleus: Area where genetic material is organized and expressed.",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          517,
+          42
+        ],
+        [
+          620,
+          98
+        ]
+      ],
+      "value": "Nuclear pore: Passageway for molecules into and out of the nucleus.",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T10": {
+      "id": "T10",
+      "type": "text",
+      "bbox": [
+        [
+          117,
+          518
+        ],
+        [
+          236,
+          546
+        ]
+      ],
+      "value": "Chloroplast: Site of photosynthesis.",
+      "replacementText": "K",
+      "category": "label"
+    },
+    "T11": {
+      "id": "T11",
+      "type": "text",
+      "bbox": [
+        [
+          62,
+          443
+        ],
+        [
+          180,
+          473
+        ]
+      ],
+      "value": "Mitochondrion: Site of ATP synthesis.",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T12": {
+      "id": "T12",
+      "type": "text",
+      "bbox": [
+        [
+          23,
+          328
+        ],
+        [
+          147,
+          372
+        ]
+      ],
+      "value": "Cytosol: Site of many metabolic pathways.",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T13": {
+      "id": "T13",
+      "type": "text",
+      "bbox": [
+        [
+          23,
+          137
+        ],
+        [
+          143,
+          193
+        ]
+      ],
+      "value": "Central vacuole: Site that provides storage and regulation of cell volume.",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T14": {
+      "id": "T14",
+      "type": "text",
+      "bbox": [
+        [
+          179,
+          62
+        ],
+        [
+          284,
+          117
+        ]
+      ],
+      "value": "Nuclear envelope: Double membrane that encloses the nucleus.",
+      "replacementText": "M",
+      "category": "label"
+    },
+    "T15": {
+      "id": "T15",
+      "type": "text",
+      "bbox": [
+        [
+          219,
+          214
+        ],
+        [
+          313,
+          253
+        ]
+      ],
+      "value": "Nucleolus: Site for ribosome assembly.",
+      "replacementText": "Q",
+      "category": "label"
+    },
+    "T16": {
+      "id": "T16",
+      "type": "text",
+      "bbox": [
+        [
+          221,
+          288
+        ],
+        [
+          315,
+          329
+        ]
+      ],
+      "value": "Chromatin: A complex of protein and DNA",
+      "replacementText": "P",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          648,
+          84
+        ],
+        [
+          748,
+          128
+        ]
+      ],
+      "value": "Ribosome: Site of polypeptide synthesis.",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          697,
+          158
+        ],
+        [
+          806,
+          199
+        ]
+      ],
+      "value": "Smooth ER: Site of detoxification and lipid synthesis.",
+      "replacementText": "N",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          712,
+          268
+        ],
+        [
+          810,
+          321
+        ]
+      ],
+      "value": "Rough ER: Site of protein synthesis, sorting, and secretion.",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          691,
+          368
+        ],
+        [
+          825,
+          438
+        ]
+      ],
+      "value": "Plasma membrane: Envelope that controls movement of substances into and out of the cell; site of cell signalling.",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          685,
+          476
+        ],
+        [
+          766,
+          531
+        ]
+      ],
+      "value": "Cell wall: structure that provides cell support.",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          533,
+          541
+        ],
+        [
+          655,
+          607
+        ]
+      ],
+      "value": "Peroxisome: Site where hydrogen peroxide and other harmful molecules are broken down",
+      "replacementText": "O",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          381,
+          585
+        ],
+        [
+          499,
+          641
+        ]
+      ],
+      "value": "Golgi apparatus: Site of modification, sorting, and secretion of lipids and proteins.",
+      "replacementText": "L",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          213,
+          577
+        ],
+        [
+          336,
+          631
+        ]
+      ],
+      "value": "Cytoskeleton: protein filaments provide shape and aid in movement",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          253,
+          121
+        ],
+        [
+          279,
+          149
+        ],
+        [
+          442,
+          140
+        ],
+        [
+          468,
+          110
+        ],
+        [
+          494,
+          114
+        ],
+        [
+          485,
+          141
+        ],
+        [
+          667,
+          190
+        ],
+        [
+          684,
+          186
+        ],
+        [
+          695,
+          203
+        ],
+        [
+          725,
+          210
+        ],
+        [
+          725,
+          262
+        ],
+        [
+          707,
+          261
+        ],
+        [
+          707,
+          312
+        ],
+        [
+          729,
+          327
+        ],
+        [
+          725,
+          358
+        ],
+        [
+          712,
+          389
+        ],
+        [
+          800,
+          404
+        ],
+        [
+          804,
+          451
+        ],
+        [
+          787,
+          518
+        ],
+        [
+          718,
+          500
+        ],
+        [
+          665,
+          520
+        ],
+        [
+          605,
+          553
+        ],
+        [
+          510,
+          582
+        ],
+        [
+          365,
+          587
+        ],
+        [
+          286,
+          577
+        ],
+        [
+          239,
+          651
+        ],
+        [
+          201,
+          657
+        ],
+        [
+          196,
+          553
+        ],
+        [
+          182,
+          511
+        ],
+        [
+          122,
+          440
+        ],
+        [
+          92,
+          357
+        ],
+        [
+          88,
+          324
+        ],
+        [
+          34,
+          320
+        ],
+        [
+          31,
+          252
+        ],
+        [
+          44,
+          230
+        ],
+        [
+          114,
+          231
+        ],
+        [
+          189,
+          185
+        ],
+        [
+          235,
+          167
+        ],
+        [
+          244,
+          156
+        ],
+        [
+          223,
+          131
+        ],
+        [
+          248,
+          123
+        ],
+        [
+          252,
+          120
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          512,
+          188
+        ],
+        [
+          650,
+          108
+        ],
+        [
+          642,
+          96
+        ],
+        [
+          499,
+          178
+        ],
+        [
+          510,
+          190
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          639,
+          239
+        ],
+        [
+          695,
+          177
+        ],
+        [
+          688,
+          170
+        ],
+        [
+          629,
+          234
+        ],
+        [
+          639,
+          239
+        ]
+      ],
+      "category": "connector"
+    },
+    "A10": {
+      "id": "A10",
+      "type": "arrow",
+      "polygon": [
+        [
+          173,
+          505
+        ],
+        [
+          189,
+          508
+        ],
+        [
+          345,
+          398
+        ],
+        [
+          338,
+          393
+        ],
+        [
+          178,
+          503
+        ],
+        [
+          174,
+          504
+        ]
+      ],
+      "category": "connector"
+    },
+    "A11": {
+      "id": "A11",
+      "type": "arrow",
+      "polygon": [
+        [
+          185,
+          462
+        ],
+        [
+          262,
+          401
+        ],
+        [
+          253,
+          396
+        ],
+        [
+          180,
+          454
+        ],
+        [
+          184,
+          464
+        ]
+      ],
+      "category": "connector"
+    },
+    "A12": {
+      "id": "A12",
+      "type": "arrow",
+      "polygon": [
+        [
+          100,
+          327
+        ],
+        [
+          152,
+          283
+        ],
+        [
+          140,
+          275
+        ],
+        [
+          92,
+          322
+        ],
+        [
+          100,
+          328
+        ]
+      ],
+      "category": "connector"
+    },
+    "A13": {
+      "id": "A13",
+      "type": "arrow",
+      "polygon": [
+        [
+          145,
+          170
+        ],
+        [
+          148,
+          164
+        ],
+        [
+          211,
+          238
+        ],
+        [
+          210,
+          247
+        ],
+        [
+          143,
+          172
+        ]
+      ],
+      "category": "connector"
+    },
+    "A14": {
+      "id": "A14",
+      "type": "arrow",
+      "polygon": [
+        [
+          283,
+          81
+        ],
+        [
+          283,
+          93
+        ],
+        [
+          360,
+          182
+        ],
+        [
+          367,
+          172
+        ],
+        [
+          284,
+          82
+        ]
+      ],
+      "category": "connector"
+    },
+    "A15": {
+      "id": "A15",
+      "type": "arrow",
+      "polygon": [
+        [
+          388,
+          82
+        ],
+        [
+          398,
+          82
+        ],
+        [
+          399,
+          171
+        ],
+        [
+          393,
+          170
+        ],
+        [
+          390,
+          82
+        ]
+      ],
+      "category": "connector"
+    },
+    "A16": {
+      "id": "A16",
+      "type": "arrow",
+      "polygon": [
+        [
+          432,
+          165
+        ],
+        [
+          513,
+          75
+        ],
+        [
+          508,
+          62
+        ],
+        [
+          421,
+          158
+        ],
+        [
+          433,
+          168
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          493,
+          298
+        ],
+        [
+          494,
+          309
+        ],
+        [
+          704,
+          297
+        ],
+        [
+          708,
+          288
+        ],
+        [
+          494,
+          297
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          591,
+          407
+        ],
+        [
+          595,
+          423
+        ],
+        [
+          687,
+          403
+        ],
+        [
+          685,
+          388
+        ],
+        [
+          593,
+          407
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          602,
+          438
+        ],
+        [
+          609,
+          432
+        ],
+        [
+          691,
+          484
+        ],
+        [
+          683,
+          495
+        ],
+        [
+          599,
+          438
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          511,
+          365
+        ],
+        [
+          529,
+          358
+        ],
+        [
+          602,
+          534
+        ],
+        [
+          593,
+          537
+        ],
+        [
+          515,
+          365
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          443,
+          578
+        ],
+        [
+          453,
+          361
+        ],
+        [
+          444,
+          360
+        ],
+        [
+          434,
+          578
+        ],
+        [
+          444,
+          578
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          278,
+          570
+        ],
+        [
+          369,
+          520
+        ],
+        [
+          359,
+          512
+        ],
+        [
+          267,
+          568
+        ],
+        [
+          277,
+          571
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          322,
+          297
+        ],
+        [
+          322,
+          314
+        ],
+        [
+          397,
+          281
+        ],
+        [
+          395,
+          273
+        ],
+        [
+          322,
+          299
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          320,
+          224
+        ],
+        [
+          321,
+          237
+        ],
+        [
+          388,
+          248
+        ],
+        [
+          392,
+          237
+        ],
+        [
+          322,
+          225
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A15+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A15",
+      "directional": false
+    },
+    {
+      "id": "T1+A16+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A16",
+      "directional": false
+    },
+    {
+      "id": "T10+A10+B0",
+      "type": "intraObjectLinkage",
+      "source": "T10",
+      "target": "B0",
+      "connector": "A10",
+      "directional": false
+    },
+    {
+      "id": "T11+A11+B0",
+      "type": "intraObjectLinkage",
+      "source": "T11",
+      "target": "B0",
+      "connector": "A11",
+      "directional": false
+    },
+    {
+      "id": "T12+A12+B0",
+      "type": "intraObjectLinkage",
+      "source": "T12",
+      "target": "B0",
+      "connector": "A12",
+      "directional": false
+    },
+    {
+      "id": "T13+A13+B0",
+      "type": "intraObjectLinkage",
+      "source": "T13",
+      "target": "B0",
+      "connector": "A13",
+      "directional": false
+    },
+    {
+      "id": "T14+A14+B0",
+      "type": "intraObjectLinkage",
+      "source": "T14",
+      "target": "B0",
+      "connector": "A14",
+      "directional": false
+    },
+    {
+      "id": "T15+A9+B0",
+      "type": "intraObjectLinkage",
+      "source": "T15",
+      "target": "B0",
+      "connector": "A9",
+      "directional": false
+    },
+    {
+      "id": "T16+A8+B0",
+      "type": "intraObjectLinkage",
+      "source": "T16",
+      "target": "B0",
+      "connector": "A8",
+      "directional": false
+    },
+    {
+      "id": "T2+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T3+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T4+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T5+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T6+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T7+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T8+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T8",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T9+A7+B0",
+      "type": "intraObjectLinkage",
+      "source": "T9",
+      "target": "B0",
+      "connector": "A7",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T10": "part_label",
+    "T11": "part_label",
+    "T12": "part_label",
+    "T13": "part_label",
+    "T14": "part_label",
+    "T15": "part_label",
+    "T16": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A10": "connector",
+    "A11": "connector",
+    "A12": "connector",
+    "A13": "connector",
+    "A14": "connector",
+    "A15": "connector",
+    "A16": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "nucleus: area where genetic material is organized and expressed. nuclear pore: passageway for molecules into and out of the nucleus. chloroplast: site of photosynthesis. mitochondrion: site of atp synthesis. cytosol: site of many metabolic pathways. central vacuole: site that provides storage and regulation of cell volume. nuclear envelope: double membrane that encloses the nucleus. nucleolus: site for ribosome assembly. chromatin: a complex of protein and dna ribosome: site of polypeptide synthesis. smooth er: site of detoxification and lipid synthesis. rough er: site of protein synthesis, sorting, and secretion. plasma membrane: envelope that controls movement of substances into and out of the cell; site of cell signalling. cell wall: structure that provides cell support. peroxisome: site where hydrogen peroxide and other harmful molecules are broken down golgi apparatus: site of modification, sorting, and secretion of lipids and proteins. cytoskeleton: protein filaments provide shape and aid in movement"
+  },
+  "questions": [
+    {
+      "question_text": "What is the structure that provides cell support?",
+      "question_id": "3520.png-1",
+      "answers": [
+        "Mitochondrion",
+        "Cytoskeleton",
+        "Cell wall",
+        "Chloroplast"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which is the site of photosynthesis?",
+      "question_id": "3520.png-0",
+      "answers": [
+        "Cell wall",
+        "Chloroplast",
+        "Mitochondrion",
+        "Cytoskeleton"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "label the golgi apparatus?",
+      "question_id": "3520.png-2",
+      "answers": [
+        "b",
+        "l",
+        "a",
+        "d"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

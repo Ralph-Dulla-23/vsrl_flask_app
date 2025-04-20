@@ -1,0 +1,614 @@
+{
+  "image_id": "872",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          34,
+          18
+        ],
+        [
+          93,
+          38
+        ]
+      ],
+      "value": "snakes",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          199,
+          19
+        ],
+        [
+          253,
+          33
+        ]
+      ],
+      "value": "hawks",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          189,
+          75
+        ],
+        [
+          262,
+          93
+        ]
+      ],
+      "value": "sparrows",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          308,
+          134
+        ],
+        [
+          390,
+          155
+        ]
+      ],
+      "value": "CATERPILLARS ",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          41,
+          133
+        ],
+        [
+          86,
+          148
+        ]
+      ],
+      "value": "mice",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          208,
+          125
+        ],
+        [
+          245,
+          146
+        ]
+      ],
+      "value": "flies",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          202,
+          179
+        ],
+        [
+          254,
+          196
+        ]
+      ],
+      "value": "trees",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          63,
+          122
+        ],
+        [
+          63,
+          56
+        ],
+        [
+          59,
+          54
+        ],
+        [
+          63,
+          45
+        ],
+        [
+          68,
+          54
+        ],
+        [
+          67,
+          55
+        ],
+        [
+          67,
+          122
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          69,
+          166
+        ],
+        [
+          186,
+          192
+        ],
+        [
+          189,
+          187
+        ],
+        [
+          73,
+          158
+        ],
+        [
+          68,
+          158
+        ],
+        [
+          66,
+          164
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          269,
+          186
+        ],
+        [
+          333,
+          164
+        ],
+        [
+          336,
+          172
+        ],
+        [
+          270,
+          193
+        ],
+        [
+          270,
+          190
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          265,
+          82
+        ],
+        [
+          347,
+          124
+        ],
+        [
+          333,
+          125
+        ],
+        [
+          267,
+          92
+        ],
+        [
+          265,
+          83
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          225,
+          171
+        ],
+        [
+          225,
+          157
+        ],
+        [
+          231,
+          156
+        ],
+        [
+          231,
+          171
+        ],
+        [
+          226,
+          172
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          221,
+          118
+        ],
+        [
+          221,
+          106
+        ],
+        [
+          231,
+          105
+        ],
+        [
+          230,
+          120
+        ],
+        [
+          221,
+          119
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          221,
+          66
+        ],
+        [
+          221,
+          44
+        ],
+        [
+          229,
+          45
+        ],
+        [
+          228,
+          64
+        ],
+        [
+          221,
+          65
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          89,
+          44
+        ],
+        [
+          182,
+          79
+        ],
+        [
+          183,
+          87
+        ],
+        [
+          85,
+          52
+        ],
+        [
+          87,
+          44
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H4",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H5",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H6",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H7",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+A6+T1",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T1",
+      "connector": "A6",
+      "directional": true
+    },
+    {
+      "id": "T2+A7+T0",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T0",
+      "connector": "A7",
+      "directional": true
+    },
+    {
+      "id": "T3+A3+T2",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T2",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T4+A0+T0",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T0",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T5+A5+T2",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T2",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T6+A1+T4",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T4",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T6+A2+T3",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T3",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T6+A4+T5",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T5",
+      "connector": "A4",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "snakes hawks sparrows caterpillars  mice flies trees"
+  },
+  "questions": [
+    {
+      "question_text": "Based on the food web below, how many carnivores are there?",
+      "question_id": "872.png-6",
+      "answers": [
+        "one",
+        "five",
+        "three",
+        "four"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Based on the food web below, what are herbivores?",
+      "question_id": "872.png-4",
+      "answers": [
+        "sparrows & snakes",
+        "mice & hawks",
+        "flies & mice",
+        "flies & snakes"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the above food chain diagram, which species are carnivores",
+      "question_id": "872.png-7",
+      "answers": [
+        "snakes only",
+        "hawks only",
+        "hawks and snakes",
+        "flies only"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the above food web diagram, which species have more predators",
+      "question_id": "872.png-2",
+      "answers": [
+        "flies",
+        "sparrow",
+        "mice",
+        "trees"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would be most affected if all the trees died?",
+      "question_id": "872.png-5",
+      "answers": [
+        "mice",
+        "sparrow",
+        "snakes",
+        "hawks"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would happen if the caterpillars all died?",
+      "question_id": "872.png-3",
+      "answers": [
+        "mice would increase",
+        "sparrows would decrease",
+        "snakes would increase",
+        "trees would decrease"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which is a carnivore?",
+      "question_id": "872.png-0",
+      "answers": [
+        "tree",
+        "mice",
+        "hawk",
+        "caterpillar"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Who eats mice in this diagram?",
+      "question_id": "872.png-8",
+      "answers": [
+        "Tree",
+        "Sparrow",
+        "Hawk",
+        "Snake"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Who is the top of the food chain?",
+      "question_id": "872.png-1",
+      "answers": [
+        "Sparrow",
+        "Hawk",
+        "Tree",
+        "Snake"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

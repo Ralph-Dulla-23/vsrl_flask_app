@@ -1,0 +1,446 @@
+{
+  "image_id": "127",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          406,
+          166
+        ],
+        [
+          438,
+          186
+        ]
+      ],
+      "value": "Sun",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          266,
+          147
+        ],
+        [
+          315,
+          167
+        ]
+      ],
+      "value": "Moon",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          122,
+          10
+        ],
+        [
+          229,
+          30
+        ]
+      ],
+      "value": "Spring Tides",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          277,
+          289
+        ],
+        [
+          341,
+          309
+        ]
+      ],
+      "value": "Solar Tides",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          277,
+          314
+        ],
+        [
+          345,
+          329
+        ]
+      ],
+      "value": "Lunar Tides",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          135,
+          170
+        ],
+        [
+          146,
+          157
+        ],
+        [
+          171,
+          145
+        ],
+        [
+          183,
+          145
+        ],
+        [
+          206,
+          155
+        ],
+        [
+          214,
+          171
+        ],
+        [
+          214,
+          181
+        ],
+        [
+          207,
+          193
+        ],
+        [
+          197,
+          199
+        ],
+        [
+          177,
+          203
+        ],
+        [
+          150,
+          198
+        ],
+        [
+          138,
+          189
+        ],
+        [
+          136,
+          184
+        ],
+        [
+          135,
+          170
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          291,
+          165
+        ],
+        [
+          298,
+          169
+        ],
+        [
+          303,
+          178
+        ],
+        [
+          298,
+          182
+        ],
+        [
+          292,
+          183
+        ],
+        [
+          286,
+          177
+        ],
+        [
+          286,
+          173
+        ],
+        [
+          286,
+          170
+        ],
+        [
+          290,
+          166
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          392,
+          171
+        ],
+        [
+          398,
+          152
+        ],
+        [
+          415,
+          129
+        ],
+        [
+          428,
+          121
+        ],
+        [
+          431,
+          120
+        ],
+        [
+          449,
+          117
+        ],
+        [
+          449,
+          240
+        ],
+        [
+          430,
+          234
+        ],
+        [
+          421,
+          225
+        ],
+        [
+          407,
+          216
+        ],
+        [
+          396,
+          194
+        ],
+        [
+          391,
+          174
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          235,
+          172
+        ],
+        [
+          237,
+          178
+        ],
+        [
+          249,
+          178
+        ],
+        [
+          250,
+          187
+        ],
+        [
+          265,
+          175
+        ],
+        [
+          252,
+          161
+        ],
+        [
+          251,
+          171
+        ],
+        [
+          235,
+          170
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          316,
+          173
+        ],
+        [
+          315,
+          178
+        ],
+        [
+          331,
+          178
+        ],
+        [
+          331,
+          186
+        ],
+        [
+          348,
+          177
+        ],
+        [
+          336,
+          164
+        ],
+        [
+          335,
+          171
+        ],
+        [
+          315,
+          173
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A0+B1",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B1",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "B1+A1+B2",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B2",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T0+B2",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B1",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+I0",
+      "type": "imageTitle",
+      "source": "T2",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+I0",
+      "type": "misc",
+      "source": "T3",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+I0",
+      "type": "misc",
+      "source": "T4",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "title",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "A0": "connector",
+    "A1": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "sun moon spring tides solar tides lunar tides"
+  },
+  "questions": [
+    {
+      "question_text": "What is shown as E in the diagram?",
+      "question_id": "127.png-1",
+      "answers": [
+        "Mars",
+        "None of the above",
+        "Sun",
+        "Earth"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "What letter in the given diagram represents the solar tides?",
+      "question_id": "127.png-0",
+      "answers": [
+        "E",
+        "B",
+        "D",
+        "A"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

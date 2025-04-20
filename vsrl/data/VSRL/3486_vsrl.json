@@ -1,0 +1,296 @@
+{
+  "image_id": "3486",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          32,
+          9
+        ],
+        [
+          288,
+          27
+        ]
+      ],
+      "value": "external skeleton (exoskeleton)",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          373,
+          88
+        ],
+        [
+          472,
+          108
+        ]
+      ],
+      "value": "exoskeleton",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          203,
+          222
+        ],
+        [
+          265,
+          239
+        ]
+      ],
+      "value": "muscle",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          1,
+          192
+        ],
+        [
+          38,
+          212
+        ]
+      ],
+      "value": "joint",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          72,
+          158
+        ],
+        [
+          18,
+          276
+        ],
+        [
+          30,
+          312
+        ],
+        [
+          63,
+          318
+        ],
+        [
+          138,
+          230
+        ],
+        [
+          318,
+          149
+        ],
+        [
+          329,
+          151
+        ],
+        [
+          329,
+          139
+        ],
+        [
+          339,
+          108
+        ],
+        [
+          325,
+          75
+        ],
+        [
+          298,
+          30
+        ],
+        [
+          279,
+          29
+        ],
+        [
+          270,
+          27
+        ],
+        [
+          261,
+          21
+        ],
+        [
+          259,
+          30
+        ],
+        [
+          108,
+          112
+        ],
+        [
+          88,
+          147
+        ],
+        [
+          74,
+          157
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          38,
+          198
+        ],
+        [
+          37,
+          207
+        ],
+        [
+          103,
+          206
+        ],
+        [
+          103,
+          198
+        ],
+        [
+          41,
+          199
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          222,
+          171
+        ],
+        [
+          224,
+          220
+        ],
+        [
+          232,
+          221
+        ],
+        [
+          233,
+          171
+        ],
+        [
+          223,
+          171
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          325,
+          91
+        ],
+        [
+          326,
+          106
+        ],
+        [
+          369,
+          106
+        ],
+        [
+          369,
+          94
+        ],
+        [
+          326,
+          92
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T2+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T3+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "external skeleton (exoskeleton) exoskeleton muscle joint"
+  },
+  "questions": [
+    {
+      "question_text": "Where do the bones connect?",
+      "question_id": "3486.png-0",
+      "answers": [
+        "B",
+        "D",
+        "C",
+        "A"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    }
+  ]
+}

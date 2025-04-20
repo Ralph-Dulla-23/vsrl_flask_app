@@ -1,0 +1,572 @@
+{
+  "image_id": "1763",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          161,
+          3
+        ],
+        [
+          216,
+          24
+        ]
+      ],
+      "value": "Plant P1",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          375,
+          3
+        ],
+        [
+          428,
+          21
+        ]
+      ],
+      "value": "Plant P2",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          421,
+          130
+        ],
+        [
+          500,
+          148
+        ]
+      ],
+      "value": "Herbivore H3",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          227,
+          133
+        ],
+        [
+          309,
+          148
+        ]
+      ],
+      "value": "Herbivore H2",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          79,
+          133
+        ],
+        [
+          159,
+          147
+        ]
+      ],
+      "value": "Herbivore H1",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          76,
+          267
+        ],
+        [
+          159,
+          290
+        ]
+      ],
+      "value": "Carnivore C1",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          228,
+          271
+        ],
+        [
+          306,
+          285
+        ]
+      ],
+      "value": "Carnivore C4",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          427,
+          269
+        ],
+        [
+          510,
+          288
+        ]
+      ],
+      "value": "Carnivore C5",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          6,
+          387
+        ],
+        [
+          93,
+          404
+        ]
+      ],
+      "value": "Carnivore C2",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          133,
+          386
+        ],
+        [
+          210,
+          402
+        ]
+      ],
+      "value": "Carnivore C3",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          213,
+          12
+        ],
+        [
+          216,
+          24
+        ],
+        [
+          373,
+          23
+        ],
+        [
+          373,
+          12
+        ],
+        [
+          213,
+          12
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          392,
+          27
+        ],
+        [
+          401,
+          23
+        ],
+        [
+          458,
+          122
+        ],
+        [
+          448,
+          128
+        ],
+        [
+          392,
+          27
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          184,
+          32
+        ],
+        [
+          189,
+          25
+        ],
+        [
+          267,
+          122
+        ],
+        [
+          260,
+          128
+        ],
+        [
+          183,
+          33
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          180,
+          25
+        ],
+        [
+          186,
+          35
+        ],
+        [
+          113,
+          129
+        ],
+        [
+          103,
+          123
+        ],
+        [
+          177,
+          26
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          256,
+          152
+        ],
+        [
+          265,
+          152
+        ],
+        [
+          266,
+          263
+        ],
+        [
+          256,
+          264
+        ],
+        [
+          255,
+          154
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          104,
+          153
+        ],
+        [
+          118,
+          153
+        ],
+        [
+          118,
+          266
+        ],
+        [
+          107,
+          264
+        ],
+        [
+          105,
+          153
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          445,
+          153
+        ],
+        [
+          458,
+          150
+        ],
+        [
+          469,
+          264
+        ],
+        [
+          459,
+          264
+        ],
+        [
+          445,
+          154
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          109,
+          299
+        ],
+        [
+          116,
+          292
+        ],
+        [
+          172,
+          377
+        ],
+        [
+          163,
+          382
+        ],
+        [
+          112,
+          300
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          111,
+          288
+        ],
+        [
+          117,
+          296
+        ],
+        [
+          53,
+          381
+        ],
+        [
+          43,
+          380
+        ],
+        [
+          51,
+          364
+        ],
+        [
+          108,
+          289
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A0+T1",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T1",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T0+A2+T3",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T3",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T0+A3+T4",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T4",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+T2",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T2",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T2+A6+T7",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T7",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T3+A4+T6",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T6",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T4+A5+T5",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T5",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T5+A7+T9",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T9",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T5+A8+T8",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T8",
+      "connector": "A8",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "plant p1 plant p2 herbivore h3 herbivore h2 herbivore h1 carnivore c1 carnivore c4 carnivore c5 carnivore c2 carnivore c3"
+  },
+  "questions": [
+    {
+      "question_text": "What feeds on plant p1?",
+      "question_id": "1763.png-3",
+      "answers": [
+        "carnivore C3",
+        "herbivore H1",
+        "carnivore C4",
+        "carnivore C5"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What feeds on the carnivore C1?",
+      "question_id": "1763.png-1",
+      "answers": [
+        "carnivore C3",
+        "carnivore C5",
+        "carnivore C4",
+        "herbivore H3"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which label refers to a tertiary consumer?",
+      "question_id": "1763.png-2",
+      "answers": [
+        "C2",
+        "P1",
+        "C1",
+        "H1"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which label shows an organism that would be affected by a decrease in herbivores?",
+      "question_id": "1763.png-0",
+      "answers": [
+        "C4",
+        "C3",
+        "H3",
+        "C2"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

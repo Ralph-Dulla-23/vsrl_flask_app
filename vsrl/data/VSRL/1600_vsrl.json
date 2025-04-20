@@ -1,0 +1,368 @@
+{
+  "image_id": "1600",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          120,
+          2
+        ],
+        [
+          197,
+          23
+        ]
+      ],
+      "value": "Ammeter",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          234,
+          65
+        ],
+        [
+          289,
+          92
+        ]
+      ],
+      "value": "Lamp",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          4,
+          70
+        ],
+        [
+          69,
+          92
+        ]
+      ],
+      "value": "Battery",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          138,
+          28
+        ],
+        [
+          137,
+          51
+        ],
+        [
+          149,
+          58
+        ],
+        [
+          159,
+          61
+        ],
+        [
+          171,
+          57
+        ],
+        [
+          177,
+          45
+        ],
+        [
+          175,
+          30
+        ],
+        [
+          161,
+          23
+        ],
+        [
+          146,
+          27
+        ],
+        [
+          142,
+          28
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          76,
+          68
+        ],
+        [
+          119,
+          68
+        ],
+        [
+          108,
+          107
+        ],
+        [
+          80,
+          105
+        ],
+        [
+          74,
+          70
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          197,
+          75
+        ],
+        [
+          210,
+          67
+        ],
+        [
+          220,
+          66
+        ],
+        [
+          227,
+          69
+        ],
+        [
+          237,
+          78
+        ],
+        [
+          237,
+          93
+        ],
+        [
+          230,
+          102
+        ],
+        [
+          220,
+          108
+        ],
+        [
+          206,
+          108
+        ],
+        [
+          196,
+          93
+        ],
+        [
+          196,
+          77
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          103,
+          68
+        ],
+        [
+          88,
+          69
+        ],
+        [
+          90,
+          37
+        ],
+        [
+          135,
+          37
+        ],
+        [
+          135,
+          45
+        ],
+        [
+          103,
+          47
+        ],
+        [
+          104,
+          64
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          176,
+          35
+        ],
+        [
+          173,
+          48
+        ],
+        [
+          208,
+          48
+        ],
+        [
+          211,
+          68
+        ],
+        [
+          218,
+          68
+        ],
+        [
+          220,
+          43
+        ],
+        [
+          219,
+          39
+        ],
+        [
+          179,
+          37
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          210,
+          106
+        ],
+        [
+          224,
+          106
+        ],
+        [
+          223,
+          130
+        ],
+        [
+          223,
+          137
+        ],
+        [
+          91,
+          137
+        ],
+        [
+          89,
+          105
+        ],
+        [
+          101,
+          104
+        ],
+        [
+          104,
+          126
+        ],
+        [
+          210,
+          127
+        ],
+        [
+          210,
+          106
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "B0+A0+B1",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B1",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "B0+A1+B2",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B2",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "B2+A2+B1",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B1",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B2",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B1",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "ammeter lamp battery"
+  }
+}

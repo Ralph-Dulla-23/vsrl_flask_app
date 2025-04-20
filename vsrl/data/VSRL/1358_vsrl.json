@@ -1,0 +1,660 @@
+{
+  "image_id": "1358",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          70,
+          56
+        ],
+        [
+          235,
+          95
+        ]
+      ],
+      "value": "Material washed into the sea or blown in by wind",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          32,
+          146
+        ],
+        [
+          79,
+          167
+        ]
+      ],
+      "value": "Land",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          221,
+          148
+        ],
+        [
+          257,
+          167
+        ]
+      ],
+      "value": "Sea",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          473,
+          173
+        ],
+        [
+          569,
+          204
+        ]
+      ],
+      "value": "Plant and animal material dies",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          394,
+          295
+        ],
+        [
+          534,
+          314
+        ]
+      ],
+      "value": "Layers of sediment form",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          382,
+          350
+        ],
+        [
+          550,
+          384
+        ]
+      ],
+      "value": "Over time the bottom layers turn into rock",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          0,
+          73
+        ],
+        [
+          17,
+          83
+        ],
+        [
+          34,
+          91
+        ],
+        [
+          56,
+          100
+        ],
+        [
+          56,
+          100
+        ],
+        [
+          82,
+          114
+        ],
+        [
+          101,
+          126
+        ],
+        [
+          137,
+          130
+        ],
+        [
+          208,
+          130
+        ],
+        [
+          246,
+          131
+        ],
+        [
+          286,
+          131
+        ],
+        [
+          388,
+          130
+        ],
+        [
+          480,
+          133
+        ],
+        [
+          523,
+          130
+        ],
+        [
+          593,
+          131
+        ],
+        [
+          599,
+          131
+        ],
+        [
+          599,
+          422
+        ],
+        [
+          5,
+          422
+        ],
+        [
+          2,
+          77
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          8,
+          62
+        ],
+        [
+          43,
+          80
+        ],
+        [
+          37,
+          86
+        ],
+        [
+          54,
+          90
+        ],
+        [
+          53,
+          73
+        ],
+        [
+          47,
+          73
+        ],
+        [
+          13,
+          53
+        ],
+        [
+          10,
+          62
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          71,
+          91
+        ],
+        [
+          103,
+          112
+        ],
+        [
+          109,
+          107
+        ],
+        [
+          120,
+          128
+        ],
+        [
+          96,
+          118
+        ],
+        [
+          101,
+          114
+        ],
+        [
+          65,
+          95
+        ],
+        [
+          72,
+          91
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          240,
+          74
+        ],
+        [
+          248,
+          68
+        ],
+        [
+          265,
+          97
+        ],
+        [
+          270,
+          95
+        ],
+        [
+          275,
+          112
+        ],
+        [
+          258,
+          107
+        ],
+        [
+          259,
+          98
+        ],
+        [
+          239,
+          73
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          312,
+          77
+        ],
+        [
+          322,
+          72
+        ],
+        [
+          338,
+          97
+        ],
+        [
+          341,
+          94
+        ],
+        [
+          346,
+          109
+        ],
+        [
+          328,
+          103
+        ],
+        [
+          332,
+          100
+        ],
+        [
+          313,
+          76
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          361,
+          156
+        ],
+        [
+          368,
+          152
+        ],
+        [
+          391,
+          203
+        ],
+        [
+          395,
+          196
+        ],
+        [
+          397,
+          217
+        ],
+        [
+          382,
+          203
+        ],
+        [
+          384,
+          199
+        ],
+        [
+          361,
+          152
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          568,
+          167
+        ],
+        [
+          576,
+          164
+        ],
+        [
+          576,
+          220
+        ],
+        [
+          581,
+          221
+        ],
+        [
+          566,
+          230
+        ],
+        [
+          563,
+          216
+        ],
+        [
+          571,
+          216
+        ],
+        [
+          569,
+          167
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          460,
+          203
+        ],
+        [
+          461,
+          210
+        ],
+        [
+          473,
+          211
+        ],
+        [
+          482,
+          222
+        ],
+        [
+          475,
+          223
+        ],
+        [
+          485,
+          234
+        ],
+        [
+          488,
+          217
+        ],
+        [
+          485,
+          217
+        ],
+        [
+          475,
+          206
+        ],
+        [
+          462,
+          203
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          302,
+          155
+        ],
+        [
+          312,
+          150
+        ],
+        [
+          330,
+          193
+        ],
+        [
+          337,
+          188
+        ],
+        [
+          340,
+          214
+        ],
+        [
+          323,
+          202
+        ],
+        [
+          326,
+          197
+        ],
+        [
+          306,
+          155
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H4",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H5",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H6",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H7",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0",
+      "type": "arrowDescriptor",
+      "source": "T0",
+      "target": "A0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T4",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T5",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "material washed into the sea or blown in by wind land sea plant and animal material dies layers of sediment form over time the bottom layers turn into rock"
+  },
+  "questions": [
+    {
+      "question_text": "The bottom layers turn into what?",
+      "question_id": "1358.png-0",
+      "answers": [
+        "Rock",
+        "More air",
+        "More fish",
+        "More water"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

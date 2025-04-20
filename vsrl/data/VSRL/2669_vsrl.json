@@ -1,0 +1,696 @@
+{
+  "image_id": "2669",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          227
+        ],
+        [
+          176,
+          287
+        ]
+      ],
+      "value": "At perigee, the Moon is closer to the Earth and looks slightly larger",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          367,
+          366
+        ],
+        [
+          566,
+          409
+        ]
+      ],
+      "value": "Moon's Orbit is elliptical (greatly exaggerated here)",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          227,
+          149
+        ],
+        [
+          284,
+          173
+        ]
+      ],
+      "value": "Perigee",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          358,
+          229
+        ],
+        [
+          406,
+          251
+        ]
+      ],
+      "value": "Earth",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          206,
+          184
+        ],
+        [
+          309,
+          206
+        ]
+      ],
+      "value": "362,570 km",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          531,
+          160
+        ],
+        [
+          592,
+          179
+        ]
+      ],
+      "value": "Apogee",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          515,
+          187
+        ],
+        [
+          619,
+          209
+        ]
+      ],
+      "value": "405,410 km",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          776,
+          220
+        ],
+        [
+          964,
+          288
+        ]
+      ],
+      "value": "at apogee, the Moon is farther from the Earth and looks slightly smaller",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          324,
+          175
+        ],
+        [
+          337,
+          151
+        ],
+        [
+          362,
+          139
+        ],
+        [
+          389,
+          142
+        ],
+        [
+          403,
+          162
+        ],
+        [
+          409,
+          184
+        ],
+        [
+          402,
+          206
+        ],
+        [
+          385,
+          220
+        ],
+        [
+          357,
+          221
+        ],
+        [
+          338,
+          210
+        ],
+        [
+          328,
+          191
+        ],
+        [
+          323,
+          175
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          812,
+          216
+        ],
+        [
+          828,
+          212
+        ],
+        [
+          838,
+          197
+        ],
+        [
+          841,
+          180
+        ],
+        [
+          832,
+          168
+        ],
+        [
+          821,
+          161
+        ],
+        [
+          807,
+          159
+        ],
+        [
+          787,
+          165
+        ],
+        [
+          783,
+          177
+        ],
+        [
+          782,
+          189
+        ],
+        [
+          788,
+          204
+        ],
+        [
+          800,
+          212
+        ],
+        [
+          810,
+          216
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          50,
+          199
+        ],
+        [
+          43,
+          173
+        ],
+        [
+          54,
+          150
+        ],
+        [
+          75,
+          132
+        ],
+        [
+          106,
+          132
+        ],
+        [
+          130,
+          146
+        ],
+        [
+          138,
+          166
+        ],
+        [
+          140,
+          190
+        ],
+        [
+          130,
+          202
+        ],
+        [
+          116,
+          219
+        ],
+        [
+          116,
+          218
+        ],
+        [
+          92,
+          222
+        ],
+        [
+          74,
+          221
+        ],
+        [
+          61,
+          212
+        ],
+        [
+          50,
+          201
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          325,
+          174
+        ],
+        [
+          162,
+          174
+        ],
+        [
+          161,
+          189
+        ],
+        [
+          325,
+          188
+        ],
+        [
+          325,
+          176
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          410,
+          174
+        ],
+        [
+          766,
+          174
+        ],
+        [
+          766,
+          190
+        ],
+        [
+          410,
+          189
+        ],
+        [
+          410,
+          174
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          284,
+          322
+        ],
+        [
+          189,
+          258
+        ],
+        [
+          159,
+          183
+        ],
+        [
+          191,
+          103
+        ],
+        [
+          256,
+          54
+        ],
+        [
+          358,
+          17
+        ],
+        [
+          473,
+          6
+        ],
+        [
+          576,
+          19
+        ],
+        [
+          683,
+          62
+        ],
+        [
+          745,
+          113
+        ],
+        [
+          767,
+          175
+        ],
+        [
+          749,
+          243
+        ],
+        [
+          667,
+          311
+        ],
+        [
+          569,
+          347
+        ],
+        [
+          456,
+          357
+        ],
+        [
+          365,
+          347
+        ],
+        [
+          328,
+          339
+        ],
+        [
+          329,
+          347
+        ],
+        [
+          439,
+          362
+        ],
+        [
+          580,
+          352
+        ],
+        [
+          671,
+          313
+        ],
+        [
+          752,
+          253
+        ],
+        [
+          773,
+          188
+        ],
+        [
+          767,
+          146
+        ],
+        [
+          745,
+          104
+        ],
+        [
+          692,
+          58
+        ],
+        [
+          575,
+          9
+        ],
+        [
+          484,
+          0
+        ],
+        [
+          360,
+          10
+        ],
+        [
+          284,
+          33
+        ],
+        [
+          234,
+          58
+        ],
+        [
+          178,
+          109
+        ],
+        [
+          158,
+          157
+        ],
+        [
+          151,
+          193
+        ],
+        [
+          178,
+          255
+        ],
+        [
+          252,
+          317
+        ],
+        [
+          284,
+          332
+        ],
+        [
+          282,
+          341
+        ],
+        [
+          323,
+          338
+        ],
+        [
+          301,
+          318
+        ],
+        [
+          292,
+          324
+        ],
+        [
+          287,
+          322
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+B2",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T7+B1",
+      "type": "intraObjectLabel",
+      "source": "T7",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "at perigee, the moon is closer to the earth and looks slightly larger moon's orbit is elliptical (greatly exaggerated here) perigee earth 362,570 km apogee 405,410 km at apogee, the moon is farther from the earth and looks slightly smaller"
+  },
+  "questions": [
+    {
+      "question_text": "F is labeled what?",
+      "question_id": "2669.png-2",
+      "answers": [
+        "Sun",
+        "Earth",
+        "None of the above",
+        "Moon"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is apogee?",
+      "question_id": "2669.png-1",
+      "answers": [
+        "405,140 km",
+        "410,405 km",
+        "401,510 km",
+        "405,410 km"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is the moons' perigee distance from the earth?",
+      "question_id": "2669.png-4",
+      "answers": [
+        "none of the above",
+        "289,829 km",
+        "362,570 km",
+        "234,949 km"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the shape of the moon's orbit?",
+      "question_id": "2669.png-3",
+      "answers": [
+        "square",
+        "none of the above",
+        "rectangular",
+        "elliptical"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which direction does the moon orbit the earth?",
+      "question_id": "2669.png-0",
+      "answers": [
+        "Neither",
+        "Clockwise",
+        "Both",
+        "Counter clockwise"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "what is perigee?",
+      "question_id": "2669.png-5",
+      "answers": [
+        "362,750 km",
+        "362,570 km",
+        "672,570 km",
+        "725,366 km"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

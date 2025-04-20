@@ -1,0 +1,458 @@
+{
+  "image_id": "4765",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          22,
+          152
+        ],
+        [
+          64,
+          169
+        ]
+      ],
+      "value": "ENTIRE",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          121,
+          154
+        ],
+        [
+          170,
+          167
+        ]
+      ],
+      "value": "SERRATE",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          237,
+          152
+        ],
+        [
+          291,
+          168
+        ]
+      ],
+      "value": "DENTATE",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          354,
+          152
+        ],
+        [
+          393,
+          167
+        ]
+      ],
+      "value": "LOBED",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          439,
+          153
+        ],
+        [
+          500,
+          169
+        ]
+      ],
+      "value": "REVOLUTE",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          39,
+          145
+        ],
+        [
+          45,
+          145
+        ],
+        [
+          45,
+          7
+        ],
+        [
+          26,
+          21
+        ],
+        [
+          10,
+          49
+        ],
+        [
+          6,
+          83
+        ],
+        [
+          17,
+          117
+        ],
+        [
+          38,
+          142
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          135,
+          145
+        ],
+        [
+          138,
+          135
+        ],
+        [
+          112,
+          107
+        ],
+        [
+          107,
+          91
+        ],
+        [
+          105,
+          69
+        ],
+        [
+          108,
+          40
+        ],
+        [
+          114,
+          26
+        ],
+        [
+          128,
+          14
+        ],
+        [
+          150,
+          2
+        ],
+        [
+          150,
+          149
+        ],
+        [
+          138,
+          148
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          257,
+          147
+        ],
+        [
+          257,
+          137
+        ],
+        [
+          232,
+          113
+        ],
+        [
+          223,
+          87
+        ],
+        [
+          221,
+          64
+        ],
+        [
+          232,
+          27
+        ],
+        [
+          267,
+          3
+        ],
+        [
+          267,
+          149
+        ],
+        [
+          259,
+          149
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          379,
+          0
+        ],
+        [
+          368,
+          13
+        ],
+        [
+          360,
+          9
+        ],
+        [
+          350,
+          23
+        ],
+        [
+          351,
+          37
+        ],
+        [
+          356,
+          45
+        ],
+        [
+          341,
+          43
+        ],
+        [
+          334,
+          54
+        ],
+        [
+          339,
+          74
+        ],
+        [
+          345,
+          83
+        ],
+        [
+          334,
+          92
+        ],
+        [
+          338,
+          112
+        ],
+        [
+          351,
+          118
+        ],
+        [
+          371,
+          132
+        ],
+        [
+          376,
+          152
+        ],
+        [
+          383,
+          152
+        ],
+        [
+          383,
+          0
+        ],
+        [
+          380,
+          0
+        ]
+      ],
+      "category": "object"
+    },
+    "B4": {
+      "id": "B4",
+      "type": "blob",
+      "polygon": [
+        [
+          480,
+          2
+        ],
+        [
+          468,
+          11
+        ],
+        [
+          440,
+          61
+        ],
+        [
+          436,
+          80
+        ],
+        [
+          435,
+          110
+        ],
+        [
+          442,
+          130
+        ],
+        [
+          453,
+          143
+        ],
+        [
+          464,
+          141
+        ],
+        [
+          469,
+          124
+        ],
+        [
+          468,
+          119
+        ],
+        [
+          475,
+          123
+        ],
+        [
+          478,
+          141
+        ],
+        [
+          478,
+          151
+        ],
+        [
+          486,
+          153
+        ],
+        [
+          484,
+          0
+        ],
+        [
+          480,
+          0
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+B0",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B1",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B2",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B3",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B4",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B4",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "B4": "whole"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "entire serrate dentate lobed revolute"
+  },
+  "questions": [
+    {
+      "question_text": "Which of the leaf types shown is rolled backwards?",
+      "question_id": "4765.png-0",
+      "answers": [
+        "Dentate",
+        "Serrate",
+        "Revolute",
+        "Entire"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which of these shown has serrated teeth?",
+      "question_id": "4765.png-1",
+      "answers": [
+        "Entire",
+        "Serrate",
+        "Lobed",
+        "Revolute"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

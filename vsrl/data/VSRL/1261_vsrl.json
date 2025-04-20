@@ -1,0 +1,770 @@
+{
+  "image_id": "1261",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          144,
+          237
+        ],
+        [
+          275,
+          272
+        ]
+      ],
+      "value": "sunlight",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          470,
+          534
+        ],
+        [
+          691,
+          568
+        ]
+      ],
+      "value": "carbon dioxide",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          293,
+          622
+        ],
+        [
+          394,
+          658
+        ]
+      ],
+      "value": "water",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          179,
+          678
+        ],
+        [
+          139,
+          632
+        ],
+        [
+          120,
+          507
+        ],
+        [
+          118,
+          478
+        ],
+        [
+          90,
+          392
+        ],
+        [
+          106,
+          387
+        ],
+        [
+          141,
+          362
+        ],
+        [
+          171,
+          466
+        ],
+        [
+          181,
+          499
+        ],
+        [
+          210,
+          486
+        ],
+        [
+          235,
+          474
+        ],
+        [
+          245,
+          438
+        ],
+        [
+          270,
+          366
+        ],
+        [
+          362,
+          309
+        ],
+        [
+          477,
+          290
+        ],
+        [
+          542,
+          306
+        ],
+        [
+          619,
+          322
+        ],
+        [
+          674,
+          315
+        ],
+        [
+          613,
+          355
+        ],
+        [
+          509,
+          429
+        ],
+        [
+          443,
+          458
+        ],
+        [
+          298,
+          480
+        ],
+        [
+          227,
+          498
+        ],
+        [
+          202,
+          510
+        ],
+        [
+          198,
+          530
+        ],
+        [
+          190,
+          550
+        ],
+        [
+          216,
+          626
+        ],
+        [
+          242,
+          666
+        ],
+        [
+          181,
+          682
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          222,
+          122
+        ],
+        [
+          206,
+          142
+        ],
+        [
+          206,
+          165
+        ],
+        [
+          240,
+          139
+        ],
+        [
+          242,
+          155
+        ],
+        [
+          243,
+          178
+        ],
+        [
+          254,
+          173
+        ],
+        [
+          258,
+          155
+        ],
+        [
+          258,
+          141
+        ],
+        [
+          266,
+          138
+        ],
+        [
+          282,
+          171
+        ],
+        [
+          283,
+          171
+        ],
+        [
+          291,
+          178
+        ],
+        [
+          290,
+          163
+        ],
+        [
+          288,
+          134
+        ],
+        [
+          307,
+          144
+        ],
+        [
+          322,
+          144
+        ],
+        [
+          331,
+          149
+        ],
+        [
+          331,
+          149
+        ],
+        [
+          310,
+          122
+        ],
+        [
+          317,
+          115
+        ],
+        [
+          347,
+          117
+        ],
+        [
+          301,
+          102
+        ],
+        [
+          323,
+          93
+        ],
+        [
+          379,
+          77
+        ],
+        [
+          347,
+          78
+        ],
+        [
+          326,
+          83
+        ],
+        [
+          315,
+          66
+        ],
+        [
+          322,
+          58
+        ],
+        [
+          322,
+          37
+        ],
+        [
+          288,
+          59
+        ],
+        [
+          288,
+          59
+        ],
+        [
+          282,
+          53
+        ],
+        [
+          278,
+          18
+        ],
+        [
+          277,
+          13
+        ],
+        [
+          262,
+          38
+        ],
+        [
+          259,
+          50
+        ],
+        [
+          240,
+          8
+        ],
+        [
+          224,
+          18
+        ],
+        [
+          226,
+          43
+        ],
+        [
+          230,
+          59
+        ],
+        [
+          211,
+          53
+        ],
+        [
+          186,
+          32
+        ],
+        [
+          190,
+          70
+        ],
+        [
+          194,
+          80
+        ],
+        [
+          187,
+          82
+        ],
+        [
+          170,
+          99
+        ],
+        [
+          194,
+          101
+        ],
+        [
+          203,
+          104
+        ],
+        [
+          192,
+          117
+        ],
+        [
+          179,
+          131
+        ],
+        [
+          173,
+          138
+        ],
+        [
+          197,
+          141
+        ],
+        [
+          213,
+          125
+        ],
+        [
+          226,
+          125
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          598,
+          512
+        ],
+        [
+          584,
+          429
+        ],
+        [
+          603,
+          429
+        ],
+        [
+          619,
+          514
+        ],
+        [
+          603,
+          514
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          526,
+          438
+        ],
+        [
+          547,
+          434
+        ],
+        [
+          563,
+          509
+        ],
+        [
+          541,
+          518
+        ],
+        [
+          526,
+          442
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          554,
+          432
+        ],
+        [
+          576,
+          429
+        ],
+        [
+          592,
+          509
+        ],
+        [
+          570,
+          518
+        ],
+        [
+          554,
+          430
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          171,
+          578
+        ],
+        [
+          210,
+          602
+        ],
+        [
+          216,
+          586
+        ],
+        [
+          277,
+          595
+        ],
+        [
+          283,
+          581
+        ],
+        [
+          219,
+          571
+        ],
+        [
+          222,
+          562
+        ],
+        [
+          170,
+          571
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          333,
+          304
+        ],
+        [
+          270,
+          205
+        ],
+        [
+          286,
+          194
+        ],
+        [
+          362,
+          302
+        ],
+        [
+          336,
+          318
+        ],
+        [
+          330,
+          306
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          294,
+          170
+        ],
+        [
+          306,
+          165
+        ],
+        [
+          384,
+          286
+        ],
+        [
+          368,
+          301
+        ],
+        [
+          286,
+          173
+        ],
+        [
+          286,
+          173
+        ],
+        [
+          294,
+          170
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          323,
+          168
+        ],
+        [
+          336,
+          162
+        ],
+        [
+          411,
+          277
+        ],
+        [
+          386,
+          286
+        ],
+        [
+          318,
+          173
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H4",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H5",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H6",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B1+A4+B0",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B0",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "B1+A5+B0",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B0",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "B1+A6+B0",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B0",
+      "connector": "A6",
+      "directional": true
+    },
+    {
+      "id": "T0+A4",
+      "type": "arrowDescriptor",
+      "source": "T0",
+      "target": "A4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A0",
+      "type": "arrowDescriptor",
+      "source": "T1",
+      "target": "A0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+A3+B0",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A3",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector"
+  },
+  "educational_context": {
+    "subject": "physics",
+    "diagram_type": "flow_diagram",
+    "text_content": "sunlight carbon dioxide water"
+  },
+  "questions": [
+    {
+      "question_text": "Carbon Dioxide is represented by which letter?",
+      "question_id": "1261.png-0",
+      "answers": [
+        "C",
+        "B",
+        "A",
+        "{}"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "What do plants carry through their stem?",
+      "question_id": "1261.png-1",
+      "answers": [
+        "Carbon Dioxide",
+        "Sun",
+        "Water",
+        "Light"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

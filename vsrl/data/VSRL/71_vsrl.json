@@ -1,0 +1,826 @@
+{
+  "image_id": "71",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          278,
+          13
+        ],
+        [
+          386,
+          39
+        ]
+      ],
+      "value": "Combustion",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          270,
+          98
+        ],
+        [
+          494,
+          123
+        ]
+      ],
+      "value": "Respiration & Metabolism",
+      "replacementText": "K",
+      "category": "label"
+    },
+    "T10": {
+      "id": "T10",
+      "type": "text",
+      "bbox": [
+        [
+          138,
+          527
+        ],
+        [
+          516,
+          554
+        ]
+      ],
+      "value": "Basic Carbon Cycle Flow Diagram",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          580,
+          26
+        ],
+        [
+          628,
+          47
+        ]
+      ],
+      "value": "Fuel",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          22,
+          253
+        ],
+        [
+          227,
+          313
+        ]
+      ],
+      "value": "CO2 in atmosphere and dissolved in water",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          291,
+          236
+        ],
+        [
+          420,
+          263
+        ]
+      ],
+      "value": "Photosynthesis",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          502,
+          258
+        ],
+        [
+          616,
+          283
+        ]
+      ],
+      "value": "Green Plants",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          343,
+          362
+        ],
+        [
+          403,
+          384
+        ]
+      ],
+      "value": "Decay",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          471,
+          357
+        ],
+        [
+          528,
+          381
+        ]
+      ],
+      "value": "Death",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          500,
+          464
+        ],
+        [
+          580,
+          486
+        ]
+      ],
+      "value": "Animals",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          182,
+          443
+        ],
+        [
+          408,
+          468
+        ]
+      ],
+      "value": "Respiration & Metabolism",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          550,
+          241
+        ],
+        [
+          568,
+          241
+        ],
+        [
+          563,
+          120
+        ],
+        [
+          192,
+          123
+        ],
+        [
+          192,
+          209
+        ],
+        [
+          184,
+          210
+        ],
+        [
+          197,
+          232
+        ],
+        [
+          216,
+          210
+        ],
+        [
+          205,
+          210
+        ],
+        [
+          203,
+          134
+        ],
+        [
+          537,
+          134
+        ],
+        [
+          550,
+          134
+        ],
+        [
+          551,
+          244
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          597,
+          81
+        ],
+        [
+          602,
+          249
+        ],
+        [
+          615,
+          242
+        ],
+        [
+          611,
+          81
+        ],
+        [
+          618,
+          78
+        ],
+        [
+          609,
+          52
+        ],
+        [
+          594,
+          83
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          615,
+          295
+        ],
+        [
+          635,
+          296
+        ],
+        [
+          632,
+          489
+        ],
+        [
+          594,
+          485
+        ],
+        [
+          601,
+          459
+        ],
+        [
+          619,
+          455
+        ],
+        [
+          616,
+          297
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          546,
+          442
+        ],
+        [
+          568,
+          443
+        ],
+        [
+          566,
+          379
+        ],
+        [
+          446,
+          381
+        ],
+        [
+          446,
+          371
+        ],
+        [
+          422,
+          382
+        ],
+        [
+          421,
+          383
+        ],
+        [
+          447,
+          401
+        ],
+        [
+          447,
+          391
+        ],
+        [
+          553,
+          391
+        ],
+        [
+          550,
+          441
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          420,
+          348
+        ],
+        [
+          444,
+          364
+        ],
+        [
+          446,
+          352
+        ],
+        [
+          568,
+          355
+        ],
+        [
+          567,
+          297
+        ],
+        [
+          557,
+          297
+        ],
+        [
+          555,
+          341
+        ],
+        [
+          448,
+          347
+        ],
+        [
+          448,
+          336
+        ],
+        [
+          425,
+          349
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          164,
+          338
+        ],
+        [
+          181,
+          339
+        ],
+        [
+          182,
+          362
+        ],
+        [
+          325,
+          362
+        ],
+        [
+          323,
+          378
+        ],
+        [
+          162,
+          378
+        ],
+        [
+          163,
+          340
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          478,
+          464
+        ],
+        [
+          478,
+          486
+        ],
+        [
+          108,
+          480
+        ],
+        [
+          113,
+          362
+        ],
+        [
+          100,
+          357
+        ],
+        [
+          119,
+          336
+        ],
+        [
+          132,
+          360
+        ],
+        [
+          121,
+          364
+        ],
+        [
+          123,
+          467
+        ],
+        [
+          476,
+          467
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          564,
+          27
+        ],
+        [
+          560,
+          48
+        ],
+        [
+          109,
+          44
+        ],
+        [
+          108,
+          207
+        ],
+        [
+          123,
+          210
+        ],
+        [
+          104,
+          239
+        ],
+        [
+          86,
+          209
+        ],
+        [
+          98,
+          206
+        ],
+        [
+          99,
+          27
+        ],
+        [
+          564,
+          29
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          248,
+          255
+        ],
+        [
+          245,
+          275
+        ],
+        [
+          428,
+          276
+        ],
+        [
+          459,
+          274
+        ],
+        [
+          463,
+          285
+        ],
+        [
+          486,
+          267
+        ],
+        [
+          460,
+          241
+        ],
+        [
+          459,
+          263
+        ],
+        [
+          248,
+          254
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H4",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H5",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H6",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H7",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A8+H8",
+      "type": "arrowHeadTail",
+      "source": "A8",
+      "target": "H8",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A7",
+      "type": "arrowDescriptor",
+      "source": "T0",
+      "target": "A7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A0",
+      "type": "arrowDescriptor",
+      "source": "T1",
+      "target": "A0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T10+I0",
+      "type": "imageTitle",
+      "source": "T10",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+A7+T3",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T3",
+      "connector": "A7",
+      "directional": true
+    },
+    {
+      "id": "T3+A8+T5",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T5",
+      "connector": "A8",
+      "directional": true
+    },
+    {
+      "id": "T4+A8",
+      "type": "arrowDescriptor",
+      "source": "T4",
+      "target": "A8",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+A0+T3",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T3",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T5+A1+T2",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T2",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T5+A2+T8",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T8",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T5+A4+T6",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T6",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T6+A5+T3",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T3",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T7+A3",
+      "type": "arrowDescriptor",
+      "source": "T7",
+      "target": "A3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T8+A3+T6",
+      "type": "interObjectLinkage",
+      "source": "T8",
+      "target": "T6",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T8+A6+T3",
+      "type": "interObjectLinkage",
+      "source": "T8",
+      "target": "T3",
+      "connector": "A6",
+      "directional": true
+    },
+    {
+      "id": "T9+A6",
+      "type": "arrowDescriptor",
+      "source": "T9",
+      "target": "A6",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T10": "title",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "combustion respiration & metabolism basic carbon cycle flow diagram fuel co2 in atmosphere and dissolved in water photosynthesis green plants decay death animals respiration & metabolism"
+  },
+  "questions": [
+    {
+      "question_text": "What is the process in which green plants and other organisms use sunlight to synthesize foods from carbon dioxide and water?",
+      "question_id": "71.png-0",
+      "answers": [
+        "death",
+        "photosynthesis",
+        "respiration",
+        "metabolism"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

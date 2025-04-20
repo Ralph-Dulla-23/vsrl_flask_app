@@ -1,0 +1,316 @@
+{
+  "image_id": "4003",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          215,
+          29
+        ],
+        [
+          271,
+          54
+        ]
+      ],
+      "value": "Outer Core (liquid)",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          216,
+          157
+        ],
+        [
+          269,
+          183
+        ]
+      ],
+      "value": "Inner Core (solid)",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          65,
+          82
+        ],
+        [
+          94,
+          94
+        ]
+      ],
+      "value": "Core",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          61,
+          98
+        ],
+        [
+          113,
+          119
+        ]
+      ],
+      "value": "2000 ml 3000 km",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          123,
+          2
+        ],
+        [
+          159,
+          12
+        ],
+        [
+          183,
+          29
+        ],
+        [
+          202,
+          54
+        ],
+        [
+          214,
+          82
+        ],
+        [
+          219,
+          118
+        ],
+        [
+          209,
+          148
+        ],
+        [
+          190,
+          182
+        ],
+        [
+          169,
+          197
+        ],
+        [
+          126,
+          214
+        ],
+        [
+          93,
+          213
+        ],
+        [
+          58,
+          200
+        ],
+        [
+          22,
+          170
+        ],
+        [
+          6,
+          126
+        ],
+        [
+          11,
+          76
+        ],
+        [
+          33,
+          38
+        ],
+        [
+          66,
+          12
+        ],
+        [
+          121,
+          4
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          117,
+          116
+        ],
+        [
+          223,
+          162
+        ],
+        [
+          227,
+          154
+        ],
+        [
+          120,
+          107
+        ],
+        [
+          117,
+          117
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          139,
+          90
+        ],
+        [
+          217,
+          46
+        ],
+        [
+          214,
+          40
+        ],
+        [
+          134,
+          81
+        ],
+        [
+          138,
+          90
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          62,
+          111
+        ],
+        [
+          114,
+          112
+        ],
+        [
+          113,
+          104
+        ],
+        [
+          64,
+          104
+        ],
+        [
+          62,
+          108
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A2+H0",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T1+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T2+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "outer core (liquid) inner core (solid) core 2000 ml 3000 km"
+  },
+  "questions": [
+    {
+      "question_text": "\"Which label indicates/applies to D\"?",
+      "question_id": "4003.png-0",
+      "answers": [
+        "Outer Core",
+        "Core",
+        "Inner Core",
+        "Inter core"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "what is the inner core state?",
+      "question_id": "4003.png-1",
+      "answers": [
+        "solid",
+        "gas",
+        "liquid",
+        "none"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

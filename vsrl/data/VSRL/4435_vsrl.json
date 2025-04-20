@@ -1,0 +1,415 @@
+{
+  "image_id": "4435",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          10,
+          4
+        ],
+        [
+          28,
+          19
+        ]
+      ],
+      "value": "A.",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          106,
+          2
+        ],
+        [
+          126,
+          21
+        ]
+      ],
+      "value": "-",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          217,
+          1
+        ],
+        [
+          238,
+          22
+        ]
+      ],
+      "value": "C.",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          315,
+          0
+        ],
+        [
+          334,
+          19
+        ]
+      ],
+      "value": "D.",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          11,
+          66
+        ],
+        [
+          28,
+          69
+        ],
+        [
+          53,
+          79
+        ],
+        [
+          61,
+          82
+        ],
+        [
+          67,
+          72
+        ],
+        [
+          63,
+          59
+        ],
+        [
+          67,
+          49
+        ],
+        [
+          69,
+          34
+        ],
+        [
+          63,
+          28
+        ],
+        [
+          45,
+          37
+        ],
+        [
+          25,
+          43
+        ],
+        [
+          11,
+          44
+        ],
+        [
+          9,
+          48
+        ],
+        [
+          9,
+          62
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          110,
+          50
+        ],
+        [
+          135,
+          43
+        ],
+        [
+          160,
+          31
+        ],
+        [
+          177,
+          27
+        ],
+        [
+          164,
+          43
+        ],
+        [
+          150,
+          60
+        ],
+        [
+          148,
+          78
+        ],
+        [
+          131,
+          68
+        ],
+        [
+          123,
+          65
+        ],
+        [
+          113,
+          70
+        ],
+        [
+          109,
+          50
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          218,
+          29
+        ],
+        [
+          217,
+          54
+        ],
+        [
+          219,
+          75
+        ],
+        [
+          230,
+          75
+        ],
+        [
+          255,
+          68
+        ],
+        [
+          277,
+          66
+        ],
+        [
+          285,
+          58
+        ],
+        [
+          282,
+          49
+        ],
+        [
+          254,
+          40
+        ],
+        [
+          220,
+          25
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          314,
+          46
+        ],
+        [
+          318,
+          69
+        ],
+        [
+          327,
+          74
+        ],
+        [
+          334,
+          70
+        ],
+        [
+          337,
+          68
+        ],
+        [
+          345,
+          67
+        ],
+        [
+          358,
+          66
+        ],
+        [
+          371,
+          60
+        ],
+        [
+          378,
+          62
+        ],
+        [
+          387,
+          57
+        ],
+        [
+          382,
+          57
+        ],
+        [
+          415,
+          97
+        ],
+        [
+          424,
+          102
+        ],
+        [
+          412,
+          70
+        ],
+        [
+          410,
+          47
+        ],
+        [
+          423,
+          20
+        ],
+        [
+          438,
+          6
+        ],
+        [
+          423,
+          8
+        ],
+        [
+          402,
+          25
+        ],
+        [
+          389,
+          46
+        ],
+        [
+          387,
+          47
+        ],
+        [
+          382,
+          48
+        ],
+        [
+          367,
+          49
+        ],
+        [
+          358,
+          45
+        ],
+        [
+          351,
+          42
+        ],
+        [
+          344,
+          44
+        ],
+        [
+          344,
+          39
+        ],
+        [
+          335,
+          42
+        ],
+        [
+          334,
+          35
+        ],
+        [
+          322,
+          42
+        ],
+        [
+          313,
+          48
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+B0",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B1",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B2",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B3",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "a. - c. d."
+  },
+  "questions": []
+}

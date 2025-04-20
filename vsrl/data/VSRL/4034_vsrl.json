@@ -1,0 +1,488 @@
+{
+  "image_id": "4034",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          186,
+          2
+        ],
+        [
+          239,
+          14
+        ]
+      ],
+      "value": "Inner core",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          215,
+          20
+        ],
+        [
+          268,
+          32
+        ]
+      ],
+      "value": "Outer core",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          232,
+          41
+        ],
+        [
+          269,
+          52
+        ]
+      ],
+      "value": "Mantle",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          245,
+          58
+        ],
+        [
+          277,
+          73
+        ]
+      ],
+      "value": "Crust",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          163,
+          199
+        ],
+        [
+          254,
+          225
+        ]
+      ],
+      "value": "1,800 miles ( 2,900 kilometers)",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          148,
+          166
+        ],
+        [
+          241,
+          188
+        ]
+      ],
+      "value": "1,400 miles (2,250 kilometers)",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          129,
+          132
+        ],
+        [
+          220,
+          157
+        ]
+      ],
+      "value": "800 miles (1,300 kilometers)",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          200,
+          254
+        ],
+        [
+          292,
+          279
+        ]
+      ],
+      "value": "5 to 25 miles ( 8 to 40 kilometers)",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          18,
+          193
+        ],
+        [
+          8,
+          168
+        ],
+        [
+          4,
+          136
+        ],
+        [
+          9,
+          105
+        ],
+        [
+          23,
+          74
+        ],
+        [
+          44,
+          45
+        ],
+        [
+          73,
+          26
+        ],
+        [
+          103,
+          16
+        ],
+        [
+          130,
+          12
+        ],
+        [
+          168,
+          18
+        ],
+        [
+          198,
+          32
+        ],
+        [
+          218,
+          50
+        ],
+        [
+          241,
+          77
+        ],
+        [
+          252,
+          106
+        ],
+        [
+          257,
+          141
+        ],
+        [
+          247,
+          183
+        ],
+        [
+          232,
+          212
+        ],
+        [
+          201,
+          238
+        ],
+        [
+          167,
+          256
+        ],
+        [
+          130,
+          262
+        ],
+        [
+          91,
+          256
+        ],
+        [
+          51,
+          234
+        ],
+        [
+          32,
+          215
+        ],
+        [
+          19,
+          193
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          134,
+          119
+        ],
+        [
+          141,
+          122
+        ],
+        [
+          198,
+          15
+        ],
+        [
+          190,
+          11
+        ],
+        [
+          136,
+          118
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          173,
+          114
+        ],
+        [
+          181,
+          119
+        ],
+        [
+          222,
+          35
+        ],
+        [
+          215,
+          31
+        ],
+        [
+          174,
+          113
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          214,
+          94
+        ],
+        [
+          221,
+          97
+        ],
+        [
+          240,
+          56
+        ],
+        [
+          230,
+          50
+        ],
+        [
+          212,
+          93
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          238,
+          87
+        ],
+        [
+          248,
+          92
+        ],
+        [
+          255,
+          72
+        ],
+        [
+          244,
+          67
+        ],
+        [
+          239,
+          89
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T2+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T3+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T4+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T4",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T5",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T6",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T7+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T7",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "inner core outer core mantle crust 1,800 miles ( 2,900 kilometers) 1,400 miles (2,250 kilometers) 800 miles (1,300 kilometers) 5 to 25 miles ( 8 to 40 kilometers)"
+  },
+  "questions": [
+    {
+      "question_text": "What is the center part of the earth called?",
+      "question_id": "4034.png-0",
+      "answers": [
+        "Outer core",
+        "Mantle",
+        "Crust",
+        "Inner core"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the outer part of the earth called?",
+      "question_id": "4034.png-1",
+      "answers": [
+        "Outer core",
+        "Inner core",
+        "Mantle",
+        "Crust"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which is the innermost layer of the earth?",
+      "question_id": "4034.png-3",
+      "answers": [
+        "D",
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which label represents Crust?",
+      "question_id": "4034.png-2",
+      "answers": [
+        "B",
+        "C",
+        "A",
+        "D"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

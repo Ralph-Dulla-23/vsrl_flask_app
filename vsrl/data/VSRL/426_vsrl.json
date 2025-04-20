@@ -1,0 +1,552 @@
+{
+  "image_id": "426",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          12,
+          78
+        ],
+        [
+          52,
+          96
+        ]
+      ],
+      "value": "Plant",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          86,
+          71
+        ],
+        [
+          142,
+          105
+        ]
+      ],
+      "value": "Praying mantis",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          162,
+          13
+        ],
+        [
+          221,
+          34
+        ]
+      ],
+      "value": "Sparrow",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          243,
+          67
+        ],
+        [
+          287,
+          93
+        ]
+      ],
+      "value": "Eagle",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          250,
+          151
+        ],
+        [
+          297,
+          174
+        ]
+      ],
+      "value": "Snake",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          172,
+          127
+        ],
+        [
+          208,
+          148
+        ]
+      ],
+      "value": "Frog",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          58,
+          84
+        ],
+        [
+          58,
+          93
+        ],
+        [
+          86,
+          94
+        ],
+        [
+          86,
+          82
+        ],
+        [
+          59,
+          83
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          131,
+          66
+        ],
+        [
+          143,
+          75
+        ],
+        [
+          167,
+          36
+        ],
+        [
+          157,
+          29
+        ],
+        [
+          132,
+          66
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          136,
+          101
+        ],
+        [
+          143,
+          95
+        ],
+        [
+          178,
+          130
+        ],
+        [
+          170,
+          136
+        ],
+        [
+          136,
+          102
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          204,
+          128
+        ],
+        [
+          212,
+          135
+        ],
+        [
+          253,
+          94
+        ],
+        [
+          245,
+          86
+        ],
+        [
+          204,
+          127
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          209,
+          144
+        ],
+        [
+          215,
+          138
+        ],
+        [
+          250,
+          159
+        ],
+        [
+          246,
+          167
+        ],
+        [
+          209,
+          143
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          265,
+          94
+        ],
+        [
+          277,
+          95
+        ],
+        [
+          276,
+          154
+        ],
+        [
+          265,
+          153
+        ],
+        [
+          265,
+          96
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          219,
+          31
+        ],
+        [
+          226,
+          25
+        ],
+        [
+          263,
+          69
+        ],
+        [
+          256,
+          75
+        ],
+        [
+          220,
+          32
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H4",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H5",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H6",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+T1",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T1",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T1+A1+T2",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T2",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T1+A2+T5",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T5",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T2+A6+T3",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T3",
+      "connector": "A6",
+      "directional": true
+    },
+    {
+      "id": "T4+A5+T3",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T3",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T5+A3+T3",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T3",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T5+A4+T4",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T4",
+      "connector": "A4",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "plant praying mantis sparrow eagle snake frog"
+  },
+  "questions": [
+    {
+      "question_text": "According to the given food chain, what would happen if there were no plants?",
+      "question_id": "426.png-4",
+      "answers": [
+        "sparrows would increase",
+        "praying mantis would decrease",
+        "eagles would decrease",
+        "snakes will become extinct"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "According to the given food chain, which population would increase if frogs were taken out of the food chain?",
+      "question_id": "426.png-1",
+      "answers": [
+        "sparrow",
+        "snake",
+        "Praying mantis",
+        "eagle"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "One of the herbivores represented in this food web is _______ in the above food web.",
+      "question_id": "426.png-2",
+      "answers": [
+        "Sparrow",
+        "Snake",
+        "Praying mantis",
+        "Frog"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is a carnivore?",
+      "question_id": "426.png-5",
+      "answers": [
+        "plant",
+        "sun",
+        "praying mantis",
+        "snake"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is a producer?",
+      "question_id": "426.png-7",
+      "answers": [
+        "eagle",
+        "praying mantis",
+        "snake",
+        "plant"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the relationship between the praying mantis and the sparrow?",
+      "question_id": "426.png-0",
+      "answers": [
+        "competition",
+        "mutualism",
+        "prey-predator",
+        "parasite-host"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would be most directly affected if the sparrow was removed?",
+      "question_id": "426.png-8",
+      "answers": [
+        "plant",
+        "frog",
+        "snake",
+        "eagle"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would happen if all the snakes were removed?",
+      "question_id": "426.png-9",
+      "answers": [
+        "frogs would decrease",
+        "sparrow increase",
+        "eagle increase",
+        "frogs would increase"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would happen if the Praying Mantis ceased to exist?",
+      "question_id": "426.png-3",
+      "answers": [
+        "Frog population would decrease",
+        "Frog population would increase",
+        "Snake population would increase",
+        "Frog population would stay the same"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would happen to the sparrow population if the eagle population decreased?",
+      "question_id": "426.png-6",
+      "answers": [
+        "Sparrow population would stay the same",
+        "Sparrow population would increase",
+        "Eagle population would remain the same",
+        "Sparrow population would decrease"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

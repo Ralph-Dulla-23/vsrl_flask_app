@@ -1,0 +1,504 @@
+{
+  "image_id": "3379",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          23,
+          161
+        ],
+        [
+          56,
+          177
+        ]
+      ],
+      "value": "Petal",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          133,
+          10
+        ],
+        [
+          187,
+          25
+        ]
+      ],
+      "value": "Stamen",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          195,
+          33
+        ],
+        [
+          227,
+          50
+        ]
+      ],
+      "value": "Pistil",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          205,
+          171
+        ],
+        [
+          247,
+          188
+        ]
+      ],
+      "value": "Sepal",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          28,
+          94
+        ],
+        [
+          98,
+          103
+        ],
+        [
+          109,
+          94
+        ],
+        [
+          99,
+          81
+        ],
+        [
+          95,
+          70
+        ],
+        [
+          119,
+          55
+        ],
+        [
+          130,
+          64
+        ],
+        [
+          138,
+          84
+        ],
+        [
+          149,
+          72
+        ],
+        [
+          145,
+          67
+        ],
+        [
+          145,
+          58
+        ],
+        [
+          158,
+          56
+        ],
+        [
+          170,
+          60
+        ],
+        [
+          167,
+          67
+        ],
+        [
+          165,
+          75
+        ],
+        [
+          170,
+          85
+        ],
+        [
+          178,
+          71
+        ],
+        [
+          183,
+          64
+        ],
+        [
+          194,
+          62
+        ],
+        [
+          200,
+          62
+        ],
+        [
+          200,
+          71
+        ],
+        [
+          199,
+          74
+        ],
+        [
+          209,
+          71
+        ],
+        [
+          219,
+          72
+        ],
+        [
+          219,
+          75
+        ],
+        [
+          218,
+          81
+        ],
+        [
+          217,
+          85
+        ],
+        [
+          214,
+          89
+        ],
+        [
+          212,
+          92
+        ],
+        [
+          209,
+          96
+        ],
+        [
+          214,
+          101
+        ],
+        [
+          252,
+          89
+        ],
+        [
+          290,
+          83
+        ],
+        [
+          284,
+          100
+        ],
+        [
+          264,
+          112
+        ],
+        [
+          211,
+          122
+        ],
+        [
+          225,
+          127
+        ],
+        [
+          229,
+          131
+        ],
+        [
+          224,
+          139
+        ],
+        [
+          178,
+          137
+        ],
+        [
+          170,
+          152
+        ],
+        [
+          167,
+          158
+        ],
+        [
+          167,
+          188
+        ],
+        [
+          149,
+          192
+        ],
+        [
+          147,
+          158
+        ],
+        [
+          135,
+          141
+        ],
+        [
+          97,
+          138
+        ],
+        [
+          85,
+          134
+        ],
+        [
+          89,
+          124
+        ],
+        [
+          47,
+          116
+        ],
+        [
+          21,
+          95
+        ],
+        [
+          24,
+          93
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          44,
+          163
+        ],
+        [
+          79,
+          110
+        ],
+        [
+          73,
+          106
+        ],
+        [
+          37,
+          157
+        ],
+        [
+          42,
+          161
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          131,
+          76
+        ],
+        [
+          162,
+          27
+        ],
+        [
+          156,
+          22
+        ],
+        [
+          125,
+          69
+        ],
+        [
+          127,
+          71
+        ],
+        [
+          131,
+          74
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          156,
+          88
+        ],
+        [
+          199,
+          48
+        ],
+        [
+          194,
+          40
+        ],
+        [
+          152,
+          82
+        ],
+        [
+          156,
+          86
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          224,
+          176
+        ],
+        [
+          192,
+          132
+        ],
+        [
+          198,
+          126
+        ],
+        [
+          230,
+          170
+        ],
+        [
+          232,
+          171
+        ],
+        [
+          226,
+          175
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T2+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T3+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "petal stamen pistil sepal"
+  },
+  "questions": [
+    {
+      "question_text": "Which of the following is pictorized in the above diagram?",
+      "question_id": "3379.png-3",
+      "answers": [
+        "Leaf",
+        "Bird",
+        "Flower",
+        "Seed"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which of the following lies below the petal?",
+      "question_id": "3379.png-2",
+      "answers": [
+        "Anther",
+        "Stamen",
+        "Pistil",
+        "Sepal"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which region in the diagram represents the petal?",
+      "question_id": "3379.png-0",
+      "answers": [
+        "b",
+        "d",
+        "c",
+        "a"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which region in the diagram represents the stamen?",
+      "question_id": "3379.png-1",
+      "answers": [
+        "b",
+        "c",
+        "a",
+        "d"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    }
+  ]
+}

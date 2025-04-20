@@ -1,0 +1,442 @@
+{
+  "image_id": "4290",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          8,
+          132
+        ],
+        [
+          99,
+          150
+        ]
+      ],
+      "value": "Asthenosphere",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          196,
+          69
+        ],
+        [
+          295,
+          84
+        ]
+      ],
+      "value": "Continental crust",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          225,
+          9
+        ],
+        [
+          268,
+          59
+        ]
+      ],
+      "value": "Volcanic arc",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          226,
+          93
+        ],
+        [
+          297,
+          112
+        ]
+      ],
+      "value": "Lithosphere",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          10,
+          58
+        ],
+        [
+          92,
+          78
+        ]
+      ],
+      "value": "Oceanic crust",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          122,
+          24
+        ],
+        [
+          162,
+          66
+        ]
+      ],
+      "value": "Trench",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          9,
+          93
+        ],
+        [
+          78,
+          112
+        ]
+      ],
+      "value": "Lithosphere",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          2,
+          73
+        ],
+        [
+          2,
+          162
+        ],
+        [
+          303,
+          164
+        ],
+        [
+          302,
+          52
+        ],
+        [
+          295,
+          2
+        ],
+        [
+          280,
+          4
+        ],
+        [
+          264,
+          0
+        ],
+        [
+          254,
+          4
+        ],
+        [
+          239,
+          2
+        ],
+        [
+          229,
+          1
+        ],
+        [
+          213,
+          1
+        ],
+        [
+          203,
+          6
+        ],
+        [
+          186,
+          8
+        ],
+        [
+          180,
+          14
+        ],
+        [
+          90,
+          12
+        ],
+        [
+          4,
+          71
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          83,
+          114
+        ],
+        [
+          108,
+          115
+        ],
+        [
+          108,
+          101
+        ],
+        [
+          83,
+          101
+        ],
+        [
+          84,
+          112
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          158,
+          131
+        ],
+        [
+          168,
+          122
+        ],
+        [
+          187,
+          142
+        ],
+        [
+          175,
+          153
+        ],
+        [
+          160,
+          133
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          201,
+          112
+        ],
+        [
+          201,
+          100
+        ],
+        [
+          225,
+          100
+        ],
+        [
+          225,
+          113
+        ],
+        [
+          203,
+          113
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H2",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H1",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T4",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T5",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T6+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T6",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "asthenosphere continental crust volcanic arc lithosphere oceanic crust trench lithosphere"
+  },
+  "questions": [
+    {
+      "question_text": "What is above the Asthenosphere?",
+      "question_id": "4290.png-1",
+      "answers": [
+        "Oceanic Crust",
+        "Volcanic Arc",
+        "Trench",
+        "Lithosphere"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is between the Continental Crust and the Asthenosphere?",
+      "question_id": "4290.png-0",
+      "answers": [
+        "Volcanic Arc",
+        "Oceanic Crust",
+        "Trench",
+        "Lithosphere"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which label is pointing to the continental crust?",
+      "question_id": "4290.png-3",
+      "answers": [
+        "F",
+        "E",
+        "B",
+        "D"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which part of the diagram is above sea level?",
+      "question_id": "4290.png-2",
+      "answers": [
+        "B",
+        "G",
+        "C",
+        "A"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}

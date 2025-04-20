@@ -1,0 +1,710 @@
+{
+  "image_id": "2051",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          174,
+          22
+        ],
+        [
+          252,
+          42
+        ]
+      ],
+      "value": "Producer",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          55,
+          100
+        ],
+        [
+          135,
+          119
+        ]
+      ],
+      "value": "Processor",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          55,
+          187
+        ],
+        [
+          128,
+          206
+        ]
+      ],
+      "value": "Exporter",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          204,
+          196
+        ],
+        [
+          472,
+          219
+        ]
+      ],
+      "value": "Secondary Wholesaler/ Retailer",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          208,
+          105
+        ],
+        [
+          449,
+          126
+        ]
+      ],
+      "value": "Primary Wholesaler/ Retailer",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          205,
+          297
+        ],
+        [
+          282,
+          318
+        ]
+      ],
+      "value": "Retailer",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          96,
+          473
+        ],
+        [
+          193,
+          494
+        ]
+      ],
+      "value": "Institutions",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          266,
+          471
+        ],
+        [
+          359,
+          491
+        ]
+      ],
+      "value": "Consumers",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          444,
+          474
+        ],
+        [
+          539,
+          494
+        ]
+      ],
+      "value": "Restaurants",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          348,
+          19
+        ],
+        [
+          516,
+          45
+        ]
+      ],
+      "value": "Home Consumption",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          298,
+          9
+        ],
+        [
+          342,
+          9
+        ],
+        [
+          342,
+          29
+        ],
+        [
+          297,
+          27
+        ],
+        [
+          297,
+          11
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          194,
+          49
+        ],
+        [
+          194,
+          66
+        ],
+        [
+          220,
+          66
+        ],
+        [
+          219,
+          51
+        ],
+        [
+          195,
+          48
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          77,
+          135
+        ],
+        [
+          97,
+          135
+        ],
+        [
+          95,
+          181
+        ],
+        [
+          73,
+          175
+        ],
+        [
+          77,
+          138
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          162,
+          55
+        ],
+        [
+          10,
+          58
+        ],
+        [
+          10,
+          295
+        ],
+        [
+          171,
+          295
+        ],
+        [
+          173,
+          318
+        ],
+        [
+          0,
+          311
+        ],
+        [
+          0,
+          37
+        ],
+        [
+          162,
+          38
+        ],
+        [
+          168,
+          55
+        ],
+        [
+          162,
+          56
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          93,
+          79
+        ],
+        [
+          230,
+          76
+        ],
+        [
+          233,
+          89
+        ],
+        [
+          247,
+          86
+        ],
+        [
+          243,
+          64
+        ],
+        [
+          82,
+          64
+        ],
+        [
+          82,
+          81
+        ],
+        [
+          91,
+          81
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          544,
+          127
+        ],
+        [
+          545,
+          142
+        ],
+        [
+          619,
+          144
+        ],
+        [
+          618,
+          293
+        ],
+        [
+          458,
+          296
+        ],
+        [
+          458,
+          313
+        ],
+        [
+          637,
+          312
+        ],
+        [
+          634,
+          128
+        ],
+        [
+          544,
+          129
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          230,
+          142
+        ],
+        [
+          233,
+          193
+        ],
+        [
+          257,
+          192
+        ],
+        [
+          257,
+          141
+        ],
+        [
+          229,
+          142
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          228,
+          229
+        ],
+        [
+          228,
+          287
+        ],
+        [
+          265,
+          286
+        ],
+        [
+          254,
+          228
+        ],
+        [
+          229,
+          229
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          235,
+          325
+        ],
+        [
+          235,
+          376
+        ],
+        [
+          257,
+          376
+        ],
+        [
+          257,
+          325
+        ],
+        [
+          234,
+          327
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          483,
+          384
+        ],
+        [
+          483,
+          453
+        ],
+        [
+          508,
+          453
+        ],
+        [
+          502,
+          373
+        ],
+        [
+          108,
+          376
+        ],
+        [
+          108,
+          451
+        ],
+        [
+          129,
+          451
+        ],
+        [
+          128,
+          393
+        ],
+        [
+          304,
+          394
+        ],
+        [
+          308,
+          451
+        ],
+        [
+          327,
+          449
+        ],
+        [
+          322,
+          391
+        ],
+        [
+          479,
+          387
+        ],
+        [
+          482,
+          385
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H6",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H2",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H0",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H1",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H4",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H5",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H3",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A8+H7",
+      "type": "arrowHeadTail",
+      "source": "A8",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A9+H8",
+      "type": "arrowHeadTail",
+      "source": "A9",
+      "target": "H8",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+T9",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T9",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T0+A1+T4",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T4",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T0+A3+T5",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T5",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T1+A2+T2",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T2",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T1+A4+T4",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T4",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T3+A7+T5",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T5",
+      "connector": "A7",
+      "directional": true
+    },
+    {
+      "id": "T4+A5+T5",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T5",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T4+A6+T3",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T3",
+      "connector": "A6",
+      "directional": true
+    },
+    {
+      "id": "T5+A8+T6",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T6",
+      "connector": "A8",
+      "directional": true
+    },
+    {
+      "id": "T5+A9+T7",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T7",
+      "connector": "A9",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "producer processor exporter secondary wholesaler/ retailer primary wholesaler/ retailer retailer institutions consumers restaurants home consumption"
+  }
+}

@@ -1,0 +1,731 @@
+{
+  "image_id": "3407",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          21,
+          351
+        ],
+        [
+          89,
+          370
+        ]
+      ],
+      "value": "Thin Albumen",
+      "replacementText": "M",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          4,
+          326
+        ],
+        [
+          79,
+          342
+        ]
+      ],
+      "value": "Thick Albumen",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T10": {
+      "id": "T10",
+      "type": "text",
+      "bbox": [
+        [
+          349,
+          258
+        ],
+        [
+          387,
+          272
+        ]
+      ],
+      "value": "Cuticle",
+      "replacementText": "K",
+      "category": "label"
+    },
+    "T11": {
+      "id": "T11",
+      "type": "text",
+      "bbox": [
+        [
+          338,
+          229
+        ],
+        [
+          393,
+          245
+        ]
+      ],
+      "value": "Egg Shell",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T12": {
+      "id": "T12",
+      "type": "text",
+      "bbox": [
+        [
+          337,
+          308
+        ],
+        [
+          386,
+          328
+        ]
+      ],
+      "value": "Chalazae",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T13": {
+      "id": "T13",
+      "type": "text",
+      "bbox": [
+        [
+          75,
+          109
+        ],
+        [
+          114,
+          131
+        ]
+      ],
+      "value": "Air Cell",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          51,
+          262
+        ],
+        [
+          75,
+          279
+        ]
+      ],
+      "value": "Yolk",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          1,
+          230
+        ],
+        [
+          68,
+          250
+        ]
+      ],
+      "value": "Germinal Spot",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          8,
+          190
+        ],
+        [
+          78,
+          211
+        ]
+      ],
+      "value": "Yolk Membrane",
+      "replacementText": "L",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          340,
+          0
+        ],
+        [
+          431,
+          11
+        ]
+      ],
+      "value": "Inner Shell Membrane",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          342,
+          14
+        ],
+        [
+          431,
+          25
+        ]
+      ],
+      "value": "Outer Shell Membrane",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          339,
+          27
+        ],
+        [
+          386,
+          38
+        ]
+      ],
+      "value": "Egg Shell",
+      "replacementText": "N",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          329,
+          154
+        ],
+        [
+          431,
+          175
+        ]
+      ],
+      "value": "Inner Shell Membrane",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          314,
+          133
+        ],
+        [
+          422,
+          149
+        ]
+      ],
+      "value": "Outer Shell Membrane",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          196,
+          432
+        ],
+        [
+          278,
+          409
+        ],
+        [
+          325,
+          319
+        ],
+        [
+          325,
+          224
+        ],
+        [
+          293,
+          143
+        ],
+        [
+          236,
+          104
+        ],
+        [
+          164,
+          107
+        ],
+        [
+          109,
+          145
+        ],
+        [
+          81,
+          253
+        ],
+        [
+          104,
+          364
+        ],
+        [
+          192,
+          432
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          85,
+          365
+        ],
+        [
+          143,
+          366
+        ],
+        [
+          141,
+          356
+        ],
+        [
+          83,
+          357
+        ],
+        [
+          83,
+          363
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          72,
+          337
+        ],
+        [
+          157,
+          341
+        ],
+        [
+          156,
+          329
+        ],
+        [
+          74,
+          327
+        ],
+        [
+          72,
+          335
+        ]
+      ],
+      "category": "connector"
+    },
+    "A10": {
+      "id": "A10",
+      "type": "arrow",
+      "polygon": [
+        [
+          195,
+          322
+        ],
+        [
+          343,
+          323
+        ],
+        [
+          338,
+          313
+        ],
+        [
+          194,
+          315
+        ],
+        [
+          193,
+          324
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          72,
+          275
+        ],
+        [
+          185,
+          277
+        ],
+        [
+          184,
+          269
+        ],
+        [
+          68,
+          269
+        ],
+        [
+          67,
+          274
+        ],
+        [
+          70,
+          276
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          66,
+          245
+        ],
+        [
+          160,
+          247
+        ],
+        [
+          160,
+          236
+        ],
+        [
+          61,
+          235
+        ],
+        [
+          60,
+          244
+        ],
+        [
+          69,
+          244
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          74,
+          206
+        ],
+        [
+          176,
+          208
+        ],
+        [
+          174,
+          195
+        ],
+        [
+          75,
+          197
+        ],
+        [
+          74,
+          204
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          107,
+          131
+        ],
+        [
+          207,
+          128
+        ],
+        [
+          205,
+          115
+        ],
+        [
+          113,
+          114
+        ],
+        [
+          107,
+          127
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          277,
+          149
+        ],
+        [
+          317,
+          149
+        ],
+        [
+          318,
+          139
+        ],
+        [
+          274,
+          139
+        ],
+        [
+          274,
+          150
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          286,
+          170
+        ],
+        [
+          335,
+          170
+        ],
+        [
+          332,
+          159
+        ],
+        [
+          283,
+          157
+        ],
+        [
+          286,
+          169
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          317,
+          243
+        ],
+        [
+          348,
+          243
+        ],
+        [
+          350,
+          232
+        ],
+        [
+          312,
+          231
+        ],
+        [
+          313,
+          242
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          315,
+          271
+        ],
+        [
+          355,
+          272
+        ],
+        [
+          353,
+          261
+        ],
+        [
+          313,
+          259
+        ],
+        [
+          317,
+          270
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A7+H0",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T10+A9+B0",
+      "type": "intraObjectLinkage",
+      "source": "T10",
+      "target": "B0",
+      "connector": "A9",
+      "directional": false
+    },
+    {
+      "id": "T11+A8+B0",
+      "type": "intraObjectLinkage",
+      "source": "T11",
+      "target": "B0",
+      "connector": "A8",
+      "directional": false
+    },
+    {
+      "id": "T12+A10+B0",
+      "type": "intraObjectLinkage",
+      "source": "T12",
+      "target": "B0",
+      "connector": "A10",
+      "directional": false
+    },
+    {
+      "id": "T13+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T13",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T2+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T3+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T4+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T8+A7+B0",
+      "type": "intraObjectLinkage",
+      "source": "T8",
+      "target": "B0",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T9+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T9",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T10": "part_label",
+    "T11": "part_label",
+    "T12": "part_label",
+    "T13": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A10": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "thin albumen thick albumen cuticle egg shell chalazae air cell yolk germinal spot yolk membrane inner shell membrane outer shell membrane egg shell inner shell membrane outer shell membrane"
+  },
+  "questions": []
+}

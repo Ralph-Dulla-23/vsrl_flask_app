@@ -1,0 +1,444 @@
+{
+  "image_id": "2032",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          79,
+          44
+        ],
+        [
+          160,
+          85
+        ]
+      ],
+      "value": "Tertiary Consumers ",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          79,
+          93
+        ],
+        [
+          164,
+          135
+        ]
+      ],
+      "value": "Secondary consumers ",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          53,
+          141
+        ],
+        [
+          191,
+          161
+        ]
+      ],
+      "value": "Primary consumers ",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          82,
+          173
+        ],
+        [
+          160,
+          190
+        ]
+      ],
+      "value": "Producers ",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          274,
+          47
+        ],
+        [
+          320,
+          65
+        ]
+      ],
+      "value": "Snake ",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          277,
+          91
+        ],
+        [
+          319,
+          115
+        ]
+      ],
+      "value": "Frog ",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          248,
+          135
+        ],
+        [
+          352,
+          159
+        ]
+      ],
+      "value": "Grasshopper ",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          269,
+          174
+        ],
+        [
+          321,
+          196
+        ]
+      ],
+      "value": "Grass",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          289,
+          66
+        ],
+        [
+          302,
+          67
+        ],
+        [
+          303,
+          87
+        ],
+        [
+          289,
+          87
+        ],
+        [
+          291,
+          68
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          301,
+          114
+        ],
+        [
+          303,
+          129
+        ],
+        [
+          295,
+          135
+        ],
+        [
+          288,
+          132
+        ],
+        [
+          290,
+          111
+        ],
+        [
+          302,
+          114
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          303,
+          160
+        ],
+        [
+          303,
+          178
+        ],
+        [
+          294,
+          179
+        ],
+        [
+          290,
+          178
+        ],
+        [
+          291,
+          158
+        ],
+        [
+          302,
+          158
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H2",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H0",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+A0+T5",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T5",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T5+A1+T6",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T6",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T6+A2+T7",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T7",
+      "connector": "A2",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "tertiary consumers  secondary consumers  primary consumers  producers  snake  frog  grasshopper  grass"
+  },
+  "questions": [
+    {
+      "question_text": "If all the snakes were removed from this diagram what would likely happen to the rest of the species?",
+      "question_id": "2032.png-2",
+      "answers": [
+        "Grass would decrease.",
+        "Grasshoppers would also disappear.",
+        "The frog population would increase.",
+        "Nothing would happen."
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "If the frogs were removed from the pyramid, which animal would suffer in population the most?",
+      "question_id": "2032.png-8",
+      "answers": [
+        "Grasshopper",
+        "Snake",
+        "Squirrels",
+        "Grass"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the food chain shown in the diagram, which organism most directly face food shortage if all the grass burnt in fire?",
+      "question_id": "2032.png-4",
+      "answers": [
+        "frog",
+        "Snake",
+        "Bird",
+        "Grasshopper"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the food chain shown in the diagram, which organism provides energy to frog?",
+      "question_id": "2032.png-1",
+      "answers": [
+        "Snake",
+        "Grass",
+        "plants",
+        "grasshopper"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the food web shown in the diagram, which organism can be classified as herbivore?",
+      "question_id": "2032.png-3",
+      "answers": [
+        "Grass",
+        "Snake",
+        "Grasshopper",
+        "Frog"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the food web shown in the diagram, which organism is the tertiary consumer?",
+      "question_id": "2032.png-7",
+      "answers": [
+        "Snake",
+        "Frog",
+        "Grass",
+        "Grasshopper"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Part of the forest ecosystem is shown. Which is at the top of the ecosystem?",
+      "question_id": "2032.png-6",
+      "answers": [
+        "Frog",
+        "Snake",
+        "Grass",
+        "Grasshopper"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Part of the forest ecosystem is shown. Which produces energy for all others?",
+      "question_id": "2032.png-5",
+      "answers": [
+        "Grass",
+        "Frog",
+        "Snake",
+        "Grasshopper"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the best example of the energy flow in the shown food chain?",
+      "question_id": "2032.png-11",
+      "answers": [
+        "The snake relies on the grasshopper for food.",
+        "The grass is a primary energy source for the snake.",
+        "The frog relies on the snake as a source of energy.",
+        "The grasshopper relies on the grass for energy."
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the food source that all the other organisms in the diagram count on in order to survive?",
+      "question_id": "2032.png-10",
+      "answers": [
+        "snake",
+        "grasshopper",
+        "grass",
+        "frog"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which of these is the highest in the food chain in this diagram?",
+      "question_id": "2032.png-0",
+      "answers": [
+        "frog",
+        "grass",
+        "snake",
+        "grasshopper"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which of these is the lowest in the food chain in this diagram?",
+      "question_id": "2032.png-9",
+      "answers": [
+        "frog",
+        "snake",
+        "grass",
+        "grasshopper"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

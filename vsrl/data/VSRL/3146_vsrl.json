@@ -1,0 +1,296 @@
+{
+  "image_id": "3146",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          255,
+          31
+        ],
+        [
+          334,
+          55
+        ]
+      ],
+      "value": "Leaf blade",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          231,
+          124
+        ],
+        [
+          284,
+          142
+        ]
+      ],
+      "value": "Veins",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          25,
+          168
+        ],
+        [
+          12,
+          133
+        ],
+        [
+          28,
+          96
+        ],
+        [
+          62,
+          61
+        ],
+        [
+          92,
+          46
+        ],
+        [
+          121,
+          33
+        ],
+        [
+          153,
+          9
+        ],
+        [
+          163,
+          23
+        ],
+        [
+          169,
+          61
+        ],
+        [
+          185,
+          112
+        ],
+        [
+          193,
+          144
+        ],
+        [
+          189,
+          162
+        ],
+        [
+          177,
+          184
+        ],
+        [
+          154,
+          195
+        ],
+        [
+          126,
+          205
+        ],
+        [
+          101,
+          202
+        ],
+        [
+          92,
+          197
+        ],
+        [
+          70,
+          198
+        ],
+        [
+          35,
+          183
+        ],
+        [
+          26,
+          171
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          141,
+          39
+        ],
+        [
+          249,
+          40
+        ],
+        [
+          249,
+          47
+        ],
+        [
+          140,
+          46
+        ],
+        [
+          140,
+          40
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          230,
+          129
+        ],
+        [
+          141,
+          88
+        ],
+        [
+          146,
+          81
+        ],
+        [
+          234,
+          122
+        ],
+        [
+          229,
+          127
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          228,
+          143
+        ],
+        [
+          226,
+          136
+        ],
+        [
+          142,
+          158
+        ],
+        [
+          144,
+          166
+        ],
+        [
+          229,
+          144
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H2",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H0",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T1+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "leaf blade veins"
+  },
+  "questions": [
+    {
+      "question_text": "What are the veins located within?",
+      "question_id": "3146.png-1",
+      "answers": [
+        "leaf blade",
+        "stem",
+        "roots",
+        "flower"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which label represents Veins?",
+      "question_id": "3146.png-0",
+      "answers": [
+        "{}",
+        "B",
+        "{}",
+        "A"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    }
+  ]
+}

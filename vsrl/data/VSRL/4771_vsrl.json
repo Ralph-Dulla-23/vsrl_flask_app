@@ -1,0 +1,936 @@
+{
+  "image_id": "4771",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          1,
+          178
+        ],
+        [
+          38,
+          193
+        ]
+      ],
+      "value": "spike",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          49,
+          178
+        ],
+        [
+          93,
+          195
+        ]
+      ],
+      "value": "raceme",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          132,
+          178
+        ],
+        [
+          173,
+          194
+        ]
+      ],
+      "value": "corymb",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          266,
+          178
+        ],
+        [
+          345,
+          194
+        ]
+      ],
+      "value": "simple umbels",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          337,
+          134
+        ],
+        [
+          371,
+          160
+        ]
+      ],
+      "value": "flat",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          243,
+          136
+        ],
+        [
+          275,
+          160
+        ]
+      ],
+      "value": "round",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          417,
+          179
+        ],
+        [
+          514,
+          195
+        ]
+      ],
+      "value": "capitulum or head",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          539,
+          169
+        ],
+        [
+          639,
+          195
+        ]
+      ],
+      "value": "panicle (compound raceme)",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          207,
+          93
+        ],
+        [
+          207,
+          74
+        ],
+        [
+          213,
+          54
+        ],
+        [
+          224,
+          42
+        ],
+        [
+          245,
+          28
+        ],
+        [
+          270,
+          30
+        ],
+        [
+          296,
+          45
+        ],
+        [
+          308,
+          64
+        ],
+        [
+          308,
+          87
+        ],
+        [
+          301,
+          107
+        ],
+        [
+          267,
+          90
+        ],
+        [
+          267,
+          126
+        ],
+        [
+          267,
+          130
+        ],
+        [
+          254,
+          130
+        ],
+        [
+          254,
+          93
+        ],
+        [
+          212,
+          102
+        ],
+        [
+          208,
+          96
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          298,
+          38
+        ],
+        [
+          327,
+          70
+        ],
+        [
+          343,
+          76
+        ],
+        [
+          348,
+          130
+        ],
+        [
+          364,
+          129
+        ],
+        [
+          360,
+          84
+        ],
+        [
+          398,
+          60
+        ],
+        [
+          403,
+          30
+        ],
+        [
+          368,
+          30
+        ],
+        [
+          330,
+          34
+        ],
+        [
+          296,
+          37
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          408,
+          60
+        ],
+        [
+          460,
+          42
+        ],
+        [
+          524,
+          63
+        ],
+        [
+          520,
+          73
+        ],
+        [
+          471,
+          65
+        ],
+        [
+          469,
+          166
+        ],
+        [
+          462,
+          164
+        ],
+        [
+          459,
+          67
+        ],
+        [
+          417,
+          72
+        ],
+        [
+          407,
+          61
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          582,
+          0
+        ],
+        [
+          537,
+          61
+        ],
+        [
+          541,
+          85
+        ],
+        [
+          566,
+          96
+        ],
+        [
+          584,
+          109
+        ],
+        [
+          585,
+          163
+        ],
+        [
+          590,
+          164
+        ],
+        [
+          593,
+          122
+        ],
+        [
+          637,
+          122
+        ],
+        [
+          640,
+          85
+        ],
+        [
+          639,
+          55
+        ],
+        [
+          612,
+          30
+        ],
+        [
+          591,
+          6
+        ],
+        [
+          585,
+          0
+        ]
+      ],
+      "category": "object"
+    },
+    "B4": {
+      "id": "B4",
+      "type": "blob",
+      "polygon": [
+        [
+          7,
+          2
+        ],
+        [
+          2,
+          27
+        ],
+        [
+          1,
+          62
+        ],
+        [
+          3,
+          109
+        ],
+        [
+          8,
+          149
+        ],
+        [
+          11,
+          173
+        ],
+        [
+          15,
+          176
+        ],
+        [
+          25,
+          175
+        ],
+        [
+          29,
+          172
+        ],
+        [
+          32,
+          90
+        ],
+        [
+          32,
+          27
+        ],
+        [
+          25,
+          0
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "category": "object"
+    },
+    "B5": {
+      "id": "B5",
+      "type": "blob",
+      "polygon": [
+        [
+          61,
+          181
+        ],
+        [
+          77,
+          177
+        ],
+        [
+          83,
+          138
+        ],
+        [
+          97,
+          117
+        ],
+        [
+          92,
+          0
+        ],
+        [
+          63,
+          0
+        ],
+        [
+          50,
+          10
+        ],
+        [
+          47,
+          76
+        ],
+        [
+          52,
+          125
+        ],
+        [
+          61,
+          149
+        ],
+        [
+          58,
+          184
+        ]
+      ],
+      "category": "object"
+    },
+    "B6": {
+      "id": "B6",
+      "type": "blob",
+      "polygon": [
+        [
+          92,
+          0
+        ],
+        [
+          127,
+          70
+        ],
+        [
+          143,
+          85
+        ],
+        [
+          146,
+          174
+        ],
+        [
+          164,
+          175
+        ],
+        [
+          164,
+          93
+        ],
+        [
+          197,
+          62
+        ],
+        [
+          220,
+          10
+        ],
+        [
+          169,
+          0
+        ],
+        [
+          150,
+          5
+        ],
+        [
+          101,
+          8
+        ],
+        [
+          93,
+          0
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          10,
+          0
+        ],
+        [
+          11,
+          176
+        ],
+        [
+          25,
+          173
+        ],
+        [
+          23,
+          0
+        ],
+        [
+          12,
+          0
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          62,
+          0
+        ],
+        [
+          62,
+          173
+        ],
+        [
+          75,
+          171
+        ],
+        [
+          77,
+          0
+        ],
+        [
+          61,
+          0
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          100,
+          5
+        ],
+        [
+          124,
+          0
+        ],
+        [
+          144,
+          1
+        ],
+        [
+          142,
+          11
+        ],
+        [
+          100,
+          15
+        ],
+        [
+          99,
+          1
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          222,
+          56
+        ],
+        [
+          233,
+          45
+        ],
+        [
+          252,
+          43
+        ],
+        [
+          252,
+          24
+        ],
+        [
+          236,
+          28
+        ],
+        [
+          209,
+          50
+        ],
+        [
+          209,
+          58
+        ],
+        [
+          222,
+          56
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          307,
+          37
+        ],
+        [
+          348,
+          33
+        ],
+        [
+          341,
+          21
+        ],
+        [
+          299,
+          27
+        ],
+        [
+          303,
+          39
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          420,
+          51
+        ],
+        [
+          461,
+          47
+        ],
+        [
+          461,
+          33
+        ],
+        [
+          416,
+          38
+        ],
+        [
+          418,
+          50
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          580,
+          1
+        ],
+        [
+          582,
+          167
+        ],
+        [
+          596,
+          165
+        ],
+        [
+          594,
+          0
+        ],
+        [
+          581,
+          0
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H6",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H4",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H1",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H3",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H5",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H2",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+B4",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B5",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B6",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+I0",
+      "type": "sectionTitle",
+      "source": "T3",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B1",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+B0",
+      "type": "intraObjectLabel",
+      "source": "T5",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+B2",
+      "type": "intraObjectLabel",
+      "source": "T6",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T7+B3",
+      "type": "intraObjectLabel",
+      "source": "T7",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "B4": "whole",
+    "B5": "whole",
+    "B6": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector"
+  },
+  "educational_context": {
+    "subject": "chemistry",
+    "diagram_type": "flow_diagram",
+    "text_content": "spike raceme corymb simple umbels flat round capitulum or head panicle (compound raceme)"
+  },
+  "questions": [
+    {
+      "question_text": "A capitulum umbrel usually has all of its flowers where?",
+      "question_id": "4771.png-1",
+      "answers": [
+        "bottom",
+        "sides",
+        "random",
+        "top"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "which of the label show flat umbel",
+      "question_id": "4771.png-0",
+      "answers": [
+        "c",
+        "b",
+        "a",
+        "d"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "which of the label show panicle",
+      "question_id": "4771.png-2",
+      "answers": [
+        "d",
+        "c",
+        "b",
+        "a"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

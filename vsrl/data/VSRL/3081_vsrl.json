@@ -1,0 +1,566 @@
+{
+  "image_id": "3081",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          51,
+          193
+        ],
+        [
+          118,
+          216
+        ]
+      ],
+      "value": "Nucleus",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          55,
+          382
+        ],
+        [
+          159,
+          404
+        ]
+      ],
+      "value": "Mitochondrion",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          425,
+          324
+        ],
+        [
+          505,
+          343
+        ]
+      ],
+      "value": "Ribosomes",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          377,
+          388
+        ],
+        [
+          549,
+          409
+        ]
+      ],
+      "value": "EnchantedLearning.com",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          99,
+          5
+        ],
+        [
+          471,
+          34
+        ]
+      ],
+      "value": "Cross-Section of an Animal Cell",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          89,
+          50
+        ],
+        [
+          200,
+          71
+        ]
+      ],
+      "value": "Cell Membrane",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          425,
+          111
+        ],
+        [
+          502,
+          133
+        ]
+      ],
+      "value": "Cytoplasm",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          123,
+          179
+        ],
+        [
+          195,
+          98
+        ],
+        [
+          243,
+          64
+        ],
+        [
+          289,
+          45
+        ],
+        [
+          338,
+          47
+        ],
+        [
+          377,
+          61
+        ],
+        [
+          405,
+          88
+        ],
+        [
+          427,
+          125
+        ],
+        [
+          446,
+          180
+        ],
+        [
+          441,
+          270
+        ],
+        [
+          416,
+          311
+        ],
+        [
+          393,
+          347
+        ],
+        [
+          353,
+          380
+        ],
+        [
+          307,
+          395
+        ],
+        [
+          259,
+          399
+        ],
+        [
+          213,
+          394
+        ],
+        [
+          164,
+          377
+        ],
+        [
+          133,
+          346
+        ],
+        [
+          109,
+          287
+        ],
+        [
+          113,
+          232
+        ],
+        [
+          125,
+          177
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          398,
+          316
+        ],
+        [
+          404,
+          312
+        ],
+        [
+          423,
+          333
+        ],
+        [
+          427,
+          325
+        ],
+        [
+          410,
+          308
+        ],
+        [
+          414,
+          302
+        ],
+        [
+          390,
+          293
+        ],
+        [
+          394,
+          315
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          401,
+          132
+        ],
+        [
+          395,
+          154
+        ],
+        [
+          419,
+          153
+        ],
+        [
+          418,
+          143
+        ],
+        [
+          431,
+          132
+        ],
+        [
+          427,
+          117
+        ],
+        [
+          412,
+          132
+        ],
+        [
+          403,
+          132
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          193,
+          69
+        ],
+        [
+          208,
+          82
+        ],
+        [
+          202,
+          86
+        ],
+        [
+          229,
+          100
+        ],
+        [
+          219,
+          69
+        ],
+        [
+          213,
+          76
+        ],
+        [
+          200,
+          63
+        ],
+        [
+          194,
+          67
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          121,
+          211
+        ],
+        [
+          238,
+          209
+        ],
+        [
+          237,
+          217
+        ],
+        [
+          262,
+          207
+        ],
+        [
+          239,
+          192
+        ],
+        [
+          238,
+          199
+        ],
+        [
+          121,
+          200
+        ],
+        [
+          123,
+          212
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          164,
+          394
+        ],
+        [
+          191,
+          366
+        ],
+        [
+          201,
+          371
+        ],
+        [
+          203,
+          346
+        ],
+        [
+          183,
+          353
+        ],
+        [
+          182,
+          359
+        ],
+        [
+          156,
+          389
+        ],
+        [
+          164,
+          395
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H4",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H3",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H2",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H0",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T1+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T2+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T3+I0",
+      "type": "misc",
+      "source": "T3",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+I0",
+      "type": "imageTitle",
+      "source": "T4",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T6+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "title",
+    "T5": "part_label",
+    "T6": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "nucleus mitochondrion ribosomes enchantedlearning.com cross-section of an animal cell cell membrane cytoplasm"
+  },
+  "questions": [
+    {
+      "question_text": "What is the outer border of the cell?",
+      "question_id": "3081.png-1",
+      "answers": [
+        "Cytoplasm",
+        "Mitochondrion",
+        "Nucleus",
+        "Cell membrane"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which of the following forms the center of the cell?",
+      "question_id": "3081.png-0",
+      "answers": [
+        "E",
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which part is responsible for converting food to usable energy?",
+      "question_id": "3081.png-2",
+      "answers": [
+        "Cell membrane",
+        "Mitochondrion",
+        "Nucleusc",
+        "Ribosome"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

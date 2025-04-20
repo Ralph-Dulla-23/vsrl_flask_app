@@ -1,0 +1,1158 @@
+{
+  "image_id": "2770",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          235,
+          10
+        ],
+        [
+          295,
+          26
+        ]
+      ],
+      "value": "Plants",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          80,
+          69
+        ],
+        [
+          170,
+          118
+        ]
+      ],
+      "value": "Do not have differentiated plant body",
+      "replacementText": "O",
+      "category": "label"
+    },
+    "T10": {
+      "id": "T10",
+      "type": "text",
+      "bbox": [
+        [
+          339,
+          379
+        ],
+        [
+          462,
+          399
+        ]
+      ],
+      "value": "Bear naked seeds",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T11": {
+      "id": "T11",
+      "type": "text",
+      "bbox": [
+        [
+          349,
+          431
+        ],
+        [
+          456,
+          453
+        ]
+      ],
+      "value": "Gymnosperms",
+      "replacementText": "K",
+      "category": "label"
+    },
+    "T12": {
+      "id": "T12",
+      "type": "text",
+      "bbox": [
+        [
+          598,
+          376
+        ],
+        [
+          686,
+          406
+        ]
+      ],
+      "value": "Bear seeds inside fruits",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T13": {
+      "id": "T13",
+      "type": "text",
+      "bbox": [
+        [
+          595,
+          433
+        ],
+        [
+          689,
+          452
+        ]
+      ],
+      "value": "Angiosperms",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T14": {
+      "id": "T14",
+      "type": "text",
+      "bbox": [
+        [
+          414,
+          510
+        ],
+        [
+          495,
+          558
+        ]
+      ],
+      "value": "Have seeds with two cotyledons",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T15": {
+      "id": "T15",
+      "type": "text",
+      "bbox": [
+        [
+          428,
+          588
+        ],
+        [
+          482,
+          605
+        ]
+      ],
+      "value": "Dicots",
+      "replacementText": "P",
+      "category": "label"
+    },
+    "T16": {
+      "id": "T16",
+      "type": "text",
+      "bbox": [
+        [
+          658,
+          513
+        ],
+        [
+          736,
+          557
+        ]
+      ],
+      "value": "Have seeds with one cotyledon",
+      "replacementText": "R",
+      "category": "label"
+    },
+    "T17": {
+      "id": "T17",
+      "type": "text",
+      "bbox": [
+        [
+          662,
+          588
+        ],
+        [
+          736,
+          606
+        ]
+      ],
+      "value": "Monocots",
+      "replacementText": "Q",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          84,
+          150
+        ],
+        [
+          164,
+          170
+        ]
+      ],
+      "value": "Thallophyta",
+      "replacementText": "M",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          337,
+          68
+        ],
+        [
+          473,
+          100
+        ]
+      ],
+      "value": "Have differentiated plant body",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          239,
+          164
+        ],
+        [
+          375,
+          196
+        ]
+      ],
+      "value": "Without specialised vascular tissue",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          271,
+          222
+        ],
+        [
+          346,
+          243
+        ]
+      ],
+      "value": "Bryophyta",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          474,
+          161
+        ],
+        [
+          570,
+          195
+        ]
+      ],
+      "value": "With vascular tissue",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          106,
+          291
+        ],
+        [
+          249,
+          314
+        ]
+      ],
+      "value": "Do not produce seeds",
+      "replacementText": "N",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          133,
+          345
+        ],
+        [
+          221,
+          362
+        ]
+      ],
+      "value": "Pteridophyta",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          487,
+          293
+        ],
+        [
+          690,
+          312
+        ]
+      ],
+      "value": "Produce seeds - Phanerogams",
+      "replacementText": "L",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          391,
+          72
+        ],
+        [
+          414,
+          73
+        ],
+        [
+          411,
+          35
+        ],
+        [
+          272,
+          34
+        ],
+        [
+          271,
+          21
+        ],
+        [
+          256,
+          21
+        ],
+        [
+          258,
+          34
+        ],
+        [
+          119,
+          35
+        ],
+        [
+          118,
+          70
+        ],
+        [
+          130,
+          73
+        ],
+        [
+          134,
+          47
+        ],
+        [
+          303,
+          51
+        ],
+        [
+          394,
+          50
+        ],
+        [
+          390,
+          71
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          393,
+          95
+        ],
+        [
+          411,
+          95
+        ],
+        [
+          412,
+          130
+        ],
+        [
+          395,
+          130
+        ],
+        [
+          392,
+          94
+        ]
+      ],
+      "category": "connector"
+    },
+    "A10": {
+      "id": "A10",
+      "type": "arrow",
+      "polygon": [
+        [
+          637,
+          449
+        ],
+        [
+          652,
+          448
+        ],
+        [
+          653,
+          481
+        ],
+        [
+          635,
+          481
+        ],
+        [
+          634,
+          449
+        ]
+      ],
+      "category": "connector"
+    },
+    "A11": {
+      "id": "A11",
+      "type": "arrow",
+      "polygon": [
+        [
+          446,
+          486
+        ],
+        [
+          445,
+          514
+        ],
+        [
+          464,
+          513
+        ],
+        [
+          461,
+          488
+        ],
+        [
+          538,
+          487
+        ],
+        [
+          692,
+          486
+        ],
+        [
+          692,
+          511
+        ],
+        [
+          708,
+          511
+        ],
+        [
+          701,
+          474
+        ],
+        [
+          622,
+          479
+        ],
+        [
+          471,
+          473
+        ],
+        [
+          442,
+          474
+        ],
+        [
+          448,
+          489
+        ]
+      ],
+      "category": "connector"
+    },
+    "A12": {
+      "id": "A12",
+      "type": "arrow",
+      "polygon": [
+        [
+          295,
+          190
+        ],
+        [
+          325,
+          193
+        ],
+        [
+          317,
+          225
+        ],
+        [
+          295,
+          225
+        ],
+        [
+          294,
+          188
+        ]
+      ],
+      "category": "connector"
+    },
+    "A13": {
+      "id": "A13",
+      "type": "arrow",
+      "polygon": [
+        [
+          116,
+          112
+        ],
+        [
+          133,
+          112
+        ],
+        [
+          133,
+          151
+        ],
+        [
+          115,
+          148
+        ],
+        [
+          113,
+          114
+        ]
+      ],
+      "category": "connector"
+    },
+    "A14": {
+      "id": "A14",
+      "type": "arrow",
+      "polygon": [
+        [
+          444,
+          556
+        ],
+        [
+          466,
+          554
+        ],
+        [
+          465,
+          595
+        ],
+        [
+          445,
+          596
+        ],
+        [
+          442,
+          557
+        ]
+      ],
+      "category": "connector"
+    },
+    "A15": {
+      "id": "A15",
+      "type": "arrow",
+      "polygon": [
+        [
+          688,
+          555
+        ],
+        [
+          711,
+          556
+        ],
+        [
+          707,
+          590
+        ],
+        [
+          692,
+          593
+        ],
+        [
+          687,
+          558
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          302,
+          127
+        ],
+        [
+          412,
+          130
+        ],
+        [
+          529,
+          130
+        ],
+        [
+          531,
+          168
+        ],
+        [
+          514,
+          165
+        ],
+        [
+          519,
+          141
+        ],
+        [
+          314,
+          139
+        ],
+        [
+          316,
+          161
+        ],
+        [
+          313,
+          167
+        ],
+        [
+          299,
+          165
+        ],
+        [
+          300,
+          129
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          515,
+          193
+        ],
+        [
+          533,
+          192
+        ],
+        [
+          535,
+          261
+        ],
+        [
+          514,
+          263
+        ],
+        [
+          514,
+          190
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          177,
+          257
+        ],
+        [
+          600,
+          261
+        ],
+        [
+          601,
+          293
+        ],
+        [
+          588,
+          295
+        ],
+        [
+          589,
+          271
+        ],
+        [
+          187,
+          270
+        ],
+        [
+          186,
+          291
+        ],
+        [
+          172,
+          295
+        ],
+        [
+          168,
+          289
+        ],
+        [
+          173,
+          255
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          597,
+          310
+        ],
+        [
+          613,
+          309
+        ],
+        [
+          610,
+          344
+        ],
+        [
+          595,
+          344
+        ],
+        [
+          596,
+          311
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          392,
+          353
+        ],
+        [
+          396,
+          381
+        ],
+        [
+          408,
+          380
+        ],
+        [
+          408,
+          349
+        ],
+        [
+          637,
+          350
+        ],
+        [
+          638,
+          374
+        ],
+        [
+          651,
+          374
+        ],
+        [
+          650,
+          335
+        ],
+        [
+          582,
+          342
+        ],
+        [
+          411,
+          335
+        ],
+        [
+          392,
+          337
+        ],
+        [
+          391,
+          350
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          169,
+          309
+        ],
+        [
+          189,
+          310
+        ],
+        [
+          187,
+          345
+        ],
+        [
+          169,
+          345
+        ],
+        [
+          168,
+          310
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          394,
+          401
+        ],
+        [
+          410,
+          401
+        ],
+        [
+          408,
+          437
+        ],
+        [
+          393,
+          440
+        ],
+        [
+          394,
+          401
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          637,
+          401
+        ],
+        [
+          654,
+          401
+        ],
+        [
+          655,
+          443
+        ],
+        [
+          635,
+          439
+        ],
+        [
+          635,
+          401
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H14",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H14",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H6",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A10+H8",
+      "type": "arrowHeadTail",
+      "source": "A10",
+      "target": "H8",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A11+H13",
+      "type": "arrowHeadTail",
+      "source": "A11",
+      "target": "H13",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A12+H9",
+      "type": "arrowHeadTail",
+      "source": "A12",
+      "target": "H9",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A13+H10",
+      "type": "arrowHeadTail",
+      "source": "A13",
+      "target": "H10",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A14+H0",
+      "type": "arrowHeadTail",
+      "source": "A14",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A15+H7",
+      "type": "arrowHeadTail",
+      "source": "A15",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H12",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H12",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H15",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H15",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H11",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H11",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H4",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H1",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A8+H5",
+      "type": "arrowHeadTail",
+      "source": "A8",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A9+H2",
+      "type": "arrowHeadTail",
+      "source": "A9",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+T1",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T1",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T1+A13+T2",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T2",
+      "connector": "A13",
+      "directional": true
+    },
+    {
+      "id": "T10+A8+T11",
+      "type": "interObjectLinkage",
+      "source": "T10",
+      "target": "T11",
+      "connector": "A8",
+      "directional": true
+    },
+    {
+      "id": "T12+A9+T13",
+      "type": "interObjectLinkage",
+      "source": "T12",
+      "target": "T13",
+      "connector": "A9",
+      "directional": true
+    },
+    {
+      "id": "T13+A10+T16",
+      "type": "interObjectLinkage",
+      "source": "T13",
+      "target": "T16",
+      "connector": "A10",
+      "directional": true
+    },
+    {
+      "id": "T14+A11+T16",
+      "type": "interObjectLinkage",
+      "source": "T14",
+      "target": "T16",
+      "connector": "A11",
+      "directional": true
+    },
+    {
+      "id": "T14+A14+T15",
+      "type": "interObjectLinkage",
+      "source": "T14",
+      "target": "T15",
+      "connector": "A14",
+      "directional": true
+    },
+    {
+      "id": "T16+A15+T17",
+      "type": "interObjectLinkage",
+      "source": "T16",
+      "target": "T17",
+      "connector": "A15",
+      "directional": true
+    },
+    {
+      "id": "T4+A12+T5",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T5",
+      "connector": "A12",
+      "directional": true
+    },
+    {
+      "id": "T4+A2+T6",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T6",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T6+A3+T9",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T9",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T7+A4+T9",
+      "type": "interObjectLinkage",
+      "source": "T7",
+      "target": "T9",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T7+A7+T8",
+      "type": "interObjectLinkage",
+      "source": "T7",
+      "target": "T8",
+      "connector": "A7",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T10": "part_label",
+    "T11": "part_label",
+    "T12": "part_label",
+    "T13": "part_label",
+    "T14": "part_label",
+    "T15": "part_label",
+    "T16": "part_label",
+    "T17": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A10": "connector",
+    "A11": "connector",
+    "A12": "connector",
+    "A13": "connector",
+    "A14": "connector",
+    "A15": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "plants do not have differentiated plant body bear naked seeds gymnosperms bear seeds inside fruits angiosperms have seeds with two cotyledons dicots have seeds with one cotyledon monocots thallophyta have differentiated plant body without specialised vascular tissue bryophyta with vascular tissue do not produce seeds pteridophyta produce seeds - phanerogams"
+  }
+}

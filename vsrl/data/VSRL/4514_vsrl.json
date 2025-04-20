@@ -1,0 +1,474 @@
+{
+  "image_id": "4514",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          52,
+          36
+        ],
+        [
+          216,
+          81
+        ]
+      ],
+      "value": "BROADLEAF TREE IDENTIFICATION",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          81,
+          292
+        ],
+        [
+          258,
+          366
+        ]
+      ],
+      "value": "FABACEAE - PEA FAMILY ROBINIA PSEUDOACACIA BLACK LOCUST LEAF TYPE ALTERNATE, UNTOOTHED, PINNATE",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          280,
+          292
+        ],
+        [
+          455,
+          368
+        ]
+      ],
+      "value": "fabaceae-pea family gleditsia tricanthos honey locust leaf type: alternate, toothed, bipinnate",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          311,
+          0
+        ],
+        [
+          324,
+          19
+        ],
+        [
+          326,
+          35
+        ],
+        [
+          350,
+          14
+        ],
+        [
+          384,
+          7
+        ],
+        [
+          391,
+          34
+        ],
+        [
+          371,
+          52
+        ],
+        [
+          370,
+          57
+        ],
+        [
+          404,
+          40
+        ],
+        [
+          420,
+          57
+        ],
+        [
+          415,
+          75
+        ],
+        [
+          464,
+          78
+        ],
+        [
+          466,
+          93
+        ],
+        [
+          476,
+          123
+        ],
+        [
+          454,
+          178
+        ],
+        [
+          439,
+          207
+        ],
+        [
+          415,
+          232
+        ],
+        [
+          376,
+          230
+        ],
+        [
+          356,
+          234
+        ],
+        [
+          360,
+          271
+        ],
+        [
+          356,
+          282
+        ],
+        [
+          336,
+          284
+        ],
+        [
+          332,
+          269
+        ],
+        [
+          323,
+          207
+        ],
+        [
+          298,
+          173
+        ],
+        [
+          244,
+          146
+        ],
+        [
+          233,
+          106
+        ],
+        [
+          226,
+          68
+        ],
+        [
+          232,
+          42
+        ],
+        [
+          258,
+          27
+        ],
+        [
+          278,
+          14
+        ],
+        [
+          312,
+          0
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          215,
+          282
+        ],
+        [
+          190,
+          277
+        ],
+        [
+          168,
+          232
+        ],
+        [
+          158,
+          228
+        ],
+        [
+          148,
+          248
+        ],
+        [
+          122,
+          244
+        ],
+        [
+          101,
+          255
+        ],
+        [
+          77,
+          264
+        ],
+        [
+          17,
+          264
+        ],
+        [
+          21,
+          248
+        ],
+        [
+          17,
+          238
+        ],
+        [
+          37,
+          213
+        ],
+        [
+          70,
+          187
+        ],
+        [
+          50,
+          166
+        ],
+        [
+          47,
+          144
+        ],
+        [
+          58,
+          133
+        ],
+        [
+          89,
+          137
+        ],
+        [
+          99,
+          127
+        ],
+        [
+          115,
+          133
+        ],
+        [
+          118,
+          112
+        ],
+        [
+          142,
+          117
+        ],
+        [
+          150,
+          126
+        ],
+        [
+          157,
+          109
+        ],
+        [
+          173,
+          108
+        ],
+        [
+          177,
+          119
+        ],
+        [
+          196,
+          107
+        ],
+        [
+          202,
+          116
+        ],
+        [
+          198,
+          133
+        ],
+        [
+          208,
+          141
+        ],
+        [
+          235,
+          137
+        ],
+        [
+          246,
+          142
+        ],
+        [
+          230,
+          155
+        ],
+        [
+          248,
+          160
+        ],
+        [
+          277,
+          179
+        ],
+        [
+          280,
+          199
+        ],
+        [
+          261,
+          202
+        ],
+        [
+          238,
+          207
+        ],
+        [
+          258,
+          210
+        ],
+        [
+          268,
+          221
+        ],
+        [
+          291,
+          263
+        ],
+        [
+          299,
+          286
+        ],
+        [
+          287,
+          294
+        ],
+        [
+          272,
+          293
+        ],
+        [
+          231,
+          266
+        ],
+        [
+          205,
+          247
+        ],
+        [
+          199,
+          240
+        ],
+        [
+          213,
+          280
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B1",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "B0": "whole",
+    "B1": "whole"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "broadleaf tree identification fabaceae - pea family robinia pseudoacacia black locust leaf type alternate, untoothed, pinnate fabaceae-pea family gleditsia tricanthos honey locust leaf type: alternate, toothed, bipinnate"
+  },
+  "questions": [
+    {
+      "question_text": "Which family is the Gleditsia tricanthos located in?",
+      "question_id": "4514.png-3",
+      "answers": [
+        "Pea",
+        "tree",
+        "leaf",
+        "vine"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "which of the label show gleditsia",
+      "question_id": "4514.png-0",
+      "answers": [
+        "b",
+        "none",
+        "c",
+        "a"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "which of these show robinia",
+      "question_id": "4514.png-1",
+      "answers": [
+        "c",
+        "b",
+        "a",
+        "none"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "which plant is the tallest?",
+      "question_id": "4514.png-2",
+      "answers": [
+        "grass",
+        "amber cycophocis",
+        "Robinia pseudocacia",
+        "Gleditsia Tricanthos"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    }
+  ]
+}

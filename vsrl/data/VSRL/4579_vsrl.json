@@ -1,0 +1,280 @@
+{
+  "image_id": "4579",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          47,
+          290
+        ],
+        [
+          208,
+          312
+        ]
+      ],
+      "value": "Diameter: 12,756 km",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          98,
+          264
+        ],
+        [
+          158,
+          286
+        ]
+      ],
+      "value": "Earth",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          302,
+          291
+        ],
+        [
+          452,
+          309
+        ]
+      ],
+      "value": "Diameter: 6,792 km",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          349,
+          262
+        ],
+        [
+          400,
+          284
+        ]
+      ],
+      "value": "Mars",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          38,
+          105
+        ],
+        [
+          83,
+          69
+        ],
+        [
+          128,
+          60
+        ],
+        [
+          171,
+          70
+        ],
+        [
+          201,
+          89
+        ],
+        [
+          226,
+          130
+        ],
+        [
+          231,
+          185
+        ],
+        [
+          206,
+          226
+        ],
+        [
+          173,
+          252
+        ],
+        [
+          121,
+          261
+        ],
+        [
+          89,
+          252
+        ],
+        [
+          59,
+          233
+        ],
+        [
+          35,
+          205
+        ],
+        [
+          25,
+          169
+        ],
+        [
+          25,
+          139
+        ],
+        [
+          41,
+          105
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          326,
+          176
+        ],
+        [
+          332,
+          144
+        ],
+        [
+          332,
+          144
+        ],
+        [
+          348,
+          122
+        ],
+        [
+          384,
+          115
+        ],
+        [
+          411,
+          123
+        ],
+        [
+          431,
+          152
+        ],
+        [
+          431,
+          175
+        ],
+        [
+          427,
+          190
+        ],
+        [
+          411,
+          210
+        ],
+        [
+          383,
+          220
+        ],
+        [
+          354,
+          217
+        ],
+        [
+          338,
+          204
+        ],
+        [
+          325,
+          178
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageCaption",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+I0",
+      "type": "imageCaption",
+      "source": "T2",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B1",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "B1": "whole"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "diameter: 12,756 km earth diameter: 6,792 km mars"
+  },
+  "questions": [
+    {
+      "question_text": "What has a diameter of 12,756 km?",
+      "question_id": "4579.png-0",
+      "answers": [
+        "moon",
+        "mars",
+        "earth",
+        "none of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which is bigger between the earth and mars?",
+      "question_id": "4579.png-1",
+      "answers": [
+        "mars",
+        "earth",
+        "same size",
+        "none of the above"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

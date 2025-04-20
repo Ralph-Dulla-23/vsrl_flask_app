@@ -1,0 +1,450 @@
+{
+  "image_id": "387",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          54,
+          80
+        ],
+        [
+          76,
+          97
+        ]
+      ],
+      "value": "A ",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          174,
+          134
+        ],
+        [
+          196,
+          153
+        ]
+      ],
+      "value": "D",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          176,
+          77
+        ],
+        [
+          193,
+          95
+        ]
+      ],
+      "value": "C",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          175,
+          18
+        ],
+        [
+          191,
+          37
+        ]
+      ],
+      "value": "B",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          300,
+          18
+        ],
+        [
+          319,
+          37
+        ]
+      ],
+      "value": "E",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          304,
+          77
+        ],
+        [
+          319,
+          95
+        ]
+      ],
+      "value": "F",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          76,
+          69
+        ],
+        [
+          144,
+          32
+        ],
+        [
+          144,
+          22
+        ],
+        [
+          64,
+          69
+        ],
+        [
+          74,
+          71
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          223,
+          24
+        ],
+        [
+          272,
+          22
+        ],
+        [
+          272,
+          33
+        ],
+        [
+          224,
+          28
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          223,
+          81
+        ],
+        [
+          273,
+          81
+        ],
+        [
+          273,
+          93
+        ],
+        [
+          225,
+          91
+        ],
+        [
+          223,
+          81
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          315,
+          41
+        ],
+        [
+          316,
+          72
+        ],
+        [
+          306,
+          71
+        ],
+        [
+          305,
+          41
+        ],
+        [
+          316,
+          42
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          224,
+          135
+        ],
+        [
+          302,
+          99
+        ],
+        [
+          315,
+          101
+        ],
+        [
+          234,
+          146
+        ],
+        [
+          225,
+          144
+        ],
+        [
+          226,
+          134
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          73,
+          99
+        ],
+        [
+          146,
+          139
+        ],
+        [
+          145,
+          149
+        ],
+        [
+          135,
+          145
+        ],
+        [
+          133,
+          141
+        ],
+        [
+          62,
+          103
+        ],
+        [
+          73,
+          102
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          104,
+          89
+        ],
+        [
+          136,
+          88
+        ],
+        [
+          138,
+          93
+        ],
+        [
+          145,
+          88
+        ],
+        [
+          138,
+          78
+        ],
+        [
+          136,
+          83
+        ],
+        [
+          105,
+          84
+        ],
+        [
+          105,
+          89
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H4",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H5",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H6",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+T3",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T3",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T0+A5+T1",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T1",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T0+A6+T2",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T2",
+      "connector": "A6",
+      "directional": true
+    },
+    {
+      "id": "T2+A2+T5",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T5",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T3+A1+T4",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T4",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T4+A3+T5",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T5",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T5+A4+T1",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T1",
+      "connector": "A4",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "a  d c b e f"
+  }
+}

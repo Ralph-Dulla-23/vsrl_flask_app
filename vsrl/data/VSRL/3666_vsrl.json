@@ -1,0 +1,743 @@
+{
+  "image_id": "3666",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          307,
+          71
+        ],
+        [
+          448,
+          100
+        ]
+      ],
+      "value": "Hair shaft",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          643,
+          102
+        ],
+        [
+          920,
+          135
+        ]
+      ],
+      "value": "Pore of sweat gland",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          860,
+          188
+        ],
+        [
+          994,
+          220
+        ]
+      ],
+      "value": "Epidermis",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          885,
+          383
+        ],
+        [
+          986,
+          413
+        ]
+      ],
+      "value": "Dermis",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          865,
+          555
+        ],
+        [
+          989,
+          587
+        ]
+      ],
+      "value": "Fat layer",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          755,
+          693
+        ],
+        [
+          933,
+          729
+        ]
+      ],
+      "value": "Sweat gland",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          218,
+          703
+        ],
+        [
+          340,
+          735
+        ]
+      ],
+      "value": "Capillary",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          206,
+          446
+        ],
+        [
+          360,
+          474
+        ]
+      ],
+      "value": "Hair follicle",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          44,
+          390
+        ],
+        [
+          311,
+          426
+        ]
+      ],
+      "value": "Hair erector muscle",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          41,
+          333
+        ],
+        [
+          284,
+          363
+        ]
+      ],
+      "value": "Sebaceous gland",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          155,
+          658
+        ],
+        [
+          327,
+          663
+        ],
+        [
+          381,
+          667
+        ],
+        [
+          430,
+          643
+        ],
+        [
+          435,
+          645
+        ],
+        [
+          386,
+          721
+        ],
+        [
+          345,
+          745
+        ],
+        [
+          355,
+          762
+        ],
+        [
+          400,
+          751
+        ],
+        [
+          443,
+          684
+        ],
+        [
+          462,
+          650
+        ],
+        [
+          511,
+          667
+        ],
+        [
+          569,
+          700
+        ],
+        [
+          596,
+          682
+        ],
+        [
+          702,
+          662
+        ],
+        [
+          736,
+          634
+        ],
+        [
+          782,
+          624
+        ],
+        [
+          835,
+          586
+        ],
+        [
+          870,
+          668
+        ],
+        [
+          886,
+          659
+        ],
+        [
+          864,
+          586
+        ],
+        [
+          864,
+          556
+        ],
+        [
+          840,
+          499
+        ],
+        [
+          832,
+          313
+        ],
+        [
+          811,
+          283
+        ],
+        [
+          870,
+          259
+        ],
+        [
+          856,
+          167
+        ],
+        [
+          652,
+          172
+        ],
+        [
+          387,
+          190
+        ],
+        [
+          262,
+          68
+        ],
+        [
+          241,
+          82
+        ],
+        [
+          339,
+          185
+        ],
+        [
+          100,
+          191
+        ],
+        [
+          119,
+          303
+        ],
+        [
+          236,
+          304
+        ],
+        [
+          358,
+          388
+        ],
+        [
+          482,
+          505
+        ],
+        [
+          527,
+          564
+        ],
+        [
+          464,
+          540
+        ],
+        [
+          415,
+          542
+        ],
+        [
+          332,
+          562
+        ],
+        [
+          306,
+          560
+        ],
+        [
+          299,
+          536
+        ],
+        [
+          233,
+          552
+        ],
+        [
+          207,
+          554
+        ],
+        [
+          146,
+          554
+        ],
+        [
+          139,
+          598
+        ],
+        [
+          152,
+          655
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          275,
+          101
+        ],
+        [
+          267,
+          94
+        ],
+        [
+          312,
+          80
+        ],
+        [
+          312,
+          91
+        ],
+        [
+          276,
+          100
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          655,
+          188
+        ],
+        [
+          644,
+          189
+        ],
+        [
+          645,
+          126
+        ],
+        [
+          654,
+          126
+        ],
+        [
+          658,
+          184
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          854,
+          540
+        ],
+        [
+          876,
+          535
+        ],
+        [
+          875,
+          288
+        ],
+        [
+          849,
+          274
+        ],
+        [
+          851,
+          284
+        ],
+        [
+          864,
+          291
+        ],
+        [
+          864,
+          525
+        ],
+        [
+          850,
+          534
+        ],
+        [
+          856,
+          539
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          819,
+          554
+        ],
+        [
+          823,
+          542
+        ],
+        [
+          870,
+          565
+        ],
+        [
+          868,
+          577
+        ],
+        [
+          820,
+          553
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          688,
+          514
+        ],
+        [
+          699,
+          513
+        ],
+        [
+          770,
+          700
+        ],
+        [
+          763,
+          702
+        ],
+        [
+          691,
+          514
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          406,
+          719
+        ],
+        [
+          408,
+          711
+        ],
+        [
+          339,
+          709
+        ],
+        [
+          339,
+          717
+        ],
+        [
+          404,
+          720
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          361,
+          472
+        ],
+        [
+          360,
+          462
+        ],
+        [
+          499,
+          416
+        ],
+        [
+          503,
+          428
+        ],
+        [
+          363,
+          471
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          311,
+          412
+        ],
+        [
+          305,
+          403
+        ],
+        [
+          360,
+          373
+        ],
+        [
+          368,
+          383
+        ],
+        [
+          313,
+          413
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          280,
+          354
+        ],
+        [
+          281,
+          345
+        ],
+        [
+          397,
+          321
+        ],
+        [
+          398,
+          331
+        ],
+        [
+          281,
+          355
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T4+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T5+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T6+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T7+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T8+A7+B0",
+      "type": "intraObjectLinkage",
+      "source": "T8",
+      "target": "B0",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T9+A8+B0",
+      "type": "intraObjectLinkage",
+      "source": "T9",
+      "target": "B0",
+      "connector": "A8",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "hair shaft pore of sweat gland epidermis dermis fat layer sweat gland capillary hair follicle hair erector muscle sebaceous gland"
+  },
+  "questions": []
+}

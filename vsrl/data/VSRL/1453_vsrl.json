@@ -1,0 +1,518 @@
+{
+  "image_id": "1453",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          174,
+          81
+        ],
+        [
+          235,
+          122
+        ]
+      ],
+      "value": "Spring Tides",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          69,
+          17
+        ],
+        [
+          91,
+          24
+        ],
+        [
+          108,
+          45
+        ],
+        [
+          106,
+          73
+        ],
+        [
+          92,
+          88
+        ],
+        [
+          73,
+          97
+        ],
+        [
+          57,
+          94
+        ],
+        [
+          40,
+          86
+        ],
+        [
+          28,
+          64
+        ],
+        [
+          31,
+          38
+        ],
+        [
+          47,
+          25
+        ],
+        [
+          70,
+          18
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          66,
+          108
+        ],
+        [
+          86,
+          111
+        ],
+        [
+          102,
+          125
+        ],
+        [
+          108,
+          140
+        ],
+        [
+          107,
+          162
+        ],
+        [
+          90,
+          180
+        ],
+        [
+          71,
+          186
+        ],
+        [
+          50,
+          180
+        ],
+        [
+          32,
+          161
+        ],
+        [
+          30,
+          137
+        ],
+        [
+          43,
+          116
+        ],
+        [
+          63,
+          108
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          327,
+          29
+        ],
+        [
+          350,
+          27
+        ],
+        [
+          373,
+          34
+        ],
+        [
+          382,
+          54
+        ],
+        [
+          377,
+          74
+        ],
+        [
+          364,
+          84
+        ],
+        [
+          352,
+          86
+        ],
+        [
+          337,
+          87
+        ],
+        [
+          315,
+          77
+        ],
+        [
+          307,
+          61
+        ],
+        [
+          309,
+          43
+        ],
+        [
+          324,
+          29
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          352,
+          116
+        ],
+        [
+          372,
+          126
+        ],
+        [
+          382,
+          144
+        ],
+        [
+          381,
+          158
+        ],
+        [
+          369,
+          168
+        ],
+        [
+          354,
+          177
+        ],
+        [
+          329,
+          172
+        ],
+        [
+          310,
+          158
+        ],
+        [
+          311,
+          133
+        ],
+        [
+          333,
+          117
+        ],
+        [
+          349,
+          116
+        ]
+      ],
+      "category": "object"
+    },
+    "B4": {
+      "id": "B4",
+      "type": "blob",
+      "polygon": [
+        [
+          419,
+          138
+        ],
+        [
+          427,
+          145
+        ],
+        [
+          425,
+          154
+        ],
+        [
+          415,
+          157
+        ],
+        [
+          410,
+          148
+        ],
+        [
+          410,
+          138
+        ],
+        [
+          415,
+          138
+        ]
+      ],
+      "category": "object"
+    },
+    "B5": {
+      "id": "B5",
+      "type": "blob",
+      "polygon": [
+        [
+          272,
+          47
+        ],
+        [
+          279,
+          50
+        ],
+        [
+          281,
+          58
+        ],
+        [
+          278,
+          64
+        ],
+        [
+          270,
+          66
+        ],
+        [
+          264,
+          62
+        ],
+        [
+          263,
+          53
+        ],
+        [
+          269,
+          47
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          384,
+          141
+        ],
+        [
+          385,
+          156
+        ],
+        [
+          408,
+          150
+        ],
+        [
+          403,
+          139
+        ],
+        [
+          403,
+          139
+        ],
+        [
+          384,
+          143
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          286,
+          138
+        ],
+        [
+          287,
+          152
+        ],
+        [
+          287,
+          152
+        ],
+        [
+          310,
+          152
+        ],
+        [
+          308,
+          141
+        ],
+        [
+          286,
+          138
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          284,
+          48
+        ],
+        [
+          285,
+          71
+        ],
+        [
+          312,
+          69
+        ],
+        [
+          310,
+          50
+        ],
+        [
+          280,
+          50
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H1",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H2",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B2+A3+B5",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B5",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "B3+A0+B4",
+      "type": "interObjectLinkage",
+      "source": "B3",
+      "target": "B4",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "B4": "whole",
+    "B5": "whole",
+    "A0": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "spring tides"
+  },
+  "questions": [
+    {
+      "question_text": "What does stage A represent?",
+      "question_id": "1453.png-1",
+      "answers": [
+        "the moon",
+        "Earth",
+        "Spring Tides",
+        "the sun"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "What does this diagram represent?",
+      "question_id": "1453.png-2",
+      "answers": [
+        "The moon",
+        "The Earth",
+        "Spring Tides",
+        "The sun"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What happens at A?",
+      "question_id": "1453.png-3",
+      "answers": [
+        "Spring Tides",
+        "Summer Tides",
+        "Winter Tides",
+        "Fall Tides"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which letter shows the Spring Tides?",
+      "question_id": "1453.png-0",
+      "answers": [
+        "B",
+        "A",
+        "C",
+        "D"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

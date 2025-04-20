@@ -1,0 +1,1613 @@
+{
+  "image_id": "3585",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          106,
+          309
+        ],
+        [
+          228,
+          354
+        ]
+      ],
+      "value": "Nostril",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          107,
+          268
+        ],
+        [
+          415,
+          306
+        ]
+      ],
+      "value": "Paranasal Sinuses",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T10": {
+      "id": "T10",
+      "type": "text",
+      "bbox": [
+        [
+          1142,
+          1015
+        ],
+        [
+          1347,
+          1060
+        ]
+      ],
+      "value": "_ Diaphragm",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T11": {
+      "id": "T11",
+      "type": "text",
+      "bbox": [
+        [
+          1141,
+          865
+        ],
+        [
+          1315,
+          909
+        ]
+      ],
+      "value": "-Left Lung",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T12": {
+      "id": "T12",
+      "type": "text",
+      "bbox": [
+        [
+          1153,
+          755
+        ],
+        [
+          1268,
+          798
+        ]
+      ],
+      "value": "Alveoli",
+      "replacementText": "N",
+      "category": "label"
+    },
+    "T13": {
+      "id": "T13",
+      "type": "text",
+      "bbox": [
+        [
+          1142,
+          631
+        ],
+        [
+          1285,
+          671
+        ]
+      ],
+      "value": "-Bronchi",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T14": {
+      "id": "T14",
+      "type": "text",
+      "bbox": [
+        [
+          1023,
+          487
+        ],
+        [
+          1357,
+          577
+        ]
+      ],
+      "value": "Left Main (Primary) Bronchus",
+      "replacementText": "P",
+      "category": "label"
+    },
+    "T15": {
+      "id": "T15",
+      "type": "text",
+      "bbox": [
+        [
+          1034,
+          393
+        ],
+        [
+          1180,
+          436
+        ]
+      ],
+      "value": "Pharynx",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T16": {
+      "id": "T16",
+      "type": "text",
+      "bbox": [
+        [
+          1026,
+          309
+        ],
+        [
+          1228,
+          354
+        ]
+      ],
+      "value": "_ Oral Cavity",
+      "replacementText": "M",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          104,
+          214
+        ],
+        [
+          407,
+          254
+        ]
+      ],
+      "value": "Nasal Cavity Plus",
+      "replacementText": "O",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          107,
+          447
+        ],
+        [
+          230,
+          491
+        ]
+      ],
+      "value": "Larynx",
+      "replacementText": "K",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          17,
+          582
+        ],
+        [
+          345,
+          623
+        ]
+      ],
+      "value": "Carina of Strachea",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          118,
+          514
+        ],
+        [
+          262,
+          559
+        ]
+      ],
+      "value": "Trachea",
+      "replacementText": "L",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          34,
+          678
+        ],
+        [
+          230,
+          773
+        ]
+      ],
+      "value": "Right Main Bronchus -",
+      "replacementText": "Q",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          38,
+          839
+        ],
+        [
+          214,
+          883
+        ]
+      ],
+      "value": "Left Lung",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          17,
+          920
+        ],
+        [
+          262,
+          966
+        ]
+      ],
+      "value": "Parietal Pleura",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          61,
+          995
+        ],
+        [
+          141,
+          1035
+        ]
+      ],
+      "value": "Ribs",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          522,
+          130
+        ],
+        [
+          519,
+          121
+        ],
+        [
+          519,
+          103
+        ],
+        [
+          522,
+          83
+        ],
+        [
+          531,
+          67
+        ],
+        [
+          544,
+          61
+        ],
+        [
+          554,
+          49
+        ],
+        [
+          565,
+          38
+        ],
+        [
+          577,
+          34
+        ],
+        [
+          589,
+          28
+        ],
+        [
+          596,
+          23
+        ],
+        [
+          600,
+          21
+        ],
+        [
+          616,
+          14
+        ],
+        [
+          622,
+          14
+        ],
+        [
+          638,
+          12
+        ],
+        [
+          657,
+          12
+        ],
+        [
+          661,
+          14
+        ],
+        [
+          677,
+          15
+        ],
+        [
+          684,
+          15
+        ],
+        [
+          689,
+          14
+        ],
+        [
+          697,
+          11
+        ],
+        [
+          701,
+          11
+        ],
+        [
+          707,
+          11
+        ],
+        [
+          718,
+          11
+        ],
+        [
+          730,
+          8
+        ],
+        [
+          753,
+          8
+        ],
+        [
+          767,
+          8
+        ],
+        [
+          784,
+          11
+        ],
+        [
+          793,
+          14
+        ],
+        [
+          799,
+          14
+        ],
+        [
+          813,
+          17
+        ],
+        [
+          822,
+          18
+        ],
+        [
+          831,
+          21
+        ],
+        [
+          839,
+          24
+        ],
+        [
+          850,
+          32
+        ],
+        [
+          859,
+          38
+        ],
+        [
+          868,
+          46
+        ],
+        [
+          877,
+          55
+        ],
+        [
+          883,
+          66
+        ],
+        [
+          905,
+          87
+        ],
+        [
+          906,
+          90
+        ],
+        [
+          914,
+          100
+        ],
+        [
+          920,
+          109
+        ],
+        [
+          923,
+          115
+        ],
+        [
+          928,
+          129
+        ],
+        [
+          929,
+          136
+        ],
+        [
+          932,
+          147
+        ],
+        [
+          936,
+          170
+        ],
+        [
+          937,
+          211
+        ],
+        [
+          936,
+          224
+        ],
+        [
+          929,
+          243
+        ],
+        [
+          926,
+          253
+        ],
+        [
+          925,
+          263
+        ],
+        [
+          920,
+          277
+        ],
+        [
+          897,
+          311
+        ],
+        [
+          893,
+          322
+        ],
+        [
+          891,
+          329
+        ],
+        [
+          887,
+          335
+        ],
+        [
+          879,
+          343
+        ],
+        [
+          868,
+          349
+        ],
+        [
+          859,
+          360
+        ],
+        [
+          853,
+          366
+        ],
+        [
+          845,
+          371
+        ],
+        [
+          831,
+          384
+        ],
+        [
+          828,
+          387
+        ],
+        [
+          819,
+          397
+        ],
+        [
+          804,
+          426
+        ],
+        [
+          798,
+          446
+        ],
+        [
+          798,
+          465
+        ],
+        [
+          799,
+          479
+        ],
+        [
+          808,
+          502
+        ],
+        [
+          816,
+          518
+        ],
+        [
+          830,
+          536
+        ],
+        [
+          856,
+          550
+        ],
+        [
+          903,
+          577
+        ],
+        [
+          968,
+          596
+        ],
+        [
+          1021,
+          611
+        ],
+        [
+          1067,
+          646
+        ],
+        [
+          1081,
+          677
+        ],
+        [
+          1090,
+          700
+        ],
+        [
+          1110,
+          906
+        ],
+        [
+          960,
+          913
+        ],
+        [
+          960,
+          793
+        ],
+        [
+          942,
+          913
+        ],
+        [
+          920,
+          1041
+        ],
+        [
+          470,
+          1046
+        ],
+        [
+          436,
+          792
+        ],
+        [
+          435,
+          920
+        ],
+        [
+          296,
+          919
+        ],
+        [
+          294,
+          761
+        ],
+        [
+          315,
+          672
+        ],
+        [
+          355,
+          623
+        ],
+        [
+          415,
+          593
+        ],
+        [
+          525,
+          559
+        ],
+        [
+          589,
+          525
+        ],
+        [
+          617,
+          481
+        ],
+        [
+          625,
+          446
+        ],
+        [
+          623,
+          429
+        ],
+        [
+          588,
+          429
+        ],
+        [
+          534,
+          430
+        ],
+        [
+          522,
+          412
+        ],
+        [
+          525,
+          380
+        ],
+        [
+          518,
+          367
+        ],
+        [
+          519,
+          349
+        ],
+        [
+          525,
+          348
+        ],
+        [
+          537,
+          348
+        ],
+        [
+          524,
+          340
+        ],
+        [
+          513,
+          335
+        ],
+        [
+          516,
+          328
+        ],
+        [
+          521,
+          318
+        ],
+        [
+          522,
+          308
+        ],
+        [
+          516,
+          303
+        ],
+        [
+          508,
+          296
+        ],
+        [
+          498,
+          292
+        ],
+        [
+          493,
+          288
+        ],
+        [
+          493,
+          286
+        ],
+        [
+          490,
+          285
+        ],
+        [
+          490,
+          266
+        ],
+        [
+          495,
+          256
+        ],
+        [
+          504,
+          250
+        ],
+        [
+          511,
+          243
+        ],
+        [
+          516,
+          239
+        ],
+        [
+          521,
+          230
+        ],
+        [
+          528,
+          222
+        ],
+        [
+          524,
+          199
+        ],
+        [
+          522,
+          190
+        ],
+        [
+          519,
+          179
+        ],
+        [
+          516,
+          175
+        ],
+        [
+          516,
+          167
+        ],
+        [
+          516,
+          159
+        ],
+        [
+          516,
+          153
+        ],
+        [
+          516,
+          149
+        ],
+        [
+          524,
+          133
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          250,
+          536
+        ],
+        [
+          251,
+          559
+        ],
+        [
+          519,
+          559
+        ],
+        [
+          694,
+          626
+        ],
+        [
+          706,
+          616
+        ],
+        [
+          525,
+          536
+        ],
+        [
+          251,
+          539
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          406,
+          269
+        ],
+        [
+          407,
+          292
+        ],
+        [
+          536,
+          289
+        ],
+        [
+          536,
+          279
+        ],
+        [
+          406,
+          273
+        ]
+      ],
+      "category": "connector"
+    },
+    "A10": {
+      "id": "A10",
+      "type": "arrow",
+      "polygon": [
+        [
+          211,
+          865
+        ],
+        [
+          213,
+          882
+        ],
+        [
+          550,
+          879
+        ],
+        [
+          547,
+          868
+        ],
+        [
+          205,
+          864
+        ]
+      ],
+      "category": "connector"
+    },
+    "A11": {
+      "id": "A11",
+      "type": "arrow",
+      "polygon": [
+        [
+          334,
+          600
+        ],
+        [
+          335,
+          617
+        ],
+        [
+          501,
+          617
+        ],
+        [
+          661,
+          717
+        ],
+        [
+          671,
+          707
+        ],
+        [
+          502,
+          599
+        ],
+        [
+          323,
+          597
+        ],
+        [
+          335,
+          600
+        ]
+      ],
+      "category": "connector"
+    },
+    "A12": {
+      "id": "A12",
+      "type": "arrow",
+      "polygon": [
+        [
+          828,
+          939
+        ],
+        [
+          844,
+          920
+        ],
+        [
+          966,
+          1034
+        ],
+        [
+          1148,
+          1035
+        ],
+        [
+          1150,
+          1049
+        ],
+        [
+          954,
+          1049
+        ],
+        [
+          824,
+          939
+        ]
+      ],
+      "category": "connector"
+    },
+    "A13": {
+      "id": "A13",
+      "type": "arrow",
+      "polygon": [
+        [
+          694,
+          718
+        ],
+        [
+          706,
+          727
+        ],
+        [
+          877,
+          514
+        ],
+        [
+          1027,
+          511
+        ],
+        [
+          1023,
+          499
+        ],
+        [
+          879,
+          501
+        ],
+        [
+          868,
+          502
+        ],
+        [
+          691,
+          713
+        ]
+      ],
+      "category": "connector"
+    },
+    "A14": {
+      "id": "A14",
+      "type": "arrow",
+      "polygon": [
+        [
+          859,
+          732
+        ],
+        [
+          854,
+          743
+        ],
+        [
+          887,
+          766
+        ],
+        [
+          865,
+          761
+        ],
+        [
+          864,
+          767
+        ],
+        [
+          848,
+          772
+        ],
+        [
+          851,
+          779
+        ],
+        [
+          903,
+          775
+        ],
+        [
+          1151,
+          792
+        ],
+        [
+          1148,
+          778
+        ],
+        [
+          905,
+          764
+        ],
+        [
+          860,
+          732
+        ]
+      ],
+      "category": "connector"
+    },
+    "A15": {
+      "id": "A15",
+      "type": "arrow",
+      "polygon": [
+        [
+          159,
+          1020
+        ],
+        [
+          158,
+          1035
+        ],
+        [
+          397,
+          1032
+        ],
+        [
+          482,
+          962
+        ],
+        [
+          475,
+          952
+        ],
+        [
+          386,
+          1023
+        ],
+        [
+          159,
+          1018
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          224,
+          461
+        ],
+        [
+          225,
+          479
+        ],
+        [
+          602,
+          485
+        ],
+        [
+          680,
+          453
+        ],
+        [
+          666,
+          444
+        ],
+        [
+          599,
+          464
+        ],
+        [
+          228,
+          462
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          204,
+          746
+        ],
+        [
+          207,
+          769
+        ],
+        [
+          423,
+          764
+        ],
+        [
+          645,
+          743
+        ],
+        [
+          648,
+          727
+        ],
+        [
+          381,
+          752
+        ],
+        [
+          210,
+          749
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          689,
+          358
+        ],
+        [
+          683,
+          380
+        ],
+        [
+          851,
+          432
+        ],
+        [
+          1049,
+          432
+        ],
+        [
+          1044,
+          416
+        ],
+        [
+          862,
+          416
+        ],
+        [
+          686,
+          363
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          230,
+          325
+        ],
+        [
+          230,
+          345
+        ],
+        [
+          435,
+          343
+        ],
+        [
+          521,
+          302
+        ],
+        [
+          519,
+          292
+        ],
+        [
+          504,
+          289
+        ],
+        [
+          430,
+          329
+        ],
+        [
+          234,
+          325
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          616,
+          315
+        ],
+        [
+          616,
+          334
+        ],
+        [
+          890,
+          354
+        ],
+        [
+          1047,
+          354
+        ],
+        [
+          1047,
+          335
+        ],
+        [
+          864,
+          338
+        ],
+        [
+          617,
+          312
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          1147,
+          658
+        ],
+        [
+          1148,
+          646
+        ],
+        [
+          873,
+          649
+        ],
+        [
+          836,
+          735
+        ],
+        [
+          795,
+          743
+        ],
+        [
+          796,
+          755
+        ],
+        [
+          827,
+          752
+        ],
+        [
+          801,
+          810
+        ],
+        [
+          815,
+          818
+        ],
+        [
+          828,
+          784
+        ],
+        [
+          845,
+          844
+        ],
+        [
+          854,
+          842
+        ],
+        [
+          838,
+          769
+        ],
+        [
+          888,
+          665
+        ],
+        [
+          1147,
+          661
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          269,
+          942
+        ],
+        [
+          269,
+          960
+        ],
+        [
+          438,
+          960
+        ],
+        [
+          501,
+          945
+        ],
+        [
+          499,
+          931
+        ],
+        [
+          426,
+          946
+        ],
+        [
+          273,
+          943
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          857,
+          896
+        ],
+        [
+          1153,
+          897
+        ],
+        [
+          1151,
+          882
+        ],
+        [
+          859,
+          882
+        ],
+        [
+          859,
+          891
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T10+A12+B0",
+      "type": "intraObjectLinkage",
+      "source": "T10",
+      "target": "B0",
+      "connector": "A12",
+      "directional": false
+    },
+    {
+      "id": "T11+A9+B0",
+      "type": "intraObjectLinkage",
+      "source": "T11",
+      "target": "B0",
+      "connector": "A9",
+      "directional": false
+    },
+    {
+      "id": "T12+A14+B0",
+      "type": "intraObjectLinkage",
+      "source": "T12",
+      "target": "B0",
+      "connector": "A14",
+      "directional": false
+    },
+    {
+      "id": "T13+A7+B0",
+      "type": "intraObjectLinkage",
+      "source": "T13",
+      "target": "B0",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T14+A13+B0",
+      "type": "intraObjectLinkage",
+      "source": "T14",
+      "target": "B0",
+      "connector": "A13",
+      "directional": false
+    },
+    {
+      "id": "T15+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T15",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T16+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T16",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T4+A11+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A11",
+      "directional": false
+    },
+    {
+      "id": "T5+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T6+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T7+A10+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A10",
+      "directional": false
+    },
+    {
+      "id": "T8+A8+B0",
+      "type": "intraObjectLinkage",
+      "source": "T8",
+      "target": "B0",
+      "connector": "A8",
+      "directional": false
+    },
+    {
+      "id": "T9+A15+B0",
+      "type": "intraObjectLinkage",
+      "source": "T9",
+      "target": "B0",
+      "connector": "A15",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T10": "part_label",
+    "T11": "part_label",
+    "T12": "part_label",
+    "T13": "part_label",
+    "T14": "part_label",
+    "T15": "part_label",
+    "T16": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A10": "connector",
+    "A11": "connector",
+    "A12": "connector",
+    "A13": "connector",
+    "A14": "connector",
+    "A15": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "nostril paranasal sinuses _ diaphragm -left lung alveoli -bronchi left main (primary) bronchus pharynx _ oral cavity nasal cavity plus larynx carina of strachea trachea right main bronchus - left lung parietal pleura ribs"
+  },
+  "questions": []
+}

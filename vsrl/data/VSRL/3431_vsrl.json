@@ -1,0 +1,812 @@
+{
+  "image_id": "3431",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          138,
+          13
+        ],
+        [
+          181,
+          28
+        ]
+      ],
+      "value": "petal",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          9,
+          82
+        ],
+        [
+          26,
+          120
+        ]
+      ],
+      "value": "pistil",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          61,
+          58
+        ],
+        [
+          111,
+          74
+        ]
+      ],
+      "value": "stigma",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          63,
+          106
+        ],
+        [
+          103,
+          120
+        ]
+      ],
+      "value": "ovary",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          62,
+          80
+        ],
+        [
+          102,
+          96
+        ]
+      ],
+      "value": "style",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          60,
+          128
+        ],
+        [
+          97,
+          143
+        ]
+      ],
+      "value": "ovule",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          283,
+          81
+        ],
+        [
+          331,
+          97
+        ]
+      ],
+      "value": "anther",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          273,
+          101
+        ],
+        [
+          330,
+          121
+        ]
+      ],
+      "value": "filament",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          245,
+          172
+        ],
+        [
+          286,
+          189
+        ]
+      ],
+      "value": "sepal",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          349,
+          73
+        ],
+        [
+          366,
+          127
+        ]
+      ],
+      "value": "stamen",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          225,
+          45
+        ],
+        [
+          241,
+          42
+        ],
+        [
+          267,
+          60
+        ],
+        [
+          272,
+          94
+        ],
+        [
+          259,
+          128
+        ],
+        [
+          247,
+          141
+        ],
+        [
+          284,
+          128
+        ],
+        [
+          291,
+          131
+        ],
+        [
+          291,
+          139
+        ],
+        [
+          257,
+          159
+        ],
+        [
+          219,
+          162
+        ],
+        [
+          216,
+          216
+        ],
+        [
+          197,
+          216
+        ],
+        [
+          198,
+          173
+        ],
+        [
+          168,
+          167
+        ],
+        [
+          121,
+          164
+        ],
+        [
+          101,
+          148
+        ],
+        [
+          110,
+          143
+        ],
+        [
+          147,
+          148
+        ],
+        [
+          122,
+          120
+        ],
+        [
+          115,
+          86
+        ],
+        [
+          129,
+          55
+        ],
+        [
+          151,
+          44
+        ],
+        [
+          160,
+          47
+        ],
+        [
+          181,
+          38
+        ],
+        [
+          204,
+          37
+        ],
+        [
+          223,
+          44
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          105,
+          63
+        ],
+        [
+          199,
+          75
+        ],
+        [
+          199,
+          83
+        ],
+        [
+          104,
+          70
+        ],
+        [
+          106,
+          64
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          155,
+          28
+        ],
+        [
+          179,
+          60
+        ],
+        [
+          186,
+          56
+        ],
+        [
+          162,
+          21
+        ],
+        [
+          155,
+          27
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          230,
+          84
+        ],
+        [
+          284,
+          93
+        ],
+        [
+          286,
+          86
+        ],
+        [
+          231,
+          76
+        ],
+        [
+          230,
+          84
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          228,
+          117
+        ],
+        [
+          272,
+          118
+        ],
+        [
+          271,
+          110
+        ],
+        [
+          227,
+          110
+        ],
+        [
+          228,
+          117
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          246,
+          151
+        ],
+        [
+          261,
+          176
+        ],
+        [
+          268,
+          173
+        ],
+        [
+          252,
+          146
+        ],
+        [
+          244,
+          150
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          98,
+          114
+        ],
+        [
+          185,
+          143
+        ],
+        [
+          189,
+          137
+        ],
+        [
+          101,
+          107
+        ],
+        [
+          97,
+          115
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          93,
+          91
+        ],
+        [
+          201,
+          103
+        ],
+        [
+          201,
+          95
+        ],
+        [
+          92,
+          85
+        ],
+        [
+          92,
+          91
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          97,
+          141
+        ],
+        [
+          192,
+          150
+        ],
+        [
+          193,
+          143
+        ],
+        [
+          96,
+          133
+        ],
+        [
+          96,
+          141
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          329,
+          77
+        ],
+        [
+          334,
+          84
+        ],
+        [
+          335,
+          96
+        ],
+        [
+          334,
+          115
+        ],
+        [
+          328,
+          126
+        ],
+        [
+          342,
+          125
+        ],
+        [
+          346,
+          106
+        ],
+        [
+          352,
+          98
+        ],
+        [
+          346,
+          95
+        ],
+        [
+          346,
+          76
+        ],
+        [
+          339,
+          74
+        ],
+        [
+          333,
+          74
+        ],
+        [
+          328,
+          76
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          55,
+          52
+        ],
+        [
+          43,
+          55
+        ],
+        [
+          37,
+          62
+        ],
+        [
+          36,
+          73
+        ],
+        [
+          35,
+          87
+        ],
+        [
+          35,
+          91
+        ],
+        [
+          31,
+          96
+        ],
+        [
+          25,
+          103
+        ],
+        [
+          34,
+          110
+        ],
+        [
+          36,
+          120
+        ],
+        [
+          35,
+          133
+        ],
+        [
+          37,
+          138
+        ],
+        [
+          39,
+          146
+        ],
+        [
+          45,
+          149
+        ],
+        [
+          50,
+          151
+        ],
+        [
+          54,
+          151
+        ],
+        [
+          59,
+          151
+        ],
+        [
+          68,
+          148
+        ],
+        [
+          57,
+          135
+        ],
+        [
+          55,
+          118
+        ],
+        [
+          53,
+          103
+        ],
+        [
+          56,
+          86
+        ],
+        [
+          55,
+          73
+        ],
+        [
+          59,
+          63
+        ],
+        [
+          67,
+          56
+        ],
+        [
+          57,
+          52
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T1+A9+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A9",
+      "directional": false
+    },
+    {
+      "id": "T2+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T3+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T4+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T5+A7+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T6+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T7+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T8+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T8",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T9+A8+B0",
+      "type": "intraObjectLinkage",
+      "source": "T9",
+      "target": "B0",
+      "connector": "A8",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "petal pistil stigma ovary style ovule anther filament sepal stamen"
+  },
+  "questions": [
+    {
+      "question_text": "The ovary is part of the stamen, right?",
+      "question_id": "3431.png-1",
+      "answers": [
+        "No, the ovary is part of the pistil.",
+        "No, the ovary are in women.",
+        "No, the ovary is what doctors poke at.",
+        "Yes, the ovary is part of the stamen."
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which is  the organ represented by E?",
+      "question_id": "3431.png-0",
+      "answers": [
+        "style",
+        "stigma",
+        "petal",
+        "anther"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}

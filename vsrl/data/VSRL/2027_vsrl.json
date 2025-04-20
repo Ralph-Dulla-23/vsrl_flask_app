@@ -1,0 +1,508 @@
+{
+  "image_id": "2027",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          195,
+          353
+        ],
+        [
+          302,
+          377
+        ]
+      ],
+      "value": "Polar Bear",
+      "replacementText": "P",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          538,
+          423
+        ],
+        [
+          702,
+          448
+        ]
+      ],
+      "value": "Inupiaq Hunters",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T10": {
+      "id": "T10",
+      "type": "text",
+      "bbox": [
+        [
+          1275,
+          1025
+        ],
+        [
+          1373,
+          1045
+        ]
+      ],
+      "value": "Flat Fish",
+      "replacementText": "M",
+      "category": "label"
+    },
+    "T11": {
+      "id": "T11",
+      "type": "text",
+      "bbox": [
+        [
+          1055,
+          1060
+        ],
+        [
+          1133,
+          1087
+        ]
+      ],
+      "value": "Starfish",
+      "replacementText": "L",
+      "category": "label"
+    },
+    "T12": {
+      "id": "T12",
+      "type": "text",
+      "bbox": [
+        [
+          478,
+          1047
+        ],
+        [
+          543,
+          1072
+        ]
+      ],
+      "value": "Crab's",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T13": {
+      "id": "T13",
+      "type": "text",
+      "bbox": [
+        [
+          253,
+          1040
+        ],
+        [
+          320,
+          1070
+        ]
+      ],
+      "value": "Clams",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T14": {
+      "id": "T14",
+      "type": "text",
+      "bbox": [
+        [
+          520,
+          17
+        ],
+        [
+          978,
+          63
+        ]
+      ],
+      "value": "Arctic Marine Food Web",
+      "replacementText": "O",
+      "category": "label"
+    },
+    "T15": {
+      "id": "T15",
+      "type": "text",
+      "bbox": [
+        [
+          745,
+          262
+        ],
+        [
+          842,
+          290
+        ]
+      ],
+      "value": "Sea Birds",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          828,
+          447
+        ],
+        [
+          892,
+          470
+        ]
+      ],
+      "value": "Seals",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          1025,
+          432
+        ],
+        [
+          1102,
+          458
+        ]
+      ],
+      "value": "Walrus",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          1155,
+          468
+        ],
+        [
+          1225,
+          502
+        ]
+      ],
+      "value": "Whale",
+      "replacementText": "K",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          777,
+          775
+        ],
+        [
+          912,
+          798
+        ]
+      ],
+      "value": "Predator Fish",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          285,
+          787
+        ],
+        [
+          385,
+          815
+        ]
+      ],
+      "value": "Plankton",
+      "replacementText": "N",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          433,
+          888
+        ],
+        [
+          555,
+          913
+        ]
+      ],
+      "value": "Forage Fish",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          262,
+          985
+        ],
+        [
+          342,
+          1013
+        ]
+      ],
+      "value": "Shrimps",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          355,
+          970
+        ],
+        [
+          492,
+          998
+        ]
+      ],
+      "value": "Crustaceans",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          43,
+          95
+        ],
+        [
+          1450,
+          90
+        ],
+        [
+          1452,
+          1178
+        ],
+        [
+          50,
+          1178
+        ],
+        [
+          43,
+          93
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+B0",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T10+B0",
+      "type": "intraObjectLabel",
+      "source": "T10",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T11+B0",
+      "type": "intraObjectLabel",
+      "source": "T11",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T12+B0",
+      "type": "intraObjectLabel",
+      "source": "T12",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T13+B0",
+      "type": "intraObjectLabel",
+      "source": "T13",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T14+I0",
+      "type": "imageTitle",
+      "source": "T14",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T15+B0",
+      "type": "intraObjectLabel",
+      "source": "T15",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B0",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+B0",
+      "type": "intraObjectLabel",
+      "source": "T5",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+B0",
+      "type": "intraObjectLabel",
+      "source": "T6",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T7+B0",
+      "type": "intraObjectLabel",
+      "source": "T7",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T8+B0",
+      "type": "intraObjectLabel",
+      "source": "T8",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T9+B0",
+      "type": "intraObjectLabel",
+      "source": "T9",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T10": "part_label",
+    "T11": "part_label",
+    "T12": "part_label",
+    "T13": "part_label",
+    "T14": "title",
+    "T15": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "polar bear inupiaq hunters flat fish starfish crab's clams arctic marine food web sea birds seals walrus whale predator fish plankton forage fish shrimps crustaceans"
+  },
+  "questions": [
+    {
+      "question_text": "If there are fewer forage fish, which animal might be at risk of starving?",
+      "question_id": "2027.png-0",
+      "answers": [
+        "Starfish",
+        "Flat fish",
+        "Plankton",
+        "Predator fish"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What does the polar bear represent in the diagram?",
+      "question_id": "2027.png-3",
+      "answers": [
+        "Herbivore",
+        "Decomposer",
+        "Consumer",
+        "Producer"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which of these is a tertiary consumer?",
+      "question_id": "2027.png-2",
+      "answers": [
+        "polar bear",
+        "sea star",
+        "snail",
+        "none of the above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Who is the top predator in the food web shown?",
+      "question_id": "2027.png-1",
+      "answers": [
+        "Polar Bear",
+        "Crabs",
+        "Fish",
+        "None of the above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

@@ -1,0 +1,751 @@
+{
+  "image_id": "4566",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          34,
+          11
+        ],
+        [
+          172,
+          32
+        ]
+      ],
+      "value": "Healthy Cell",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          35,
+          41
+        ],
+        [
+          165,
+          61
+        ]
+      ],
+      "value": "Nutrients pass in",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          221,
+          11
+        ],
+        [
+          389,
+          33
+        ]
+      ],
+      "value": "Unhealthy Cell",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          229,
+          37
+        ],
+        [
+          381,
+          58
+        ]
+      ],
+      "value": "Absorption inhibited",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          27,
+          268
+        ],
+        [
+          157,
+          289
+        ]
+      ],
+      "value": "Wastes pass out",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          228,
+          266
+        ],
+        [
+          392,
+          292
+        ]
+      ],
+      "value": "Elimination inhibited",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          257,
+          221
+        ],
+        [
+          273,
+          239
+        ],
+        [
+          297,
+          247
+        ],
+        [
+          322,
+          239
+        ],
+        [
+          350,
+          229
+        ],
+        [
+          384,
+          216
+        ],
+        [
+          401,
+          186
+        ],
+        [
+          398,
+          159
+        ],
+        [
+          393,
+          124
+        ],
+        [
+          379,
+          85
+        ],
+        [
+          350,
+          72
+        ],
+        [
+          320,
+          66
+        ],
+        [
+          276,
+          80
+        ],
+        [
+          260,
+          91
+        ],
+        [
+          245,
+          109
+        ],
+        [
+          243,
+          139
+        ],
+        [
+          248,
+          159
+        ],
+        [
+          241,
+          171
+        ],
+        [
+          240,
+          195
+        ],
+        [
+          254,
+          223
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          90,
+          79
+        ],
+        [
+          70,
+          85
+        ],
+        [
+          58,
+          93
+        ],
+        [
+          45,
+          115
+        ],
+        [
+          37,
+          139
+        ],
+        [
+          25,
+          162
+        ],
+        [
+          23,
+          182
+        ],
+        [
+          34,
+          210
+        ],
+        [
+          50,
+          224
+        ],
+        [
+          86,
+          236
+        ],
+        [
+          123,
+          239
+        ],
+        [
+          163,
+          225
+        ],
+        [
+          181,
+          208
+        ],
+        [
+          189,
+          172
+        ],
+        [
+          182,
+          155
+        ],
+        [
+          182,
+          110
+        ],
+        [
+          161,
+          87
+        ],
+        [
+          129,
+          71
+        ],
+        [
+          114,
+          71
+        ],
+        [
+          89,
+          79
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          63,
+          61
+        ],
+        [
+          108,
+          105
+        ],
+        [
+          98,
+          111
+        ],
+        [
+          54,
+          67
+        ],
+        [
+          62,
+          60
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          48,
+          80
+        ],
+        [
+          91,
+          121
+        ],
+        [
+          85,
+          126
+        ],
+        [
+          41,
+          83
+        ],
+        [
+          45,
+          76
+        ],
+        [
+          48,
+          80
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          29,
+          94
+        ],
+        [
+          76,
+          136
+        ],
+        [
+          69,
+          141
+        ],
+        [
+          25,
+          97
+        ],
+        [
+          29,
+          93
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          81,
+          200
+        ],
+        [
+          80,
+          262
+        ],
+        [
+          90,
+          263
+        ],
+        [
+          91,
+          200
+        ],
+        [
+          82,
+          199
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          102,
+          201
+        ],
+        [
+          103,
+          265
+        ],
+        [
+          110,
+          265
+        ],
+        [
+          111,
+          199
+        ],
+        [
+          102,
+          198
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          124,
+          201
+        ],
+        [
+          126,
+          264
+        ],
+        [
+          134,
+          265
+        ],
+        [
+          134,
+          200
+        ],
+        [
+          126,
+          200
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          229,
+          90
+        ],
+        [
+          250,
+          112
+        ],
+        [
+          255,
+          87
+        ],
+        [
+          247,
+          85
+        ],
+        [
+          248,
+          97
+        ],
+        [
+          230,
+          85
+        ],
+        [
+          228,
+          90
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          252,
+          73
+        ],
+        [
+          259,
+          81
+        ],
+        [
+          262,
+          69
+        ],
+        [
+          267,
+          69
+        ],
+        [
+          268,
+          89
+        ],
+        [
+          266,
+          92
+        ],
+        [
+          247,
+          76
+        ],
+        [
+          249,
+          73
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          321,
+          210
+        ],
+        [
+          325,
+          219
+        ],
+        [
+          322,
+          224
+        ],
+        [
+          322,
+          231
+        ],
+        [
+          325,
+          240
+        ],
+        [
+          322,
+          247
+        ],
+        [
+          324,
+          255
+        ],
+        [
+          321,
+          265
+        ],
+        [
+          314,
+          265
+        ],
+        [
+          314,
+          245
+        ],
+        [
+          316,
+          238
+        ],
+        [
+          314,
+          229
+        ],
+        [
+          314,
+          220
+        ],
+        [
+          317,
+          209
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          273,
+          61
+        ],
+        [
+          314,
+          101
+        ],
+        [
+          307,
+          108
+        ],
+        [
+          265,
+          65
+        ],
+        [
+          274,
+          62
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H9",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H9",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H8",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H8",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H1",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H6",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H5",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H3",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H2",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A8+H4",
+      "type": "arrowHeadTail",
+      "source": "A8",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A9+H7",
+      "type": "arrowHeadTail",
+      "source": "A9",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+I0",
+      "type": "imageCaption",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+I0",
+      "type": "imageTitle",
+      "source": "T2",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+I0",
+      "type": "imageCaption",
+      "source": "T3",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "title",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "healthy cell nutrients pass in unhealthy cell absorption inhibited wastes pass out elimination inhibited"
+  },
+  "questions": []
+}

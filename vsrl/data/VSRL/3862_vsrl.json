@@ -1,0 +1,488 @@
+{
+  "image_id": "3862",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          89,
+          42
+        ],
+        [
+          128,
+          54
+        ]
+      ],
+      "value": "Petiole",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          232,
+          40
+        ],
+        [
+          269,
+          56
+        ]
+      ],
+      "value": "Midrib",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          428,
+          84
+        ],
+        [
+          462,
+          97
+        ]
+      ],
+      "value": "Blade",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          32,
+          323
+        ],
+        [
+          61,
+          337
+        ]
+      ],
+      "value": "Vein",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          79,
+          362
+        ],
+        [
+          183,
+          377
+        ]
+      ],
+      "value": "Small netted veins",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          423,
+          380
+        ],
+        [
+          526,
+          395
+        ]
+      ],
+      "value": "Pass My exams",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          521,
+          368
+        ],
+        [
+          494,
+          373
+        ],
+        [
+          455,
+          368
+        ],
+        [
+          420,
+          351
+        ],
+        [
+          359,
+          338
+        ],
+        [
+          288,
+          337
+        ],
+        [
+          200,
+          335
+        ],
+        [
+          114,
+          310
+        ],
+        [
+          64,
+          262
+        ],
+        [
+          56,
+          215
+        ],
+        [
+          79,
+          176
+        ],
+        [
+          130,
+          150
+        ],
+        [
+          77,
+          131
+        ],
+        [
+          26,
+          101
+        ],
+        [
+          30,
+          92
+        ],
+        [
+          139,
+          144
+        ],
+        [
+          155,
+          110
+        ],
+        [
+          193,
+          90
+        ],
+        [
+          287,
+          80
+        ],
+        [
+          381,
+          107
+        ],
+        [
+          440,
+          169
+        ],
+        [
+          473,
+          246
+        ],
+        [
+          490,
+          316
+        ],
+        [
+          521,
+          365
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          95,
+          57
+        ],
+        [
+          66,
+          122
+        ],
+        [
+          77,
+          124
+        ],
+        [
+          109,
+          60
+        ],
+        [
+          97,
+          56
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          245,
+          56
+        ],
+        [
+          212,
+          166
+        ],
+        [
+          224,
+          172
+        ],
+        [
+          262,
+          59
+        ],
+        [
+          244,
+          54
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          435,
+          99
+        ],
+        [
+          417,
+          150
+        ],
+        [
+          423,
+          151
+        ],
+        [
+          448,
+          99
+        ],
+        [
+          436,
+          99
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          112,
+          203
+        ],
+        [
+          50,
+          322
+        ],
+        [
+          63,
+          320
+        ],
+        [
+          123,
+          204
+        ],
+        [
+          115,
+          202
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          143,
+          303
+        ],
+        [
+          149,
+          358
+        ],
+        [
+          164,
+          357
+        ],
+        [
+          152,
+          299
+        ],
+        [
+          144,
+          302
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          154,
+          351
+        ],
+        [
+          200,
+          310
+        ],
+        [
+          214,
+          322
+        ],
+        [
+          161,
+          356
+        ],
+        [
+          150,
+          352
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T2+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T3+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T4+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T4+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T5+I0",
+      "type": "misc",
+      "source": "T5",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "petiole midrib blade vein small netted veins pass my exams"
+  },
+  "questions": [
+    {
+      "question_text": "What is represented by D?",
+      "question_id": "3862.png-0",
+      "answers": [
+        "midrib",
+        "blade",
+        "vein",
+        "none of the above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is the middle supporting structure called?",
+      "question_id": "3862.png-2",
+      "answers": [
+        "none of the above",
+        "midrib",
+        "blade",
+        "vein"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the outermost edge of the leaf called?",
+      "question_id": "3862.png-1",
+      "answers": [
+        "none of the above",
+        "vein",
+        "blade",
+        "midrib"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

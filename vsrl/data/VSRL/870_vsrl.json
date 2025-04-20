@@ -1,0 +1,948 @@
+{
+  "image_id": "870",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          61
+        ],
+        [
+          76,
+          104
+        ]
+      ],
+      "value": "Export",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          155,
+          28
+        ],
+        [
+          306,
+          82
+        ]
+      ],
+      "value": "Heterotrophic prokaryotes",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          306,
+          108
+        ],
+        [
+          386,
+          139
+        ]
+      ],
+      "value": "LOOP",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          438,
+          102
+        ],
+        [
+          562,
+          131
+        ]
+      ],
+      "value": "Cell debris",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          512,
+          65
+        ],
+        [
+          599,
+          95
+        ]
+      ],
+      "value": "Viruses",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          38,
+          141
+        ],
+        [
+          131,
+          171
+        ]
+      ],
+      "value": "Grazers",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          152,
+          204
+        ],
+        [
+          259,
+          278
+        ]
+      ],
+      "value": "Inorganic nutrients N, P, Fe...",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          363,
+          193
+        ],
+        [
+          477,
+          265
+        ]
+      ],
+      "value": "DISSOLVED ORGANIC MATTER",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          192,
+          382
+        ],
+        [
+          385,
+          415
+        ]
+      ],
+      "value": "Primary producers",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          297,
+          25
+        ],
+        [
+          306,
+          43
+        ],
+        [
+          354,
+          20
+        ],
+        [
+          394,
+          17
+        ],
+        [
+          439,
+          35
+        ],
+        [
+          468,
+          66
+        ],
+        [
+          471,
+          91
+        ],
+        [
+          495,
+          95
+        ],
+        [
+          487,
+          62
+        ],
+        [
+          459,
+          25
+        ],
+        [
+          422,
+          8
+        ],
+        [
+          457,
+          7
+        ],
+        [
+          494,
+          25
+        ],
+        [
+          532,
+          52
+        ],
+        [
+          536,
+          67
+        ],
+        [
+          559,
+          67
+        ],
+        [
+          532,
+          24
+        ],
+        [
+          464,
+          0
+        ],
+        [
+          406,
+          0
+        ],
+        [
+          340,
+          7
+        ],
+        [
+          299,
+          23
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          496,
+          140
+        ],
+        [
+          513,
+          145
+        ],
+        [
+          487,
+          180
+        ],
+        [
+          480,
+          169
+        ],
+        [
+          499,
+          144
+        ]
+      ],
+      "category": "connector"
+    },
+    "A10": {
+      "id": "A10",
+      "type": "arrow",
+      "polygon": [
+        [
+          111,
+          194
+        ],
+        [
+          143,
+          227
+        ],
+        [
+          151,
+          216
+        ],
+        [
+          120,
+          182
+        ],
+        [
+          110,
+          194
+        ]
+      ],
+      "category": "connector"
+    },
+    "A11": {
+      "id": "A11",
+      "type": "arrow",
+      "polygon": [
+        [
+          157,
+          83
+        ],
+        [
+          117,
+          132
+        ],
+        [
+          138,
+          144
+        ],
+        [
+          180,
+          91
+        ],
+        [
+          161,
+          82
+        ]
+      ],
+      "category": "connector"
+    },
+    "A12": {
+      "id": "A12",
+      "type": "arrow",
+      "polygon": [
+        [
+          29,
+          111
+        ],
+        [
+          50,
+          102
+        ],
+        [
+          82,
+          141
+        ],
+        [
+          68,
+          152
+        ],
+        [
+          26,
+          113
+        ]
+      ],
+      "category": "connector"
+    },
+    "A13": {
+      "id": "A13",
+      "type": "arrow",
+      "polygon": [
+        [
+          78,
+          179
+        ],
+        [
+          96,
+          174
+        ],
+        [
+          204,
+          394
+        ],
+        [
+          187,
+          399
+        ],
+        [
+          74,
+          180
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          557,
+          115
+        ],
+        [
+          562,
+          153
+        ],
+        [
+          545,
+          189
+        ],
+        [
+          517,
+          218
+        ],
+        [
+          480,
+          236
+        ],
+        [
+          487,
+          254
+        ],
+        [
+          530,
+          233
+        ],
+        [
+          573,
+          183
+        ],
+        [
+          577,
+          102
+        ],
+        [
+          555,
+          110
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          587,
+          125
+        ],
+        [
+          575,
+          206
+        ],
+        [
+          556,
+          266
+        ],
+        [
+          530,
+          299
+        ],
+        [
+          514,
+          328
+        ],
+        [
+          478,
+          361
+        ],
+        [
+          412,
+          384
+        ],
+        [
+          405,
+          405
+        ],
+        [
+          454,
+          402
+        ],
+        [
+          544,
+          328
+        ],
+        [
+          586,
+          245
+        ],
+        [
+          599,
+          119
+        ],
+        [
+          589,
+          126
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          526,
+          151
+        ],
+        [
+          530,
+          217
+        ],
+        [
+          517,
+          289
+        ],
+        [
+          510,
+          345
+        ],
+        [
+          520,
+          343
+        ],
+        [
+          544,
+          266
+        ],
+        [
+          543,
+          199
+        ],
+        [
+          545,
+          143
+        ],
+        [
+          527,
+          150
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          215,
+          79
+        ],
+        [
+          228,
+          126
+        ],
+        [
+          255,
+          159
+        ],
+        [
+          306,
+          186
+        ],
+        [
+          372,
+          197
+        ],
+        [
+          368,
+          221
+        ],
+        [
+          302,
+          206
+        ],
+        [
+          248,
+          180
+        ],
+        [
+          204,
+          105
+        ],
+        [
+          201,
+          80
+        ],
+        [
+          217,
+          82
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          186,
+          89
+        ],
+        [
+          195,
+          194
+        ],
+        [
+          211,
+          189
+        ],
+        [
+          199,
+          84
+        ],
+        [
+          185,
+          88
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          170,
+          159
+        ],
+        [
+          171,
+          173
+        ],
+        [
+          362,
+          236
+        ],
+        [
+          362,
+          216
+        ],
+        [
+          175,
+          158
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          266,
+          381
+        ],
+        [
+          285,
+          392
+        ],
+        [
+          375,
+          261
+        ],
+        [
+          361,
+          257
+        ],
+        [
+          270,
+          381
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          175,
+          305
+        ],
+        [
+          224,
+          374
+        ],
+        [
+          237,
+          364
+        ],
+        [
+          185,
+          288
+        ],
+        [
+          176,
+          301
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A10+H2",
+      "type": "arrowHeadTail",
+      "source": "A10",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A11+H3",
+      "type": "arrowHeadTail",
+      "source": "A11",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A12+H4",
+      "type": "arrowHeadTail",
+      "source": "A12",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A13+H5",
+      "type": "arrowHeadTail",
+      "source": "A13",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H6",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H7",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H8",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H8",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H9",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H9",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H10",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H10",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H11",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H11",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A8+H12",
+      "type": "arrowHeadTail",
+      "source": "A8",
+      "target": "H12",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A9+H13",
+      "type": "arrowHeadTail",
+      "source": "A9",
+      "target": "H13",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A11+T5",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T5",
+      "connector": "A11",
+      "directional": true
+    },
+    {
+      "id": "T1+A6+T6",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T6",
+      "connector": "A6",
+      "directional": true
+    },
+    {
+      "id": "T2+I0",
+      "type": "sectionTitle",
+      "source": "T2",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+A1+T7",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T7",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T4+A2+T7",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T7",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T5+A10+T6",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T6",
+      "connector": "A10",
+      "directional": true
+    },
+    {
+      "id": "T5+A12+T0",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T0",
+      "connector": "A12",
+      "directional": true
+    },
+    {
+      "id": "T5+A7+T7",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T7",
+      "connector": "A7",
+      "directional": true
+    },
+    {
+      "id": "T6+A9+T8",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T8",
+      "connector": "A9",
+      "directional": true
+    },
+    {
+      "id": "T7+A5+T1",
+      "type": "interObjectLinkage",
+      "source": "T7",
+      "target": "T1",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T8+A13+T5",
+      "type": "interObjectLinkage",
+      "source": "T8",
+      "target": "T5",
+      "connector": "A13",
+      "directional": true
+    },
+    {
+      "id": "T8+A3+T4",
+      "type": "interObjectLinkage",
+      "source": "T8",
+      "target": "T4",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T8+A4+T3",
+      "type": "interObjectLinkage",
+      "source": "T8",
+      "target": "T3",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T8+A8+T7",
+      "type": "interObjectLinkage",
+      "source": "T8",
+      "target": "T7",
+      "connector": "A8",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A10": "connector",
+    "A11": "connector",
+    "A12": "connector",
+    "A13": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "export heterotrophic prokaryotes loop cell debris viruses grazers inorganic nutrients n, p, fe... dissolved organic matter primary producers"
+  }
+}

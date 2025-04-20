@@ -1,0 +1,360 @@
+{
+  "image_id": "4472",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          103,
+          140
+        ],
+        [
+          152,
+          153
+        ]
+      ],
+      "value": "Normal Foot",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          114,
+          327
+        ],
+        [
+          159,
+          338
+        ]
+      ],
+      "value": "Cavus Foot",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          143,
+          193
+        ],
+        [
+          143,
+          242
+        ],
+        [
+          137,
+          242
+        ],
+        [
+          132,
+          249
+        ],
+        [
+          116,
+          255
+        ],
+        [
+          106,
+          261
+        ],
+        [
+          98,
+          266
+        ],
+        [
+          92,
+          273
+        ],
+        [
+          80,
+          281
+        ],
+        [
+          71,
+          290
+        ],
+        [
+          65,
+          295
+        ],
+        [
+          58,
+          297
+        ],
+        [
+          37,
+          302
+        ],
+        [
+          23,
+          306
+        ],
+        [
+          25,
+          312
+        ],
+        [
+          27,
+          316
+        ],
+        [
+          35,
+          323
+        ],
+        [
+          48,
+          327
+        ],
+        [
+          50,
+          321
+        ],
+        [
+          53,
+          325
+        ],
+        [
+          57,
+          321
+        ],
+        [
+          65,
+          326
+        ],
+        [
+          72,
+          327
+        ],
+        [
+          97,
+          316
+        ],
+        [
+          111,
+          312
+        ],
+        [
+          83,
+          324
+        ],
+        [
+          113,
+          313
+        ],
+        [
+          129,
+          311
+        ],
+        [
+          147,
+          309
+        ],
+        [
+          157,
+          312
+        ],
+        [
+          173,
+          320
+        ],
+        [
+          194,
+          325
+        ],
+        [
+          202,
+          318
+        ],
+        [
+          211,
+          316
+        ],
+        [
+          212,
+          308
+        ],
+        [
+          214,
+          299
+        ],
+        [
+          216,
+          298
+        ],
+        [
+          215,
+          292
+        ],
+        [
+          215,
+          289
+        ],
+        [
+          207,
+          254
+        ],
+        [
+          207,
+          231
+        ],
+        [
+          213,
+          192
+        ],
+        [
+          144,
+          191
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          139,
+          5
+        ],
+        [
+          135,
+          39
+        ],
+        [
+          105,
+          68
+        ],
+        [
+          70,
+          89
+        ],
+        [
+          40,
+          107
+        ],
+        [
+          14,
+          107
+        ],
+        [
+          12,
+          123
+        ],
+        [
+          33,
+          138
+        ],
+        [
+          73,
+          137
+        ],
+        [
+          103,
+          130
+        ],
+        [
+          139,
+          120
+        ],
+        [
+          174,
+          129
+        ],
+        [
+          205,
+          124
+        ],
+        [
+          219,
+          94
+        ],
+        [
+          213,
+          62
+        ],
+        [
+          218,
+          3
+        ],
+        [
+          140,
+          2
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+B1",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "B0": "whole",
+    "B1": "whole"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "normal foot cavus foot"
+  },
+  "questions": [
+    {
+      "question_text": "Which image represents Cavus foot?",
+      "question_id": "4472.png-1",
+      "answers": [
+        "B",
+        "Both",
+        "None of above",
+        "A"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which image represents Normal Foot?",
+      "question_id": "4472.png-0",
+      "answers": [
+        "None of above",
+        "B",
+        "A",
+        "Both"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which is exact opposite of Flat Foot?",
+      "question_id": "4472.png-2",
+      "answers": [
+        "Normal Foot",
+        "Cavus Foot",
+        "None of the above",
+        "Both A and B"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

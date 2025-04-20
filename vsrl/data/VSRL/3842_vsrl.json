@@ -1,0 +1,526 @@
+{
+  "image_id": "3842",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          185,
+          19
+        ],
+        [
+          231,
+          37
+        ]
+      ],
+      "value": "blade",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          323,
+          48
+        ],
+        [
+          378,
+          65
+        ]
+      ],
+      "value": "midrib",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          338,
+          156
+        ],
+        [
+          390,
+          176
+        ]
+      ],
+      "value": "margin",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          151,
+          207
+        ],
+        [
+          270,
+          228
+        ]
+      ],
+      "value": "simple leaf",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          11,
+          130
+        ],
+        [
+          66,
+          144
+        ]
+      ],
+      "value": "stipule",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          54,
+          54
+        ],
+        [
+          110,
+          73
+        ]
+      ],
+      "value": "petiole",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          285,
+          75
+        ],
+        [
+          397,
+          104
+        ],
+        [
+          360,
+          123
+        ],
+        [
+          318,
+          141
+        ],
+        [
+          311,
+          140
+        ],
+        [
+          276,
+          156
+        ],
+        [
+          214,
+          159
+        ],
+        [
+          162,
+          145
+        ],
+        [
+          126,
+          127
+        ],
+        [
+          97,
+          107
+        ],
+        [
+          55,
+          107
+        ],
+        [
+          56,
+          100
+        ],
+        [
+          95,
+          99
+        ],
+        [
+          128,
+          82
+        ],
+        [
+          173,
+          70
+        ],
+        [
+          229,
+          65
+        ],
+        [
+          284,
+          73
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          35,
+          133
+        ],
+        [
+          42,
+          125
+        ],
+        [
+          49,
+          129
+        ],
+        [
+          55,
+          104
+        ],
+        [
+          34,
+          111
+        ],
+        [
+          36,
+          118
+        ],
+        [
+          29,
+          128
+        ],
+        [
+          33,
+          132
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          71,
+          78
+        ],
+        [
+          81,
+          98
+        ],
+        [
+          96,
+          80
+        ],
+        [
+          89,
+          77
+        ],
+        [
+          89,
+          67
+        ],
+        [
+          80,
+          67
+        ],
+        [
+          80,
+          75
+        ],
+        [
+          73,
+          74
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          196,
+          72
+        ],
+        [
+          207,
+          90
+        ],
+        [
+          223,
+          72
+        ],
+        [
+          215,
+          68
+        ],
+        [
+          213,
+          41
+        ],
+        [
+          204,
+          40
+        ],
+        [
+          204,
+          67
+        ],
+        [
+          197,
+          68
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          349,
+          144
+        ],
+        [
+          344,
+          148
+        ],
+        [
+          339,
+          125
+        ],
+        [
+          362,
+          133
+        ],
+        [
+          359,
+          138
+        ],
+        [
+          370,
+          153
+        ],
+        [
+          366,
+          158
+        ],
+        [
+          351,
+          147
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          327,
+          109
+        ],
+        [
+          310,
+          115
+        ],
+        [
+          312,
+          92
+        ],
+        [
+          321,
+          93
+        ],
+        [
+          351,
+          60
+        ],
+        [
+          359,
+          71
+        ],
+        [
+          333,
+          98
+        ],
+        [
+          330,
+          107
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H4",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H0",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H2",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T1+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T2+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T3+I0",
+      "type": "imageTitle",
+      "source": "T3",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T5+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "title",
+    "T4": "part_label",
+    "T5": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "blade midrib margin simple leaf stipule petiole"
+  },
+  "questions": [
+    {
+      "question_text": "What is B in the diagram?",
+      "question_id": "3842.png-2",
+      "answers": [
+        "blade",
+        "margin",
+        "petiole",
+        "midrib"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true,
+      "refers_to_entity": "T1"
+    },
+    {
+      "question_text": "What is F in the diagram?",
+      "question_id": "3842.png-0",
+      "answers": [
+        "midrib",
+        "petiole",
+        "blade",
+        "margin"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true,
+      "refers_to_entity": "T0"
+    },
+    {
+      "question_text": "What organism is shown in the diagram above?",
+      "question_id": "3842.png-1",
+      "answers": [
+        "Dog",
+        "Cat",
+        "Human",
+        "Simple Leaf"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    }
+  ]
+}

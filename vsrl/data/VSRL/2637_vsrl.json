@@ -1,0 +1,292 @@
+{
+  "image_id": "2637",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          76,
+          61
+        ],
+        [
+          162,
+          87
+        ]
+      ],
+      "value": "Gravitational pull /from moon",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          116,
+          178
+        ],
+        [
+          175,
+          205
+        ]
+      ],
+      "value": "Centrifugal \"force\"",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          112,
+          144
+        ],
+        [
+          118,
+          156
+        ],
+        [
+          129,
+          161
+        ],
+        [
+          147,
+          162
+        ],
+        [
+          159,
+          157
+        ],
+        [
+          164,
+          148
+        ],
+        [
+          169,
+          134
+        ],
+        [
+          157,
+          115
+        ],
+        [
+          142,
+          107
+        ],
+        [
+          130,
+          107
+        ],
+        [
+          119,
+          115
+        ],
+        [
+          114,
+          124
+        ],
+        [
+          113,
+          134
+        ],
+        [
+          113,
+          146
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          46,
+          45
+        ],
+        [
+          50,
+          37
+        ],
+        [
+          50,
+          31
+        ],
+        [
+          43,
+          26
+        ],
+        [
+          34,
+          25
+        ],
+        [
+          29,
+          28
+        ],
+        [
+          26,
+          36
+        ],
+        [
+          31,
+          44
+        ],
+        [
+          36,
+          46
+        ],
+        [
+          42,
+          45
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          107,
+          112
+        ],
+        [
+          61,
+          65
+        ],
+        [
+          68,
+          56
+        ],
+        [
+          114,
+          105
+        ],
+        [
+          109,
+          112
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          155,
+          159
+        ],
+        [
+          200,
+          197
+        ],
+        [
+          211,
+          191
+        ],
+        [
+          173,
+          151
+        ],
+        [
+          156,
+          153
+        ],
+        [
+          154,
+          157
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A0+B1",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B1",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "B0+A1+T1",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "T1",
+      "connector": "A1",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector"
+  },
+  "educational_context": {
+    "subject": "physics",
+    "diagram_type": "labeled_illustration",
+    "text_content": "gravitational pull /from moon centrifugal \"force\""
+  },
+  "questions": [
+    {
+      "question_text": "What force is shown to act in the diagram?",
+      "question_id": "2637.png-2",
+      "answers": [
+        "centrifugal",
+        "magnetic",
+        "none of the above",
+        "centripetal"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is represented by A?",
+      "question_id": "2637.png-1",
+      "answers": [
+        "magnetic",
+        "none of the above",
+        "centrifugal",
+        "gravity"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is represented by B in the diagram?",
+      "question_id": "2637.png-0",
+      "answers": [
+        "none of the above",
+        "magnetic force",
+        "gravitational pull from the moon",
+        "centrifugal"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}

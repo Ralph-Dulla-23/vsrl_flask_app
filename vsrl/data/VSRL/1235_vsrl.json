@@ -1,0 +1,786 @@
+{
+  "image_id": "1235",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          0
+        ],
+        [
+          344,
+          47
+        ]
+      ],
+      "value": "As the moon makes its monthly journey around the earth, the side of the moon reflecting the sunlight is viewed from different angles.",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          237,
+          173
+        ],
+        [
+          309,
+          188
+        ]
+      ],
+      "value": "New Moon",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          337,
+          186
+        ],
+        [
+          352,
+          238
+        ]
+      ],
+      "value": "SUN",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          23,
+          281
+        ],
+        [
+          25,
+          342
+        ],
+        [
+          83,
+          338
+        ],
+        [
+          81,
+          283
+        ],
+        [
+          22,
+          282
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          3,
+          185
+        ],
+        [
+          4,
+          245
+        ],
+        [
+          59,
+          244
+        ],
+        [
+          57,
+          187
+        ],
+        [
+          5,
+          187
+        ]
+      ],
+      "category": "object"
+    },
+    "B10": {
+      "id": "B10",
+      "type": "blob",
+      "polygon": [
+        [
+          93,
+          179
+        ],
+        [
+          84,
+          172
+        ],
+        [
+          83,
+          159
+        ],
+        [
+          93,
+          153
+        ],
+        [
+          105,
+          152
+        ],
+        [
+          111,
+          166
+        ],
+        [
+          109,
+          179
+        ],
+        [
+          101,
+          181
+        ],
+        [
+          91,
+          181
+        ]
+      ],
+      "category": "object"
+    },
+    "B11": {
+      "id": "B11",
+      "type": "blob",
+      "polygon": [
+        [
+          146,
+          152
+        ],
+        [
+          144,
+          144
+        ],
+        [
+          151,
+          133
+        ],
+        [
+          160,
+          133
+        ],
+        [
+          170,
+          139
+        ],
+        [
+          172,
+          150
+        ],
+        [
+          167,
+          158
+        ],
+        [
+          149,
+          159
+        ],
+        [
+          146,
+          154
+        ]
+      ],
+      "category": "object"
+    },
+    "B12": {
+      "id": "B12",
+      "type": "blob",
+      "polygon": [
+        [
+          200,
+          171
+        ],
+        [
+          197,
+          161
+        ],
+        [
+          208,
+          150
+        ],
+        [
+          219,
+          150
+        ],
+        [
+          226,
+          166
+        ],
+        [
+          221,
+          173
+        ],
+        [
+          212,
+          177
+        ],
+        [
+          204,
+          173
+        ]
+      ],
+      "category": "object"
+    },
+    "B13": {
+      "id": "B13",
+      "type": "blob",
+      "polygon": [
+        [
+          214,
+          221
+        ],
+        [
+          212,
+          208
+        ],
+        [
+          219,
+          201
+        ],
+        [
+          224,
+          196
+        ],
+        [
+          234,
+          207
+        ],
+        [
+          237,
+          222
+        ],
+        [
+          232,
+          231
+        ],
+        [
+          228,
+          236
+        ],
+        [
+          221,
+          230
+        ],
+        [
+          215,
+          223
+        ]
+      ],
+      "category": "object"
+    },
+    "B14": {
+      "id": "B14",
+      "type": "blob",
+      "polygon": [
+        [
+          194,
+          263
+        ],
+        [
+          197,
+          251
+        ],
+        [
+          205,
+          246
+        ],
+        [
+          217,
+          254
+        ],
+        [
+          221,
+          263
+        ],
+        [
+          217,
+          271
+        ],
+        [
+          209,
+          274
+        ],
+        [
+          200,
+          272
+        ],
+        [
+          195,
+          264
+        ]
+      ],
+      "category": "object"
+    },
+    "B15": {
+      "id": "B15",
+      "type": "blob",
+      "polygon": [
+        [
+          145,
+          292
+        ],
+        [
+          133,
+          287
+        ],
+        [
+          143,
+          270
+        ],
+        [
+          155,
+          269
+        ],
+        [
+          163,
+          279
+        ],
+        [
+          161,
+          289
+        ],
+        [
+          154,
+          294
+        ],
+        [
+          148,
+          295
+        ]
+      ],
+      "category": "object"
+    },
+    "B16": {
+      "id": "B16",
+      "type": "blob",
+      "polygon": [
+        [
+          89,
+          274
+        ],
+        [
+          83,
+          266
+        ],
+        [
+          85,
+          257
+        ],
+        [
+          93,
+          253
+        ],
+        [
+          106,
+          254
+        ],
+        [
+          111,
+          264
+        ],
+        [
+          107,
+          273
+        ],
+        [
+          100,
+          275
+        ],
+        [
+          93,
+          277
+        ],
+        [
+          92,
+          274
+        ]
+      ],
+      "category": "object"
+    },
+    "B17": {
+      "id": "B17",
+      "type": "blob",
+      "polygon": [
+        [
+          316,
+          0
+        ],
+        [
+          323,
+          346
+        ],
+        [
+          359,
+          344
+        ],
+        [
+          359,
+          1
+        ],
+        [
+          319,
+          2
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          25,
+          93
+        ],
+        [
+          24,
+          149
+        ],
+        [
+          81,
+          151
+        ],
+        [
+          80,
+          95
+        ],
+        [
+          27,
+          93
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          132,
+          74
+        ],
+        [
+          131,
+          129
+        ],
+        [
+          188,
+          130
+        ],
+        [
+          189,
+          73
+        ],
+        [
+          133,
+          71
+        ]
+      ],
+      "category": "object"
+    },
+    "B4": {
+      "id": "B4",
+      "type": "blob",
+      "polygon": [
+        [
+          226,
+          91
+        ],
+        [
+          227,
+          149
+        ],
+        [
+          284,
+          146
+        ],
+        [
+          281,
+          88
+        ],
+        [
+          228,
+          91
+        ]
+      ],
+      "category": "object"
+    },
+    "B5": {
+      "id": "B5",
+      "type": "blob",
+      "polygon": [
+        [
+          243,
+          187
+        ],
+        [
+          244,
+          249
+        ],
+        [
+          305,
+          248
+        ],
+        [
+          303,
+          186
+        ],
+        [
+          245,
+          187
+        ]
+      ],
+      "category": "object"
+    },
+    "B6": {
+      "id": "B6",
+      "type": "blob",
+      "polygon": [
+        [
+          220,
+          272
+        ],
+        [
+          223,
+          331
+        ],
+        [
+          278,
+          329
+        ],
+        [
+          276,
+          272
+        ],
+        [
+          222,
+          272
+        ]
+      ],
+      "category": "object"
+    },
+    "B7": {
+      "id": "B7",
+      "type": "blob",
+      "polygon": [
+        [
+          120,
+          298
+        ],
+        [
+          118,
+          353
+        ],
+        [
+          175,
+          355
+        ],
+        [
+          174,
+          299
+        ],
+        [
+          122,
+          300
+        ]
+      ],
+      "category": "object"
+    },
+    "B8": {
+      "id": "B8",
+      "type": "blob",
+      "polygon": [
+        [
+          113,
+          247
+        ],
+        [
+          100,
+          218
+        ],
+        [
+          105,
+          194
+        ],
+        [
+          119,
+          178
+        ],
+        [
+          134,
+          167
+        ],
+        [
+          164,
+          165
+        ],
+        [
+          185,
+          181
+        ],
+        [
+          199,
+          199
+        ],
+        [
+          197,
+          228
+        ],
+        [
+          185,
+          251
+        ],
+        [
+          172,
+          263
+        ],
+        [
+          155,
+          266
+        ],
+        [
+          128,
+          262
+        ],
+        [
+          111,
+          243
+        ]
+      ],
+      "category": "object"
+    },
+    "B9": {
+      "id": "B9",
+      "type": "blob",
+      "polygon": [
+        [
+          71,
+          227
+        ],
+        [
+          63,
+          215
+        ],
+        [
+          67,
+          205
+        ],
+        [
+          72,
+          202
+        ],
+        [
+          85,
+          202
+        ],
+        [
+          91,
+          216
+        ],
+        [
+          88,
+          224
+        ],
+        [
+          77,
+          229
+        ],
+        [
+          73,
+          229
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageCaption",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B5",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B17",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B17",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B10": "whole",
+    "B11": "whole",
+    "B12": "whole",
+    "B13": "whole",
+    "B14": "whole",
+    "B15": "whole",
+    "B16": "whole",
+    "B17": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "B4": "whole",
+    "B5": "whole",
+    "B6": "whole",
+    "B7": "whole",
+    "B8": "whole",
+    "B9": "whole"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "as the moon makes its monthly journey around the earth, the side of the moon reflecting the sunlight is viewed from different angles. new moon sun"
+  },
+  "questions": [
+    {
+      "question_text": "What is this image a picture of the phases of?",
+      "question_id": "1235.png-0",
+      "answers": [
+        "Earth",
+        "Moon",
+        "Sun",
+        "Planet"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which label indicates the sun?",
+      "question_id": "1235.png-1",
+      "answers": [
+        "A",
+        "C",
+        "D",
+        "B"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

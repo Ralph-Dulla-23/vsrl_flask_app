@@ -1,0 +1,926 @@
+{
+  "image_id": "945",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          29,
+          86
+        ],
+        [
+          115,
+          108
+        ]
+      ],
+      "value": "Turnstone",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          475,
+          86
+        ],
+        [
+          544,
+          103
+        ]
+      ],
+      "value": "Curlew",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          446,
+          211
+        ],
+        [
+          582,
+          235
+        ]
+      ],
+      "value": "Bar-tailed Godwit",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          487,
+          310
+        ],
+        [
+          580,
+          335
+        ]
+      ],
+      "value": "Whimbrel",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          484,
+          398
+        ],
+        [
+          577,
+          411
+        ]
+      ],
+      "value": "Yellowlegs",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          60,
+          189
+        ],
+        [
+          122,
+          207
+        ]
+      ],
+      "value": "Dunlin",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          32,
+          264
+        ],
+        [
+          151,
+          310
+        ]
+      ],
+      "value": "Rufous-necked Sandpiper",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          225,
+          329
+        ],
+        [
+          281,
+          366
+        ]
+      ],
+      "value": "Grey Plover",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          51,
+          385
+        ],
+        [
+          123,
+          412
+        ]
+      ],
+      "value": "Kentish Plover",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          196,
+          113
+        ],
+        [
+          207,
+          112
+        ],
+        [
+          253,
+          86
+        ],
+        [
+          304,
+          71
+        ],
+        [
+          366,
+          62
+        ],
+        [
+          429,
+          62
+        ],
+        [
+          488,
+          63
+        ],
+        [
+          509,
+          86
+        ],
+        [
+          520,
+          91
+        ],
+        [
+          587,
+          77
+        ],
+        [
+          611,
+          72
+        ],
+        [
+          613,
+          62
+        ],
+        [
+          606,
+          43
+        ],
+        [
+          583,
+          21
+        ],
+        [
+          567,
+          12
+        ],
+        [
+          537,
+          7
+        ],
+        [
+          505,
+          15
+        ],
+        [
+          488,
+          26
+        ],
+        [
+          474,
+          32
+        ],
+        [
+          413,
+          38
+        ],
+        [
+          348,
+          45
+        ],
+        [
+          300,
+          53
+        ],
+        [
+          254,
+          68
+        ],
+        [
+          191,
+          112
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          276,
+          174
+        ],
+        [
+          290,
+          184
+        ],
+        [
+          355,
+          191
+        ],
+        [
+          446,
+          192
+        ],
+        [
+          494,
+          197
+        ],
+        [
+          534,
+          216
+        ],
+        [
+          618,
+          191
+        ],
+        [
+          600,
+          160
+        ],
+        [
+          585,
+          146
+        ],
+        [
+          567,
+          138
+        ],
+        [
+          542,
+          138
+        ],
+        [
+          520,
+          144
+        ],
+        [
+          508,
+          155
+        ],
+        [
+          494,
+          164
+        ],
+        [
+          386,
+          171
+        ],
+        [
+          329,
+          174
+        ],
+        [
+          271,
+          171
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          370,
+          335
+        ],
+        [
+          379,
+          335
+        ],
+        [
+          400,
+          319
+        ],
+        [
+          449,
+          307
+        ],
+        [
+          515,
+          297
+        ],
+        [
+          528,
+          302
+        ],
+        [
+          552,
+          317
+        ],
+        [
+          611,
+          290
+        ],
+        [
+          612,
+          283
+        ],
+        [
+          588,
+          256
+        ],
+        [
+          561,
+          252
+        ],
+        [
+          528,
+          264
+        ],
+        [
+          518,
+          272
+        ],
+        [
+          513,
+          276
+        ],
+        [
+          463,
+          282
+        ],
+        [
+          428,
+          290
+        ],
+        [
+          391,
+          309
+        ],
+        [
+          375,
+          323
+        ],
+        [
+          367,
+          333
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          470,
+          382
+        ],
+        [
+          505,
+          385
+        ],
+        [
+          533,
+          385
+        ],
+        [
+          547,
+          392
+        ],
+        [
+          573,
+          391
+        ],
+        [
+          600,
+          379
+        ],
+        [
+          600,
+          370
+        ],
+        [
+          585,
+          356
+        ],
+        [
+          570,
+          351
+        ],
+        [
+          552,
+          353
+        ],
+        [
+          539,
+          361
+        ],
+        [
+          530,
+          369
+        ],
+        [
+          473,
+          379
+        ]
+      ],
+      "category": "object"
+    },
+    "B4": {
+      "id": "B4",
+      "type": "blob",
+      "polygon": [
+        [
+          173,
+          297
+        ],
+        [
+          184,
+          304
+        ],
+        [
+          216,
+          303
+        ],
+        [
+          230,
+          319
+        ],
+        [
+          237,
+          323
+        ],
+        [
+          307,
+          310
+        ],
+        [
+          302,
+          293
+        ],
+        [
+          292,
+          269
+        ],
+        [
+          271,
+          261
+        ],
+        [
+          251,
+          257
+        ],
+        [
+          230,
+          263
+        ],
+        [
+          212,
+          279
+        ],
+        [
+          207,
+          283
+        ],
+        [
+          182,
+          285
+        ],
+        [
+          170,
+          295
+        ]
+      ],
+      "category": "object"
+    },
+    "B5": {
+      "id": "B5",
+      "type": "blob",
+      "polygon": [
+        [
+          40,
+          254
+        ],
+        [
+          63,
+          257
+        ],
+        [
+          73,
+          257
+        ],
+        [
+          86,
+          268
+        ],
+        [
+          124,
+          257
+        ],
+        [
+          117,
+          238
+        ],
+        [
+          102,
+          231
+        ],
+        [
+          83,
+          232
+        ],
+        [
+          73,
+          241
+        ],
+        [
+          68,
+          242
+        ],
+        [
+          41,
+          252
+        ]
+      ],
+      "category": "object"
+    },
+    "B6": {
+      "id": "B6",
+      "type": "blob",
+      "polygon": [
+        [
+          4,
+          191
+        ],
+        [
+          16,
+          191
+        ],
+        [
+          27,
+          182
+        ],
+        [
+          48,
+          178
+        ],
+        [
+          66,
+          178
+        ],
+        [
+          81,
+          186
+        ],
+        [
+          137,
+          173
+        ],
+        [
+          123,
+          148
+        ],
+        [
+          102,
+          142
+        ],
+        [
+          81,
+          145
+        ],
+        [
+          66,
+          156
+        ],
+        [
+          37,
+          163
+        ],
+        [
+          21,
+          170
+        ],
+        [
+          4,
+          185
+        ],
+        [
+          1,
+          187
+        ]
+      ],
+      "category": "object"
+    },
+    "B7": {
+      "id": "B7",
+      "type": "blob",
+      "polygon": [
+        [
+          36,
+          357
+        ],
+        [
+          36,
+          370
+        ],
+        [
+          58,
+          371
+        ],
+        [
+          71,
+          380
+        ],
+        [
+          123,
+          371
+        ],
+        [
+          122,
+          360
+        ],
+        [
+          110,
+          346
+        ],
+        [
+          91,
+          343
+        ],
+        [
+          72,
+          346
+        ],
+        [
+          62,
+          354
+        ],
+        [
+          38,
+          356
+        ]
+      ],
+      "category": "object"
+    },
+    "B8": {
+      "id": "B8",
+      "type": "blob",
+      "polygon": [
+        [
+          0,
+          62
+        ],
+        [
+          9,
+          70
+        ],
+        [
+          24,
+          73
+        ],
+        [
+          43,
+          77
+        ],
+        [
+          48,
+          87
+        ],
+        [
+          110,
+          84
+        ],
+        [
+          114,
+          81
+        ],
+        [
+          113,
+          65
+        ],
+        [
+          102,
+          42
+        ],
+        [
+          81,
+          32
+        ],
+        [
+          58,
+          34
+        ],
+        [
+          40,
+          47
+        ],
+        [
+          35,
+          55
+        ],
+        [
+          0,
+          62
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+B8",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B8",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B1",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B2",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B3",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+B6",
+      "type": "intraObjectLabel",
+      "source": "T5",
+      "target": "B6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+B5",
+      "type": "intraObjectLabel",
+      "source": "T6",
+      "target": "B5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T7+B4",
+      "type": "intraObjectLabel",
+      "source": "T7",
+      "target": "B4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T8+B7",
+      "type": "intraObjectLabel",
+      "source": "T8",
+      "target": "B7",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "B4": "whole",
+    "B5": "whole",
+    "B6": "whole",
+    "B7": "whole",
+    "B8": "whole"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "turnstone curlew bar-tailed godwit whimbrel yellowlegs dunlin rufous-necked sandpiper grey plover kentish plover"
+  },
+  "questions": [
+    {
+      "question_text": "What bird is represented with E?",
+      "question_id": "945.png-0",
+      "answers": [
+        "none of the above",
+        "turnstone",
+        "whimbrel",
+        "yellowlegs"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which bird has the longest beak?",
+      "question_id": "945.png-2",
+      "answers": [
+        "yellowlegs",
+        "curlew",
+        "whimbrel",
+        "bar-tailed godwit"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which bird has the shortest beak?",
+      "question_id": "945.png-3",
+      "answers": [
+        "kentish plover",
+        "yellowlegs",
+        "dunlin",
+        "rufous-necked sandpiper"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which bird is represented by A?",
+      "question_id": "945.png-1",
+      "answers": [
+        "turnstone",
+        "dunlin",
+        "none of the above",
+        "whimbrel"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

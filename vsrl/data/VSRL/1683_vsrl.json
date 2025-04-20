@@ -1,0 +1,440 @@
+{
+  "image_id": "1683",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          44,
+          71
+        ],
+        [
+          95,
+          98
+        ]
+      ],
+      "value": "SUN",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          226,
+          114
+        ],
+        [
+          277,
+          129
+        ]
+      ],
+      "value": "EARTH",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          301,
+          14
+        ],
+        [
+          337,
+          33
+        ]
+      ],
+      "value": "MOON",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          341,
+          37
+        ],
+        [
+          401,
+          58
+        ]
+      ],
+      "value": "Penumbra",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          344,
+          73
+        ],
+        [
+          382,
+          88
+        ]
+      ],
+      "value": "Umbra",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          340,
+          107
+        ],
+        [
+          402,
+          127
+        ]
+      ],
+      "value": "Penumbra",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          91,
+          132
+        ],
+        [
+          71,
+          137
+        ],
+        [
+          43,
+          135
+        ],
+        [
+          24,
+          116
+        ],
+        [
+          12,
+          94
+        ],
+        [
+          15,
+          70
+        ],
+        [
+          23,
+          44
+        ],
+        [
+          42,
+          29
+        ],
+        [
+          74,
+          28
+        ],
+        [
+          106,
+          39
+        ],
+        [
+          121,
+          67
+        ],
+        [
+          123,
+          92
+        ],
+        [
+          119,
+          119
+        ],
+        [
+          92,
+          131
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          236,
+          112
+        ],
+        [
+          215,
+          89
+        ],
+        [
+          223,
+          64
+        ],
+        [
+          248,
+          51
+        ],
+        [
+          274,
+          58
+        ],
+        [
+          280,
+          78
+        ],
+        [
+          282,
+          97
+        ],
+        [
+          269,
+          105
+        ],
+        [
+          235,
+          114
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          307,
+          116
+        ],
+        [
+          314,
+          102
+        ],
+        [
+          326,
+          100
+        ],
+        [
+          336,
+          109
+        ],
+        [
+          331,
+          122
+        ],
+        [
+          319,
+          130
+        ],
+        [
+          309,
+          119
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          312,
+          83
+        ],
+        [
+          313,
+          72
+        ],
+        [
+          327,
+          66
+        ],
+        [
+          331,
+          65
+        ],
+        [
+          337,
+          76
+        ],
+        [
+          338,
+          92
+        ],
+        [
+          326,
+          94
+        ],
+        [
+          311,
+          86
+        ]
+      ],
+      "category": "object"
+    },
+    "B4": {
+      "id": "B4",
+      "type": "blob",
+      "polygon": [
+        [
+          308,
+          52
+        ],
+        [
+          309,
+          42
+        ],
+        [
+          322,
+          36
+        ],
+        [
+          333,
+          45
+        ],
+        [
+          327,
+          57
+        ],
+        [
+          315,
+          62
+        ],
+        [
+          310,
+          54
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+B0",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B1",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B4",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+I0",
+      "type": "imageCaption",
+      "source": "T3",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B3",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+B2",
+      "type": "intraObjectLabel",
+      "source": "T5",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "B4": "whole"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "sun earth moon penumbra umbra penumbra"
+  },
+  "questions": [
+    {
+      "question_text": "A partial shadow, as in an eclipse, between regions of complete shadow and complete illumination.",
+      "question_id": "1683.png-1",
+      "answers": [
+        "penumbra",
+        "earth",
+        "umbra",
+        "moon"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "The completely dark portion of the shadow cast by the earth, moon, or other body during an eclipse.",
+      "question_id": "1683.png-2",
+      "answers": [
+        "moon",
+        "penumbra",
+        "earth",
+        "umbra"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is shown in the diagram?",
+      "question_id": "1683.png-0",
+      "answers": [
+        "None of the above",
+        "Human system",
+        "Plant system",
+        "Solar System"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What provides solar energy?",
+      "question_id": "1683.png-3",
+      "answers": [
+        "Sun",
+        "None of the above",
+        "Moon",
+        "Earth"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

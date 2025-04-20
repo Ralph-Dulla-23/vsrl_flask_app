@@ -1,0 +1,340 @@
+{
+  "image_id": "4013",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          210,
+          7
+        ],
+        [
+          759,
+          62
+        ]
+      ],
+      "value": "The composition of the earth",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          8,
+          136
+        ],
+        [
+          261,
+          244
+        ]
+      ],
+      "value": "the mantle is 67% of earth's mass and is 2,900 km thick. ",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          657,
+          92
+        ],
+        [
+          973,
+          194
+        ]
+      ],
+      "value": "The crust is less than 1% of Earth's mass and is 5 to 100 km thick.",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          62,
+          587
+        ],
+        [
+          346,
+          687
+        ]
+      ],
+      "value": "The core is 33% of Earth's mass and has a radius of 3,430 km.",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          475,
+          93
+        ],
+        [
+          535,
+          100
+        ],
+        [
+          597,
+          112
+        ],
+        [
+          662,
+          145
+        ],
+        [
+          740,
+          214
+        ],
+        [
+          775,
+          259
+        ],
+        [
+          802,
+          321
+        ],
+        [
+          823,
+          394
+        ],
+        [
+          827,
+          463
+        ],
+        [
+          822,
+          534
+        ],
+        [
+          801,
+          593
+        ],
+        [
+          762,
+          665
+        ],
+        [
+          708,
+          723
+        ],
+        [
+          599,
+          790
+        ],
+        [
+          497,
+          816
+        ],
+        [
+          418,
+          803
+        ],
+        [
+          347,
+          787
+        ],
+        [
+          217,
+          705
+        ],
+        [
+          141,
+          583
+        ],
+        [
+          121,
+          516
+        ],
+        [
+          110,
+          433
+        ],
+        [
+          135,
+          347
+        ],
+        [
+          169,
+          259
+        ],
+        [
+          270,
+          157
+        ],
+        [
+          347,
+          120
+        ],
+        [
+          472,
+          91
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          148,
+          232
+        ],
+        [
+          254,
+          345
+        ],
+        [
+          251,
+          324
+        ],
+        [
+          209,
+          231
+        ],
+        [
+          148,
+          232
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          632,
+          314
+        ],
+        [
+          782,
+          202
+        ],
+        [
+          677,
+          192
+        ],
+        [
+          611,
+          309
+        ],
+        [
+          634,
+          315
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          323,
+          591
+        ],
+        [
+          403,
+          493
+        ],
+        [
+          373,
+          476
+        ],
+        [
+          262,
+          586
+        ],
+        [
+          325,
+          593
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T2+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T3+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "the composition of the earth the mantle is 67% of earth's mass and is 2,900 km thick.  the crust is less than 1% of earth's mass and is 5 to 100 km thick. the core is 33% of earth's mass and has a radius of 3,430 km."
+  },
+  "questions": [
+    {
+      "question_text": "What is represented y B?",
+      "question_id": "4013.png-0",
+      "answers": [
+        "none of the above",
+        "the mantle",
+        "the core",
+        "the crust"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is the outermost layer?",
+      "question_id": "4013.png-1",
+      "answers": [
+        "core",
+        "none of the above",
+        "crust",
+        "mantle"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}

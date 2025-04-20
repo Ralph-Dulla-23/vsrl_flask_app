@@ -1,0 +1,382 @@
+{
+  "image_id": "1559",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          191,
+          168
+        ],
+        [
+          257,
+          180
+        ]
+      ],
+      "value": "Electron flow",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          19,
+          168
+        ],
+        [
+          85,
+          192
+        ]
+      ],
+      "value": "conventional current flow",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          58,
+          19
+        ],
+        [
+          60,
+          41
+        ],
+        [
+          69,
+          42
+        ],
+        [
+          69,
+          52
+        ],
+        [
+          69,
+          61
+        ],
+        [
+          193,
+          61
+        ],
+        [
+          196,
+          1
+        ],
+        [
+          70,
+          0
+        ],
+        [
+          70,
+          14
+        ],
+        [
+          57,
+          17
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          116,
+          123
+        ],
+        [
+          111,
+          112
+        ],
+        [
+          115,
+          101
+        ],
+        [
+          131,
+          95
+        ],
+        [
+          140,
+          95
+        ],
+        [
+          150,
+          102
+        ],
+        [
+          153,
+          116
+        ],
+        [
+          151,
+          122
+        ],
+        [
+          144,
+          133
+        ],
+        [
+          148,
+          141
+        ],
+        [
+          162,
+          144
+        ],
+        [
+          165,
+          161
+        ],
+        [
+          147,
+          168
+        ],
+        [
+          117,
+          167
+        ],
+        [
+          104,
+          164
+        ],
+        [
+          100,
+          150
+        ],
+        [
+          113,
+          143
+        ],
+        [
+          120,
+          132
+        ],
+        [
+          116,
+          125
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          194,
+          18
+        ],
+        [
+          268,
+          18
+        ],
+        [
+          261,
+          151
+        ],
+        [
+          149,
+          155
+        ],
+        [
+          147,
+          142
+        ],
+        [
+          244,
+          140
+        ],
+        [
+          248,
+          34
+        ],
+        [
+          186,
+          36
+        ],
+        [
+          191,
+          17
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          209,
+          164
+        ],
+        [
+          238,
+          164
+        ],
+        [
+          239,
+          151
+        ],
+        [
+          204,
+          152
+        ],
+        [
+          201,
+          146
+        ],
+        [
+          187,
+          161
+        ],
+        [
+          200,
+          175
+        ],
+        [
+          207,
+          163
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          21,
+          163
+        ],
+        [
+          53,
+          165
+        ],
+        [
+          57,
+          176
+        ],
+        [
+          82,
+          159
+        ],
+        [
+          60,
+          153
+        ],
+        [
+          54,
+          155
+        ],
+        [
+          20,
+          155
+        ],
+        [
+          20,
+          163
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          61,
+          19
+        ],
+        [
+          62,
+          35
+        ],
+        [
+          23,
+          35
+        ],
+        [
+          20,
+          139
+        ],
+        [
+          116,
+          141
+        ],
+        [
+          118,
+          155
+        ],
+        [
+          4,
+          155
+        ],
+        [
+          6,
+          20
+        ],
+        [
+          59,
+          20
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H0",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A3+B1",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B1",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "B1+A0+B0",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "electron flow conventional current flow"
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "image_id": "4012",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          39,
+          42
+        ],
+        [
+          984,
+          118
+        ]
+      ],
+      "value": "LAYERS OF THE EARTH",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          564,
+          92
+        ],
+        [
+          725,
+          139
+        ]
+      ],
+      "value": "Mantle",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          509,
+          179
+        ],
+        [
+          709,
+          267
+        ]
+      ],
+      "value": "Outer Core",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          506,
+          290
+        ],
+        [
+          637,
+          395
+        ]
+      ],
+      "value": "Inner Core",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          646,
+          36
+        ],
+        [
+          759,
+          93
+        ],
+        [
+          804,
+          147
+        ],
+        [
+          845,
+          205
+        ],
+        [
+          870,
+          274
+        ],
+        [
+          884,
+          346
+        ],
+        [
+          891,
+          396
+        ],
+        [
+          880,
+          476
+        ],
+        [
+          860,
+          546
+        ],
+        [
+          824,
+          603
+        ],
+        [
+          760,
+          671
+        ],
+        [
+          692,
+          725
+        ],
+        [
+          597,
+          753
+        ],
+        [
+          515,
+          767
+        ],
+        [
+          441,
+          758
+        ],
+        [
+          369,
+          734
+        ],
+        [
+          308,
+          697
+        ],
+        [
+          241,
+          643
+        ],
+        [
+          187,
+          548
+        ],
+        [
+          140,
+          480
+        ],
+        [
+          144,
+          360
+        ],
+        [
+          172,
+          253
+        ],
+        [
+          215,
+          182
+        ],
+        [
+          279,
+          123
+        ],
+        [
+          333,
+          69
+        ],
+        [
+          413,
+          42
+        ],
+        [
+          474,
+          25
+        ],
+        [
+          560,
+          25
+        ],
+        [
+          655,
+          42
+        ],
+        [
+          647,
+          32
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          788,
+          118
+        ],
+        [
+          824,
+          99
+        ],
+        [
+          828,
+          109
+        ],
+        [
+          899,
+          88
+        ],
+        [
+          906,
+          101
+        ],
+        [
+          834,
+          121
+        ],
+        [
+          832,
+          134
+        ],
+        [
+          788,
+          123
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "A0": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "layers of the earth mantle outer core inner core"
+  },
+  "questions": [
+    {
+      "question_text": "which is the inner most layer",
+      "question_id": "4012.png-0",
+      "answers": [
+        "outer core",
+        "crush",
+        "inner core",
+        "mantle"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

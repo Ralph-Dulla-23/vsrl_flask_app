@@ -1,0 +1,426 @@
+{
+  "image_id": "366",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          5,
+          12
+        ],
+        [
+          188,
+          61
+        ]
+      ],
+      "value": "Extrusive igneous rock formation ",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          220,
+          12
+        ],
+        [
+          399,
+          61
+        ]
+      ],
+      "value": "Intrusive igneous rock formation",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          3,
+          303
+        ],
+        [
+          72,
+          316
+        ]
+      ],
+      "value": "Buzzle.com",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          82,
+          316
+        ],
+        [
+          359,
+          316
+        ],
+        [
+          351,
+          306
+        ],
+        [
+          344,
+          298
+        ],
+        [
+          339,
+          298
+        ],
+        [
+          325,
+          286
+        ],
+        [
+          385,
+          284
+        ],
+        [
+          383,
+          141
+        ],
+        [
+          323,
+          126
+        ],
+        [
+          316,
+          127
+        ],
+        [
+          300,
+          120
+        ],
+        [
+          275,
+          123
+        ],
+        [
+          257,
+          119
+        ],
+        [
+          226,
+          121
+        ],
+        [
+          159,
+          98
+        ],
+        [
+          161,
+          93
+        ],
+        [
+          168,
+          92
+        ],
+        [
+          176,
+          92
+        ],
+        [
+          187,
+          92
+        ],
+        [
+          199,
+          81
+        ],
+        [
+          204,
+          76
+        ],
+        [
+          211,
+          81
+        ],
+        [
+          221,
+          83
+        ],
+        [
+          232,
+          82
+        ],
+        [
+          237,
+          86
+        ],
+        [
+          242,
+          79
+        ],
+        [
+          248,
+          85
+        ],
+        [
+          257,
+          85
+        ],
+        [
+          259,
+          79
+        ],
+        [
+          271,
+          74
+        ],
+        [
+          261,
+          73
+        ],
+        [
+          248,
+          73
+        ],
+        [
+          241,
+          74
+        ],
+        [
+          225,
+          74
+        ],
+        [
+          219,
+          72
+        ],
+        [
+          212,
+          66
+        ],
+        [
+          203,
+          66
+        ],
+        [
+          189,
+          62
+        ],
+        [
+          185,
+          64
+        ],
+        [
+          178,
+          67
+        ],
+        [
+          176,
+          71
+        ],
+        [
+          173,
+          72
+        ],
+        [
+          169,
+          73
+        ],
+        [
+          163,
+          71
+        ],
+        [
+          155,
+          74
+        ],
+        [
+          139,
+          84
+        ],
+        [
+          135,
+          86
+        ],
+        [
+          134,
+          95
+        ],
+        [
+          74,
+          120
+        ],
+        [
+          17,
+          145
+        ],
+        [
+          17,
+          285
+        ],
+        [
+          100,
+          282
+        ],
+        [
+          91,
+          293
+        ],
+        [
+          80,
+          316
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          89,
+          58
+        ],
+        [
+          99,
+          58
+        ],
+        [
+          98,
+          87
+        ],
+        [
+          104,
+          89
+        ],
+        [
+          94,
+          108
+        ],
+        [
+          85,
+          91
+        ],
+        [
+          91,
+          87
+        ],
+        [
+          90,
+          59
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          283,
+          59
+        ],
+        [
+          294,
+          58
+        ],
+        [
+          293,
+          142
+        ],
+        [
+          301,
+          144
+        ],
+        [
+          290,
+          164
+        ],
+        [
+          278,
+          144
+        ],
+        [
+          287,
+          141
+        ],
+        [
+          286,
+          60
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T2+I0",
+      "type": "misc",
+      "source": "T2",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector"
+  },
+  "educational_context": {
+    "subject": "earth_science",
+    "diagram_type": "labeled_illustration",
+    "text_content": "extrusive igneous rock formation  intrusive igneous rock formation buzzle.com"
+  },
+  "questions": [
+    {
+      "question_text": "What label applies to B?",
+      "question_id": "366.png-0",
+      "answers": [
+        "construsive igneous rock formation",
+        "None",
+        "extrusive igneous rock formation",
+        "Intrusive igneous rock formation"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    }
+  ]
+}

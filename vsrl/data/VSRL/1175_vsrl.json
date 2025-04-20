@@ -1,0 +1,942 @@
+{
+  "image_id": "1175",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          404,
+          37
+        ],
+        [
+          468,
+          70
+        ]
+      ],
+      "value": "Golgi apparatus",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          467,
+          73
+        ],
+        [
+          559,
+          89
+        ]
+      ],
+      "value": "Mitochondrion",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T10": {
+      "id": "T10",
+      "type": "text",
+      "bbox": [
+        [
+          484,
+          404
+        ],
+        [
+          550,
+          424
+        ]
+      ],
+      "value": "CYTOPLASM",
+      "replacementText": "L",
+      "category": "label"
+    },
+    "T11": {
+      "id": "T11",
+      "type": "text",
+      "bbox": [
+        [
+          487,
+          359
+        ],
+        [
+          574,
+          378
+        ]
+      ],
+      "value": "Microtubules",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T12": {
+      "id": "T12",
+      "type": "text",
+      "bbox": [
+        [
+          499,
+          283
+        ],
+        [
+          554,
+          300
+        ]
+      ],
+      "value": "NUCLEUS",
+      "replacementText": "M",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          498,
+          152
+        ],
+        [
+          558,
+          170
+        ]
+      ],
+      "value": "Nucleolus",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          67,
+          85
+        ],
+        [
+          132,
+          102
+        ]
+      ],
+      "value": "Lysosome",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          52,
+          132
+        ],
+        [
+          103,
+          163
+        ]
+      ],
+      "value": "Golgi vesicles",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          26,
+          192
+        ],
+        [
+          112,
+          234
+        ]
+      ],
+      "value": "Rough ER (endoplasmic reticulum)",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          31,
+          296
+        ],
+        [
+          121,
+          335
+        ]
+      ],
+      "value": "Smooth ER (no ribosomes)",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          36,
+          347
+        ],
+        [
+          116,
+          377
+        ]
+      ],
+      "value": "Cell (plasma) membrane",
+      "replacementText": "K",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          37,
+          410
+        ],
+        [
+          138,
+          469
+        ]
+      ],
+      "value": "Centrioles (2) Each composed of 9 microtubule triplets.",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          474,
+          458
+        ],
+        [
+          540,
+          476
+        ]
+      ],
+      "value": "Ribosome",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          290,
+          73
+        ],
+        [
+          347,
+          80
+        ],
+        [
+          394,
+          104
+        ],
+        [
+          434,
+          148
+        ],
+        [
+          460,
+          203
+        ],
+        [
+          469,
+          248
+        ],
+        [
+          469,
+          302
+        ],
+        [
+          452,
+          362
+        ],
+        [
+          426,
+          407
+        ],
+        [
+          389,
+          444
+        ],
+        [
+          338,
+          468
+        ],
+        [
+          280,
+          472
+        ],
+        [
+          218,
+          450
+        ],
+        [
+          176,
+          414
+        ],
+        [
+          150,
+          373
+        ],
+        [
+          132,
+          322
+        ],
+        [
+          125,
+          262
+        ],
+        [
+          137,
+          206
+        ],
+        [
+          156,
+          156
+        ],
+        [
+          190,
+          116
+        ],
+        [
+          241,
+          83
+        ],
+        [
+          288,
+          73
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          326,
+          356
+        ],
+        [
+          482,
+          420
+        ],
+        [
+          486,
+          412
+        ],
+        [
+          324,
+          343
+        ],
+        [
+          324,
+          353
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          438,
+          353
+        ],
+        [
+          487,
+          370
+        ],
+        [
+          493,
+          362
+        ],
+        [
+          442,
+          341
+        ],
+        [
+          437,
+          352
+        ]
+      ],
+      "category": "connector"
+    },
+    "A10": {
+      "id": "A10",
+      "type": "arrow",
+      "polygon": [
+        [
+          106,
+          199
+        ],
+        [
+          100,
+          206
+        ],
+        [
+          156,
+          238
+        ],
+        [
+          162,
+          230
+        ],
+        [
+          110,
+          202
+        ]
+      ],
+      "category": "connector"
+    },
+    "A11": {
+      "id": "A11",
+      "type": "arrow",
+      "polygon": [
+        [
+          102,
+          144
+        ],
+        [
+          98,
+          154
+        ],
+        [
+          236,
+          173
+        ],
+        [
+          241,
+          162
+        ],
+        [
+          103,
+          143
+        ]
+      ],
+      "category": "connector"
+    },
+    "A12": {
+      "id": "A12",
+      "type": "arrow",
+      "polygon": [
+        [
+          127,
+          104
+        ],
+        [
+          208,
+          130
+        ],
+        [
+          211,
+          121
+        ],
+        [
+          130,
+          96
+        ],
+        [
+          125,
+          103
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          388,
+          413
+        ],
+        [
+          473,
+          470
+        ],
+        [
+          479,
+          462
+        ],
+        [
+          401,
+          404
+        ],
+        [
+          386,
+          412
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          310,
+          266
+        ],
+        [
+          310,
+          277
+        ],
+        [
+          498,
+          293
+        ],
+        [
+          499,
+          286
+        ],
+        [
+          310,
+          266
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          301,
+          221
+        ],
+        [
+          307,
+          234
+        ],
+        [
+          496,
+          170
+        ],
+        [
+          492,
+          161
+        ],
+        [
+          302,
+          221
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          400,
+          140
+        ],
+        [
+          407,
+          149
+        ],
+        [
+          488,
+          89
+        ],
+        [
+          480,
+          83
+        ],
+        [
+          400,
+          140
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          334,
+          132
+        ],
+        [
+          342,
+          137
+        ],
+        [
+          408,
+          60
+        ],
+        [
+          401,
+          53
+        ],
+        [
+          334,
+          131
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          132,
+          425
+        ],
+        [
+          137,
+          434
+        ],
+        [
+          275,
+          372
+        ],
+        [
+          268,
+          362
+        ],
+        [
+          131,
+          424
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          107,
+          358
+        ],
+        [
+          104,
+          367
+        ],
+        [
+          151,
+          383
+        ],
+        [
+          156,
+          373
+        ],
+        [
+          108,
+          356
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          119,
+          319
+        ],
+        [
+          125,
+          329
+        ],
+        [
+          190,
+          295
+        ],
+        [
+          187,
+          283
+        ],
+        [
+          119,
+          317
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A10+H2",
+      "type": "arrowHeadTail",
+      "source": "A10",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A11+H3",
+      "type": "arrowHeadTail",
+      "source": "A11",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A12+H4",
+      "type": "arrowHeadTail",
+      "source": "A12",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H5",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H6",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H7",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H8",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H8",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H9",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H9",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H10",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H10",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A8+H11",
+      "type": "arrowHeadTail",
+      "source": "A8",
+      "target": "H11",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A9+H12",
+      "type": "arrowHeadTail",
+      "source": "A9",
+      "target": "H12",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T1+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T10+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T10",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T11+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T11",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T12+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T12",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T2+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T3+A12+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A12",
+      "directional": false
+    },
+    {
+      "id": "T4+A11+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A11",
+      "directional": false
+    },
+    {
+      "id": "T5+A10+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A10",
+      "directional": false
+    },
+    {
+      "id": "T6+A9+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A9",
+      "directional": false
+    },
+    {
+      "id": "T7+A8+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A8",
+      "directional": false
+    },
+    {
+      "id": "T8+A7+B0",
+      "type": "intraObjectLinkage",
+      "source": "T8",
+      "target": "B0",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T9+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T9",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T10": "part_label",
+    "T11": "part_label",
+    "T12": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A10": "connector",
+    "A11": "connector",
+    "A12": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "golgi apparatus mitochondrion cytoplasm microtubules nucleus nucleolus lysosome golgi vesicles rough er (endoplasmic reticulum) smooth er (no ribosomes) cell (plasma) membrane centrioles (2) each composed of 9 microtubule triplets. ribosome"
+  },
+  "questions": [
+    {
+      "question_text": "The orange circular shape is called what?",
+      "question_id": "1175.png-0",
+      "answers": [
+        "Ribosome",
+        "Lysosome",
+        "Nucleolus",
+        "None of the above"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "The purple center is called what?",
+      "question_id": "1175.png-1",
+      "answers": [
+        "Ribosome",
+        "Lysosome",
+        "Nucleolus",
+        "None of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

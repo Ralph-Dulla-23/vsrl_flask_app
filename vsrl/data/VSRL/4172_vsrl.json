@@ -1,0 +1,776 @@
+{
+  "image_id": "4172",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          233,
+          38
+        ],
+        [
+          293,
+          64
+        ]
+      ],
+      "value": "sediment",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          411,
+          218
+        ],
+        [
+          469,
+          253
+        ]
+      ],
+      "value": "igneous rock",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          19,
+          312
+        ],
+        [
+          96,
+          353
+        ]
+      ],
+      "value": "metamorphic rock",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          242,
+          426
+        ],
+        [
+          293,
+          448
+        ]
+      ],
+      "value": "magma",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          348,
+          333
+        ],
+        [
+          431,
+          423
+        ]
+      ],
+      "value": "cools, turns solid",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          134,
+          396
+        ],
+        [
+          169,
+          429
+        ]
+      ],
+      "value": "melts",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          6,
+          210
+        ],
+        [
+          52,
+          294
+        ]
+      ],
+      "value": "is heated, pressurized,recrystallized",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          105,
+          42
+        ],
+        [
+          213,
+          140
+        ]
+      ],
+      "value": "is buried, compacted, cemented",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          16,
+          136
+        ],
+        [
+          98,
+          176
+        ]
+      ],
+      "value": "sedimentary rock",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          345,
+          72
+        ],
+        [
+          431,
+          168
+        ]
+      ],
+      "value": "is uplifted, weathered, eroded ",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          216,
+          101
+        ],
+        [
+          217,
+          7
+        ],
+        [
+          311,
+          8
+        ],
+        [
+          311,
+          103
+        ],
+        [
+          217,
+          104
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          392,
+          286
+        ],
+        [
+          392,
+          194
+        ],
+        [
+          487,
+          194
+        ],
+        [
+          487,
+          287
+        ],
+        [
+          395,
+          288
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          104,
+          206
+        ],
+        [
+          10,
+          207
+        ],
+        [
+          10,
+          113
+        ],
+        [
+          104,
+          113
+        ],
+        [
+          105,
+          206
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          103,
+          386
+        ],
+        [
+          10,
+          387
+        ],
+        [
+          10,
+          294
+        ],
+        [
+          105,
+          294
+        ],
+        [
+          106,
+          386
+        ]
+      ],
+      "category": "object"
+    },
+    "B4": {
+      "id": "B4",
+      "type": "blob",
+      "polygon": [
+        [
+          314,
+          486
+        ],
+        [
+          221,
+          485
+        ],
+        [
+          220,
+          392
+        ],
+        [
+          315,
+          392
+        ],
+        [
+          316,
+          484
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          104,
+          150
+        ],
+        [
+          215,
+          60
+        ],
+        [
+          219,
+          68
+        ],
+        [
+          107,
+          163
+        ],
+        [
+          104,
+          150
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          55,
+          234
+        ],
+        [
+          392,
+          236
+        ],
+        [
+          393,
+          246
+        ],
+        [
+          56,
+          247
+        ],
+        [
+          55,
+          235
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          101,
+          190
+        ],
+        [
+          374,
+          124
+        ],
+        [
+          368,
+          109
+        ],
+        [
+          99,
+          178
+        ],
+        [
+          101,
+          187
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          102,
+          347
+        ],
+        [
+          405,
+          150
+        ],
+        [
+          395,
+          138
+        ],
+        [
+          95,
+          337
+        ],
+        [
+          101,
+          346
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          311,
+          78
+        ],
+        [
+          440,
+          198
+        ],
+        [
+          452,
+          191
+        ],
+        [
+          313,
+          54
+        ],
+        [
+          310,
+          74
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          108,
+          348
+        ],
+        [
+          222,
+          451
+        ],
+        [
+          217,
+          459
+        ],
+        [
+          98,
+          354
+        ],
+        [
+          107,
+          347
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          47,
+          207
+        ],
+        [
+          47,
+          298
+        ],
+        [
+          63,
+          299
+        ],
+        [
+          63,
+          208
+        ],
+        [
+          49,
+          207
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          315,
+          464
+        ],
+        [
+          453,
+          289
+        ],
+        [
+          438,
+          281
+        ],
+        [
+          307,
+          452
+        ],
+        [
+          316,
+          463
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H4",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H7",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H0",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H6",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H5",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H3",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H2",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H1",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A0+B2",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B2",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "B1+A1+T6",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "T6",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "B1+A4+B0",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B0",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "B2+A2+T9",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "T9",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "B2+A6+B3",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B3",
+      "connector": "A6",
+      "directional": true
+    },
+    {
+      "id": "B3+A3+T9",
+      "type": "interObjectLinkage",
+      "source": "B3",
+      "target": "T9",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "B3+A5+B4",
+      "type": "interObjectLinkage",
+      "source": "B3",
+      "target": "B4",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "B4+A7+B1",
+      "type": "interObjectLinkage",
+      "source": "B4",
+      "target": "B1",
+      "connector": "A7",
+      "directional": true
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B1",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B3",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B4",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T8+B2",
+      "type": "intraObjectLabel",
+      "source": "T8",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "B4": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector"
+  },
+  "educational_context": {
+    "subject": "earth_science",
+    "diagram_type": "flow_diagram",
+    "text_content": "sediment igneous rock metamorphic rock magma cools, turns solid melts is heated, pressurized,recrystallized is buried, compacted, cemented sedimentary rock is uplifted, weathered, eroded "
+  },
+  "questions": [
+    {
+      "question_text": "What does cooling magma result in?",
+      "question_id": "4172.png-2",
+      "answers": [
+        "Sediment",
+        "Sedimentary Rock",
+        "Igneous Rock",
+        "Metamorphic Rock"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What does the letter H represent?",
+      "question_id": "4172.png-1",
+      "answers": [
+        "Igneous rock",
+        "Magma",
+        "Sedimentary rock",
+        "Metamorphic rock"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is formed when Metamorphic Rock melts?",
+      "question_id": "4172.png-3",
+      "answers": [
+        "Igneous Rock",
+        "Sedimentary Rocks",
+        "Sediment",
+        "Magma"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which letter represents Magma?",
+      "question_id": "4172.png-0",
+      "answers": [
+        "H",
+        "G",
+        "C",
+        "B"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

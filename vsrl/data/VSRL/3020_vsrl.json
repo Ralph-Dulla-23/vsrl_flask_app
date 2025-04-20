@@ -1,0 +1,401 @@
+{
+  "image_id": "3020",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          114,
+          0
+        ],
+        [
+          187,
+          19
+        ]
+      ],
+      "value": "Standard",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          7,
+          35
+        ],
+        [
+          104,
+          55
+        ]
+      ],
+      "value": "Style Branch",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          42,
+          238
+        ],
+        [
+          86,
+          259
+        ]
+      ],
+      "value": "Stem",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          156,
+          180
+        ],
+        [
+          187,
+          198
+        ]
+      ],
+      "value": "Fall",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          122,
+          259
+        ],
+        [
+          126,
+          198
+        ],
+        [
+          145,
+          191
+        ],
+        [
+          152,
+          163
+        ],
+        [
+          179,
+          171
+        ],
+        [
+          192,
+          168
+        ],
+        [
+          196,
+          148
+        ],
+        [
+          190,
+          141
+        ],
+        [
+          162,
+          133
+        ],
+        [
+          172,
+          121
+        ],
+        [
+          169,
+          104
+        ],
+        [
+          166,
+          71
+        ],
+        [
+          160,
+          66
+        ],
+        [
+          152,
+          76
+        ],
+        [
+          141,
+          86
+        ],
+        [
+          132,
+          69
+        ],
+        [
+          121,
+          57
+        ],
+        [
+          117,
+          52
+        ],
+        [
+          106,
+          77
+        ],
+        [
+          104,
+          91
+        ],
+        [
+          101,
+          91
+        ],
+        [
+          79,
+          74
+        ],
+        [
+          73,
+          77
+        ],
+        [
+          74,
+          97
+        ],
+        [
+          81,
+          108
+        ],
+        [
+          74,
+          116
+        ],
+        [
+          78,
+          128
+        ],
+        [
+          72,
+          133
+        ],
+        [
+          60,
+          138
+        ],
+        [
+          51,
+          154
+        ],
+        [
+          51,
+          164
+        ],
+        [
+          58,
+          171
+        ],
+        [
+          70,
+          168
+        ],
+        [
+          84,
+          158
+        ],
+        [
+          82,
+          169
+        ],
+        [
+          87,
+          193
+        ],
+        [
+          95,
+          218
+        ],
+        [
+          102,
+          239
+        ],
+        [
+          101,
+          258
+        ],
+        [
+          101,
+          260
+        ],
+        [
+          121,
+          261
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          150,
+          81
+        ],
+        [
+          148,
+          19
+        ],
+        [
+          153,
+          18
+        ],
+        [
+          154,
+          81
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          110,
+          118
+        ],
+        [
+          77,
+          56
+        ],
+        [
+          81,
+          51
+        ],
+        [
+          114,
+          116
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          138,
+          189
+        ],
+        [
+          154,
+          192
+        ],
+        [
+          154,
+          188
+        ],
+        [
+          138,
+          185
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          83,
+          250
+        ],
+        [
+          105,
+          252
+        ],
+        [
+          106,
+          247
+        ],
+        [
+          83,
+          246
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T2+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T3+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "standard style branch stem fall"
+  },
+  "questions": [
+    {
+      "question_text": "What is C in the diagram?",
+      "question_id": "3020.png-0",
+      "answers": [
+        "fall",
+        "style branch",
+        "stem",
+        "standard"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true,
+      "refers_to_entity": "T2"
+    }
+  ]
+}

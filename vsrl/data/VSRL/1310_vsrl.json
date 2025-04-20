@@ -1,0 +1,978 @@
+{
+  "image_id": "1310",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          11,
+          11
+        ],
+        [
+          137,
+          34
+        ]
+      ],
+      "value": "photosynthesis",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          22,
+          64
+        ],
+        [
+          99,
+          82
+        ]
+      ],
+      "value": "Oxygen out",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          162,
+          72
+        ],
+        [
+          210,
+          107
+        ]
+      ],
+      "value": "Light energy",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          35,
+          205
+        ],
+        [
+          161,
+          240
+        ]
+      ],
+      "value": "Green plant cells where food is made",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          82,
+          261
+        ],
+        [
+          197,
+          281
+        ]
+      ],
+      "value": "Carbon dioxide in",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          168,
+          338
+        ],
+        [
+          212,
+          357
+        ]
+      ],
+      "value": "Water",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          279,
+          204
+        ],
+        [
+          381,
+          224
+        ]
+      ],
+      "value": "Glucose (sugars)",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          237,
+          323
+        ],
+        [
+          240,
+          286
+        ],
+        [
+          244,
+          242
+        ],
+        [
+          243,
+          213
+        ],
+        [
+          241,
+          199
+        ],
+        [
+          219,
+          194
+        ],
+        [
+          208,
+          190
+        ],
+        [
+          205,
+          187
+        ],
+        [
+          194,
+          191
+        ],
+        [
+          168,
+          199
+        ],
+        [
+          147,
+          196
+        ],
+        [
+          123,
+          190
+        ],
+        [
+          111,
+          183
+        ],
+        [
+          93,
+          176
+        ],
+        [
+          85,
+          163
+        ],
+        [
+          73,
+          151
+        ],
+        [
+          48,
+          140
+        ],
+        [
+          27,
+          137
+        ],
+        [
+          20,
+          137
+        ],
+        [
+          15,
+          137
+        ],
+        [
+          32,
+          122
+        ],
+        [
+          55,
+          114
+        ],
+        [
+          83,
+          107
+        ],
+        [
+          110,
+          103
+        ],
+        [
+          137,
+          105
+        ],
+        [
+          169,
+          125
+        ],
+        [
+          186,
+          145
+        ],
+        [
+          207,
+          170
+        ],
+        [
+          211,
+          185
+        ],
+        [
+          239,
+          194
+        ],
+        [
+          242,
+          172
+        ],
+        [
+          248,
+          158
+        ],
+        [
+          258,
+          150
+        ],
+        [
+          273,
+          140
+        ],
+        [
+          255,
+          155
+        ],
+        [
+          249,
+          175
+        ],
+        [
+          249,
+          200
+        ],
+        [
+          251,
+          236
+        ],
+        [
+          254,
+          276
+        ],
+        [
+          253,
+          310
+        ],
+        [
+          249,
+          336
+        ],
+        [
+          242,
+          333
+        ],
+        [
+          237,
+          323
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          261,
+          40
+        ],
+        [
+          258,
+          10
+        ],
+        [
+          276,
+          38
+        ],
+        [
+          278,
+          6
+        ],
+        [
+          289,
+          36
+        ],
+        [
+          303,
+          5
+        ],
+        [
+          305,
+          39
+        ],
+        [
+          327,
+          12
+        ],
+        [
+          317,
+          46
+        ],
+        [
+          350,
+          30
+        ],
+        [
+          330,
+          57
+        ],
+        [
+          361,
+          47
+        ],
+        [
+          335,
+          71
+        ],
+        [
+          368,
+          69
+        ],
+        [
+          339,
+          83
+        ],
+        [
+          370,
+          96
+        ],
+        [
+          336,
+          99
+        ],
+        [
+          364,
+          120
+        ],
+        [
+          332,
+          114
+        ],
+        [
+          350,
+          142
+        ],
+        [
+          322,
+          125
+        ],
+        [
+          328,
+          158
+        ],
+        [
+          309,
+          133
+        ],
+        [
+          312,
+          168
+        ],
+        [
+          293,
+          138
+        ],
+        [
+          286,
+          168
+        ],
+        [
+          277,
+          136
+        ],
+        [
+          263,
+          159
+        ],
+        [
+          267,
+          131
+        ],
+        [
+          244,
+          146
+        ],
+        [
+          253,
+          118
+        ],
+        [
+          228,
+          134
+        ],
+        [
+          242,
+          109
+        ],
+        [
+          219,
+          108
+        ],
+        [
+          239,
+          94
+        ],
+        [
+          211,
+          88
+        ],
+        [
+          238,
+          80
+        ],
+        [
+          213,
+          66
+        ],
+        [
+          242,
+          69
+        ],
+        [
+          212,
+          42
+        ],
+        [
+          249,
+          54
+        ],
+        [
+          234,
+          21
+        ],
+        [
+          261,
+          39
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          54,
+          107
+        ],
+        [
+          51,
+          73
+        ],
+        [
+          87,
+          92
+        ],
+        [
+          76,
+          102
+        ],
+        [
+          90,
+          121
+        ],
+        [
+          79,
+          130
+        ],
+        [
+          67,
+          111
+        ],
+        [
+          55,
+          118
+        ],
+        [
+          55,
+          104
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          162,
+          140
+        ],
+        [
+          193,
+          97
+        ],
+        [
+          201,
+          112
+        ],
+        [
+          230,
+          101
+        ],
+        [
+          239,
+          121
+        ],
+        [
+          207,
+          130
+        ],
+        [
+          218,
+          148
+        ],
+        [
+          162,
+          144
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          219,
+          206
+        ],
+        [
+          198,
+          185
+        ],
+        [
+          240,
+          179
+        ],
+        [
+          234,
+          193
+        ],
+        [
+          250,
+          213
+        ],
+        [
+          252,
+          226
+        ],
+        [
+          254,
+          242
+        ],
+        [
+          255,
+          271
+        ],
+        [
+          250,
+          292
+        ],
+        [
+          243,
+          294
+        ],
+        [
+          236,
+          287
+        ],
+        [
+          241,
+          257
+        ],
+        [
+          241,
+          235
+        ],
+        [
+          235,
+          215
+        ],
+        [
+          232,
+          203
+        ],
+        [
+          229,
+          202
+        ],
+        [
+          220,
+          209
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          196,
+          271
+        ],
+        [
+          204,
+          261
+        ],
+        [
+          219,
+          282
+        ],
+        [
+          228,
+          275
+        ],
+        [
+          235,
+          307
+        ],
+        [
+          237,
+          312
+        ],
+        [
+          194,
+          299
+        ],
+        [
+          208,
+          292
+        ],
+        [
+          195,
+          274
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          209,
+          335
+        ],
+        [
+          240,
+          319
+        ],
+        [
+          255,
+          360
+        ],
+        [
+          238,
+          354
+        ],
+        [
+          227,
+          392
+        ],
+        [
+          213,
+          386
+        ],
+        [
+          223,
+          352
+        ],
+        [
+          208,
+          336
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          238,
+          229
+        ],
+        [
+          275,
+          208
+        ],
+        [
+          284,
+          222
+        ],
+        [
+          243,
+          244
+        ],
+        [
+          241,
+          232
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          93,
+          200
+        ],
+        [
+          128,
+          157
+        ],
+        [
+          144,
+          170
+        ],
+        [
+          106,
+          214
+        ],
+        [
+          91,
+          201
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H4",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B1+A1+B0",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A0",
+      "type": "arrowDescriptor",
+      "source": "T1",
+      "target": "A0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+A1",
+      "type": "arrowDescriptor",
+      "source": "T2",
+      "target": "A1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T4+A3",
+      "type": "arrowDescriptor",
+      "source": "T4",
+      "target": "A3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+A4",
+      "type": "arrowDescriptor",
+      "source": "T5",
+      "target": "A4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+A5+B0",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "photosynthesis oxygen out light energy green plant cells where food is made carbon dioxide in water glucose (sugars)"
+  },
+  "questions": [
+    {
+      "question_text": "What letter depicts the plant absorbing water?",
+      "question_id": "1310.png-5",
+      "answers": [
+        "B",
+        "A",
+        "G",
+        "E"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "What letter represents light energy?",
+      "question_id": "1310.png-4",
+      "answers": [
+        "A",
+        "G",
+        "E",
+        "B"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "What letter represents water?",
+      "question_id": "1310.png-2",
+      "answers": [
+        "B",
+        "D",
+        "G",
+        "E"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "What phase is shown above",
+      "question_id": "1310.png-0",
+      "answers": [
+        "photosynthesis",
+        "darkness",
+        "plants",
+        "light"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What term best describes letter A in the given diagram?",
+      "question_id": "1310.png-1",
+      "answers": [
+        "Light Energy",
+        "Carbon Dioxide",
+        "Glucose",
+        "Water Absorption"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "Where is food made?",
+      "question_id": "1310.png-3",
+      "answers": [
+        "green plant cells",
+        "fruits",
+        "roots",
+        "soil"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

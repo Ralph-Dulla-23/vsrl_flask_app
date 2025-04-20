@@ -1,0 +1,418 @@
+{
+  "image_id": "1840",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          304,
+          82
+        ],
+        [
+          358,
+          100
+        ]
+      ],
+      "value": "Buffalo",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          511,
+          82
+        ],
+        [
+          570,
+          101
+        ]
+      ],
+      "value": "Humans",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          408,
+          195
+        ],
+        [
+          462,
+          212
+        ]
+      ],
+      "value": "Humans",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          201,
+          189
+        ],
+        [
+          253,
+          219
+        ]
+      ],
+      "value": "Annual Crop ",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          88,
+          148
+        ],
+        [
+          326,
+          169
+        ]
+      ],
+      "value": "Great Plains food chain for Europeans",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          70,
+          34
+        ],
+        [
+          370,
+          52
+        ]
+      ],
+      "value": "A. Great Plains food chain for Native Americans",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          97,
+          75
+        ],
+        [
+          155,
+          107
+        ]
+      ],
+      "value": "Perennial grass ",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          280,
+          85
+        ],
+        [
+          280,
+          96
+        ],
+        [
+          173,
+          97
+        ],
+        [
+          173,
+          85
+        ],
+        [
+          277,
+          86
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          380,
+          83
+        ],
+        [
+          381,
+          95
+        ],
+        [
+          487,
+          95
+        ],
+        [
+          488,
+          84
+        ],
+        [
+          383,
+          83
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          377,
+          194
+        ],
+        [
+          277,
+          199
+        ],
+        [
+          278,
+          208
+        ],
+        [
+          388,
+          209
+        ],
+        [
+          378,
+          192
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H2",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H0",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A1+T1",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T1",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T3+A2+T2",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T2",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T6+A0+T0",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T0",
+      "connector": "A0",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "buffalo humans humans annual crop  great plains food chain for europeans a. great plains food chain for native americans perennial grass "
+  },
+  "questions": [
+    {
+      "question_text": "Based on the diagram below, what is a producer?",
+      "question_id": "1840.png-6",
+      "answers": [
+        "humans",
+        "birds",
+        "perennial grass",
+        "buffalo"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Based on the diagram below, what is a secondary consumer?",
+      "question_id": "1840.png-3",
+      "answers": [
+        "buffalos",
+        "humans",
+        "birds",
+        "cows"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "If buffalo were removed from the Great Plains food chain, which organisms would experience the biggest impact?",
+      "question_id": "1840.png-0",
+      "answers": [
+        "Annual crop",
+        "Humans",
+        "Perennial grass",
+        "NA"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "The diagram shows a simple food web. This food web can show that perennial grass is",
+      "question_id": "1840.png-11",
+      "answers": [
+        "a decomposer of dead matter",
+        "a predator of other living things",
+        "a source of energy for consumers",
+        "none of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Using the diagram below, choose the change most likely to increase the human population.",
+      "question_id": "1840.png-10",
+      "answers": [
+        "Increase in buffalo",
+        "Decrease in annual crop",
+        "Decrease in buffalo",
+        "Decrease in perennial grass"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What feeds on buffalo?",
+      "question_id": "1840.png-7",
+      "answers": [
+        "grass",
+        "other buffalo",
+        "humans",
+        "none of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What feeds on grass?",
+      "question_id": "1840.png-9",
+      "answers": [
+        "human",
+        "annual crop",
+        "buffalo",
+        "all of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is a producer?",
+      "question_id": "1840.png-5",
+      "answers": [
+        "prennial grass",
+        "human",
+        "buffalo",
+        "none of the above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is at the top of the food chain?",
+      "question_id": "1840.png-1",
+      "answers": [
+        "perrenial grass",
+        "annual crop",
+        "human",
+        "buffalo"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is at the top of the food web?",
+      "question_id": "1840.png-8",
+      "answers": [
+        "annual crop",
+        "buffalo grass",
+        "human",
+        "none of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would happen if the buffalo population increased?",
+      "question_id": "1840.png-2",
+      "answers": [
+        "decrease in grass",
+        "decrease in humans",
+        "increase in grass",
+        "can't predict"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which country have the food chain, From Annual crop to humans?",
+      "question_id": "1840.png-4",
+      "answers": [
+        "Europeans",
+        "None",
+        "Asians",
+        "Americans"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

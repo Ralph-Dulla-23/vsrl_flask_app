@@ -1,0 +1,432 @@
+{
+  "image_id": "1688",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          25,
+          83
+        ],
+        [
+          258,
+          177
+        ]
+      ],
+      "value": "Sun, Earth and Moon line up, with Earth in the middle",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          45,
+          16
+        ],
+        [
+          240,
+          53
+        ]
+      ],
+      "value": "Lunar eclipse",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          265,
+          398
+        ],
+        [
+          264,
+          378
+        ],
+        [
+          259,
+          369
+        ],
+        [
+          249,
+          364
+        ],
+        [
+          234,
+          363
+        ],
+        [
+          225,
+          367
+        ],
+        [
+          218,
+          379
+        ],
+        [
+          216,
+          400
+        ],
+        [
+          234,
+          413
+        ],
+        [
+          253,
+          411
+        ],
+        [
+          263,
+          399
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          321,
+          349
+        ],
+        [
+          336,
+          356
+        ],
+        [
+          373,
+          356
+        ],
+        [
+          407,
+          332
+        ],
+        [
+          415,
+          296
+        ],
+        [
+          410,
+          274
+        ],
+        [
+          396,
+          248
+        ],
+        [
+          379,
+          239
+        ],
+        [
+          355,
+          233
+        ],
+        [
+          335,
+          234
+        ],
+        [
+          316,
+          244
+        ],
+        [
+          301,
+          257
+        ],
+        [
+          290,
+          284
+        ],
+        [
+          286,
+          312
+        ],
+        [
+          314,
+          344
+        ],
+        [
+          322,
+          349
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          485,
+          144
+        ],
+        [
+          500,
+          175
+        ],
+        [
+          523,
+          193
+        ],
+        [
+          557,
+          207
+        ],
+        [
+          597,
+          209
+        ],
+        [
+          636,
+          187
+        ],
+        [
+          656,
+          161
+        ],
+        [
+          663,
+          135
+        ],
+        [
+          665,
+          102
+        ],
+        [
+          651,
+          68
+        ],
+        [
+          629,
+          48
+        ],
+        [
+          602,
+          32
+        ],
+        [
+          576,
+          29
+        ],
+        [
+          551,
+          31
+        ],
+        [
+          522,
+          44
+        ],
+        [
+          508,
+          58
+        ],
+        [
+          490,
+          88
+        ],
+        [
+          483,
+          129
+        ],
+        [
+          486,
+          151
+        ],
+        [
+          485,
+          147
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          323,
+          532
+        ],
+        [
+          483,
+          101
+        ],
+        [
+          485,
+          117
+        ],
+        [
+          338,
+          540
+        ],
+        [
+          328,
+          540
+        ],
+        [
+          322,
+          531
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          610,
+          206
+        ],
+        [
+          97,
+          540
+        ],
+        [
+          90,
+          540
+        ],
+        [
+          604,
+          203
+        ],
+        [
+          612,
+          203
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          13,
+          539
+        ],
+        [
+          496,
+          77
+        ],
+        [
+          494,
+          69
+        ],
+        [
+          4,
+          538
+        ],
+        [
+          13,
+          540
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          1,
+          277
+        ],
+        [
+          571,
+          211
+        ],
+        [
+          553,
+          206
+        ],
+        [
+          1,
+          269
+        ],
+        [
+          3,
+          276
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageCaption",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+I0",
+      "type": "imageTitle",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "title",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "sun, earth and moon line up, with earth in the middle lunar eclipse"
+  },
+  "questions": [
+    {
+      "question_text": "What astronomical body is between the moon and sun during a lunar eclipse?",
+      "question_id": "1688.png-1",
+      "answers": [
+        "jupiter",
+        "mars",
+        "earth",
+        "asteroid"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which is between Moon and Sun in a Lunar eclipse ?",
+      "question_id": "1688.png-2",
+      "answers": [
+        "Sun",
+        "Earth",
+        "Moon",
+        "Venus"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which phenomenon is illustrated in the given diagram ?",
+      "question_id": "1688.png-0",
+      "answers": [
+        "Solar ecliplse",
+        "Lunar eclipse",
+        "Transit",
+        "Occultation"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

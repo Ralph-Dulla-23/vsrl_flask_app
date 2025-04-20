@@ -1,0 +1,444 @@
+{
+  "image_id": "1089",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          79,
+          118
+        ],
+        [
+          120,
+          141
+        ]
+      ],
+      "value": "Blade",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          436,
+          112
+        ],
+        [
+          464,
+          129
+        ]
+      ],
+      "value": "Vein",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          81,
+          195
+        ],
+        [
+          120,
+          212
+        ]
+      ],
+      "value": "Midrib",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          369,
+          56
+        ],
+        [
+          380,
+          49
+        ],
+        [
+          423,
+          31
+        ],
+        [
+          463,
+          38
+        ],
+        [
+          463,
+          32
+        ],
+        [
+          435,
+          21
+        ],
+        [
+          375,
+          40
+        ],
+        [
+          368,
+          49
+        ],
+        [
+          324,
+          40
+        ],
+        [
+          307,
+          41
+        ],
+        [
+          289,
+          41
+        ],
+        [
+          273,
+          47
+        ],
+        [
+          256,
+          57
+        ],
+        [
+          233,
+          68
+        ],
+        [
+          217,
+          82
+        ],
+        [
+          202,
+          93
+        ],
+        [
+          189,
+          107
+        ],
+        [
+          171,
+          127
+        ],
+        [
+          163,
+          147
+        ],
+        [
+          151,
+          165
+        ],
+        [
+          145,
+          184
+        ],
+        [
+          137,
+          204
+        ],
+        [
+          132,
+          221
+        ],
+        [
+          136,
+          237
+        ],
+        [
+          129,
+          241
+        ],
+        [
+          121,
+          271
+        ],
+        [
+          117,
+          276
+        ],
+        [
+          149,
+          264
+        ],
+        [
+          153,
+          271
+        ],
+        [
+          167,
+          262
+        ],
+        [
+          175,
+          267
+        ],
+        [
+          183,
+          257
+        ],
+        [
+          196,
+          259
+        ],
+        [
+          212,
+          251
+        ],
+        [
+          235,
+          247
+        ],
+        [
+          247,
+          235
+        ],
+        [
+          257,
+          241
+        ],
+        [
+          268,
+          229
+        ],
+        [
+          293,
+          220
+        ],
+        [
+          305,
+          209
+        ],
+        [
+          312,
+          208
+        ],
+        [
+          321,
+          196
+        ],
+        [
+          327,
+          195
+        ],
+        [
+          333,
+          185
+        ],
+        [
+          343,
+          179
+        ],
+        [
+          347,
+          167
+        ],
+        [
+          357,
+          163
+        ],
+        [
+          357,
+          149
+        ],
+        [
+          362,
+          143
+        ],
+        [
+          365,
+          135
+        ],
+        [
+          380,
+          91
+        ],
+        [
+          372,
+          58
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          84,
+          140
+        ],
+        [
+          187,
+          144
+        ],
+        [
+          187,
+          131
+        ],
+        [
+          82,
+          132
+        ],
+        [
+          83,
+          139
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          82,
+          207
+        ],
+        [
+          185,
+          207
+        ],
+        [
+          185,
+          220
+        ],
+        [
+          83,
+          219
+        ],
+        [
+          81,
+          209
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          359,
+          134
+        ],
+        [
+          464,
+          133
+        ],
+        [
+          461,
+          123
+        ],
+        [
+          356,
+          122
+        ],
+        [
+          359,
+          133
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T2+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "blade vein midrib"
+  },
+  "questions": [
+    {
+      "question_text": "What is B in the diagram?",
+      "question_id": "1089.png-3",
+      "answers": [
+        "blade",
+        "vein",
+        "tree",
+        "midrib"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true,
+      "refers_to_entity": "T1"
+    },
+    {
+      "question_text": "What is C in the diagram?",
+      "question_id": "1089.png-1",
+      "answers": [
+        "midrib",
+        "tree",
+        "vein",
+        "blade"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true,
+      "refers_to_entity": "T0"
+    },
+    {
+      "question_text": "Which is the middle part of a leaf?",
+      "question_id": "1089.png-0",
+      "answers": [
+        "Blade",
+        "Midrib",
+        "Stem",
+        "Vein"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which part of a plant does this diagram represents?",
+      "question_id": "1089.png-2",
+      "answers": [
+        "flower",
+        "bud",
+        "stem",
+        "leaf"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    }
+  ]
+}

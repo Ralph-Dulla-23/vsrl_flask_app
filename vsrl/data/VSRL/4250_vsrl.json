@@ -1,0 +1,532 @@
+{
+  "image_id": "4250",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          135,
+          37
+        ],
+        [
+          265,
+          82
+        ]
+      ],
+      "value": "Basic Soil Horizons",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          199,
+          138
+        ],
+        [
+          448,
+          177
+        ]
+      ],
+      "value": "A Horizon = Rotting plants and finely decomposed rock",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          178,
+          113
+        ],
+        [
+          474,
+          130
+        ]
+      ],
+      "value": "<- o = Rotting plants on forest floor",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          199,
+          183
+        ],
+        [
+          498,
+          225
+        ]
+      ],
+      "value": "B Horizon = decomposed rock, some rotten plants close to A Horizon",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          199,
+          254
+        ],
+        [
+          442,
+          279
+        ]
+      ],
+      "value": "C = Slightly decomposed rock",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          200,
+          333
+        ],
+        [
+          279,
+          350
+        ]
+      ],
+      "value": "R = Rock",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          3,
+          107
+        ],
+        [
+          7,
+          391
+        ],
+        [
+          62,
+          394
+        ],
+        [
+          175,
+          389
+        ],
+        [
+          175,
+          115
+        ],
+        [
+          102,
+          104
+        ],
+        [
+          102,
+          97
+        ],
+        [
+          126,
+          95
+        ],
+        [
+          116,
+          79
+        ],
+        [
+          122,
+          79
+        ],
+        [
+          115,
+          69
+        ],
+        [
+          120,
+          63
+        ],
+        [
+          114,
+          51
+        ],
+        [
+          117,
+          42
+        ],
+        [
+          109,
+          31
+        ],
+        [
+          112,
+          28
+        ],
+        [
+          95,
+          6
+        ],
+        [
+          87,
+          3
+        ],
+        [
+          72,
+          15
+        ],
+        [
+          80,
+          18
+        ],
+        [
+          65,
+          33
+        ],
+        [
+          73,
+          33
+        ],
+        [
+          66,
+          51
+        ],
+        [
+          71,
+          48
+        ],
+        [
+          67,
+          70
+        ],
+        [
+          72,
+          65
+        ],
+        [
+          68,
+          83
+        ],
+        [
+          77,
+          79
+        ],
+        [
+          71,
+          95
+        ],
+        [
+          91,
+          95
+        ],
+        [
+          91,
+          102
+        ],
+        [
+          7,
+          107
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          181,
+          108
+        ],
+        [
+          182,
+          125
+        ],
+        [
+          199,
+          126
+        ],
+        [
+          198,
+          108
+        ],
+        [
+          181,
+          109
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          180,
+          299
+        ],
+        [
+          187,
+          347
+        ],
+        [
+          180,
+          387
+        ],
+        [
+          196,
+          389
+        ],
+        [
+          207,
+          346
+        ],
+        [
+          200,
+          302
+        ],
+        [
+          195,
+          292
+        ],
+        [
+          176,
+          300
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          179,
+          129
+        ],
+        [
+          185,
+          137
+        ],
+        [
+          185,
+          161
+        ],
+        [
+          181,
+          171
+        ],
+        [
+          193,
+          173
+        ],
+        [
+          197,
+          155
+        ],
+        [
+          201,
+          148
+        ],
+        [
+          199,
+          144
+        ],
+        [
+          197,
+          126
+        ],
+        [
+          180,
+          125
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          180,
+          175
+        ],
+        [
+          189,
+          194
+        ],
+        [
+          180,
+          220
+        ],
+        [
+          183,
+          227
+        ],
+        [
+          191,
+          231
+        ],
+        [
+          206,
+          198
+        ],
+        [
+          199,
+          171
+        ],
+        [
+          179,
+          169
+        ],
+        [
+          178,
+          175
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          184,
+          234
+        ],
+        [
+          199,
+          227
+        ],
+        [
+          200,
+          291
+        ],
+        [
+          185,
+          296
+        ],
+        [
+          184,
+          229
+        ],
+        [
+          184,
+          230
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T2+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T3+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T4+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T5+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "basic soil horizons a horizon = rotting plants and finely decomposed rock <- o = rotting plants on forest floor b horizon = decomposed rock, some rotten plants close to a horizon c = slightly decomposed rock r = rock"
+  },
+  "questions": [
+    {
+      "question_text": "which is the bottom most layer",
+      "question_id": "4250.png-0",
+      "answers": [
+        "o",
+        "c",
+        "r",
+        "b"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "which part is between a and c",
+      "question_id": "4250.png-1",
+      "answers": [
+        "o",
+        "B",
+        "R",
+        "none"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

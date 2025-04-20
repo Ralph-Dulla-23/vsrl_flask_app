@@ -1,0 +1,420 @@
+{
+  "image_id": "2493",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          87,
+          14
+        ],
+        [
+          155,
+          37
+        ]
+      ],
+      "value": "BOLL WEEVIL ADULT",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          94,
+          48
+        ],
+        [
+          147,
+          67
+        ]
+      ],
+      "value": "30 days of overwinters",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          183,
+          100
+        ],
+        [
+          226,
+          123
+        ]
+      ],
+      "value": "EGG 3-5 days",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          87,
+          92
+        ],
+        [
+          149,
+          141
+        ]
+      ],
+      "value": "Boll Weevil LIFE CYCLE 44-55 days or longer",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          21,
+          100
+        ],
+        [
+          64,
+          123
+        ]
+      ],
+      "value": "PUPAE 4-6 days",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          95,
+          171
+        ],
+        [
+          148,
+          206
+        ]
+      ],
+      "value": "(grub) LARVAE 7-14 days",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          138,
+          28
+        ],
+        [
+          171,
+          41
+        ],
+        [
+          200,
+          79
+        ],
+        [
+          204,
+          103
+        ],
+        [
+          195,
+          103
+        ],
+        [
+          188,
+          77
+        ],
+        [
+          168,
+          51
+        ],
+        [
+          136,
+          37
+        ],
+        [
+          136,
+          30
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          201,
+          127
+        ],
+        [
+          196,
+          145
+        ],
+        [
+          177,
+          171
+        ],
+        [
+          156,
+          185
+        ],
+        [
+          142,
+          191
+        ],
+        [
+          140,
+          182
+        ],
+        [
+          173,
+          165
+        ],
+        [
+          189,
+          140
+        ],
+        [
+          192,
+          125
+        ],
+        [
+          200,
+          126
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          102,
+          33
+        ],
+        [
+          77,
+          46
+        ],
+        [
+          63,
+          58
+        ],
+        [
+          51,
+          77
+        ],
+        [
+          45,
+          103
+        ],
+        [
+          37,
+          103
+        ],
+        [
+          43,
+          73
+        ],
+        [
+          59,
+          51
+        ],
+        [
+          71,
+          39
+        ],
+        [
+          84,
+          32
+        ],
+        [
+          96,
+          27
+        ],
+        [
+          104,
+          26
+        ],
+        [
+          104,
+          31
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          93,
+          188
+        ],
+        [
+          64,
+          174
+        ],
+        [
+          48,
+          154
+        ],
+        [
+          35,
+          122
+        ],
+        [
+          45,
+          121
+        ],
+        [
+          54,
+          145
+        ],
+        [
+          71,
+          166
+        ],
+        [
+          93,
+          181
+        ],
+        [
+          93,
+          187
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H2",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H1",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+T2",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T2",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T2+A1+T5",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T5",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T4+A2+T0",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T0",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T5+A3+T4",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T4",
+      "connector": "A3",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "boll weevil adult 30 days of overwinters egg 3-5 days boll weevil life cycle 44-55 days or longer pupae 4-6 days (grub) larvae 7-14 days"
+  },
+  "questions": [
+    {
+      "question_text": "If A is Larvae, what is point F?",
+      "question_id": "2493.png-0",
+      "answers": [
+        "Larvae",
+        "Adult",
+        "Egg",
+        "Pupae"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "If A is larvae, where would you expect to see the pupae?",
+      "question_id": "2493.png-1",
+      "answers": [
+        "E",
+        "B",
+        "C",
+        "F"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "In the diagram, which letter corresponds to the next part of the cycle beyond pupae?",
+      "question_id": "2493.png-2",
+      "answers": [
+        "F",
+        "C",
+        "E",
+        "A"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

@@ -1,0 +1,926 @@
+{
+  "image_id": "3925",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          195,
+          236
+        ],
+        [
+          230,
+          252
+        ]
+      ],
+      "value": "MALE",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          325,
+          196
+        ],
+        [
+          402,
+          211
+        ]
+      ],
+      "value": "Dorsal view",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T10": {
+      "id": "T10",
+      "type": "text",
+      "bbox": [
+        [
+          335,
+          818
+        ],
+        [
+          412,
+          839
+        ]
+      ],
+      "value": "Anal plate",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          287,
+          263
+        ],
+        [
+          342,
+          277
+        ]
+      ],
+      "value": "Sex comb",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          288,
+          382
+        ],
+        [
+          355,
+          397
+        ]
+      ],
+      "value": "Fused bands",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          290,
+          414
+        ],
+        [
+          388,
+          430
+        ]
+      ],
+      "value": "Rounded abdomen",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          521,
+          231
+        ],
+        [
+          573,
+          244
+        ]
+      ],
+      "value": "FEMALE",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          285,
+          518
+        ],
+        [
+          439,
+          537
+        ]
+      ],
+      "value": "Ventral view of abdomen",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          344,
+          648
+        ],
+        [
+          397,
+          668
+        ]
+      ],
+      "value": "Sternite",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          327,
+          762
+        ],
+        [
+          413,
+          777
+        ]
+      ],
+      "value": "Genital arch",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          327,
+          785
+        ],
+        [
+          419,
+          802
+        ]
+      ],
+      "value": "Vaginal plate",
+      "replacementText": "K",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          425,
+          317
+        ],
+        [
+          444,
+          362
+        ],
+        [
+          470,
+          375
+        ],
+        [
+          464,
+          412
+        ],
+        [
+          443,
+          452
+        ],
+        [
+          467,
+          466
+        ],
+        [
+          516,
+          490
+        ],
+        [
+          620,
+          477
+        ],
+        [
+          636,
+          451
+        ],
+        [
+          624,
+          417
+        ],
+        [
+          617,
+          352
+        ],
+        [
+          671,
+          324
+        ],
+        [
+          649,
+          296
+        ],
+        [
+          636,
+          231
+        ],
+        [
+          587,
+          223
+        ],
+        [
+          508,
+          219
+        ],
+        [
+          483,
+          237
+        ],
+        [
+          460,
+          232
+        ],
+        [
+          444,
+          243
+        ],
+        [
+          427,
+          280
+        ],
+        [
+          427,
+          314
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          247,
+          452
+        ],
+        [
+          271,
+          429
+        ],
+        [
+          286,
+          425
+        ],
+        [
+          296,
+          405
+        ],
+        [
+          277,
+          382
+        ],
+        [
+          276,
+          348
+        ],
+        [
+          302,
+          330
+        ],
+        [
+          325,
+          317
+        ],
+        [
+          311,
+          263
+        ],
+        [
+          276,
+          227
+        ],
+        [
+          197,
+          219
+        ],
+        [
+          142,
+          240
+        ],
+        [
+          103,
+          260
+        ],
+        [
+          85,
+          309
+        ],
+        [
+          102,
+          356
+        ],
+        [
+          111,
+          397
+        ],
+        [
+          125,
+          434
+        ],
+        [
+          157,
+          444
+        ],
+        [
+          180,
+          464
+        ],
+        [
+          246,
+          454
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          417,
+          667
+        ],
+        [
+          429,
+          636
+        ],
+        [
+          438,
+          610
+        ],
+        [
+          445,
+          595
+        ],
+        [
+          469,
+          588
+        ],
+        [
+          497,
+          591
+        ],
+        [
+          517,
+          592
+        ],
+        [
+          538,
+          594
+        ],
+        [
+          579,
+          585
+        ],
+        [
+          594,
+          593
+        ],
+        [
+          602,
+          611
+        ],
+        [
+          620,
+          643
+        ],
+        [
+          626,
+          674
+        ],
+        [
+          629,
+          719
+        ],
+        [
+          613,
+          750
+        ],
+        [
+          596,
+          790
+        ],
+        [
+          579,
+          824
+        ],
+        [
+          555,
+          843
+        ],
+        [
+          534,
+          858
+        ],
+        [
+          499,
+          856
+        ],
+        [
+          472,
+          830
+        ],
+        [
+          433,
+          771
+        ],
+        [
+          426,
+          739
+        ],
+        [
+          414,
+          692
+        ],
+        [
+          419,
+          666
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          135,
+          576
+        ],
+        [
+          280,
+          578
+        ],
+        [
+          311,
+          641
+        ],
+        [
+          335,
+          691
+        ],
+        [
+          318,
+          762
+        ],
+        [
+          280,
+          833
+        ],
+        [
+          233,
+          856
+        ],
+        [
+          201,
+          871
+        ],
+        [
+          155,
+          831
+        ],
+        [
+          116,
+          779
+        ],
+        [
+          96,
+          718
+        ],
+        [
+          102,
+          652
+        ],
+        [
+          132,
+          576
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          246,
+          274
+        ],
+        [
+          293,
+          279
+        ],
+        [
+          298,
+          264
+        ],
+        [
+          247,
+          254
+        ],
+        [
+          247,
+          270
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          223,
+          397
+        ],
+        [
+          299,
+          399
+        ],
+        [
+          302,
+          385
+        ],
+        [
+          222,
+          383
+        ],
+        [
+          222,
+          393
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          211,
+          419
+        ],
+        [
+          295,
+          434
+        ],
+        [
+          296,
+          418
+        ],
+        [
+          207,
+          399
+        ],
+        [
+          207,
+          415
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          215,
+          668
+        ],
+        [
+          346,
+          666
+        ],
+        [
+          347,
+          653
+        ],
+        [
+          211,
+          653
+        ],
+        [
+          213,
+          671
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          393,
+          671
+        ],
+        [
+          529,
+          671
+        ],
+        [
+          525,
+          650
+        ],
+        [
+          391,
+          656
+        ],
+        [
+          391,
+          671
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          224,
+          805
+        ],
+        [
+          328,
+          802
+        ],
+        [
+          330,
+          787
+        ],
+        [
+          219,
+          791
+        ],
+        [
+          221,
+          805
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          223,
+          858
+        ],
+        [
+          335,
+          834
+        ],
+        [
+          336,
+          822
+        ],
+        [
+          215,
+          842
+        ],
+        [
+          220,
+          859
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          398,
+          839
+        ],
+        [
+          517,
+          847
+        ],
+        [
+          525,
+          832
+        ],
+        [
+          404,
+          821
+        ],
+        [
+          395,
+          839
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          410,
+          777
+        ],
+        [
+          508,
+          801
+        ],
+        [
+          517,
+          783
+        ],
+        [
+          406,
+          760
+        ],
+        [
+          409,
+          777
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+B1",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+I0",
+      "type": "sectionTitle",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T10+A6+B3",
+      "type": "intraObjectLinkage",
+      "source": "T10",
+      "target": "B3",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T2+A0+B1",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B1",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T3+A1+B1",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B1",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T4+A2+B1",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B1",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T5+B0",
+      "type": "intraObjectLabel",
+      "source": "T5",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+I0",
+      "type": "sectionTitle",
+      "source": "T6",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T7+A3+B3",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B3",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T8+A8+B2",
+      "type": "intraObjectLinkage",
+      "source": "T8",
+      "target": "B2",
+      "connector": "A8",
+      "directional": false
+    },
+    {
+      "id": "T9+A5+B3",
+      "type": "intraObjectLinkage",
+      "source": "T9",
+      "target": "B3",
+      "connector": "A5",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T10": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "male dorsal view anal plate sex comb fused bands rounded abdomen female ventral view of abdomen sternite genital arch vaginal plate"
+  },
+  "questions": [
+    {
+      "question_text": "The following is an organ or structure having a curved or bowlike appearance, especially either of two arched sections of the bony structure of the foot.",
+      "question_id": "3925.png-1",
+      "answers": [
+        "Abdomen",
+        "Arch",
+        "Sternite",
+        "Genital"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which of the following is the part of the body that lies between the thorax and the pelvis and encloses the stomach, intestines, liver, spleen, and pancreas?",
+      "question_id": "3925.png-0",
+      "answers": [
+        "Abdomen",
+        "Genital",
+        "Sternite",
+        "Arch"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

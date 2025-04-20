@@ -1,0 +1,332 @@
+{
+  "image_id": "895",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          3,
+          2
+        ],
+        [
+          80,
+          19
+        ]
+      ],
+      "value": "Biosphere",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          5,
+          47
+        ],
+        [
+          94,
+          63
+        ]
+      ],
+      "value": "Ecosystem",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          7,
+          92
+        ],
+        [
+          93,
+          108
+        ]
+      ],
+      "value": "Community",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          3,
+          138
+        ],
+        [
+          86,
+          154
+        ]
+      ],
+      "value": "Population",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          5,
+          181
+        ],
+        [
+          168,
+          201
+        ]
+      ],
+      "value": "Individual (Organism)",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          39,
+          38
+        ],
+        [
+          45,
+          38
+        ],
+        [
+          45,
+          30
+        ],
+        [
+          50,
+          32
+        ],
+        [
+          43,
+          19
+        ],
+        [
+          35,
+          28
+        ],
+        [
+          43,
+          32
+        ],
+        [
+          40,
+          38
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          40,
+          84
+        ],
+        [
+          47,
+          85
+        ],
+        [
+          46,
+          76
+        ],
+        [
+          50,
+          76
+        ],
+        [
+          42,
+          66
+        ],
+        [
+          35,
+          73
+        ],
+        [
+          41,
+          77
+        ],
+        [
+          41,
+          85
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          38,
+          131
+        ],
+        [
+          46,
+          130
+        ],
+        [
+          45,
+          123
+        ],
+        [
+          45,
+          123
+        ],
+        [
+          51,
+          123
+        ],
+        [
+          43,
+          110
+        ],
+        [
+          36,
+          121
+        ],
+        [
+          42,
+          121
+        ],
+        [
+          39,
+          128
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          40,
+          176
+        ],
+        [
+          47,
+          176
+        ],
+        [
+          46,
+          166
+        ],
+        [
+          51,
+          166
+        ],
+        [
+          41,
+          157
+        ],
+        [
+          36,
+          166
+        ],
+        [
+          42,
+          168
+        ],
+        [
+          39,
+          178
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A0+T0",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T0",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T2+A1+T1",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T1",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T3+A2+T2",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T2",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T4+A3+T3",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T3",
+      "connector": "A3",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "biosphere ecosystem community population individual (organism)"
+  }
+}

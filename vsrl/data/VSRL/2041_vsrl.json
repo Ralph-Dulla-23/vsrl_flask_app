@@ -1,0 +1,568 @@
+{
+  "image_id": "2041",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          215,
+          30
+        ],
+        [
+          271,
+          50
+        ]
+      ],
+      "value": "Coyote",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          142,
+          91
+        ],
+        [
+          217,
+          125
+        ]
+      ],
+      "value": "California gull",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          82,
+          155
+        ],
+        [
+          140,
+          192
+        ]
+      ],
+      "value": "Brine shrimp",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          13,
+          230
+        ],
+        [
+          92,
+          266
+        ]
+      ],
+      "value": "Planktonic algae",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          46,
+          213
+        ],
+        [
+          89,
+          222
+        ],
+        [
+          101,
+          237
+        ],
+        [
+          96,
+          257
+        ],
+        [
+          67,
+          272
+        ],
+        [
+          30,
+          272
+        ],
+        [
+          0,
+          242
+        ],
+        [
+          21,
+          218
+        ],
+        [
+          45,
+          213
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          118,
+          143
+        ],
+        [
+          149,
+          154
+        ],
+        [
+          159,
+          166
+        ],
+        [
+          160,
+          183
+        ],
+        [
+          137,
+          195
+        ],
+        [
+          112,
+          200
+        ],
+        [
+          80,
+          194
+        ],
+        [
+          60,
+          174
+        ],
+        [
+          69,
+          152
+        ],
+        [
+          115,
+          145
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          161,
+          74
+        ],
+        [
+          188,
+          75
+        ],
+        [
+          227,
+          87
+        ],
+        [
+          230,
+          116
+        ],
+        [
+          190,
+          133
+        ],
+        [
+          147,
+          127
+        ],
+        [
+          126,
+          112
+        ],
+        [
+          135,
+          88
+        ],
+        [
+          166,
+          76
+        ],
+        [
+          158,
+          73
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          196,
+          36
+        ],
+        [
+          201,
+          23
+        ],
+        [
+          205,
+          19
+        ],
+        [
+          221,
+          16
+        ],
+        [
+          237,
+          12
+        ],
+        [
+          255,
+          11
+        ],
+        [
+          272,
+          12
+        ],
+        [
+          288,
+          22
+        ],
+        [
+          293,
+          36
+        ],
+        [
+          292,
+          49
+        ],
+        [
+          278,
+          63
+        ],
+        [
+          255,
+          67
+        ],
+        [
+          239,
+          65
+        ],
+        [
+          207,
+          59
+        ],
+        [
+          194,
+          47
+        ],
+        [
+          193,
+          39
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          149,
+          123
+        ],
+        [
+          160,
+          131
+        ],
+        [
+          145,
+          150
+        ],
+        [
+          143,
+          152
+        ],
+        [
+          132,
+          145
+        ],
+        [
+          146,
+          125
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          195,
+          77
+        ],
+        [
+          216,
+          58
+        ],
+        [
+          223,
+          66
+        ],
+        [
+          205,
+          84
+        ],
+        [
+          194,
+          77
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          71,
+          216
+        ],
+        [
+          80,
+          224
+        ],
+        [
+          100,
+          203
+        ],
+        [
+          89,
+          195
+        ],
+        [
+          72,
+          216
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H2",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H0",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B3",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "B3",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T2+A0+T1",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T1",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T3+A2+T2",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T2",
+      "connector": "A2",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "coyote california gull brine shrimp planktonic algae"
+  },
+  "questions": [
+    {
+      "question_text": "From where California gull gets food according to the food web?",
+      "question_id": "2041.png-3",
+      "answers": [
+        "Brine shrimp",
+        "None of these",
+        "Coyote",
+        "Algae"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Imagine that the coyotes disappeared. What would be a likely result?",
+      "question_id": "2041.png-6",
+      "answers": [
+        "Less algae",
+        "No change",
+        "More gulls",
+        "More shrimp"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the given food chain, Which oraganism in higher trophic level?",
+      "question_id": "2041.png-5",
+      "answers": [
+        "cayote",
+        "algae",
+        "california gull",
+        "all of the above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Mainly algae are",
+      "question_id": "2041.png-0",
+      "answers": [
+        "omnivore",
+        "producer",
+        "consumer",
+        "herbivore"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Using the diagram below, which is classified as a producer? (A)california gull (B) shrimp (C) planktonic algae (D) wolf",
+      "question_id": "2041.png-1",
+      "answers": [
+        "wolf",
+        "shrimp",
+        "planktonic algae",
+        "wolf (A) wolf (B) california gull (C) shrimp"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What happens to coyote if california gull decreases?",
+      "question_id": "2041.png-4",
+      "answers": [
+        "decrease",
+        "nothing",
+        "increase",
+        "none of the above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is a producer?",
+      "question_id": "2041.png-8",
+      "answers": [
+        "brine shrimp",
+        "california gull",
+        "planktonic algae",
+        "coyote"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is at the top of the food chain?",
+      "question_id": "2041.png-2",
+      "answers": [
+        "california gull",
+        "planktonic algae",
+        "brine shrimp",
+        "coyote"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the primary producer in the web shown?",
+      "question_id": "2041.png-7",
+      "answers": [
+        "coyote",
+        "planktonic algae",
+        "clifornia gull",
+        "none of the above"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Where does brine shrimp get its energy?",
+      "question_id": "2041.png-9",
+      "answers": [
+        "All of these provide energy to the brine shrimp",
+        "Gull",
+        "Coyote",
+        "Planktonic algae"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which Creature in the community shown would be most directly affected when all plank tonic algae were removed?",
+      "question_id": "2041.png-10",
+      "answers": [
+        "California gull",
+        "Brine shrimp",
+        "Coyote",
+        "None of these"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

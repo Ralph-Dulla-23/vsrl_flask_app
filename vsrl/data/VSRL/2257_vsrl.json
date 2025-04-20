@@ -1,0 +1,512 @@
+{
+  "image_id": "2257",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          176,
+          310
+        ],
+        [
+          208,
+          324
+        ]
+      ],
+      "value": "Pupa",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          7,
+          336
+        ],
+        [
+          41,
+          350
+        ]
+      ],
+      "value": "Larva",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          9,
+          11
+        ],
+        [
+          139,
+          41
+        ]
+      ],
+      "value": "Butterfly  life cycle",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          6,
+          148
+        ],
+        [
+          71,
+          163
+        ]
+      ],
+      "value": "egg stage",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          174,
+          144
+        ],
+        [
+          267,
+          164
+        ]
+      ],
+      "value": "Adult butterfly",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          187,
+          357
+        ],
+        [
+          288,
+          383
+        ]
+      ],
+      "value": "2001 J. Daniels Floridata.com",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          177,
+          5
+        ],
+        [
+          299,
+          5
+        ],
+        [
+          299,
+          152
+        ],
+        [
+          172,
+          150
+        ],
+        [
+          176,
+          6
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          5,
+          56
+        ],
+        [
+          123,
+          56
+        ],
+        [
+          125,
+          147
+        ],
+        [
+          0,
+          144
+        ],
+        [
+          0,
+          54
+        ],
+        [
+          9,
+          55
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          5,
+          223
+        ],
+        [
+          127,
+          222
+        ],
+        [
+          126,
+          338
+        ],
+        [
+          1,
+          338
+        ],
+        [
+          3,
+          224
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          173,
+          226
+        ],
+        [
+          293,
+          225
+        ],
+        [
+          293,
+          311
+        ],
+        [
+          176,
+          310
+        ],
+        [
+          177,
+          226
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          234,
+          171
+        ],
+        [
+          235,
+          200
+        ],
+        [
+          247,
+          199
+        ],
+        [
+          248,
+          170
+        ],
+        [
+          235,
+          169
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          165,
+          110
+        ],
+        [
+          136,
+          110
+        ],
+        [
+          137,
+          97
+        ],
+        [
+          165,
+          98
+        ],
+        [
+          165,
+          110
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          49,
+          176
+        ],
+        [
+          51,
+          202
+        ],
+        [
+          65,
+          203
+        ],
+        [
+          66,
+          178
+        ],
+        [
+          49,
+          179
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          138,
+          280
+        ],
+        [
+          166,
+          280
+        ],
+        [
+          164,
+          266
+        ],
+        [
+          136,
+          266
+        ],
+        [
+          140,
+          282
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H3",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H1",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H2",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A0+B3",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B3",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "B0+A1+B1",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B1",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "B1+A2+B2",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B2",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "B2+A3+B3",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B3",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T0+B3",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B2",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+I0",
+      "type": "imageTitle",
+      "source": "T2",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B1",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B0",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+I0",
+      "type": "misc",
+      "source": "T5",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "title",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "pupa larva butterfly  life cycle egg stage adult butterfly 2001 j. daniels floridata.com"
+  },
+  "questions": [
+    {
+      "question_text": "What stage corresponds to the newly hatched, wingless, worm-like form of a butterfly before metamorphosis?",
+      "question_id": "2257.png-1",
+      "answers": [
+        "egg",
+        "adult",
+        "pupa",
+        "larva"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What stage is depicted as label F?",
+      "question_id": "2257.png-0",
+      "answers": [
+        "Larva",
+        "Pupa",
+        "Adult Butterfly",
+        "Egg"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "What stage is the non-feeding stage between the larva and adult in the metamorphosis of a butterfly?",
+      "question_id": "2257.png-2",
+      "answers": [
+        "pupa",
+        "egg",
+        "adult",
+        "larva"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What stage shows the pupa?",
+      "question_id": "2257.png-3",
+      "answers": [
+        "D",
+        "B",
+        "A",
+        "D"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

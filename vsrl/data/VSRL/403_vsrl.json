@@ -1,0 +1,226 @@
+{
+  "image_id": "403",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          145,
+          6
+        ],
+        [
+          188,
+          21
+        ]
+      ],
+      "value": "Seed",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          3,
+          77
+        ],
+        [
+          90,
+          96
+        ]
+      ],
+      "value": "Adult Plant",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          235,
+          74
+        ],
+        [
+          326,
+          95
+        ]
+      ],
+      "value": "Young Plant",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          41,
+          62
+        ],
+        [
+          136,
+          24
+        ],
+        [
+          140,
+          33
+        ],
+        [
+          48,
+          70
+        ],
+        [
+          42,
+          65
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          190,
+          32
+        ],
+        [
+          270,
+          79
+        ],
+        [
+          278,
+          70
+        ],
+        [
+          194,
+          22
+        ],
+        [
+          187,
+          33
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          88,
+          78
+        ],
+        [
+          88,
+          93
+        ],
+        [
+          226,
+          91
+        ],
+        [
+          225,
+          79
+        ],
+        [
+          91,
+          78
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A1+T2",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T2",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T1+A0+T0",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T0",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T2+A2+T1",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T1",
+      "connector": "A2",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "seed adult plant young plant"
+  },
+  "questions": [
+    {
+      "question_text": "What letter represents the young plant stage?",
+      "question_id": "403.png-1",
+      "answers": [
+        "b",
+        "a",
+        "d",
+        "c"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "What represents the first stage in this cycle?",
+      "question_id": "403.png-0",
+      "answers": [
+        "d",
+        "c",
+        "b",
+        "a"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

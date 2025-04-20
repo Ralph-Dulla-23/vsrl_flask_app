@@ -1,0 +1,970 @@
+{
+  "image_id": "2924",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          8,
+          56
+        ],
+        [
+          102,
+          76
+        ]
+      ],
+      "value": "Gingiv a (gums)",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          12,
+          12
+        ],
+        [
+          167,
+          32
+        ]
+      ],
+      "value": "Mouth (Oral Cavity)",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T10": {
+      "id": "T10",
+      "type": "text",
+      "bbox": [
+        [
+          12,
+          162
+        ],
+        [
+          116,
+          178
+        ]
+      ],
+      "value": "Papillae of tongue",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T11": {
+      "id": "T11",
+      "type": "text",
+      "bbox": [
+        [
+          10,
+          141
+        ],
+        [
+          52,
+          154
+        ]
+      ],
+      "value": "Uvula",
+      "replacementText": "K",
+      "category": "label"
+    },
+    "T12": {
+      "id": "T12",
+      "type": "text",
+      "bbox": [
+        [
+          10,
+          93
+        ],
+        [
+          84,
+          106
+        ]
+      ],
+      "value": "Hard palate",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          308,
+          49
+        ],
+        [
+          341,
+          63
+        ]
+      ],
+      "value": "Lips",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          302,
+          121
+        ],
+        [
+          375,
+          142
+        ]
+      ],
+      "value": "Soft palate",
+      "replacementText": "M",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          306,
+          155
+        ],
+        [
+          399,
+          169
+        ]
+      ],
+      "value": "Palatine tonsil",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          310,
+          192
+        ],
+        [
+          355,
+          205
+        ]
+      ],
+      "value": "Molars",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          277,
+          264
+        ],
+        [
+          327,
+          281
+        ]
+      ],
+      "value": "Tongue",
+      "replacementText": "L",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          169,
+          299
+        ],
+        [
+          220,
+          319
+        ]
+      ],
+      "value": "Incisor",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          4,
+          255
+        ],
+        [
+          56,
+          274
+        ]
+      ],
+      "value": "Canine",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          9,
+          208
+        ],
+        [
+          67,
+          230
+        ]
+      ],
+      "value": "Premolar",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          167,
+          262
+        ],
+        [
+          131,
+          162
+        ],
+        [
+          164,
+          46
+        ],
+        [
+          211,
+          41
+        ],
+        [
+          239,
+          98
+        ],
+        [
+          252,
+          174
+        ],
+        [
+          226,
+          258
+        ],
+        [
+          212,
+          268
+        ],
+        [
+          169,
+          264
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          95,
+          63
+        ],
+        [
+          189,
+          63
+        ],
+        [
+          190,
+          77
+        ],
+        [
+          92,
+          74
+        ],
+        [
+          96,
+          63
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          198,
+          48
+        ],
+        [
+          305,
+          49
+        ],
+        [
+          306,
+          57
+        ],
+        [
+          206,
+          61
+        ],
+        [
+          201,
+          46
+        ]
+      ],
+      "category": "connector"
+    },
+    "A10": {
+      "id": "A10",
+      "type": "arrow",
+      "polygon": [
+        [
+          220,
+          157
+        ],
+        [
+          307,
+          157
+        ],
+        [
+          308,
+          163
+        ],
+        [
+          222,
+          166
+        ],
+        [
+          221,
+          157
+        ]
+      ],
+      "category": "connector"
+    },
+    "A11": {
+      "id": "A11",
+      "type": "arrow",
+      "polygon": [
+        [
+          240,
+          179
+        ],
+        [
+          272,
+          182
+        ],
+        [
+          271,
+          191
+        ],
+        [
+          308,
+          193
+        ],
+        [
+          308,
+          201
+        ],
+        [
+          274,
+          203
+        ],
+        [
+          272,
+          213
+        ],
+        [
+          232,
+          217
+        ],
+        [
+          231,
+          208
+        ],
+        [
+          266,
+          207
+        ],
+        [
+          265,
+          188
+        ],
+        [
+          237,
+          189
+        ],
+        [
+          238,
+          179
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          210,
+          127
+        ],
+        [
+          311,
+          129
+        ],
+        [
+          311,
+          135
+        ],
+        [
+          209,
+          141
+        ],
+        [
+          209,
+          129
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          80,
+          97
+        ],
+        [
+          195,
+          97
+        ],
+        [
+          195,
+          109
+        ],
+        [
+          76,
+          107
+        ],
+        [
+          80,
+          96
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          45,
+          145
+        ],
+        [
+          190,
+          145
+        ],
+        [
+          191,
+          156
+        ],
+        [
+          48,
+          155
+        ],
+        [
+          48,
+          145
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          117,
+          169
+        ],
+        [
+          193,
+          169
+        ],
+        [
+          194,
+          178
+        ],
+        [
+          117,
+          177
+        ],
+        [
+          118,
+          169
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          152,
+          213
+        ],
+        [
+          114,
+          215
+        ],
+        [
+          114,
+          217
+        ],
+        [
+          72,
+          220
+        ],
+        [
+          74,
+          226
+        ],
+        [
+          114,
+          226
+        ],
+        [
+          115,
+          230
+        ],
+        [
+          161,
+          234
+        ],
+        [
+          166,
+          226
+        ],
+        [
+          122,
+          227
+        ],
+        [
+          122,
+          221
+        ],
+        [
+          157,
+          221
+        ],
+        [
+          154,
+          214
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          54,
+          260
+        ],
+        [
+          162,
+          260
+        ],
+        [
+          167,
+          233
+        ],
+        [
+          172,
+          233
+        ],
+        [
+          172,
+          269
+        ],
+        [
+          55,
+          269
+        ],
+        [
+          54,
+          258
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          179,
+          236
+        ],
+        [
+          180,
+          265
+        ],
+        [
+          198,
+          266
+        ],
+        [
+          200,
+          235
+        ],
+        [
+          206,
+          233
+        ],
+        [
+          206,
+          276
+        ],
+        [
+          194,
+          277
+        ],
+        [
+          195,
+          298
+        ],
+        [
+          189,
+          300
+        ],
+        [
+          186,
+          275
+        ],
+        [
+          175,
+          274
+        ],
+        [
+          174,
+          236
+        ],
+        [
+          178,
+          235
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          201,
+          189
+        ],
+        [
+          284,
+          275
+        ],
+        [
+          279,
+          281
+        ],
+        [
+          192,
+          193
+        ],
+        [
+          200,
+          191
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H3",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H2",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A10+H5",
+      "type": "arrowHeadTail",
+      "source": "A10",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A11+H4",
+      "type": "arrowHeadTail",
+      "source": "A11",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H7",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H8",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H8",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H9",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H9",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H6",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H11",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H11",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H0",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A8+H10",
+      "type": "arrowHeadTail",
+      "source": "A8",
+      "target": "H10",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A9+H1",
+      "type": "arrowHeadTail",
+      "source": "A9",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+I0",
+      "type": "imageTitle",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T10+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T10",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T11+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T11",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T12+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T12",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T2+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T3+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T4+A10+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A10",
+      "directional": false
+    },
+    {
+      "id": "T5+A11+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A11",
+      "directional": false
+    },
+    {
+      "id": "T6+A9+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A9",
+      "directional": false
+    },
+    {
+      "id": "T7+A8+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A8",
+      "directional": false
+    },
+    {
+      "id": "T8+A7+B0",
+      "type": "intraObjectLinkage",
+      "source": "T8",
+      "target": "B0",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T9+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T9",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "title",
+    "T10": "part_label",
+    "T11": "part_label",
+    "T12": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A10": "connector",
+    "A11": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "gingiv a (gums) mouth (oral cavity) papillae of tongue uvula hard palate lips soft palate palatine tonsil molars tongue incisor canine premolar"
+  },
+  "questions": [
+    {
+      "question_text": "Which organ is bony anterior portion of the palate?",
+      "question_id": "2924.png-1",
+      "answers": [
+        "uvula",
+        "soft palate",
+        "palatine tonsil",
+        "hard palate"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which part of the body is of two fleshy folds that surround the opening of the mouth?",
+      "question_id": "2924.png-0",
+      "answers": [
+        "Tongue",
+        "Molars",
+        "Uvula",
+        "Lips"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which part of the mouth is the outer most part of the Oral cavity?",
+      "question_id": "2924.png-2",
+      "answers": [
+        "F",
+        "M",
+        "B",
+        "E"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "image_id": "1737",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          168,
+          40
+        ],
+        [
+          258,
+          57
+        ]
+      ],
+      "value": "Reverse Fault",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          166,
+          220
+        ],
+        [
+          264,
+          275
+        ]
+      ],
+      "value": "Compression",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          0,
+          180
+        ],
+        [
+          143,
+          246
+        ],
+        [
+          183,
+          220
+        ],
+        [
+          185,
+          228
+        ],
+        [
+          249,
+          187
+        ],
+        [
+          252,
+          111
+        ],
+        [
+          226,
+          95
+        ],
+        [
+          199,
+          84
+        ],
+        [
+          190,
+          84
+        ],
+        [
+          186,
+          79
+        ],
+        [
+          165,
+          78
+        ],
+        [
+          127,
+          62
+        ],
+        [
+          103,
+          72
+        ],
+        [
+          96,
+          65
+        ],
+        [
+          80,
+          61
+        ],
+        [
+          1,
+          97
+        ],
+        [
+          1,
+          181
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          206,
+          141
+        ],
+        [
+          201,
+          179
+        ],
+        [
+          211,
+          179
+        ],
+        [
+          222,
+          148
+        ],
+        [
+          208,
+          143
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          145,
+          279
+        ],
+        [
+          200,
+          241
+        ],
+        [
+          193,
+          236
+        ],
+        [
+          183,
+          237
+        ],
+        [
+          182,
+          243
+        ],
+        [
+          137,
+          275
+        ],
+        [
+          145,
+          281
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          202,
+          224
+        ],
+        [
+          258,
+          190
+        ],
+        [
+          265,
+          199
+        ],
+        [
+          213,
+          237
+        ],
+        [
+          201,
+          224
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          184,
+          143
+        ],
+        [
+          180,
+          182
+        ],
+        [
+          194,
+          185
+        ],
+        [
+          201,
+          148
+        ],
+        [
+          184,
+          144
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H2",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H1",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "reverse fault compression"
+  },
+  "questions": []
+}

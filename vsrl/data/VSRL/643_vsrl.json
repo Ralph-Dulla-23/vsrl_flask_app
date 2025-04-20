@@ -1,0 +1,476 @@
+{
+  "image_id": "643",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          461,
+          193
+        ],
+        [
+          528,
+          228
+        ]
+      ],
+      "value": "Moon",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          151,
+          292
+        ],
+        [
+          204,
+          350
+        ]
+      ],
+      "value": "Low Tide",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          281,
+          142
+        ],
+        [
+          333,
+          200
+        ]
+      ],
+      "value": "HIGH TIDE ",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          146,
+          6
+        ],
+        [
+          198,
+          61
+        ]
+      ],
+      "value": "Low Tide",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          6,
+          143
+        ],
+        [
+          62,
+          204
+        ]
+      ],
+      "value": "High Tide",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          147,
+          153
+        ],
+        [
+          204,
+          184
+        ]
+      ],
+      "value": "Earth",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          174,
+          117
+        ],
+        [
+          204,
+          125
+        ],
+        [
+          220,
+          140
+        ],
+        [
+          230,
+          165
+        ],
+        [
+          223,
+          195
+        ],
+        [
+          205,
+          217
+        ],
+        [
+          179,
+          223
+        ],
+        [
+          160,
+          221
+        ],
+        [
+          142,
+          212
+        ],
+        [
+          126,
+          190
+        ],
+        [
+          124,
+          165
+        ],
+        [
+          133,
+          142
+        ],
+        [
+          151,
+          126
+        ],
+        [
+          174,
+          117
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          489,
+          149
+        ],
+        [
+          502,
+          147
+        ],
+        [
+          509,
+          157
+        ],
+        [
+          511,
+          171
+        ],
+        [
+          498,
+          177
+        ],
+        [
+          491,
+          176
+        ],
+        [
+          485,
+          173
+        ],
+        [
+          482,
+          165
+        ],
+        [
+          482,
+          158
+        ],
+        [
+          487,
+          147
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          169,
+          64
+        ],
+        [
+          177,
+          64
+        ],
+        [
+          177,
+          110
+        ],
+        [
+          170,
+          110
+        ],
+        [
+          171,
+          64
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          230,
+          165
+        ],
+        [
+          232,
+          175
+        ],
+        [
+          272,
+          174
+        ],
+        [
+          271,
+          170
+        ],
+        [
+          231,
+          168
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          171,
+          237
+        ],
+        [
+          179,
+          237
+        ],
+        [
+          180,
+          288
+        ],
+        [
+          174,
+          288
+        ],
+        [
+          174,
+          240
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          68,
+          163
+        ],
+        [
+          68,
+          172
+        ],
+        [
+          119,
+          173
+        ],
+        [
+          119,
+          166
+        ],
+        [
+          71,
+          165
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+B1",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T2+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T3+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T4+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T5+B0",
+      "type": "intraObjectLabel",
+      "source": "T5",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "moon low tide high tide  low tide high tide earth"
+  },
+  "questions": [
+    {
+      "question_text": "During Low Tide, the effect of the moon's gravity on the earth is at its weakest.  Which labels represent Low Tide in the diagram?",
+      "question_id": "643.png-0",
+      "answers": [
+        "C & D",
+        "B & D",
+        "B & E",
+        "C & E"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is this diagram showing us?",
+      "question_id": "643.png-1",
+      "answers": [
+        "The Earth's effect on the Moon's tides.",
+        "The Moon's effect on Earth's tides.",
+        "The shadow the Earth casts on the Moon.",
+        "The shadow the Moon casts on Earth."
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which letter depicts the moon?",
+      "question_id": "643.png-3",
+      "answers": [
+        "D",
+        "E",
+        "F",
+        "A"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which two labels represent High Tide in the diagram?",
+      "question_id": "643.png-2",
+      "answers": [
+        "C & E",
+        "B & E",
+        "C & D",
+        "B & D"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

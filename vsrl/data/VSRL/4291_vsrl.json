@@ -1,0 +1,504 @@
+{
+  "image_id": "4291",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          240,
+          95
+        ],
+        [
+          309,
+          121
+        ]
+      ],
+      "value": "Lithospharen-mantel",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          209,
+          72
+        ],
+        [
+          314,
+          86
+        ]
+      ],
+      "value": "Kontinentale Erdkruste",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          233,
+          140
+        ],
+        [
+          309,
+          159
+        ]
+      ],
+      "value": "Asthenosphare",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          10,
+          98
+        ],
+        [
+          77,
+          120
+        ]
+      ],
+      "value": "Lithospharen-mantel",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          3,
+          80
+        ],
+        [
+          102,
+          93
+        ]
+      ],
+      "value": "Ozeanische Erdkruste",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          22,
+          140
+        ],
+        [
+          101,
+          157
+        ]
+      ],
+      "value": "Asthenosphare",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          144,
+          14
+        ],
+        [
+          185,
+          62
+        ]
+      ],
+      "value": "Tiefseerinne ",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          240,
+          4
+        ],
+        [
+          258,
+          60
+        ]
+      ],
+      "value": "Vulkangurtel",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          1,
+          69
+        ],
+        [
+          21,
+          58
+        ],
+        [
+          35,
+          49
+        ],
+        [
+          60,
+          32
+        ],
+        [
+          85,
+          13
+        ],
+        [
+          99,
+          12
+        ],
+        [
+          116,
+          12
+        ],
+        [
+          127,
+          11
+        ],
+        [
+          139,
+          11
+        ],
+        [
+          158,
+          10
+        ],
+        [
+          168,
+          13
+        ],
+        [
+          187,
+          13
+        ],
+        [
+          199,
+          11
+        ],
+        [
+          206,
+          8
+        ],
+        [
+          210,
+          5
+        ],
+        [
+          220,
+          2
+        ],
+        [
+          226,
+          3
+        ],
+        [
+          229,
+          3
+        ],
+        [
+          236,
+          3
+        ],
+        [
+          243,
+          2
+        ],
+        [
+          250,
+          2
+        ],
+        [
+          302,
+          4
+        ],
+        [
+          310,
+          3
+        ],
+        [
+          314,
+          31
+        ],
+        [
+          317,
+          54
+        ],
+        [
+          319,
+          172
+        ],
+        [
+          3,
+          173
+        ],
+        [
+          1,
+          71
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          85,
+          89
+        ],
+        [
+          86,
+          106
+        ],
+        [
+          115,
+          105
+        ],
+        [
+          124,
+          98
+        ],
+        [
+          114,
+          89
+        ],
+        [
+          86,
+          90
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          198,
+          91
+        ],
+        [
+          202,
+          105
+        ],
+        [
+          242,
+          100
+        ],
+        [
+          241,
+          90
+        ],
+        [
+          200,
+          88
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          184,
+          130
+        ],
+        [
+          172,
+          140
+        ],
+        [
+          199,
+          168
+        ],
+        [
+          208,
+          158
+        ],
+        [
+          187,
+          133
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H2",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H1",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T4",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T5",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T6",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T7+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T7",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "lithospharen-mantel kontinentale erdkruste asthenosphare lithospharen-mantel ozeanische erdkruste asthenosphare tiefseerinne  vulkangurtel"
+  },
+  "questions": [
+    {
+      "question_text": "What is the layer above the asthenosphere?",
+      "question_id": "4291.png-2",
+      "answers": [
+        "ocean",
+        "none of the above",
+        "magma",
+        "lithospharen"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the lowest layer?",
+      "question_id": "4291.png-3",
+      "answers": [
+        "lithospharen",
+        "ozeanishe",
+        "none of the above",
+        "astensophare"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is the lowest strata shown?",
+      "question_id": "4291.png-1",
+      "answers": [
+        "asthenosphere",
+        "none of the above",
+        "lithospharen",
+        "ocean"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the part represented by C",
+      "question_id": "4291.png-0",
+      "answers": [
+        "astenosphare",
+        "ozeanische",
+        "none of the above",
+        "lithospharen"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

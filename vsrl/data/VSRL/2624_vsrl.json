@@ -1,0 +1,384 @@
+{
+  "image_id": "2624",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          17,
+          124
+        ],
+        [
+          55,
+          148
+        ]
+      ],
+      "value": "SUN",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          375,
+          143
+        ],
+        [
+          431,
+          163
+        ]
+      ],
+      "value": "Ecliptic",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          44,
+          277
+        ],
+        [
+          435,
+          306
+        ]
+      ],
+      "value": "Solar eclipse...when the line of nodes is aligned with the Sun",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          13,
+          14
+        ],
+        [
+          307,
+          36
+        ]
+      ],
+      "value": "Earth - Moon - Sun System : Eclipses",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          223,
+          160
+        ],
+        [
+          236,
+          160
+        ],
+        [
+          247,
+          156
+        ],
+        [
+          253,
+          148
+        ],
+        [
+          256,
+          139
+        ],
+        [
+          255,
+          128
+        ],
+        [
+          247,
+          119
+        ],
+        [
+          231,
+          114
+        ],
+        [
+          218,
+          118
+        ],
+        [
+          212,
+          128
+        ],
+        [
+          209,
+          138
+        ],
+        [
+          215,
+          148
+        ],
+        [
+          222,
+          160
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          297,
+          138
+        ],
+        [
+          302,
+          143
+        ],
+        [
+          309,
+          145
+        ],
+        [
+          313,
+          138
+        ],
+        [
+          311,
+          133
+        ],
+        [
+          305,
+          131
+        ],
+        [
+          298,
+          135
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          145,
+          144
+        ],
+        [
+          152,
+          150
+        ],
+        [
+          159,
+          148
+        ],
+        [
+          162,
+          142
+        ],
+        [
+          163,
+          134
+        ],
+        [
+          160,
+          129
+        ],
+        [
+          155,
+          128
+        ],
+        [
+          150,
+          130
+        ],
+        [
+          144,
+          137
+        ],
+        [
+          143,
+          144
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          159,
+          226
+        ],
+        [
+          165,
+          247
+        ],
+        [
+          221,
+          224
+        ],
+        [
+          205,
+          200
+        ],
+        [
+          157,
+          226
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          211,
+          72
+        ],
+        [
+          223,
+          102
+        ],
+        [
+          275,
+          79
+        ],
+        [
+          265,
+          56
+        ],
+        [
+          216,
+          72
+        ],
+        [
+          214,
+          76
+        ],
+        [
+          212,
+          75
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+I0",
+      "type": "sectionTitle",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+I0",
+      "type": "imageCaption",
+      "source": "T2",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+I0",
+      "type": "imageTitle",
+      "source": "T3",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "title",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "A0": "connector",
+    "A1": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "sun ecliptic solar eclipse...when the line of nodes is aligned with the sun earth - moon - sun system : eclipses"
+  },
+  "questions": [
+    {
+      "question_text": "What does the letter B represent?",
+      "question_id": "2624.png-1",
+      "answers": [
+        "Sun",
+        "Earth",
+        "Moon",
+        "Ecliptic"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "What object is indicated at D?",
+      "question_id": "2624.png-2",
+      "answers": [
+        "Earth",
+        "Moon",
+        "Sun",
+        "Eclipse"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which letter represents the Sun?",
+      "question_id": "2624.png-3",
+      "answers": [
+        "D",
+        "A",
+        "C",
+        "B"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which letter shows the ecliptic?",
+      "question_id": "2624.png-0",
+      "answers": [
+        "B",
+        "E",
+        "A",
+        "C"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

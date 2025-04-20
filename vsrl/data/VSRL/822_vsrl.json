@@ -1,0 +1,580 @@
+{
+  "image_id": "822",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          16
+        ],
+        [
+          97,
+          30
+        ]
+      ],
+      "value": "Green algae",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          41,
+          68
+        ],
+        [
+          97,
+          81
+        ]
+      ],
+      "value": "Limpet",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          77,
+          113
+        ],
+        [
+          138,
+          130
+        ]
+      ],
+      "value": "Lobster",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          164,
+          67
+        ],
+        [
+          218,
+          86
+        ]
+      ],
+      "value": "Mussel",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          171,
+          11
+        ],
+        [
+          268,
+          30
+        ]
+      ],
+      "value": "Phytoplankton ",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          258,
+          55
+        ],
+        [
+          349,
+          73
+        ]
+      ],
+      "value": "Zooplankton",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          48,
+          30
+        ],
+        [
+          56,
+          30
+        ],
+        [
+          66,
+          59
+        ],
+        [
+          71,
+          57
+        ],
+        [
+          68,
+          70
+        ],
+        [
+          60,
+          63
+        ],
+        [
+          62,
+          60
+        ],
+        [
+          47,
+          30
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          89,
+          115
+        ],
+        [
+          92,
+          110
+        ],
+        [
+          87,
+          107
+        ],
+        [
+          76,
+          78
+        ],
+        [
+          72,
+          84
+        ],
+        [
+          83,
+          108
+        ],
+        [
+          82,
+          113
+        ],
+        [
+          88,
+          117
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          118,
+          107
+        ],
+        [
+          116,
+          116
+        ],
+        [
+          130,
+          115
+        ],
+        [
+          130,
+          111
+        ],
+        [
+          174,
+          85
+        ],
+        [
+          171,
+          81
+        ],
+        [
+          126,
+          107
+        ],
+        [
+          118,
+          107
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          182,
+          69
+        ],
+        [
+          195,
+          64
+        ],
+        [
+          194,
+          58
+        ],
+        [
+          213,
+          30
+        ],
+        [
+          207,
+          30
+        ],
+        [
+          190,
+          56
+        ],
+        [
+          184,
+          57
+        ],
+        [
+          179,
+          67
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          225,
+          31
+        ],
+        [
+          250,
+          58
+        ],
+        [
+          247,
+          61
+        ],
+        [
+          260,
+          65
+        ],
+        [
+          257,
+          54
+        ],
+        [
+          252,
+          54
+        ],
+        [
+          231,
+          28
+        ],
+        [
+          224,
+          30
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          212,
+          73
+        ],
+        [
+          220,
+          77
+        ],
+        [
+          222,
+          73
+        ],
+        [
+          260,
+          71
+        ],
+        [
+          253,
+          67
+        ],
+        [
+          220,
+          70
+        ],
+        [
+          214,
+          72
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H4",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+T1",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T1",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T1+A1+T2",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T2",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T3+A2+T2",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T2",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T4+A3+T3",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T3",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T4+A4+T5",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T5",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T5+A5+T3",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T3",
+      "connector": "A5",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "green algae limpet lobster mussel phytoplankton  zooplankton"
+  },
+  "questions": [
+    {
+      "question_text": "Based on the diagram shown and on your knowledge of science. Which of the following is most likely to lead to an increase in the number of Mussels over time?",
+      "question_id": "822.png-8",
+      "answers": [
+        "Cannot be determined.",
+        "An increase in limpet population.",
+        "A decrease in lobsters population.",
+        "A decrease in green algae."
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the above food web diagram, main source of energy for mussel is",
+      "question_id": "822.png-3",
+      "answers": [
+        "phytoplankton",
+        "lobster",
+        "limpet",
+        "algae"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the above food web diagram, which way does the energy flow",
+      "question_id": "822.png-10",
+      "answers": [
+        "mussel to zooplankton",
+        "algae to lobster",
+        "algae to zooplankton",
+        "algae to limpet"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "If phytoplankton and zooplankton were to vanish who would go extinct?",
+      "question_id": "822.png-7",
+      "answers": [
+        "mussel",
+        "lobster",
+        "limpet",
+        "none of the above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the food chain above, what would most directly cause the number of lobsters to increase?",
+      "question_id": "822.png-2",
+      "answers": [
+        "decrease in green algae",
+        "decrease in phytoplankton",
+        "increase in zooplankton",
+        "Increase in limpet and mussels"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is a carnivore?",
+      "question_id": "822.png-5",
+      "answers": [
+        "zooplankton",
+        "algae",
+        "limpet",
+        "lobser"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the main source of food for mussel?",
+      "question_id": "822.png-9",
+      "answers": [
+        "phytoplankton",
+        "lobster",
+        "limpet",
+        "green algae"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the top predator?",
+      "question_id": "822.png-4",
+      "answers": [
+        "zooplankton",
+        "algae",
+        "lobster",
+        "mussel"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would be most directly affected by an increase in zooplankton?",
+      "question_id": "822.png-6",
+      "answers": [
+        "phytoplankton",
+        "lobster",
+        "limpet",
+        "algae"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would happen if the limpet population increased?",
+      "question_id": "822.png-0",
+      "answers": [
+        "zooplankton decrease",
+        "zooplankton increase",
+        "algae decrease",
+        "algae increase"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which organisms are producers?",
+      "question_id": "822.png-1",
+      "answers": [
+        "museels and lobsters",
+        "limpets and zooplankton",
+        "mussels and zooplankton",
+        "Green algae and phytoplankton"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    }
+  ]
+}

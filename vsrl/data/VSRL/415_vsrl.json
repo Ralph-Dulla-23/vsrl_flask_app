@@ -1,0 +1,348 @@
+{
+  "image_id": "415",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          30,
+          76
+        ],
+        [
+          79,
+          93
+        ]
+      ],
+      "value": "Adult",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          198,
+          12
+        ],
+        [
+          233,
+          33
+        ]
+      ],
+      "value": "Egg",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          355,
+          79
+        ],
+        [
+          417,
+          98
+        ]
+      ],
+      "value": "Stage X",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          185,
+          162
+        ],
+        [
+          246,
+          182
+        ]
+      ],
+      "value": "Stage Y",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          44,
+          65
+        ],
+        [
+          97,
+          32
+        ],
+        [
+          169,
+          17
+        ],
+        [
+          171,
+          32
+        ],
+        [
+          101,
+          45
+        ],
+        [
+          54,
+          77
+        ],
+        [
+          44,
+          62
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          46,
+          102
+        ],
+        [
+          77,
+          138
+        ],
+        [
+          125,
+          157
+        ],
+        [
+          168,
+          169
+        ],
+        [
+          165,
+          181
+        ],
+        [
+          93,
+          165
+        ],
+        [
+          58,
+          140
+        ],
+        [
+          36,
+          108
+        ],
+        [
+          47,
+          101
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          264,
+          18
+        ],
+        [
+          326,
+          24
+        ],
+        [
+          377,
+          44
+        ],
+        [
+          409,
+          76
+        ],
+        [
+          393,
+          80
+        ],
+        [
+          353,
+          50
+        ],
+        [
+          319,
+          39
+        ],
+        [
+          265,
+          27
+        ],
+        [
+          265,
+          18
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          261,
+          171
+        ],
+        [
+          317,
+          165
+        ],
+        [
+          365,
+          147
+        ],
+        [
+          393,
+          129
+        ],
+        [
+          401,
+          109
+        ],
+        [
+          418,
+          108
+        ],
+        [
+          409,
+          129
+        ],
+        [
+          377,
+          158
+        ],
+        [
+          335,
+          174
+        ],
+        [
+          293,
+          183
+        ],
+        [
+          263,
+          183
+        ],
+        [
+          265,
+          171
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H1",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H2",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+T1",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T1",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A2+T2",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T2",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T2+A3+T3",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T3",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T3+A1+T0",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T0",
+      "connector": "A1",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "adult egg stage x stage y"
+  },
+  "questions": [
+    {
+      "question_text": "How many stages are in the development of a mosquito?",
+      "question_id": "415.png-1",
+      "answers": [
+        "2",
+        "4",
+        "1",
+        "0"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What stage is represents the egg?",
+      "question_id": "415.png-0",
+      "answers": [
+        "D",
+        "C",
+        "A",
+        "B"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

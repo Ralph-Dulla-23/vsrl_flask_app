@@ -1,0 +1,988 @@
+{
+  "image_id": "896",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          118,
+          0
+        ],
+        [
+          181,
+          16
+        ]
+      ],
+      "value": "Weakfish",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          3,
+          89
+        ],
+        [
+          65,
+          109
+        ]
+      ],
+      "value": "Anchovy",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          174,
+          63
+        ],
+        [
+          231,
+          98
+        ]
+      ],
+      "value": "Atlantic Croaker",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          268,
+          115
+        ],
+        [
+          303,
+          151
+        ]
+      ],
+      "value": "Mud crab",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          108,
+          146
+        ],
+        [
+          158,
+          184
+        ]
+      ],
+      "value": "Sand shrimp",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          13,
+          192
+        ],
+        [
+          61,
+          231
+        ]
+      ],
+      "value": "Mysid shrimp",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          144,
+          277
+        ],
+        [
+          184,
+          296
+        ]
+      ],
+      "value": "Algae",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          242,
+          192
+        ],
+        [
+          301,
+          207
+        ]
+      ],
+      "value": "MUSSELS",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          59,
+          196
+        ],
+        [
+          61,
+          205
+        ],
+        [
+          90,
+          202
+        ],
+        [
+          117,
+          189
+        ],
+        [
+          109,
+          182
+        ],
+        [
+          87,
+          191
+        ],
+        [
+          61,
+          197
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          139,
+          188
+        ],
+        [
+          149,
+          185
+        ],
+        [
+          161,
+          222
+        ],
+        [
+          165,
+          249
+        ],
+        [
+          163,
+          280
+        ],
+        [
+          155,
+          278
+        ],
+        [
+          157,
+          250
+        ],
+        [
+          149,
+          218
+        ],
+        [
+          138,
+          190
+        ]
+      ],
+      "category": "connector"
+    },
+    "A10": {
+      "id": "A10",
+      "type": "arrow",
+      "polygon": [
+        [
+          18,
+          110
+        ],
+        [
+          30,
+          112
+        ],
+        [
+          25,
+          136
+        ],
+        [
+          26,
+          163
+        ],
+        [
+          31,
+          188
+        ],
+        [
+          22,
+          190
+        ],
+        [
+          15,
+          164
+        ],
+        [
+          15,
+          139
+        ],
+        [
+          17,
+          110
+        ]
+      ],
+      "category": "connector"
+    },
+    "A11": {
+      "id": "A11",
+      "type": "arrow",
+      "polygon": [
+        [
+          44,
+          184
+        ],
+        [
+          50,
+          185
+        ],
+        [
+          68,
+          144
+        ],
+        [
+          96,
+          90
+        ],
+        [
+          140,
+          20
+        ],
+        [
+          132,
+          15
+        ],
+        [
+          100,
+          62
+        ],
+        [
+          73,
+          110
+        ],
+        [
+          44,
+          184
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          182,
+          278
+        ],
+        [
+          186,
+          288
+        ],
+        [
+          231,
+          267
+        ],
+        [
+          255,
+          243
+        ],
+        [
+          279,
+          211
+        ],
+        [
+          267,
+          206
+        ],
+        [
+          258,
+          224
+        ],
+        [
+          241,
+          246
+        ],
+        [
+          217,
+          263
+        ],
+        [
+          186,
+          278
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          274,
+          192
+        ],
+        [
+          287,
+          194
+        ],
+        [
+          294,
+          168
+        ],
+        [
+          290,
+          148
+        ],
+        [
+          280,
+          149
+        ],
+        [
+          279,
+          171
+        ],
+        [
+          276,
+          193
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          228,
+          85
+        ],
+        [
+          229,
+          96
+        ],
+        [
+          253,
+          103
+        ],
+        [
+          271,
+          117
+        ],
+        [
+          280,
+          114
+        ],
+        [
+          260,
+          96
+        ],
+        [
+          228,
+          84
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          43,
+          233
+        ],
+        [
+          53,
+          228
+        ],
+        [
+          71,
+          250
+        ],
+        [
+          110,
+          274
+        ],
+        [
+          143,
+          284
+        ],
+        [
+          141,
+          290
+        ],
+        [
+          101,
+          280
+        ],
+        [
+          73,
+          266
+        ],
+        [
+          60,
+          252
+        ],
+        [
+          43,
+          234
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          51,
+          184
+        ],
+        [
+          55,
+          190
+        ],
+        [
+          74,
+          168
+        ],
+        [
+          103,
+          140
+        ],
+        [
+          138,
+          116
+        ],
+        [
+          176,
+          96
+        ],
+        [
+          175,
+          88
+        ],
+        [
+          145,
+          100
+        ],
+        [
+          109,
+          125
+        ],
+        [
+          74,
+          156
+        ],
+        [
+          49,
+          184
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          58,
+          87
+        ],
+        [
+          63,
+          93
+        ],
+        [
+          92,
+          84
+        ],
+        [
+          142,
+          80
+        ],
+        [
+          171,
+          80
+        ],
+        [
+          172,
+          70
+        ],
+        [
+          141,
+          70
+        ],
+        [
+          101,
+          74
+        ],
+        [
+          81,
+          77
+        ],
+        [
+          59,
+          84
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          26,
+          91
+        ],
+        [
+          35,
+          92
+        ],
+        [
+          49,
+          66
+        ],
+        [
+          76,
+          36
+        ],
+        [
+          117,
+          12
+        ],
+        [
+          114,
+          6
+        ],
+        [
+          103,
+          6
+        ],
+        [
+          65,
+          30
+        ],
+        [
+          47,
+          49
+        ],
+        [
+          26,
+          88
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          179,
+          17
+        ],
+        [
+          183,
+          6
+        ],
+        [
+          205,
+          24
+        ],
+        [
+          219,
+          49
+        ],
+        [
+          218,
+          61
+        ],
+        [
+          209,
+          60
+        ],
+        [
+          207,
+          48
+        ],
+        [
+          197,
+          32
+        ],
+        [
+          179,
+          20
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A10+H2",
+      "type": "arrowHeadTail",
+      "source": "A10",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A11+H3",
+      "type": "arrowHeadTail",
+      "source": "A11",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H4",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H5",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H6",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H7",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H8",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H8",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H9",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H9",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A8+H10",
+      "type": "arrowHeadTail",
+      "source": "A8",
+      "target": "H10",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A9+H11",
+      "type": "arrowHeadTail",
+      "source": "A9",
+      "target": "H11",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A7+T2",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T2",
+      "connector": "A7",
+      "directional": true
+    },
+    {
+      "id": "T1+A8+T0",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T0",
+      "connector": "A8",
+      "directional": true
+    },
+    {
+      "id": "T2+A9+T0",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T0",
+      "connector": "A9",
+      "directional": true
+    },
+    {
+      "id": "T3+A4+T2",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T2",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T5+A0+T4",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T4",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T5+A10+T1",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T1",
+      "connector": "A10",
+      "directional": true
+    },
+    {
+      "id": "T5+A11+T0",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T0",
+      "connector": "A11",
+      "directional": true
+    },
+    {
+      "id": "T5+A6+T2",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T2",
+      "connector": "A6",
+      "directional": true
+    },
+    {
+      "id": "T6+A1+T4",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T4",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T6+A2+T7",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T7",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T6+A5+T5",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T5",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T7+A3+T3",
+      "type": "interObjectLinkage",
+      "source": "T7",
+      "target": "T3",
+      "connector": "A3",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A10": "connector",
+    "A11": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "weakfish anchovy atlantic croaker mud crab sand shrimp mysid shrimp algae mussels"
+  },
+  "questions": [
+    {
+      "question_text": "A food web for a ecosystem is shown above. Which of the organisms in this food web gets energy from both producers and consumers?",
+      "question_id": "896.png-8",
+      "answers": [
+        "Mysid Shrimp",
+        "Muscles",
+        "Sand Shrimp",
+        "Algae"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the above food web diagram, if all the algae dies then",
+      "question_id": "896.png-6",
+      "answers": [
+        "mussels decrease",
+        "crab increase",
+        "mussels increase",
+        "no change"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the above food web diagram, which of the species compete for mysid shrimp",
+      "question_id": "896.png-3",
+      "answers": [
+        "crab and mussels",
+        "anchovy and sand shrimp",
+        "none of this",
+        "algae and shrimp"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the energy flow diagram, which is the correct direction of flow of energy?",
+      "question_id": "896.png-1",
+      "answers": [
+        "Anchovy to Shrimps",
+        "Mud Crab to Mussels",
+        "Algae to Shrimps",
+        "Weakfish to Atlantic croaker"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the food chain diagram shown below, which organism is at the top of energy flow?",
+      "question_id": "896.png-0",
+      "answers": [
+        "Weakfish",
+        "Shrimps",
+        "Algae",
+        "Mud Crab"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the diagram what is the stage before mud crab?",
+      "question_id": "896.png-5",
+      "answers": [
+        "Mussels",
+        "weakfish",
+        "Atlantic croaker",
+        "anchovy"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Jim made a simple food web of some animals that live in the Ocean. Based on Jim's food web, which organism is the main source of energy for the Mud Crab?",
+      "question_id": "896.png-4",
+      "answers": [
+        "Mussels",
+        "Anchovy",
+        "Weakfish",
+        "Algae"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Part of an oceanic food web has been provided. Of the provided animals, which one eats Atlantic Croaker? A) Weakfish B)Mussels C)Algae D) Sand Shrimp",
+      "question_id": "896.png-7",
+      "answers": [
+        "Weakfish",
+        "sand shrimp",
+        "mussels",
+        "algae"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Please refer to the food web provided when answering, if the web does not answer question then please use your knowledge of biology to answer question. If there were to be a decrease in available algae, which animal would have the MOST decrease in available energy? A) Sand Shrimp B) Mud Crab C) Mussels D) Anchovy",
+      "question_id": "896.png-2",
+      "answers": [
+        "Mud Crab",
+        "Sand Shrimp",
+        "Anchovy",
+        "Mussels"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

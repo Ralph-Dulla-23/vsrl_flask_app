@@ -1,0 +1,438 @@
+{
+  "image_id": "546",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          359,
+          26
+        ],
+        [
+          405,
+          41
+        ]
+      ],
+      "value": "CRUST",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          388,
+          66
+        ],
+        [
+          481,
+          88
+        ]
+      ],
+      "value": "upper mantle",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          431,
+          140
+        ],
+        [
+          486,
+          159
+        ]
+      ],
+      "value": "mantle",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          401,
+          204
+        ],
+        [
+          478,
+          221
+        ]
+      ],
+      "value": "outer core",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          356,
+          268
+        ],
+        [
+          437,
+          285
+        ]
+      ],
+      "value": "inner core",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          251,
+          26
+        ],
+        [
+          279,
+          28
+        ],
+        [
+          304,
+          37
+        ],
+        [
+          325,
+          49
+        ],
+        [
+          346,
+          68
+        ],
+        [
+          358,
+          87
+        ],
+        [
+          372,
+          118
+        ],
+        [
+          376,
+          157
+        ],
+        [
+          368,
+          197
+        ],
+        [
+          349,
+          229
+        ],
+        [
+          314,
+          258
+        ],
+        [
+          282,
+          272
+        ],
+        [
+          250,
+          277
+        ],
+        [
+          205,
+          268
+        ],
+        [
+          168,
+          247
+        ],
+        [
+          141,
+          215
+        ],
+        [
+          124,
+          171
+        ],
+        [
+          127,
+          123
+        ],
+        [
+          144,
+          82
+        ],
+        [
+          167,
+          57
+        ],
+        [
+          188,
+          41
+        ],
+        [
+          220,
+          28
+        ],
+        [
+          253,
+          27
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          325,
+          52
+        ],
+        [
+          360,
+          27
+        ],
+        [
+          361,
+          36
+        ],
+        [
+          332,
+          60
+        ],
+        [
+          328,
+          53
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          339,
+          77
+        ],
+        [
+          390,
+          69
+        ],
+        [
+          392,
+          80
+        ],
+        [
+          345,
+          86
+        ],
+        [
+          343,
+          79
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          328,
+          121
+        ],
+        [
+          432,
+          146
+        ],
+        [
+          426,
+          154
+        ],
+        [
+          426,
+          154
+        ],
+        [
+          327,
+          133
+        ],
+        [
+          329,
+          121
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          287,
+          146
+        ],
+        [
+          398,
+          209
+        ],
+        [
+          397,
+          217
+        ],
+        [
+          284,
+          156
+        ],
+        [
+          289,
+          145
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          249,
+          143
+        ],
+        [
+          356,
+          264
+        ],
+        [
+          349,
+          268
+        ],
+        [
+          242,
+          149
+        ],
+        [
+          251,
+          140
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T2+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T3+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T4+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "crust upper mantle mantle outer core inner core"
+  },
+  "questions": [
+    {
+      "question_text": "Which is the innerrmost part of earth?",
+      "question_id": "546.png-1",
+      "answers": [
+        "Crust",
+        "Mantle",
+        "Inner core",
+        "Outer core"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which is the outer most part of earth?",
+      "question_id": "546.png-0",
+      "answers": [
+        "Upper Mantle",
+        "Mantle",
+        "Core",
+        "Crust"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which region in the diagram represents the inner core",
+      "question_id": "546.png-3",
+      "answers": [
+        "b",
+        "d",
+        "c",
+        "a"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which region in the diagram represents the mantle",
+      "question_id": "546.png-2",
+      "answers": [
+        "d",
+        "b",
+        "a",
+        "c"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

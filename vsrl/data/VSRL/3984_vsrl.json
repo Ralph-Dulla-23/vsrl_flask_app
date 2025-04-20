@@ -1,0 +1,408 @@
+{
+  "image_id": "3984",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          156,
+          2
+        ],
+        [
+          238,
+          26
+        ]
+      ],
+      "value": "Endodermis",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          165,
+          35
+        ],
+        [
+          231,
+          53
+        ]
+      ],
+      "value": "-Pericycle",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          172,
+          60
+        ],
+        [
+          217,
+          83
+        ]
+      ],
+      "value": "Xylem",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          171,
+          92
+        ],
+        [
+          226,
+          111
+        ]
+      ],
+      "value": "Phloem",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          153,
+          129
+        ],
+        [
+          245,
+          149
+        ]
+      ],
+      "value": "Parenchyma",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          161
+        ],
+        [
+          245,
+          192
+        ]
+      ],
+      "value": "Fig. 32.4. Stelar system in ferms.  Prostostele with mixed pith.",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          78,
+          158
+        ],
+        [
+          113,
+          155
+        ],
+        [
+          142,
+          135
+        ],
+        [
+          161,
+          102
+        ],
+        [
+          162,
+          65
+        ],
+        [
+          146,
+          32
+        ],
+        [
+          121,
+          10
+        ],
+        [
+          81,
+          4
+        ],
+        [
+          50,
+          14
+        ],
+        [
+          23,
+          39
+        ],
+        [
+          11,
+          70
+        ],
+        [
+          16,
+          108
+        ],
+        [
+          43,
+          143
+        ],
+        [
+          81,
+          155
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          100,
+          34
+        ],
+        [
+          109,
+          42
+        ],
+        [
+          155,
+          21
+        ],
+        [
+          161,
+          18
+        ],
+        [
+          157,
+          6
+        ],
+        [
+          97,
+          33
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          119,
+          58
+        ],
+        [
+          171,
+          50
+        ],
+        [
+          172,
+          37
+        ],
+        [
+          114,
+          50
+        ],
+        [
+          114,
+          56
+        ],
+        [
+          116,
+          57
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          114,
+          63
+        ],
+        [
+          173,
+          66
+        ],
+        [
+          173,
+          76
+        ],
+        [
+          114,
+          73
+        ],
+        [
+          114,
+          64
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          116,
+          91
+        ],
+        [
+          118,
+          81
+        ],
+        [
+          174,
+          99
+        ],
+        [
+          172,
+          111
+        ],
+        [
+          118,
+          91
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          90,
+          86
+        ],
+        [
+          158,
+          133
+        ],
+        [
+          152,
+          140
+        ],
+        [
+          86,
+          94
+        ],
+        [
+          88,
+          88
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T2+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T3+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T4+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T5+I0",
+      "type": "imageCaption",
+      "source": "T5",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "endodermis -pericycle xylem phloem parenchyma fig. 32.4. stelar system in ferms.  prostostele with mixed pith."
+  },
+  "questions": [
+    {
+      "question_text": "How many parts are shown?",
+      "question_id": "3984.png-0",
+      "answers": [
+        "3",
+        "1",
+        "2",
+        "5"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "The outer part is called the what?",
+      "question_id": "3984.png-1",
+      "answers": [
+        "Endodermis",
+        "Phloem",
+        "Xylem",
+        "None of the above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

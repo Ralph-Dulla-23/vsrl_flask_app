@@ -1,0 +1,1260 @@
+{
+  "image_id": "2780",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          17,
+          17
+        ],
+        [
+          51,
+          32
+        ]
+      ],
+      "value": "Food",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          114,
+          10
+        ],
+        [
+          141,
+          37
+        ]
+      ],
+      "value": "GI tract",
+      "replacementText": "N",
+      "category": "label"
+    },
+    "T10": {
+      "id": "T10",
+      "type": "text",
+      "bbox": [
+        [
+          109,
+          74
+        ],
+        [
+          151,
+          90
+        ]
+      ],
+      "value": "Blood",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T11": {
+      "id": "T11",
+      "type": "text",
+      "bbox": [
+        [
+          15,
+          72
+        ],
+        [
+          51,
+          89
+        ]
+      ],
+      "value": "Liver",
+      "replacementText": "K",
+      "category": "label"
+    },
+    "T12": {
+      "id": "T12",
+      "type": "text",
+      "bbox": [
+        [
+          15,
+          145
+        ],
+        [
+          77,
+          172
+        ]
+      ],
+      "value": "Respiratory tract",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T13": {
+      "id": "T13",
+      "type": "text",
+      "bbox": [
+        [
+          36,
+          216
+        ],
+        [
+          56,
+          230
+        ]
+      ],
+      "value": "Air",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T14": {
+      "id": "T14",
+      "type": "text",
+      "bbox": [
+        [
+          7,
+          241
+        ],
+        [
+          378,
+          274
+        ]
+      ],
+      "value": "Figure 2. Absorption and distribution of inorganic chemical elements in animals (Adapted from Apostoli, 2002)",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          331,
+          21
+        ],
+        [
+          370,
+          37
+        ]
+      ],
+      "value": "Feces",
+      "replacementText": "L",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          330,
+          74
+        ],
+        [
+          367,
+          89
+        ]
+      ],
+      "value": "Urine",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          330,
+          114
+        ],
+        [
+          362,
+          130
+        ]
+      ],
+      "value": "Hair",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          330,
+          155
+        ],
+        [
+          373,
+          167
+        ]
+      ],
+      "value": "Sweat",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          198,
+          130
+        ],
+        [
+          229,
+          144
+        ]
+      ],
+      "value": "Skin",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          222,
+          75
+        ],
+        [
+          264,
+          91
+        ]
+      ],
+      "value": "Kidney",
+      "replacementText": "M",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          196,
+          182
+        ],
+        [
+          248,
+          194
+        ]
+      ],
+      "value": "Air/Water",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          112,
+          165
+        ],
+        [
+          149,
+          191
+        ]
+      ],
+      "value": "Other organs",
+      "replacementText": "O",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          152,
+          24
+        ],
+        [
+          315,
+          22
+        ],
+        [
+          316,
+          32
+        ],
+        [
+          152,
+          32
+        ],
+        [
+          151,
+          25
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          274,
+          79
+        ],
+        [
+          319,
+          80
+        ],
+        [
+          319,
+          89
+        ],
+        [
+          274,
+          88
+        ],
+        [
+          274,
+          78
+        ]
+      ],
+      "category": "connector"
+    },
+    "A10": {
+      "id": "A10",
+      "type": "arrow",
+      "polygon": [
+        [
+          116,
+          151
+        ],
+        [
+          117,
+          101
+        ],
+        [
+          125,
+          100
+        ],
+        [
+          126,
+          150
+        ],
+        [
+          117,
+          152
+        ]
+      ],
+      "category": "connector"
+    },
+    "A11": {
+      "id": "A11",
+      "type": "arrow",
+      "polygon": [
+        [
+          127,
+          150
+        ],
+        [
+          127,
+          100
+        ],
+        [
+          140,
+          100
+        ],
+        [
+          140,
+          152
+        ],
+        [
+          130,
+          151
+        ]
+      ],
+      "category": "connector"
+    },
+    "A12": {
+      "id": "A12",
+      "type": "arrow",
+      "polygon": [
+        [
+          183,
+          133
+        ],
+        [
+          151,
+          110
+        ],
+        [
+          156,
+          104
+        ],
+        [
+          187,
+          128
+        ],
+        [
+          185,
+          133
+        ]
+      ],
+      "category": "connector"
+    },
+    "A13": {
+      "id": "A13",
+      "type": "arrow",
+      "polygon": [
+        [
+          189,
+          126
+        ],
+        [
+          156,
+          102
+        ],
+        [
+          161,
+          96
+        ],
+        [
+          193,
+          118
+        ],
+        [
+          191,
+          125
+        ]
+      ],
+      "category": "connector"
+    },
+    "A14": {
+      "id": "A14",
+      "type": "arrow",
+      "polygon": [
+        [
+          206,
+          95
+        ],
+        [
+          164,
+          94
+        ],
+        [
+          165,
+          86
+        ],
+        [
+          207,
+          86
+        ],
+        [
+          207,
+          94
+        ]
+      ],
+      "category": "connector"
+    },
+    "A15": {
+      "id": "A15",
+      "type": "arrow",
+      "polygon": [
+        [
+          208,
+          82
+        ],
+        [
+          167,
+          82
+        ],
+        [
+          166,
+          72
+        ],
+        [
+          208,
+          72
+        ],
+        [
+          208,
+          81
+        ]
+      ],
+      "category": "connector"
+    },
+    "A16": {
+      "id": "A16",
+      "type": "arrow",
+      "polygon": [
+        [
+          113,
+          67
+        ],
+        [
+          113,
+          42
+        ],
+        [
+          126,
+          42
+        ],
+        [
+          125,
+          68
+        ],
+        [
+          116,
+          68
+        ]
+      ],
+      "category": "connector"
+    },
+    "A17": {
+      "id": "A17",
+      "type": "arrow",
+      "polygon": [
+        [
+          127,
+          67
+        ],
+        [
+          129,
+          41
+        ],
+        [
+          141,
+          42
+        ],
+        [
+          139,
+          67
+        ],
+        [
+          129,
+          68
+        ]
+      ],
+      "category": "connector"
+    },
+    "A18": {
+      "id": "A18",
+      "type": "arrow",
+      "polygon": [
+        [
+          59,
+          68
+        ],
+        [
+          100,
+          33
+        ],
+        [
+          105,
+          36
+        ],
+        [
+          99,
+          46
+        ],
+        [
+          65,
+          74
+        ],
+        [
+          59,
+          68
+        ]
+      ],
+      "category": "connector"
+    },
+    "A19": {
+      "id": "A19",
+      "type": "arrow",
+      "polygon": [
+        [
+          59,
+          72
+        ],
+        [
+          102,
+          71
+        ],
+        [
+          102,
+          79
+        ],
+        [
+          102,
+          82
+        ],
+        [
+          58,
+          82
+        ],
+        [
+          58,
+          74
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          238,
+          126
+        ],
+        [
+          315,
+          115
+        ],
+        [
+          317,
+          126
+        ],
+        [
+          240,
+          137
+        ],
+        [
+          238,
+          126
+        ]
+      ],
+      "category": "connector"
+    },
+    "A20": {
+      "id": "A20",
+      "type": "arrow",
+      "polygon": [
+        [
+          57,
+          83
+        ],
+        [
+          102,
+          82
+        ],
+        [
+          103,
+          94
+        ],
+        [
+          57,
+          94
+        ],
+        [
+          57,
+          83
+        ]
+      ],
+      "category": "connector"
+    },
+    "A21": {
+      "id": "A21",
+      "type": "arrow",
+      "polygon": [
+        [
+          62,
+          22
+        ],
+        [
+          105,
+          21
+        ],
+        [
+          105,
+          33
+        ],
+        [
+          61,
+          34
+        ],
+        [
+          61,
+          23
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          240,
+          139
+        ],
+        [
+          319,
+          154
+        ],
+        [
+          316,
+          166
+        ],
+        [
+          237,
+          150
+        ],
+        [
+          240,
+          140
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          230,
+          151
+        ],
+        [
+          229,
+          176
+        ],
+        [
+          219,
+          177
+        ],
+        [
+          219,
+          151
+        ],
+        [
+          229,
+          151
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          203,
+          150
+        ],
+        [
+          215,
+          150
+        ],
+        [
+          215,
+          177
+        ],
+        [
+          205,
+          177
+        ],
+        [
+          203,
+          152
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          31,
+          210
+        ],
+        [
+          32,
+          182
+        ],
+        [
+          40,
+          182
+        ],
+        [
+          41,
+          210
+        ],
+        [
+          32,
+          209
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          47,
+          209
+        ],
+        [
+          48,
+          184
+        ],
+        [
+          55,
+          184
+        ],
+        [
+          54,
+          210
+        ],
+        [
+          48,
+          210
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          51,
+          132
+        ],
+        [
+          96,
+          94
+        ],
+        [
+          101,
+          100
+        ],
+        [
+          59,
+          138
+        ],
+        [
+          52,
+          132
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          61,
+          138
+        ],
+        [
+          105,
+          100
+        ],
+        [
+          112,
+          106
+        ],
+        [
+          69,
+          143
+        ],
+        [
+          63,
+          140
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H15",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H15",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A10+H4",
+      "type": "arrowHeadTail",
+      "source": "A10",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A11+H5",
+      "type": "arrowHeadTail",
+      "source": "A11",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A12+H2",
+      "type": "arrowHeadTail",
+      "source": "A12",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A13+H11",
+      "type": "arrowHeadTail",
+      "source": "A13",
+      "target": "H11",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A14+H21",
+      "type": "arrowHeadTail",
+      "source": "A14",
+      "target": "H21",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A15+H10",
+      "type": "arrowHeadTail",
+      "source": "A15",
+      "target": "H10",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A16+H9",
+      "type": "arrowHeadTail",
+      "source": "A16",
+      "target": "H9",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A17+H1",
+      "type": "arrowHeadTail",
+      "source": "A17",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A18+H8",
+      "type": "arrowHeadTail",
+      "source": "A18",
+      "target": "H8",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A19+H16",
+      "type": "arrowHeadTail",
+      "source": "A19",
+      "target": "H16",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H3",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A20+H12",
+      "type": "arrowHeadTail",
+      "source": "A20",
+      "target": "H12",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A21+H19",
+      "type": "arrowHeadTail",
+      "source": "A21",
+      "target": "H19",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H20",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H20",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H7",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H14",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H14",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H18",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H18",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H6",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A8+H17",
+      "type": "arrowHeadTail",
+      "source": "A8",
+      "target": "H17",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A9+H13",
+      "type": "arrowHeadTail",
+      "source": "A9",
+      "target": "H13",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A21+T1",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T1",
+      "connector": "A21",
+      "directional": true
+    },
+    {
+      "id": "T1+A0+T2",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T2",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T1+A16+T10",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T10",
+      "connector": "A16",
+      "directional": true
+    },
+    {
+      "id": "T10+A10+T9",
+      "type": "interObjectLinkage",
+      "source": "T10",
+      "target": "T9",
+      "connector": "A10",
+      "directional": true
+    },
+    {
+      "id": "T10+A13+T6",
+      "type": "interObjectLinkage",
+      "source": "T10",
+      "target": "T6",
+      "connector": "A13",
+      "directional": true
+    },
+    {
+      "id": "T10+A14+T7",
+      "type": "interObjectLinkage",
+      "source": "T10",
+      "target": "T7",
+      "connector": "A14",
+      "directional": true
+    },
+    {
+      "id": "T10+A17+T1",
+      "type": "interObjectLinkage",
+      "source": "T10",
+      "target": "T1",
+      "connector": "A17",
+      "directional": true
+    },
+    {
+      "id": "T10+A19+T11",
+      "type": "interObjectLinkage",
+      "source": "T10",
+      "target": "T11",
+      "connector": "A19",
+      "directional": true
+    },
+    {
+      "id": "T10+A8+T12",
+      "type": "interObjectLinkage",
+      "source": "T10",
+      "target": "T12",
+      "connector": "A8",
+      "directional": true
+    },
+    {
+      "id": "T11+A18+T1",
+      "type": "interObjectLinkage",
+      "source": "T11",
+      "target": "T1",
+      "connector": "A18",
+      "directional": true
+    },
+    {
+      "id": "T11+A20+T10",
+      "type": "interObjectLinkage",
+      "source": "T11",
+      "target": "T10",
+      "connector": "A20",
+      "directional": true
+    },
+    {
+      "id": "T12+A6+T13",
+      "type": "interObjectLinkage",
+      "source": "T12",
+      "target": "T13",
+      "connector": "A6",
+      "directional": true
+    },
+    {
+      "id": "T12+A9+T10",
+      "type": "interObjectLinkage",
+      "source": "T12",
+      "target": "T10",
+      "connector": "A9",
+      "directional": true
+    },
+    {
+      "id": "T13+A7+T12",
+      "type": "interObjectLinkage",
+      "source": "T13",
+      "target": "T12",
+      "connector": "A7",
+      "directional": true
+    },
+    {
+      "id": "T6+A12+T10",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T10",
+      "connector": "A12",
+      "directional": true
+    },
+    {
+      "id": "T6+A2+T4",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T4",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T6+A3+T5",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T5",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T6+A5+T8",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T8",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T7+A1+T3",
+      "type": "interObjectLinkage",
+      "source": "T7",
+      "target": "T3",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T7+A15+T10",
+      "type": "interObjectLinkage",
+      "source": "T7",
+      "target": "T10",
+      "connector": "A15",
+      "directional": true
+    },
+    {
+      "id": "T8+A4+T6",
+      "type": "interObjectLinkage",
+      "source": "T8",
+      "target": "T6",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T9+A11+T10",
+      "type": "interObjectLinkage",
+      "source": "T9",
+      "target": "T10",
+      "connector": "A11",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T10": "part_label",
+    "T11": "part_label",
+    "T12": "part_label",
+    "T13": "part_label",
+    "T14": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A10": "connector",
+    "A11": "connector",
+    "A12": "connector",
+    "A13": "connector",
+    "A14": "connector",
+    "A15": "connector",
+    "A16": "connector",
+    "A17": "connector",
+    "A18": "connector",
+    "A19": "connector",
+    "A2": "connector",
+    "A20": "connector",
+    "A21": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "food gi tract blood liver respiratory tract air figure 2. absorption and distribution of inorganic chemical elements in animals (adapted from apostoli, 2002) feces urine hair sweat skin kidney air/water other organs"
+  }
+}

@@ -1,0 +1,666 @@
+{
+  "image_id": "1178",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          294,
+          22
+        ],
+        [
+          364,
+          44
+        ]
+      ],
+      "value": "Nucleolus",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          417,
+          54
+        ],
+        [
+          480,
+          68
+        ]
+      ],
+      "value": "Nucleus",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          580,
+          78
+        ],
+        [
+          651,
+          102
+        ]
+      ],
+      "value": "Cytoplasm",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          606,
+          126
+        ],
+        [
+          720,
+          144
+        ]
+      ],
+      "value": "Cell Membrane",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          84,
+          69
+        ],
+        [
+          196,
+          90
+        ]
+      ],
+      "value": "Mitochondrion",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          40,
+          324
+        ],
+        [
+          135,
+          344
+        ]
+      ],
+      "value": "Mitochondrion",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          105,
+          404
+        ],
+        [
+          214,
+          434
+        ]
+      ],
+      "value": "Golgi Apparatus",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          594,
+          348
+        ],
+        [
+          688,
+          372
+        ]
+      ],
+      "value": "Mitochondrion",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          4,
+          470
+        ],
+        [
+          370,
+          494
+        ]
+      ],
+      "value": "2007-2010 The University of Waikato I www.sciencelearn.org.nz",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          279,
+          102
+        ],
+        [
+          328,
+          76
+        ],
+        [
+          376,
+          81
+        ],
+        [
+          408,
+          93
+        ],
+        [
+          441,
+          92
+        ],
+        [
+          478,
+          80
+        ],
+        [
+          532,
+          80
+        ],
+        [
+          574,
+          110
+        ],
+        [
+          606,
+          172
+        ],
+        [
+          603,
+          208
+        ],
+        [
+          582,
+          244
+        ],
+        [
+          570,
+          270
+        ],
+        [
+          570,
+          308
+        ],
+        [
+          573,
+          332
+        ],
+        [
+          568,
+          378
+        ],
+        [
+          542,
+          410
+        ],
+        [
+          496,
+          420
+        ],
+        [
+          417,
+          410
+        ],
+        [
+          354,
+          418
+        ],
+        [
+          309,
+          410
+        ],
+        [
+          286,
+          396
+        ],
+        [
+          246,
+          387
+        ],
+        [
+          222,
+          387
+        ],
+        [
+          186,
+          364
+        ],
+        [
+          177,
+          326
+        ],
+        [
+          165,
+          309
+        ],
+        [
+          154,
+          274
+        ],
+        [
+          159,
+          248
+        ],
+        [
+          176,
+          219
+        ],
+        [
+          195,
+          188
+        ],
+        [
+          194,
+          148
+        ],
+        [
+          213,
+          116
+        ],
+        [
+          242,
+          106
+        ],
+        [
+          278,
+          106
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          579,
+          93
+        ],
+        [
+          584,
+          104
+        ],
+        [
+          531,
+          134
+        ],
+        [
+          524,
+          123
+        ],
+        [
+          579,
+          90
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          591,
+          130
+        ],
+        [
+          590,
+          148
+        ],
+        [
+          615,
+          144
+        ],
+        [
+          615,
+          130
+        ],
+        [
+          592,
+          132
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          546,
+          339
+        ],
+        [
+          542,
+          356
+        ],
+        [
+          597,
+          366
+        ],
+        [
+          598,
+          348
+        ],
+        [
+          549,
+          340
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          428,
+          68
+        ],
+        [
+          444,
+          69
+        ],
+        [
+          418,
+          206
+        ],
+        [
+          406,
+          204
+        ],
+        [
+          429,
+          69
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          328,
+          46
+        ],
+        [
+          340,
+          39
+        ],
+        [
+          399,
+          206
+        ],
+        [
+          392,
+          219
+        ],
+        [
+          330,
+          48
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          147,
+          84
+        ],
+        [
+          138,
+          102
+        ],
+        [
+          261,
+          135
+        ],
+        [
+          262,
+          120
+        ],
+        [
+          148,
+          84
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          237,
+          314
+        ],
+        [
+          240,
+          333
+        ],
+        [
+          129,
+          342
+        ],
+        [
+          130,
+          324
+        ],
+        [
+          236,
+          314
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          327,
+          366
+        ],
+        [
+          336,
+          382
+        ],
+        [
+          212,
+          429
+        ],
+        [
+          206,
+          410
+        ],
+        [
+          322,
+          366
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T1+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T2+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T3+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T4+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T5+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T6+A7+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T7+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T8+I0",
+      "type": "misc",
+      "source": "T8",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "nucleolus nucleus cytoplasm cell membrane mitochondrion mitochondrion golgi apparatus mitochondrion 2007-2010 the university of waikato i www.sciencelearn.org.nz"
+  },
+  "questions": [
+    {
+      "question_text": "WHAT IS THE INNER PART OF THE ABOVE DIAGRAM?",
+      "question_id": "1178.png-2",
+      "answers": [
+        "golgi apparatus",
+        "cell membrane",
+        "NUCLEOLUS",
+        "mitochondrion"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "WHERE IS NUCLEUS FOUND IN ABOVE DIAGRAM?",
+      "question_id": "1178.png-0",
+      "answers": [
+        "OUTER",
+        "EXTERIOR",
+        "INNER",
+        "TOP"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which label applies to the cytoplasm?",
+      "question_id": "1178.png-3",
+      "answers": [
+        "B",
+        "C",
+        "F",
+        "D"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which part of a cell is a small, typically round granular body composed of protein and RNA in the nucleus of a cell?",
+      "question_id": "1178.png-1",
+      "answers": [
+        "I",
+        "E",
+        "G",
+        "F"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

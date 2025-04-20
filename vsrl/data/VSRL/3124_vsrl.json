@@ -1,0 +1,462 @@
+{
+  "image_id": "3124",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          111,
+          130
+        ],
+        [
+          198,
+          146
+        ]
+      ],
+      "value": "-First Foliage Leaf",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          121,
+          179
+        ],
+        [
+          167,
+          193
+        ]
+      ],
+      "value": "Coleoptile",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          142,
+          248
+        ],
+        [
+          206,
+          265
+        ]
+      ],
+      "value": "Root System",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          73,
+          95
+        ],
+        [
+          61,
+          57
+        ],
+        [
+          49,
+          39
+        ],
+        [
+          21,
+          27
+        ],
+        [
+          4,
+          14
+        ],
+        [
+          9,
+          5
+        ],
+        [
+          19,
+          5
+        ],
+        [
+          46,
+          13
+        ],
+        [
+          62,
+          26
+        ],
+        [
+          79,
+          37
+        ],
+        [
+          83,
+          53
+        ],
+        [
+          86,
+          26
+        ],
+        [
+          96,
+          19
+        ],
+        [
+          101,
+          29
+        ],
+        [
+          98,
+          47
+        ],
+        [
+          98,
+          58
+        ],
+        [
+          98,
+          72
+        ],
+        [
+          110,
+          48
+        ],
+        [
+          128,
+          37
+        ],
+        [
+          142,
+          34
+        ],
+        [
+          145,
+          48
+        ],
+        [
+          139,
+          66
+        ],
+        [
+          128,
+          77
+        ],
+        [
+          119,
+          78
+        ],
+        [
+          114,
+          94
+        ],
+        [
+          111,
+          113
+        ],
+        [
+          102,
+          124
+        ],
+        [
+          101,
+          147
+        ],
+        [
+          102,
+          162
+        ],
+        [
+          106,
+          180
+        ],
+        [
+          101,
+          189
+        ],
+        [
+          103,
+          202
+        ],
+        [
+          112,
+          215
+        ],
+        [
+          126,
+          235
+        ],
+        [
+          128,
+          249
+        ],
+        [
+          128,
+          264
+        ],
+        [
+          130,
+          280
+        ],
+        [
+          129,
+          292
+        ],
+        [
+          115,
+          296
+        ],
+        [
+          102,
+          294
+        ],
+        [
+          98,
+          281
+        ],
+        [
+          103,
+          269
+        ],
+        [
+          93,
+          276
+        ],
+        [
+          76,
+          260
+        ],
+        [
+          76,
+          234
+        ],
+        [
+          80,
+          215
+        ],
+        [
+          83,
+          196
+        ],
+        [
+          83,
+          168
+        ],
+        [
+          70,
+          157
+        ],
+        [
+          58,
+          157
+        ],
+        [
+          40,
+          148
+        ],
+        [
+          45,
+          127
+        ],
+        [
+          51,
+          123
+        ],
+        [
+          64,
+          133
+        ],
+        [
+          80,
+          138
+        ],
+        [
+          84,
+          129
+        ],
+        [
+          78,
+          114
+        ],
+        [
+          74,
+          98
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          108,
+          208
+        ],
+        [
+          139,
+          207
+        ],
+        [
+          138,
+          251
+        ],
+        [
+          144,
+          252
+        ],
+        [
+          143,
+          258
+        ],
+        [
+          139,
+          258
+        ],
+        [
+          140,
+          290
+        ],
+        [
+          126,
+          296
+        ],
+        [
+          124,
+          287
+        ],
+        [
+          132,
+          286
+        ],
+        [
+          130,
+          216
+        ],
+        [
+          108,
+          216
+        ],
+        [
+          106,
+          208
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          98,
+          181
+        ],
+        [
+          120,
+          180
+        ],
+        [
+          120,
+          188
+        ],
+        [
+          95,
+          189
+        ],
+        [
+          95,
+          182
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          71,
+          144
+        ],
+        [
+          114,
+          146
+        ],
+        [
+          116,
+          134
+        ],
+        [
+          69,
+          133
+        ],
+        [
+          70,
+          144
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T2+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "-first foliage leaf coleoptile root system"
+  },
+  "questions": [
+    {
+      "question_text": "Which part is found underground?",
+      "question_id": "3124.png-0",
+      "answers": [
+        "coleoptile",
+        "leaf",
+        "root",
+        "stem"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

@@ -1,0 +1,878 @@
+{
+  "image_id": "236",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          50,
+          309
+        ],
+        [
+          159,
+          345
+        ]
+      ],
+      "value": "maize",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          268,
+          309
+        ],
+        [
+          373,
+          345
+        ]
+      ],
+      "value": "locust",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          563,
+          302
+        ],
+        [
+          665,
+          345
+        ]
+      ],
+      "value": "lizard",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          986,
+          307
+        ],
+        [
+          1083,
+          347
+        ]
+      ],
+      "value": "snake",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          972,
+          352
+        ],
+        [
+          1143,
+          432
+        ]
+      ],
+      "value": "tertiary consumer ",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          542,
+          354
+        ],
+        [
+          734,
+          437
+        ]
+      ],
+      "value": "SECONDARY CONSUMER",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          247,
+          356
+        ],
+        [
+          418,
+          432
+        ]
+      ],
+      "value": "primary consumer",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          24,
+          354
+        ],
+        [
+          173,
+          394
+        ]
+      ],
+      "value": "producer",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          416,
+          21
+        ],
+        [
+          620,
+          81
+        ]
+      ],
+      "value": "Food chain",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          48,
+          292
+        ],
+        [
+          48,
+          257
+        ],
+        [
+          57,
+          181
+        ],
+        [
+          78,
+          119
+        ],
+        [
+          145,
+          57
+        ],
+        [
+          173,
+          95
+        ],
+        [
+          171,
+          181
+        ],
+        [
+          150,
+          249
+        ],
+        [
+          83,
+          304
+        ],
+        [
+          50,
+          297
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          235,
+          230
+        ],
+        [
+          271,
+          247
+        ],
+        [
+          292,
+          223
+        ],
+        [
+          349,
+          238
+        ],
+        [
+          425,
+          226
+        ],
+        [
+          421,
+          190
+        ],
+        [
+          397,
+          185
+        ],
+        [
+          387,
+          140
+        ],
+        [
+          356,
+          181
+        ],
+        [
+          333,
+          131
+        ],
+        [
+          318,
+          166
+        ],
+        [
+          283,
+          159
+        ],
+        [
+          259,
+          183
+        ],
+        [
+          266,
+          200
+        ],
+        [
+          238,
+          233
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          513,
+          207
+        ],
+        [
+          568,
+          240
+        ],
+        [
+          565,
+          271
+        ],
+        [
+          592,
+          261
+        ],
+        [
+          589,
+          240
+        ],
+        [
+          632,
+          230
+        ],
+        [
+          665,
+          242
+        ],
+        [
+          665,
+          276
+        ],
+        [
+          670,
+          264
+        ],
+        [
+          668,
+          219
+        ],
+        [
+          794,
+          176
+        ],
+        [
+          663,
+          183
+        ],
+        [
+          551,
+          188
+        ],
+        [
+          518,
+          202
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          846,
+          249
+        ],
+        [
+          867,
+          226
+        ],
+        [
+          860,
+          207
+        ],
+        [
+          884,
+          188
+        ],
+        [
+          917,
+          197
+        ],
+        [
+          939,
+          183
+        ],
+        [
+          889,
+          138
+        ],
+        [
+          941,
+          100
+        ],
+        [
+          1005,
+          107
+        ],
+        [
+          1015,
+          128
+        ],
+        [
+          1045,
+          143
+        ],
+        [
+          1091,
+          128
+        ],
+        [
+          1119,
+          140
+        ],
+        [
+          1117,
+          164
+        ],
+        [
+          1110,
+          197
+        ],
+        [
+          1067,
+          207
+        ],
+        [
+          993,
+          190
+        ],
+        [
+          969,
+          152
+        ],
+        [
+          962,
+          190
+        ],
+        [
+          948,
+          216
+        ],
+        [
+          896,
+          223
+        ],
+        [
+          872,
+          257
+        ],
+        [
+          851,
+          245
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          183,
+          211
+        ],
+        [
+          211,
+          214
+        ],
+        [
+          211,
+          188
+        ],
+        [
+          181,
+          188
+        ],
+        [
+          181,
+          207
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          459,
+          221
+        ],
+        [
+          482,
+          221
+        ],
+        [
+          482,
+          192
+        ],
+        [
+          456,
+          190
+        ],
+        [
+          461,
+          216
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          808,
+          207
+        ],
+        [
+          832,
+          207
+        ],
+        [
+          832,
+          169
+        ],
+        [
+          808,
+          169
+        ],
+        [
+          810,
+          207
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A0+B1",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B1",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "B1+A1+B2",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B2",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "B2+A2+B3",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B3",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B1",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B2",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B3",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B3",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+B2",
+      "type": "intraObjectLabel",
+      "source": "T5",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+B1",
+      "type": "intraObjectLabel",
+      "source": "T6",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T7+B0",
+      "type": "intraObjectLabel",
+      "source": "T7",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T8+I0",
+      "type": "imageTitle",
+      "source": "T8",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "title",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "maize locust lizard snake tertiary consumer  secondary consumer primary consumer producer food chain"
+  },
+  "questions": [
+    {
+      "question_text": "Base your answers on the diagram of a food chain below and on your knowledge of science. If all the lizards died, the locust population would most likely",
+      "question_id": "236.png-6",
+      "answers": [
+        "none",
+        "decrease",
+        "increase",
+        "remain the same"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Base your answers on the food chain below and on your knowledge of science. Which organism in this food chain uses the Sun's energy to produce food?",
+      "question_id": "236.png-12",
+      "answers": [
+        "snake",
+        "maize",
+        "lizard",
+        "locust"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the above food chain diagram, which species depends on lizard for food",
+      "question_id": "236.png-11",
+      "answers": [
+        "maize",
+        "grasshopper",
+        "snake",
+        "locust"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the above food web diagram, correct flow of energy",
+      "question_id": "236.png-17",
+      "answers": [
+        "maize to lizard",
+        "maize to locust",
+        "maize to snake",
+        "snake to lizard"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "If the maize population decreases, will the locust population...",
+      "question_id": "236.png-7",
+      "answers": [
+        "remain the same",
+        "decrease",
+        "increase",
+        "NA"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "If the number of locust increase, the population or maize will most likely do what?",
+      "question_id": "236.png-10",
+      "answers": [
+        "increase",
+        "decrease",
+        "remain the same",
+        "NA"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "If the population of maize decreases, the population of locust will most likely...",
+      "question_id": "236.png-8",
+      "answers": [
+        "increase",
+        "decrease",
+        "remain the same",
+        "NA"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the pictured food web what would be the probable result on the other populations if all the lizards suddenly vanished?",
+      "question_id": "236.png-16",
+      "answers": [
+        "corn would increase and locust would decrease",
+        "it would have no effect on population numbers",
+        "locust would increase and snakes would decrease",
+        "snakes and locust would increase"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Is maize a producer, predator or prey in this chain?",
+      "question_id": "236.png-14",
+      "answers": [
+        "predator",
+        "prey",
+        "producer",
+        "NA"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What does the locust eat?",
+      "question_id": "236.png-13",
+      "answers": [
+        "snake",
+        "lizard",
+        "maize",
+        "NA"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What role does maize play in this food chain?",
+      "question_id": "236.png-3",
+      "answers": [
+        "producer",
+        "prey",
+        "predator",
+        "NA"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What will happen the maize population if the locust population rises?",
+      "question_id": "236.png-15",
+      "answers": [
+        "increase",
+        "remain the same",
+        "decrease",
+        "NA"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would cause the maize population to grow?",
+      "question_id": "236.png-9",
+      "answers": [
+        "more lizards",
+        "fewer locusts",
+        "more snakes",
+        "a new predator being introduced"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would happen if all the snakes died?",
+      "question_id": "236.png-2",
+      "answers": [
+        "lizards would learn to swim",
+        "lizards would increase",
+        "maize would all die",
+        "locust would decrease"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which member of this food chain would see a decrease in its population if corn were not available?",
+      "question_id": "236.png-5",
+      "answers": [
+        "corn",
+        "lizard",
+        "snake",
+        "locust"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which organism is the primary producer?",
+      "question_id": "236.png-1",
+      "answers": [
+        "Snake",
+        "Lizard",
+        "Maize",
+        "Locust"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which predator is atop this food chain?",
+      "question_id": "236.png-4",
+      "answers": [
+        "Lizard",
+        "Locust",
+        "Maize",
+        "Snake"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "________ is consumed by the locust.",
+      "question_id": "236.png-0",
+      "answers": [
+        "maize",
+        "snake",
+        "lizard",
+        "NA"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

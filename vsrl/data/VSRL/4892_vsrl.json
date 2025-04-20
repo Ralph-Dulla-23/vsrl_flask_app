@@ -1,0 +1,386 @@
+{
+  "image_id": "4892",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          524,
+          127
+        ],
+        [
+          549,
+          213
+        ]
+      ],
+      "value": "Buzzle.com",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          63,
+          4
+        ],
+        [
+          481,
+          34
+        ]
+      ],
+      "value": "the anatomy of a shield volcano",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          33,
+          83
+        ],
+        [
+          204,
+          129
+        ]
+      ],
+      "value": "formed through gentle lava eruptions",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          258,
+          129
+        ],
+        [
+          303,
+          148
+        ]
+      ],
+      "value": "vent",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          345,
+          127
+        ],
+        [
+          486,
+          150
+        ]
+      ],
+      "value": "solid lava layers",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          462,
+          288
+        ],
+        [
+          510,
+          316
+        ]
+      ],
+      "value": "crust",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          206,
+          324
+        ],
+        [
+          343,
+          344
+        ]
+      ],
+      "value": "magma chamber",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          1,
+          210
+        ],
+        [
+          84,
+          214
+        ],
+        [
+          128,
+          193
+        ],
+        [
+          152,
+          189
+        ],
+        [
+          208,
+          173
+        ],
+        [
+          270,
+          170
+        ],
+        [
+          278,
+          167
+        ],
+        [
+          282,
+          168
+        ],
+        [
+          348,
+          176
+        ],
+        [
+          376,
+          184
+        ],
+        [
+          411,
+          194
+        ],
+        [
+          421,
+          193
+        ],
+        [
+          451,
+          201
+        ],
+        [
+          473,
+          215
+        ],
+        [
+          547,
+          213
+        ],
+        [
+          549,
+          349
+        ],
+        [
+          0,
+          349
+        ],
+        [
+          2,
+          211
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          123,
+          126
+        ],
+        [
+          178,
+          215
+        ],
+        [
+          168,
+          221
+        ],
+        [
+          115,
+          129
+        ],
+        [
+          122,
+          126
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          283,
+          148
+        ],
+        [
+          280,
+          193
+        ],
+        [
+          268,
+          192
+        ],
+        [
+          275,
+          148
+        ],
+        [
+          282,
+          148
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          406,
+          147
+        ],
+        [
+          401,
+          202
+        ],
+        [
+          411,
+          203
+        ],
+        [
+          416,
+          148
+        ],
+        [
+          408,
+          148
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "misc",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+I0",
+      "type": "imageTitle",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T3+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T4+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T5+I0",
+      "type": "sectionTitle",
+      "source": "T5",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+I0",
+      "type": "sectionTitle",
+      "source": "T6",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "title",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "chemistry",
+    "diagram_type": "labeled_illustration",
+    "text_content": "buzzle.com the anatomy of a shield volcano formed through gentle lava eruptions vent solid lava layers crust magma chamber"
+  },
+  "questions": [
+    {
+      "question_text": "what is label of crust?",
+      "question_id": "4892.png-1",
+      "answers": [
+        "a",
+        "c",
+        "b",
+        "e"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "which of lower part is in diagram",
+      "question_id": "4892.png-0",
+      "answers": [
+        "VENT",
+        "crust",
+        "vent",
+        "magma chAMBER"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    }
+  ]
+}

@@ -1,0 +1,402 @@
+{
+  "image_id": "1514",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          276,
+          1
+        ],
+        [
+          334,
+          22
+        ]
+      ],
+      "value": "Proton",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          1,
+          77
+        ],
+        [
+          70,
+          98
+        ]
+      ],
+      "value": "Electron",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          287,
+          198
+        ],
+        [
+          354,
+          221
+        ]
+      ],
+      "value": "Neutron",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          171,
+          138
+        ],
+        [
+          159,
+          129
+        ],
+        [
+          155,
+          111
+        ],
+        [
+          171,
+          98
+        ],
+        [
+          187,
+          88
+        ],
+        [
+          198,
+          85
+        ],
+        [
+          212,
+          94
+        ],
+        [
+          212,
+          102
+        ],
+        [
+          221,
+          103
+        ],
+        [
+          230,
+          118
+        ],
+        [
+          226,
+          132
+        ],
+        [
+          219,
+          136
+        ],
+        [
+          217,
+          147
+        ],
+        [
+          203,
+          154
+        ],
+        [
+          182,
+          157
+        ],
+        [
+          170,
+          141
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          83,
+          131
+        ],
+        [
+          83,
+          116
+        ],
+        [
+          89,
+          116
+        ],
+        [
+          94,
+          125
+        ],
+        [
+          85,
+          135
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          191,
+          55
+        ],
+        [
+          187,
+          46
+        ],
+        [
+          192,
+          39
+        ],
+        [
+          198,
+          40
+        ],
+        [
+          203,
+          48
+        ],
+        [
+          203,
+          54
+        ],
+        [
+          194,
+          56
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          189,
+          198
+        ],
+        [
+          184,
+          196
+        ],
+        [
+          185,
+          186
+        ],
+        [
+          191,
+          186
+        ],
+        [
+          197,
+          188
+        ],
+        [
+          195,
+          198
+        ],
+        [
+          194,
+          199
+        ],
+        [
+          192,
+          199
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          34,
+          90
+        ],
+        [
+          91,
+          120
+        ],
+        [
+          85,
+          132
+        ],
+        [
+          28,
+          103
+        ],
+        [
+          34,
+          88
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          189,
+          90
+        ],
+        [
+          295,
+          13
+        ],
+        [
+          301,
+          27
+        ],
+        [
+          196,
+          106
+        ],
+        [
+          189,
+          90
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          214,
+          114
+        ],
+        [
+          323,
+          185
+        ],
+        [
+          317,
+          198
+        ],
+        [
+          208,
+          128
+        ],
+        [
+          215,
+          115
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "B0+A1+B0",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "B0+A2+B0",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "B1+A0+B1",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B1",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B1",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "proton electron neutron"
+  },
+  "questions": [
+    {
+      "question_text": "Which is the stable subatomic particle which has negative charge?",
+      "question_id": "1514.png-0",
+      "answers": [
+        "A",
+        "B",
+        "{}",
+        "C"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which is the stable, positively charged subatomic particle?",
+      "question_id": "1514.png-1",
+      "answers": [
+        "C",
+        "{}",
+        "A",
+        "B"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

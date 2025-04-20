@@ -1,0 +1,480 @@
+{
+  "image_id": "3108",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          1,
+          5
+        ],
+        [
+          501,
+          93
+        ]
+      ],
+      "value": "(a) Simple leaves have a petiole and a single blade.",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          2,
+          211
+        ],
+        [
+          105,
+          247
+        ]
+      ],
+      "value": "Blade",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          294,
+          615
+        ],
+        [
+          414,
+          650
+        ]
+      ],
+      "value": "Petiole",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          1,
+          745
+        ],
+        [
+          182,
+          765
+        ]
+      ],
+      "value": "c 2011 Pearson Education, Inc.",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          249,
+          146
+        ],
+        [
+          261,
+          157
+        ],
+        [
+          261,
+          169
+        ],
+        [
+          267,
+          186
+        ],
+        [
+          273,
+          196
+        ],
+        [
+          278,
+          204
+        ],
+        [
+          294,
+          213
+        ],
+        [
+          313,
+          229
+        ],
+        [
+          334,
+          245
+        ],
+        [
+          360,
+          265
+        ],
+        [
+          382,
+          292
+        ],
+        [
+          399,
+          331
+        ],
+        [
+          408,
+          375
+        ],
+        [
+          407,
+          394
+        ],
+        [
+          399,
+          403
+        ],
+        [
+          394,
+          413
+        ],
+        [
+          381,
+          428
+        ],
+        [
+          373,
+          435
+        ],
+        [
+          351,
+          451
+        ],
+        [
+          330,
+          465
+        ],
+        [
+          308,
+          469
+        ],
+        [
+          294,
+          470
+        ],
+        [
+          266,
+          467
+        ],
+        [
+          257,
+          460
+        ],
+        [
+          247,
+          460
+        ],
+        [
+          243,
+          506
+        ],
+        [
+          241,
+          585
+        ],
+        [
+          249,
+          627
+        ],
+        [
+          259,
+          665
+        ],
+        [
+          277,
+          707
+        ],
+        [
+          289,
+          731
+        ],
+        [
+          281,
+          742
+        ],
+        [
+          279,
+          743
+        ],
+        [
+          271,
+          743
+        ],
+        [
+          269,
+          737
+        ],
+        [
+          265,
+          724
+        ],
+        [
+          248,
+          675
+        ],
+        [
+          229,
+          585
+        ],
+        [
+          231,
+          510
+        ],
+        [
+          235,
+          473
+        ],
+        [
+          232,
+          459
+        ],
+        [
+          217,
+          461
+        ],
+        [
+          208,
+          462
+        ],
+        [
+          186,
+          462
+        ],
+        [
+          166,
+          462
+        ],
+        [
+          145,
+          454
+        ],
+        [
+          125,
+          425
+        ],
+        [
+          111,
+          413
+        ],
+        [
+          100,
+          407
+        ],
+        [
+          91,
+          391
+        ],
+        [
+          85,
+          367
+        ],
+        [
+          81,
+          335
+        ],
+        [
+          93,
+          301
+        ],
+        [
+          121,
+          269
+        ],
+        [
+          151,
+          243
+        ],
+        [
+          184,
+          224
+        ],
+        [
+          212,
+          207
+        ],
+        [
+          236,
+          186
+        ],
+        [
+          243,
+          174
+        ],
+        [
+          243,
+          166
+        ],
+        [
+          242,
+          157
+        ],
+        [
+          242,
+          145
+        ],
+        [
+          244,
+          145
+        ],
+        [
+          248,
+          146
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          109,
+          231
+        ],
+        [
+          185,
+          228
+        ],
+        [
+          182,
+          241
+        ],
+        [
+          109,
+          245
+        ],
+        [
+          112,
+          231
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          243,
+          624
+        ],
+        [
+          244,
+          639
+        ],
+        [
+          247,
+          638
+        ],
+        [
+          283,
+          638
+        ],
+        [
+          284,
+          626
+        ],
+        [
+          244,
+          626
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T2+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T3+I0",
+      "type": "misc",
+      "source": "T3",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "(a) simple leaves have a petiole and a single blade. blade petiole c 2011 pearson education, inc."
+  },
+  "questions": [
+    {
+      "question_text": "Is the petiole the tip of the leaf?",
+      "question_id": "3108.png-1",
+      "answers": [
+        "No, it is one of the little bits around a flower.",
+        "No, it is a firearm you shoot people with.",
+        "No, it is the stalk that holds up the leaf on the branch.",
+        "Yes, it is the very tip of the leaf."
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Is there one long vein down the leaf blade?",
+      "question_id": "3108.png-0",
+      "answers": [
+        "No, there are many, many veins down and throughout the leaf blade.",
+        "No, there is no vein along the leaf blade.",
+        "Yes, there is only one long vein down the leaf blade.",
+        "Veins are for people, silly leaf!"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "which label is pointing to the periole",
+      "question_id": "3108.png-2",
+      "answers": [
+        "B",
+        "A",
+        "D",
+        "C"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    }
+  ]
+}

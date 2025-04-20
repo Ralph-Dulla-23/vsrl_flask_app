@@ -1,0 +1,452 @@
+{
+  "image_id": "4242",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          35
+        ],
+        [
+          52,
+          49
+        ]
+      ],
+      "value": "A Horizon",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          1,
+          69
+        ],
+        [
+          50,
+          82
+        ]
+      ],
+      "value": "B Horizon",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          92
+        ],
+        [
+          53,
+          106
+        ]
+      ],
+      "value": "C Horizon",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          2,
+          123
+        ],
+        [
+          51,
+          140
+        ]
+      ],
+      "value": "R  Horizon",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          131,
+          0
+        ],
+        [
+          194,
+          15
+        ]
+      ],
+      "value": "Soil Profile",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          155,
+          35
+        ],
+        [
+          192,
+          48
+        ]
+      ],
+      "value": "TOPSOIL",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          156,
+          86
+        ],
+        [
+          194,
+          96
+        ]
+      ],
+      "value": "SUB SOIL",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          157,
+          133
+        ],
+        [
+          198,
+          143
+        ]
+      ],
+      "value": "BEDROCK",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          58,
+          156
+        ],
+        [
+          109,
+          156
+        ],
+        [
+          109,
+          7
+        ],
+        [
+          101,
+          15
+        ],
+        [
+          98,
+          10
+        ],
+        [
+          96,
+          9
+        ],
+        [
+          88,
+          13
+        ],
+        [
+          85,
+          7
+        ],
+        [
+          83,
+          11
+        ],
+        [
+          77,
+          6
+        ],
+        [
+          74,
+          12
+        ],
+        [
+          67,
+          5
+        ],
+        [
+          63,
+          10
+        ],
+        [
+          60,
+          7
+        ],
+        [
+          52,
+          18
+        ],
+        [
+          55,
+          157
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          123,
+          20
+        ],
+        [
+          137,
+          21
+        ],
+        [
+          141,
+          37
+        ],
+        [
+          155,
+          38
+        ],
+        [
+          156,
+          44
+        ],
+        [
+          140,
+          43
+        ],
+        [
+          143,
+          87
+        ],
+        [
+          157,
+          88
+        ],
+        [
+          159,
+          93
+        ],
+        [
+          143,
+          93
+        ],
+        [
+          145,
+          134
+        ],
+        [
+          159,
+          137
+        ],
+        [
+          146,
+          142
+        ],
+        [
+          144,
+          156
+        ],
+        [
+          126,
+          159
+        ],
+        [
+          127,
+          155
+        ],
+        [
+          137,
+          154
+        ],
+        [
+          137,
+          124
+        ],
+        [
+          127,
+          121
+        ],
+        [
+          127,
+          115
+        ],
+        [
+          136,
+          115
+        ],
+        [
+          136,
+          66
+        ],
+        [
+          126,
+          64
+        ],
+        [
+          123,
+          58
+        ],
+        [
+          132,
+          58
+        ],
+        [
+          136,
+          56
+        ],
+        [
+          134,
+          26
+        ],
+        [
+          122,
+          24
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+I0",
+      "type": "imageTitle",
+      "source": "T4",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T6+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T6",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T7+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T7",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "title",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "B0": "whole",
+    "A0": "connector"
+  },
+  "educational_context": {
+    "subject": "earth_science",
+    "diagram_type": "labeled_illustration",
+    "text_content": "a horizon b horizon c horizon r  horizon soil profile topsoil sub soil bedrock"
+  },
+  "questions": [
+    {
+      "question_text": "What is the upper part of the soil called?",
+      "question_id": "4242.png-2",
+      "answers": [
+        "Subsoil",
+        "Topsoil",
+        "Dirt",
+        "Bedrock"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which layer does D represent?",
+      "question_id": "4242.png-1",
+      "answers": [
+        "R Horizon",
+        "A Horizon",
+        "B Horizon",
+        "C Horizon"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which layer represents the solid rock that underlies loose material, such as soil, sand, clay, or gravel?",
+      "question_id": "4242.png-0",
+      "answers": [
+        "A",
+        "C",
+        "H",
+        "F"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

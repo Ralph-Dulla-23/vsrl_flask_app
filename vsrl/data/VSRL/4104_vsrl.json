@@ -1,0 +1,944 @@
+{
+  "image_id": "4104",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          354,
+          76
+        ],
+        [
+          454,
+          106
+        ]
+      ],
+      "value": "LEAVES",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          191,
+          129
+        ],
+        [
+          315,
+          158
+        ]
+      ],
+      "value": "FLOWER",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          380,
+          282
+        ],
+        [
+          453,
+          304
+        ]
+      ],
+      "value": "STEM",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          270,
+          368
+        ],
+        [
+          367,
+          397
+        ]
+      ],
+      "value": "ROOTS",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          865,
+          156
+        ],
+        [
+          919,
+          184
+        ]
+      ],
+      "value": "BUD",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          860,
+          365
+        ],
+        [
+          943,
+          394
+        ]
+      ],
+      "value": "FRUIT",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          549,
+          580
+        ],
+        [
+          486,
+          563
+        ],
+        [
+          441,
+          515
+        ],
+        [
+          447,
+          477
+        ],
+        [
+          466,
+          448
+        ],
+        [
+          473,
+          441
+        ],
+        [
+          533,
+          447
+        ],
+        [
+          566,
+          449
+        ],
+        [
+          572,
+          410
+        ],
+        [
+          574,
+          337
+        ],
+        [
+          595,
+          260
+        ],
+        [
+          603,
+          239
+        ],
+        [
+          584,
+          227
+        ],
+        [
+          543,
+          221
+        ],
+        [
+          535,
+          226
+        ],
+        [
+          523,
+          249
+        ],
+        [
+          507,
+          250
+        ],
+        [
+          496,
+          230
+        ],
+        [
+          481,
+          243
+        ],
+        [
+          462,
+          260
+        ],
+        [
+          449,
+          246
+        ],
+        [
+          431,
+          236
+        ],
+        [
+          426,
+          210
+        ],
+        [
+          439,
+          194
+        ],
+        [
+          450,
+          184
+        ],
+        [
+          477,
+          171
+        ],
+        [
+          492,
+          171
+        ],
+        [
+          498,
+          177
+        ],
+        [
+          518,
+          178
+        ],
+        [
+          520,
+          190
+        ],
+        [
+          553,
+          190
+        ],
+        [
+          572,
+          191
+        ],
+        [
+          607,
+          184
+        ],
+        [
+          612,
+          197
+        ],
+        [
+          613,
+          201
+        ],
+        [
+          642,
+          145
+        ],
+        [
+          637,
+          112
+        ],
+        [
+          611,
+          128
+        ],
+        [
+          578,
+          132
+        ],
+        [
+          594,
+          118
+        ],
+        [
+          604,
+          99
+        ],
+        [
+          592,
+          90
+        ],
+        [
+          596,
+          79
+        ],
+        [
+          612,
+          80
+        ],
+        [
+          616,
+          65
+        ],
+        [
+          631,
+          63
+        ],
+        [
+          653,
+          64
+        ],
+        [
+          690,
+          70
+        ],
+        [
+          696,
+          74
+        ],
+        [
+          694,
+          86
+        ],
+        [
+          659,
+          103
+        ],
+        [
+          658,
+          129
+        ],
+        [
+          662,
+          143
+        ],
+        [
+          671,
+          153
+        ],
+        [
+          684,
+          153
+        ],
+        [
+          695,
+          133
+        ],
+        [
+          705,
+          121
+        ],
+        [
+          720,
+          128
+        ],
+        [
+          753,
+          128
+        ],
+        [
+          770,
+          137
+        ],
+        [
+          763,
+          160
+        ],
+        [
+          759,
+          184
+        ],
+        [
+          735,
+          193
+        ],
+        [
+          709,
+          212
+        ],
+        [
+          689,
+          192
+        ],
+        [
+          646,
+          176
+        ],
+        [
+          615,
+          261
+        ],
+        [
+          642,
+          269
+        ],
+        [
+          666,
+          232
+        ],
+        [
+          676,
+          241
+        ],
+        [
+          707,
+          248
+        ],
+        [
+          735,
+          260
+        ],
+        [
+          747,
+          279
+        ],
+        [
+          739,
+          295
+        ],
+        [
+          741,
+          317
+        ],
+        [
+          740,
+          340
+        ],
+        [
+          723,
+          345
+        ],
+        [
+          710,
+          341
+        ],
+        [
+          692,
+          321
+        ],
+        [
+          658,
+          315
+        ],
+        [
+          634,
+          317
+        ],
+        [
+          611,
+          330
+        ],
+        [
+          599,
+          371
+        ],
+        [
+          599,
+          418
+        ],
+        [
+          609,
+          447
+        ],
+        [
+          623,
+          455
+        ],
+        [
+          640,
+          449
+        ],
+        [
+          659,
+          449
+        ],
+        [
+          684,
+          444
+        ],
+        [
+          707,
+          435
+        ],
+        [
+          720,
+          441
+        ],
+        [
+          715,
+          455
+        ],
+        [
+          718,
+          464
+        ],
+        [
+          717,
+          476
+        ],
+        [
+          726,
+          489
+        ],
+        [
+          748,
+          495
+        ],
+        [
+          755,
+          510
+        ],
+        [
+          737,
+          523
+        ],
+        [
+          701,
+          517
+        ],
+        [
+          695,
+          524
+        ],
+        [
+          715,
+          561
+        ],
+        [
+          703,
+          569
+        ],
+        [
+          685,
+          569
+        ],
+        [
+          679,
+          592
+        ],
+        [
+          664,
+          570
+        ],
+        [
+          654,
+          559
+        ],
+        [
+          648,
+          582
+        ],
+        [
+          648,
+          605
+        ],
+        [
+          625,
+          611
+        ],
+        [
+          603,
+          601
+        ],
+        [
+          603,
+          587
+        ],
+        [
+          582,
+          583
+        ],
+        [
+          578,
+          578
+        ],
+        [
+          550,
+          581
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          455,
+          84
+        ],
+        [
+          455,
+          96
+        ],
+        [
+          583,
+          98
+        ],
+        [
+          583,
+          83
+        ],
+        [
+          458,
+          83
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          311,
+          137
+        ],
+        [
+          436,
+          137
+        ],
+        [
+          444,
+          150
+        ],
+        [
+          454,
+          174
+        ],
+        [
+          437,
+          181
+        ],
+        [
+          431,
+          153
+        ],
+        [
+          310,
+          151
+        ],
+        [
+          310,
+          138
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          767,
+          164
+        ],
+        [
+          767,
+          179
+        ],
+        [
+          860,
+          181
+        ],
+        [
+          859,
+          165
+        ],
+        [
+          770,
+          162
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          713,
+          350
+        ],
+        [
+          733,
+          390
+        ],
+        [
+          863,
+          391
+        ],
+        [
+          866,
+          378
+        ],
+        [
+          748,
+          373
+        ],
+        [
+          736,
+          344
+        ],
+        [
+          733,
+          341
+        ],
+        [
+          715,
+          348
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          452,
+          282
+        ],
+        [
+          451,
+          297
+        ],
+        [
+          549,
+          295
+        ],
+        [
+          551,
+          303
+        ],
+        [
+          569,
+          289
+        ],
+        [
+          550,
+          277
+        ],
+        [
+          545,
+          286
+        ],
+        [
+          451,
+          283
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          368,
+          379
+        ],
+        [
+          494,
+          380
+        ],
+        [
+          564,
+          507
+        ],
+        [
+          551,
+          515
+        ],
+        [
+          488,
+          394
+        ],
+        [
+          368,
+          391
+        ],
+        [
+          368,
+          380
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H5",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H4",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H1",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H3",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H0",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T2+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T3+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T4+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T5+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "leaves flower stem roots bud fruit"
+  },
+  "questions": [
+    {
+      "question_text": "What letter shows the roots of a tree?",
+      "question_id": "4104.png-1",
+      "answers": [
+        "B",
+        "C",
+        "D",
+        "A"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "What part of the plant does the letter C represent?",
+      "question_id": "4104.png-0",
+      "answers": [
+        "Stem",
+        "Root",
+        "Fruit",
+        "Leaves"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "What part of the plant is letter A?",
+      "question_id": "4104.png-3",
+      "answers": [
+        "Bud",
+        "Stem",
+        "Roots",
+        "Fruit"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which letter best represents the fruit on the plant?",
+      "question_id": "4104.png-2",
+      "answers": [
+        "E",
+        "F",
+        "C",
+        "B"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

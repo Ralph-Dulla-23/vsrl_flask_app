@@ -1,0 +1,668 @@
+{
+  "image_id": "507",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          99,
+          10
+        ],
+        [
+          141,
+          25
+        ]
+      ],
+      "value": "Clouds",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          177,
+          59
+        ],
+        [
+          227,
+          74
+        ]
+      ],
+      "value": "Rainfall",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          77,
+          89
+        ],
+        [
+          149,
+          105
+        ]
+      ],
+      "value": "Evaporation",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          95,
+          162
+        ],
+        [
+          169,
+          177
+        ]
+      ],
+      "value": "Water bodies",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          80,
+          191
+        ],
+        [
+          158,
+          208
+        ]
+      ],
+      "value": "Soil-moisture",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          99,
+          214
+        ],
+        [
+          179,
+          232
+        ]
+      ],
+      "value": "Water-cycle.",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          4,
+          110
+        ],
+        [
+          41,
+          126
+        ]
+      ],
+      "value": "Plants",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          10,
+          19
+        ],
+        [
+          69,
+          79
+        ]
+      ],
+      "value": "TRANSPIRATION",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          19,
+          109
+        ],
+        [
+          30,
+          61
+        ],
+        [
+          62,
+          27
+        ],
+        [
+          96,
+          14
+        ],
+        [
+          98,
+          21
+        ],
+        [
+          64,
+          37
+        ],
+        [
+          36,
+          69
+        ],
+        [
+          26,
+          114
+        ],
+        [
+          20,
+          111
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          142,
+          24
+        ],
+        [
+          145,
+          14
+        ],
+        [
+          184,
+          34
+        ],
+        [
+          205,
+          59
+        ],
+        [
+          197,
+          65
+        ],
+        [
+          175,
+          39
+        ],
+        [
+          146,
+          25
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          190,
+          78
+        ],
+        [
+          199,
+          75
+        ],
+        [
+          206,
+          106
+        ],
+        [
+          196,
+          146
+        ],
+        [
+          171,
+          174
+        ],
+        [
+          165,
+          164
+        ],
+        [
+          190,
+          140
+        ],
+        [
+          198,
+          107
+        ],
+        [
+          190,
+          81
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          153,
+          191
+        ],
+        [
+          159,
+          205
+        ],
+        [
+          198,
+          179
+        ],
+        [
+          221,
+          130
+        ],
+        [
+          214,
+          74
+        ],
+        [
+          208,
+          76
+        ],
+        [
+          212,
+          118
+        ],
+        [
+          193,
+          169
+        ],
+        [
+          156,
+          192
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          124,
+          164
+        ],
+        [
+          120,
+          131
+        ],
+        [
+          128,
+          100
+        ],
+        [
+          133,
+          110
+        ],
+        [
+          127,
+          134
+        ],
+        [
+          132,
+          167
+        ],
+        [
+          124,
+          166
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          118,
+          85
+        ],
+        [
+          119,
+          57
+        ],
+        [
+          130,
+          31
+        ],
+        [
+          140,
+          27
+        ],
+        [
+          146,
+          35
+        ],
+        [
+          127,
+          60
+        ],
+        [
+          128,
+          88
+        ],
+        [
+          120,
+          86
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          80,
+          85
+        ],
+        [
+          82,
+          47
+        ],
+        [
+          100,
+          25
+        ],
+        [
+          107,
+          32
+        ],
+        [
+          89,
+          53
+        ],
+        [
+          90,
+          88
+        ],
+        [
+          82,
+          86
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          85,
+          192
+        ],
+        [
+          75,
+          167
+        ],
+        [
+          73,
+          147
+        ],
+        [
+          81,
+          118
+        ],
+        [
+          86,
+          104
+        ],
+        [
+          80,
+          102
+        ],
+        [
+          67,
+          126
+        ],
+        [
+          66,
+          161
+        ],
+        [
+          77,
+          195
+        ],
+        [
+          82,
+          193
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H4",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H5",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H6",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H7",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A1+T1",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T1",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T1+A2+T3",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T3",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T1+A3+T4",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T4",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T2+A5+T0",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T0",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T2+A6+T0",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T0",
+      "connector": "A6",
+      "directional": true
+    },
+    {
+      "id": "T3+A4+T2",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T2",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T4+A7+T2",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T2",
+      "connector": "A7",
+      "directional": true
+    },
+    {
+      "id": "T5+I0",
+      "type": "imageTitle",
+      "source": "T5",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+A0+T0",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T0",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T7+A0",
+      "type": "arrowDescriptor",
+      "source": "T7",
+      "target": "A0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "title",
+    "T6": "part_label",
+    "T7": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "clouds rainfall evaporation water bodies soil-moisture water-cycle. plants transpiration"
+  },
+  "questions": [
+    {
+      "question_text": "What state represents evaporation?",
+      "question_id": "507.png-2",
+      "answers": [
+        "C",
+        "E",
+        "D",
+        "H"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "Where does water end up as a result of transpiration and evaporation?",
+      "question_id": "507.png-1",
+      "answers": [
+        "In water bodies",
+        "In soil moisture",
+        "In clouds",
+        "In plants"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which stage in the diagram represents evaporation?",
+      "question_id": "507.png-0",
+      "answers": [
+        "C",
+        "E",
+        "D",
+        "F"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}

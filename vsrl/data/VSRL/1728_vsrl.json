@@ -1,0 +1,354 @@
+{
+  "image_id": "1728",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          64,
+          132
+        ],
+        [
+          172,
+          153
+        ]
+      ],
+      "value": "Footwall",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          110,
+          351
+        ],
+        [
+          210,
+          410
+        ]
+      ],
+      "value": "Extension",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          455,
+          159
+        ],
+        [
+          581,
+          185
+        ]
+      ],
+      "value": "Fault plane",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          391,
+          392
+        ],
+        [
+          548,
+          416
+        ]
+      ],
+      "value": "Hanging Wall",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          97,
+          43
+        ],
+        [
+          545,
+          79
+        ]
+      ],
+      "value": "Foot Wall and Hanging Wall",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          181,
+          169
+        ],
+        [
+          71,
+          192
+        ],
+        [
+          77,
+          288
+        ],
+        [
+          191,
+          344
+        ],
+        [
+          203,
+          375
+        ],
+        [
+          283,
+          413
+        ],
+        [
+          537,
+          339
+        ],
+        [
+          543,
+          248
+        ],
+        [
+          406,
+          206
+        ],
+        [
+          391,
+          176
+        ],
+        [
+          301,
+          146
+        ],
+        [
+          301,
+          146
+        ],
+        [
+          183,
+          167
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          98,
+          150
+        ],
+        [
+          115,
+          150
+        ],
+        [
+          152,
+          191
+        ],
+        [
+          140,
+          199
+        ],
+        [
+          99,
+          152
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          363,
+          191
+        ],
+        [
+          369,
+          206
+        ],
+        [
+          458,
+          172
+        ],
+        [
+          448,
+          162
+        ],
+        [
+          364,
+          191
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          432,
+          343
+        ],
+        [
+          442,
+          338
+        ],
+        [
+          482,
+          394
+        ],
+        [
+          474,
+          397
+        ],
+        [
+          430,
+          347
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          82,
+          318
+        ],
+        [
+          76,
+          330
+        ],
+        [
+          285,
+          428
+        ],
+        [
+          293,
+          418
+        ],
+        [
+          82,
+          322
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A3+H0",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T2+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T3+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T4+I0",
+      "type": "imageTitle",
+      "source": "T4",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "title",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "footwall extension fault plane hanging wall foot wall and hanging wall"
+  },
+  "questions": [
+    {
+      "question_text": "In the diagram, what does label E represent?",
+      "question_id": "1728.png-2",
+      "answers": [
+        "foot wall",
+        "fault plane",
+        "hanging wall",
+        "extension"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is the plane along which a break occurs?",
+      "question_id": "1728.png-1",
+      "answers": [
+        "hanging wall",
+        "extension",
+        "footwall",
+        "fault"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the visible dividing section between a footwall and a hanging wall called?",
+      "question_id": "1728.png-0",
+      "answers": [
+        "mantle",
+        "break",
+        "crust",
+        "fault plane"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    }
+  ]
+}

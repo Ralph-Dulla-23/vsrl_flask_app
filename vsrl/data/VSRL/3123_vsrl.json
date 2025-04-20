@@ -1,0 +1,492 @@
+{
+  "image_id": "3123",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          297,
+          24
+        ],
+        [
+          426,
+          49
+        ]
+      ],
+      "value": "Leaf sheath:",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          282,
+          153
+        ],
+        [
+          331,
+          177
+        ]
+      ],
+      "value": "Stem",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          347,
+          224
+        ],
+        [
+          424,
+          248
+        ]
+      ],
+      "value": "Leaf blade",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          275,
+          379
+        ],
+        [
+          358,
+          396
+        ]
+      ],
+      "value": "Leaf sheath",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          91,
+          531
+        ],
+        [
+          158,
+          563
+        ]
+      ],
+      "value": "Fused",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          533,
+          493
+        ],
+        [
+          594,
+          519
+        ]
+      ],
+      "value": "Open",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          536,
+          452
+        ],
+        [
+          583,
+          453
+        ],
+        [
+          602,
+          441
+        ],
+        [
+          600,
+          339
+        ],
+        [
+          602,
+          303
+        ],
+        [
+          623,
+          263
+        ],
+        [
+          667,
+          232
+        ],
+        [
+          691,
+          204
+        ],
+        [
+          681,
+          140
+        ],
+        [
+          620,
+          191
+        ],
+        [
+          594,
+          225
+        ],
+        [
+          598,
+          87
+        ],
+        [
+          577,
+          80
+        ],
+        [
+          555,
+          82
+        ],
+        [
+          541,
+          93
+        ],
+        [
+          543,
+          249
+        ],
+        [
+          534,
+          256
+        ],
+        [
+          532,
+          303
+        ],
+        [
+          534,
+          374
+        ],
+        [
+          536,
+          412
+        ],
+        [
+          532,
+          450
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          175,
+          494
+        ],
+        [
+          120,
+          497
+        ],
+        [
+          120,
+          292
+        ],
+        [
+          129,
+          300
+        ],
+        [
+          128,
+          133
+        ],
+        [
+          154,
+          123
+        ],
+        [
+          184,
+          133
+        ],
+        [
+          179,
+          273
+        ],
+        [
+          225,
+          220
+        ],
+        [
+          266,
+          188
+        ],
+        [
+          273,
+          249
+        ],
+        [
+          246,
+          280
+        ],
+        [
+          213,
+          301
+        ],
+        [
+          191,
+          334
+        ],
+        [
+          187,
+          359
+        ],
+        [
+          186,
+          421
+        ],
+        [
+          186,
+          474
+        ],
+        [
+          179,
+          494
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          173,
+          161
+        ],
+        [
+          173,
+          172
+        ],
+        [
+          282,
+          173
+        ],
+        [
+          282,
+          173
+        ],
+        [
+          282,
+          157
+        ],
+        [
+          174,
+          159
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          260,
+          225
+        ],
+        [
+          258,
+          239
+        ],
+        [
+          343,
+          243
+        ],
+        [
+          342,
+          232
+        ],
+        [
+          260,
+          228
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          160,
+          379
+        ],
+        [
+          161,
+          389
+        ],
+        [
+          267,
+          394
+        ],
+        [
+          270,
+          378
+        ],
+        [
+          162,
+          375
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H2",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H0",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A0+B1",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B1",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T2+A1+B1",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B1",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T3+A2+B1",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B1",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T4+B1",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+B0",
+      "type": "intraObjectLabel",
+      "source": "T5",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "leaf sheath: stem leaf blade leaf sheath fused open"
+  },
+  "questions": [
+    {
+      "question_text": "Where dose the leaf blade comes from?",
+      "question_id": "3123.png-2",
+      "answers": [
+        "leaf sheath",
+        "Stem",
+        "Branch",
+        "fused"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which is the main ascending axis of a plant?",
+      "question_id": "3123.png-0",
+      "answers": [
+        "Roots",
+        "Branch",
+        "Stem",
+        "Leaf sheath"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which region in the diagram represents D",
+      "question_id": "3123.png-1",
+      "answers": [
+        "Leaf Blade",
+        "Leaf Sheath",
+        "Plant",
+        "stem"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

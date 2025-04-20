@@ -1,0 +1,500 @@
+{
+  "image_id": "555",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          138,
+          4
+        ],
+        [
+          326,
+          24
+        ]
+      ],
+      "value": "ANATOMY OF THE SUN",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          345,
+          65
+        ],
+        [
+          414,
+          95
+        ]
+      ],
+      "value": "Radiative Zone",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          361,
+          124
+        ],
+        [
+          445,
+          152
+        ]
+      ],
+      "value": "Convection Zone",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          326,
+          295
+        ],
+        [
+          422,
+          314
+        ]
+      ],
+      "value": "Photosphere",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          24,
+          296
+        ],
+        [
+          135,
+          312
+        ]
+      ],
+      "value": "Chromosphere",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          11,
+          232
+        ],
+        [
+          69,
+          248
+        ]
+      ],
+      "value": "Corona",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          40,
+          69
+        ],
+        [
+          78,
+          87
+        ]
+      ],
+      "value": "Core",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          124,
+          77
+        ],
+        [
+          170,
+          47
+        ],
+        [
+          210,
+          34
+        ],
+        [
+          272,
+          45
+        ],
+        [
+          329,
+          80
+        ],
+        [
+          352,
+          142
+        ],
+        [
+          354,
+          191
+        ],
+        [
+          339,
+          231
+        ],
+        [
+          322,
+          258
+        ],
+        [
+          279,
+          288
+        ],
+        [
+          240,
+          299
+        ],
+        [
+          198,
+          296
+        ],
+        [
+          153,
+          281
+        ],
+        [
+          126,
+          257
+        ],
+        [
+          99,
+          216
+        ],
+        [
+          92,
+          177
+        ],
+        [
+          97,
+          123
+        ],
+        [
+          111,
+          97
+        ],
+        [
+          122,
+          77
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          77,
+          75
+        ],
+        [
+          75,
+          86
+        ],
+        [
+          208,
+          162
+        ],
+        [
+          209,
+          152
+        ],
+        [
+          77,
+          75
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          63,
+          231
+        ],
+        [
+          67,
+          241
+        ],
+        [
+          116,
+          230
+        ],
+        [
+          115,
+          221
+        ],
+        [
+          65,
+          230
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          105,
+          288
+        ],
+        [
+          113,
+          299
+        ],
+        [
+          161,
+          254
+        ],
+        [
+          153,
+          249
+        ],
+        [
+          106,
+          287
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          257,
+          139
+        ],
+        [
+          265,
+          152
+        ],
+        [
+          346,
+          87
+        ],
+        [
+          344,
+          82
+        ],
+        [
+          256,
+          139
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          282,
+          162
+        ],
+        [
+          285,
+          172
+        ],
+        [
+          369,
+          141
+        ],
+        [
+          365,
+          134
+        ],
+        [
+          280,
+          165
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          292,
+          225
+        ],
+        [
+          284,
+          234
+        ],
+        [
+          348,
+          290
+        ],
+        [
+          355,
+          283
+        ],
+        [
+          292,
+          225
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T2+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T3+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T4+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T5+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T6+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector"
+  },
+  "educational_context": {
+    "subject": "chemistry",
+    "diagram_type": "flow_diagram",
+    "text_content": "anatomy of the sun radiative zone convection zone photosphere chromosphere corona core"
+  },
+  "questions": [
+    {
+      "question_text": "What is D in the diagram?",
+      "question_id": "555.png-2",
+      "answers": [
+        "core",
+        "corona",
+        "photosphere",
+        "chromosphere"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true,
+      "refers_to_entity": "T6"
+    },
+    {
+      "question_text": "What is F in the diagram?",
+      "question_id": "555.png-0",
+      "answers": [
+        "corona",
+        "core",
+        "chromosphere",
+        "photosphere"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true,
+      "refers_to_entity": "T4"
+    },
+    {
+      "question_text": "What is the chromosphere mainly made of?",
+      "question_id": "555.png-3",
+      "answers": [
+        "heat",
+        "hydrogen",
+        "light",
+        "oxygen"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the word for the faintly colored luminous ring around the sun?",
+      "question_id": "555.png-1",
+      "answers": [
+        "radiative zone",
+        "core",
+        "photosphere",
+        "corona"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    }
+  ]
+}

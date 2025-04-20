@@ -1,0 +1,562 @@
+{
+  "image_id": "1621",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          22,
+          129
+        ],
+        [
+          82,
+          142
+        ]
+      ],
+      "value": "Open Circuit",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          130,
+          128
+        ],
+        [
+          195,
+          143
+        ]
+      ],
+      "value": "Closed Circuit",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          36,
+          3
+        ],
+        [
+          34,
+          27
+        ],
+        [
+          76,
+          29
+        ],
+        [
+          78,
+          7
+        ],
+        [
+          36,
+          2
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          144,
+          5
+        ],
+        [
+          143,
+          29
+        ],
+        [
+          185,
+          31
+        ],
+        [
+          186,
+          4
+        ],
+        [
+          144,
+          5
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          163,
+          128
+        ],
+        [
+          170,
+          124
+        ],
+        [
+          172,
+          117
+        ],
+        [
+          172,
+          111
+        ],
+        [
+          177,
+          101
+        ],
+        [
+          178,
+          92
+        ],
+        [
+          172,
+          79
+        ],
+        [
+          159,
+          79
+        ],
+        [
+          150,
+          86
+        ],
+        [
+          148,
+          96
+        ],
+        [
+          155,
+          105
+        ],
+        [
+          158,
+          112
+        ],
+        [
+          152,
+          114
+        ],
+        [
+          156,
+          123
+        ],
+        [
+          161,
+          126
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          50,
+          127
+        ],
+        [
+          42,
+          115
+        ],
+        [
+          38,
+          99
+        ],
+        [
+          42,
+          86
+        ],
+        [
+          53,
+          79
+        ],
+        [
+          71,
+          82
+        ],
+        [
+          71,
+          99
+        ],
+        [
+          65,
+          105
+        ],
+        [
+          65,
+          119
+        ],
+        [
+          60,
+          127
+        ],
+        [
+          51,
+          129
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          35,
+          20
+        ],
+        [
+          23,
+          29
+        ],
+        [
+          16,
+          39
+        ],
+        [
+          12,
+          52
+        ],
+        [
+          10,
+          67
+        ],
+        [
+          12,
+          84
+        ],
+        [
+          18,
+          101
+        ],
+        [
+          27,
+          112
+        ],
+        [
+          36,
+          118
+        ],
+        [
+          50,
+          123
+        ],
+        [
+          53,
+          129
+        ],
+        [
+          42,
+          129
+        ],
+        [
+          25,
+          125
+        ],
+        [
+          16,
+          113
+        ],
+        [
+          6,
+          98
+        ],
+        [
+          1,
+          77
+        ],
+        [
+          0,
+          55
+        ],
+        [
+          5,
+          36
+        ],
+        [
+          15,
+          20
+        ],
+        [
+          29,
+          12
+        ],
+        [
+          34,
+          10
+        ],
+        [
+          34,
+          21
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          139,
+          11
+        ],
+        [
+          125,
+          19
+        ],
+        [
+          118,
+          30
+        ],
+        [
+          111,
+          48
+        ],
+        [
+          109,
+          69
+        ],
+        [
+          111,
+          92
+        ],
+        [
+          120,
+          108
+        ],
+        [
+          136,
+          126
+        ],
+        [
+          148,
+          130
+        ],
+        [
+          161,
+          130
+        ],
+        [
+          157,
+          120
+        ],
+        [
+          144,
+          117
+        ],
+        [
+          133,
+          109
+        ],
+        [
+          129,
+          101
+        ],
+        [
+          122,
+          86
+        ],
+        [
+          121,
+          76
+        ],
+        [
+          120,
+          64
+        ],
+        [
+          122,
+          50
+        ],
+        [
+          127,
+          39
+        ],
+        [
+          134,
+          27
+        ],
+        [
+          142,
+          25
+        ],
+        [
+          142,
+          10
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          188,
+          10
+        ],
+        [
+          185,
+          21
+        ],
+        [
+          194,
+          27
+        ],
+        [
+          200,
+          41
+        ],
+        [
+          206,
+          61
+        ],
+        [
+          205,
+          77
+        ],
+        [
+          201,
+          92
+        ],
+        [
+          197,
+          103
+        ],
+        [
+          189,
+          111
+        ],
+        [
+          177,
+          117
+        ],
+        [
+          172,
+          119
+        ],
+        [
+          166,
+          128
+        ],
+        [
+          183,
+          128
+        ],
+        [
+          201,
+          119
+        ],
+        [
+          213,
+          107
+        ],
+        [
+          216,
+          88
+        ],
+        [
+          216,
+          64
+        ],
+        [
+          214,
+          40
+        ],
+        [
+          205,
+          21
+        ],
+        [
+          190,
+          12
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H0",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A0+B3",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B3",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "B1+A1+B2",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B2",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "B1+A2+B2",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B2",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T0+I0",
+      "type": "sectionTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+I0",
+      "type": "sectionTitle",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "physics",
+    "diagram_type": "labeled_illustration",
+    "text_content": "open circuit closed circuit"
+  }
+}

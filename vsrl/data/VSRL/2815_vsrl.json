@@ -1,0 +1,458 @@
+{
+  "image_id": "2815",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          85,
+          5
+        ],
+        [
+          180,
+          27
+        ]
+      ],
+      "value": "Bering Strait",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          215,
+          21
+        ],
+        [
+          292,
+          121
+        ]
+      ],
+      "value": "North America",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          218,
+          180
+        ],
+        [
+          287,
+          280
+        ]
+      ],
+      "value": "South America",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          219
+        ],
+        [
+          97,
+          291
+        ]
+      ],
+      "value": "Indian Ocean",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          75
+        ],
+        [
+          27,
+          107
+        ]
+      ],
+      "value": "Asia",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          227,
+          299
+        ],
+        [
+          302,
+          321
+        ]
+      ],
+      "value": "dln(1/Q) %",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          14,
+          193
+        ],
+        [
+          8,
+          174
+        ],
+        [
+          8,
+          151
+        ],
+        [
+          8,
+          129
+        ],
+        [
+          17,
+          104
+        ],
+        [
+          29,
+          84
+        ],
+        [
+          43,
+          62
+        ],
+        [
+          68,
+          43
+        ],
+        [
+          90,
+          32
+        ],
+        [
+          122,
+          22
+        ],
+        [
+          154,
+          20
+        ],
+        [
+          186,
+          26
+        ],
+        [
+          202,
+          35
+        ],
+        [
+          219,
+          45
+        ],
+        [
+          237,
+          61
+        ],
+        [
+          249,
+          78
+        ],
+        [
+          262,
+          99
+        ],
+        [
+          271,
+          129
+        ],
+        [
+          274,
+          144
+        ],
+        [
+          274,
+          161
+        ],
+        [
+          272,
+          181
+        ],
+        [
+          266,
+          202
+        ],
+        [
+          257,
+          220
+        ],
+        [
+          245,
+          238
+        ],
+        [
+          232,
+          253
+        ],
+        [
+          215,
+          267
+        ],
+        [
+          193,
+          277
+        ],
+        [
+          169,
+          285
+        ],
+        [
+          150,
+          287
+        ],
+        [
+          129,
+          287
+        ],
+        [
+          114,
+          285
+        ],
+        [
+          89,
+          276
+        ],
+        [
+          69,
+          265
+        ],
+        [
+          46,
+          246
+        ],
+        [
+          32,
+          232
+        ],
+        [
+          22,
+          213
+        ],
+        [
+          14,
+          197
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          294,
+          152
+        ],
+        [
+          315,
+          126
+        ],
+        [
+          330,
+          114
+        ],
+        [
+          350,
+          100
+        ],
+        [
+          381,
+          89
+        ],
+        [
+          404,
+          81
+        ],
+        [
+          441,
+          76
+        ],
+        [
+          466,
+          74
+        ],
+        [
+          504,
+          75
+        ],
+        [
+          523,
+          75
+        ],
+        [
+          558,
+          85
+        ],
+        [
+          584,
+          95
+        ],
+        [
+          608,
+          103
+        ],
+        [
+          629,
+          121
+        ],
+        [
+          645,
+          141
+        ],
+        [
+          649,
+          161
+        ],
+        [
+          649,
+          176
+        ],
+        [
+          641,
+          194
+        ],
+        [
+          626,
+          212
+        ],
+        [
+          598,
+          228
+        ],
+        [
+          569,
+          238
+        ],
+        [
+          530,
+          249
+        ],
+        [
+          492,
+          254
+        ],
+        [
+          452,
+          254
+        ],
+        [
+          404,
+          249
+        ],
+        [
+          371,
+          238
+        ],
+        [
+          340,
+          224
+        ],
+        [
+          323,
+          211
+        ],
+        [
+          305,
+          196
+        ],
+        [
+          294,
+          165
+        ],
+        [
+          294,
+          152
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "sectionTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+I0",
+      "type": "sectionTitle",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+I0",
+      "type": "sectionTitle",
+      "source": "T2",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+I0",
+      "type": "sectionTitle",
+      "source": "T3",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+I0",
+      "type": "sectionTitle",
+      "source": "T4",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+I0",
+      "type": "misc",
+      "source": "T5",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "B0": "whole",
+    "B1": "whole"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "bering strait north america south america indian ocean asia dln(1/q) %"
+  }
+}

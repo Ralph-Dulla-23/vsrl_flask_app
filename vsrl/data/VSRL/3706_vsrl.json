@@ -1,0 +1,794 @@
+{
+  "image_id": "3706",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          307,
+          53
+        ],
+        [
+          367,
+          76
+        ]
+      ],
+      "value": "Stomach",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          283,
+          125
+        ],
+        [
+          350,
+          150
+        ]
+      ],
+      "value": "Pancreas",
+      "replacementText": "K",
+      "category": "label"
+    },
+    "T10": {
+      "id": "T10",
+      "type": "text",
+      "bbox": [
+        [
+          66,
+          17
+        ],
+        [
+          145,
+          43
+        ]
+      ],
+      "value": "Esophagus",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          301,
+          162
+        ],
+        [
+          347,
+          183
+        ]
+      ],
+      "value": "Colon",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          264,
+          254
+        ],
+        [
+          320,
+          273
+        ]
+      ],
+      "value": "Rectum",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          123,
+          289
+        ],
+        [
+          230,
+          306
+        ]
+      ],
+      "value": "Small Intestine",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          106,
+          321
+        ],
+        [
+          271,
+          338
+        ]
+      ],
+      "value": "DIGESTIVE SYSTEM",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          67,
+          247
+        ],
+        [
+          135,
+          272
+        ]
+      ],
+      "value": "Appendix",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          56,
+          168
+        ],
+        [
+          99,
+          186
+        ]
+      ],
+      "value": "Colon",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          111
+        ],
+        [
+          90,
+          135
+        ]
+      ],
+      "value": "Gallbladder",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          46,
+          72
+        ],
+        [
+          91,
+          88
+        ]
+      ],
+      "value": "Liver",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          216,
+          275
+        ],
+        [
+          220,
+          256
+        ],
+        [
+          229,
+          257
+        ],
+        [
+          241,
+          256
+        ],
+        [
+          254,
+          246
+        ],
+        [
+          261,
+          234
+        ],
+        [
+          269,
+          219
+        ],
+        [
+          278,
+          204
+        ],
+        [
+          275,
+          197
+        ],
+        [
+          273,
+          171
+        ],
+        [
+          271,
+          157
+        ],
+        [
+          270,
+          142
+        ],
+        [
+          275,
+          129
+        ],
+        [
+          277,
+          121
+        ],
+        [
+          270,
+          107
+        ],
+        [
+          270,
+          91
+        ],
+        [
+          260,
+          74
+        ],
+        [
+          249,
+          64
+        ],
+        [
+          237,
+          62
+        ],
+        [
+          219,
+          62
+        ],
+        [
+          208,
+          46
+        ],
+        [
+          208,
+          32
+        ],
+        [
+          210,
+          14
+        ],
+        [
+          192,
+          9
+        ],
+        [
+          186,
+          31
+        ],
+        [
+          188,
+          46
+        ],
+        [
+          190,
+          61
+        ],
+        [
+          179,
+          65
+        ],
+        [
+          157,
+          65
+        ],
+        [
+          139,
+          76
+        ],
+        [
+          128,
+          98
+        ],
+        [
+          128,
+          117
+        ],
+        [
+          132,
+          130
+        ],
+        [
+          132,
+          150
+        ],
+        [
+          133,
+          175
+        ],
+        [
+          132,
+          194
+        ],
+        [
+          136,
+          205
+        ],
+        [
+          140,
+          220
+        ],
+        [
+          148,
+          225
+        ],
+        [
+          161,
+          233
+        ],
+        [
+          174,
+          236
+        ],
+        [
+          180,
+          246
+        ],
+        [
+          191,
+          252
+        ],
+        [
+          196,
+          263
+        ],
+        [
+          201,
+          278
+        ],
+        [
+          215,
+          280
+        ],
+        [
+          215,
+          276
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          145,
+          28
+        ],
+        [
+          147,
+          41
+        ],
+        [
+          202,
+          39
+        ],
+        [
+          202,
+          27
+        ],
+        [
+          147,
+          28
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          90,
+          78
+        ],
+        [
+          89,
+          86
+        ],
+        [
+          157,
+          88
+        ],
+        [
+          157,
+          78
+        ],
+        [
+          94,
+          78
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          92,
+          120
+        ],
+        [
+          93,
+          127
+        ],
+        [
+          168,
+          127
+        ],
+        [
+          167,
+          118
+        ],
+        [
+          94,
+          118
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          97,
+          178
+        ],
+        [
+          100,
+          187
+        ],
+        [
+          153,
+          186
+        ],
+        [
+          152,
+          174
+        ],
+        [
+          100,
+          177
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          132,
+          249
+        ],
+        [
+          138,
+          255
+        ],
+        [
+          142,
+          258
+        ],
+        [
+          175,
+          227
+        ],
+        [
+          167,
+          220
+        ],
+        [
+          133,
+          247
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          181,
+          290
+        ],
+        [
+          191,
+          291
+        ],
+        [
+          189,
+          232
+        ],
+        [
+          182,
+          232
+        ],
+        [
+          182,
+          290
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          205,
+          257
+        ],
+        [
+          205,
+          267
+        ],
+        [
+          262,
+          268
+        ],
+        [
+          263,
+          260
+        ],
+        [
+          206,
+          257
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          255,
+          167
+        ],
+        [
+          256,
+          177
+        ],
+        [
+          294,
+          178
+        ],
+        [
+          294,
+          169
+        ],
+        [
+          254,
+          167
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          190,
+          139
+        ],
+        [
+          288,
+          143
+        ],
+        [
+          287,
+          132
+        ],
+        [
+          186,
+          133
+        ],
+        [
+          187,
+          140
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          247,
+          87
+        ],
+        [
+          252,
+          98
+        ],
+        [
+          306,
+          72
+        ],
+        [
+          298,
+          60
+        ],
+        [
+          249,
+          87
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A9+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A9",
+      "directional": false
+    },
+    {
+      "id": "T1+A8+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A8",
+      "directional": false
+    },
+    {
+      "id": "T10+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T10",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T2+A7+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T3+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T4+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T5+I0",
+      "type": "imageTitle",
+      "source": "T5",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T7+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T8+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T8",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T9+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T9",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T10": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "title",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "stomach pancreas esophagus colon rectum small intestine digestive system appendix colon gallbladder liver"
+  },
+  "questions": [
+    {
+      "question_text": "Which is the tube that food exits to enter the stomach?",
+      "question_id": "3706.png-0",
+      "answers": [
+        "c",
+        "f",
+        "a",
+        "d"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

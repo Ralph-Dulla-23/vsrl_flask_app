@@ -1,0 +1,718 @@
+{
+  "image_id": "1486",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          81,
+          175
+        ],
+        [
+          210,
+          202
+        ]
+      ],
+      "value": "Rain or snow",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          325,
+          21
+        ],
+        [
+          443,
+          73
+        ]
+      ],
+      "value": "Wind moves clouds",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          317,
+          366
+        ],
+        [
+          458,
+          423
+        ]
+      ],
+      "value": "Water flows back into sea",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          533,
+          237
+        ],
+        [
+          731,
+          264
+        ]
+      ],
+      "value": "Steam/Water vapour",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          754,
+          346
+        ],
+        [
+          918,
+          375
+        ]
+      ],
+      "value": "Sun heats water",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          0,
+          229
+        ],
+        [
+          115,
+          321
+        ],
+        [
+          183,
+          350
+        ],
+        [
+          221,
+          366
+        ],
+        [
+          321,
+          448
+        ],
+        [
+          392,
+          468
+        ],
+        [
+          444,
+          496
+        ],
+        [
+          475,
+          521
+        ],
+        [
+          550,
+          518
+        ],
+        [
+          660,
+          535
+        ],
+        [
+          710,
+          554
+        ],
+        [
+          812,
+          604
+        ],
+        [
+          887,
+          656
+        ],
+        [
+          937,
+          696
+        ],
+        [
+          950,
+          714
+        ],
+        [
+          4,
+          712
+        ],
+        [
+          0,
+          233
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          110,
+          310
+        ],
+        [
+          167,
+          323
+        ],
+        [
+          214,
+          344
+        ],
+        [
+          246,
+          346
+        ],
+        [
+          310,
+          412
+        ],
+        [
+          321,
+          423
+        ],
+        [
+          400,
+          431
+        ],
+        [
+          416,
+          433
+        ],
+        [
+          433,
+          433
+        ],
+        [
+          456,
+          435
+        ],
+        [
+          496,
+          433
+        ],
+        [
+          523,
+          418
+        ],
+        [
+          583,
+          419
+        ],
+        [
+          610,
+          429
+        ],
+        [
+          689,
+          435
+        ],
+        [
+          804,
+          431
+        ],
+        [
+          887,
+          427
+        ],
+        [
+          958,
+          427
+        ],
+        [
+          960,
+          427
+        ],
+        [
+          960,
+          715
+        ],
+        [
+          822,
+          610
+        ],
+        [
+          702,
+          544
+        ],
+        [
+          643,
+          529
+        ],
+        [
+          543,
+          518
+        ],
+        [
+          485,
+          519
+        ],
+        [
+          460,
+          491
+        ],
+        [
+          381,
+          464
+        ],
+        [
+          298,
+          435
+        ],
+        [
+          244,
+          392
+        ],
+        [
+          187,
+          352
+        ],
+        [
+          144,
+          337
+        ],
+        [
+          108,
+          308
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          46,
+          125
+        ],
+        [
+          58,
+          92
+        ],
+        [
+          87,
+          94
+        ],
+        [
+          94,
+          67
+        ],
+        [
+          119,
+          65
+        ],
+        [
+          146,
+          48
+        ],
+        [
+          175,
+          48
+        ],
+        [
+          212,
+          58
+        ],
+        [
+          227,
+          75
+        ],
+        [
+          235,
+          87
+        ],
+        [
+          250,
+          121
+        ],
+        [
+          250,
+          131
+        ],
+        [
+          46,
+          131
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          491,
+          121
+        ],
+        [
+          506,
+          92
+        ],
+        [
+          527,
+          92
+        ],
+        [
+          541,
+          58
+        ],
+        [
+          573,
+          54
+        ],
+        [
+          602,
+          37
+        ],
+        [
+          643,
+          60
+        ],
+        [
+          675,
+          65
+        ],
+        [
+          685,
+          96
+        ],
+        [
+          700,
+          115
+        ],
+        [
+          695,
+          129
+        ],
+        [
+          494,
+          125
+        ]
+      ],
+      "category": "object"
+    },
+    "B4": {
+      "id": "B4",
+      "type": "blob",
+      "polygon": [
+        [
+          862,
+          0
+        ],
+        [
+          860,
+          21
+        ],
+        [
+          870,
+          52
+        ],
+        [
+          889,
+          77
+        ],
+        [
+          910,
+          85
+        ],
+        [
+          933,
+          87
+        ],
+        [
+          961,
+          77
+        ],
+        [
+          960,
+          6
+        ],
+        [
+          868,
+          2
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          820,
+          281
+        ],
+        [
+          795,
+          285
+        ],
+        [
+          837,
+          331
+        ],
+        [
+          873,
+          287
+        ],
+        [
+          873,
+          287
+        ],
+        [
+          852,
+          287
+        ],
+        [
+          850,
+          171
+        ],
+        [
+          814,
+          171
+        ],
+        [
+          818,
+          279
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          496,
+          323
+        ],
+        [
+          525,
+          323
+        ],
+        [
+          521,
+          210
+        ],
+        [
+          550,
+          208
+        ],
+        [
+          506,
+          167
+        ],
+        [
+          471,
+          208
+        ],
+        [
+          493,
+          210
+        ],
+        [
+          493,
+          319
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          333,
+          119
+        ],
+        [
+          448,
+          125
+        ],
+        [
+          448,
+          100
+        ],
+        [
+          337,
+          94
+        ],
+        [
+          331,
+          81
+        ],
+        [
+          298,
+          112
+        ],
+        [
+          329,
+          148
+        ],
+        [
+          337,
+          121
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B1+A1+B3",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B3",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "B3+A2+B2",
+      "type": "interObjectLinkage",
+      "source": "B3",
+      "target": "B2",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "B4+A0+B1",
+      "type": "interObjectLinkage",
+      "source": "B4",
+      "target": "B1",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T1+A2",
+      "type": "arrowDescriptor",
+      "source": "T1",
+      "target": "A2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B1",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+A1",
+      "type": "arrowDescriptor",
+      "source": "T3",
+      "target": "A1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+A0",
+      "type": "arrowDescriptor",
+      "source": "T4",
+      "target": "A0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "B4": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "rain or snow wind moves clouds water flows back into sea steam/water vapour sun heats water"
+  },
+  "questions": [
+    {
+      "question_text": "In this diagram what process is happening at letter D?",
+      "question_id": "1486.png-1",
+      "answers": [
+        "Rain or snow",
+        "Sun heating water",
+        "Wind moves clouds",
+        "Water flows back into sea"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "The above diagram shows that",
+      "question_id": "1486.png-0",
+      "answers": [
+        "the formation rain",
+        "the formation of steam",
+        "the formation of soil",
+        "the formation of cloud"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "which source heats water?",
+      "question_id": "1486.png-2",
+      "answers": [
+        "vapour",
+        "steam",
+        "none",
+        "sun"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    }
+  ]
+}

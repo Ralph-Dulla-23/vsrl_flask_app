@@ -1,0 +1,562 @@
+{
+  "image_id": "248",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          277,
+          19
+        ],
+        [
+          329,
+          35
+        ]
+      ],
+      "value": "Barn owl",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          169,
+          150
+        ],
+        [
+          196,
+          167
+        ]
+      ],
+      "value": "Vole",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          57,
+          166
+        ],
+        [
+          94,
+          192
+        ]
+      ],
+      "value": "Grass seed ",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          269,
+          58
+        ],
+        [
+          287,
+          47
+        ],
+        [
+          316,
+          41
+        ],
+        [
+          338,
+          48
+        ],
+        [
+          365,
+          73
+        ],
+        [
+          404,
+          97
+        ],
+        [
+          439,
+          136
+        ],
+        [
+          449,
+          155
+        ],
+        [
+          498,
+          179
+        ],
+        [
+          503,
+          187
+        ],
+        [
+          488,
+          187
+        ],
+        [
+          511,
+          202
+        ],
+        [
+          503,
+          205
+        ],
+        [
+          484,
+          203
+        ],
+        [
+          492,
+          213
+        ],
+        [
+          461,
+          213
+        ],
+        [
+          443,
+          207
+        ],
+        [
+          449,
+          216
+        ],
+        [
+          424,
+          210
+        ],
+        [
+          391,
+          197
+        ],
+        [
+          372,
+          206
+        ],
+        [
+          379,
+          209
+        ],
+        [
+          334,
+          210
+        ],
+        [
+          338,
+          206
+        ],
+        [
+          356,
+          204
+        ],
+        [
+          366,
+          187
+        ],
+        [
+          352,
+          174
+        ],
+        [
+          346,
+          176
+        ],
+        [
+          312,
+          153
+        ],
+        [
+          289,
+          117
+        ],
+        [
+          281,
+          109
+        ],
+        [
+          269,
+          97
+        ],
+        [
+          266,
+          55
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          156,
+          171
+        ],
+        [
+          172,
+          174
+        ],
+        [
+          190,
+          172
+        ],
+        [
+          207,
+          176
+        ],
+        [
+          219,
+          187
+        ],
+        [
+          219,
+          204
+        ],
+        [
+          242,
+          210
+        ],
+        [
+          210,
+          209
+        ],
+        [
+          193,
+          210
+        ],
+        [
+          182,
+          204
+        ],
+        [
+          172,
+          213
+        ],
+        [
+          162,
+          210
+        ],
+        [
+          170,
+          204
+        ],
+        [
+          157,
+          195
+        ],
+        [
+          140,
+          185
+        ],
+        [
+          158,
+          172
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          82,
+          203
+        ],
+        [
+          104,
+          215
+        ],
+        [
+          110,
+          199
+        ],
+        [
+          117,
+          199
+        ],
+        [
+          121,
+          205
+        ],
+        [
+          140,
+          184
+        ],
+        [
+          117,
+          167
+        ],
+        [
+          116,
+          173
+        ],
+        [
+          95,
+          184
+        ],
+        [
+          83,
+          201
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          238,
+          178
+        ],
+        [
+          238,
+          196
+        ],
+        [
+          279,
+          196
+        ],
+        [
+          280,
+          206
+        ],
+        [
+          306,
+          185
+        ],
+        [
+          286,
+          167
+        ],
+        [
+          285,
+          174
+        ],
+        [
+          239,
+          177
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B1+A1+B0",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B1",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+A0+B1",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "B1",
+      "connector": "A0",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "barn owl vole grass seed "
+  },
+  "questions": [
+    {
+      "question_text": "After a grass fire which would need a new source of energy?",
+      "question_id": "248.png-0",
+      "answers": [
+        "Tree",
+        "Caterpillar",
+        "Beetle",
+        "Mouse"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Based on the diagram below, what is more vulnerable to the barn owl?",
+      "question_id": "248.png-4",
+      "answers": [
+        "The mice",
+        "The vole",
+        "Deers",
+        "The grass"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Based on the diagram below, what will happen if the vole population decreases?",
+      "question_id": "248.png-6",
+      "answers": [
+        "The barn owl population will decrease.",
+        "There will be no change to the owl population.",
+        "Barn owl population will increase.",
+        "The barn owl population will increase."
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Based on your own knowledge and a hypothetical food chain which of the flowing is the foundation of the food chain?",
+      "question_id": "248.png-1",
+      "answers": [
+        "Plants",
+        "frogs",
+        "hawks",
+        "mice"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "If the population of barn owls increases, the population of voles will most likely",
+      "question_id": "248.png-3",
+      "answers": [
+        "decrease",
+        "both increase and decrease",
+        "stay the same",
+        "increase"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the diagram below, what is the role of the owl?",
+      "question_id": "248.png-5",
+      "answers": [
+        "Energy source",
+        "producer",
+        "Predator",
+        "prey"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Part of an ecosystem is shown above. If the meadow's grass is paved over, which organism will suffer the least?",
+      "question_id": "248.png-7",
+      "answers": [
+        "Flowers",
+        "Owl",
+        "Grass",
+        "Vole"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What change in this ecosystem would raise the number of voles?",
+      "question_id": "248.png-9",
+      "answers": [
+        "A decline in grass seed",
+        "A decline in the number of barn owls",
+        "An increase in the number of barn owls",
+        "Eagles moving into the community"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would allow the voles to thrive in this ecosystem?",
+      "question_id": "248.png-2",
+      "answers": [
+        "An increase in the number of owls",
+        "A decrease in the amount of grass seed",
+        "Hawks moving into the community",
+        "A decrease in the number of owls"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which of the shown organisms is both predator and prey?",
+      "question_id": "248.png-10",
+      "answers": [
+        "Beetle",
+        "Grass Seeds",
+        "Vole",
+        "Barn owl"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which of these organisms are predators?",
+      "question_id": "248.png-11",
+      "answers": [
+        "Grass Seeds",
+        "Owl",
+        "Vole",
+        "Caterpillars"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which would cause a fox population increase?",
+      "question_id": "248.png-8",
+      "answers": [
+        "Fewer sunflower seeds",
+        "Fewer robins",
+        "fewer crickets",
+        "Fewer coyotes"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    }
+  ]
+}

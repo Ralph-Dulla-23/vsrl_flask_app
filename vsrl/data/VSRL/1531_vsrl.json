@@ -1,0 +1,560 @@
+{
+  "image_id": "1531",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          213,
+          0
+        ],
+        [
+          329,
+          18
+        ]
+      ],
+      "value": "Parallel Circuit",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          122
+        ],
+        [
+          57,
+          143
+        ]
+      ],
+      "value": "Junction",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          130,
+          270
+        ],
+        [
+          180,
+          283
+        ]
+      ],
+      "value": "Switch",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          345,
+          123
+        ],
+        [
+          400,
+          145
+        ]
+      ],
+      "value": "Junction",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          344,
+          183
+        ],
+        [
+          398,
+          204
+        ]
+      ],
+      "value": "Battery",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          154,
+          32
+        ],
+        [
+          156,
+          48
+        ],
+        [
+          158,
+          57
+        ],
+        [
+          174,
+          59
+        ],
+        [
+          180,
+          50
+        ],
+        [
+          180,
+          39
+        ],
+        [
+          184,
+          31
+        ],
+        [
+          190,
+          20
+        ],
+        [
+          190,
+          7
+        ],
+        [
+          186,
+          1
+        ],
+        [
+          174,
+          0
+        ],
+        [
+          165,
+          0
+        ],
+        [
+          151,
+          0
+        ],
+        [
+          147,
+          4
+        ],
+        [
+          145,
+          11
+        ],
+        [
+          147,
+          22
+        ],
+        [
+          152,
+          31
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          152,
+          121
+        ],
+        [
+          147,
+          111
+        ],
+        [
+          143,
+          99
+        ],
+        [
+          148,
+          89
+        ],
+        [
+          158,
+          83
+        ],
+        [
+          167,
+          82
+        ],
+        [
+          181,
+          85
+        ],
+        [
+          186,
+          94
+        ],
+        [
+          187,
+          103
+        ],
+        [
+          184,
+          114
+        ],
+        [
+          179,
+          119
+        ],
+        [
+          176,
+          131
+        ],
+        [
+          177,
+          139
+        ],
+        [
+          167,
+          143
+        ],
+        [
+          156,
+          140
+        ],
+        [
+          151,
+          130
+        ],
+        [
+          154,
+          121
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          134,
+          257
+        ],
+        [
+          180,
+          224
+        ],
+        [
+          189,
+          237
+        ],
+        [
+          148,
+          259
+        ],
+        [
+          187,
+          254
+        ],
+        [
+          189,
+          264
+        ],
+        [
+          131,
+          267
+        ],
+        [
+          133,
+          259
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          306,
+          157
+        ],
+        [
+          375,
+          157
+        ],
+        [
+          400,
+          183
+        ],
+        [
+          289,
+          183
+        ],
+        [
+          305,
+          156
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          156,
+          39
+        ],
+        [
+          156,
+          52
+        ],
+        [
+          71,
+          52
+        ],
+        [
+          67,
+          252
+        ],
+        [
+          135,
+          254
+        ],
+        [
+          136,
+          268
+        ],
+        [
+          53,
+          265
+        ],
+        [
+          55,
+          42
+        ],
+        [
+          156,
+          37
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          54,
+          126
+        ],
+        [
+          154,
+          126
+        ],
+        [
+          156,
+          139
+        ],
+        [
+          56,
+          139
+        ],
+        [
+          54,
+          129
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          168,
+          136
+        ],
+        [
+          172,
+          147
+        ],
+        [
+          340,
+          148
+        ],
+        [
+          340,
+          133
+        ],
+        [
+          169,
+          135
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          173,
+          49
+        ],
+        [
+          175,
+          61
+        ],
+        [
+          331,
+          59
+        ],
+        [
+          332,
+          162
+        ],
+        [
+          346,
+          161
+        ],
+        [
+          346,
+          46
+        ],
+        [
+          174,
+          48
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          181,
+          252
+        ],
+        [
+          181,
+          263
+        ],
+        [
+          342,
+          265
+        ],
+        [
+          346,
+          181
+        ],
+        [
+          333,
+          181
+        ],
+        [
+          332,
+          250
+        ],
+        [
+          185,
+          252
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "B0+A0+B2",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B2",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "B0+A3+B3",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B3",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "B1+A1+T1",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "T1",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "B3+A4+B2",
+      "type": "interObjectLinkage",
+      "source": "B3",
+      "target": "B2",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B2",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+A2+B1",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "B1",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T4+B3",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector"
+  },
+  "educational_context": {
+    "subject": "physics",
+    "diagram_type": "labeled_illustration",
+    "text_content": "parallel circuit junction switch junction battery"
+  }
+}

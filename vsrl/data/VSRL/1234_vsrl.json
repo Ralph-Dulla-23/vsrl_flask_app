@@ -1,0 +1,926 @@
+{
+  "image_id": "1234",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          680,
+          129
+        ],
+        [
+          797,
+          162
+        ]
+      ],
+      "value": "midday",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          1015,
+          242
+        ],
+        [
+          1150,
+          272
+        ]
+      ],
+      "value": "afternoon",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          1258,
+          135
+        ],
+        [
+          1402,
+          177
+        ]
+      ],
+      "value": "Summer",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          470,
+          264
+        ],
+        [
+          581,
+          299
+        ]
+      ],
+      "value": "morning",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          674,
+          365
+        ],
+        [
+          788,
+          404
+        ]
+      ],
+      "value": "Winter",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          18,
+          419
+        ],
+        [
+          108,
+          458
+        ]
+      ],
+      "value": "EAST",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          1374,
+          429
+        ],
+        [
+          1471,
+          464
+        ]
+      ],
+      "value": "WEST",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          509,
+          305
+        ],
+        [
+          557,
+          312
+        ],
+        [
+          569,
+          350
+        ],
+        [
+          551,
+          380
+        ],
+        [
+          509,
+          386
+        ],
+        [
+          482,
+          332
+        ],
+        [
+          491,
+          320
+        ],
+        [
+          500,
+          312
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          725,
+          167
+        ],
+        [
+          761,
+          171
+        ],
+        [
+          773,
+          192
+        ],
+        [
+          776,
+          201
+        ],
+        [
+          776,
+          216
+        ],
+        [
+          773,
+          227
+        ],
+        [
+          770,
+          237
+        ],
+        [
+          763,
+          237
+        ],
+        [
+          752,
+          240
+        ],
+        [
+          743,
+          242
+        ],
+        [
+          719,
+          249
+        ],
+        [
+          701,
+          237
+        ],
+        [
+          692,
+          219
+        ],
+        [
+          695,
+          207
+        ],
+        [
+          695,
+          195
+        ],
+        [
+          704,
+          180
+        ],
+        [
+          713,
+          171
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          1066,
+          150
+        ],
+        [
+          1081,
+          150
+        ],
+        [
+          1087,
+          150
+        ],
+        [
+          1105,
+          156
+        ],
+        [
+          1117,
+          165
+        ],
+        [
+          1120,
+          182
+        ],
+        [
+          1120,
+          197
+        ],
+        [
+          1114,
+          210
+        ],
+        [
+          1108,
+          219
+        ],
+        [
+          1096,
+          227
+        ],
+        [
+          1081,
+          231
+        ],
+        [
+          1057,
+          222
+        ],
+        [
+          1045,
+          210
+        ],
+        [
+          1042,
+          189
+        ],
+        [
+          1042,
+          177
+        ],
+        [
+          1051,
+          159
+        ],
+        [
+          1060,
+          150
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          33,
+          407
+        ],
+        [
+          152,
+          312
+        ],
+        [
+          320,
+          201
+        ],
+        [
+          470,
+          135
+        ],
+        [
+          602,
+          108
+        ],
+        [
+          662,
+          102
+        ],
+        [
+          650,
+          78
+        ],
+        [
+          740,
+          105
+        ],
+        [
+          833,
+          108
+        ],
+        [
+          965,
+          138
+        ],
+        [
+          1039,
+          162
+        ],
+        [
+          1039,
+          186
+        ],
+        [
+          935,
+          152
+        ],
+        [
+          863,
+          135
+        ],
+        [
+          770,
+          114
+        ],
+        [
+          722,
+          117
+        ],
+        [
+          674,
+          144
+        ],
+        [
+          704,
+          111
+        ],
+        [
+          611,
+          123
+        ],
+        [
+          500,
+          150
+        ],
+        [
+          359,
+          204
+        ],
+        [
+          234,
+          267
+        ],
+        [
+          75,
+          384
+        ],
+        [
+          51,
+          414
+        ],
+        [
+          45,
+          414
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          186,
+          410
+        ],
+        [
+          392,
+          282
+        ],
+        [
+          440,
+          254
+        ],
+        [
+          419,
+          249
+        ],
+        [
+          488,
+          240
+        ],
+        [
+          575,
+          216
+        ],
+        [
+          662,
+          201
+        ],
+        [
+          695,
+          201
+        ],
+        [
+          701,
+          225
+        ],
+        [
+          623,
+          225
+        ],
+        [
+          503,
+          252
+        ],
+        [
+          482,
+          261
+        ],
+        [
+          455,
+          299
+        ],
+        [
+          449,
+          284
+        ],
+        [
+          461,
+          261
+        ],
+        [
+          362,
+          314
+        ],
+        [
+          207,
+          414
+        ],
+        [
+          189,
+          410
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          392,
+          414
+        ],
+        [
+          476,
+          354
+        ],
+        [
+          488,
+          371
+        ],
+        [
+          414,
+          407
+        ],
+        [
+          401,
+          410
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          773,
+          201
+        ],
+        [
+          887,
+          219
+        ],
+        [
+          970,
+          246
+        ],
+        [
+          1072,
+          291
+        ],
+        [
+          1183,
+          365
+        ],
+        [
+          1240,
+          414
+        ],
+        [
+          1225,
+          414
+        ],
+        [
+          1156,
+          369
+        ],
+        [
+          1069,
+          312
+        ],
+        [
+          988,
+          272
+        ],
+        [
+          898,
+          234
+        ],
+        [
+          838,
+          227
+        ],
+        [
+          785,
+          216
+        ],
+        [
+          778,
+          219
+        ],
+        [
+          778,
+          201
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          1123,
+          204
+        ],
+        [
+          1231,
+          261
+        ],
+        [
+          1312,
+          317
+        ],
+        [
+          1402,
+          399
+        ],
+        [
+          1419,
+          407
+        ],
+        [
+          1393,
+          416
+        ],
+        [
+          1339,
+          371
+        ],
+        [
+          1222,
+          287
+        ],
+        [
+          1144,
+          242
+        ],
+        [
+          1117,
+          222
+        ],
+        [
+          1123,
+          210
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          572,
+          344
+        ],
+        [
+          632,
+          324
+        ],
+        [
+          731,
+          324
+        ],
+        [
+          823,
+          327
+        ],
+        [
+          890,
+          344
+        ],
+        [
+          860,
+          362
+        ],
+        [
+          898,
+          359
+        ],
+        [
+          916,
+          356
+        ],
+        [
+          988,
+          384
+        ],
+        [
+          1051,
+          414
+        ],
+        [
+          1060,
+          414
+        ],
+        [
+          991,
+          369
+        ],
+        [
+          928,
+          347
+        ],
+        [
+          868,
+          291
+        ],
+        [
+          883,
+          324
+        ],
+        [
+          853,
+          320
+        ],
+        [
+          761,
+          309
+        ],
+        [
+          674,
+          302
+        ],
+        [
+          590,
+          320
+        ],
+        [
+          569,
+          324
+        ],
+        [
+          575,
+          347
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H2",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H3",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B1+A3+T6",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "T6",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "B2+A4+T6",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "T6",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T0+B1",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B2",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+A4",
+      "type": "arrowDescriptor",
+      "source": "T2",
+      "target": "A4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+A5",
+      "type": "arrowDescriptor",
+      "source": "T4",
+      "target": "A5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+A0+B2",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "B2",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T5+A1+B1",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "B1",
+      "connector": "A1",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "midday afternoon summer morning winter east west"
+  },
+  "questions": [
+    {
+      "question_text": "Days are typically longer in what season?",
+      "question_id": "1234.png-0",
+      "answers": [
+        "fall",
+        "winter",
+        "Always the same",
+        "summer"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "During summer, the Sun's arc is the longest. During which season is the Sun's arc the shortest?",
+      "question_id": "1234.png-2",
+      "answers": [
+        "Summer",
+        "Spring",
+        "Winter",
+        "Autumn"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "In what season is the sun typically higher in the sky at midday?",
+      "question_id": "1234.png-4",
+      "answers": [
+        "winter",
+        "fall",
+        "dream",
+        "summer"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which letter shows the sun's position at morning time?",
+      "question_id": "1234.png-3",
+      "answers": [
+        "D",
+        "B",
+        "A",
+        "C"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which season does C represent?",
+      "question_id": "1234.png-1",
+      "answers": [
+        "winter",
+        "fall",
+        "summer",
+        "spring"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}

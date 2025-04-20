@@ -1,0 +1,502 @@
+{
+  "image_id": "2102",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          110,
+          13
+        ],
+        [
+          187,
+          29
+        ]
+      ],
+      "value": "Caterpillar",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          20,
+          78
+        ],
+        [
+          59,
+          91
+        ]
+      ],
+      "value": "Plant",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          250,
+          76
+        ],
+        [
+          284,
+          91
+        ]
+      ],
+      "value": "Bird",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          12,
+          165
+        ],
+        [
+          62,
+          179
+        ]
+      ],
+      "value": "Mouse",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          13,
+          234
+        ],
+        [
+          54,
+          251
+        ]
+      ],
+      "value": "Snake",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          37,
+          67
+        ],
+        [
+          46,
+          77
+        ],
+        [
+          110,
+          29
+        ],
+        [
+          101,
+          18
+        ],
+        [
+          40,
+          67
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          68,
+          77
+        ],
+        [
+          72,
+          89
+        ],
+        [
+          239,
+          89
+        ],
+        [
+          243,
+          79
+        ],
+        [
+          69,
+          79
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          183,
+          32
+        ],
+        [
+          191,
+          20
+        ],
+        [
+          272,
+          67
+        ],
+        [
+          258,
+          81
+        ],
+        [
+          180,
+          33
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          35,
+          99
+        ],
+        [
+          49,
+          100
+        ],
+        [
+          50,
+          162
+        ],
+        [
+          31,
+          163
+        ],
+        [
+          34,
+          98
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          259,
+          93
+        ],
+        [
+          267,
+          101
+        ],
+        [
+          63,
+          249
+        ],
+        [
+          56,
+          237
+        ],
+        [
+          260,
+          96
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          52,
+          182
+        ],
+        [
+          52,
+          225
+        ],
+        [
+          34,
+          233
+        ],
+        [
+          34,
+          184
+        ],
+        [
+          51,
+          181
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H5",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H4",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H2",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A2+T2",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T2",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T1+A0+T0",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T0",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T1+A1+T2",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T2",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T1+A3+T3",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T3",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T2+A4+T4",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T4",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T3+A5+T4",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T4",
+      "connector": "A5",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "caterpillar plant bird mouse snake"
+  },
+  "questions": [
+    {
+      "question_text": "The diagram below shows a partial food web for some of the organisms in an area. If all the trees in the area were cut down, the energy supply of which population would be most directly affected?",
+      "question_id": "2102.png-10",
+      "answers": [
+        "animal(B) caterpillar(C) mouse(D) snake",
+        "mouse",
+        "snake",
+        "animal"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Using the food web above, what would happen to the other organisms if the number of snakes were decreased?",
+      "question_id": "2102.png-1",
+      "answers": [
+        "The mouse population would increase.",
+        "The snakes would eat more birds.",
+        "The snakes population would decrease.",
+        "The plants would begin to eat the caterpillar. (A) The plants would begin to eat the caterpillar. (B) The mouse population would increase. (C) The snakes would eat more birds."
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What do birds consume>",
+      "question_id": "2102.png-0",
+      "answers": [
+        "human",
+        "plant",
+        "mouse",
+        "none of the above"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What happens to caterpillars if plant population decreases?",
+      "question_id": "2102.png-4",
+      "answers": [
+        "increase",
+        "decrease",
+        "nothing",
+        "none of the above"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What happens to the snake population if mouse decrease?",
+      "question_id": "2102.png-2",
+      "answers": [
+        "increase",
+        "decrease",
+        "nothing",
+        "none of the above"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is a producer in the web shown?",
+      "question_id": "2102.png-6",
+      "answers": [
+        "mouse",
+        "plant",
+        "bird",
+        "none of the above"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the producer in the diagram?",
+      "question_id": "2102.png-3",
+      "answers": [
+        "bird",
+        "plant",
+        "mouse",
+        "none of the above"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the producer in this web diagram?",
+      "question_id": "2102.png-7",
+      "answers": [
+        "mouse",
+        "plant",
+        "hawk",
+        "none of the above"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which is a correct description of energy transfer in this food chain?",
+      "question_id": "2102.png-9",
+      "answers": [
+        "Snake to bird",
+        "Snake to plant",
+        "Bird to caterpillar",
+        "Plant to mouse"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which is the producer in the group?",
+      "question_id": "2102.png-5",
+      "answers": [
+        "Plant",
+        "Snake",
+        "Mouse",
+        "Bird"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which is the top predator in this ecosystem?",
+      "question_id": "2102.png-8",
+      "answers": [
+        "Snake",
+        "Caterpillar",
+        "Mouse",
+        "Plant"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

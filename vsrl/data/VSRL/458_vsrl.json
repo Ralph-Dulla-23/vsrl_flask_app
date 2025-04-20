@@ -1,0 +1,238 @@
+{
+  "image_id": "458",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          107,
+          12
+        ],
+        [
+          149,
+          35
+        ]
+      ],
+      "value": "EGG",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          31,
+          123
+        ],
+        [
+          84,
+          142
+        ]
+      ],
+      "value": "Adult",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          173,
+          121
+        ],
+        [
+          232,
+          145
+        ]
+      ],
+      "value": "Nymph",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          45,
+          109
+        ],
+        [
+          51,
+          115
+        ],
+        [
+          100,
+          49
+        ],
+        [
+          92,
+          44
+        ],
+        [
+          47,
+          108
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          160,
+          48
+        ],
+        [
+          165,
+          45
+        ],
+        [
+          202,
+          109
+        ],
+        [
+          196,
+          115
+        ],
+        [
+          160,
+          50
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          106,
+          128
+        ],
+        [
+          107,
+          138
+        ],
+        [
+          145,
+          138
+        ],
+        [
+          145,
+          130
+        ],
+        [
+          108,
+          130
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A1+T2",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T2",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T1+A0+T0",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T0",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T2+A2+T1",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T1",
+      "connector": "A2",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "egg adult nymph"
+  },
+  "questions": [
+    {
+      "question_text": "How many stages are there in this life cycle?",
+      "question_id": "458.png-0",
+      "answers": [
+        "3",
+        "4",
+        "5",
+        "2"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "What comes after nymph?",
+      "question_id": "458.png-1",
+      "answers": [
+        "Adult",
+        "Primary",
+        "Erosion",
+        "Egg"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What comes before nymph?",
+      "question_id": "458.png-2",
+      "answers": [
+        "Water Cycle",
+        "Egg",
+        "Gilbert Gottfried",
+        "Adult"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

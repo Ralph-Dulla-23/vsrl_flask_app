@@ -1,0 +1,512 @@
+{
+  "image_id": "2909",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          29,
+          31
+        ],
+        [
+          69,
+          52
+        ]
+      ],
+      "value": "FINS",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          283,
+          19
+        ],
+        [
+          343,
+          38
+        ]
+      ],
+      "value": "dorsal fin",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          337,
+          200
+        ],
+        [
+          383,
+          235
+        ]
+      ],
+      "value": "caudal fin",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          286,
+          239
+        ],
+        [
+          338,
+          257
+        ]
+      ],
+      "value": "anal fin",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          161,
+          247
+        ],
+        [
+          219,
+          268
+        ]
+      ],
+      "value": "pelvic fin",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          66,
+          227
+        ],
+        [
+          118,
+          259
+        ]
+      ],
+      "value": "pectoral fin",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          23,
+          149
+        ],
+        [
+          39,
+          157
+        ],
+        [
+          50,
+          162
+        ],
+        [
+          73,
+          171
+        ],
+        [
+          95,
+          175
+        ],
+        [
+          124,
+          178
+        ],
+        [
+          139,
+          177
+        ],
+        [
+          182,
+          202
+        ],
+        [
+          185,
+          189
+        ],
+        [
+          194,
+          194
+        ],
+        [
+          193,
+          176
+        ],
+        [
+          238,
+          164
+        ],
+        [
+          293,
+          157
+        ],
+        [
+          284,
+          141
+        ],
+        [
+          301,
+          141
+        ],
+        [
+          344,
+          159
+        ],
+        [
+          366,
+          168
+        ],
+        [
+          370,
+          163
+        ],
+        [
+          339,
+          118
+        ],
+        [
+          361,
+          86
+        ],
+        [
+          365,
+          71
+        ],
+        [
+          361,
+          67
+        ],
+        [
+          305,
+          99
+        ],
+        [
+          288,
+          101
+        ],
+        [
+          243,
+          75
+        ],
+        [
+          223,
+          66
+        ],
+        [
+          187,
+          52
+        ],
+        [
+          160,
+          80
+        ],
+        [
+          106,
+          87
+        ],
+        [
+          69,
+          97
+        ],
+        [
+          48,
+          108
+        ],
+        [
+          30,
+          121
+        ],
+        [
+          16,
+          131
+        ],
+        [
+          14,
+          143
+        ],
+        [
+          21,
+          146
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          210,
+          57
+        ],
+        [
+          280,
+          20
+        ],
+        [
+          288,
+          35
+        ],
+        [
+          220,
+          74
+        ],
+        [
+          210,
+          59
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          104,
+          160
+        ],
+        [
+          119,
+          165
+        ],
+        [
+          95,
+          231
+        ],
+        [
+          83,
+          227
+        ],
+        [
+          105,
+          162
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          160,
+          201
+        ],
+        [
+          178,
+          195
+        ],
+        [
+          198,
+          250
+        ],
+        [
+          183,
+          253
+        ],
+        [
+          160,
+          202
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          266,
+          165
+        ],
+        [
+          283,
+          158
+        ],
+        [
+          315,
+          240
+        ],
+        [
+          305,
+          245
+        ],
+        [
+          266,
+          168
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          325,
+          156
+        ],
+        [
+          337,
+          150
+        ],
+        [
+          362,
+          200
+        ],
+        [
+          354,
+          205
+        ],
+        [
+          325,
+          158
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H2",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H3",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H4",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H1",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T2+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T3+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T4+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T5+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "fins dorsal fin caudal fin anal fin pelvic fin pectoral fin"
+  },
+  "questions": [
+    {
+      "question_text": "Which fin type is normally found in pairs on most fish?",
+      "question_id": "2909.png-0",
+      "answers": [
+        "Pelvic Fin",
+        "Anal Fin",
+        "Caudal Fin",
+        "Dorsal Fin"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

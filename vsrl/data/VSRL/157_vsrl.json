@@ -1,0 +1,564 @@
+{
+  "image_id": "157",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          65,
+          48
+        ],
+        [
+          114,
+          72
+        ]
+      ],
+      "value": "High",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          172,
+          0
+        ],
+        [
+          264,
+          19
+        ]
+      ],
+      "value": "Low Tide",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          324,
+          50
+        ],
+        [
+          369,
+          72
+        ]
+      ],
+      "value": "High",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          322,
+          96
+        ],
+        [
+          368,
+          116
+        ]
+      ],
+      "value": "Tide",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          69,
+          99
+        ],
+        [
+          110,
+          116
+        ]
+      ],
+      "value": "Tide",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          175,
+          155
+        ],
+        [
+          259,
+          181
+        ]
+      ],
+      "value": "Low Tide",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          296,
+          123
+        ],
+        [
+          401,
+          181
+        ]
+      ],
+      "value": "Earth's Centrifugal Force",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          3,
+          127
+        ],
+        [
+          121,
+          179
+        ]
+      ],
+      "value": "Moon's Gravitational Pull",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          191,
+          63
+        ],
+        [
+          241,
+          87
+        ]
+      ],
+      "value": "Pole",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          9,
+          75
+        ],
+        [
+          56,
+          95
+        ]
+      ],
+      "value": "Moon",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          185,
+          38
+        ],
+        [
+          210,
+          28
+        ],
+        [
+          239,
+          32
+        ],
+        [
+          264,
+          48
+        ],
+        [
+          275,
+          66
+        ],
+        [
+          279,
+          86
+        ],
+        [
+          272,
+          109
+        ],
+        [
+          261,
+          127
+        ],
+        [
+          244,
+          138
+        ],
+        [
+          213,
+          144
+        ],
+        [
+          191,
+          137
+        ],
+        [
+          170,
+          118
+        ],
+        [
+          163,
+          97
+        ],
+        [
+          163,
+          77
+        ],
+        [
+          172,
+          54
+        ],
+        [
+          185,
+          39
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          40,
+          54
+        ],
+        [
+          54,
+          63
+        ],
+        [
+          61,
+          78
+        ],
+        [
+          58,
+          96
+        ],
+        [
+          44,
+          108
+        ],
+        [
+          29,
+          112
+        ],
+        [
+          13,
+          105
+        ],
+        [
+          2,
+          88
+        ],
+        [
+          10,
+          62
+        ],
+        [
+          22,
+          56
+        ],
+        [
+          40,
+          53
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          60,
+          62
+        ],
+        [
+          119,
+          66
+        ],
+        [
+          120,
+          98
+        ],
+        [
+          55,
+          97
+        ],
+        [
+          60,
+          64
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          129,
+          55
+        ],
+        [
+          192,
+          57
+        ],
+        [
+          190,
+          118
+        ],
+        [
+          131,
+          111
+        ],
+        [
+          131,
+          55
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          256,
+          53
+        ],
+        [
+          258,
+          113
+        ],
+        [
+          304,
+          111
+        ],
+        [
+          306,
+          58
+        ],
+        [
+          257,
+          57
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          317,
+          65
+        ],
+        [
+          316,
+          99
+        ],
+        [
+          381,
+          98
+        ],
+        [
+          379,
+          68
+        ],
+        [
+          320,
+          67
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0",
+      "type": "arrowDescriptor",
+      "source": "T0",
+      "target": "A0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+A3",
+      "type": "arrowDescriptor",
+      "source": "T2",
+      "target": "A3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+A3",
+      "type": "arrowDescriptor",
+      "source": "T3",
+      "target": "A3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+A0",
+      "type": "arrowDescriptor",
+      "source": "T4",
+      "target": "A0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+I0",
+      "type": "imageCaption",
+      "source": "T6",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T7+I0",
+      "type": "imageCaption",
+      "source": "T7",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T8+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T8",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T9+B1",
+      "type": "intraObjectLabel",
+      "source": "T9",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "high low tide high tide tide low tide earth's centrifugal force moon's gravitational pull pole moon"
+  },
+  "questions": [
+    {
+      "question_text": "At location labeled C, what tide and tidal force would you expect to see?",
+      "question_id": "157.png-1",
+      "answers": [
+        "Low tide due to gravitational pull",
+        "Low tide due to centripetal force",
+        "High tide due to centrifugal force",
+        "High tide due to gravitational pull"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "High tide in the diagram closest to the moon occurs at what letter?",
+      "question_id": "157.png-2",
+      "answers": [
+        "H",
+        "E, I",
+        "C, F",
+        "J"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "The diagram shows tidal forces on earth. What kind of tides can you expect at label J?",
+      "question_id": "157.png-0",
+      "answers": [
+        "Neap tide",
+        "Low tide",
+        "High tide",
+        "Spring tide"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

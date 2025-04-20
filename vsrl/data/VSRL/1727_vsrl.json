@@ -1,0 +1,376 @@
+{
+  "image_id": "1727",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          271,
+          28
+        ],
+        [
+          344,
+          48
+        ]
+      ],
+      "value": "Fault Plane",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          141,
+          244
+        ],
+        [
+          198,
+          259
+        ]
+      ],
+      "value": "Footwall",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          124,
+          351
+        ],
+        [
+          310,
+          374
+        ]
+      ],
+      "value": "Copyright \u00a9 2006 Pearson Prentice Hall, Inc.",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          232,
+          162
+        ],
+        [
+          289,
+          192
+        ]
+      ],
+      "value": "Hanging wall",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          106,
+          14
+        ],
+        [
+          88,
+          18
+        ],
+        [
+          81,
+          25
+        ],
+        [
+          67,
+          34
+        ],
+        [
+          62,
+          43
+        ],
+        [
+          51,
+          50
+        ],
+        [
+          42,
+          58
+        ],
+        [
+          28,
+          67
+        ],
+        [
+          16,
+          84
+        ],
+        [
+          19,
+          326
+        ],
+        [
+          273,
+          332
+        ],
+        [
+          286,
+          354
+        ],
+        [
+          333,
+          355
+        ],
+        [
+          402,
+          250
+        ],
+        [
+          402,
+          67
+        ],
+        [
+          385,
+          63
+        ],
+        [
+          362,
+          63
+        ],
+        [
+          323,
+          64
+        ],
+        [
+          298,
+          65
+        ],
+        [
+          267,
+          64
+        ],
+        [
+          252,
+          63
+        ],
+        [
+          230,
+          16
+        ],
+        [
+          106,
+          13
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          127,
+          198
+        ],
+        [
+          145,
+          222
+        ],
+        [
+          166,
+          214
+        ],
+        [
+          153,
+          191
+        ],
+        [
+          159,
+          186
+        ],
+        [
+          128,
+          175
+        ],
+        [
+          126,
+          202
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          279,
+          211
+        ],
+        [
+          289,
+          236
+        ],
+        [
+          282,
+          241
+        ],
+        [
+          307,
+          249
+        ],
+        [
+          321,
+          227
+        ],
+        [
+          312,
+          226
+        ],
+        [
+          296,
+          202
+        ],
+        [
+          282,
+          211
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          252,
+          51
+        ],
+        [
+          275,
+          39
+        ],
+        [
+          268,
+          31
+        ],
+        [
+          247,
+          46
+        ],
+        [
+          254,
+          53
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+I0",
+      "type": "misc",
+      "source": "T2",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+I0",
+      "type": "imageCaption",
+      "source": "T3",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "fault plane footwall copyright \u00a9 2006 pearson prentice hall, inc. hanging wall"
+  },
+  "questions": [
+    {
+      "question_text": "What does A represent in the image?",
+      "question_id": "1727.png-0",
+      "answers": [
+        "footwall",
+        "hanging wall",
+        "none of the above",
+        "fault plane"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "What does D represent in the figure?",
+      "question_id": "1727.png-1",
+      "answers": [
+        "fault plane",
+        "footwall",
+        "hanging wall",
+        "none of the above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "what is fault plane",
+      "question_id": "1727.png-2",
+      "answers": [
+        "Geology The mass of rock overlying a mineral deposit in a mine.",
+        "The upper suface of the earth",
+        "Geology The mass of rock underlying a mineral deposit in a mine",
+        "Geology The plane along which the break or shear of a fault occurs."
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    }
+  ]
+}

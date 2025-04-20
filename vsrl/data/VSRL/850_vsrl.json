@@ -1,0 +1,528 @@
+{
+  "image_id": "850",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          127
+        ],
+        [
+          28,
+          143
+        ]
+      ],
+      "value": "Egg",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          18,
+          159
+        ],
+        [
+          66,
+          171
+        ]
+      ],
+      "value": "Larva",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          74,
+          149
+        ],
+        [
+          120,
+          168
+        ]
+      ],
+      "value": "Pupa",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          190,
+          149
+        ],
+        [
+          231,
+          164
+        ]
+      ],
+      "value": "Moth",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          134,
+          45
+        ],
+        [
+          174,
+          57
+        ],
+        [
+          198,
+          69
+        ],
+        [
+          205,
+          65
+        ],
+        [
+          201,
+          60
+        ],
+        [
+          176,
+          39
+        ],
+        [
+          209,
+          60
+        ],
+        [
+          212,
+          51
+        ],
+        [
+          215,
+          48
+        ],
+        [
+          217,
+          56
+        ],
+        [
+          241,
+          50
+        ],
+        [
+          246,
+          39
+        ],
+        [
+          251,
+          39
+        ],
+        [
+          239,
+          54
+        ],
+        [
+          221,
+          59
+        ],
+        [
+          220,
+          67
+        ],
+        [
+          224,
+          72
+        ],
+        [
+          279,
+          50
+        ],
+        [
+          296,
+          47
+        ],
+        [
+          299,
+          64
+        ],
+        [
+          282,
+          91
+        ],
+        [
+          284,
+          108
+        ],
+        [
+          251,
+          135
+        ],
+        [
+          223,
+          130
+        ],
+        [
+          220,
+          125
+        ],
+        [
+          215,
+          137
+        ],
+        [
+          205,
+          130
+        ],
+        [
+          205,
+          127
+        ],
+        [
+          173,
+          130
+        ],
+        [
+          139,
+          105
+        ],
+        [
+          147,
+          93
+        ],
+        [
+          132,
+          76
+        ],
+        [
+          126,
+          51
+        ],
+        [
+          137,
+          46
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          116,
+          111
+        ],
+        [
+          103,
+          143
+        ],
+        [
+          86,
+          127
+        ],
+        [
+          74,
+          106
+        ],
+        [
+          75,
+          94
+        ],
+        [
+          74,
+          61
+        ],
+        [
+          74,
+          43
+        ],
+        [
+          86,
+          24
+        ],
+        [
+          106,
+          20
+        ],
+        [
+          114,
+          35
+        ],
+        [
+          117,
+          70
+        ],
+        [
+          121,
+          98
+        ],
+        [
+          116,
+          110
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          57,
+          141
+        ],
+        [
+          41,
+          157
+        ],
+        [
+          40,
+          141
+        ],
+        [
+          41,
+          124
+        ],
+        [
+          38,
+          114
+        ],
+        [
+          35,
+          106
+        ],
+        [
+          42,
+          99
+        ],
+        [
+          32,
+          92
+        ],
+        [
+          39,
+          89
+        ],
+        [
+          37,
+          78
+        ],
+        [
+          41,
+          75
+        ],
+        [
+          38,
+          46
+        ],
+        [
+          33,
+          39
+        ],
+        [
+          40,
+          38
+        ],
+        [
+          37,
+          28
+        ],
+        [
+          32,
+          29
+        ],
+        [
+          37,
+          28
+        ],
+        [
+          39,
+          18
+        ],
+        [
+          32,
+          16
+        ],
+        [
+          44,
+          13
+        ],
+        [
+          48,
+          1
+        ],
+        [
+          41,
+          6
+        ],
+        [
+          53,
+          0
+        ],
+        [
+          57,
+          9
+        ],
+        [
+          57,
+          40
+        ],
+        [
+          57,
+          138
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          12,
+          108
+        ],
+        [
+          21,
+          113
+        ],
+        [
+          20,
+          121
+        ],
+        [
+          16,
+          124
+        ],
+        [
+          11,
+          120
+        ],
+        [
+          12,
+          108
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+B3",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B2",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B1",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "egg larva pupa moth"
+  },
+  "questions": [
+    {
+      "question_text": "The diagram below shows four stages in the life cycle of a moth. Which stage shows pupa?",
+      "question_id": "850.png-3",
+      "answers": [
+        "D",
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is the first life cycle of the moth?",
+      "question_id": "850.png-0",
+      "answers": [
+        "pupa",
+        "egg",
+        "moth",
+        "larva"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "When does pupa forms?",
+      "question_id": "850.png-1",
+      "answers": [
+        "After larva stage",
+        "After adult stage",
+        "After egg stage",
+        "After nymph stage"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which is the last stage of the life cycle in this figure?",
+      "question_id": "850.png-2",
+      "answers": [
+        "Moth",
+        "Egg",
+        "Pupa",
+        "Caterpillar"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which letter corresponds to the non-feeding stage between the larva and adult in the metamorphosis of the moth?",
+      "question_id": "850.png-4",
+      "answers": [
+        "A",
+        "C",
+        "D",
+        "B"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

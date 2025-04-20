@@ -1,0 +1,406 @@
+{
+  "image_id": "1525",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          276,
+          186
+        ],
+        [
+          295,
+          208
+        ]
+      ],
+      "value": "e",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          300,
+          30
+        ],
+        [
+          425,
+          50
+        ]
+      ],
+      "value": "excited state",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          358,
+          114
+        ],
+        [
+          492,
+          137
+        ]
+      ],
+      "value": "absorb energy",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          26,
+          118
+        ],
+        [
+          104,
+          174
+        ]
+      ],
+      "value": "release energy",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          274,
+          290
+        ],
+        [
+          401,
+          314
+        ]
+      ],
+      "value": "ground state",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          231,
+          193
+        ],
+        [
+          247,
+          185
+        ],
+        [
+          251,
+          201
+        ],
+        [
+          246,
+          209
+        ],
+        [
+          233,
+          211
+        ],
+        [
+          231,
+          196
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          278,
+          189
+        ],
+        [
+          297,
+          181
+        ],
+        [
+          297,
+          204
+        ],
+        [
+          278,
+          209
+        ],
+        [
+          279,
+          189
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          110,
+          122
+        ],
+        [
+          111,
+          138
+        ],
+        [
+          214,
+          138
+        ],
+        [
+          213,
+          121
+        ],
+        [
+          110,
+          122
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          298,
+          44
+        ],
+        [
+          314,
+          49
+        ],
+        [
+          285,
+          129
+        ],
+        [
+          273,
+          122
+        ],
+        [
+          298,
+          46
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          352,
+          116
+        ],
+        [
+          355,
+          132
+        ],
+        [
+          335,
+          135
+        ],
+        [
+          312,
+          150
+        ],
+        [
+          305,
+          175
+        ],
+        [
+          289,
+          172
+        ],
+        [
+          303,
+          139
+        ],
+        [
+          327,
+          123
+        ],
+        [
+          351,
+          115
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          275,
+          179
+        ],
+        [
+          280,
+          190
+        ],
+        [
+          326,
+          172
+        ],
+        [
+          319,
+          161
+        ],
+        [
+          276,
+          178
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          267,
+          298
+        ],
+        [
+          279,
+          294
+        ],
+        [
+          256,
+          237
+        ],
+        [
+          245,
+          244
+        ],
+        [
+          265,
+          297
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H3",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H4",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H1",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H2",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H0",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+B1",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector"
+  },
+  "educational_context": {
+    "subject": "physics",
+    "diagram_type": "labeled_illustration",
+    "text_content": "e excited state absorb energy release energy ground state"
+  },
+  "questions": [
+    {
+      "question_text": "What is the lowest energy state?",
+      "question_id": "1525.png-2",
+      "answers": [
+        "None of the above.",
+        "In between the excited state and the ground state",
+        "Excited state",
+        "Ground state"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which is the ground state?",
+      "question_id": "1525.png-1",
+      "answers": [
+        "B",
+        "A",
+        "D",
+        "C"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which option releases energy?",
+      "question_id": "1525.png-0",
+      "answers": [
+        "A",
+        "B",
+        "D",
+        "C"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

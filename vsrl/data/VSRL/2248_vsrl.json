@@ -1,0 +1,812 @@
+{
+  "image_id": "2248",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          183
+        ],
+        [
+          44,
+          194
+        ]
+      ],
+      "value": "STROBILA",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          119,
+          53
+        ],
+        [
+          191,
+          76
+        ]
+      ],
+      "value": "ASEXUAL REPRODUCTION",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          263,
+          54
+        ],
+        [
+          300,
+          69
+        ]
+      ],
+      "value": "EPHYRA",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          212,
+          153
+        ],
+        [
+          251,
+          164
+        ]
+      ],
+      "value": "MEDUSA",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          167,
+          213
+        ],
+        [
+          244,
+          236
+        ]
+      ],
+      "value": "SEXUAL REPRODUCTION",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          264,
+          236
+        ],
+        [
+          304,
+          247
+        ]
+      ],
+      "value": "ZYGOTES",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          216,
+          297
+        ],
+        [
+          258,
+          306
+        ]
+      ],
+      "value": "PLANULA",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          113,
+          276
+        ],
+        [
+          142,
+          286
+        ]
+      ],
+      "value": "POLYP",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          117,
+          0
+        ],
+        [
+          113,
+          29
+        ],
+        [
+          139,
+          44
+        ],
+        [
+          162,
+          43
+        ],
+        [
+          169,
+          23
+        ],
+        [
+          133,
+          0
+        ],
+        [
+          118,
+          0
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          54,
+          43
+        ],
+        [
+          29,
+          81
+        ],
+        [
+          17,
+          154
+        ],
+        [
+          31,
+          221
+        ],
+        [
+          74,
+          231
+        ],
+        [
+          110,
+          160
+        ],
+        [
+          118,
+          61
+        ],
+        [
+          59,
+          39
+        ],
+        [
+          55,
+          39
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          250,
+          101
+        ],
+        [
+          230,
+          134
+        ],
+        [
+          242,
+          159
+        ],
+        [
+          242,
+          183
+        ],
+        [
+          279,
+          187
+        ],
+        [
+          313,
+          118
+        ],
+        [
+          302,
+          96
+        ],
+        [
+          244,
+          102
+        ],
+        [
+          248,
+          101
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          194,
+          31
+        ],
+        [
+          182,
+          54
+        ],
+        [
+          215,
+          79
+        ],
+        [
+          259,
+          72
+        ],
+        [
+          271,
+          47
+        ],
+        [
+          255,
+          31
+        ],
+        [
+          194,
+          30
+        ]
+      ],
+      "category": "object"
+    },
+    "B4": {
+      "id": "B4",
+      "type": "blob",
+      "polygon": [
+        [
+          239,
+          228
+        ],
+        [
+          237,
+          241
+        ],
+        [
+          254,
+          252
+        ],
+        [
+          265,
+          236
+        ],
+        [
+          250,
+          228
+        ],
+        [
+          240,
+          230
+        ]
+      ],
+      "category": "object"
+    },
+    "B5": {
+      "id": "B5",
+      "type": "blob",
+      "polygon": [
+        [
+          188,
+          269
+        ],
+        [
+          189,
+          298
+        ],
+        [
+          202,
+          300
+        ],
+        [
+          246,
+          295
+        ],
+        [
+          244,
+          276
+        ],
+        [
+          186,
+          268
+        ]
+      ],
+      "category": "object"
+    },
+    "B6": {
+      "id": "B6",
+      "type": "blob",
+      "polygon": [
+        [
+          136,
+          228
+        ],
+        [
+          131,
+          271
+        ],
+        [
+          112,
+          303
+        ],
+        [
+          86,
+          305
+        ],
+        [
+          85,
+          234
+        ],
+        [
+          115,
+          214
+        ],
+        [
+          140,
+          227
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          268,
+          99
+        ],
+        [
+          248,
+          107
+        ],
+        [
+          237,
+          75
+        ],
+        [
+          249,
+          70
+        ],
+        [
+          268,
+          96
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          276,
+          185
+        ],
+        [
+          266,
+          230
+        ],
+        [
+          262,
+          232
+        ],
+        [
+          250,
+          229
+        ],
+        [
+          264,
+          183
+        ],
+        [
+          275,
+          184
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          254,
+          252
+        ],
+        [
+          242,
+          246
+        ],
+        [
+          226,
+          270
+        ],
+        [
+          229,
+          278
+        ],
+        [
+          254,
+          254
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          189,
+          294
+        ],
+        [
+          198,
+          306
+        ],
+        [
+          169,
+          306
+        ],
+        [
+          139,
+          306
+        ],
+        [
+          117,
+          295
+        ],
+        [
+          124,
+          286
+        ],
+        [
+          145,
+          295
+        ],
+        [
+          188,
+          294
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          96,
+          263
+        ],
+        [
+          90,
+          270
+        ],
+        [
+          71,
+          246
+        ],
+        [
+          70,
+          230
+        ],
+        [
+          80,
+          229
+        ],
+        [
+          95,
+          260
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          129,
+          39
+        ],
+        [
+          110,
+          55
+        ],
+        [
+          102,
+          60
+        ],
+        [
+          92,
+          54
+        ],
+        [
+          107,
+          33
+        ],
+        [
+          117,
+          29
+        ],
+        [
+          130,
+          37
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H2",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H3",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H5",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H1",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H4",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B1+A5+B0",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B0",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "B2+A1+B4",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B4",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "B3+A0+B2",
+      "type": "interObjectLinkage",
+      "source": "B3",
+      "target": "B2",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "B4+A2+B5",
+      "type": "interObjectLinkage",
+      "source": "B4",
+      "target": "B5",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "B5+A3+B6",
+      "type": "interObjectLinkage",
+      "source": "B5",
+      "target": "B6",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "B6+A4+B1",
+      "type": "interObjectLinkage",
+      "source": "B6",
+      "target": "B1",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T0+B1",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+I0",
+      "type": "sectionTitle",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B3",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B2",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+I0",
+      "type": "sectionTitle",
+      "source": "T4",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+B4",
+      "type": "intraObjectLabel",
+      "source": "T5",
+      "target": "B4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+B5",
+      "type": "intraObjectLabel",
+      "source": "T6",
+      "target": "B5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T7+B6",
+      "type": "intraObjectLabel",
+      "source": "T7",
+      "target": "B6",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "B4": "whole",
+    "B5": "whole",
+    "B6": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "strobila asexual reproduction ephyra medusa sexual reproduction zygotes planula polyp"
+  },
+  "questions": [
+    {
+      "question_text": "Based on the diagram shown, which letter shows the stage of development for a Medusa?",
+      "question_id": "2248.png-0",
+      "answers": [
+        "G",
+        "D",
+        "B",
+        "H"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which process is an example of sexual reproduction?",
+      "question_id": "2248.png-2",
+      "answers": [
+        "B",
+        "E",
+        "F",
+        "G"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which stage is represented by label B in the diagram?",
+      "question_id": "2248.png-1",
+      "answers": [
+        "Planula",
+        "Medusa",
+        "Ephyra",
+        "Polyp"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}

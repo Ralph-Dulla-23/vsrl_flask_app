@@ -1,0 +1,408 @@
+{
+  "image_id": "2832",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          5,
+          4
+        ],
+        [
+          257,
+          24
+        ]
+      ],
+      "value": "Figure 1 -  The structural hierarchy",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          125,
+          110
+        ],
+        [
+          234,
+          127
+        ]
+      ],
+      "value": "Ecological levels",
+      "replacementText": "L",
+      "category": "label"
+    },
+    "T10": {
+      "id": "T10",
+      "type": "text",
+      "bbox": [
+        [
+          292,
+          316
+        ],
+        [
+          508,
+          333
+        ]
+      ],
+      "value": "Molecules and macromolecules",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T11": {
+      "id": "T11",
+      "type": "text",
+      "bbox": [
+        [
+          291,
+          352
+        ],
+        [
+          342,
+          368
+        ]
+      ],
+      "value": "Atoms",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T12": {
+      "id": "T12",
+      "type": "text",
+      "bbox": [
+        [
+          298,
+          386
+        ],
+        [
+          433,
+          409
+        ]
+      ],
+      "value": "Sub-atomic particles",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          81,
+          281
+        ],
+        [
+          212,
+          305
+        ]
+      ],
+      "value": "Lowest level of life",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          293,
+          76
+        ],
+        [
+          360,
+          94
+        ]
+      ],
+      "value": "Biosphere",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          281,
+          109
+        ],
+        [
+          377,
+          127
+        ]
+      ],
+      "value": "Ecosystems",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          292,
+          145
+        ],
+        [
+          389,
+          162
+        ]
+      ],
+      "value": "Communities",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          301,
+          181
+        ],
+        [
+          488,
+          198
+        ]
+      ],
+      "value": "Organ systems - organisms",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          294,
+          212
+        ],
+        [
+          434,
+          231
+        ]
+      ],
+      "value": "Organs - organisms",
+      "replacementText": "K",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          293,
+          247
+        ],
+        [
+          435,
+          269
+        ]
+      ],
+      "value": "Tissues-Organisms",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          298,
+          284
+        ],
+        [
+          417,
+          302
+        ]
+      ],
+      "value": "Cells - Organisms",
+      "replacementText": "M",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          256,
+          46
+        ],
+        [
+          272,
+          47
+        ],
+        [
+          273,
+          410
+        ],
+        [
+          260,
+          411
+        ],
+        [
+          258,
+          44
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          243,
+          147
+        ],
+        [
+          243,
+          93
+        ],
+        [
+          240,
+          92
+        ],
+        [
+          245,
+          81
+        ],
+        [
+          252,
+          91
+        ],
+        [
+          249,
+          92
+        ],
+        [
+          249,
+          145
+        ],
+        [
+          251,
+          146
+        ],
+        [
+          247,
+          154
+        ],
+        [
+          239,
+          150
+        ],
+        [
+          242,
+          148
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          217,
+          292
+        ],
+        [
+          248,
+          293
+        ],
+        [
+          248,
+          290
+        ],
+        [
+          257,
+          294
+        ],
+        [
+          251,
+          299
+        ],
+        [
+          250,
+          296
+        ],
+        [
+          217,
+          297
+        ],
+        [
+          217,
+          294
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+I0",
+      "type": "sectionTitle",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T10": "part_label",
+    "T11": "part_label",
+    "T12": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "figure 1 -  the structural hierarchy ecological levels molecules and macromolecules atoms sub-atomic particles lowest level of life biosphere ecosystems communities organ systems - organisms organs - organisms tissues-organisms cells - organisms"
+  }
+}

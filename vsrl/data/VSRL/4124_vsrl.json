@@ -1,0 +1,920 @@
+{
+  "image_id": "4124",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          103,
+          33
+        ],
+        [
+          170,
+          55
+        ]
+      ],
+      "value": "sunlight",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          37,
+          93
+        ],
+        [
+          97,
+          125
+        ]
+      ],
+      "value": "carbon dioxide",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          39,
+          58
+        ],
+        [
+          109,
+          82
+        ]
+      ],
+      "value": "light energy",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          282,
+          46
+        ],
+        [
+          345,
+          69
+        ]
+      ],
+      "value": "Oxygen",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          310,
+          83
+        ],
+        [
+          376,
+          106
+        ]
+      ],
+      "value": "glucose",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          260,
+          208
+        ],
+        [
+          328,
+          229
+        ]
+      ],
+      "value": "minerals",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          94,
+          198
+        ],
+        [
+          135,
+          221
+        ]
+      ],
+      "value": "root",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          67,
+          237
+        ],
+        [
+          123,
+          256
+        ]
+      ],
+      "value": "water",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          26,
+          68
+        ],
+        [
+          61,
+          76
+        ],
+        [
+          92,
+          67
+        ],
+        [
+          110,
+          39
+        ],
+        [
+          94,
+          12
+        ],
+        [
+          56,
+          0
+        ],
+        [
+          19,
+          10
+        ],
+        [
+          8,
+          35
+        ],
+        [
+          26,
+          68
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          185,
+          184
+        ],
+        [
+          130,
+          205
+        ],
+        [
+          147,
+          229
+        ],
+        [
+          168,
+          246
+        ],
+        [
+          159,
+          268
+        ],
+        [
+          185,
+          268
+        ],
+        [
+          215,
+          277
+        ],
+        [
+          222,
+          266
+        ],
+        [
+          258,
+          261
+        ],
+        [
+          269,
+          247
+        ],
+        [
+          261,
+          224
+        ],
+        [
+          270,
+          202
+        ],
+        [
+          220,
+          187
+        ],
+        [
+          209,
+          187
+        ],
+        [
+          205,
+          168
+        ],
+        [
+          251,
+          164
+        ],
+        [
+          263,
+          147
+        ],
+        [
+          279,
+          126
+        ],
+        [
+          300,
+          110
+        ],
+        [
+          298,
+          99
+        ],
+        [
+          276,
+          93
+        ],
+        [
+          252,
+          102
+        ],
+        [
+          235,
+          107
+        ],
+        [
+          242,
+          79
+        ],
+        [
+          224,
+          78
+        ],
+        [
+          218,
+          62
+        ],
+        [
+          204,
+          71
+        ],
+        [
+          191,
+          38
+        ],
+        [
+          178,
+          30
+        ],
+        [
+          170,
+          42
+        ],
+        [
+          179,
+          54
+        ],
+        [
+          178,
+          71
+        ],
+        [
+          181,
+          84
+        ],
+        [
+          170,
+          97
+        ],
+        [
+          156,
+          75
+        ],
+        [
+          120,
+          80
+        ],
+        [
+          128,
+          98
+        ],
+        [
+          131,
+          116
+        ],
+        [
+          131,
+          138
+        ],
+        [
+          140,
+          147
+        ],
+        [
+          156,
+          167
+        ],
+        [
+          182,
+          183
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          227,
+          85
+        ],
+        [
+          249,
+          83
+        ],
+        [
+          275,
+          70
+        ],
+        [
+          273,
+          67
+        ],
+        [
+          286,
+          63
+        ],
+        [
+          286,
+          73
+        ],
+        [
+          283,
+          72
+        ],
+        [
+          262,
+          86
+        ],
+        [
+          227,
+          96
+        ],
+        [
+          228,
+          88
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          259,
+          129
+        ],
+        [
+          285,
+          122
+        ],
+        [
+          300,
+          116
+        ],
+        [
+          308,
+          109
+        ],
+        [
+          305,
+          107
+        ],
+        [
+          320,
+          103
+        ],
+        [
+          317,
+          116
+        ],
+        [
+          314,
+          113
+        ],
+        [
+          295,
+          124
+        ],
+        [
+          275,
+          131
+        ],
+        [
+          259,
+          132
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          317,
+          225
+        ],
+        [
+          303,
+          228
+        ],
+        [
+          275,
+          227
+        ],
+        [
+          275,
+          225
+        ],
+        [
+          265,
+          227
+        ],
+        [
+          271,
+          233
+        ],
+        [
+          275,
+          231
+        ],
+        [
+          305,
+          233
+        ],
+        [
+          316,
+          229
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          101,
+          251
+        ],
+        [
+          112,
+          255
+        ],
+        [
+          138,
+          253
+        ],
+        [
+          164,
+          246
+        ],
+        [
+          175,
+          244
+        ],
+        [
+          175,
+          241
+        ],
+        [
+          185,
+          241
+        ],
+        [
+          180,
+          250
+        ],
+        [
+          178,
+          249
+        ],
+        [
+          139,
+          258
+        ],
+        [
+          114,
+          261
+        ],
+        [
+          99,
+          255
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          135,
+          212
+        ],
+        [
+          156,
+          205
+        ],
+        [
+          173,
+          201
+        ],
+        [
+          190,
+          199
+        ],
+        [
+          190,
+          205
+        ],
+        [
+          202,
+          198
+        ],
+        [
+          191,
+          191
+        ],
+        [
+          190,
+          195
+        ],
+        [
+          171,
+          195
+        ],
+        [
+          150,
+          200
+        ],
+        [
+          136,
+          208
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          92,
+          123
+        ],
+        [
+          113,
+          135
+        ],
+        [
+          135,
+          142
+        ],
+        [
+          135,
+          147
+        ],
+        [
+          147,
+          144
+        ],
+        [
+          138,
+          135
+        ],
+        [
+          137,
+          137
+        ],
+        [
+          115,
+          130
+        ],
+        [
+          104,
+          124
+        ],
+        [
+          94,
+          122
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          99,
+          110
+        ],
+        [
+          120,
+          117
+        ],
+        [
+          141,
+          117
+        ],
+        [
+          143,
+          122
+        ],
+        [
+          155,
+          117
+        ],
+        [
+          147,
+          109
+        ],
+        [
+          142,
+          113
+        ],
+        [
+          121,
+          113
+        ],
+        [
+          101,
+          107
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H3",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H4",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H2",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H1",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H5",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H6",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B1+A0+T3",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "T3",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "B1+A1+T4",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "T4",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "B1+A4+B1",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B1",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A5+B1",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "B1",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T1+A6+B1",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "B1",
+      "connector": "A6",
+      "directional": true
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+A2+B1",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "B1",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T6+B1",
+      "type": "intraObjectLabel",
+      "source": "T6",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T7+A3+B1",
+      "type": "interObjectLinkage",
+      "source": "T7",
+      "target": "B1",
+      "connector": "A3",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector"
+  },
+  "educational_context": {
+    "subject": "physics",
+    "diagram_type": "flow_diagram",
+    "text_content": "sunlight carbon dioxide light energy oxygen glucose minerals root water"
+  },
+  "questions": [
+    {
+      "question_text": "B represents a gas produced during photosynthesis. What is this gas?",
+      "question_id": "4124.png-0",
+      "answers": [
+        "Carbon Dioxide",
+        "Carbon Monoxide",
+        "Nitrogen",
+        "Oxygen"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "D represents a gas that the plant intakes during the photosynthesis process. What is this gas?",
+      "question_id": "4124.png-1",
+      "answers": [
+        "Nitrogen",
+        "Oxygen",
+        "Carbon Dioxide",
+        "Hydrogen"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "What process does this diagram portray?",
+      "question_id": "4124.png-4",
+      "answers": [
+        "Erosion",
+        "Water Cycle",
+        "Photosynthesis",
+        "Moon Phases"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which letter represents A colorless, odorless, incombustible gas, CO2, formed during respiration, combustion, and organic decomposition and used in food refrigeration, carbonated beverages, inert atmospheres, fire extinguishers, and aerosols. Also called carbonic acid gas?",
+      "question_id": "4124.png-3",
+      "answers": [
+        "A",
+        "H",
+        "F",
+        "D"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which solar body is portrayed in this diagram?",
+      "question_id": "4124.png-2",
+      "answers": [
+        "Moon",
+        "Black Hole",
+        "Sun",
+        "Nebula"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

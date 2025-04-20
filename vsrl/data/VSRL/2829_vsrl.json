@@ -1,0 +1,568 @@
+{
+  "image_id": "2829",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          121,
+          0
+        ],
+        [
+          166,
+          13
+        ]
+      ],
+      "value": "larvae",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          107,
+          19
+        ],
+        [
+          185,
+          35
+        ]
+      ],
+      "value": "Head Capsule",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          202,
+          101
+        ],
+        [
+          241,
+          114
+        ]
+      ],
+      "value": "Absent",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          207,
+          136
+        ],
+        [
+          234,
+          149
+        ]
+      ],
+      "value": "FLY",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          146,
+          157
+        ],
+        [
+          174,
+          168
+        ]
+      ],
+      "value": "Head",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          45,
+          100
+        ],
+        [
+          93,
+          116
+        ]
+      ],
+      "value": "Present",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          48,
+          138
+        ],
+        [
+          90,
+          162
+        ]
+      ],
+      "value": "Prolegs absent",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          43,
+          182
+        ],
+        [
+          97,
+          198
+        ]
+      ],
+      "value": "BEETLE",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          232
+        ],
+        [
+          27,
+          242
+        ]
+      ],
+      "value": "Head",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          36,
+          243
+        ],
+        [
+          55,
+          235
+        ],
+        [
+          65,
+          232
+        ],
+        [
+          81,
+          239
+        ],
+        [
+          94,
+          256
+        ],
+        [
+          106,
+          254
+        ],
+        [
+          101,
+          229
+        ],
+        [
+          89,
+          216
+        ],
+        [
+          80,
+          208
+        ],
+        [
+          69,
+          208
+        ],
+        [
+          56,
+          209
+        ],
+        [
+          47,
+          210
+        ],
+        [
+          42,
+          216
+        ],
+        [
+          32,
+          223
+        ],
+        [
+          32,
+          235
+        ],
+        [
+          30,
+          244
+        ],
+        [
+          36,
+          241
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          179,
+          177
+        ],
+        [
+          192,
+          177
+        ],
+        [
+          206,
+          182
+        ],
+        [
+          261,
+          183
+        ],
+        [
+          262,
+          160
+        ],
+        [
+          251,
+          156
+        ],
+        [
+          193,
+          158
+        ],
+        [
+          184,
+          162
+        ],
+        [
+          178,
+          175
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          142,
+          34
+        ],
+        [
+          141,
+          47
+        ],
+        [
+          65,
+          81
+        ],
+        [
+          64,
+          89
+        ],
+        [
+          72,
+          88
+        ],
+        [
+          145,
+          59
+        ],
+        [
+          213,
+          89
+        ],
+        [
+          216,
+          101
+        ],
+        [
+          223,
+          103
+        ],
+        [
+          227,
+          83
+        ],
+        [
+          150,
+          47
+        ],
+        [
+          147,
+          33
+        ],
+        [
+          141,
+          33
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          218,
+          113
+        ],
+        [
+          228,
+          115
+        ],
+        [
+          228,
+          135
+        ],
+        [
+          219,
+          135
+        ],
+        [
+          218,
+          115
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          64,
+          113
+        ],
+        [
+          78,
+          115
+        ],
+        [
+          75,
+          135
+        ],
+        [
+          66,
+          137
+        ],
+        [
+          63,
+          117
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          60,
+          159
+        ],
+        [
+          72,
+          161
+        ],
+        [
+          74,
+          182
+        ],
+        [
+          64,
+          182
+        ],
+        [
+          62,
+          163
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          174,
+          161
+        ],
+        [
+          184,
+          172
+        ],
+        [
+          181,
+          176
+        ],
+        [
+          172,
+          169
+        ],
+        [
+          174,
+          162
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          24,
+          235
+        ],
+        [
+          27,
+          241
+        ],
+        [
+          40,
+          239
+        ],
+        [
+          39,
+          233
+        ],
+        [
+          27,
+          235
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A0+T5",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T5",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T2+A1+T3",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T3",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T3+I0",
+      "type": "sectionTitle",
+      "source": "T3",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+A4+B1",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "B1",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T5+A2+T6",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T6",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T6+A3+T7",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T7",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T7+I0",
+      "type": "sectionTitle",
+      "source": "T7",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T8+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T8",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "larvae head capsule absent fly head present prolegs absent beetle head"
+  }
+}

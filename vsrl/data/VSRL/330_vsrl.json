@@ -1,0 +1,620 @@
+{
+  "image_id": "330",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          4,
+          3
+        ],
+        [
+          46,
+          23
+        ]
+      ],
+      "value": "water",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          53,
+          2
+        ],
+        [
+          174,
+          41
+        ]
+      ],
+      "value": "dead organisms, plant and animals",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T10": {
+      "id": "T10",
+      "type": "text",
+      "bbox": [
+        [
+          371,
+          54
+        ],
+        [
+          395,
+          78
+        ]
+      ],
+      "value": "3",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          254,
+          2
+        ],
+        [
+          343,
+          41
+        ]
+      ],
+      "value": "sedimentary rocks",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          410,
+          2
+        ],
+        [
+          501,
+          41
+        ]
+      ],
+      "value": "impermeable rocks",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          21,
+          223
+        ],
+        [
+          124,
+          243
+        ]
+      ],
+      "value": "trapped fossils",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          358,
+          226
+        ],
+        [
+          398,
+          243
+        ]
+      ],
+      "value": "coal",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          430,
+          228
+        ],
+        [
+          453,
+          243
+        ]
+      ],
+      "value": "oil",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          462,
+          226
+        ],
+        [
+          539,
+          243
+        ]
+      ],
+      "value": "natural gas",
+      "replacementText": "K",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          6,
+          55
+        ],
+        [
+          25,
+          78
+        ]
+      ],
+      "value": "1",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          187,
+          56
+        ],
+        [
+          209,
+          78
+        ]
+      ],
+      "value": "2",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          2,
+          55
+        ],
+        [
+          1,
+          211
+        ],
+        [
+          178,
+          209
+        ],
+        [
+          177,
+          52
+        ],
+        [
+          2,
+          54
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          180,
+          50
+        ],
+        [
+          182,
+          212
+        ],
+        [
+          360,
+          209
+        ],
+        [
+          360,
+          50
+        ],
+        [
+          182,
+          50
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          364,
+          53
+        ],
+        [
+          364,
+          211
+        ],
+        [
+          539,
+          209
+        ],
+        [
+          539,
+          49
+        ],
+        [
+          365,
+          50
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          475,
+          18
+        ],
+        [
+          487,
+          19
+        ],
+        [
+          453,
+          152
+        ],
+        [
+          446,
+          150
+        ],
+        [
+          477,
+          21
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          432,
+          160
+        ],
+        [
+          442,
+          158
+        ],
+        [
+          448,
+          226
+        ],
+        [
+          438,
+          229
+        ],
+        [
+          431,
+          158
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          493,
+          154
+        ],
+        [
+          504,
+          151
+        ],
+        [
+          517,
+          229
+        ],
+        [
+          507,
+          227
+        ],
+        [
+          493,
+          154
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          98,
+          225
+        ],
+        [
+          228,
+          180
+        ],
+        [
+          225,
+          172
+        ],
+        [
+          107,
+          214
+        ],
+        [
+          117,
+          191
+        ],
+        [
+          105,
+          190
+        ],
+        [
+          93,
+          222
+        ],
+        [
+          96,
+          223
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          317,
+          25
+        ],
+        [
+          328,
+          27
+        ],
+        [
+          307,
+          139
+        ],
+        [
+          297,
+          137
+        ],
+        [
+          318,
+          26
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          92,
+          31
+        ],
+        [
+          104,
+          33
+        ],
+        [
+          68,
+          167
+        ],
+        [
+          59,
+          162
+        ],
+        [
+          93,
+          31
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          25,
+          16
+        ],
+        [
+          35,
+          16
+        ],
+        [
+          52,
+          85
+        ],
+        [
+          44,
+          90
+        ],
+        [
+          27,
+          17
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          380,
+          148
+        ],
+        [
+          391,
+          149
+        ],
+        [
+          382,
+          228
+        ],
+        [
+          372,
+          225
+        ],
+        [
+          382,
+          151
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T1+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T10+B2",
+      "type": "intraObjectLabel",
+      "source": "T10",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+A0+B2",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B2",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T4+A3+B1",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B1",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T5+A7+B2",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B2",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T6+A1+B2",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B2",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T7+A2+B2",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B2",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T8+B0",
+      "type": "intraObjectLabel",
+      "source": "T8",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T9+B1",
+      "type": "intraObjectLabel",
+      "source": "T9",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T10": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "water dead organisms, plant and animals 3 sedimentary rocks impermeable rocks trapped fossils coal oil natural gas 1 2"
+  }
+}

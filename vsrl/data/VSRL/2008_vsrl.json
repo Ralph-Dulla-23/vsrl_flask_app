@@ -1,0 +1,680 @@
+{
+  "image_id": "2008",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          58,
+          108
+        ],
+        [
+          104,
+          125
+        ]
+      ],
+      "value": "The Sun",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          166,
+          89
+        ],
+        [
+          247,
+          123
+        ]
+      ],
+      "value": "Kangaroo Paw plant",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          369,
+          103
+        ],
+        [
+          396,
+          118
+        ]
+      ],
+      "value": "Ants",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          352,
+          263
+        ],
+        [
+          382,
+          280
+        ]
+      ],
+      "value": "Lion",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          94,
+          223
+        ],
+        [
+          137,
+          235
+        ]
+      ],
+      "value": "Anteater",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          193,
+          348
+        ],
+        [
+          222,
+          365
+        ]
+      ],
+      "value": "Worm",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          35,
+          112
+        ],
+        [
+          126,
+          112
+        ],
+        [
+          128,
+          14
+        ],
+        [
+          37,
+          14
+        ],
+        [
+          34,
+          112
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          194,
+          99
+        ],
+        [
+          271,
+          99
+        ],
+        [
+          270,
+          25
+        ],
+        [
+          198,
+          23
+        ],
+        [
+          196,
+          98
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          338,
+          94
+        ],
+        [
+          439,
+          95
+        ],
+        [
+          439,
+          27
+        ],
+        [
+          341,
+          25
+        ],
+        [
+          339,
+          90
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          295,
+          253
+        ],
+        [
+          441,
+          253
+        ],
+        [
+          440,
+          146
+        ],
+        [
+          294,
+          146
+        ],
+        [
+          295,
+          250
+        ]
+      ],
+      "category": "object"
+    },
+    "B4": {
+      "id": "B4",
+      "type": "blob",
+      "polygon": [
+        [
+          52,
+          370
+        ],
+        [
+          192,
+          371
+        ],
+        [
+          193,
+          275
+        ],
+        [
+          51,
+          273
+        ],
+        [
+          49,
+          368
+        ]
+      ],
+      "category": "object"
+    },
+    "B5": {
+      "id": "B5",
+      "type": "blob",
+      "polygon": [
+        [
+          0,
+          266
+        ],
+        [
+          87,
+          268
+        ],
+        [
+          89,
+          181
+        ],
+        [
+          5,
+          179
+        ],
+        [
+          0,
+          263
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          132,
+          54
+        ],
+        [
+          178,
+          55
+        ],
+        [
+          179,
+          69
+        ],
+        [
+          130,
+          67
+        ],
+        [
+          131,
+          53
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          287,
+          64
+        ],
+        [
+          285,
+          50
+        ],
+        [
+          326,
+          57
+        ],
+        [
+          326,
+          67
+        ],
+        [
+          290,
+          64
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          335,
+          77
+        ],
+        [
+          341,
+          87
+        ],
+        [
+          85,
+          185
+        ],
+        [
+          79,
+          168
+        ],
+        [
+          334,
+          75
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          156,
+          220
+        ],
+        [
+          292,
+          219
+        ],
+        [
+          289,
+          234
+        ],
+        [
+          155,
+          233
+        ],
+        [
+          155,
+          222
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          215,
+          323
+        ],
+        [
+          353,
+          276
+        ],
+        [
+          355,
+          290
+        ],
+        [
+          217,
+          332
+        ],
+        [
+          216,
+          325
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H2",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H0",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H4",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A0+B1",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B1",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "B1+A1+B2",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B2",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "B2+A2+B5",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B5",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "B3+A4+B4",
+      "type": "interObjectLinkage",
+      "source": "B3",
+      "target": "B4",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "B5+A3+B3",
+      "type": "interObjectLinkage",
+      "source": "B5",
+      "target": "B3",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B1",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B2",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B3",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B5",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+B4",
+      "type": "intraObjectLabel",
+      "source": "T5",
+      "target": "B4",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "B4": "whole",
+    "B5": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "the sun kangaroo paw plant ants lion anteater worm"
+  },
+  "questions": [
+    {
+      "question_text": "Based on this food chain, which animal is the largest predator?",
+      "question_id": "2008.png-5",
+      "answers": [
+        "Worm",
+        "Lion",
+        "Anteater",
+        "Ant"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "If the population of ants were to die off due to an industrial accident leaking massive amounts of ant poison, the population of anteaters will likely...?",
+      "question_id": "2008.png-4",
+      "answers": [
+        "stay the same",
+        "decrease",
+        "increase",
+        "can't say"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the diagram of the food web shown which provides the energy source for kangaroo paw plants?",
+      "question_id": "2008.png-7",
+      "answers": [
+        "ants",
+        "worms",
+        "the sun",
+        "anteater"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the diagram of the food web shown, the sun directly provides energy for what?",
+      "question_id": "2008.png-3",
+      "answers": [
+        "ants",
+        "worm",
+        "anteater",
+        "kangaroo paw plant"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the diagram shown, which is the producer?",
+      "question_id": "2008.png-1",
+      "answers": [
+        "kangaroo paw plant",
+        "the sun",
+        "worm",
+        "lion"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the diagram shown, which organism consumes ants for food?",
+      "question_id": "2008.png-9",
+      "answers": [
+        "anteater",
+        "lions",
+        "worms",
+        "the sun"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the diagram shown, which organism consumes worms as a food source?",
+      "question_id": "2008.png-0",
+      "answers": [
+        "lion",
+        "the sun",
+        "ants",
+        "anteater"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "In this example of a food chain, which is the correct and direct flow?",
+      "question_id": "2008.png-2",
+      "answers": [
+        "Ants to Worm",
+        "The Sun to Ants",
+        "Worm to Anteater",
+        "Anteater to Lion"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What feeds on the anteater?",
+      "question_id": "2008.png-8",
+      "answers": [
+        "kangaroo paw plant",
+        "the sun",
+        "lion",
+        "worm"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What produces energy?",
+      "question_id": "2008.png-6",
+      "answers": [
+        "lion",
+        "worm",
+        "sun",
+        "ants"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

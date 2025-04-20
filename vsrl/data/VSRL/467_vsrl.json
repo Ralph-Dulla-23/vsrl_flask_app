@@ -1,0 +1,782 @@
+{
+  "image_id": "467",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          124,
+          21
+        ],
+        [
+          169,
+          34
+        ]
+      ],
+      "value": "tilapia",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          338,
+          18
+        ],
+        [
+          417,
+          35
+        ]
+      ],
+      "value": "kingfisher ",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          363,
+          67
+        ],
+        [
+          447,
+          82
+        ]
+      ],
+      "value": "snakehead",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          238,
+          106
+        ],
+        [
+          357,
+          126
+        ]
+      ],
+      "value": "dragonfly nymph",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          85,
+          108
+        ],
+        [
+          142,
+          127
+        ]
+      ],
+      "value": "tadpole",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          159,
+          67
+        ],
+        [
+          211,
+          86
+        ]
+      ],
+      "value": "shrimp",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          3,
+          56
+        ],
+        [
+          85,
+          74
+        ]
+      ],
+      "value": "water plant",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          58,
+          56
+        ],
+        [
+          118,
+          34
+        ],
+        [
+          121,
+          37
+        ],
+        [
+          126,
+          25
+        ],
+        [
+          111,
+          23
+        ],
+        [
+          109,
+          28
+        ],
+        [
+          46,
+          48
+        ],
+        [
+          55,
+          57
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          54,
+          73
+        ],
+        [
+          82,
+          99
+        ],
+        [
+          93,
+          112
+        ],
+        [
+          81,
+          118
+        ],
+        [
+          41,
+          82
+        ],
+        [
+          51,
+          74
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          174,
+          68
+        ],
+        [
+          154,
+          44
+        ],
+        [
+          150,
+          45
+        ],
+        [
+          149,
+          33
+        ],
+        [
+          163,
+          34
+        ],
+        [
+          161,
+          41
+        ],
+        [
+          186,
+          66
+        ],
+        [
+          177,
+          68
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          89,
+          59
+        ],
+        [
+          150,
+          70
+        ],
+        [
+          150,
+          64
+        ],
+        [
+          161,
+          74
+        ],
+        [
+          150,
+          82
+        ],
+        [
+          149,
+          77
+        ],
+        [
+          88,
+          68
+        ],
+        [
+          87,
+          62
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          139,
+          113
+        ],
+        [
+          140,
+          120
+        ],
+        [
+          225,
+          121
+        ],
+        [
+          225,
+          124
+        ],
+        [
+          241,
+          117
+        ],
+        [
+          226,
+          110
+        ],
+        [
+          223,
+          113
+        ],
+        [
+          142,
+          113
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          215,
+          80
+        ],
+        [
+          352,
+          80
+        ],
+        [
+          356,
+          86
+        ],
+        [
+          365,
+          77
+        ],
+        [
+          351,
+          72
+        ],
+        [
+          350,
+          74
+        ],
+        [
+          212,
+          75
+        ],
+        [
+          217,
+          81
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          360,
+          111
+        ],
+        [
+          366,
+          118
+        ],
+        [
+          393,
+          94
+        ],
+        [
+          399,
+          100
+        ],
+        [
+          403,
+          81
+        ],
+        [
+          386,
+          85
+        ],
+        [
+          390,
+          88
+        ],
+        [
+          359,
+          109
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          167,
+          36
+        ],
+        [
+          352,
+          73
+        ],
+        [
+          352,
+          76
+        ],
+        [
+          364,
+          73
+        ],
+        [
+          355,
+          67
+        ],
+        [
+          352,
+          68
+        ],
+        [
+          165,
+          30
+        ],
+        [
+          165,
+          36
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          168,
+          19
+        ],
+        [
+          321,
+          19
+        ],
+        [
+          321,
+          14
+        ],
+        [
+          337,
+          26
+        ],
+        [
+          323,
+          33
+        ],
+        [
+          320,
+          27
+        ],
+        [
+          171,
+          30
+        ],
+        [
+          168,
+          20
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H4",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H5",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H6",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H7",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A8+H8",
+      "type": "arrowHeadTail",
+      "source": "A8",
+      "target": "H8",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A7+T2",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T2",
+      "connector": "A7",
+      "directional": true
+    },
+    {
+      "id": "T0+A8+T1",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T1",
+      "connector": "A8",
+      "directional": true
+    },
+    {
+      "id": "T3+A6+T2",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T2",
+      "connector": "A6",
+      "directional": true
+    },
+    {
+      "id": "T4+A4+T3",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T3",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T5+A2+T0",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T0",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T5+A5+T2",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T2",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T6+A0+T0",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T0",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T6+A1+T4",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T4",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T6+A3+T5",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T5",
+      "connector": "A3",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "tilapia kingfisher  snakehead dragonfly nymph tadpole shrimp water plant"
+  },
+  "questions": [
+    {
+      "question_text": "How does energy flow in this food chain in the above example?",
+      "question_id": "467.png-7",
+      "answers": [
+        "Snake head to Kingfisher",
+        "Water plant to tadpole",
+        "Shrimp to Water plant",
+        "Kingfisher to shrimp"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "If shrimp were eliminated from this ecosystem by humans, which organism would most likely starve?",
+      "question_id": "467.png-11",
+      "answers": [
+        "Tadpole",
+        "Tilapia",
+        "Water plant",
+        "Dragonfly nymph"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "If the Snakeheads in the community below were destroyed, which population would be most directly affected?",
+      "question_id": "467.png-8",
+      "answers": [
+        "Kingfisher",
+        "Tadpole",
+        "Shrimp",
+        "None of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Look at this food web. If the water plant stops growing, which part of this food web will directly be affected?",
+      "question_id": "467.png-4",
+      "answers": [
+        "Tadpole",
+        "Dragonfly nymph",
+        "Kingfisher",
+        "Snakehead"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Two of the herbivores represented in this food web are.",
+      "question_id": "467.png-3",
+      "answers": [
+        "Snakehead and Dragonfly",
+        "Kingfisher and Shrimp",
+        "Shrimp and Tadpole",
+        "None of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is water plant?",
+      "question_id": "467.png-1",
+      "answers": [
+        "producer",
+        "host",
+        "prey",
+        "predator"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What will happen if all the tilapia died?",
+      "question_id": "467.png-0",
+      "answers": [
+        "more dragonfly nymph",
+        "fewer shrimp",
+        "more snakeheads",
+        "more water plants"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What will happen if another herbivore is introduced?",
+      "question_id": "467.png-2",
+      "answers": [
+        "less water plant",
+        "more tilapia",
+        "more snakehead",
+        "fewer kingfisher"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would happen to shrimp if water plants increased?",
+      "question_id": "467.png-6",
+      "answers": [
+        "can't predict",
+        "increase",
+        "decrease",
+        "stay same"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would happen to the water plants if the number of tilapia increased?",
+      "question_id": "467.png-9",
+      "answers": [
+        "increase",
+        "can't predict",
+        "decrease",
+        "stay the same"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which is a secondary consumer?",
+      "question_id": "467.png-5",
+      "answers": [
+        "kingfisher",
+        "tilapia",
+        "tadpole",
+        "water plant"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which is classified as a producer in eth above diagram?",
+      "question_id": "467.png-10",
+      "answers": [
+        "Kingfisher",
+        "Water Plant",
+        "Snake head",
+        "Shrimp"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

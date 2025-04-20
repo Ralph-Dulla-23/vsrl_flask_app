@@ -1,0 +1,618 @@
+{
+  "image_id": "1118",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          134,
+          24
+        ],
+        [
+          521,
+          63
+        ]
+      ],
+      "value": "LEAF PART NAMES",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          482,
+          97
+        ],
+        [
+          552,
+          129
+        ]
+      ],
+      "value": "Vein",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          583,
+          203
+        ],
+        [
+          634,
+          242
+        ]
+      ],
+      "value": "Tip",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          472,
+          424
+        ],
+        [
+          548,
+          461
+        ]
+      ],
+      "value": "Blade",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          88,
+          414
+        ],
+        [
+          187,
+          455
+        ]
+      ],
+      "value": "Petiole",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          64,
+          473
+        ],
+        [
+          170,
+          516
+        ]
+      ],
+      "value": "Stipule",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          58,
+          256
+        ],
+        [
+          115,
+          294
+        ]
+      ],
+      "value": "Axil",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          27,
+          79
+        ],
+        [
+          33,
+          210
+        ],
+        [
+          29,
+          371
+        ],
+        [
+          27,
+          525
+        ],
+        [
+          47,
+          519
+        ],
+        [
+          49,
+          464
+        ],
+        [
+          58,
+          406
+        ],
+        [
+          73,
+          391
+        ],
+        [
+          93,
+          387
+        ],
+        [
+          102,
+          386
+        ],
+        [
+          86,
+          372
+        ],
+        [
+          64,
+          369
+        ],
+        [
+          98,
+          351
+        ],
+        [
+          116,
+          332
+        ],
+        [
+          148,
+          311
+        ],
+        [
+          161,
+          304
+        ],
+        [
+          157,
+          357
+        ],
+        [
+          173,
+          400
+        ],
+        [
+          194,
+          426
+        ],
+        [
+          245,
+          452
+        ],
+        [
+          295,
+          450
+        ],
+        [
+          353,
+          429
+        ],
+        [
+          396,
+          404
+        ],
+        [
+          442,
+          378
+        ],
+        [
+          495,
+          336
+        ],
+        [
+          550,
+          304
+        ],
+        [
+          597,
+          285
+        ],
+        [
+          573,
+          261
+        ],
+        [
+          520,
+          196
+        ],
+        [
+          463,
+          139
+        ],
+        [
+          400,
+          97
+        ],
+        [
+          345,
+          87
+        ],
+        [
+          267,
+          91
+        ],
+        [
+          219,
+          105
+        ],
+        [
+          179,
+          121
+        ],
+        [
+          143,
+          164
+        ],
+        [
+          135,
+          198
+        ],
+        [
+          142,
+          250
+        ],
+        [
+          161,
+          289
+        ],
+        [
+          116,
+          312
+        ],
+        [
+          70,
+          346
+        ],
+        [
+          74,
+          334
+        ],
+        [
+          54,
+          362
+        ],
+        [
+          45,
+          350
+        ],
+        [
+          45,
+          318
+        ],
+        [
+          50,
+          234
+        ],
+        [
+          51,
+          158
+        ],
+        [
+          52,
+          89
+        ],
+        [
+          28,
+          77
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          489,
+          132
+        ],
+        [
+          506,
+          135
+        ],
+        [
+          470,
+          211
+        ],
+        [
+          449,
+          206
+        ],
+        [
+          486,
+          135
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          596,
+          236
+        ],
+        [
+          612,
+          243
+        ],
+        [
+          590,
+          284
+        ],
+        [
+          578,
+          279
+        ],
+        [
+          596,
+          239
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          383,
+          366
+        ],
+        [
+          403,
+          357
+        ],
+        [
+          470,
+          429
+        ],
+        [
+          451,
+          433
+        ],
+        [
+          382,
+          369
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          114,
+          325
+        ],
+        [
+          132,
+          313
+        ],
+        [
+          147,
+          413
+        ],
+        [
+          125,
+          418
+        ],
+        [
+          114,
+          323
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          65,
+          285
+        ],
+        [
+          81,
+          296
+        ],
+        [
+          50,
+          373
+        ],
+        [
+          40,
+          364
+        ],
+        [
+          66,
+          285
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          63,
+          387
+        ],
+        [
+          75,
+          382
+        ],
+        [
+          95,
+          465
+        ],
+        [
+          84,
+          477
+        ],
+        [
+          58,
+          385
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T2+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T3+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T4+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T5+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T6+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "leaf part names vein tip blade petiole stipule axil"
+  },
+  "questions": [
+    {
+      "question_text": "What connects the leaf to the stem?",
+      "question_id": "1118.png-2",
+      "answers": [
+        "Blade",
+        "Vein",
+        "Tip",
+        "Petiole"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What transports water and minerals inside a leaf?",
+      "question_id": "1118.png-0",
+      "answers": [
+        "Blade",
+        "Tip",
+        "Axil",
+        "Vein"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which region in the diagram represents the axil",
+      "question_id": "1118.png-1",
+      "answers": [
+        "b",
+        "c",
+        "a",
+        "g"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which region in the diagram represents the blade?",
+      "question_id": "1118.png-3",
+      "answers": [
+        "d",
+        "b",
+        "a",
+        "c"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

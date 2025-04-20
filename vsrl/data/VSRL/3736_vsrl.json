@@ -1,0 +1,510 @@
+{
+  "image_id": "3736",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          349,
+          210
+        ],
+        [
+          368,
+          227
+        ]
+      ],
+      "value": "C",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          166,
+          27
+        ],
+        [
+          179,
+          21
+        ],
+        [
+          198,
+          24
+        ],
+        [
+          221,
+          29
+        ],
+        [
+          227,
+          37
+        ],
+        [
+          223,
+          46
+        ],
+        [
+          232,
+          55
+        ],
+        [
+          236,
+          68
+        ],
+        [
+          241,
+          76
+        ],
+        [
+          242,
+          80
+        ],
+        [
+          232,
+          84
+        ],
+        [
+          229,
+          92
+        ],
+        [
+          225,
+          100
+        ],
+        [
+          216,
+          108
+        ],
+        [
+          208,
+          109
+        ],
+        [
+          217,
+          118
+        ],
+        [
+          245,
+          128
+        ],
+        [
+          263,
+          135
+        ],
+        [
+          270,
+          153
+        ],
+        [
+          266,
+          176
+        ],
+        [
+          271,
+          203
+        ],
+        [
+          271,
+          240
+        ],
+        [
+          276,
+          283
+        ],
+        [
+          277,
+          299
+        ],
+        [
+          267,
+          309
+        ],
+        [
+          248,
+          318
+        ],
+        [
+          240,
+          319
+        ],
+        [
+          240,
+          309
+        ],
+        [
+          233,
+          310
+        ],
+        [
+          221,
+          313
+        ],
+        [
+          210,
+          309
+        ],
+        [
+          204,
+          319
+        ],
+        [
+          199,
+          336
+        ],
+        [
+          189,
+          339
+        ],
+        [
+          186,
+          326
+        ],
+        [
+          170,
+          324
+        ],
+        [
+          143,
+          319
+        ],
+        [
+          120,
+          311
+        ],
+        [
+          108,
+          309
+        ],
+        [
+          116,
+          239
+        ],
+        [
+          111,
+          197
+        ],
+        [
+          108,
+          162
+        ],
+        [
+          116,
+          138
+        ],
+        [
+          143,
+          122
+        ],
+        [
+          160,
+          113
+        ],
+        [
+          163,
+          99
+        ],
+        [
+          147,
+          85
+        ],
+        [
+          140,
+          54
+        ],
+        [
+          153,
+          34
+        ],
+        [
+          166,
+          25
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          226,
+          95
+        ],
+        [
+          234,
+          100
+        ],
+        [
+          327,
+          99
+        ],
+        [
+          327,
+          87
+        ],
+        [
+          240,
+          86
+        ],
+        [
+          224,
+          90
+        ],
+        [
+          224,
+          94
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          184,
+          124
+        ],
+        [
+          183,
+          138
+        ],
+        [
+          76,
+          135
+        ],
+        [
+          75,
+          124
+        ],
+        [
+          180,
+          123
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          78,
+          250
+        ],
+        [
+          152,
+          250
+        ],
+        [
+          152,
+          263
+        ],
+        [
+          77,
+          260
+        ],
+        [
+          78,
+          253
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          174,
+          222
+        ],
+        [
+          176,
+          210
+        ],
+        [
+          332,
+          212
+        ],
+        [
+          332,
+          224
+        ],
+        [
+          176,
+          225
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          184,
+          262
+        ],
+        [
+          187,
+          273
+        ],
+        [
+          331,
+          274
+        ],
+        [
+          333,
+          265
+        ],
+        [
+          188,
+          260
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          186,
+          315
+        ],
+        [
+          335,
+          316
+        ],
+        [
+          336,
+          324
+        ],
+        [
+          187,
+          324
+        ],
+        [
+          186,
+          317
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H4",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H5",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H1",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "c"
+  },
+  "questions": [
+    {
+      "question_text": "Food goes from A through B into?",
+      "question_id": "3736.png-0",
+      "answers": [
+        "F",
+        "E",
+        "C",
+        "D"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is the label B representing?",
+      "question_id": "3736.png-2",
+      "answers": [
+        "mouth",
+        "large intestines",
+        "esophagus",
+        "stomach"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What label represents the esophagus?",
+      "question_id": "3736.png-1",
+      "answers": [
+        "D",
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

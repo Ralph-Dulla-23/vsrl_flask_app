@@ -1,0 +1,524 @@
+{
+  "image_id": "2117",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          60,
+          0
+        ],
+        [
+          87,
+          13
+        ]
+      ],
+      "value": "Owl",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          53
+        ],
+        [
+          31,
+          66
+        ]
+      ],
+      "value": "Snake",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          1,
+          109
+        ],
+        [
+          31,
+          122
+        ]
+      ],
+      "value": "Frog",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          120,
+          106
+        ],
+        [
+          143,
+          121
+        ]
+      ],
+      "value": "Bird",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          41,
+          162
+        ],
+        [
+          107,
+          177
+        ]
+      ],
+      "value": "Grasshopper",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          42,
+          213
+        ],
+        [
+          106,
+          229
+        ]
+      ],
+      "value": "Grass plants",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          28,
+          51
+        ],
+        [
+          62,
+          13
+        ],
+        [
+          68,
+          20
+        ],
+        [
+          36,
+          56
+        ],
+        [
+          31,
+          52
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          77,
+          18
+        ],
+        [
+          127,
+          106
+        ],
+        [
+          133,
+          108
+        ],
+        [
+          133,
+          104
+        ],
+        [
+          82,
+          16
+        ],
+        [
+          77,
+          20
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          18,
+          105
+        ],
+        [
+          10,
+          105
+        ],
+        [
+          11,
+          68
+        ],
+        [
+          19,
+          68
+        ],
+        [
+          19,
+          101
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          26,
+          116
+        ],
+        [
+          23,
+          128
+        ],
+        [
+          64,
+          163
+        ],
+        [
+          68,
+          159
+        ],
+        [
+          28,
+          119
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          119,
+          117
+        ],
+        [
+          127,
+          124
+        ],
+        [
+          82,
+          163
+        ],
+        [
+          79,
+          157
+        ],
+        [
+          119,
+          120
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          77,
+          180
+        ],
+        [
+          78,
+          216
+        ],
+        [
+          68,
+          215
+        ],
+        [
+          68,
+          178
+        ],
+        [
+          79,
+          177
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H4",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H3",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H1",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H2",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H5",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A0+T0",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T0",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T2+A2+T1",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T1",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T3+A1+T0",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T0",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T4+A3+T2",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T2",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T4+A4+T3",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T3",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T5+A5+T4",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T4",
+      "connector": "A5",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "owl snake frog bird grasshopper grass plants"
+  },
+  "questions": [
+    {
+      "question_text": "According to the given food weB, which is the organism that gets its energy from secondary consumers?",
+      "question_id": "2117.png-8",
+      "answers": [
+        "bird",
+        "grasshopper",
+        "snake, owl",
+        "grass plants"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "According to the given food web, what will be the result if frogs were killed?",
+      "question_id": "2117.png-10",
+      "answers": [
+        "Decrease in birds",
+        "Decrease in snake population",
+        "Increase in snake population",
+        "Grasshoppers will die"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Based on the food web provided, which of the animals may be classified as a Herbivore?",
+      "question_id": "2117.png-7",
+      "answers": [
+        "Snake",
+        "Grasshopper",
+        "Owl",
+        "Frog"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the diagram shown, which is the producer?",
+      "question_id": "2117.png-3",
+      "answers": [
+        "grass plants",
+        "owls",
+        "grasshoppers",
+        "birds"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the diagram shown, which organism consumes the frog for food energy?",
+      "question_id": "2117.png-1",
+      "answers": [
+        "snakes",
+        "grasshoppers",
+        "owls",
+        "birds"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Using the food web provided, what organism may be classified as a producer?",
+      "question_id": "2117.png-2",
+      "answers": [
+        "Grashopper",
+        "Grass Plants",
+        "Owl",
+        "Bird"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What do grasshoppers feed on?",
+      "question_id": "2117.png-6",
+      "answers": [
+        "snake",
+        "bird",
+        "grass plants",
+        "none of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What feeds on snakes?",
+      "question_id": "2117.png-5",
+      "answers": [
+        "grass plants",
+        "bird",
+        "owl",
+        "grasshopper"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is a producer?",
+      "question_id": "2117.png-9",
+      "answers": [
+        "grass plant",
+        "owl",
+        "bird",
+        "snake"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is considered a producer in the web?",
+      "question_id": "2117.png-4",
+      "answers": [
+        "bird",
+        "snake",
+        "grass plants",
+        "none of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would be responsible for an increase in Snakes?",
+      "question_id": "2117.png-0",
+      "answers": [
+        "More birds",
+        "Less owls",
+        "Less grass plants",
+        "Less frogs"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

@@ -1,0 +1,767 @@
+{
+  "image_id": "3102",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          10,
+          16
+        ],
+        [
+          109,
+          47
+        ]
+      ],
+      "value": "Prokaryote cell (no nucleus)",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          258,
+          36
+        ],
+        [
+          334,
+          51
+        ]
+      ],
+      "value": "DNA strands",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          172
+        ],
+        [
+          86,
+          189
+        ]
+      ],
+      "value": "Mitochondrion",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          46,
+          335
+        ],
+        [
+          165,
+          348
+        ]
+      ],
+      "value": "Nuclear membrane",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          204,
+          260
+        ],
+        [
+          291,
+          295
+        ]
+      ],
+      "value": "Eukaryote cell (has nucleus)",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          177,
+          321
+        ],
+        [
+          229,
+          337
+        ]
+      ],
+      "value": "Nucleus",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          57,
+          208
+        ],
+        [
+          94,
+          181
+        ],
+        [
+          131,
+          175
+        ],
+        [
+          170,
+          192
+        ],
+        [
+          196,
+          232
+        ],
+        [
+          198,
+          277
+        ],
+        [
+          170,
+          315
+        ],
+        [
+          132,
+          325
+        ],
+        [
+          104,
+          324
+        ],
+        [
+          87,
+          315
+        ],
+        [
+          73,
+          300
+        ],
+        [
+          61,
+          285
+        ],
+        [
+          54,
+          262
+        ],
+        [
+          49,
+          232
+        ],
+        [
+          56,
+          212
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          183,
+          105
+        ],
+        [
+          199,
+          120
+        ],
+        [
+          199,
+          134
+        ],
+        [
+          213,
+          149
+        ],
+        [
+          222,
+          161
+        ],
+        [
+          233,
+          162
+        ],
+        [
+          241,
+          171
+        ],
+        [
+          247,
+          184
+        ],
+        [
+          250,
+          166
+        ],
+        [
+          235,
+          155
+        ],
+        [
+          223,
+          151
+        ],
+        [
+          218,
+          139
+        ],
+        [
+          204,
+          127
+        ],
+        [
+          203,
+          124
+        ],
+        [
+          234,
+          142
+        ],
+        [
+          246,
+          142
+        ],
+        [
+          258,
+          141
+        ],
+        [
+          258,
+          137
+        ],
+        [
+          265,
+          145
+        ],
+        [
+          267,
+          159
+        ],
+        [
+          274,
+          173
+        ],
+        [
+          279,
+          191
+        ],
+        [
+          278,
+          203
+        ],
+        [
+          284,
+          199
+        ],
+        [
+          284,
+          188
+        ],
+        [
+          284,
+          164
+        ],
+        [
+          278,
+          158
+        ],
+        [
+          275,
+          145
+        ],
+        [
+          269,
+          133
+        ],
+        [
+          274,
+          111
+        ],
+        [
+          270,
+          94
+        ],
+        [
+          261,
+          84
+        ],
+        [
+          264,
+          78
+        ],
+        [
+          274,
+          77
+        ],
+        [
+          288,
+          85
+        ],
+        [
+          300,
+          88
+        ],
+        [
+          308,
+          82
+        ],
+        [
+          293,
+          78
+        ],
+        [
+          279,
+          74
+        ],
+        [
+          260,
+          72
+        ],
+        [
+          246,
+          65
+        ],
+        [
+          222,
+          48
+        ],
+        [
+          201,
+          36
+        ],
+        [
+          226,
+          31
+        ],
+        [
+          246,
+          23
+        ],
+        [
+          259,
+          14
+        ],
+        [
+          273,
+          9
+        ],
+        [
+          272,
+          4
+        ],
+        [
+          259,
+          1
+        ],
+        [
+          231,
+          21
+        ],
+        [
+          219,
+          24
+        ],
+        [
+          200,
+          24
+        ],
+        [
+          183,
+          24
+        ],
+        [
+          174,
+          13
+        ],
+        [
+          172,
+          7
+        ],
+        [
+          134,
+          2
+        ],
+        [
+          119,
+          2
+        ],
+        [
+          82,
+          0
+        ],
+        [
+          94,
+          11
+        ],
+        [
+          117,
+          13
+        ],
+        [
+          147,
+          8
+        ],
+        [
+          163,
+          10
+        ],
+        [
+          168,
+          17
+        ],
+        [
+          140,
+          27
+        ],
+        [
+          139,
+          45
+        ],
+        [
+          139,
+          58
+        ],
+        [
+          141,
+          66
+        ],
+        [
+          122,
+          65
+        ],
+        [
+          111,
+          69
+        ],
+        [
+          105,
+          62
+        ],
+        [
+          91,
+          56
+        ],
+        [
+          66,
+          59
+        ],
+        [
+          55,
+          71
+        ],
+        [
+          64,
+          70
+        ],
+        [
+          79,
+          64
+        ],
+        [
+          97,
+          65
+        ],
+        [
+          105,
+          76
+        ],
+        [
+          122,
+          76
+        ],
+        [
+          148,
+          72
+        ],
+        [
+          158,
+          85
+        ],
+        [
+          169,
+          96
+        ],
+        [
+          177,
+          102
+        ],
+        [
+          159,
+          107
+        ],
+        [
+          136,
+          105
+        ],
+        [
+          120,
+          100
+        ],
+        [
+          114,
+          110
+        ],
+        [
+          121,
+          114
+        ],
+        [
+          128,
+          113
+        ],
+        [
+          139,
+          114
+        ],
+        [
+          157,
+          114
+        ],
+        [
+          173,
+          111
+        ],
+        [
+          185,
+          110
+        ],
+        [
+          184,
+          108
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          209,
+          71
+        ],
+        [
+          255,
+          48
+        ],
+        [
+          254,
+          42
+        ],
+        [
+          207,
+          66
+        ],
+        [
+          209,
+          69
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          226,
+          81
+        ],
+        [
+          247,
+          51
+        ],
+        [
+          253,
+          53
+        ],
+        [
+          231,
+          86
+        ],
+        [
+          227,
+          82
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          81,
+          230
+        ],
+        [
+          43,
+          189
+        ],
+        [
+          47,
+          185
+        ],
+        [
+          84,
+          224
+        ],
+        [
+          83,
+          229
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          195,
+          324
+        ],
+        [
+          129,
+          265
+        ],
+        [
+          135,
+          261
+        ],
+        [
+          200,
+          323
+        ],
+        [
+          197,
+          324
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          93,
+          336
+        ],
+        [
+          109,
+          282
+        ],
+        [
+          114,
+          283
+        ],
+        [
+          98,
+          338
+        ],
+        [
+          94,
+          338
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+B1",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A0+B1",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B1",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B1",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B1",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T2+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T3+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T4+B0",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "prokaryote cell (no nucleus) dna strands mitochondrion nuclear membrane eukaryote cell (has nucleus) nucleus"
+  },
+  "questions": []
+}

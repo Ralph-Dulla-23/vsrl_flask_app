@@ -1,0 +1,858 @@
+{
+  "image_id": "2187",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          4,
+          102
+        ],
+        [
+          83,
+          158
+        ]
+      ],
+      "value": "Adults emerge and live on one host for up to 2 months",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          124,
+          176
+        ],
+        [
+          270,
+          244
+        ]
+      ],
+      "value": "Typical Flea Lifecycle",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          314,
+          114
+        ],
+        [
+          370,
+          145
+        ]
+      ],
+      "value": "Eggs hatch in 2-3 days",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          333,
+          229
+        ],
+        [
+          403,
+          320
+        ]
+      ],
+      "value": "Larvae go through three stages in 5-10 days before pupating",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          12,
+          268
+        ],
+        [
+          83,
+          336
+        ]
+      ],
+      "value": "Pupae live from 5-10 days to 6 months in a cocoon",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          281,
+          169
+        ],
+        [
+          290,
+          155
+        ],
+        [
+          330,
+          154
+        ],
+        [
+          343,
+          164
+        ],
+        [
+          335,
+          177
+        ],
+        [
+          296,
+          187
+        ],
+        [
+          282,
+          172
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          246,
+          292
+        ],
+        [
+          288,
+          301
+        ],
+        [
+          317,
+          296
+        ],
+        [
+          341,
+          279
+        ],
+        [
+          330,
+          273
+        ],
+        [
+          294,
+          275
+        ],
+        [
+          282,
+          266
+        ],
+        [
+          267,
+          266
+        ],
+        [
+          240,
+          272
+        ],
+        [
+          232,
+          282
+        ],
+        [
+          245,
+          291
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          160,
+          133
+        ],
+        [
+          166,
+          118
+        ],
+        [
+          150,
+          109
+        ],
+        [
+          146,
+          103
+        ],
+        [
+          143,
+          85
+        ],
+        [
+          130,
+          77
+        ],
+        [
+          143,
+          68
+        ],
+        [
+          150,
+          59
+        ],
+        [
+          180,
+          76
+        ],
+        [
+          189,
+          83
+        ],
+        [
+          213,
+          80
+        ],
+        [
+          232,
+          93
+        ],
+        [
+          243,
+          96
+        ],
+        [
+          248,
+          117
+        ],
+        [
+          248,
+          122
+        ],
+        [
+          244,
+          123
+        ],
+        [
+          236,
+          110
+        ],
+        [
+          231,
+          112
+        ],
+        [
+          230,
+          134
+        ],
+        [
+          218,
+          138
+        ],
+        [
+          222,
+          127
+        ],
+        [
+          209,
+          136
+        ],
+        [
+          213,
+          123
+        ],
+        [
+          203,
+          110
+        ],
+        [
+          185,
+          119
+        ],
+        [
+          180,
+          136
+        ],
+        [
+          173,
+          138
+        ],
+        [
+          166,
+          138
+        ],
+        [
+          162,
+          135
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          117,
+          318
+        ],
+        [
+          109,
+          316
+        ],
+        [
+          105,
+          313
+        ],
+        [
+          105,
+          306
+        ],
+        [
+          114,
+          294
+        ],
+        [
+          125,
+          290
+        ],
+        [
+          146,
+          284
+        ],
+        [
+          158,
+          283
+        ],
+        [
+          167,
+          286
+        ],
+        [
+          169,
+          297
+        ],
+        [
+          170,
+          303
+        ],
+        [
+          160,
+          310
+        ],
+        [
+          149,
+          316
+        ],
+        [
+          134,
+          319
+        ],
+        [
+          115,
+          318
+        ]
+      ],
+      "category": "object"
+    },
+    "B4": {
+      "id": "B4",
+      "type": "blob",
+      "polygon": [
+        [
+          79,
+          220
+        ],
+        [
+          81,
+          196
+        ],
+        [
+          63,
+          189
+        ],
+        [
+          75,
+          171
+        ],
+        [
+          105,
+          162
+        ],
+        [
+          116,
+          169
+        ],
+        [
+          110,
+          184
+        ],
+        [
+          104,
+          190
+        ],
+        [
+          106,
+          207
+        ],
+        [
+          98,
+          210
+        ],
+        [
+          91,
+          195
+        ],
+        [
+          105,
+          220
+        ],
+        [
+          91,
+          221
+        ],
+        [
+          86,
+          210
+        ],
+        [
+          86,
+          219
+        ],
+        [
+          79,
+          220
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          232,
+          80
+        ],
+        [
+          295,
+          114
+        ],
+        [
+          302,
+          113
+        ],
+        [
+          305,
+          146
+        ],
+        [
+          269,
+          147
+        ],
+        [
+          274,
+          137
+        ],
+        [
+          248,
+          118
+        ],
+        [
+          231,
+          80
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          301,
+          179
+        ],
+        [
+          331,
+          180
+        ],
+        [
+          323,
+          252
+        ],
+        [
+          329,
+          253
+        ],
+        [
+          305,
+          271
+        ],
+        [
+          291,
+          244
+        ],
+        [
+          296,
+          242
+        ],
+        [
+          301,
+          181
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          187,
+          304
+        ],
+        [
+          187,
+          299
+        ],
+        [
+          161,
+          322
+        ],
+        [
+          184,
+          341
+        ],
+        [
+          185,
+          337
+        ],
+        [
+          252,
+          329
+        ],
+        [
+          292,
+          302
+        ],
+        [
+          256,
+          292
+        ],
+        [
+          215,
+          308
+        ],
+        [
+          185,
+          307
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          142,
+          98
+        ],
+        [
+          110,
+          99
+        ],
+        [
+          110,
+          108
+        ],
+        [
+          71,
+          161
+        ],
+        [
+          72,
+          171
+        ],
+        [
+          104,
+          167
+        ],
+        [
+          113,
+          158
+        ],
+        [
+          125,
+          144
+        ],
+        [
+          134,
+          131
+        ],
+        [
+          142,
+          136
+        ],
+        [
+          144,
+          100
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          82,
+          223
+        ],
+        [
+          75,
+          252
+        ],
+        [
+          79,
+          251
+        ],
+        [
+          107,
+          295
+        ],
+        [
+          138,
+          284
+        ],
+        [
+          105,
+          238
+        ],
+        [
+          112,
+          232
+        ],
+        [
+          83,
+          223
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H4",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H2",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H0",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H1",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H3",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A1+B1",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B1",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "B1+A2+B3",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B3",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "B2+A0+B0",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B0",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "B3+A4+B4",
+      "type": "interObjectLinkage",
+      "source": "B3",
+      "target": "B4",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "B4+A3+B2",
+      "type": "interObjectLinkage",
+      "source": "B4",
+      "target": "B2",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T0+B4",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+I0",
+      "type": "imageTitle",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B1",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B3",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "title",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "B4": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "adults emerge and live on one host for up to 2 months typical flea lifecycle eggs hatch in 2-3 days larvae go through three stages in 5-10 days before pupating pupae live from 5-10 days to 6 months in a cocoon"
+  },
+  "questions": [
+    {
+      "question_text": "How long does it take for eggs to hatch?",
+      "question_id": "2187.png-2",
+      "answers": [
+        "4-5 days",
+        "2-3 days",
+        "5-10 days",
+        "2 months"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the diagram, which letter shows Pupa?",
+      "question_id": "2187.png-0",
+      "answers": [
+        "A",
+        "C",
+        "B",
+        "D"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "What in the diagram is shown at letter D?",
+      "question_id": "2187.png-3",
+      "answers": [
+        "Eggs",
+        "Pupae",
+        "Adults",
+        "Larvae"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "What letter depicts eggs hatching?",
+      "question_id": "2187.png-4",
+      "answers": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "What letter depicts pupae living?",
+      "question_id": "2187.png-1",
+      "answers": [
+        "A",
+        "B",
+        "E",
+        "D"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    }
+  ]
+}

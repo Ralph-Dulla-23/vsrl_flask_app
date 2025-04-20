@@ -1,0 +1,534 @@
+{
+  "image_id": "1121",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          189,
+          4
+        ],
+        [
+          225,
+          31
+        ]
+      ],
+      "value": "Tip",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          77,
+          30
+        ],
+        [
+          131,
+          55
+        ]
+      ],
+      "value": "Vein",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          17,
+          61
+        ],
+        [
+          92,
+          87
+        ]
+      ],
+      "value": "Margin",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          41,
+          142
+        ],
+        [
+          103,
+          164
+        ]
+      ],
+      "value": "Base",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          48,
+          192
+        ],
+        [
+          91,
+          213
+        ]
+      ],
+      "value": "Bud",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          7,
+          274
+        ],
+        [
+          87,
+          296
+        ]
+      ],
+      "value": "Branch",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          221,
+          248
+        ],
+        [
+          301,
+          270
+        ]
+      ],
+      "value": "Petiole",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          147,
+          121
+        ],
+        [
+          173,
+          76
+        ],
+        [
+          224,
+          44
+        ],
+        [
+          252,
+          41
+        ],
+        [
+          269,
+          30
+        ],
+        [
+          279,
+          51
+        ],
+        [
+          283,
+          97
+        ],
+        [
+          281,
+          140
+        ],
+        [
+          265,
+          178
+        ],
+        [
+          234,
+          204
+        ],
+        [
+          192,
+          218
+        ],
+        [
+          165,
+          218
+        ],
+        [
+          139,
+          253
+        ],
+        [
+          182,
+          286
+        ],
+        [
+          182,
+          292
+        ],
+        [
+          122,
+          252
+        ],
+        [
+          95,
+          223
+        ],
+        [
+          97,
+          219
+        ],
+        [
+          129,
+          254
+        ],
+        [
+          118,
+          234
+        ],
+        [
+          121,
+          222
+        ],
+        [
+          127,
+          223
+        ],
+        [
+          136,
+          244
+        ],
+        [
+          161,
+          213
+        ],
+        [
+          153,
+          188
+        ],
+        [
+          144,
+          153
+        ],
+        [
+          150,
+          122
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          225,
+          17
+        ],
+        [
+          223,
+          25
+        ],
+        [
+          269,
+          40
+        ],
+        [
+          272,
+          30
+        ],
+        [
+          226,
+          17
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          104,
+          50
+        ],
+        [
+          112,
+          45
+        ],
+        [
+          176,
+          127
+        ],
+        [
+          169,
+          132
+        ],
+        [
+          106,
+          51
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          70,
+          84
+        ],
+        [
+          75,
+          77
+        ],
+        [
+          150,
+          130
+        ],
+        [
+          145,
+          134
+        ],
+        [
+          71,
+          84
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          95,
+          156
+        ],
+        [
+          101,
+          149
+        ],
+        [
+          167,
+          204
+        ],
+        [
+          159,
+          213
+        ],
+        [
+          95,
+          159
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          90,
+          208
+        ],
+        [
+          95,
+          203
+        ],
+        [
+          122,
+          225
+        ],
+        [
+          117,
+          229
+        ],
+        [
+          90,
+          210
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          151,
+          233
+        ],
+        [
+          151,
+          240
+        ],
+        [
+          224,
+          259
+        ],
+        [
+          225,
+          249
+        ],
+        [
+          153,
+          230
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          143,
+          265
+        ],
+        [
+          147,
+          275
+        ],
+        [
+          84,
+          289
+        ],
+        [
+          79,
+          282
+        ],
+        [
+          143,
+          266
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T2+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T3+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T4+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T5+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T6+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector"
+  },
+  "educational_context": {
+    "subject": "chemistry",
+    "diagram_type": "flow_diagram",
+    "text_content": "tip vein margin base bud branch petiole"
+  },
+  "questions": [
+    {
+      "question_text": "Identify the bud.",
+      "question_id": "1121.png-1",
+      "answers": [
+        "G",
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "Identify the petiole.",
+      "question_id": "1121.png-0",
+      "answers": [
+        "B",
+        "C",
+        "E",
+        "G"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    }
+  ]
+}

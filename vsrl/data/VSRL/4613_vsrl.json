@@ -1,0 +1,252 @@
+{
+  "image_id": "4613",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          273,
+          60
+        ],
+        [
+          686,
+          122
+        ]
+      ],
+      "value": "Types of Rocks",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          124,
+          151
+        ],
+        [
+          338,
+          189
+        ]
+      ],
+      "value": "Igneous Rocks",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          571,
+          150
+        ],
+        [
+          864,
+          195
+        ]
+      ],
+      "value": "Metamorphic Rocks",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          303,
+          471
+        ],
+        [
+          575,
+          519
+        ]
+      ],
+      "value": "Sedimentary Rocks",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          82,
+          203
+        ],
+        [
+          81,
+          433
+        ],
+        [
+          394,
+          433
+        ],
+        [
+          388,
+          202
+        ],
+        [
+          83,
+          201
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          619,
+          218
+        ],
+        [
+          855,
+          215
+        ],
+        [
+          855,
+          458
+        ],
+        [
+          615,
+          455
+        ],
+        [
+          617,
+          217
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          327,
+          694
+        ],
+        [
+          332,
+          531
+        ],
+        [
+          606,
+          531
+        ],
+        [
+          606,
+          694
+        ],
+        [
+          327,
+          693
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B1",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B2",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole"
+  },
+  "educational_context": {
+    "subject": "earth_science",
+    "diagram_type": "labeled_illustration",
+    "text_content": "types of rocks igneous rocks metamorphic rocks sedimentary rocks"
+  },
+  "questions": [
+    {
+      "question_text": "What kind of rock is C?",
+      "question_id": "4613.png-3",
+      "answers": [
+        "Metamorphic",
+        "Clay",
+        "Igneous",
+        "Sedimentary"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which rock is made in lava?",
+      "question_id": "4613.png-1",
+      "answers": [
+        "Igneous",
+        "Sedimentary",
+        "Iron",
+        "Metamorphic"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which type of rock consists of molten rock?",
+      "question_id": "4613.png-2",
+      "answers": [
+        "Igneous Rocks",
+        "Metamorphic Rocks",
+        "Prehistoric Rocks",
+        "Sedimentary Rocks"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which type of rock is formed by the weathered remains of rocks?",
+      "question_id": "4613.png-0",
+      "answers": [
+        "Sedimentary Rocks",
+        "Igneous Rocks",
+        "Metamorphic Rocks",
+        "Prehistoric Rocks"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

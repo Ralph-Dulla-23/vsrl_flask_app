@@ -1,0 +1,1174 @@
+{
+  "image_id": "3675",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          373,
+          26
+        ],
+        [
+          437,
+          46
+        ]
+      ],
+      "value": "Pharynx",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          373,
+          47
+        ],
+        [
+          429,
+          63
+        ]
+      ],
+      "value": "Tongue",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T10": {
+      "id": "T10",
+      "type": "text",
+      "bbox": [
+        [
+          4,
+          397
+        ],
+        [
+          133,
+          416
+        ]
+      ],
+      "value": "Transverse colon",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T11": {
+      "id": "T11",
+      "type": "text",
+      "bbox": [
+        [
+          5,
+          380
+        ],
+        [
+          58,
+          392
+        ]
+      ],
+      "value": "Colon",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T12": {
+      "id": "T12",
+      "type": "text",
+      "bbox": [
+        [
+          2,
+          442
+        ],
+        [
+          134,
+          460
+        ]
+      ],
+      "value": "Descending colon",
+      "replacementText": "N",
+      "category": "label"
+    },
+    "T13": {
+      "id": "T13",
+      "type": "text",
+      "bbox": [
+        [
+          58,
+          484
+        ],
+        [
+          123,
+          499
+        ]
+      ],
+      "value": "Cecum",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T14": {
+      "id": "T14",
+      "type": "text",
+      "bbox": [
+        [
+          398,
+          412
+        ],
+        [
+          499,
+          450
+        ]
+      ],
+      "value": "Ileum (small intestine)",
+      "replacementText": "P",
+      "category": "label"
+    },
+    "T15": {
+      "id": "T15",
+      "type": "text",
+      "bbox": [
+        [
+          412,
+          298
+        ],
+        [
+          483,
+          318
+        ]
+      ],
+      "value": "Stomach ",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T16": {
+      "id": "T16",
+      "type": "text",
+      "bbox": [
+        [
+          412,
+          328
+        ],
+        [
+          499,
+          357
+        ]
+      ],
+      "value": "Pancreatic duct",
+      "replacementText": "M",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          105,
+          38
+        ],
+        [
+          194,
+          54
+        ]
+      ],
+      "value": "Oral cavity",
+      "replacementText": "O",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          316,
+          164
+        ],
+        [
+          406,
+          182
+        ]
+      ],
+      "value": "Esophagus ",
+      "replacementText": "K",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          196,
+          210
+        ],
+        [
+          272,
+          230
+        ]
+      ],
+      "value": "Pancreas",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          300
+        ],
+        [
+          95,
+          316
+        ]
+      ],
+      "value": "Duodenum ",
+      "replacementText": "L",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          2,
+          250
+        ],
+        [
+          48,
+          268
+        ]
+      ],
+      "value": "Liver",
+      "replacementText": "Q",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          1,
+          326
+        ],
+        [
+          78,
+          358
+        ]
+      ],
+      "value": "Common bile duct",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          4,
+          276
+        ],
+        [
+          97,
+          292
+        ]
+      ],
+      "value": "Gallbladder.",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          4,
+          421
+        ],
+        [
+          125,
+          437
+        ]
+      ],
+      "value": "Ascending colon",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          135,
+          499
+        ],
+        [
+          412,
+          499
+        ],
+        [
+          393,
+          417
+        ],
+        [
+          393,
+          362
+        ],
+        [
+          405,
+          321
+        ],
+        [
+          409,
+          280
+        ],
+        [
+          408,
+          253
+        ],
+        [
+          416,
+          241
+        ],
+        [
+          459,
+          151
+        ],
+        [
+          376,
+          125
+        ],
+        [
+          342,
+          101
+        ],
+        [
+          331,
+          79
+        ],
+        [
+          337,
+          59
+        ],
+        [
+          357,
+          25
+        ],
+        [
+          369,
+          0
+        ],
+        [
+          178,
+          0
+        ],
+        [
+          170,
+          5
+        ],
+        [
+          162,
+          19
+        ],
+        [
+          162,
+          33
+        ],
+        [
+          172,
+          39
+        ],
+        [
+          176,
+          46
+        ],
+        [
+          173,
+          58
+        ],
+        [
+          180,
+          71
+        ],
+        [
+          177,
+          89
+        ],
+        [
+          184,
+          97
+        ],
+        [
+          201,
+          108
+        ],
+        [
+          207,
+          109
+        ],
+        [
+          173,
+          122
+        ],
+        [
+          127,
+          137
+        ],
+        [
+          77,
+          162
+        ],
+        [
+          117,
+          237
+        ],
+        [
+          124,
+          256
+        ],
+        [
+          122,
+          285
+        ],
+        [
+          121,
+          326
+        ],
+        [
+          136,
+          359
+        ],
+        [
+          145,
+          383
+        ],
+        [
+          132,
+          498
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          197,
+          260
+        ],
+        [
+          197,
+          271
+        ],
+        [
+          49,
+          270
+        ],
+        [
+          49,
+          256
+        ],
+        [
+          195,
+          257
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          100,
+          282
+        ],
+        [
+          92,
+          291
+        ],
+        [
+          211,
+          328
+        ],
+        [
+          214,
+          317
+        ],
+        [
+          102,
+          280
+        ]
+      ],
+      "category": "connector"
+    },
+    "A10": {
+      "id": "A10",
+      "type": "arrow",
+      "polygon": [
+        [
+          338,
+          298
+        ],
+        [
+          339,
+          314
+        ],
+        [
+          416,
+          310
+        ],
+        [
+          414,
+          298
+        ],
+        [
+          338,
+          298
+        ]
+      ],
+      "category": "connector"
+    },
+    "A11": {
+      "id": "A11",
+      "type": "arrow",
+      "polygon": [
+        [
+          235,
+          230
+        ],
+        [
+          267,
+          328
+        ],
+        [
+          279,
+          323
+        ],
+        [
+          250,
+          225
+        ],
+        [
+          233,
+          230
+        ]
+      ],
+      "category": "connector"
+    },
+    "A12": {
+      "id": "A12",
+      "type": "arrow",
+      "polygon": [
+        [
+          275,
+          165
+        ],
+        [
+          274,
+          178
+        ],
+        [
+          313,
+          175
+        ],
+        [
+          310,
+          165
+        ],
+        [
+          274,
+          165
+        ]
+      ],
+      "category": "connector"
+    },
+    "A13": {
+      "id": "A13",
+      "type": "arrow",
+      "polygon": [
+        [
+          211,
+          56
+        ],
+        [
+          218,
+          56
+        ],
+        [
+          202,
+          0
+        ],
+        [
+          192,
+          0
+        ],
+        [
+          205,
+          50
+        ],
+        [
+          211,
+          54
+        ]
+      ],
+      "category": "connector"
+    },
+    "A14": {
+      "id": "A14",
+      "type": "arrow",
+      "polygon": [
+        [
+          211,
+          0
+        ],
+        [
+          205,
+          0
+        ],
+        [
+          232,
+          90
+        ],
+        [
+          240,
+          86
+        ],
+        [
+          213,
+          0
+        ]
+      ],
+      "category": "connector"
+    },
+    "A15": {
+      "id": "A15",
+      "type": "arrow",
+      "polygon": [
+        [
+          218,
+          50
+        ],
+        [
+          223,
+          59
+        ],
+        [
+          366,
+          59
+        ],
+        [
+          364,
+          48
+        ],
+        [
+          223,
+          50
+        ],
+        [
+          225,
+          59
+        ],
+        [
+          232,
+          59
+        ],
+        [
+          234,
+          57
+        ],
+        [
+          224,
+          58
+        ],
+        [
+          227,
+          58
+        ],
+        [
+          238,
+          58
+        ],
+        [
+          238,
+          58
+        ],
+        [
+          229,
+          55
+        ],
+        [
+          224,
+          56
+        ],
+        [
+          220,
+          49
+        ]
+      ],
+      "category": "connector"
+    },
+    "A16": {
+      "id": "A16",
+      "type": "arrow",
+      "polygon": [
+        [
+          276,
+          0
+        ],
+        [
+          281,
+          26
+        ],
+        [
+          292,
+          26
+        ],
+        [
+          277,
+          0
+        ]
+      ],
+      "category": "connector"
+    },
+    "A17": {
+      "id": "A17",
+      "type": "arrow",
+      "polygon": [
+        [
+          241,
+          24
+        ],
+        [
+          248,
+          41
+        ],
+        [
+          373,
+          40
+        ],
+        [
+          368,
+          32
+        ],
+        [
+          244,
+          25
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          96,
+          306
+        ],
+        [
+          89,
+          316
+        ],
+        [
+          236,
+          352
+        ],
+        [
+          236,
+          343
+        ],
+        [
+          98,
+          306
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          78,
+          337
+        ],
+        [
+          76,
+          349
+        ],
+        [
+          246,
+          364
+        ],
+        [
+          235,
+          351
+        ],
+        [
+          77,
+          336
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          121,
+          402
+        ],
+        [
+          128,
+          413
+        ],
+        [
+          229,
+          380
+        ],
+        [
+          223,
+          373
+        ],
+        [
+          124,
+          401
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          125,
+          423
+        ],
+        [
+          123,
+          431
+        ],
+        [
+          174,
+          433
+        ],
+        [
+          176,
+          424
+        ],
+        [
+          125,
+          423
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          130,
+          443
+        ],
+        [
+          128,
+          456
+        ],
+        [
+          372,
+          455
+        ],
+        [
+          371,
+          447
+        ],
+        [
+          132,
+          443
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          117,
+          487
+        ],
+        [
+          116,
+          497
+        ],
+        [
+          191,
+          497
+        ],
+        [
+          184,
+          485
+        ],
+        [
+          120,
+          487
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          283,
+          417
+        ],
+        [
+          282,
+          426
+        ],
+        [
+          423,
+          427
+        ],
+        [
+          420,
+          416
+        ],
+        [
+          286,
+          416
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          263,
+          332
+        ],
+        [
+          266,
+          342
+        ],
+        [
+          416,
+          341
+        ],
+        [
+          414,
+          329
+        ],
+        [
+          263,
+          331
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A17+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A17",
+      "directional": false
+    },
+    {
+      "id": "T1+A15+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A15",
+      "directional": false
+    },
+    {
+      "id": "T10+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T10",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T11+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T11",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T12+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T12",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T13+A7+B0",
+      "type": "intraObjectLinkage",
+      "source": "T13",
+      "target": "B0",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T14+A8+B0",
+      "type": "intraObjectLinkage",
+      "source": "T14",
+      "target": "B0",
+      "connector": "A8",
+      "directional": false
+    },
+    {
+      "id": "T15+A10+B0",
+      "type": "intraObjectLinkage",
+      "source": "T15",
+      "target": "B0",
+      "connector": "A10",
+      "directional": false
+    },
+    {
+      "id": "T16+A9+B0",
+      "type": "intraObjectLinkage",
+      "source": "T16",
+      "target": "B0",
+      "connector": "A9",
+      "directional": false
+    },
+    {
+      "id": "T3+A12+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A12",
+      "directional": false
+    },
+    {
+      "id": "T4+A11+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A11",
+      "directional": false
+    },
+    {
+      "id": "T5+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T6+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T7+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T8+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T8",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T9+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T9",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T10": "part_label",
+    "T11": "part_label",
+    "T12": "part_label",
+    "T13": "part_label",
+    "T14": "part_label",
+    "T15": "part_label",
+    "T16": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A10": "connector",
+    "A11": "connector",
+    "A12": "connector",
+    "A13": "connector",
+    "A14": "connector",
+    "A15": "connector",
+    "A16": "connector",
+    "A17": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "pharynx tongue transverse colon colon descending colon cecum ileum (small intestine) stomach  pancreatic duct oral cavity esophagus  pancreas duodenum  liver common bile duct gallbladder. ascending colon"
+  },
+  "questions": [
+    {
+      "question_text": "What is another name for the small intestine",
+      "question_id": "3675.png-0",
+      "answers": [
+        "Ileum",
+        "liver",
+        "cecum",
+        "colon"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which region in the diagram represents the lleum?",
+      "question_id": "3675.png-1",
+      "answers": [
+        "i",
+        "p",
+        "m",
+        "c"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

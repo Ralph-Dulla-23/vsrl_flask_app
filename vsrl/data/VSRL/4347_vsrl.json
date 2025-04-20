@@ -1,0 +1,226 @@
+{
+  "image_id": "4347",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          78,
+          141
+        ],
+        [
+          127,
+          162
+        ]
+      ],
+      "value": "solid",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          290,
+          141
+        ],
+        [
+          349,
+          163
+        ]
+      ],
+      "value": "liquid",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          515,
+          135
+        ],
+        [
+          553,
+          162
+        ]
+      ],
+      "value": "gas",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          484,
+          6
+        ],
+        [
+          627,
+          9
+        ],
+        [
+          629,
+          132
+        ],
+        [
+          443,
+          129
+        ],
+        [
+          443,
+          8
+        ],
+        [
+          482,
+          6
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          226,
+          9
+        ],
+        [
+          410,
+          12
+        ],
+        [
+          411,
+          134
+        ],
+        [
+          228,
+          134
+        ],
+        [
+          227,
+          9
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          14,
+          10
+        ],
+        [
+          196,
+          9
+        ],
+        [
+          196,
+          129
+        ],
+        [
+          10,
+          132
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          15,
+          10
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+B2",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B1",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "solid liquid gas"
+  },
+  "questions": [
+    {
+      "question_text": "What does A represent in the figure?",
+      "question_id": "4347.png-1",
+      "answers": [
+        "solid",
+        "none of the above",
+        "gas",
+        "liquid"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "What does B represent in the figure?",
+      "question_id": "4347.png-0",
+      "answers": [
+        "none of the above",
+        "solid",
+        "gas",
+        "liquid"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which state of matter has the most \"empty\" space between the molecules?",
+      "question_id": "4347.png-2",
+      "answers": [
+        "Antimatter",
+        "Solid",
+        "Gas",
+        "Liquid"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

@@ -1,0 +1,426 @@
+{
+  "image_id": "2754",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          1357,
+          468
+        ],
+        [
+          1498,
+          505
+        ]
+      ],
+      "value": "Equator",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          1170,
+          603
+        ],
+        [
+          1499,
+          645
+        ]
+      ],
+      "value": "Tropic of Capricorn",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          1237,
+          797
+        ],
+        [
+          1498,
+          835
+        ]
+      ],
+      "value": "Antarctic Circle",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          622,
+          7
+        ],
+        [
+          800,
+          48
+        ]
+      ],
+      "value": "Earth Axis",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          55,
+          425
+        ],
+        [
+          97,
+          573
+        ]
+      ],
+      "value": "Sun rays",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          1285,
+          135
+        ],
+        [
+          1499,
+          178
+        ]
+      ],
+      "value": "Arctic Circle",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          1218,
+          320
+        ],
+        [
+          1495,
+          370
+        ]
+      ],
+      "value": "Tropic of Cancer",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          538,
+          185
+        ],
+        [
+          612,
+          153
+        ],
+        [
+          675,
+          142
+        ],
+        [
+          722,
+          138
+        ],
+        [
+          808,
+          153
+        ],
+        [
+          863,
+          177
+        ],
+        [
+          902,
+          195
+        ],
+        [
+          948,
+          232
+        ],
+        [
+          985,
+          262
+        ],
+        [
+          1017,
+          310
+        ],
+        [
+          1045,
+          370
+        ],
+        [
+          1060,
+          408
+        ],
+        [
+          1070,
+          467
+        ],
+        [
+          1073,
+          542
+        ],
+        [
+          1053,
+          615
+        ],
+        [
+          1027,
+          678
+        ],
+        [
+          1013,
+          710
+        ],
+        [
+          1005,
+          722
+        ],
+        [
+          938,
+          790
+        ],
+        [
+          837,
+          842
+        ],
+        [
+          717,
+          863
+        ],
+        [
+          602,
+          850
+        ],
+        [
+          530,
+          815
+        ],
+        [
+          450,
+          750
+        ],
+        [
+          403,
+          693
+        ],
+        [
+          377,
+          627
+        ],
+        [
+          357,
+          555
+        ],
+        [
+          353,
+          478
+        ],
+        [
+          362,
+          437
+        ],
+        [
+          373,
+          375
+        ],
+        [
+          402,
+          313
+        ],
+        [
+          425,
+          278
+        ],
+        [
+          455,
+          248
+        ],
+        [
+          495,
+          215
+        ],
+        [
+          530,
+          188
+        ],
+        [
+          545,
+          188
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          142,
+          352
+        ],
+        [
+          143,
+          370
+        ],
+        [
+          393,
+          373
+        ],
+        [
+          388,
+          347
+        ],
+        [
+          142,
+          350
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          138,
+          488
+        ],
+        [
+          138,
+          517
+        ],
+        [
+          357,
+          520
+        ],
+        [
+          353,
+          490
+        ],
+        [
+          133,
+          487
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          135,
+          620
+        ],
+        [
+          137,
+          652
+        ],
+        [
+          387,
+          655
+        ],
+        [
+          387,
+          625
+        ],
+        [
+          142,
+          620
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H2",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H1",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "equator tropic of capricorn antarctic circle earth axis sun rays arctic circle tropic of cancer"
+  },
+  "questions": [
+    {
+      "question_text": "In the diagram, which letter shows Tropic of Capricorn?",
+      "question_id": "2754.png-0",
+      "answers": [
+        "A",
+        "E",
+        "D",
+        "G"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "What runs across the center of the Earth?",
+      "question_id": "2754.png-1",
+      "answers": [
+        "the middle",
+        "Antarctic Circle",
+        "Tropic of Cancer",
+        "The Equator"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    }
+  ]
+}

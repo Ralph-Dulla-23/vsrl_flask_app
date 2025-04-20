@@ -1,0 +1,402 @@
+{
+  "image_id": "1602",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          63,
+          34
+        ],
+        [
+          99,
+          46
+        ]
+      ],
+      "value": "Switch ",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          30,
+          120
+        ],
+        [
+          77,
+          133
+        ]
+      ],
+      "value": "compass",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          62,
+          166
+        ],
+        [
+          178,
+          178
+        ]
+      ],
+      "value": "@2000 How Stuff Works",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          143,
+          62
+        ],
+        [
+          166,
+          138
+        ]
+      ],
+      "value": "Battery",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          57,
+          14
+        ],
+        [
+          58,
+          31
+        ],
+        [
+          118,
+          31
+        ],
+        [
+          117,
+          18
+        ],
+        [
+          65,
+          2
+        ],
+        [
+          59,
+          13
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          129,
+          47
+        ],
+        [
+          138,
+          44
+        ],
+        [
+          144,
+          45
+        ],
+        [
+          145,
+          40
+        ],
+        [
+          165,
+          40
+        ],
+        [
+          165,
+          43
+        ],
+        [
+          178,
+          46
+        ],
+        [
+          182,
+          49
+        ],
+        [
+          182,
+          142
+        ],
+        [
+          181,
+          148
+        ],
+        [
+          135,
+          148
+        ],
+        [
+          129,
+          143
+        ],
+        [
+          128,
+          139
+        ],
+        [
+          130,
+          49
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          34,
+          70
+        ],
+        [
+          49,
+          82
+        ],
+        [
+          52,
+          98
+        ],
+        [
+          45,
+          112
+        ],
+        [
+          25,
+          119
+        ],
+        [
+          10,
+          112
+        ],
+        [
+          7,
+          108
+        ],
+        [
+          4,
+          89
+        ],
+        [
+          12,
+          74
+        ],
+        [
+          33,
+          70
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          22,
+          67
+        ],
+        [
+          36,
+          67
+        ],
+        [
+          35,
+          29
+        ],
+        [
+          59,
+          31
+        ],
+        [
+          58,
+          14
+        ],
+        [
+          17,
+          15
+        ],
+        [
+          24,
+          66
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          112,
+          14
+        ],
+        [
+          116,
+          35
+        ],
+        [
+          150,
+          33
+        ],
+        [
+          150,
+          42
+        ],
+        [
+          167,
+          41
+        ],
+        [
+          164,
+          14
+        ],
+        [
+          113,
+          13
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          148,
+          147
+        ],
+        [
+          167,
+          149
+        ],
+        [
+          164,
+          167
+        ],
+        [
+          19,
+          168
+        ],
+        [
+          20,
+          118
+        ],
+        [
+          34,
+          117
+        ],
+        [
+          35,
+          156
+        ],
+        [
+          150,
+          157
+        ],
+        [
+          149,
+          146
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "B0+A1+B1",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B1",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "B2+A0+B0",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "B2+A2+B1",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B1",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B2",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+I0",
+      "type": "misc",
+      "source": "T2",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B1",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "switch  compass @2000 how stuff works battery"
+  }
+}

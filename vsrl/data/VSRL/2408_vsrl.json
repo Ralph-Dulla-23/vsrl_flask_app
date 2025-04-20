@@ -1,0 +1,486 @@
+{
+  "image_id": "2408",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          123,
+          8
+        ],
+        [
+          198,
+          36
+        ]
+      ],
+      "value": "Nymph stages last 7-10 days",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          71,
+          102
+        ],
+        [
+          148,
+          115
+        ]
+      ],
+      "value": "Life Cycle",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          182,
+          170
+        ],
+        [
+          240,
+          212
+        ]
+      ],
+      "value": "Adults live up to 3-4 weeks",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          67,
+          200
+        ],
+        [
+          124,
+          225
+        ]
+      ],
+      "value": "eggs laid in plant tissue ",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          1,
+          112
+        ],
+        [
+          29,
+          138
+        ]
+      ],
+      "value": "4 to 5 days",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          90,
+          69
+        ],
+        [
+          82,
+          37
+        ],
+        [
+          90,
+          14
+        ],
+        [
+          97,
+          1
+        ],
+        [
+          115,
+          4
+        ],
+        [
+          124,
+          39
+        ],
+        [
+          119,
+          67
+        ],
+        [
+          93,
+          71
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          188,
+          106
+        ],
+        [
+          176,
+          104
+        ],
+        [
+          172,
+          115
+        ],
+        [
+          173,
+          130
+        ],
+        [
+          166,
+          142
+        ],
+        [
+          166,
+          156
+        ],
+        [
+          170,
+          158
+        ],
+        [
+          171,
+          166
+        ],
+        [
+          178,
+          169
+        ],
+        [
+          189,
+          169
+        ],
+        [
+          196,
+          168
+        ],
+        [
+          200,
+          163
+        ],
+        [
+          207,
+          172
+        ],
+        [
+          213,
+          165
+        ],
+        [
+          214,
+          157
+        ],
+        [
+          218,
+          144
+        ],
+        [
+          206,
+          131
+        ],
+        [
+          206,
+          105
+        ],
+        [
+          186,
+          105
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          130,
+          197
+        ],
+        [
+          159,
+          180
+        ],
+        [
+          174,
+          159
+        ],
+        [
+          188,
+          166
+        ],
+        [
+          168,
+          197
+        ],
+        [
+          139,
+          212
+        ],
+        [
+          129,
+          199
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          125,
+          42
+        ],
+        [
+          151,
+          55
+        ],
+        [
+          169,
+          67
+        ],
+        [
+          179,
+          85
+        ],
+        [
+          182,
+          100
+        ],
+        [
+          196,
+          105
+        ],
+        [
+          198,
+          95
+        ],
+        [
+          191,
+          78
+        ],
+        [
+          174,
+          56
+        ],
+        [
+          156,
+          44
+        ],
+        [
+          135,
+          37
+        ],
+        [
+          125,
+          39
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          70,
+          50
+        ],
+        [
+          36,
+          83
+        ],
+        [
+          31,
+          131
+        ],
+        [
+          44,
+          173
+        ],
+        [
+          85,
+          202
+        ],
+        [
+          88,
+          190
+        ],
+        [
+          69,
+          176
+        ],
+        [
+          51,
+          154
+        ],
+        [
+          43,
+          121
+        ],
+        [
+          44,
+          98
+        ],
+        [
+          65,
+          68
+        ],
+        [
+          76,
+          59
+        ],
+        [
+          85,
+          48
+        ],
+        [
+          77,
+          42
+        ],
+        [
+          69,
+          53
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H2",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H0",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A1+B1",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B1",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "B1+A0+T3",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "T3",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+I0",
+      "type": "imageTitle",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B1",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+A2+B0",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A2",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "title",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "nymph stages last 7-10 days life cycle adults live up to 3-4 weeks eggs laid in plant tissue  4 to 5 days"
+  },
+  "questions": [
+    {
+      "question_text": "In the diagram below, how many days does the Adult live?",
+      "question_id": "2408.png-1",
+      "answers": [
+        "5 days",
+        "3-4 weeks",
+        "None of the above",
+        "7 days"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "In the diagram below, how many days does the Nymph stage last?",
+      "question_id": "2408.png-0",
+      "answers": [
+        "5 days",
+        "None of the above",
+        "7-10 days",
+        "3-4 weeks"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}

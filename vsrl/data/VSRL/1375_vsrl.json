@@ -1,0 +1,586 @@
+{
+  "image_id": "1375",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          283,
+          64
+        ],
+        [
+          302,
+          87
+        ]
+      ],
+      "value": "R1",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          339,
+          68
+        ],
+        [
+          363,
+          87
+        ]
+      ],
+      "value": "R2",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          32,
+          87
+        ],
+        [
+          19,
+          100
+        ],
+        [
+          8,
+          105
+        ],
+        [
+          2,
+          108
+        ],
+        [
+          6,
+          128
+        ],
+        [
+          6,
+          153
+        ],
+        [
+          6,
+          164
+        ],
+        [
+          74,
+          195
+        ],
+        [
+          117,
+          175
+        ],
+        [
+          117,
+          116
+        ],
+        [
+          37,
+          88
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          137,
+          176
+        ],
+        [
+          356,
+          179
+        ],
+        [
+          356,
+          190
+        ],
+        [
+          136,
+          188
+        ],
+        [
+          136,
+          175
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          287,
+          24
+        ],
+        [
+          287,
+          35
+        ],
+        [
+          282,
+          42
+        ],
+        [
+          282,
+          52
+        ],
+        [
+          289,
+          59
+        ],
+        [
+          302,
+          59
+        ],
+        [
+          305,
+          50
+        ],
+        [
+          305,
+          44
+        ],
+        [
+          302,
+          35
+        ],
+        [
+          300,
+          25
+        ],
+        [
+          286,
+          25
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          351,
+          22
+        ],
+        [
+          346,
+          30
+        ],
+        [
+          342,
+          46
+        ],
+        [
+          342,
+          51
+        ],
+        [
+          346,
+          55
+        ],
+        [
+          353,
+          55
+        ],
+        [
+          361,
+          44
+        ],
+        [
+          358,
+          35
+        ],
+        [
+          353,
+          24
+        ]
+      ],
+      "category": "object"
+    },
+    "B4": {
+      "id": "B4",
+      "type": "blob",
+      "polygon": [
+        [
+          118,
+          12
+        ],
+        [
+          83,
+          12
+        ],
+        [
+          84,
+          21
+        ],
+        [
+          114,
+          21
+        ],
+        [
+          114,
+          10
+        ]
+      ],
+      "category": "object"
+    },
+    "B5": {
+      "id": "B5",
+      "type": "blob",
+      "polygon": [
+        [
+          166,
+          2
+        ],
+        [
+          136,
+          2
+        ],
+        [
+          136,
+          11
+        ],
+        [
+          152,
+          11
+        ],
+        [
+          133,
+          16
+        ],
+        [
+          141,
+          20
+        ],
+        [
+          162,
+          20
+        ],
+        [
+          162,
+          9
+        ],
+        [
+          177,
+          11
+        ],
+        [
+          177,
+          21
+        ],
+        [
+          187,
+          21
+        ],
+        [
+          199,
+          18
+        ],
+        [
+          181,
+          7
+        ],
+        [
+          167,
+          5
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          34,
+          85
+        ],
+        [
+          34,
+          8
+        ],
+        [
+          81,
+          8
+        ],
+        [
+          81,
+          25
+        ],
+        [
+          44,
+          24
+        ],
+        [
+          44,
+          85
+        ],
+        [
+          34,
+          84
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          121,
+          12
+        ],
+        [
+          141,
+          12
+        ],
+        [
+          140,
+          25
+        ],
+        [
+          120,
+          25
+        ],
+        [
+          120,
+          13
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          194,
+          7
+        ],
+        [
+          195,
+          24
+        ],
+        [
+          362,
+          21
+        ],
+        [
+          360,
+          9
+        ],
+        [
+          193,
+          7
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          286,
+          25
+        ],
+        [
+          286,
+          35
+        ],
+        [
+          314,
+          36
+        ],
+        [
+          315,
+          145
+        ],
+        [
+          342,
+          145
+        ],
+        [
+          342,
+          171
+        ],
+        [
+          330,
+          170
+        ],
+        [
+          330,
+          181
+        ],
+        [
+          355,
+          180
+        ],
+        [
+          352,
+          144
+        ],
+        [
+          379,
+          144
+        ],
+        [
+          379,
+          26
+        ],
+        [
+          343,
+          27
+        ],
+        [
+          343,
+          40
+        ],
+        [
+          371,
+          40
+        ],
+        [
+          371,
+          133
+        ],
+        [
+          324,
+          135
+        ],
+        [
+          321,
+          25
+        ],
+        [
+          286,
+          25
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          104,
+          100
+        ],
+        [
+          152,
+          99
+        ],
+        [
+          152,
+          171
+        ],
+        [
+          166,
+          171
+        ],
+        [
+          163,
+          181
+        ],
+        [
+          139,
+          181
+        ],
+        [
+          142,
+          111
+        ],
+        [
+          98,
+          111
+        ],
+        [
+          104,
+          99
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "B0+A0+B4",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B4",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "B2+A3+B3",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B3",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "B3+A2+B5",
+      "type": "interObjectLinkage",
+      "source": "B3",
+      "target": "B5",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "B4+A1+B5",
+      "type": "interObjectLinkage",
+      "source": "B4",
+      "target": "B5",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T0+B2",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B3",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "B4": "whole",
+    "B5": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "r1 r2"
+  }
+}

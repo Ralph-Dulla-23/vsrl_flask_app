@@ -1,0 +1,312 @@
+{
+  "image_id": "4616",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          237,
+          127
+        ],
+        [
+          289,
+          148
+        ]
+      ],
+      "value": "OGEE",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          24,
+          127
+        ],
+        [
+          154,
+          149
+        ]
+      ],
+      "value": "FULL BULLNOSE",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          16,
+          280
+        ],
+        [
+          143,
+          305
+        ]
+      ],
+      "value": "TRIPLE PENCIL",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          240,
+          284
+        ],
+        [
+          323,
+          301
+        ]
+      ],
+      "value": "CHISELED",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          15,
+          103
+        ],
+        [
+          86,
+          112
+        ],
+        [
+          154,
+          92
+        ],
+        [
+          167,
+          69
+        ],
+        [
+          152,
+          43
+        ],
+        [
+          76,
+          35
+        ],
+        [
+          16,
+          50
+        ],
+        [
+          19,
+          102
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          205,
+          102
+        ],
+        [
+          204,
+          54
+        ],
+        [
+          259,
+          34
+        ],
+        [
+          317,
+          37
+        ],
+        [
+          325,
+          49
+        ],
+        [
+          348,
+          59
+        ],
+        [
+          352,
+          84
+        ],
+        [
+          288,
+          107
+        ],
+        [
+          207,
+          102
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          209,
+          200
+        ],
+        [
+          208,
+          250
+        ],
+        [
+          287,
+          259
+        ],
+        [
+          356,
+          239
+        ],
+        [
+          350,
+          222
+        ],
+        [
+          358,
+          212
+        ],
+        [
+          352,
+          205
+        ],
+        [
+          342,
+          189
+        ],
+        [
+          269,
+          182
+        ],
+        [
+          208,
+          199
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          14,
+          254
+        ],
+        [
+          96,
+          261
+        ],
+        [
+          162,
+          239
+        ],
+        [
+          144,
+          223
+        ],
+        [
+          138,
+          210
+        ],
+        [
+          127,
+          203
+        ],
+        [
+          116,
+          188
+        ],
+        [
+          74,
+          183
+        ],
+        [
+          14,
+          203
+        ],
+        [
+          16,
+          251
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+B1",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B3",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B2",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "ogee full bullnose triple pencil chiseled"
+  },
+  "questions": [
+    {
+      "question_text": "Which one of these shapes is like an elongated \"S\"?",
+      "question_id": "4616.png-0",
+      "answers": [
+        "Full Bullnose",
+        "Triple Pencil",
+        "Ogee",
+        "Chiseled\nChiseled"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

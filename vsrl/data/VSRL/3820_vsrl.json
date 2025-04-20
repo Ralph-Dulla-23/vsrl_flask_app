@@ -1,0 +1,452 @@
+{
+  "image_id": "3820",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          456,
+          66
+        ],
+        [
+          624,
+          89
+        ]
+      ],
+      "value": "Seed coat/hull",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          455,
+          182
+        ],
+        [
+          562,
+          208
+        ]
+      ],
+      "value": "Aleurone",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          457,
+          282
+        ],
+        [
+          589,
+          311
+        ]
+      ],
+      "value": "Endosperm",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          459,
+          444
+        ],
+        [
+          521,
+          470
+        ]
+      ],
+      "value": "Germ",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          82,
+          75
+        ],
+        [
+          110,
+          47
+        ],
+        [
+          130,
+          33
+        ],
+        [
+          143,
+          27
+        ],
+        [
+          151,
+          23
+        ],
+        [
+          165,
+          17
+        ],
+        [
+          182,
+          12
+        ],
+        [
+          197,
+          11
+        ],
+        [
+          225,
+          13
+        ],
+        [
+          248,
+          22
+        ],
+        [
+          283,
+          41
+        ],
+        [
+          321,
+          79
+        ],
+        [
+          351,
+          123
+        ],
+        [
+          374,
+          187
+        ],
+        [
+          388,
+          275
+        ],
+        [
+          383,
+          343
+        ],
+        [
+          375,
+          387
+        ],
+        [
+          363,
+          413
+        ],
+        [
+          337,
+          469
+        ],
+        [
+          323,
+          493
+        ],
+        [
+          303,
+          517
+        ],
+        [
+          267,
+          542
+        ],
+        [
+          230,
+          557
+        ],
+        [
+          181,
+          557
+        ],
+        [
+          147,
+          547
+        ],
+        [
+          109,
+          525
+        ],
+        [
+          81,
+          500
+        ],
+        [
+          51,
+          457
+        ],
+        [
+          29,
+          404
+        ],
+        [
+          12,
+          331
+        ],
+        [
+          11,
+          283
+        ],
+        [
+          21,
+          199
+        ],
+        [
+          36,
+          148
+        ],
+        [
+          57,
+          107
+        ],
+        [
+          81,
+          77
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          296,
+          70
+        ],
+        [
+          298,
+          91
+        ],
+        [
+          456,
+          87
+        ],
+        [
+          455,
+          73
+        ],
+        [
+          298,
+          72
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          343,
+          202
+        ],
+        [
+          357,
+          209
+        ],
+        [
+          361,
+          200
+        ],
+        [
+          454,
+          203
+        ],
+        [
+          453,
+          191
+        ],
+        [
+          356,
+          190
+        ],
+        [
+          354,
+          186
+        ],
+        [
+          339,
+          195
+        ],
+        [
+          341,
+          199
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          304,
+          302
+        ],
+        [
+          314,
+          308
+        ],
+        [
+          320,
+          307
+        ],
+        [
+          457,
+          303
+        ],
+        [
+          454,
+          290
+        ],
+        [
+          322,
+          291
+        ],
+        [
+          315,
+          286
+        ],
+        [
+          302,
+          298
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          234,
+          445
+        ],
+        [
+          235,
+          471
+        ],
+        [
+          456,
+          468
+        ],
+        [
+          455,
+          449
+        ],
+        [
+          233,
+          446
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H3",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H0",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H2",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T2+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T3+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "seed coat/hull aleurone endosperm germ"
+  },
+  "questions": [
+    {
+      "question_text": "Which region in the diagram represents the endosperm?",
+      "question_id": "3820.png-0",
+      "answers": [
+        "C",
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

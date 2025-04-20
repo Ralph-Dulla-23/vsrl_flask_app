@@ -1,0 +1,433 @@
+{
+  "image_id": "4265",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          315,
+          479
+        ],
+        [
+          349,
+          521
+        ]
+      ],
+      "value": "A",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          316,
+          635
+        ],
+        [
+          349,
+          683
+        ]
+      ],
+      "value": "B",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          312,
+          908
+        ],
+        [
+          356,
+          957
+        ]
+      ],
+      "value": "C",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          427,
+          19
+        ],
+        [
+          669,
+          62
+        ]
+      ],
+      "value": "Wet climate",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          424,
+          368
+        ],
+        [
+          600,
+          415
+        ]
+      ],
+      "value": "LATERITE",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          424,
+          432
+        ],
+        [
+          678,
+          514
+        ]
+      ],
+      "value": "Thin or absent humus",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          426,
+          560
+        ],
+        [
+          872,
+          698
+        ]
+      ],
+      "value": "Thick masses of insoluble iron and aluminum oxides; occasional quartz",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          428,
+          744
+        ],
+        [
+          736,
+          786
+        ]
+      ],
+      "value": "Thin leached zone",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          420,
+          860
+        ],
+        [
+          665,
+          950
+        ]
+      ],
+      "value": "Mafic igneous bedrock",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          45,
+          986
+        ],
+        [
+          193,
+          1064
+        ],
+        [
+          292,
+          1064
+        ],
+        [
+          413,
+          987
+        ],
+        [
+          414,
+          395
+        ],
+        [
+          401,
+          360
+        ],
+        [
+          437,
+          322
+        ],
+        [
+          441,
+          303
+        ],
+        [
+          435,
+          286
+        ],
+        [
+          418,
+          266
+        ],
+        [
+          393,
+          253
+        ],
+        [
+          364,
+          249
+        ],
+        [
+          347,
+          250
+        ],
+        [
+          318,
+          250
+        ],
+        [
+          322,
+          214
+        ],
+        [
+          333,
+          201
+        ],
+        [
+          346,
+          220
+        ],
+        [
+          353,
+          220
+        ],
+        [
+          362,
+          193
+        ],
+        [
+          372,
+          148
+        ],
+        [
+          408,
+          128
+        ],
+        [
+          409,
+          91
+        ],
+        [
+          321,
+          34
+        ],
+        [
+          288,
+          27
+        ],
+        [
+          253,
+          33
+        ],
+        [
+          214,
+          46
+        ],
+        [
+          192,
+          46
+        ],
+        [
+          157,
+          20
+        ],
+        [
+          118,
+          22
+        ],
+        [
+          85,
+          33
+        ],
+        [
+          53,
+          47
+        ],
+        [
+          20,
+          72
+        ],
+        [
+          13,
+          104
+        ],
+        [
+          27,
+          135
+        ],
+        [
+          72,
+          195
+        ],
+        [
+          91,
+          250
+        ],
+        [
+          73,
+          264
+        ],
+        [
+          54,
+          296
+        ],
+        [
+          44,
+          323
+        ],
+        [
+          57,
+          343
+        ],
+        [
+          80,
+          338
+        ],
+        [
+          60,
+          399
+        ],
+        [
+          44,
+          404
+        ],
+        [
+          46,
+          986
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T4",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T5",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T6",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T7+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T7",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T8+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T8",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "B0": "whole"
+  },
+  "educational_context": {
+    "subject": "earth_science",
+    "diagram_type": "labeled_illustration",
+    "text_content": "a b c wet climate laterite thin or absent humus thick masses of insoluble iron and aluminum oxides; occasional quartz thin leached zone mafic igneous bedrock"
+  },
+  "questions": []
+}

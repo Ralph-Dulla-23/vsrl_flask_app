@@ -1,0 +1,242 @@
+{
+  "image_id": "4045",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          26,
+          0
+        ],
+        [
+          284,
+          26
+        ]
+      ],
+      "value": "Core-Envelope Structure",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          245,
+          41
+        ],
+        [
+          338,
+          78
+        ]
+      ],
+      "value": "Hot, Compact Core",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          131
+        ],
+        [
+          72,
+          200
+        ]
+      ],
+      "value": "Cooler; Extended",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          113,
+          52
+        ],
+        [
+          139,
+          40
+        ],
+        [
+          176,
+          36
+        ],
+        [
+          210,
+          48
+        ],
+        [
+          235,
+          70
+        ],
+        [
+          252,
+          108
+        ],
+        [
+          246,
+          155
+        ],
+        [
+          216,
+          197
+        ],
+        [
+          182,
+          210
+        ],
+        [
+          126,
+          206
+        ],
+        [
+          87,
+          167
+        ],
+        [
+          75,
+          115
+        ],
+        [
+          87,
+          76
+        ],
+        [
+          110,
+          52
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          167,
+          118
+        ],
+        [
+          172,
+          125
+        ],
+        [
+          253,
+          62
+        ],
+        [
+          248,
+          56
+        ],
+        [
+          166,
+          116
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          74,
+          167
+        ],
+        [
+          111,
+          149
+        ],
+        [
+          107,
+          143
+        ],
+        [
+          71,
+          160
+        ],
+        [
+          76,
+          167
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T2+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "core-envelope structure hot, compact core cooler; extended"
+  },
+  "questions": [
+    {
+      "question_text": "which is the hottest part",
+      "question_id": "4045.png-0",
+      "answers": [
+        "core",
+        "none",
+        "envelope",
+        "flair"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

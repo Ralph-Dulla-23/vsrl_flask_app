@@ -1,0 +1,420 @@
+{
+  "image_id": "2560",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          37,
+          167
+        ],
+        [
+          114,
+          180
+        ]
+      ],
+      "value": "new moon",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          168,
+          164
+        ],
+        [
+          283,
+          181
+        ]
+      ],
+      "value": "waxing crescent",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          33,
+          356
+        ],
+        [
+          116,
+          371
+        ]
+      ],
+      "value": "first quarter",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          169,
+          357
+        ],
+        [
+          279,
+          373
+        ]
+      ],
+      "value": "waxing gibbous",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          91,
+          130
+        ],
+        [
+          111,
+          104
+        ],
+        [
+          117,
+          77
+        ],
+        [
+          110,
+          57
+        ],
+        [
+          98,
+          35
+        ],
+        [
+          88,
+          26
+        ],
+        [
+          88,
+          21
+        ],
+        [
+          116,
+          35
+        ],
+        [
+          125,
+          57
+        ],
+        [
+          131,
+          79
+        ],
+        [
+          125,
+          105
+        ],
+        [
+          110,
+          124
+        ],
+        [
+          92,
+          134
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          31,
+          323
+        ],
+        [
+          68,
+          334
+        ],
+        [
+          99,
+          321
+        ],
+        [
+          127,
+          300
+        ],
+        [
+          135,
+          275
+        ],
+        [
+          136,
+          253
+        ],
+        [
+          121,
+          230
+        ],
+        [
+          99,
+          210
+        ],
+        [
+          74,
+          206
+        ],
+        [
+          40,
+          206
+        ],
+        [
+          10,
+          220
+        ],
+        [
+          12,
+          317
+        ],
+        [
+          30,
+          323
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          223,
+          323
+        ],
+        [
+          241,
+          318
+        ],
+        [
+          264,
+          307
+        ],
+        [
+          286,
+          280
+        ],
+        [
+          280,
+          253
+        ],
+        [
+          263,
+          224
+        ],
+        [
+          244,
+          211
+        ],
+        [
+          221,
+          209
+        ],
+        [
+          187,
+          227
+        ],
+        [
+          172,
+          253
+        ],
+        [
+          173,
+          286
+        ],
+        [
+          190,
+          303
+        ],
+        [
+          221,
+          325
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          209,
+          142
+        ],
+        [
+          254,
+          131
+        ],
+        [
+          273,
+          114
+        ],
+        [
+          286,
+          80
+        ],
+        [
+          277,
+          39
+        ],
+        [
+          240,
+          17
+        ],
+        [
+          227,
+          11
+        ],
+        [
+          195,
+          13
+        ],
+        [
+          173,
+          33
+        ],
+        [
+          164,
+          57
+        ],
+        [
+          162,
+          95
+        ],
+        [
+          183,
+          121
+        ],
+        [
+          206,
+          140
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+B0",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B3",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B1",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B2",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "new moon waxing crescent first quarter waxing gibbous"
+  },
+  "questions": [
+    {
+      "question_text": "Image B in the diagram above is referred to as what?",
+      "question_id": "2560.png-2",
+      "answers": [
+        "waxing gibbous",
+        "waning crescent",
+        "first quarter",
+        "waxing crescent"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "What it shown in the diagram?",
+      "question_id": "2560.png-1",
+      "answers": [
+        "Width and length",
+        "Phases of the moon",
+        "Asteroids",
+        "Celestial bodies"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What letter on the diagram is the first quarter?",
+      "question_id": "2560.png-3",
+      "answers": [
+        "C",
+        "B",
+        "A",
+        "D"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "What phase of the moon does letter B depict?",
+      "question_id": "2560.png-0",
+      "answers": [
+        "new moon",
+        "waxing gibbous",
+        "waxing crescent",
+        "first quarter"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which image depicts a waxing gibbous moon?",
+      "question_id": "2560.png-4",
+      "answers": [
+        "B",
+        "C",
+        "A",
+        "D"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    }
+  ]
+}

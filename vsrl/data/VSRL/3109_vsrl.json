@@ -1,0 +1,636 @@
+{
+  "image_id": "3109",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          351,
+          61
+        ],
+        [
+          395,
+          75
+        ]
+      ],
+      "value": "margin",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          347,
+          145
+        ],
+        [
+          395,
+          161
+        ]
+      ],
+      "value": "lamina",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          345,
+          264
+        ],
+        [
+          391,
+          276
+        ]
+      ],
+      "value": "petiole",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          267,
+          283
+        ],
+        [
+          311,
+          295
+        ]
+      ],
+      "value": "stipule",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          304,
+          316
+        ],
+        [
+          332,
+          327
+        ]
+      ],
+      "value": "axis",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          192,
+          316
+        ],
+        [
+          225,
+          329
+        ]
+      ],
+      "value": "node",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          53,
+          199
+        ],
+        [
+          157,
+          214
+        ]
+      ],
+      "value": "primary venation",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          39,
+          144
+        ],
+        [
+          152,
+          155
+        ]
+      ],
+      "value": "secondary venation",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          189,
+          302
+        ],
+        [
+          212,
+          305
+        ],
+        [
+          212,
+          306
+        ],
+        [
+          233,
+          314
+        ],
+        [
+          295,
+          334
+        ],
+        [
+          306,
+          326
+        ],
+        [
+          306,
+          315
+        ],
+        [
+          276,
+          306
+        ],
+        [
+          262,
+          301
+        ],
+        [
+          274,
+          289
+        ],
+        [
+          275,
+          274
+        ],
+        [
+          264,
+          272
+        ],
+        [
+          258,
+          285
+        ],
+        [
+          259,
+          264
+        ],
+        [
+          285,
+          246
+        ],
+        [
+          317,
+          212
+        ],
+        [
+          327,
+          176
+        ],
+        [
+          323,
+          142
+        ],
+        [
+          306,
+          81
+        ],
+        [
+          275,
+          26
+        ],
+        [
+          247,
+          6
+        ],
+        [
+          229,
+          15
+        ],
+        [
+          202,
+          49
+        ],
+        [
+          182,
+          87
+        ],
+        [
+          168,
+          139
+        ],
+        [
+          167,
+          188
+        ],
+        [
+          184,
+          223
+        ],
+        [
+          219,
+          254
+        ],
+        [
+          232,
+          259
+        ],
+        [
+          228,
+          271
+        ],
+        [
+          232,
+          291
+        ],
+        [
+          211,
+          287
+        ],
+        [
+          189,
+          282
+        ],
+        [
+          189,
+          302
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          155,
+          201
+        ],
+        [
+          232,
+          199
+        ],
+        [
+          239,
+          197
+        ],
+        [
+          253,
+          208
+        ],
+        [
+          240,
+          216
+        ],
+        [
+          231,
+          212
+        ],
+        [
+          157,
+          211
+        ],
+        [
+          157,
+          203
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          221,
+          318
+        ],
+        [
+          236,
+          310
+        ],
+        [
+          245,
+          312
+        ],
+        [
+          243,
+          321
+        ],
+        [
+          228,
+          330
+        ],
+        [
+          221,
+          319
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          254,
+          265
+        ],
+        [
+          269,
+          262
+        ],
+        [
+          269,
+          268
+        ],
+        [
+          342,
+          267
+        ],
+        [
+          341,
+          276
+        ],
+        [
+          267,
+          276
+        ],
+        [
+          267,
+          281
+        ],
+        [
+          252,
+          274
+        ],
+        [
+          253,
+          266
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          158,
+          143
+        ],
+        [
+          189,
+          143
+        ],
+        [
+          195,
+          141
+        ],
+        [
+          204,
+          151
+        ],
+        [
+          193,
+          157
+        ],
+        [
+          183,
+          155
+        ],
+        [
+          158,
+          154
+        ],
+        [
+          156,
+          145
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          289,
+          67
+        ],
+        [
+          304,
+          59
+        ],
+        [
+          304,
+          64
+        ],
+        [
+          341,
+          63
+        ],
+        [
+          339,
+          73
+        ],
+        [
+          304,
+          72
+        ],
+        [
+          302,
+          77
+        ],
+        [
+          288,
+          68
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H4",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H3",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H0",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H2",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T2+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T4+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T4",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T6+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T7+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "margin lamina petiole stipule axis node primary venation secondary venation"
+  },
+  "questions": [
+    {
+      "question_text": "What is the circular structure called?",
+      "question_id": "3109.png-2",
+      "answers": [
+        "none of the above",
+        "lamina",
+        "margin",
+        "peticole"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the outermost part of the leaf called?",
+      "question_id": "3109.png-1",
+      "answers": [
+        "margin",
+        "none of the above",
+        "lamina",
+        "peticole"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which part is marked as C?",
+      "question_id": "3109.png-0",
+      "answers": [
+        "node",
+        "axis",
+        "secondary venation",
+        "stipule"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which part is marked as H in the base of the leaf?",
+      "question_id": "3109.png-3",
+      "answers": [
+        "petiole",
+        "node",
+        "axis",
+        "stipule"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

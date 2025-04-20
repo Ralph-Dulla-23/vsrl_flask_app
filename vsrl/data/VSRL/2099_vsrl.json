@@ -1,0 +1,676 @@
+{
+  "image_id": "2099",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          35,
+          44
+        ],
+        [
+          81,
+          62
+        ]
+      ],
+      "value": "grass",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          130,
+          43
+        ],
+        [
+          178,
+          61
+        ]
+      ],
+      "value": "rabbit",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          245,
+          11
+        ],
+        [
+          269,
+          24
+        ]
+      ],
+      "value": "rat",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          228,
+          44
+        ],
+        [
+          273,
+          62
+        ]
+      ],
+      "value": "snake",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          10,
+          122
+        ],
+        [
+          71,
+          140
+        ]
+      ],
+      "value": "fruit tree",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          105,
+          121
+        ],
+        [
+          179,
+          138
+        ]
+      ],
+      "value": "caterpillar",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          222,
+          123
+        ],
+        [
+          295,
+          138
+        ]
+      ],
+      "value": "small bird",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          316,
+          95
+        ],
+        [
+          358,
+          112
+        ]
+      ],
+      "value": "hawk",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          84,
+          44
+        ],
+        [
+          131,
+          45
+        ],
+        [
+          133,
+          57
+        ],
+        [
+          83,
+          57
+        ],
+        [
+          82,
+          47
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          177,
+          46
+        ],
+        [
+          179,
+          59
+        ],
+        [
+          226,
+          60
+        ],
+        [
+          226,
+          47
+        ],
+        [
+          180,
+          45
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          265,
+          19
+        ],
+        [
+          332,
+          97
+        ],
+        [
+          342,
+          93
+        ],
+        [
+          272,
+          15
+        ],
+        [
+          264,
+          20
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          248,
+          26
+        ],
+        [
+          247,
+          49
+        ],
+        [
+          259,
+          48
+        ],
+        [
+          258,
+          25
+        ],
+        [
+          249,
+          25
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          318,
+          96
+        ],
+        [
+          312,
+          105
+        ],
+        [
+          262,
+          65
+        ],
+        [
+          272,
+          61
+        ],
+        [
+          319,
+          98
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          254,
+          67
+        ],
+        [
+          254,
+          113
+        ],
+        [
+          245,
+          115
+        ],
+        [
+          244,
+          63
+        ],
+        [
+          250,
+          68
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          289,
+          126
+        ],
+        [
+          296,
+          137
+        ],
+        [
+          322,
+          120
+        ],
+        [
+          314,
+          108
+        ],
+        [
+          291,
+          128
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          221,
+          122
+        ],
+        [
+          222,
+          136
+        ],
+        [
+          177,
+          134
+        ],
+        [
+          178,
+          120
+        ],
+        [
+          221,
+          122
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          76,
+          123
+        ],
+        [
+          75,
+          134
+        ],
+        [
+          103,
+          136
+        ],
+        [
+          105,
+          125
+        ],
+        [
+          79,
+          123
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H5",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H0",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H7",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H3",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H6",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H2",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H8",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H8",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A8+H4",
+      "type": "arrowHeadTail",
+      "source": "A8",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+T1",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T1",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T1+A1+T3",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T3",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T2+A2+T7",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T7",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T2+A3+T3",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T3",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T3+A4+T7",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T7",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T3+A5+T6",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T6",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T4+A8+T5",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T5",
+      "connector": "A8",
+      "directional": true
+    },
+    {
+      "id": "T5+A7+T6",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T6",
+      "connector": "A7",
+      "directional": true
+    },
+    {
+      "id": "T7+A6+T6",
+      "type": "interObjectLinkage",
+      "source": "T7",
+      "target": "T6",
+      "connector": "A6",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "grass rabbit rat snake fruit tree caterpillar small bird hawk"
+  },
+  "questions": [
+    {
+      "question_text": "In the diagram shown, which is the primary producer?",
+      "question_id": "2099.png-8",
+      "answers": [
+        "grass",
+        "rat",
+        "snake",
+        "rabbit"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the diagram shown, which is the producer?",
+      "question_id": "2099.png-3",
+      "answers": [
+        "rat",
+        "snake",
+        "grass",
+        "hawk"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the diagram shown, which organism consumes fruit trees as a direct food source?",
+      "question_id": "2099.png-5",
+      "answers": [
+        "caterpillar",
+        "hawk",
+        "small bird",
+        "snake"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the diagram shown, which organism consumes grass?",
+      "question_id": "2099.png-6",
+      "answers": [
+        "fruit tree",
+        "hawk",
+        "caterpillar",
+        "rabbit"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the diagram shown, which organism consumes small birds as an energy source?",
+      "question_id": "2099.png-9",
+      "answers": [
+        "caterpillar",
+        "snake",
+        "rat",
+        "rabbit"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Rabbit receives energy from",
+      "question_id": "2099.png-1",
+      "answers": [
+        "Rat",
+        "snake",
+        "Grass",
+        "None of above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What do caterpillars feed on?",
+      "question_id": "2099.png-0",
+      "answers": [
+        "hawk",
+        "small birds",
+        "fruit tree",
+        "none of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What do hawks eat?",
+      "question_id": "2099.png-2",
+      "answers": [
+        "goat",
+        "horse",
+        "small bird",
+        "none of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What do rabbits feed on?",
+      "question_id": "2099.png-4",
+      "answers": [
+        "hawk",
+        "small bird",
+        "grass",
+        "none of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "which organism is the main source of energy for the snake?",
+      "question_id": "2099.png-7",
+      "answers": [
+        "grass",
+        "Rabbit",
+        "Caterpillar",
+        "None of above"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

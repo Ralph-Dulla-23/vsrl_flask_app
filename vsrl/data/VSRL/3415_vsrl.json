@@ -1,0 +1,378 @@
+{
+  "image_id": "3415",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          83,
+          326
+        ],
+        [
+          455,
+          378
+        ]
+      ],
+      "value": "This is our egg, cut in half. We can clearly see the membrane.",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          324,
+          32
+        ],
+        [
+          366,
+          55
+        ]
+      ],
+      "value": "Shell",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          328,
+          89
+        ],
+        [
+          419,
+          121
+        ]
+      ],
+      "value": "Membrane",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          339,
+          147
+        ],
+        [
+          389,
+          172
+        ]
+      ],
+      "value": "White",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          305,
+          205
+        ],
+        [
+          344,
+          234
+        ]
+      ],
+      "value": "Yolk",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          113,
+          208
+        ],
+        [
+          96,
+          169
+        ],
+        [
+          93,
+          122
+        ],
+        [
+          104,
+          77
+        ],
+        [
+          129,
+          45
+        ],
+        [
+          164,
+          26
+        ],
+        [
+          207,
+          33
+        ],
+        [
+          239,
+          67
+        ],
+        [
+          256,
+          129
+        ],
+        [
+          244,
+          195
+        ],
+        [
+          215,
+          234
+        ],
+        [
+          169,
+          245
+        ],
+        [
+          140,
+          235
+        ],
+        [
+          115,
+          208
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          232,
+          66
+        ],
+        [
+          323,
+          37
+        ],
+        [
+          328,
+          51
+        ],
+        [
+          236,
+          80
+        ],
+        [
+          229,
+          64
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          236,
+          89
+        ],
+        [
+          330,
+          104
+        ],
+        [
+          327,
+          113
+        ],
+        [
+          239,
+          104
+        ],
+        [
+          238,
+          92
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          202,
+          91
+        ],
+        [
+          340,
+          154
+        ],
+        [
+          334,
+          164
+        ],
+        [
+          199,
+          103
+        ],
+        [
+          202,
+          91
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          217,
+          160
+        ],
+        [
+          312,
+          217
+        ],
+        [
+          303,
+          222
+        ],
+        [
+          206,
+          169
+        ],
+        [
+          218,
+          160
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H3",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H2",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H0",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H1",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+I0",
+      "type": "imageCaption",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T2+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T3+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T4+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "this is our egg, cut in half. we can clearly see the membrane. shell membrane white yolk"
+  },
+  "questions": [
+    {
+      "question_text": "Where is the shell?",
+      "question_id": "3415.png-1",
+      "answers": [
+        "A",
+        "E",
+        "C",
+        "D"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which portion is surrounded by the albumen and serving as nutriment for the developing young?",
+      "question_id": "3415.png-0",
+      "answers": [
+        "white",
+        "shell",
+        "yolk",
+        "membrane"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

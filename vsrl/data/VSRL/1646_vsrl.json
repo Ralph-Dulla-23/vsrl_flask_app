@@ -1,0 +1,452 @@
+{
+  "image_id": "1646",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          201,
+          14
+        ],
+        [
+          315,
+          36
+        ]
+      ],
+      "value": "Earth Moon",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          43,
+          100
+        ],
+        [
+          80,
+          121
+        ]
+      ],
+      "value": "Sun",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          269,
+          137
+        ],
+        [
+          366,
+          156
+        ]
+      ],
+      "value": "Penumbra",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          217,
+          181
+        ],
+        [
+          281,
+          199
+        ]
+      ],
+      "value": "Umbra",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          0,
+          129
+        ],
+        [
+          6,
+          145
+        ],
+        [
+          17,
+          159
+        ],
+        [
+          33,
+          168
+        ],
+        [
+          49,
+          175
+        ],
+        [
+          64,
+          175
+        ],
+        [
+          82,
+          172
+        ],
+        [
+          97,
+          164
+        ],
+        [
+          110,
+          154
+        ],
+        [
+          120,
+          134
+        ],
+        [
+          124,
+          118
+        ],
+        [
+          122,
+          92
+        ],
+        [
+          112,
+          75
+        ],
+        [
+          101,
+          63
+        ],
+        [
+          90,
+          57
+        ],
+        [
+          73,
+          50
+        ],
+        [
+          55,
+          50
+        ],
+        [
+          37,
+          55
+        ],
+        [
+          23,
+          63
+        ],
+        [
+          13,
+          72
+        ],
+        [
+          4,
+          87
+        ],
+        [
+          0,
+          104
+        ],
+        [
+          0,
+          129
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          200,
+          112
+        ],
+        [
+          200,
+          120
+        ],
+        [
+          207,
+          129
+        ],
+        [
+          219,
+          134
+        ],
+        [
+          232,
+          134
+        ],
+        [
+          238,
+          128
+        ],
+        [
+          245,
+          115
+        ],
+        [
+          245,
+          106
+        ],
+        [
+          238,
+          95
+        ],
+        [
+          229,
+          91
+        ],
+        [
+          219,
+          90
+        ],
+        [
+          211,
+          94
+        ],
+        [
+          204,
+          100
+        ],
+        [
+          199,
+          112
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          282,
+          114
+        ],
+        [
+          289,
+          119
+        ],
+        [
+          297,
+          114
+        ],
+        [
+          295,
+          108
+        ],
+        [
+          293,
+          106
+        ],
+        [
+          288,
+          104
+        ],
+        [
+          283,
+          112
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          220,
+          86
+        ],
+        [
+          369,
+          3
+        ],
+        [
+          369,
+          3
+        ],
+        [
+          369,
+          96
+        ],
+        [
+          218,
+          136
+        ],
+        [
+          369,
+          222
+        ],
+        [
+          369,
+          125
+        ],
+        [
+          221,
+          88
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          223,
+          32
+        ],
+        [
+          231,
+          32
+        ],
+        [
+          232,
+          86
+        ],
+        [
+          223,
+          86
+        ],
+        [
+          222,
+          34
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          284,
+          33
+        ],
+        [
+          285,
+          98
+        ],
+        [
+          295,
+          98
+        ],
+        [
+          295,
+          33
+        ],
+        [
+          288,
+          33
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          246,
+          122
+        ],
+        [
+          257,
+          122
+        ],
+        [
+          259,
+          179
+        ],
+        [
+          249,
+          181
+        ],
+        [
+          247,
+          124
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T1+B0",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B3",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "earth moon sun penumbra umbra"
+  },
+  "questions": [
+    {
+      "question_text": "What does C represent?",
+      "question_id": "1646.png-1",
+      "answers": [
+        "Moon",
+        "Umbra",
+        "Earth",
+        "Penumbra"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which label points to the Umbra?",
+      "question_id": "1646.png-0",
+      "answers": [
+        "A",
+        "C",
+        "B",
+        "D"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

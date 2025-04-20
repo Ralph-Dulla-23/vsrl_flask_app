@@ -1,0 +1,868 @@
+{
+  "image_id": "4200",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          105,
+          12
+        ],
+        [
+          397,
+          35
+        ]
+      ],
+      "value": "CLASSIFICATION OF ROCKS",
+      "replacementText": "L",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          31,
+          39
+        ],
+        [
+          139,
+          62
+        ]
+      ],
+      "value": "Sedimentary",
+      "replacementText": "K",
+      "category": "label"
+    },
+    "T10": {
+      "id": "T10",
+      "type": "text",
+      "bbox": [
+        [
+          411,
+          122
+        ],
+        [
+          501,
+          141
+        ]
+      ],
+      "value": "Non-foliated",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T11": {
+      "id": "T11",
+      "type": "text",
+      "bbox": [
+        [
+          6,
+          199
+        ],
+        [
+          98,
+          284
+        ]
+      ],
+      "value": "Conglomerate Breccia Sandstone Siltstone",
+      "replacementText": "O",
+      "category": "label"
+    },
+    "T12": {
+      "id": "T12",
+      "type": "text",
+      "bbox": [
+        [
+          52,
+          154
+        ],
+        [
+          123,
+          199
+        ]
+      ],
+      "value": "Limestone Dolostone Evaporites",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T13": {
+      "id": "T13",
+      "type": "text",
+      "bbox": [
+        [
+          179,
+          156
+        ],
+        [
+          254,
+          213
+        ]
+      ],
+      "value": "Gabbro Diorite Granodiorite Granite",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T14": {
+      "id": "T14",
+      "type": "text",
+      "bbox": [
+        [
+          259,
+          152
+        ],
+        [
+          318,
+          212
+        ]
+      ],
+      "value": "Basalt Andesite Dacite Rhyolite",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T15": {
+      "id": "T15",
+      "type": "text",
+      "bbox": [
+        [
+          127,
+          200
+        ],
+        [
+          163,
+          230
+        ]
+      ],
+      "value": "Coal Chert",
+      "replacementText": "M",
+      "category": "label"
+    },
+    "T16": {
+      "id": "T16",
+      "type": "text",
+      "bbox": [
+        [
+          342,
+          199
+        ],
+        [
+          387,
+          238
+        ]
+      ],
+      "value": "Slate Schist",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T17": {
+      "id": "T17",
+      "type": "text",
+      "bbox": [
+        [
+          444,
+          197
+        ],
+        [
+          498,
+          229
+        ]
+      ],
+      "value": "Quartzite Marble",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          363,
+          38
+        ],
+        [
+          475,
+          62
+        ]
+      ],
+      "value": "Metamorphic",
+      "replacementText": "P",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          217,
+          39
+        ],
+        [
+          288,
+          60
+        ]
+      ],
+      "value": "Igneous",
+      "replacementText": "N",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          51,
+          99
+        ],
+        [
+          122,
+          115
+        ]
+      ],
+      "value": "Chemical",
+      "replacementText": "Q",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          1,
+          123
+        ],
+        [
+          52,
+          139
+        ]
+      ],
+      "value": "Clastic",
+      "replacementText": "R",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          174,
+          98
+        ],
+        [
+          239,
+          116
+        ]
+      ],
+      "value": "Intrusive",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          121,
+          122
+        ],
+        [
+          178,
+          143
+        ]
+      ],
+      "value": "Biologic",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          259,
+          98
+        ],
+        [
+          329,
+          117
+        ]
+      ],
+      "value": "Extrusive",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          329,
+          123
+        ],
+        [
+          391,
+          140
+        ]
+      ],
+      "value": "Foliated",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          477,
+          142
+        ],
+        [
+          489,
+          142
+        ],
+        [
+          490,
+          197
+        ],
+        [
+          477,
+          196
+        ],
+        [
+          476,
+          142
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          348,
+          141
+        ],
+        [
+          360,
+          140
+        ],
+        [
+          360,
+          194
+        ],
+        [
+          350,
+          195
+        ],
+        [
+          349,
+          141
+        ]
+      ],
+      "category": "connector"
+    },
+    "A10": {
+      "id": "A10",
+      "type": "arrow",
+      "polygon": [
+        [
+          149,
+          129
+        ],
+        [
+          156,
+          119
+        ],
+        [
+          83,
+          51
+        ],
+        [
+          74,
+          60
+        ],
+        [
+          149,
+          130
+        ]
+      ],
+      "category": "connector"
+    },
+    "A11": {
+      "id": "A11",
+      "type": "arrow",
+      "polygon": [
+        [
+          77,
+          47
+        ],
+        [
+          91,
+          47
+        ],
+        [
+          89,
+          103
+        ],
+        [
+          77,
+          103
+        ],
+        [
+          76,
+          48
+        ]
+      ],
+      "category": "connector"
+    },
+    "A12": {
+      "id": "A12",
+      "type": "arrow",
+      "polygon": [
+        [
+          26,
+          127
+        ],
+        [
+          16,
+          119
+        ],
+        [
+          85,
+          49
+        ],
+        [
+          93,
+          59
+        ],
+        [
+          27,
+          129
+        ]
+      ],
+      "category": "connector"
+    },
+    "A13": {
+      "id": "A13",
+      "type": "arrow",
+      "polygon": [
+        [
+          13,
+          137
+        ],
+        [
+          29,
+          137
+        ],
+        [
+          28,
+          199
+        ],
+        [
+          17,
+          197
+        ],
+        [
+          13,
+          137
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          357,
+          122
+        ],
+        [
+          423,
+          57
+        ],
+        [
+          413,
+          49
+        ],
+        [
+          349,
+          114
+        ],
+        [
+          357,
+          124
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          407,
+          57
+        ],
+        [
+          479,
+          126
+        ],
+        [
+          489,
+          118
+        ],
+        [
+          414,
+          48
+        ],
+        [
+          404,
+          57
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          283,
+          113
+        ],
+        [
+          293,
+          113
+        ],
+        [
+          295,
+          155
+        ],
+        [
+          285,
+          154
+        ],
+        [
+          284,
+          115
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          205,
+          111
+        ],
+        [
+          218,
+          110
+        ],
+        [
+          221,
+          153
+        ],
+        [
+          209,
+          154
+        ],
+        [
+          205,
+          112
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          217,
+          99
+        ],
+        [
+          260,
+          58
+        ],
+        [
+          250,
+          52
+        ],
+        [
+          204,
+          97
+        ],
+        [
+          213,
+          105
+        ],
+        [
+          217,
+          100
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          285,
+          102
+        ],
+        [
+          295,
+          94
+        ],
+        [
+          252,
+          52
+        ],
+        [
+          242,
+          60
+        ],
+        [
+          285,
+          102
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          145,
+          139
+        ],
+        [
+          157,
+          141
+        ],
+        [
+          156,
+          197
+        ],
+        [
+          145,
+          196
+        ],
+        [
+          143,
+          138
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          90,
+          154
+        ],
+        [
+          89,
+          111
+        ],
+        [
+          78,
+          115
+        ],
+        [
+          76,
+          157
+        ],
+        [
+          89,
+          156
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A11+H0",
+      "type": "arrowHeadTail",
+      "source": "A11",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A10+T7",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T7",
+      "connector": "A10",
+      "directional": false
+    },
+    {
+      "id": "T1+A11+T4",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T4",
+      "connector": "A11",
+      "directional": true
+    },
+    {
+      "id": "T10+A0+T17",
+      "type": "interObjectLinkage",
+      "source": "T10",
+      "target": "T17",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T10+A3+T2",
+      "type": "interObjectLinkage",
+      "source": "T10",
+      "target": "T2",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T11+A13+T5",
+      "type": "interObjectLinkage",
+      "source": "T11",
+      "target": "T5",
+      "connector": "A13",
+      "directional": false
+    },
+    {
+      "id": "T12+A9+T4",
+      "type": "interObjectLinkage",
+      "source": "T12",
+      "target": "T4",
+      "connector": "A9",
+      "directional": false
+    },
+    {
+      "id": "T13+A5+T6",
+      "type": "interObjectLinkage",
+      "source": "T13",
+      "target": "T6",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T14+A4+T8",
+      "type": "interObjectLinkage",
+      "source": "T14",
+      "target": "T8",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T15+A8+T7",
+      "type": "interObjectLinkage",
+      "source": "T15",
+      "target": "T7",
+      "connector": "A8",
+      "directional": false
+    },
+    {
+      "id": "T16+A1+T9",
+      "type": "interObjectLinkage",
+      "source": "T16",
+      "target": "T9",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T2+A2+T9",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T9",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T3+A6+T6",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T6",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T5+A12+T1",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T1",
+      "connector": "A12",
+      "directional": false
+    },
+    {
+      "id": "T8+A7+T3",
+      "type": "interObjectLinkage",
+      "source": "T8",
+      "target": "T3",
+      "connector": "A7",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T10": "part_label",
+    "T11": "part_label",
+    "T12": "part_label",
+    "T13": "part_label",
+    "T14": "part_label",
+    "T15": "part_label",
+    "T16": "part_label",
+    "T17": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A10": "connector",
+    "A11": "connector",
+    "A12": "connector",
+    "A13": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "chemistry",
+    "diagram_type": "flow_diagram",
+    "text_content": "classification of rocks sedimentary non-foliated conglomerate breccia sandstone siltstone limestone dolostone evaporites gabbro diorite granodiorite granite basalt andesite dacite rhyolite coal chert slate schist quartzite marble metamorphic igneous chemical clastic intrusive biologic extrusive foliated"
+  },
+  "questions": [
+    {
+      "question_text": "Which of the following is not a classification of rock?",
+      "question_id": "4200.png-0",
+      "answers": [
+        "Igneous",
+        "Metamorphic",
+        "Basalt",
+        "Sedimentary"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}

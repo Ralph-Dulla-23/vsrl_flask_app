@@ -1,0 +1,662 @@
+{
+  "image_id": "2256",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          132,
+          25
+        ],
+        [
+          592,
+          61
+        ]
+      ],
+      "value": "life cycle of butterfly",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          449,
+          80
+        ],
+        [
+          553,
+          102
+        ]
+      ],
+      "value": "Caterpillar",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          621,
+          304
+        ],
+        [
+          676,
+          324
+        ]
+      ],
+      "value": "Pupa",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          42,
+          250
+        ],
+        [
+          129,
+          271
+        ]
+      ],
+      "value": "Butterfly",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          193,
+          80
+        ],
+        [
+          233,
+          100
+        ]
+      ],
+      "value": "Egg",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          34,
+          169
+        ],
+        [
+          33,
+          78
+        ],
+        [
+          166,
+          78
+        ],
+        [
+          170,
+          115
+        ],
+        [
+          271,
+          115
+        ],
+        [
+          267,
+          219
+        ],
+        [
+          145,
+          218
+        ],
+        [
+          146,
+          169
+        ],
+        [
+          35,
+          170
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          440,
+          211
+        ],
+        [
+          440,
+          114
+        ],
+        [
+          572,
+          115
+        ],
+        [
+          569,
+          70
+        ],
+        [
+          705,
+          72
+        ],
+        [
+          704,
+          164
+        ],
+        [
+          580,
+          165
+        ],
+        [
+          584,
+          210
+        ],
+        [
+          440,
+          215
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          478,
+          423
+        ],
+        [
+          478,
+          297
+        ],
+        [
+          602,
+          299
+        ],
+        [
+          600,
+          332
+        ],
+        [
+          696,
+          334
+        ],
+        [
+          697,
+          469
+        ],
+        [
+          579,
+          469
+        ],
+        [
+          576,
+          422
+        ],
+        [
+          477,
+          425
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          413,
+          424
+        ],
+        [
+          412,
+          316
+        ],
+        [
+          260,
+          315
+        ],
+        [
+          258,
+          392
+        ],
+        [
+          192,
+          393
+        ],
+        [
+          192,
+          403
+        ],
+        [
+          150,
+          403
+        ],
+        [
+          150,
+          287
+        ],
+        [
+          17,
+          290
+        ],
+        [
+          12,
+          424
+        ],
+        [
+          85,
+          427
+        ],
+        [
+          82,
+          539
+        ],
+        [
+          200,
+          538
+        ],
+        [
+          203,
+          512
+        ],
+        [
+          344,
+          510
+        ],
+        [
+          348,
+          422
+        ],
+        [
+          411,
+          425
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          207,
+          234
+        ],
+        [
+          176,
+          265
+        ],
+        [
+          192,
+          266
+        ],
+        [
+          192,
+          336
+        ],
+        [
+          226,
+          338
+        ],
+        [
+          226,
+          266
+        ],
+        [
+          240,
+          266
+        ],
+        [
+          209,
+          233
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          288,
+          146
+        ],
+        [
+          393,
+          149
+        ],
+        [
+          393,
+          135
+        ],
+        [
+          399,
+          133
+        ],
+        [
+          430,
+          168
+        ],
+        [
+          397,
+          201
+        ],
+        [
+          393,
+          195
+        ],
+        [
+          393,
+          186
+        ],
+        [
+          286,
+          185
+        ],
+        [
+          288,
+          146
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          641,
+          192
+        ],
+        [
+          675,
+          191
+        ],
+        [
+          675,
+          262
+        ],
+        [
+          692,
+          262
+        ],
+        [
+          658,
+          296
+        ],
+        [
+          626,
+          265
+        ],
+        [
+          643,
+          259
+        ],
+        [
+          639,
+          191
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          419,
+          420
+        ],
+        [
+          419,
+          439
+        ],
+        [
+          524,
+          440
+        ],
+        [
+          525,
+          473
+        ],
+        [
+          519,
+          474
+        ],
+        [
+          420,
+          477
+        ],
+        [
+          423,
+          487
+        ],
+        [
+          419,
+          491
+        ],
+        [
+          404,
+          485
+        ],
+        [
+          381,
+          455
+        ],
+        [
+          395,
+          441
+        ],
+        [
+          420,
+          419
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H3",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H2",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H1",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H0",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A1+B1",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B1",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "B1+A2+B2",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B2",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "B2+A3+B3",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B3",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "B3+A0+B0",
+      "type": "interObjectLinkage",
+      "source": "B3",
+      "target": "B0",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B1",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B2",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B3",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B0",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "life cycle of butterfly caterpillar pupa butterfly egg"
+  },
+  "questions": [
+    {
+      "question_text": "What cycle is represented by this diagram?",
+      "question_id": "2256.png-0",
+      "answers": [
+        "Bee",
+        "Plant",
+        "Butterfly",
+        "Ladybug"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What letter represents Eggs in the diagram above?",
+      "question_id": "2256.png-3",
+      "answers": [
+        "D \nD",
+        "E",
+        "C",
+        "A"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "What stage of the butterfly life cycle is shown at letter C?",
+      "question_id": "2256.png-2",
+      "answers": [
+        "adult",
+        "caterpillar",
+        "egg",
+        "pupa"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "What stage of the butterfly life cycle is shown at letter D?",
+      "question_id": "2256.png-1",
+      "answers": [
+        "egg",
+        "adult",
+        "pupa",
+        "caterpillar"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which stage follows the pupa stage in this cycle?",
+      "question_id": "2256.png-4",
+      "answers": [
+        "Larva",
+        "Butterfly",
+        "Caterpilar",
+        "Egg"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

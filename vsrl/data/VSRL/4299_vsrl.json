@@ -1,0 +1,286 @@
+{
+  "image_id": "4299",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          117,
+          194
+        ],
+        [
+          228,
+          226
+        ]
+      ],
+      "value": "Magma",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          15,
+          72
+        ],
+        [
+          103,
+          94
+        ]
+      ],
+      "value": "Batholith",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          209,
+          76
+        ],
+        [
+          300,
+          98
+        ]
+      ],
+      "value": "Batholith",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          0,
+          36
+        ],
+        [
+          8,
+          40
+        ],
+        [
+          44,
+          25
+        ],
+        [
+          54,
+          30
+        ],
+        [
+          105,
+          34
+        ],
+        [
+          169,
+          24
+        ],
+        [
+          251,
+          4
+        ],
+        [
+          297,
+          12
+        ],
+        [
+          347,
+          16
+        ],
+        [
+          359,
+          23
+        ],
+        [
+          359,
+          226
+        ],
+        [
+          3,
+          226
+        ],
+        [
+          0,
+          37
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          255,
+          218
+        ],
+        [
+          253,
+          174
+        ],
+        [
+          264,
+          174
+        ],
+        [
+          267,
+          217
+        ],
+        [
+          256,
+          215
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          107,
+          217
+        ],
+        [
+          115,
+          211
+        ],
+        [
+          98,
+          190
+        ],
+        [
+          98,
+          184
+        ],
+        [
+          82,
+          178
+        ],
+        [
+          83,
+          190
+        ],
+        [
+          89,
+          191
+        ],
+        [
+          106,
+          217
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "magma batholith batholith"
+  },
+  "questions": [
+    {
+      "question_text": "What direction does the magma flow?",
+      "question_id": "4299.png-1",
+      "answers": [
+        "none of the above",
+        "both above",
+        "down",
+        "up"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the lava chamber above the magma chamber?",
+      "question_id": "4299.png-3",
+      "answers": [
+        "rock layer",
+        "none of the above",
+        "crust",
+        "batholith"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "what is the bottom layer in the diagram?",
+      "question_id": "4299.png-2",
+      "answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "which describes label b in the above diagram?",
+      "question_id": "4299.png-0",
+      "answers": [
+        "magma",
+        "batholith",
+        "rock layers",
+        "lava"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

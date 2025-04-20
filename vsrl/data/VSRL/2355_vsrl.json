@@ -1,0 +1,432 @@
+{
+  "image_id": "2355",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          79,
+          19
+        ],
+        [
+          173,
+          40
+        ]
+      ],
+      "value": "fertilisation",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          12,
+          98
+        ],
+        [
+          100,
+          116
+        ]
+      ],
+      "value": "pollination",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          144,
+          96
+        ],
+        [
+          247,
+          114
+        ]
+      ],
+      "value": "germination",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          72,
+          174
+        ],
+        [
+          193,
+          193
+        ]
+      ],
+      "value": "seed dispersal",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          133,
+          46
+        ],
+        [
+          152,
+          49
+        ],
+        [
+          165,
+          57
+        ],
+        [
+          178,
+          70
+        ],
+        [
+          185,
+          82
+        ],
+        [
+          188,
+          94
+        ],
+        [
+          192,
+          93
+        ],
+        [
+          188,
+          69
+        ],
+        [
+          176,
+          53
+        ],
+        [
+          148,
+          41
+        ],
+        [
+          135,
+          41
+        ],
+        [
+          134,
+          47
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          185,
+          111
+        ],
+        [
+          192,
+          115
+        ],
+        [
+          190,
+          130
+        ],
+        [
+          183,
+          150
+        ],
+        [
+          167,
+          165
+        ],
+        [
+          140,
+          173
+        ],
+        [
+          141,
+          164
+        ],
+        [
+          158,
+          161
+        ],
+        [
+          177,
+          144
+        ],
+        [
+          183,
+          125
+        ],
+        [
+          185,
+          113
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          122,
+          167
+        ],
+        [
+          115,
+          172
+        ],
+        [
+          89,
+          163
+        ],
+        [
+          70,
+          143
+        ],
+        [
+          63,
+          115
+        ],
+        [
+          68,
+          115
+        ],
+        [
+          72,
+          130
+        ],
+        [
+          80,
+          145
+        ],
+        [
+          96,
+          160
+        ],
+        [
+          112,
+          163
+        ],
+        [
+          123,
+          163
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          57,
+          86
+        ],
+        [
+          67,
+          64
+        ],
+        [
+          87,
+          46
+        ],
+        [
+          116,
+          39
+        ],
+        [
+          123,
+          41
+        ],
+        [
+          120,
+          45
+        ],
+        [
+          106,
+          49
+        ],
+        [
+          87,
+          56
+        ],
+        [
+          73,
+          72
+        ],
+        [
+          72,
+          87
+        ],
+        [
+          71,
+          96
+        ],
+        [
+          62,
+          97
+        ],
+        [
+          57,
+          85
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H3",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H1",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A3+T1",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T1",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T1+A2+T3",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T3",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T2+A0+T0",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T0",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T3+A1+T2",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T2",
+      "connector": "A1",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "fertilisation pollination germination seed dispersal"
+  },
+  "questions": [
+    {
+      "question_text": "If Pollination occurs at B, what occurs at A?",
+      "question_id": "2355.png-4",
+      "answers": [
+        "Fertilization",
+        "Polination",
+        "Germination",
+        "Seed Dispersal"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "Letter B represents which term?",
+      "question_id": "2355.png-3",
+      "answers": [
+        "pollination",
+        "germination",
+        "seed dispersal",
+        "fertilisation"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "What point does Fertilization occur at if Germination occurs at C?",
+      "question_id": "2355.png-1",
+      "answers": [
+        "B",
+        "D",
+        "C",
+        "A"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "Where does pollination usually take place?",
+      "question_id": "2355.png-0",
+      "answers": [
+        "Root",
+        "Leaves",
+        "Stem",
+        "Flower"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which cycle is shown in the diagram?",
+      "question_id": "2355.png-2",
+      "answers": [
+        "Carbon cycle",
+        "Plant life cycle",
+        "Animal life cycle",
+        "Plant respiratory cycle"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

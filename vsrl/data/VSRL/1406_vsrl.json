@@ -1,0 +1,350 @@
+{
+  "image_id": "1406",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          174,
+          93
+        ],
+        [
+          295,
+          115
+        ]
+      ],
+      "value": "Organic Layer",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          167,
+          125
+        ],
+        [
+          249,
+          149
+        ]
+      ],
+      "value": "Top Soil",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          174,
+          183
+        ],
+        [
+          252,
+          207
+        ]
+      ],
+      "value": "Sub Soil",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          174,
+          257
+        ],
+        [
+          314,
+          280
+        ]
+      ],
+      "value": "Parent Material",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          173,
+          338
+        ],
+        [
+          256,
+          357
+        ]
+      ],
+      "value": "Bedrock",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          9,
+          8
+        ],
+        [
+          148,
+          9
+        ],
+        [
+          150,
+          78
+        ],
+        [
+          148,
+          312
+        ],
+        [
+          149,
+          404
+        ],
+        [
+          86,
+          405
+        ],
+        [
+          41,
+          410
+        ],
+        [
+          18,
+          411
+        ],
+        [
+          17,
+          241
+        ],
+        [
+          12,
+          127
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          146,
+          341
+        ],
+        [
+          146,
+          356
+        ],
+        [
+          174,
+          356
+        ],
+        [
+          174,
+          340
+        ],
+        [
+          148,
+          341
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          148,
+          261
+        ],
+        [
+          148,
+          276
+        ],
+        [
+          173,
+          276
+        ],
+        [
+          174,
+          262
+        ],
+        [
+          152,
+          262
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          148,
+          190
+        ],
+        [
+          148,
+          204
+        ],
+        [
+          174,
+          205
+        ],
+        [
+          174,
+          192
+        ],
+        [
+          150,
+          192
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          150,
+          132
+        ],
+        [
+          150,
+          142
+        ],
+        [
+          175,
+          143
+        ],
+        [
+          175,
+          134
+        ],
+        [
+          151,
+          134
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          149,
+          96
+        ],
+        [
+          149,
+          110
+        ],
+        [
+          174,
+          110
+        ],
+        [
+          174,
+          98
+        ],
+        [
+          150,
+          96
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T1+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T2+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T3+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T4+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "organic layer top soil sub soil parent material bedrock"
+  },
+  "questions": [
+    {
+      "question_text": "Which label represents bedrock?",
+      "question_id": "1406.png-0",
+      "answers": [
+        "C",
+        "B",
+        "D",
+        "A"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

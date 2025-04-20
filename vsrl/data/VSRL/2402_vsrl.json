@@ -1,0 +1,409 @@
+{
+  "image_id": "2402",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          205,
+          19
+        ],
+        [
+          227,
+          41
+        ]
+      ],
+      "value": "A",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          30,
+          85
+        ],
+        [
+          51,
+          108
+        ]
+      ],
+      "value": "D",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          208,
+          158
+        ],
+        [
+          229,
+          182
+        ]
+      ],
+      "value": "C",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          336,
+          148
+        ],
+        [
+          449,
+          173
+        ]
+      ],
+      "value": "fertilisation",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          396,
+          89
+        ],
+        [
+          415,
+          115
+        ]
+      ],
+      "value": "B",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          250,
+          32
+        ],
+        [
+          249,
+          18
+        ],
+        [
+          318,
+          25
+        ],
+        [
+          367,
+          39
+        ],
+        [
+          403,
+          61
+        ],
+        [
+          408,
+          56
+        ],
+        [
+          417,
+          71
+        ],
+        [
+          401,
+          73
+        ],
+        [
+          401,
+          68
+        ],
+        [
+          355,
+          44
+        ],
+        [
+          311,
+          31
+        ],
+        [
+          251,
+          28
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          409,
+          118
+        ],
+        [
+          414,
+          124
+        ],
+        [
+          391,
+          141
+        ],
+        [
+          324,
+          178
+        ],
+        [
+          269,
+          185
+        ],
+        [
+          268,
+          189
+        ],
+        [
+          251,
+          182
+        ],
+        [
+          266,
+          173
+        ],
+        [
+          269,
+          177
+        ],
+        [
+          318,
+          169
+        ],
+        [
+          384,
+          137
+        ],
+        [
+          410,
+          120
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          182,
+          168
+        ],
+        [
+          182,
+          174
+        ],
+        [
+          145,
+          174
+        ],
+        [
+          108,
+          169
+        ],
+        [
+          60,
+          154
+        ],
+        [
+          42,
+          135
+        ],
+        [
+          38,
+          137
+        ],
+        [
+          32,
+          124
+        ],
+        [
+          46,
+          127
+        ],
+        [
+          46,
+          131
+        ],
+        [
+          69,
+          149
+        ],
+        [
+          92,
+          157
+        ],
+        [
+          130,
+          167
+        ],
+        [
+          182,
+          170
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          42,
+          64
+        ],
+        [
+          49,
+          73
+        ],
+        [
+          62,
+          62
+        ],
+        [
+          94,
+          41
+        ],
+        [
+          145,
+          29
+        ],
+        [
+          183,
+          26
+        ],
+        [
+          185,
+          31
+        ],
+        [
+          194,
+          24
+        ],
+        [
+          184,
+          15
+        ],
+        [
+          183,
+          19
+        ],
+        [
+          129,
+          22
+        ],
+        [
+          82,
+          35
+        ],
+        [
+          52,
+          59
+        ],
+        [
+          44,
+          64
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H3",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H1",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+T4",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T4",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T1+A3+T0",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T0",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T2+A2+T1",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T1",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T4+A1+T2",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T2",
+      "connector": "A1",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "a d c fertilisation b"
+  },
+  "questions": []
+}

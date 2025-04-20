@@ -1,0 +1,938 @@
+{
+  "image_id": "2306",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          284,
+          139
+        ],
+        [
+          326,
+          156
+        ]
+      ],
+      "value": "adult",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          419,
+          161
+        ],
+        [
+          589,
+          194
+        ]
+      ],
+      "value": "raft of eggs (laid on water's surface)",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          206,
+          208
+        ],
+        [
+          316,
+          226
+        ]
+      ],
+      "value": "water's surface",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          215,
+          354
+        ],
+        [
+          409,
+          382
+        ]
+      ],
+      "value": "larva (just under water's surface)",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          5,
+          325
+        ],
+        [
+          189,
+          354
+        ]
+      ],
+      "value": "pupa (just under water's surface)",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          197,
+          160
+        ],
+        [
+          222,
+          153
+        ],
+        [
+          240,
+          129
+        ],
+        [
+          280,
+          115
+        ],
+        [
+          289,
+          106
+        ],
+        [
+          296,
+          110
+        ],
+        [
+          330,
+          108
+        ],
+        [
+          338,
+          105
+        ],
+        [
+          360,
+          133
+        ],
+        [
+          392,
+          160
+        ],
+        [
+          430,
+          158
+        ],
+        [
+          412,
+          141
+        ],
+        [
+          400,
+          135
+        ],
+        [
+          374,
+          102
+        ],
+        [
+          419,
+          92
+        ],
+        [
+          429,
+          84
+        ],
+        [
+          427,
+          77
+        ],
+        [
+          423,
+          74
+        ],
+        [
+          435,
+          65
+        ],
+        [
+          435,
+          56
+        ],
+        [
+          426,
+          49
+        ],
+        [
+          466,
+          3
+        ],
+        [
+          454,
+          0
+        ],
+        [
+          441,
+          3
+        ],
+        [
+          414,
+          29
+        ],
+        [
+          368,
+          42
+        ],
+        [
+          340,
+          43
+        ],
+        [
+          328,
+          57
+        ],
+        [
+          320,
+          50
+        ],
+        [
+          306,
+          60
+        ],
+        [
+          287,
+          63
+        ],
+        [
+          271,
+          58
+        ],
+        [
+          258,
+          54
+        ],
+        [
+          245,
+          61
+        ],
+        [
+          234,
+          53
+        ],
+        [
+          214,
+          62
+        ],
+        [
+          200,
+          66
+        ],
+        [
+          204,
+          85
+        ],
+        [
+          211,
+          88
+        ],
+        [
+          197,
+          106
+        ],
+        [
+          154,
+          121
+        ],
+        [
+          153,
+          131
+        ],
+        [
+          167,
+          135
+        ],
+        [
+          191,
+          125
+        ],
+        [
+          222,
+          107
+        ],
+        [
+          233,
+          101
+        ],
+        [
+          236,
+          111
+        ],
+        [
+          206,
+          128
+        ],
+        [
+          185,
+          138
+        ],
+        [
+          192,
+          145
+        ],
+        [
+          210,
+          137
+        ],
+        [
+          192,
+          153
+        ],
+        [
+          180,
+          156
+        ],
+        [
+          186,
+          164
+        ],
+        [
+          196,
+          161
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          421,
+          198
+        ],
+        [
+          419,
+          231
+        ],
+        [
+          434,
+          255
+        ],
+        [
+          586,
+          255
+        ],
+        [
+          584,
+          195
+        ],
+        [
+          531,
+          193
+        ],
+        [
+          446,
+          191
+        ],
+        [
+          427,
+          192
+        ],
+        [
+          419,
+          198
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          365,
+          256
+        ],
+        [
+          379,
+          241
+        ],
+        [
+          372,
+          229
+        ],
+        [
+          324,
+          264
+        ],
+        [
+          320,
+          260
+        ],
+        [
+          292,
+          278
+        ],
+        [
+          268,
+          304
+        ],
+        [
+          248,
+          321
+        ],
+        [
+          256,
+          334
+        ],
+        [
+          259,
+          338
+        ],
+        [
+          249,
+          348
+        ],
+        [
+          257,
+          364
+        ],
+        [
+          271,
+          371
+        ],
+        [
+          288,
+          368
+        ],
+        [
+          288,
+          354
+        ],
+        [
+          302,
+          350
+        ],
+        [
+          308,
+          338
+        ],
+        [
+          303,
+          329
+        ],
+        [
+          344,
+          293
+        ],
+        [
+          360,
+          299
+        ],
+        [
+          366,
+          287
+        ],
+        [
+          374,
+          275
+        ],
+        [
+          365,
+          260
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          63,
+          327
+        ],
+        [
+          71,
+          320
+        ],
+        [
+          100,
+          313
+        ],
+        [
+          115,
+          309
+        ],
+        [
+          128,
+          294
+        ],
+        [
+          142,
+          277
+        ],
+        [
+          144,
+          268
+        ],
+        [
+          142,
+          259
+        ],
+        [
+          139,
+          242
+        ],
+        [
+          128,
+          228
+        ],
+        [
+          110,
+          218
+        ],
+        [
+          68,
+          222
+        ],
+        [
+          68,
+          213
+        ],
+        [
+          37,
+          218
+        ],
+        [
+          41,
+          226
+        ],
+        [
+          30,
+          249
+        ],
+        [
+          30,
+          269
+        ],
+        [
+          30,
+          278
+        ],
+        [
+          30,
+          288
+        ],
+        [
+          39,
+          292
+        ],
+        [
+          45,
+          290
+        ],
+        [
+          56,
+          293
+        ],
+        [
+          43,
+          303
+        ],
+        [
+          36,
+          321
+        ],
+        [
+          44,
+          324
+        ],
+        [
+          58,
+          333
+        ],
+        [
+          60,
+          328
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          96,
+          210
+        ],
+        [
+          104,
+          216
+        ],
+        [
+          127,
+          192
+        ],
+        [
+          148,
+          172
+        ],
+        [
+          159,
+          165
+        ],
+        [
+          164,
+          169
+        ],
+        [
+          179,
+          148
+        ],
+        [
+          149,
+          142
+        ],
+        [
+          151,
+          153
+        ],
+        [
+          135,
+          165
+        ],
+        [
+          114,
+          186
+        ],
+        [
+          97,
+          207
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          159,
+          306
+        ],
+        [
+          235,
+          332
+        ],
+        [
+          239,
+          322
+        ],
+        [
+          169,
+          296
+        ],
+        [
+          170,
+          288
+        ],
+        [
+          138,
+          287
+        ],
+        [
+          154,
+          313
+        ],
+        [
+          161,
+          309
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          481,
+          270
+        ],
+        [
+          409,
+          315
+        ],
+        [
+          412,
+          322
+        ],
+        [
+          386,
+          321
+        ],
+        [
+          387,
+          311
+        ],
+        [
+          401,
+          294
+        ],
+        [
+          407,
+          301
+        ],
+        [
+          470,
+          262
+        ],
+        [
+          483,
+          270
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          479,
+          143
+        ],
+        [
+          477,
+          152
+        ],
+        [
+          508,
+          164
+        ],
+        [
+          504,
+          136
+        ],
+        [
+          494,
+          138
+        ],
+        [
+          433,
+          84
+        ],
+        [
+          426,
+          90
+        ],
+        [
+          478,
+          141
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H2",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H3",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H0",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A3+B1",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B1",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "B1+A2+B2",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B2",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "B2+A1+B3",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B3",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "B3+A0+B0",
+      "type": "interObjectLinkage",
+      "source": "B3",
+      "target": "B0",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B1",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+I0",
+      "type": "misc",
+      "source": "T2",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B2",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B3",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "adult raft of eggs (laid on water's surface) water's surface larva (just under water's surface) pupa (just under water's surface)"
+  },
+  "questions": [
+    {
+      "question_text": "Eggs are laid in",
+      "question_id": "2306.png-2",
+      "answers": [
+        "water's surface",
+        "just under water's surface",
+        "none of bove",
+        "all of above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "Label D refers to which cycle in the diagram?",
+      "question_id": "2306.png-0",
+      "answers": [
+        "Adult",
+        "Raft of eggs",
+        "Larva",
+        "Pupa"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "What do the eggs hatch directly into?",
+      "question_id": "2306.png-1",
+      "answers": [
+        "adult",
+        "larva",
+        "raft",
+        "pupa"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What will immediately happen to the larva when it grows?",
+      "question_id": "2306.png-4",
+      "answers": [
+        "It hatches from its egg.",
+        "It becomes an adult.",
+        "It lays a raft of eggs.",
+        "It becomes a pupa."
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which stage is shown at A?",
+      "question_id": "2306.png-3",
+      "answers": [
+        "larva",
+        "pupa",
+        "eggs",
+        "adult"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

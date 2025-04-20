@@ -1,0 +1,548 @@
+{
+  "image_id": "2779",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          505,
+          27
+        ],
+        [
+          778,
+          139
+        ]
+      ],
+      "value": "Extracellular fluid",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          1044,
+          348
+        ],
+        [
+          1139,
+          404
+        ]
+      ],
+      "value": "Cell",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          85,
+          356
+        ],
+        [
+          279,
+          410
+        ]
+      ],
+      "value": "Systems",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          195,
+          819
+        ],
+        [
+          331,
+          873
+        ]
+      ],
+      "value": "Organ",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          929,
+          818
+        ],
+        [
+          1072,
+          873
+        ]
+      ],
+      "value": "Tissue",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          405,
+          981
+        ],
+        [
+          385,
+          910
+        ],
+        [
+          472,
+          923
+        ],
+        [
+          471,
+          937
+        ],
+        [
+          408,
+          929
+        ],
+        [
+          474,
+          953
+        ],
+        [
+          548,
+          973
+        ],
+        [
+          637,
+          987
+        ],
+        [
+          697,
+          981
+        ],
+        [
+          779,
+          966
+        ],
+        [
+          889,
+          920
+        ],
+        [
+          896,
+          929
+        ],
+        [
+          841,
+          964
+        ],
+        [
+          799,
+          980
+        ],
+        [
+          710,
+          997
+        ],
+        [
+          585,
+          997
+        ],
+        [
+          508,
+          984
+        ],
+        [
+          417,
+          950
+        ],
+        [
+          404,
+          937
+        ],
+        [
+          411,
+          988
+        ],
+        [
+          402,
+          981
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          1042,
+          684
+        ],
+        [
+          1055,
+          769
+        ],
+        [
+          1124,
+          725
+        ],
+        [
+          1116,
+          715
+        ],
+        [
+          1064,
+          754
+        ],
+        [
+          1104,
+          677
+        ],
+        [
+          1124,
+          583
+        ],
+        [
+          1114,
+          469
+        ],
+        [
+          1099,
+          478
+        ],
+        [
+          1105,
+          528
+        ],
+        [
+          1104,
+          590
+        ],
+        [
+          1088,
+          671
+        ],
+        [
+          1072,
+          703
+        ],
+        [
+          1064,
+          721
+        ],
+        [
+          1055,
+          674
+        ],
+        [
+          1044,
+          684
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          121,
+          535
+        ],
+        [
+          166,
+          472
+        ],
+        [
+          215,
+          540
+        ],
+        [
+          206,
+          552
+        ],
+        [
+          168,
+          488
+        ],
+        [
+          176,
+          589
+        ],
+        [
+          181,
+          624
+        ],
+        [
+          219,
+          740
+        ],
+        [
+          213,
+          744
+        ],
+        [
+          178,
+          674
+        ],
+        [
+          162,
+          512
+        ],
+        [
+          164,
+          501
+        ],
+        [
+          134,
+          543
+        ],
+        [
+          125,
+          530
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          383,
+          112
+        ],
+        [
+          459,
+          122
+        ],
+        [
+          418,
+          195
+        ],
+        [
+          404,
+          195
+        ],
+        [
+          431,
+          144
+        ],
+        [
+          420,
+          141
+        ],
+        [
+          317,
+          212
+        ],
+        [
+          250,
+          290
+        ],
+        [
+          243,
+          284
+        ],
+        [
+          283,
+          230
+        ],
+        [
+          393,
+          146
+        ],
+        [
+          422,
+          131
+        ],
+        [
+          384,
+          117
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          961,
+          265
+        ],
+        [
+          1034,
+          294
+        ],
+        [
+          1035,
+          229
+        ],
+        [
+          1042,
+          219
+        ],
+        [
+          1034,
+          219
+        ],
+        [
+          1031,
+          272
+        ],
+        [
+          988,
+          218
+        ],
+        [
+          896,
+          149
+        ],
+        [
+          831,
+          119
+        ],
+        [
+          832,
+          128
+        ],
+        [
+          862,
+          145
+        ],
+        [
+          923,
+          182
+        ],
+        [
+          993,
+          239
+        ],
+        [
+          1021,
+          272
+        ],
+        [
+          1011,
+          273
+        ],
+        [
+          964,
+          252
+        ],
+        [
+          963,
+          266
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H2",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H3",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H0",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H4",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A4+T1",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T1",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T1+A1+T4",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T4",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T2+A3+T0",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T0",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T3+A2+T2",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T2",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T4+A0+T3",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T3",
+      "connector": "A0",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "extracellular fluid cell systems organ tissue"
+  }
+}

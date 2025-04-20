@@ -1,0 +1,578 @@
+{
+  "image_id": "460",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          82,
+          16
+        ],
+        [
+          117,
+          36
+        ]
+      ],
+      "value": "DNA",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          4,
+          86
+        ],
+        [
+          91,
+          105
+        ]
+      ],
+      "value": "Human cell",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          185
+        ],
+        [
+          94,
+          207
+        ]
+      ],
+      "value": "BACTERIAL CELL",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          224,
+          135
+        ],
+        [
+          316,
+          154
+        ]
+      ],
+      "value": "Bacterial cell",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          55,
+          71
+        ],
+        [
+          32,
+          82
+        ],
+        [
+          25,
+          73
+        ],
+        [
+          20,
+          55
+        ],
+        [
+          20,
+          28
+        ],
+        [
+          26,
+          13
+        ],
+        [
+          48,
+          9
+        ],
+        [
+          60,
+          9
+        ],
+        [
+          69,
+          29
+        ],
+        [
+          69,
+          48
+        ],
+        [
+          72,
+          65
+        ],
+        [
+          73,
+          68
+        ],
+        [
+          59,
+          70
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          124,
+          27
+        ],
+        [
+          120,
+          12
+        ],
+        [
+          128,
+          9
+        ],
+        [
+          126,
+          19
+        ],
+        [
+          142,
+          20
+        ],
+        [
+          139,
+          14
+        ],
+        [
+          142,
+          9
+        ],
+        [
+          146,
+          10
+        ],
+        [
+          154,
+          16
+        ],
+        [
+          156,
+          12
+        ],
+        [
+          158,
+          8
+        ],
+        [
+          168,
+          15
+        ],
+        [
+          160,
+          23
+        ],
+        [
+          174,
+          26
+        ],
+        [
+          175,
+          29
+        ],
+        [
+          159,
+          38
+        ],
+        [
+          159,
+          38
+        ],
+        [
+          154,
+          57
+        ],
+        [
+          147,
+          48
+        ],
+        [
+          149,
+          43
+        ],
+        [
+          143,
+          45
+        ],
+        [
+          126,
+          38
+        ],
+        [
+          130,
+          33
+        ],
+        [
+          131,
+          30
+        ],
+        [
+          121,
+          30
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          256,
+          70
+        ],
+        [
+          284,
+          74
+        ],
+        [
+          288,
+          91
+        ],
+        [
+          285,
+          126
+        ],
+        [
+          279,
+          129
+        ],
+        [
+          266,
+          130
+        ],
+        [
+          258,
+          130
+        ],
+        [
+          255,
+          128
+        ],
+        [
+          247,
+          110
+        ],
+        [
+          247,
+          90
+        ],
+        [
+          252,
+          72
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          36,
+          128
+        ],
+        [
+          46,
+          128
+        ],
+        [
+          61,
+          135
+        ],
+        [
+          62,
+          144
+        ],
+        [
+          59,
+          162
+        ],
+        [
+          59,
+          176
+        ],
+        [
+          57,
+          180
+        ],
+        [
+          52,
+          181
+        ],
+        [
+          40,
+          180
+        ],
+        [
+          33,
+          177
+        ],
+        [
+          30,
+          156
+        ],
+        [
+          34,
+          134
+        ],
+        [
+          36,
+          127
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          69,
+          46
+        ],
+        [
+          124,
+          46
+        ],
+        [
+          124,
+          39
+        ],
+        [
+          65,
+          37
+        ],
+        [
+          65,
+          46
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          153,
+          62
+        ],
+        [
+          174,
+          93
+        ],
+        [
+          154,
+          124
+        ],
+        [
+          161,
+          129
+        ],
+        [
+          181,
+          94
+        ],
+        [
+          203,
+          95
+        ],
+        [
+          203,
+          86
+        ],
+        [
+          183,
+          86
+        ],
+        [
+          165,
+          54
+        ],
+        [
+          153,
+          63
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          225,
+          93
+        ],
+        [
+          262,
+          95
+        ],
+        [
+          261,
+          85
+        ],
+        [
+          223,
+          84
+        ],
+        [
+          224,
+          93
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          54,
+          142
+        ],
+        [
+          139,
+          145
+        ],
+        [
+          136,
+          132
+        ],
+        [
+          57,
+          134
+        ],
+        [
+          57,
+          144
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A0+B1",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B1",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "B1+A1+B2",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B2",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T0+B1",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B3",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B2",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "dna human cell bacterial cell bacterial cell"
+  }
+}

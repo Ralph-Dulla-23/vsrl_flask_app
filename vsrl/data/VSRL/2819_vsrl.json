@@ -1,0 +1,254 @@
+{
+  "image_id": "2819",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          192,
+          4
+        ],
+        [
+          708,
+          52
+        ]
+      ],
+      "value": "Formation of a waterfall",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          485,
+          111
+        ],
+        [
+          830,
+          201
+        ]
+      ],
+      "value": "Waterfall Retreats upstream",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          66,
+          523
+        ],
+        [
+          327,
+          615
+        ]
+      ],
+      "value": "The process starts again",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          573,
+          618
+        ],
+        [
+          831,
+          666
+        ]
+      ],
+      "value": "Eroded rock",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          19,
+          198
+        ],
+        [
+          417,
+          195
+        ],
+        [
+          433,
+          240
+        ],
+        [
+          489,
+          246
+        ],
+        [
+          535,
+          259
+        ],
+        [
+          672,
+          262
+        ],
+        [
+          869,
+          266
+        ],
+        [
+          866,
+          690
+        ],
+        [
+          27,
+          690
+        ],
+        [
+          22,
+          198
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          410,
+          138
+        ],
+        [
+          259,
+          137
+        ],
+        [
+          258,
+          118
+        ],
+        [
+          205,
+          154
+        ],
+        [
+          261,
+          192
+        ],
+        [
+          259,
+          175
+        ],
+        [
+          411,
+          173
+        ],
+        [
+          411,
+          141
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          546,
+          638
+        ],
+        [
+          507,
+          625
+        ],
+        [
+          508,
+          617
+        ],
+        [
+          478,
+          623
+        ],
+        [
+          500,
+          641
+        ],
+        [
+          506,
+          636
+        ],
+        [
+          546,
+          646
+        ],
+        [
+          547,
+          640
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+I0",
+      "type": "imageCaption",
+      "source": "T2",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector"
+  },
+  "educational_context": {
+    "subject": "earth_science",
+    "diagram_type": "labeled_illustration",
+    "text_content": "formation of a waterfall waterfall retreats upstream the process starts again eroded rock"
+  }
+}

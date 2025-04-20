@@ -1,0 +1,214 @@
+{
+  "image_id": "2327",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          143,
+          38
+        ],
+        [
+          183,
+          58
+        ]
+      ],
+      "value": "Egg",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          69,
+          101
+        ],
+        [
+          132,
+          139
+        ]
+      ],
+      "value": "Adult mayfly",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          194,
+          107
+        ],
+        [
+          254,
+          129
+        ]
+      ],
+      "value": "Nymph",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          185,
+          59
+        ],
+        [
+          191,
+          57
+        ],
+        [
+          226,
+          105
+        ],
+        [
+          218,
+          109
+        ],
+        [
+          185,
+          61
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          189,
+          117
+        ],
+        [
+          190,
+          125
+        ],
+        [
+          133,
+          125
+        ],
+        [
+          133,
+          114
+        ],
+        [
+          191,
+          114
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          99,
+          86
+        ],
+        [
+          105,
+          94
+        ],
+        [
+          144,
+          56
+        ],
+        [
+          139,
+          48
+        ],
+        [
+          100,
+          84
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H2",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H0",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+T2",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T2",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T1+A2+T0",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T0",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T2+A1+T1",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T1",
+      "connector": "A1",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "egg adult mayfly nymph"
+  },
+  "questions": [
+    {
+      "question_text": "How many stages are there in the mayfly life cycle?",
+      "question_id": "2327.png-0",
+      "answers": [
+        "3",
+        "2",
+        "5",
+        "4"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

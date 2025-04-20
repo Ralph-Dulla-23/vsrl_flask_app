@@ -1,0 +1,302 @@
+{
+  "image_id": "4349",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          272,
+          573
+        ],
+        [
+          383,
+          627
+        ]
+      ],
+      "value": "Solid",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          687,
+          572
+        ],
+        [
+          813,
+          620
+        ]
+      ],
+      "value": "Liquid",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          1127,
+          570
+        ],
+        [
+          1210,
+          617
+        ]
+      ],
+      "value": "Gas",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          182,
+          490
+        ],
+        [
+          202,
+          520
+        ],
+        [
+          242,
+          528
+        ],
+        [
+          322,
+          540
+        ],
+        [
+          405,
+          533
+        ],
+        [
+          458,
+          515
+        ],
+        [
+          490,
+          497
+        ],
+        [
+          493,
+          470
+        ],
+        [
+          490,
+          172
+        ],
+        [
+          438,
+          137
+        ],
+        [
+          307,
+          123
+        ],
+        [
+          223,
+          140
+        ],
+        [
+          183,
+          163
+        ],
+        [
+          180,
+          190
+        ],
+        [
+          182,
+          492
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          592,
+          183
+        ],
+        [
+          593,
+          500
+        ],
+        [
+          690,
+          533
+        ],
+        [
+          788,
+          542
+        ],
+        [
+          868,
+          522
+        ],
+        [
+          905,
+          490
+        ],
+        [
+          905,
+          175
+        ],
+        [
+          852,
+          138
+        ],
+        [
+          742,
+          123
+        ],
+        [
+          627,
+          142
+        ],
+        [
+          590,
+          187
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          1002,
+          163
+        ],
+        [
+          1008,
+          507
+        ],
+        [
+          1095,
+          543
+        ],
+        [
+          1177,
+          545
+        ],
+        [
+          1275,
+          532
+        ],
+        [
+          1337,
+          478
+        ],
+        [
+          1327,
+          158
+        ],
+        [
+          1248,
+          123
+        ],
+        [
+          1135,
+          115
+        ],
+        [
+          1037,
+          143
+        ],
+        [
+          1002,
+          165
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+B0",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B1",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B2",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "solid liquid gas"
+  },
+  "questions": [
+    {
+      "question_text": "In which substance are the molecules loosely packed?",
+      "question_id": "4349.png-1",
+      "answers": [
+        "B",
+        "{}",
+        "C",
+        "A"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is the lightest state of matter?",
+      "question_id": "4349.png-0",
+      "answers": [
+        "liquid",
+        "solid",
+        "gas",
+        "none"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What molecules are present in container C?",
+      "question_id": "4349.png-2",
+      "answers": [
+        "liquid",
+        "gas",
+        "solid",
+        "{}"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}

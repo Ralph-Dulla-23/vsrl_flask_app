@@ -1,0 +1,360 @@
+{
+  "image_id": "1710",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          134,
+          40
+        ],
+        [
+          207,
+          50
+        ]
+      ],
+      "value": "EPICENTER",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          196,
+          107
+        ],
+        [
+          240,
+          119
+        ]
+      ],
+      "value": "FOCUS",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          102,
+          10
+        ],
+        [
+          62,
+          20
+        ],
+        [
+          44,
+          20
+        ],
+        [
+          37,
+          27
+        ],
+        [
+          29,
+          28
+        ],
+        [
+          19,
+          29
+        ],
+        [
+          3,
+          32
+        ],
+        [
+          1,
+          116
+        ],
+        [
+          134,
+          159
+        ],
+        [
+          292,
+          119
+        ],
+        [
+          294,
+          33
+        ],
+        [
+          283,
+          24
+        ],
+        [
+          277,
+          23
+        ],
+        [
+          267,
+          23
+        ],
+        [
+          263,
+          23
+        ],
+        [
+          257,
+          19
+        ],
+        [
+          239,
+          15
+        ],
+        [
+          228,
+          15
+        ],
+        [
+          219,
+          10
+        ],
+        [
+          208,
+          8
+        ],
+        [
+          201,
+          8
+        ],
+        [
+          190,
+          3
+        ],
+        [
+          184,
+          2
+        ],
+        [
+          176,
+          3
+        ],
+        [
+          174,
+          5
+        ],
+        [
+          169,
+          6
+        ],
+        [
+          161,
+          4
+        ],
+        [
+          157,
+          5
+        ],
+        [
+          153,
+          7
+        ],
+        [
+          149,
+          10
+        ],
+        [
+          144,
+          10
+        ],
+        [
+          140,
+          9
+        ],
+        [
+          136,
+          10
+        ],
+        [
+          132,
+          10
+        ],
+        [
+          130,
+          9
+        ],
+        [
+          122,
+          9
+        ],
+        [
+          118,
+          8
+        ],
+        [
+          116,
+          8
+        ],
+        [
+          113,
+          12
+        ],
+        [
+          104,
+          8
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          206,
+          74
+        ],
+        [
+          190,
+          106
+        ],
+        [
+          194,
+          109
+        ],
+        [
+          206,
+          97
+        ],
+        [
+          203,
+          94
+        ],
+        [
+          211,
+          78
+        ],
+        [
+          209,
+          74
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          175,
+          106
+        ],
+        [
+          185,
+          90
+        ],
+        [
+          183,
+          90
+        ],
+        [
+          193,
+          76
+        ],
+        [
+          196,
+          80
+        ],
+        [
+          181,
+          110
+        ],
+        [
+          178,
+          107
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "epicenter focus"
+  },
+  "questions": [
+    {
+      "question_text": "What is the point of the earth's surface directly above the focus of an earthquake?",
+      "question_id": "1710.png-1",
+      "answers": [
+        "focus",
+        "{}",
+        "none of the abovde",
+        "epicenter"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What lies below the epicentre?",
+      "question_id": "1710.png-0",
+      "answers": [
+        "none of the above",
+        "{}",
+        "epicentre",
+        "focus"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which is the point of the earth's surface directly above the focus of an earthquake?",
+      "question_id": "1710.png-2",
+      "answers": [
+        "none of the above",
+        "focus",
+        "both of the above",
+        "epicenter"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    }
+  ]
+}

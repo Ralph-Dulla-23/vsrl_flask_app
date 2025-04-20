@@ -1,0 +1,496 @@
+{
+  "image_id": "3026",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          218,
+          20
+        ],
+        [
+          685,
+          47
+        ]
+      ],
+      "value": "Figure 1. Cross-section of the Petal at the Tip.",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          620,
+          117
+        ],
+        [
+          776,
+          138
+        ]
+      ],
+      "value": "Upper Epidermis",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          618,
+          173
+        ],
+        [
+          780,
+          196
+        ]
+      ],
+      "value": "Intercelluar Space",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          723,
+          216
+        ],
+        [
+          815,
+          241
+        ]
+      ],
+      "value": "Mesophyll",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          619,
+          262
+        ],
+        [
+          696,
+          283
+        ]
+      ],
+      "value": "Lacunae",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          620,
+          341
+        ],
+        [
+          771,
+          364
+        ]
+      ],
+      "value": "Lower Epidermis",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          77,
+          100
+        ],
+        [
+          301,
+          98
+        ],
+        [
+          527,
+          98
+        ],
+        [
+          541,
+          231
+        ],
+        [
+          538,
+          302
+        ],
+        [
+          520,
+          385
+        ],
+        [
+          353,
+          390
+        ],
+        [
+          207,
+          389
+        ],
+        [
+          72,
+          379
+        ],
+        [
+          70,
+          317
+        ],
+        [
+          72,
+          204
+        ],
+        [
+          74,
+          99
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          524,
+          98
+        ],
+        [
+          561,
+          100
+        ],
+        [
+          561,
+          122
+        ],
+        [
+          614,
+          121
+        ],
+        [
+          616,
+          139
+        ],
+        [
+          559,
+          139
+        ],
+        [
+          561,
+          157
+        ],
+        [
+          515,
+          161
+        ],
+        [
+          520,
+          141
+        ],
+        [
+          540,
+          144
+        ],
+        [
+          544,
+          113
+        ],
+        [
+          522,
+          113
+        ],
+        [
+          526,
+          97
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          623,
+          145
+        ],
+        [
+          685,
+          148
+        ],
+        [
+          676,
+          164
+        ],
+        [
+          664,
+          165
+        ],
+        [
+          664,
+          217
+        ],
+        [
+          667,
+          217
+        ],
+        [
+          722,
+          215
+        ],
+        [
+          722,
+          235
+        ],
+        [
+          663,
+          234
+        ],
+        [
+          665,
+          327
+        ],
+        [
+          684,
+          328
+        ],
+        [
+          681,
+          349
+        ],
+        [
+          620,
+          348
+        ],
+        [
+          622,
+          327
+        ],
+        [
+          647,
+          328
+        ],
+        [
+          648,
+          173
+        ],
+        [
+          627,
+          170
+        ],
+        [
+          626,
+          147
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          480,
+          171
+        ],
+        [
+          615,
+          168
+        ],
+        [
+          612,
+          185
+        ],
+        [
+          475,
+          188
+        ],
+        [
+          479,
+          171
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          434,
+          261
+        ],
+        [
+          612,
+          259
+        ],
+        [
+          611,
+          279
+        ],
+        [
+          435,
+          277
+        ],
+        [
+          435,
+          264
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          517,
+          331
+        ],
+        [
+          567,
+          332
+        ],
+        [
+          567,
+          343
+        ],
+        [
+          609,
+          343
+        ],
+        [
+          608,
+          361
+        ],
+        [
+          556,
+          363
+        ],
+        [
+          555,
+          381
+        ],
+        [
+          531,
+          378
+        ],
+        [
+          529,
+          364
+        ],
+        [
+          547,
+          363
+        ],
+        [
+          549,
+          346
+        ],
+        [
+          520,
+          347
+        ],
+        [
+          516,
+          334
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T2+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T3+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T4+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T5+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "figure 1. cross-section of the petal at the tip. upper epidermis intercelluar space mesophyll lacunae lower epidermis"
+  },
+  "questions": [
+    {
+      "question_text": "Which of the following is the photosynthetic tissue of a leaf, located between the upper and lower epidermis?",
+      "question_id": "3026.png-0",
+      "answers": [
+        "Lacunae",
+        "Petal",
+        "Intercelluar Space",
+        "Mesophyll"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    }
+  ]
+}

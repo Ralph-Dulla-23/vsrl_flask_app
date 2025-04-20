@@ -1,0 +1,743 @@
+{
+  "image_id": "4031",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          206,
+          44
+        ],
+        [
+          264,
+          57
+        ]
+      ],
+      "value": "Troposphere",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          205,
+          34
+        ],
+        [
+          266,
+          45
+        ]
+      ],
+      "value": "Stratosphere",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          198,
+          15
+        ],
+        [
+          266,
+          25
+        ]
+      ],
+      "value": "Thermosphere",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          212,
+          1
+        ],
+        [
+          264,
+          15
+        ]
+      ],
+      "value": "Exosphere",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          207,
+          23
+        ],
+        [
+          263,
+          34
+        ]
+      ],
+      "value": "Mesosphere",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          60
+        ],
+        [
+          26,
+          78
+        ]
+      ],
+      "value": "Crust",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          91
+        ],
+        [
+          64,
+          106
+        ]
+      ],
+      "value": "Upper Mantle",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          113
+        ],
+        [
+          34,
+          130
+        ]
+      ],
+      "value": "Mantle",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          141
+        ],
+        [
+          54,
+          155
+        ]
+      ],
+      "value": "Outer Core",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          179
+        ],
+        [
+          51,
+          192
+        ]
+      ],
+      "value": "Inner Core",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          215,
+          99
+        ],
+        [
+          239,
+          84
+        ],
+        [
+          268,
+          80
+        ],
+        [
+          288,
+          83
+        ],
+        [
+          307,
+          97
+        ],
+        [
+          324,
+          112
+        ],
+        [
+          338,
+          129
+        ],
+        [
+          345,
+          152
+        ],
+        [
+          348,
+          185
+        ],
+        [
+          337,
+          222
+        ],
+        [
+          322,
+          244
+        ],
+        [
+          300,
+          259
+        ],
+        [
+          275,
+          269
+        ],
+        [
+          252,
+          271
+        ],
+        [
+          226,
+          267
+        ],
+        [
+          197,
+          256
+        ],
+        [
+          176,
+          227
+        ],
+        [
+          168,
+          189
+        ],
+        [
+          177,
+          150
+        ],
+        [
+          190,
+          121
+        ],
+        [
+          214,
+          99
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          52,
+          71
+        ],
+        [
+          105,
+          210
+        ],
+        [
+          148,
+          192
+        ],
+        [
+          206,
+          58
+        ],
+        [
+          194,
+          51
+        ],
+        [
+          186,
+          47
+        ],
+        [
+          175,
+          44
+        ],
+        [
+          169,
+          47
+        ],
+        [
+          166,
+          45
+        ],
+        [
+          163,
+          41
+        ],
+        [
+          157,
+          41
+        ],
+        [
+          152,
+          46
+        ],
+        [
+          146,
+          45
+        ],
+        [
+          97,
+          46
+        ],
+        [
+          52,
+          69
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          0,
+          71
+        ],
+        [
+          0,
+          79
+        ],
+        [
+          62,
+          80
+        ],
+        [
+          61,
+          71
+        ],
+        [
+          0,
+          71
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          0,
+          100
+        ],
+        [
+          0,
+          109
+        ],
+        [
+          81,
+          111
+        ],
+        [
+          81,
+          101
+        ],
+        [
+          0,
+          99
+        ]
+      ],
+      "category": "connector"
+    },
+    "A10": {
+      "id": "A10",
+      "type": "arrow",
+      "polygon": [
+        [
+          184,
+          5
+        ],
+        [
+          184,
+          18
+        ],
+        [
+          269,
+          19
+        ],
+        [
+          269,
+          8
+        ],
+        [
+          184,
+          8
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          0,
+          125
+        ],
+        [
+          0,
+          135
+        ],
+        [
+          90,
+          135
+        ],
+        [
+          91,
+          124
+        ],
+        [
+          0,
+          124
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          0,
+          147
+        ],
+        [
+          0,
+          158
+        ],
+        [
+          98,
+          158
+        ],
+        [
+          98,
+          146
+        ],
+        [
+          0,
+          148
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          0,
+          187
+        ],
+        [
+          0,
+          199
+        ],
+        [
+          114,
+          199
+        ],
+        [
+          114,
+          186
+        ],
+        [
+          0,
+          185
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          102,
+          209
+        ],
+        [
+          106,
+          218
+        ],
+        [
+          253,
+          171
+        ],
+        [
+          248,
+          161
+        ],
+        [
+          102,
+          206
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          166,
+          60
+        ],
+        [
+          266,
+          62
+        ],
+        [
+          266,
+          52
+        ],
+        [
+          165,
+          53
+        ],
+        [
+          165,
+          61
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          172,
+          38
+        ],
+        [
+          172,
+          47
+        ],
+        [
+          265,
+          48
+        ],
+        [
+          265,
+          40
+        ],
+        [
+          170,
+          40
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          176,
+          29
+        ],
+        [
+          177,
+          38
+        ],
+        [
+          269,
+          38
+        ],
+        [
+          268,
+          30
+        ],
+        [
+          176,
+          28
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          182,
+          17
+        ],
+        [
+          181,
+          27
+        ],
+        [
+          270,
+          28
+        ],
+        [
+          269,
+          21
+        ],
+        [
+          181,
+          19
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A6+B1",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B1",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T1+A7+B1",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B1",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T2+A9+B1",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B1",
+      "connector": "A9",
+      "directional": false
+    },
+    {
+      "id": "T3+A10+B1",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B1",
+      "connector": "A10",
+      "directional": false
+    },
+    {
+      "id": "T4+A8+B1",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B1",
+      "connector": "A8",
+      "directional": false
+    },
+    {
+      "id": "T5+A0+B1",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B1",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T6+A1+B1",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B1",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T7+A2+B1",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B1",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T8+A3+B1",
+      "type": "intraObjectLinkage",
+      "source": "T8",
+      "target": "B1",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T9+A4+B1",
+      "type": "intraObjectLinkage",
+      "source": "T9",
+      "target": "B1",
+      "connector": "A4",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A10": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "troposphere stratosphere thermosphere exosphere mesosphere crust upper mantle mantle outer core inner core"
+  },
+  "questions": []
+}

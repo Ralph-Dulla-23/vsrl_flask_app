@@ -1,0 +1,696 @@
+{
+  "image_id": "4123",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          52,
+          13
+        ],
+        [
+          126,
+          32
+        ]
+      ],
+      "value": "Light energy",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          1,
+          69
+        ],
+        [
+          90,
+          88
+        ]
+      ],
+      "value": "Carbon dioxide",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          181,
+          21
+        ],
+        [
+          284,
+          37
+        ]
+      ],
+      "value": "Oxygen is released",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          228,
+          104
+        ],
+        [
+          298,
+          136
+        ]
+      ],
+      "value": "Chlorophyll in leaf",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          196,
+          153
+        ],
+        [
+          311,
+          168
+        ]
+      ],
+      "value": "Glucose is formed",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          236,
+          194
+        ],
+        [
+          271,
+          212
+        ]
+      ],
+      "value": "Water",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          95,
+          189
+        ],
+        [
+          127,
+          173
+        ],
+        [
+          122,
+          126
+        ],
+        [
+          97,
+          136
+        ],
+        [
+          86,
+          133
+        ],
+        [
+          92,
+          116
+        ],
+        [
+          116,
+          100
+        ],
+        [
+          123,
+          91
+        ],
+        [
+          117,
+          87
+        ],
+        [
+          96,
+          90
+        ],
+        [
+          90,
+          66
+        ],
+        [
+          97,
+          40
+        ],
+        [
+          120,
+          34
+        ],
+        [
+          136,
+          49
+        ],
+        [
+          136,
+          71
+        ],
+        [
+          157,
+          78
+        ],
+        [
+          159,
+          86
+        ],
+        [
+          141,
+          88
+        ],
+        [
+          135,
+          111
+        ],
+        [
+          160,
+          108
+        ],
+        [
+          179,
+          129
+        ],
+        [
+          143,
+          127
+        ],
+        [
+          140,
+          144
+        ],
+        [
+          145,
+          166
+        ],
+        [
+          157,
+          178
+        ],
+        [
+          176,
+          191
+        ],
+        [
+          166,
+          195
+        ],
+        [
+          159,
+          191
+        ],
+        [
+          150,
+          191
+        ],
+        [
+          144,
+          187
+        ],
+        [
+          129,
+          195
+        ],
+        [
+          109,
+          195
+        ],
+        [
+          93,
+          189
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          34,
+          51
+        ],
+        [
+          54,
+          43
+        ],
+        [
+          48,
+          21
+        ],
+        [
+          26,
+          12
+        ],
+        [
+          11,
+          27
+        ],
+        [
+          15,
+          43
+        ],
+        [
+          32,
+          51
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          50,
+          34
+        ],
+        [
+          46,
+          44
+        ],
+        [
+          74,
+          59
+        ],
+        [
+          74,
+          64
+        ],
+        [
+          92,
+          68
+        ],
+        [
+          88,
+          53
+        ],
+        [
+          80,
+          53
+        ],
+        [
+          50,
+          33
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          153,
+          78
+        ],
+        [
+          159,
+          85
+        ],
+        [
+          177,
+          80
+        ],
+        [
+          196,
+          55
+        ],
+        [
+          202,
+          50
+        ],
+        [
+          196,
+          37
+        ],
+        [
+          185,
+          44
+        ],
+        [
+          189,
+          50
+        ],
+        [
+          180,
+          67
+        ],
+        [
+          167,
+          78
+        ],
+        [
+          155,
+          78
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          149,
+          108
+        ],
+        [
+          148,
+          115
+        ],
+        [
+          212,
+          115
+        ],
+        [
+          216,
+          116
+        ],
+        [
+          219,
+          119
+        ],
+        [
+          230,
+          115
+        ],
+        [
+          221,
+          104
+        ],
+        [
+          218,
+          108
+        ],
+        [
+          151,
+          110
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          172,
+          119
+        ],
+        [
+          188,
+          127
+        ],
+        [
+          207,
+          143
+        ],
+        [
+          205,
+          147
+        ],
+        [
+          212,
+          155
+        ],
+        [
+          218,
+          145
+        ],
+        [
+          214,
+          142
+        ],
+        [
+          201,
+          127
+        ],
+        [
+          186,
+          118
+        ],
+        [
+          172,
+          116
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          192,
+          198
+        ],
+        [
+          194,
+          206
+        ],
+        [
+          219,
+          206
+        ],
+        [
+          223,
+          210
+        ],
+        [
+          236,
+          205
+        ],
+        [
+          225,
+          195
+        ],
+        [
+          223,
+          200
+        ],
+        [
+          196,
+          199
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          34,
+          87
+        ],
+        [
+          42,
+          83
+        ],
+        [
+          60,
+          99
+        ],
+        [
+          76,
+          108
+        ],
+        [
+          81,
+          103
+        ],
+        [
+          92,
+          111
+        ],
+        [
+          81,
+          120
+        ],
+        [
+          79,
+          113
+        ],
+        [
+          63,
+          111
+        ],
+        [
+          45,
+          98
+        ],
+        [
+          36,
+          86
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H5",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H4",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H0",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H3",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H2",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A1+T2",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "T2",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "B0+A2+T3",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "T3",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "B0+A3+T4",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "T4",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "B0+A4+T5",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "T5",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "B1+A0+B0",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B0",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T1+A5+B0",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A5",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector"
+  },
+  "educational_context": {
+    "subject": "physics",
+    "diagram_type": "flow_diagram",
+    "text_content": "light energy carbon dioxide oxygen is released chlorophyll in leaf glucose is formed water"
+  },
+  "questions": [
+    {
+      "question_text": "Using the above diagram, What letter depicts where glucose is formed?",
+      "question_id": "4123.png-1",
+      "answers": [
+        "B",
+        "F",
+        "A",
+        "E"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which stage shows light energy?",
+      "question_id": "4123.png-0",
+      "answers": [
+        "B",
+        "C",
+        "E",
+        "F"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

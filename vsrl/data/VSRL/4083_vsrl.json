@@ -1,0 +1,464 @@
+{
+  "image_id": "4083",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          345,
+          95
+        ],
+        [
+          453,
+          128
+        ]
+      ],
+      "value": "Mantle",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          645,
+          67
+        ],
+        [
+          767,
+          112
+        ]
+      ],
+      "value": "Crust",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          318,
+          161
+        ],
+        [
+          493,
+          193
+        ]
+      ],
+      "value": "Outer Core",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          363,
+          200
+        ],
+        [
+          432,
+          220
+        ]
+      ],
+      "value": "(Liquid)",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          483,
+          273
+        ],
+        [
+          561,
+          291
+        ]
+      ],
+      "value": "6371 km",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          359,
+          257
+        ],
+        [
+          443,
+          322
+        ]
+      ],
+      "value": "Inner Core",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          375,
+          324
+        ],
+        [
+          433,
+          343
+        ]
+      ],
+      "value": "(Solid)",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          40,
+          520
+        ],
+        [
+          148,
+          542
+        ]
+      ],
+      "value": "Not to scale",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          169,
+          244
+        ],
+        [
+          183,
+          209
+        ],
+        [
+          207,
+          169
+        ],
+        [
+          230,
+          141
+        ],
+        [
+          270,
+          106
+        ],
+        [
+          309,
+          85
+        ],
+        [
+          341,
+          75
+        ],
+        [
+          387,
+          68
+        ],
+        [
+          439,
+          70
+        ],
+        [
+          474,
+          78
+        ],
+        [
+          508,
+          91
+        ],
+        [
+          536,
+          109
+        ],
+        [
+          580,
+          148
+        ],
+        [
+          617,
+          213
+        ],
+        [
+          627,
+          244
+        ],
+        [
+          635,
+          295
+        ],
+        [
+          633,
+          347
+        ],
+        [
+          618,
+          393
+        ],
+        [
+          587,
+          450
+        ],
+        [
+          534,
+          496
+        ],
+        [
+          481,
+          522
+        ],
+        [
+          448,
+          531
+        ],
+        [
+          383,
+          536
+        ],
+        [
+          342,
+          529
+        ],
+        [
+          294,
+          510
+        ],
+        [
+          253,
+          486
+        ],
+        [
+          224,
+          457
+        ],
+        [
+          198,
+          421
+        ],
+        [
+          176,
+          375
+        ],
+        [
+          167,
+          315
+        ],
+        [
+          166,
+          244
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          647,
+          97
+        ],
+        [
+          603,
+          139
+        ],
+        [
+          596,
+          136
+        ],
+        [
+          587,
+          158
+        ],
+        [
+          611,
+          153
+        ],
+        [
+          608,
+          146
+        ],
+        [
+          656,
+          113
+        ],
+        [
+          647,
+          96
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          398,
+          286
+        ],
+        [
+          624,
+          282
+        ],
+        [
+          625,
+          296
+        ],
+        [
+          396,
+          303
+        ],
+        [
+          397,
+          287
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T5+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T5",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T6",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T7+I0",
+      "type": "misc",
+      "source": "T7",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "mantle crust outer core (liquid) 6371 km inner core (solid) not to scale"
+  },
+  "questions": [
+    {
+      "question_text": "What is represented by A?",
+      "question_id": "4083.png-1",
+      "answers": [
+        "outer core",
+        "mantle",
+        "inner core",
+        "none of the above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is the outermost layer?",
+      "question_id": "4083.png-0",
+      "answers": [
+        "crust",
+        "none of the above",
+        "inner core",
+        "mantle"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

@@ -1,0 +1,525 @@
+{
+  "image_id": "187",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          42,
+          98
+        ],
+        [
+          109,
+          114
+        ]
+      ],
+      "value": "Normal Fault",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          174,
+          98
+        ],
+        [
+          245,
+          113
+        ]
+      ],
+      "value": "Reverse Fault",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          313,
+          99
+        ],
+        [
+          394,
+          113
+        ]
+      ],
+      "value": "Strike-Slip Fault",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          9,
+          72
+        ],
+        [
+          62,
+          92
+        ],
+        [
+          133,
+          69
+        ],
+        [
+          133,
+          34
+        ],
+        [
+          123,
+          25
+        ],
+        [
+          66,
+          19
+        ],
+        [
+          34,
+          30
+        ],
+        [
+          12,
+          39
+        ],
+        [
+          9,
+          69
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          146,
+          31
+        ],
+        [
+          147,
+          64
+        ],
+        [
+          209,
+          89
+        ],
+        [
+          265,
+          73
+        ],
+        [
+          264,
+          40
+        ],
+        [
+          252,
+          29
+        ],
+        [
+          217,
+          24
+        ],
+        [
+          198,
+          23
+        ],
+        [
+          188,
+          26
+        ],
+        [
+          185,
+          30
+        ],
+        [
+          169,
+          26
+        ],
+        [
+          149,
+          31
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          277,
+          34
+        ],
+        [
+          278,
+          68
+        ],
+        [
+          333,
+          87
+        ],
+        [
+          356,
+          81
+        ],
+        [
+          366,
+          84
+        ],
+        [
+          409,
+          73
+        ],
+        [
+          409,
+          38
+        ],
+        [
+          397,
+          29
+        ],
+        [
+          390,
+          31
+        ],
+        [
+          363,
+          25
+        ],
+        [
+          342,
+          21
+        ],
+        [
+          335,
+          27
+        ],
+        [
+          313,
+          33
+        ],
+        [
+          296,
+          29
+        ],
+        [
+          278,
+          34
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          91,
+          58
+        ],
+        [
+          87,
+          66
+        ],
+        [
+          82,
+          79
+        ],
+        [
+          88,
+          79
+        ],
+        [
+          97,
+          60
+        ],
+        [
+          89,
+          57
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          68,
+          85
+        ],
+        [
+          73,
+          87
+        ],
+        [
+          82,
+          65
+        ],
+        [
+          77,
+          65
+        ],
+        [
+          67,
+          85
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          214,
+          58
+        ],
+        [
+          220,
+          63
+        ],
+        [
+          212,
+          82
+        ],
+        [
+          204,
+          81
+        ],
+        [
+          214,
+          58
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          223,
+          59
+        ],
+        [
+          229,
+          64
+        ],
+        [
+          219,
+          85
+        ],
+        [
+          213,
+          81
+        ],
+        [
+          224,
+          59
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          340,
+          65
+        ],
+        [
+          363,
+          73
+        ],
+        [
+          359,
+          78
+        ],
+        [
+          336,
+          74
+        ],
+        [
+          339,
+          66
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          377,
+          57
+        ],
+        [
+          377,
+          63
+        ],
+        [
+          392,
+          66
+        ],
+        [
+          392,
+          70
+        ],
+        [
+          402,
+          68
+        ],
+        [
+          401,
+          62
+        ],
+        [
+          371,
+          55
+        ],
+        [
+          378,
+          56
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H4",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H5",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A0+B0",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "B0+A1+B0",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B0",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "B1+A3+B1",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B1",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "B2+A5+B2",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B2",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B1",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B2",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "normal fault reverse fault strike-slip fault"
+  },
+  "questions": []
+}

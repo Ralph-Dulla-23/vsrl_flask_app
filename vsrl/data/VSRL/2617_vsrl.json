@@ -1,0 +1,540 @@
+{
+  "image_id": "2617",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          13,
+          189
+        ],
+        [
+          57,
+          204
+        ]
+      ],
+      "value": "perigee",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          84,
+          48
+        ],
+        [
+          98,
+          60
+        ]
+      ],
+      "value": "",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          65,
+          154
+        ],
+        [
+          78,
+          167
+        ]
+      ],
+      "value": "",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          92,
+          2
+        ],
+        [
+          145,
+          15
+        ]
+      ],
+      "value": "orbital plane",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          161,
+          6
+        ],
+        [
+          195,
+          18
+        ]
+      ],
+      "value": "apogee",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          177,
+          53
+        ],
+        [
+          238,
+          64
+        ]
+      ],
+      "value": "line-of-apsides",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          18,
+          55
+        ],
+        [
+          49,
+          65
+        ]
+      ],
+      "value": "equator",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          145,
+          128
+        ],
+        [
+          177,
+          139
+        ]
+      ],
+      "value": "satellite",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          39,
+          75
+        ],
+        [
+          69,
+          60
+        ],
+        [
+          102,
+          59
+        ],
+        [
+          126,
+          82
+        ],
+        [
+          134,
+          113
+        ],
+        [
+          135,
+          134
+        ],
+        [
+          118,
+          150
+        ],
+        [
+          83,
+          165
+        ],
+        [
+          56,
+          156
+        ],
+        [
+          34,
+          136
+        ],
+        [
+          29,
+          110
+        ],
+        [
+          38,
+          75
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          112,
+          12
+        ],
+        [
+          122,
+          13
+        ],
+        [
+          127,
+          51
+        ],
+        [
+          115,
+          54
+        ],
+        [
+          109,
+          11
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          148,
+          30
+        ],
+        [
+          156,
+          40
+        ],
+        [
+          176,
+          19
+        ],
+        [
+          165,
+          13
+        ],
+        [
+          148,
+          32
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          176,
+          61
+        ],
+        [
+          176,
+          52
+        ],
+        [
+          131,
+          54
+        ],
+        [
+          129,
+          60
+        ],
+        [
+          133,
+          63
+        ],
+        [
+          172,
+          63
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          144,
+          138
+        ],
+        [
+          144,
+          126
+        ],
+        [
+          122,
+          126
+        ],
+        [
+          108,
+          133
+        ],
+        [
+          121,
+          142
+        ],
+        [
+          140,
+          140
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          26,
+          191
+        ],
+        [
+          40,
+          191
+        ],
+        [
+          40,
+          171
+        ],
+        [
+          33,
+          171
+        ],
+        [
+          26,
+          177
+        ],
+        [
+          24,
+          189
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          27,
+          66
+        ],
+        [
+          39,
+          66
+        ],
+        [
+          50,
+          101
+        ],
+        [
+          48,
+          107
+        ],
+        [
+          40,
+          100
+        ],
+        [
+          25,
+          69
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H5",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H3",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H4",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H1",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H2",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H0",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+I0",
+      "type": "misc",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+A5+B0",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T7+A3+B0",
+      "type": "interObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A3",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "perigee   orbital plane apogee line-of-apsides equator satellite"
+  },
+  "questions": [
+    {
+      "question_text": "Choose the label that shows the furthest point the moon orbits away from earth.",
+      "question_id": "2617.png-2",
+      "answers": [
+        "D",
+        "G",
+        "H",
+        "A"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "How many equator's are shown in this diagram?",
+      "question_id": "2617.png-4",
+      "answers": [
+        "1",
+        "3",
+        "5",
+        "2"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "The orbital plane is labeled by which letter?",
+      "question_id": "2617.png-1",
+      "answers": [
+        "G",
+        "F",
+        "B",
+        "C"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is the perigee in the diagram?",
+      "question_id": "2617.png-3",
+      "answers": [
+        "H",
+        "B",
+        "A",
+        "none of the above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is the satellite in the diagram",
+      "question_id": "2617.png-0",
+      "answers": [
+        "C",
+        "H",
+        "none of the above",
+        "E"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

@@ -1,0 +1,484 @@
+{
+  "image_id": "4412",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          382,
+          112
+        ],
+        [
+          441,
+          129
+        ]
+      ],
+      "value": "divergent",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          258,
+          111
+        ],
+        [
+          310,
+          123
+        ]
+      ],
+      "value": "sagittate",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          135,
+          108
+        ],
+        [
+          178,
+          123
+        ]
+      ],
+      "value": "hastate",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          12,
+          106
+        ],
+        [
+          74,
+          121
+        ]
+      ],
+      "value": "auriculate",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          69,
+          39
+        ],
+        [
+          67,
+          53
+        ],
+        [
+          68,
+          58
+        ],
+        [
+          76,
+          68
+        ],
+        [
+          78,
+          86
+        ],
+        [
+          70,
+          94
+        ],
+        [
+          53,
+          96
+        ],
+        [
+          47,
+          85
+        ],
+        [
+          43,
+          85
+        ],
+        [
+          41,
+          93
+        ],
+        [
+          33,
+          94
+        ],
+        [
+          21,
+          92
+        ],
+        [
+          15,
+          84
+        ],
+        [
+          13,
+          67
+        ],
+        [
+          21,
+          57
+        ],
+        [
+          24,
+          38
+        ],
+        [
+          66,
+          38
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          106,
+          80
+        ],
+        [
+          118,
+          82
+        ],
+        [
+          137,
+          80
+        ],
+        [
+          149,
+          83
+        ],
+        [
+          154,
+          89
+        ],
+        [
+          155,
+          100
+        ],
+        [
+          159,
+          99
+        ],
+        [
+          162,
+          97
+        ],
+        [
+          161,
+          87
+        ],
+        [
+          168,
+          82
+        ],
+        [
+          186,
+          84
+        ],
+        [
+          208,
+          83
+        ],
+        [
+          211,
+          73
+        ],
+        [
+          191,
+          58
+        ],
+        [
+          182,
+          43
+        ],
+        [
+          175,
+          39
+        ],
+        [
+          132,
+          38
+        ],
+        [
+          131,
+          50
+        ],
+        [
+          121,
+          60
+        ],
+        [
+          106,
+          68
+        ],
+        [
+          106,
+          76
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          256,
+          41
+        ],
+        [
+          252,
+          61
+        ],
+        [
+          252,
+          86
+        ],
+        [
+          254,
+          99
+        ],
+        [
+          267,
+          88
+        ],
+        [
+          283,
+          72
+        ],
+        [
+          281,
+          96
+        ],
+        [
+          282,
+          101
+        ],
+        [
+          286,
+          99
+        ],
+        [
+          287,
+          100
+        ],
+        [
+          288,
+          77
+        ],
+        [
+          313,
+          97
+        ],
+        [
+          317,
+          98
+        ],
+        [
+          320,
+          101
+        ],
+        [
+          320,
+          68
+        ],
+        [
+          318,
+          41
+        ],
+        [
+          259,
+          39
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          370,
+          40
+        ],
+        [
+          366,
+          77
+        ],
+        [
+          374,
+          103
+        ],
+        [
+          404,
+          91
+        ],
+        [
+          406,
+          105
+        ],
+        [
+          416,
+          103
+        ],
+        [
+          414,
+          93
+        ],
+        [
+          443,
+          104
+        ],
+        [
+          457,
+          77
+        ],
+        [
+          457,
+          61
+        ],
+        [
+          457,
+          42
+        ],
+        [
+          452,
+          35
+        ],
+        [
+          435,
+          35
+        ],
+        [
+          417,
+          39
+        ],
+        [
+          397,
+          34
+        ],
+        [
+          374,
+          39
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+B3",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B2",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B1",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "divergent sagittate hastate auriculate"
+  },
+  "questions": [
+    {
+      "question_text": "What represents divergent in the diagram?",
+      "question_id": "4412.png-1",
+      "answers": [
+        "C",
+        "A",
+        "D",
+        "E"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "What represents hastate in the diagram?",
+      "question_id": "4412.png-0",
+      "answers": [
+        "B",
+        "A",
+        "D",
+        "C"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which label is 1st in the diagram?",
+      "question_id": "4412.png-2",
+      "answers": [
+        "Auriculate",
+        "Hastate",
+        "Divergent",
+        "Sagittate"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which label is the 3rd in the diagram?",
+      "question_id": "4412.png-3",
+      "answers": [
+        "Hastate",
+        "Sagittate",
+        "Divergent",
+        "Auriculate"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

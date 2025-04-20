@@ -1,0 +1,404 @@
+{
+  "image_id": "1647",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          378,
+          68
+        ],
+        [
+          474,
+          98
+        ]
+      ],
+      "value": "Umbra",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          501,
+          129
+        ],
+        [
+          635,
+          158
+        ]
+      ],
+      "value": "Penumbra",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          100,
+          249
+        ],
+        [
+          153,
+          277
+        ]
+      ],
+      "value": "Sun",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          366,
+          218
+        ],
+        [
+          438,
+          245
+        ]
+      ],
+      "value": "Earth",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          117,
+          103
+        ],
+        [
+          101,
+          111
+        ],
+        [
+          91,
+          118
+        ],
+        [
+          72,
+          136
+        ],
+        [
+          61,
+          166
+        ],
+        [
+          65,
+          187
+        ],
+        [
+          75,
+          213
+        ],
+        [
+          88,
+          225
+        ],
+        [
+          111,
+          235
+        ],
+        [
+          136,
+          237
+        ],
+        [
+          157,
+          231
+        ],
+        [
+          172,
+          220
+        ],
+        [
+          187,
+          201
+        ],
+        [
+          193,
+          180
+        ],
+        [
+          191,
+          149
+        ],
+        [
+          176,
+          125
+        ],
+        [
+          157,
+          115
+        ],
+        [
+          137,
+          107
+        ],
+        [
+          121,
+          104
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          395,
+          149
+        ],
+        [
+          380,
+          168
+        ],
+        [
+          382,
+          177
+        ],
+        [
+          389,
+          187
+        ],
+        [
+          401,
+          190
+        ],
+        [
+          518,
+          172
+        ],
+        [
+          397,
+          150
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          403,
+          147
+        ],
+        [
+          636,
+          79
+        ],
+        [
+          637,
+          264
+        ],
+        [
+          397,
+          190
+        ],
+        [
+          412,
+          187
+        ],
+        [
+          402,
+          192
+        ],
+        [
+          388,
+          186
+        ],
+        [
+          383,
+          174
+        ],
+        [
+          380,
+          168
+        ],
+        [
+          386,
+          155
+        ],
+        [
+          401,
+          147
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          402,
+          148
+        ],
+        [
+          417,
+          155
+        ],
+        [
+          420,
+          160
+        ],
+        [
+          423,
+          171
+        ],
+        [
+          420,
+          180
+        ],
+        [
+          407,
+          188
+        ],
+        [
+          402,
+          189
+        ],
+        [
+          392,
+          187
+        ],
+        [
+          381,
+          175
+        ],
+        [
+          383,
+          164
+        ],
+        [
+          390,
+          153
+        ],
+        [
+          396,
+          151
+        ],
+        [
+          405,
+          148
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          425,
+          92
+        ],
+        [
+          425,
+          168
+        ],
+        [
+          435,
+          168
+        ],
+        [
+          436,
+          93
+        ],
+        [
+          425,
+          92
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+B2",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B2",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B2",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "A0": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "umbra penumbra sun earth"
+  },
+  "questions": [
+    {
+      "question_text": "Which is the completely dark portion of the shadow cast by the earth, moon, or other body during an eclipse?",
+      "question_id": "1647.png-0",
+      "answers": [
+        "penumbra",
+        "sun",
+        "earth",
+        "umbra"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which is the partial shadow, as in an eclipse, between regions of complete shadow and complete illumination?",
+      "question_id": "1647.png-1",
+      "answers": [
+        "sun",
+        "penumbra",
+        "umbra",
+        "earth"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

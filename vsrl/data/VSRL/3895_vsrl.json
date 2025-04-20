@@ -1,0 +1,483 @@
+{
+  "image_id": "3895",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          367,
+          27
+        ],
+        [
+          446,
+          52
+        ]
+      ],
+      "value": "Spores",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          2,
+          80
+        ],
+        [
+          145,
+          105
+        ]
+      ],
+      "value": "Sporangium",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          381,
+          268
+        ],
+        [
+          523,
+          292
+        ]
+      ],
+      "value": "Food source",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          362,
+          358
+        ],
+        [
+          454,
+          384
+        ]
+      ],
+      "value": "Hyphae",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          303,
+          140
+        ],
+        [
+          276,
+          214
+        ],
+        [
+          253,
+          279
+        ],
+        [
+          329,
+          268
+        ],
+        [
+          341,
+          285
+        ],
+        [
+          335,
+          298
+        ],
+        [
+          274,
+          307
+        ],
+        [
+          237,
+          317
+        ],
+        [
+          269,
+          336
+        ],
+        [
+          281,
+          348
+        ],
+        [
+          268,
+          355
+        ],
+        [
+          234,
+          344
+        ],
+        [
+          244,
+          377
+        ],
+        [
+          243,
+          383
+        ],
+        [
+          229,
+          388
+        ],
+        [
+          215,
+          336
+        ],
+        [
+          173,
+          385
+        ],
+        [
+          150,
+          403
+        ],
+        [
+          143,
+          395
+        ],
+        [
+          173,
+          358
+        ],
+        [
+          197,
+          336
+        ],
+        [
+          164,
+          348
+        ],
+        [
+          163,
+          335
+        ],
+        [
+          201,
+          312
+        ],
+        [
+          129,
+          309
+        ],
+        [
+          142,
+          275
+        ],
+        [
+          213,
+          279
+        ],
+        [
+          204,
+          141
+        ],
+        [
+          173,
+          100
+        ],
+        [
+          185,
+          66
+        ],
+        [
+          234,
+          49
+        ],
+        [
+          256,
+          70
+        ],
+        [
+          251,
+          96
+        ],
+        [
+          232,
+          130
+        ],
+        [
+          236,
+          257
+        ],
+        [
+          264,
+          178
+        ],
+        [
+          278,
+          133
+        ],
+        [
+          270,
+          108
+        ],
+        [
+          300,
+          96
+        ],
+        [
+          320,
+          113
+        ],
+        [
+          325,
+          129
+        ],
+        [
+          307,
+          142
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          314,
+          64
+        ],
+        [
+          300,
+          62
+        ],
+        [
+          294,
+          40
+        ],
+        [
+          316,
+          26
+        ],
+        [
+          332,
+          24
+        ],
+        [
+          339,
+          39
+        ],
+        [
+          337,
+          58
+        ],
+        [
+          314,
+          62
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          152,
+          83
+        ],
+        [
+          181,
+          84
+        ],
+        [
+          179,
+          103
+        ],
+        [
+          149,
+          98
+        ],
+        [
+          152,
+          83
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          332,
+          34
+        ],
+        [
+          332,
+          49
+        ],
+        [
+          363,
+          48
+        ],
+        [
+          363,
+          34
+        ],
+        [
+          331,
+          34
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          322,
+          280
+        ],
+        [
+          322,
+          292
+        ],
+        [
+          364,
+          292
+        ],
+        [
+          366,
+          280
+        ],
+        [
+          325,
+          278
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          314,
+          367
+        ],
+        [
+          315,
+          381
+        ],
+        [
+          315,
+          385
+        ],
+        [
+          354,
+          384
+        ],
+        [
+          355,
+          368
+        ],
+        [
+          314,
+          367
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H3",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H1",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A1+B1",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B1",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T1+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T2+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T3+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "spores sporangium food source hyphae"
+  },
+  "questions": []
+}

@@ -1,0 +1,438 @@
+{
+  "image_id": "1748",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          97,
+          17
+        ],
+        [
+          158,
+          34
+        ]
+      ],
+      "value": "Normal",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          105,
+          143
+        ],
+        [
+          159,
+          159
+        ]
+      ],
+      "value": "Thrust",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          74,
+          268
+        ],
+        [
+          158,
+          287
+        ]
+      ],
+      "value": "Strike-Slip",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          156,
+          64
+        ],
+        [
+          104,
+          64
+        ],
+        [
+          94,
+          43
+        ],
+        [
+          47,
+          43
+        ],
+        [
+          47,
+          40
+        ],
+        [
+          57,
+          25
+        ],
+        [
+          54,
+          15
+        ],
+        [
+          44,
+          11
+        ],
+        [
+          34,
+          12
+        ],
+        [
+          25,
+          13
+        ],
+        [
+          26,
+          30
+        ],
+        [
+          34,
+          38
+        ],
+        [
+          28,
+          40
+        ],
+        [
+          14,
+          52
+        ],
+        [
+          14,
+          106
+        ],
+        [
+          96,
+          107
+        ],
+        [
+          109,
+          128
+        ],
+        [
+          140,
+          128
+        ],
+        [
+          160,
+          113
+        ],
+        [
+          159,
+          66
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          31,
+          194
+        ],
+        [
+          48,
+          181
+        ],
+        [
+          55,
+          182
+        ],
+        [
+          55,
+          177
+        ],
+        [
+          47,
+          173
+        ],
+        [
+          47,
+          167
+        ],
+        [
+          41,
+          161
+        ],
+        [
+          43,
+          152
+        ],
+        [
+          51,
+          152
+        ],
+        [
+          60,
+          152
+        ],
+        [
+          72,
+          153
+        ],
+        [
+          76,
+          166
+        ],
+        [
+          70,
+          175
+        ],
+        [
+          64,
+          176
+        ],
+        [
+          62,
+          183
+        ],
+        [
+          85,
+          183
+        ],
+        [
+          86,
+          178
+        ],
+        [
+          95,
+          170
+        ],
+        [
+          159,
+          169
+        ],
+        [
+          160,
+          219
+        ],
+        [
+          138,
+          233
+        ],
+        [
+          133,
+          232
+        ],
+        [
+          115,
+          247
+        ],
+        [
+          35,
+          248
+        ],
+        [
+          30,
+          194
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          15,
+          362
+        ],
+        [
+          15,
+          308
+        ],
+        [
+          28,
+          297
+        ],
+        [
+          38,
+          297
+        ],
+        [
+          38,
+          293
+        ],
+        [
+          32,
+          291
+        ],
+        [
+          32,
+          286
+        ],
+        [
+          24,
+          284
+        ],
+        [
+          27,
+          278
+        ],
+        [
+          25,
+          271
+        ],
+        [
+          34,
+          269
+        ],
+        [
+          42,
+          264
+        ],
+        [
+          51,
+          265
+        ],
+        [
+          56,
+          275
+        ],
+        [
+          55,
+          286
+        ],
+        [
+          47,
+          292
+        ],
+        [
+          47,
+          298
+        ],
+        [
+          82,
+          299
+        ],
+        [
+          90,
+          297
+        ],
+        [
+          100,
+          289
+        ],
+        [
+          157,
+          293
+        ],
+        [
+          161,
+          345
+        ],
+        [
+          137,
+          357
+        ],
+        [
+          89,
+          355
+        ],
+        [
+          76,
+          362
+        ],
+        [
+          17,
+          365
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+B0",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B1",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B2",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "normal thrust strike-slip"
+  },
+  "questions": [
+    {
+      "question_text": "Strike-Slip is labeled as what?",
+      "question_id": "1748.png-1",
+      "answers": [
+        "A",
+        "D",
+        "C",
+        "B"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which among the below pushes or drives quickly and forcibly?",
+      "question_id": "1748.png-0",
+      "answers": [
+        "thrust",
+        "normal",
+        "none of the above",
+        "strike-slip"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which among the below represents the layer that has moved down?",
+      "question_id": "1748.png-2",
+      "answers": [
+        "none of the above",
+        "strike-slip",
+        "thrust",
+        "normal"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    }
+  ]
+}

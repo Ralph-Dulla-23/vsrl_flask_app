@@ -1,0 +1,1469 @@
+{
+  "image_id": "3885",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          25,
+          96
+        ],
+        [
+          214,
+          337
+        ]
+      ],
+      "value": "In woody plants, primary and secondary growth occur simultaneously but in different locations",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          233,
+          163
+        ],
+        [
+          348,
+          198
+        ]
+      ],
+      "value": "This year's growth (one year old)",
+      "replacementText": "O",
+      "category": "label"
+    },
+    "T10": {
+      "id": "T10",
+      "type": "text",
+      "bbox": [
+        [
+          468,
+          150
+        ],
+        [
+          523,
+          167
+        ]
+      ],
+      "value": "Leaf scar",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T11": {
+      "id": "T11",
+      "type": "text",
+      "bbox": [
+        [
+          452,
+          201
+        ],
+        [
+          522,
+          221
+        ]
+      ],
+      "value": "Internode",
+      "replacementText": "K",
+      "category": "label"
+    },
+    "T12": {
+      "id": "T12",
+      "type": "text",
+      "bbox": [
+        [
+          471,
+          102
+        ],
+        [
+          555,
+          118
+        ]
+      ],
+      "value": "Axillary buds",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T13": {
+      "id": "T13",
+      "type": "text",
+      "bbox": [
+        [
+          453,
+          56
+        ],
+        [
+          533,
+          72
+        ]
+      ],
+      "value": "Terminal bud",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T14": {
+      "id": "T14",
+      "type": "text",
+      "bbox": [
+        [
+          449,
+          75
+        ],
+        [
+          510,
+          89
+        ]
+      ],
+      "value": "Bud scale",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T15": {
+      "id": "T15",
+      "type": "text",
+      "bbox": [
+        [
+          255,
+          1
+        ],
+        [
+          486,
+          44
+        ]
+      ],
+      "value": "Woody plants",
+      "replacementText": "P",
+      "category": "label"
+    },
+    "T16": {
+      "id": "T16",
+      "type": "text",
+      "bbox": [
+        [
+          249,
+          513
+        ],
+        [
+          633,
+          526
+        ]
+      ],
+      "value": "Copyright 2005 Pearson Education, Inc. Publishing as Pearson Benjamin Cummings. All rights reserved.",
+      "replacementText": "Q",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          236,
+          323
+        ],
+        [
+          349,
+          362
+        ]
+      ],
+      "value": "Last year's growth (two years old)",
+      "replacementText": "M",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          244,
+          429
+        ],
+        [
+          348,
+          479
+        ]
+      ],
+      "value": "Growth of two years ago (three years old)",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          384,
+          422
+        ],
+        [
+          443,
+          450
+        ]
+      ],
+      "value": "Leaf scar",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          543,
+          350
+        ],
+        [
+          689,
+          407
+        ]
+      ],
+      "value": "Scars left by terminal bud scales of previous winters",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          551,
+          316
+        ],
+        [
+          607,
+          334
+        ]
+      ],
+      "value": "Leaf scar",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          560,
+          240
+        ],
+        [
+          669,
+          304
+        ]
+      ],
+      "value": "One-year-old side branch formed from axillary bud near shoot apex",
+      "replacementText": "N",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          537,
+          165
+        ],
+        [
+          568,
+          179
+        ]
+      ],
+      "value": "Node",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          465,
+          179
+        ],
+        [
+          499,
+          195
+        ]
+      ],
+      "value": "Stem",
+      "replacementText": "L",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          482,
+          508
+        ],
+        [
+          501,
+          496
+        ],
+        [
+          508,
+          498
+        ],
+        [
+          503,
+          506
+        ],
+        [
+          499,
+          508
+        ],
+        [
+          488,
+          511
+        ],
+        [
+          480,
+          509
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          480,
+          509
+        ],
+        [
+          479,
+          473
+        ],
+        [
+          479,
+          452
+        ],
+        [
+          475,
+          440
+        ],
+        [
+          475,
+          427
+        ],
+        [
+          475,
+          421
+        ],
+        [
+          480,
+          390
+        ],
+        [
+          477,
+          387
+        ],
+        [
+          473,
+          378
+        ],
+        [
+          474,
+          371
+        ],
+        [
+          473,
+          361
+        ],
+        [
+          472,
+          351
+        ],
+        [
+          470,
+          345
+        ],
+        [
+          466,
+          333
+        ],
+        [
+          465,
+          328
+        ],
+        [
+          473,
+          330
+        ],
+        [
+          469,
+          318
+        ],
+        [
+          461,
+          308
+        ],
+        [
+          459,
+          297
+        ],
+        [
+          456,
+          281
+        ],
+        [
+          450,
+          267
+        ],
+        [
+          433,
+          238
+        ],
+        [
+          433,
+          226
+        ],
+        [
+          431,
+          210
+        ],
+        [
+          420,
+          196
+        ],
+        [
+          417,
+          181
+        ],
+        [
+          412,
+          174
+        ],
+        [
+          409,
+          163
+        ],
+        [
+          409,
+          156
+        ],
+        [
+          406,
+          138
+        ],
+        [
+          398,
+          127
+        ],
+        [
+          395,
+          116
+        ],
+        [
+          383,
+          107
+        ],
+        [
+          379,
+          109
+        ],
+        [
+          375,
+          104
+        ],
+        [
+          375,
+          95
+        ],
+        [
+          382,
+          93
+        ],
+        [
+          386,
+          99
+        ],
+        [
+          391,
+          103
+        ],
+        [
+          391,
+          93
+        ],
+        [
+          385,
+          83
+        ],
+        [
+          383,
+          78
+        ],
+        [
+          383,
+          71
+        ],
+        [
+          384,
+          60
+        ],
+        [
+          388,
+          58
+        ],
+        [
+          391,
+          63
+        ],
+        [
+          396,
+          64
+        ],
+        [
+          396,
+          64
+        ],
+        [
+          405,
+          71
+        ],
+        [
+          406,
+          71
+        ],
+        [
+          406,
+          92
+        ],
+        [
+          410,
+          90
+        ],
+        [
+          410,
+          89
+        ],
+        [
+          417,
+          89
+        ],
+        [
+          423,
+          90
+        ],
+        [
+          419,
+          101
+        ],
+        [
+          419,
+          110
+        ],
+        [
+          418,
+          114
+        ],
+        [
+          418,
+          135
+        ],
+        [
+          424,
+          143
+        ],
+        [
+          431,
+          153
+        ],
+        [
+          437,
+          169
+        ],
+        [
+          442,
+          183
+        ],
+        [
+          437,
+          186
+        ],
+        [
+          448,
+          211
+        ],
+        [
+          455,
+          225
+        ],
+        [
+          456,
+          239
+        ],
+        [
+          471,
+          264
+        ],
+        [
+          480,
+          284
+        ],
+        [
+          482,
+          278
+        ],
+        [
+          496,
+          267
+        ],
+        [
+          501,
+          250
+        ],
+        [
+          506,
+          249
+        ],
+        [
+          516,
+          249
+        ],
+        [
+          552,
+          207
+        ],
+        [
+          557,
+          197
+        ],
+        [
+          593,
+          172
+        ],
+        [
+          595,
+          153
+        ],
+        [
+          605,
+          153
+        ],
+        [
+          606,
+          171
+        ],
+        [
+          597,
+          176
+        ],
+        [
+          591,
+          180
+        ],
+        [
+          575,
+          201
+        ],
+        [
+          562,
+          210
+        ],
+        [
+          558,
+          217
+        ],
+        [
+          549,
+          230
+        ],
+        [
+          536,
+          238
+        ],
+        [
+          526,
+          252
+        ],
+        [
+          519,
+          260
+        ],
+        [
+          515,
+          267
+        ],
+        [
+          505,
+          282
+        ],
+        [
+          500,
+          289
+        ],
+        [
+          495,
+          306
+        ],
+        [
+          495,
+          316
+        ],
+        [
+          492,
+          327
+        ],
+        [
+          493,
+          329
+        ],
+        [
+          497,
+          329
+        ],
+        [
+          502,
+          333
+        ],
+        [
+          501,
+          342
+        ],
+        [
+          493,
+          348
+        ],
+        [
+          494,
+          359
+        ],
+        [
+          496,
+          378
+        ],
+        [
+          497,
+          393
+        ],
+        [
+          500,
+          413
+        ],
+        [
+          506,
+          415
+        ],
+        [
+          513,
+          429
+        ],
+        [
+          512,
+          430
+        ],
+        [
+          501,
+          452
+        ],
+        [
+          501,
+          458
+        ],
+        [
+          507,
+          497
+        ],
+        [
+          507,
+          499
+        ],
+        [
+          507,
+          503
+        ],
+        [
+          496,
+          509
+        ],
+        [
+          479,
+          509
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          396,
+          66
+        ],
+        [
+          449,
+          67
+        ],
+        [
+          449,
+          63
+        ],
+        [
+          393,
+          62
+        ],
+        [
+          393,
+          68
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          399,
+          77
+        ],
+        [
+          399,
+          84
+        ],
+        [
+          451,
+          85
+        ],
+        [
+          450,
+          77
+        ],
+        [
+          400,
+          78
+        ]
+      ],
+      "category": "connector"
+    },
+    "A10": {
+      "id": "A10",
+      "type": "arrow",
+      "polygon": [
+        [
+          476,
+          515
+        ],
+        [
+          363,
+          517
+        ],
+        [
+          360,
+          385
+        ],
+        [
+          474,
+          386
+        ],
+        [
+          476,
+          386
+        ],
+        [
+          475,
+          395
+        ],
+        [
+          373,
+          395
+        ],
+        [
+          374,
+          506
+        ],
+        [
+          476,
+          507
+        ],
+        [
+          477,
+          514
+        ]
+      ],
+      "category": "connector"
+    },
+    "A11": {
+      "id": "A11",
+      "type": "arrow",
+      "polygon": [
+        [
+          475,
+          388
+        ],
+        [
+          365,
+          390
+        ],
+        [
+          360,
+          297
+        ],
+        [
+          464,
+          297
+        ],
+        [
+          460,
+          303
+        ],
+        [
+          373,
+          306
+        ],
+        [
+          374,
+          378
+        ],
+        [
+          472,
+          378
+        ],
+        [
+          474,
+          388
+        ]
+      ],
+      "category": "connector"
+    },
+    "A12": {
+      "id": "A12",
+      "type": "arrow",
+      "polygon": [
+        [
+          460,
+          293
+        ],
+        [
+          460,
+          287
+        ],
+        [
+          375,
+          289
+        ],
+        [
+          372,
+          86
+        ],
+        [
+          385,
+          87
+        ],
+        [
+          386,
+          78
+        ],
+        [
+          364,
+          80
+        ],
+        [
+          362,
+          290
+        ],
+        [
+          371,
+          296
+        ],
+        [
+          459,
+          298
+        ],
+        [
+          460,
+          294
+        ]
+      ],
+      "category": "connector"
+    },
+    "A13": {
+      "id": "A13",
+      "type": "arrow",
+      "polygon": [
+        [
+          498,
+          251
+        ],
+        [
+          495,
+          242
+        ],
+        [
+          517,
+          215
+        ],
+        [
+          543,
+          198
+        ],
+        [
+          552,
+          205
+        ],
+        [
+          549,
+          208
+        ],
+        [
+          544,
+          208
+        ],
+        [
+          506,
+          244
+        ],
+        [
+          507,
+          249
+        ],
+        [
+          501,
+          251
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          416,
+          97
+        ],
+        [
+          468,
+          113
+        ],
+        [
+          431,
+          163
+        ],
+        [
+          436,
+          167
+        ],
+        [
+          476,
+          110
+        ],
+        [
+          419,
+          93
+        ],
+        [
+          417,
+          96
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          474,
+          158
+        ],
+        [
+          471,
+          152
+        ],
+        [
+          433,
+          175
+        ],
+        [
+          436,
+          181
+        ],
+        [
+          476,
+          159
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          427,
+          182
+        ],
+        [
+          425,
+          190
+        ],
+        [
+          467,
+          190
+        ],
+        [
+          467,
+          182
+        ],
+        [
+          426,
+          182
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          550,
+          179
+        ],
+        [
+          551,
+          202
+        ],
+        [
+          558,
+          201
+        ],
+        [
+          558,
+          177
+        ],
+        [
+          552,
+          177
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          551,
+          318
+        ],
+        [
+          492,
+          295
+        ],
+        [
+          492,
+          301
+        ],
+        [
+          549,
+          328
+        ],
+        [
+          551,
+          318
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          500,
+          293
+        ],
+        [
+          509,
+          292
+        ],
+        [
+          557,
+          240
+        ],
+        [
+          603,
+          180
+        ],
+        [
+          604,
+          168
+        ],
+        [
+          610,
+          170
+        ],
+        [
+          611,
+          178
+        ],
+        [
+          607,
+          187
+        ],
+        [
+          567,
+          245
+        ],
+        [
+          510,
+          298
+        ],
+        [
+          499,
+          293
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          465,
+          298
+        ],
+        [
+          543,
+          367
+        ],
+        [
+          486,
+          378
+        ],
+        [
+          489,
+          383
+        ],
+        [
+          551,
+          370
+        ],
+        [
+          469,
+          294
+        ],
+        [
+          463,
+          300
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          446,
+          435
+        ],
+        [
+          446,
+          442
+        ],
+        [
+          481,
+          442
+        ],
+        [
+          480,
+          434
+        ],
+        [
+          446,
+          435
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageCaption",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A12+B1",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B1",
+      "connector": "A12",
+      "directional": false
+    },
+    {
+      "id": "T10+A3+B1",
+      "type": "intraObjectLinkage",
+      "source": "T10",
+      "target": "B1",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T11+A13+B1",
+      "type": "intraObjectLinkage",
+      "source": "T11",
+      "target": "B1",
+      "connector": "A13",
+      "directional": false
+    },
+    {
+      "id": "T12+A2+B1",
+      "type": "intraObjectLinkage",
+      "source": "T12",
+      "target": "B1",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T13+A0+B1",
+      "type": "intraObjectLinkage",
+      "source": "T13",
+      "target": "B1",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T14+A1+B1",
+      "type": "intraObjectLinkage",
+      "source": "T14",
+      "target": "B1",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T15+I0",
+      "type": "imageTitle",
+      "source": "T15",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T16+I0",
+      "type": "misc",
+      "source": "T16",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+A11+B1",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B1",
+      "connector": "A11",
+      "directional": false
+    },
+    {
+      "id": "T3+A10+B1",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B1",
+      "connector": "A10",
+      "directional": false
+    },
+    {
+      "id": "T4+A9+B1",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B1",
+      "connector": "A9",
+      "directional": false
+    },
+    {
+      "id": "T5+A8+B1",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B1",
+      "connector": "A8",
+      "directional": false
+    },
+    {
+      "id": "T6+A6+B1",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B1",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T7+A7+B1",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B1",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T8+A5+B1",
+      "type": "intraObjectLinkage",
+      "source": "T8",
+      "target": "B1",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T9+A4+B1",
+      "type": "intraObjectLinkage",
+      "source": "T9",
+      "target": "B1",
+      "connector": "A4",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T10": "part_label",
+    "T11": "part_label",
+    "T12": "part_label",
+    "T13": "part_label",
+    "T14": "part_label",
+    "T15": "title",
+    "T16": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A10": "connector",
+    "A11": "connector",
+    "A12": "connector",
+    "A13": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "in woody plants, primary and secondary growth occur simultaneously but in different locations this year's growth (one year old) leaf scar internode axillary buds terminal bud bud scale woody plants copyright 2005 pearson education, inc. publishing as pearson benjamin cummings. all rights reserved. last year's growth (two years old) growth of two years ago (three years old) leaf scar scars left by terminal bud scales of previous winters leaf scar one-year-old side branch formed from axillary bud near shoot apex node stem"
+  },
+  "questions": []
+}

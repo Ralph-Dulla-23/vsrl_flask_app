@@ -1,0 +1,526 @@
+{
+  "image_id": "4301",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          2,
+          24
+        ],
+        [
+          49,
+          52
+        ]
+      ],
+      "value": "Oceanic sediments",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          52,
+          4
+        ],
+        [
+          115,
+          23
+        ]
+      ],
+      "value": "Oceanic crust",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          128,
+          0
+        ],
+        [
+          178,
+          37
+        ]
+      ],
+      "value": "Low-angle thrust faults",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          245,
+          11
+        ],
+        [
+          291,
+          26
+        ]
+      ],
+      "value": "Batholiths",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          208,
+          40
+        ],
+        [
+          256,
+          55
+        ]
+      ],
+      "value": "Volcanoes",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          98,
+          48
+        ],
+        [
+          134,
+          64
+        ]
+      ],
+      "value": "Trench",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          33,
+          77
+        ],
+        [
+          79,
+          92
+        ]
+      ],
+      "value": "Sea level",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          201,
+          100
+        ],
+        [
+          278,
+          116
+        ]
+      ],
+      "value": "Transitional crust",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          109,
+          132
+        ],
+        [
+          217,
+          245
+        ]
+      ],
+      "value": "Subducting Pacific plate moves under continental margin",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          0,
+          89
+        ],
+        [
+          130,
+          91
+        ],
+        [
+          142,
+          82
+        ],
+        [
+          157,
+          82
+        ],
+        [
+          180,
+          76
+        ],
+        [
+          208,
+          69
+        ],
+        [
+          224,
+          63
+        ],
+        [
+          226,
+          64
+        ],
+        [
+          231,
+          62
+        ],
+        [
+          236,
+          64
+        ],
+        [
+          244,
+          62
+        ],
+        [
+          249,
+          64
+        ],
+        [
+          322,
+          69
+        ],
+        [
+          324,
+          253
+        ],
+        [
+          0,
+          254
+        ],
+        [
+          0,
+          91
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          20,
+          50
+        ],
+        [
+          20,
+          101
+        ],
+        [
+          23,
+          100
+        ],
+        [
+          27,
+          50
+        ],
+        [
+          20,
+          49
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          80,
+          21
+        ],
+        [
+          79,
+          116
+        ],
+        [
+          88,
+          112
+        ],
+        [
+          87,
+          18
+        ],
+        [
+          83,
+          17
+        ],
+        [
+          81,
+          19
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          113,
+          62
+        ],
+        [
+          112,
+          109
+        ],
+        [
+          119,
+          108
+        ],
+        [
+          121,
+          61
+        ],
+        [
+          111,
+          60
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          148,
+          35
+        ],
+        [
+          148,
+          128
+        ],
+        [
+          156,
+          114
+        ],
+        [
+          158,
+          30
+        ],
+        [
+          148,
+          32
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          262,
+          27
+        ],
+        [
+          265,
+          98
+        ],
+        [
+          271,
+          98
+        ],
+        [
+          273,
+          25
+        ],
+        [
+          262,
+          26
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          61,
+          144
+        ],
+        [
+          85,
+          147
+        ],
+        [
+          141,
+          193
+        ],
+        [
+          141,
+          199
+        ],
+        [
+          160,
+          202
+        ],
+        [
+          153,
+          192
+        ],
+        [
+          148,
+          189
+        ],
+        [
+          93,
+          137
+        ],
+        [
+          59,
+          135
+        ],
+        [
+          58,
+          145
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A5+H0",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T2+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T3+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T4+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T4",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T6+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T6",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T7+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T7",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector"
+  },
+  "educational_context": {
+    "subject": "earth_science",
+    "diagram_type": "flow_diagram",
+    "text_content": "oceanic sediments oceanic crust low-angle thrust faults batholiths volcanoes trench sea level transitional crust subducting pacific plate moves under continental margin"
+  },
+  "questions": [
+    {
+      "question_text": "What label represents sea level?",
+      "question_id": "4301.png-0",
+      "answers": [
+        "I",
+        "E",
+        "B",
+        "F"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}

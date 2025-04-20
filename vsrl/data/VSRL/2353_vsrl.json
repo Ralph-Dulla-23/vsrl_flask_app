@@ -1,0 +1,546 @@
+{
+  "image_id": "2353",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          158,
+          125
+        ],
+        [
+          215,
+          166
+        ]
+      ],
+      "value": "adult plant",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          201,
+          42
+        ],
+        [
+          290,
+          66
+        ]
+      ],
+      "value": "seedling",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          116,
+          8
+        ],
+        [
+          162,
+          29
+        ]
+      ],
+      "value": "seed",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          6,
+          40
+        ],
+        [
+          57,
+          62
+        ]
+      ],
+      "value": "fruit",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          30,
+          112
+        ],
+        [
+          95,
+          131
+        ]
+      ],
+      "value": "flower",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          23,
+          61
+        ],
+        [
+          30,
+          81
+        ],
+        [
+          25,
+          84
+        ],
+        [
+          38,
+          107
+        ],
+        [
+          43,
+          109
+        ],
+        [
+          34,
+          110
+        ],
+        [
+          20,
+          95
+        ],
+        [
+          16,
+          83
+        ],
+        [
+          12,
+          78
+        ],
+        [
+          21,
+          63
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          50,
+          32
+        ],
+        [
+          56,
+          42
+        ],
+        [
+          89,
+          30
+        ],
+        [
+          96,
+          31
+        ],
+        [
+          110,
+          24
+        ],
+        [
+          113,
+          21
+        ],
+        [
+          109,
+          17
+        ],
+        [
+          98,
+          17
+        ],
+        [
+          91,
+          18
+        ],
+        [
+          90,
+          20
+        ],
+        [
+          51,
+          35
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          170,
+          17
+        ],
+        [
+          168,
+          26
+        ],
+        [
+          206,
+          35
+        ],
+        [
+          207,
+          41
+        ],
+        [
+          229,
+          43
+        ],
+        [
+          227,
+          37
+        ],
+        [
+          217,
+          26
+        ],
+        [
+          211,
+          25
+        ],
+        [
+          170,
+          19
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          250,
+          71
+        ],
+        [
+          261,
+          70
+        ],
+        [
+          263,
+          82
+        ],
+        [
+          259,
+          95
+        ],
+        [
+          247,
+          111
+        ],
+        [
+          239,
+          116
+        ],
+        [
+          237,
+          118
+        ],
+        [
+          237,
+          123
+        ],
+        [
+          223,
+          126
+        ],
+        [
+          217,
+          129
+        ],
+        [
+          215,
+          125
+        ],
+        [
+          217,
+          121
+        ],
+        [
+          221,
+          117
+        ],
+        [
+          225,
+          111
+        ],
+        [
+          227,
+          110
+        ],
+        [
+          231,
+          111
+        ],
+        [
+          242,
+          103
+        ],
+        [
+          248,
+          93
+        ],
+        [
+          250,
+          83
+        ],
+        [
+          251,
+          72
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          109,
+          135
+        ],
+        [
+          112,
+          126
+        ],
+        [
+          102,
+          130
+        ],
+        [
+          93,
+          131
+        ],
+        [
+          86,
+          134
+        ],
+        [
+          91,
+          138
+        ],
+        [
+          98,
+          143
+        ],
+        [
+          103,
+          145
+        ],
+        [
+          107,
+          143
+        ],
+        [
+          118,
+          143
+        ],
+        [
+          140,
+          143
+        ],
+        [
+          155,
+          141
+        ],
+        [
+          159,
+          139
+        ],
+        [
+          159,
+          136
+        ],
+        [
+          151,
+          136
+        ],
+        [
+          125,
+          133
+        ],
+        [
+          115,
+          135
+        ],
+        [
+          110,
+          136
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H4",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H3",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H2",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H0",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A4+T4",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T4",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T1+A3+T0",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T0",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T2+A2+T1",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T1",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T3+A1+T2",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T2",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T4+A0+T3",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T3",
+      "connector": "A0",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "adult plant seedling seed fruit flower"
+  },
+  "questions": [
+    {
+      "question_text": "How many phases does a seed go through before it is a fruit?",
+      "question_id": "2353.png-1",
+      "answers": [
+        "8",
+        "4",
+        "9",
+        "3"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What letter best represents the seedling phase?",
+      "question_id": "2353.png-2",
+      "answers": [
+        "D",
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "What stage occurs between the adult plant phase and the fruit phase?",
+      "question_id": "2353.png-0",
+      "answers": [
+        "A",
+        "E",
+        "C",
+        "D"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which phase occurs right after seedling?",
+      "question_id": "2353.png-3",
+      "answers": [
+        "seed",
+        "adult plant",
+        "flower",
+        "fruit"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

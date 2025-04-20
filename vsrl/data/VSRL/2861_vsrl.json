@@ -1,0 +1,782 @@
+{
+  "image_id": "2861",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          305,
+          24
+        ],
+        [
+          475,
+          52
+        ]
+      ],
+      "value": "Anterior chamber",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          433,
+          79
+        ],
+        [
+          466,
+          107
+        ]
+      ],
+      "value": "Iris",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T10": {
+      "id": "T10",
+      "type": "text",
+      "bbox": [
+        [
+          88,
+          37
+        ],
+        [
+          206,
+          64
+        ]
+      ],
+      "value": "Vitreous gel",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          411,
+          139
+        ],
+        [
+          489,
+          160
+        ]
+      ],
+      "value": "Cornea",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          437,
+          208
+        ],
+        [
+          497,
+          235
+        ]
+      ],
+      "value": "Pupil",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          433,
+          293
+        ],
+        [
+          490,
+          320
+        ]
+      ],
+      "value": "Lens",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          433,
+          369
+        ],
+        [
+          463,
+          393
+        ]
+      ],
+      "value": "Iris",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          43,
+          351
+        ],
+        [
+          107,
+          373
+        ]
+      ],
+      "value": "Retina",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          33,
+          275
+        ],
+        [
+          100,
+          302
+        ]
+      ],
+      "value": "Fovea",
+      "replacementText": "K",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          23,
+          208
+        ],
+        [
+          96,
+          233
+        ]
+      ],
+      "value": "Macula",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          19,
+          113
+        ],
+        [
+          133,
+          141
+        ]
+      ],
+      "value": "Optic nerve",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          152,
+          108
+        ],
+        [
+          191,
+          88
+        ],
+        [
+          226,
+          79
+        ],
+        [
+          251,
+          81
+        ],
+        [
+          265,
+          65
+        ],
+        [
+          285,
+          68
+        ],
+        [
+          312,
+          85
+        ],
+        [
+          347,
+          113
+        ],
+        [
+          380,
+          152
+        ],
+        [
+          408,
+          189
+        ],
+        [
+          422,
+          211
+        ],
+        [
+          426,
+          243
+        ],
+        [
+          413,
+          279
+        ],
+        [
+          382,
+          324
+        ],
+        [
+          353,
+          365
+        ],
+        [
+          293,
+          416
+        ],
+        [
+          277,
+          423
+        ],
+        [
+          266,
+          417
+        ],
+        [
+          263,
+          409
+        ],
+        [
+          258,
+          409
+        ],
+        [
+          216,
+          407
+        ],
+        [
+          166,
+          393
+        ],
+        [
+          132,
+          366
+        ],
+        [
+          105,
+          337
+        ],
+        [
+          87,
+          290
+        ],
+        [
+          83,
+          242
+        ],
+        [
+          80,
+          230
+        ],
+        [
+          41,
+          227
+        ],
+        [
+          33,
+          219
+        ],
+        [
+          23,
+          205
+        ],
+        [
+          44,
+          199
+        ],
+        [
+          52,
+          164
+        ],
+        [
+          44,
+          142
+        ],
+        [
+          44,
+          136
+        ],
+        [
+          72,
+          143
+        ],
+        [
+          104,
+          157
+        ],
+        [
+          130,
+          126
+        ],
+        [
+          149,
+          108
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          366,
+          56
+        ],
+        [
+          374,
+          55
+        ],
+        [
+          395,
+          215
+        ],
+        [
+          389,
+          216
+        ],
+        [
+          368,
+          60
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          368,
+          189
+        ],
+        [
+          428,
+          109
+        ],
+        [
+          419,
+          106
+        ],
+        [
+          364,
+          183
+        ],
+        [
+          368,
+          187
+        ]
+      ],
+      "category": "connector"
+    },
+    "A10": {
+      "id": "A10",
+      "type": "arrow",
+      "polygon": [
+        [
+          143,
+          72
+        ],
+        [
+          155,
+          67
+        ],
+        [
+          225,
+          210
+        ],
+        [
+          215,
+          215
+        ],
+        [
+          144,
+          74
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          396,
+          192
+        ],
+        [
+          432,
+          173
+        ],
+        [
+          429,
+          167
+        ],
+        [
+          393,
+          187
+        ],
+        [
+          394,
+          192
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          373,
+          233
+        ],
+        [
+          374,
+          244
+        ],
+        [
+          452,
+          245
+        ],
+        [
+          453,
+          235
+        ],
+        [
+          373,
+          234
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          351,
+          257
+        ],
+        [
+          347,
+          267
+        ],
+        [
+          428,
+          309
+        ],
+        [
+          430,
+          301
+        ],
+        [
+          351,
+          257
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          373,
+          285
+        ],
+        [
+          364,
+          292
+        ],
+        [
+          416,
+          376
+        ],
+        [
+          424,
+          371
+        ],
+        [
+          374,
+          288
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          120,
+          359
+        ],
+        [
+          126,
+          367
+        ],
+        [
+          161,
+          349
+        ],
+        [
+          154,
+          339
+        ],
+        [
+          120,
+          360
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          76,
+          267
+        ],
+        [
+          80,
+          275
+        ],
+        [
+          120,
+          251
+        ],
+        [
+          116,
+          248
+        ],
+        [
+          79,
+          268
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          84,
+          243
+        ],
+        [
+          133,
+          256
+        ],
+        [
+          135,
+          247
+        ],
+        [
+          86,
+          235
+        ],
+        [
+          86,
+          242
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          55,
+          146
+        ],
+        [
+          63,
+          143
+        ],
+        [
+          81,
+          192
+        ],
+        [
+          76,
+          195
+        ],
+        [
+          55,
+          148
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T10+A10+B0",
+      "type": "intraObjectLinkage",
+      "source": "T10",
+      "target": "B0",
+      "connector": "A10",
+      "directional": false
+    },
+    {
+      "id": "T2+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T3+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T4+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T5+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T6+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T7+A7+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T8+A8+B0",
+      "type": "intraObjectLinkage",
+      "source": "T8",
+      "target": "B0",
+      "connector": "A8",
+      "directional": false
+    },
+    {
+      "id": "T9+A9+B0",
+      "type": "intraObjectLinkage",
+      "source": "T9",
+      "target": "B0",
+      "connector": "A9",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T10": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A10": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "anterior chamber iris vitreous gel cornea pupil lens iris retina fovea macula optic nerve"
+  },
+  "questions": [
+    {
+      "question_text": "Which is the transparent convex anterior portion of the outer fibrous coat of the eyeball that covers the iris and the pupil and is continuous with the sclera?",
+      "question_id": "2861.png-0",
+      "answers": [
+        "iris",
+        "optic nerve",
+        "retina",
+        "cornea"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    }
+  ]
+}

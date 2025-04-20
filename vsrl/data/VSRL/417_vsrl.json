@@ -1,0 +1,278 @@
+{
+  "image_id": "417",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          5,
+          48
+        ],
+        [
+          89,
+          59
+        ]
+      ],
+      "value": "evaporation",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          149,
+          15
+        ],
+        [
+          200,
+          32
+        ]
+      ],
+      "value": "clouds",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          259,
+          42
+        ],
+        [
+          354,
+          66
+        ]
+      ],
+      "value": "condensation",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          151,
+          75
+        ],
+        [
+          196,
+          93
+        ]
+      ],
+      "value": "rivers",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          220,
+          21
+        ],
+        [
+          225,
+          15
+        ],
+        [
+          243,
+          28
+        ],
+        [
+          255,
+          48
+        ],
+        [
+          253,
+          70
+        ],
+        [
+          242,
+          85
+        ],
+        [
+          228,
+          93
+        ],
+        [
+          232,
+          100
+        ],
+        [
+          219,
+          93
+        ],
+        [
+          226,
+          80
+        ],
+        [
+          229,
+          86
+        ],
+        [
+          239,
+          79
+        ],
+        [
+          247,
+          65
+        ],
+        [
+          247,
+          49
+        ],
+        [
+          240,
+          34
+        ],
+        [
+          221,
+          21
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          125,
+          87
+        ],
+        [
+          125,
+          95
+        ],
+        [
+          110,
+          89
+        ],
+        [
+          99,
+          76
+        ],
+        [
+          92,
+          57
+        ],
+        [
+          96,
+          36
+        ],
+        [
+          114,
+          20
+        ],
+        [
+          113,
+          14
+        ],
+        [
+          125,
+          18
+        ],
+        [
+          118,
+          30
+        ],
+        [
+          117,
+          26
+        ],
+        [
+          102,
+          37
+        ],
+        [
+          100,
+          59
+        ],
+        [
+          105,
+          76
+        ],
+        [
+          114,
+          83
+        ],
+        [
+          124,
+          89
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A1",
+      "type": "arrowDescriptor",
+      "source": "T0",
+      "target": "A1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A0+T3",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T3",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T2+A0",
+      "type": "arrowDescriptor",
+      "source": "T2",
+      "target": "A0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+A1+T1",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T1",
+      "connector": "A1",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "A0": "connector",
+    "A1": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "evaporation clouds condensation rivers"
+  }
+}

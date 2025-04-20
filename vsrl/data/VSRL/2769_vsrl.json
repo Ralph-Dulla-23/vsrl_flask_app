@@ -1,0 +1,898 @@
+{
+  "image_id": "2769",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          578,
+          27
+        ],
+        [
+          875,
+          57
+        ]
+      ],
+      "value": "Plants and Fungi",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          243,
+          188
+        ],
+        [
+          497,
+          217
+        ]
+      ],
+      "value": "Do not form seeds",
+      "replacementText": "O",
+      "category": "label"
+    },
+    "T10": {
+      "id": "T10",
+      "type": "text",
+      "bbox": [
+        [
+          843,
+          783
+        ],
+        [
+          1093,
+          853
+        ]
+      ],
+      "value": "Monocotyledonous flowering plants",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T11": {
+      "id": "T11",
+      "type": "text",
+      "bbox": [
+        [
+          878,
+          645
+        ],
+        [
+          1063,
+          720
+        ]
+      ],
+      "value": "Leaves with parallel veins",
+      "replacementText": "K",
+      "category": "label"
+    },
+    "T12": {
+      "id": "T12",
+      "type": "text",
+      "bbox": [
+        [
+          805,
+          477
+        ],
+        [
+          950,
+          548
+        ]
+      ],
+      "value": "Coniferous plants",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T13": {
+      "id": "T13",
+      "type": "text",
+      "bbox": [
+        [
+          530,
+          642
+        ],
+        [
+          615,
+          673
+        ]
+      ],
+      "value": "Ferns",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T14": {
+      "id": "T14",
+      "type": "text",
+      "bbox": [
+        [
+          15,
+          797
+        ],
+        [
+          225,
+          933
+        ]
+      ],
+      "value": "Without structures that look like roots, stems and leaves",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T15": {
+      "id": "T15",
+      "type": "text",
+      "bbox": [
+        [
+          408,
+          793
+        ],
+        [
+          615,
+          930
+        ]
+      ],
+      "value": "With structures that look like roots, stems and leaves",
+      "replacementText": "P",
+      "category": "label"
+    },
+    "T16": {
+      "id": "T16",
+      "type": "text",
+      "bbox": [
+        [
+          75,
+          1002
+        ],
+        [
+          155,
+          1031
+        ]
+      ],
+      "value": "Algae",
+      "replacementText": "R",
+      "category": "label"
+    },
+    "T17": {
+      "id": "T17",
+      "type": "text",
+      "bbox": [
+        [
+          450,
+          998
+        ],
+        [
+          567,
+          1031
+        ]
+      ],
+      "value": "Mosses",
+      "replacementText": "Q",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          497,
+          333
+        ],
+        [
+          653,
+          407
+        ]
+      ],
+      "value": "Roots, stems and leaves",
+      "replacementText": "M",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          68,
+          322
+        ],
+        [
+          243,
+          422
+        ]
+      ],
+      "value": "No true roots, stems and leaves",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          803,
+          330
+        ],
+        [
+          955,
+          365
+        ]
+      ],
+      "value": "No flowers",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          998,
+          182
+        ],
+        [
+          1178,
+          215
+        ]
+      ],
+      "value": "Forms seeds",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          1243,
+          332
+        ],
+        [
+          1343,
+          362
+        ]
+      ],
+      "value": "Flowers",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          1225,
+          475
+        ],
+        [
+          1368,
+          547
+        ]
+      ],
+      "value": "Flowering plants",
+      "replacementText": "N",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          1230,
+          643
+        ],
+        [
+          1493,
+          718
+        ]
+      ],
+      "value": "Net- Veined leaves (reticulated)",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          1238,
+          792
+        ],
+        [
+          1472,
+          855
+        ]
+      ],
+      "value": "Dicotyledonous flowering plants",
+      "replacementText": "L",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          718,
+          77
+        ],
+        [
+          718,
+          137
+        ],
+        [
+          345,
+          133
+        ],
+        [
+          350,
+          163
+        ],
+        [
+          382,
+          167
+        ],
+        [
+          385,
+          155
+        ],
+        [
+          1072,
+          148
+        ],
+        [
+          1072,
+          163
+        ],
+        [
+          1102,
+          165
+        ],
+        [
+          1098,
+          133
+        ],
+        [
+          742,
+          133
+        ],
+        [
+          745,
+          78
+        ],
+        [
+          725,
+          77
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          375,
+          223
+        ],
+        [
+          378,
+          278
+        ],
+        [
+          587,
+          277
+        ],
+        [
+          592,
+          315
+        ],
+        [
+          565,
+          313
+        ],
+        [
+          563,
+          295
+        ],
+        [
+          177,
+          295
+        ],
+        [
+          172,
+          310
+        ],
+        [
+          148,
+          310
+        ],
+        [
+          148,
+          277
+        ],
+        [
+          355,
+          275
+        ],
+        [
+          358,
+          230
+        ],
+        [
+          375,
+          225
+        ]
+      ],
+      "category": "connector"
+    },
+    "A10": {
+      "id": "A10",
+      "type": "arrow",
+      "polygon": [
+        [
+          98,
+          783
+        ],
+        [
+          102,
+          755
+        ],
+        [
+          153,
+          753
+        ],
+        [
+          152,
+          432
+        ],
+        [
+          172,
+          428
+        ],
+        [
+          172,
+          747
+        ],
+        [
+          523,
+          747
+        ],
+        [
+          520,
+          782
+        ],
+        [
+          498,
+          785
+        ],
+        [
+          492,
+          773
+        ],
+        [
+          123,
+          772
+        ],
+        [
+          122,
+          787
+        ],
+        [
+          102,
+          785
+        ]
+      ],
+      "category": "connector"
+    },
+    "A11": {
+      "id": "A11",
+      "type": "arrow",
+      "polygon": [
+        [
+          562,
+          638
+        ],
+        [
+          567,
+          427
+        ],
+        [
+          592,
+          430
+        ],
+        [
+          597,
+          637
+        ],
+        [
+          563,
+          638
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          868,
+          312
+        ],
+        [
+          868,
+          275
+        ],
+        [
+          1070,
+          270
+        ],
+        [
+          1072,
+          227
+        ],
+        [
+          1102,
+          223
+        ],
+        [
+          1102,
+          275
+        ],
+        [
+          1302,
+          273
+        ],
+        [
+          1305,
+          308
+        ],
+        [
+          1285,
+          313
+        ],
+        [
+          1282,
+          293
+        ],
+        [
+          895,
+          293
+        ],
+        [
+          895,
+          313
+        ],
+        [
+          872,
+          313
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          888,
+          370
+        ],
+        [
+          895,
+          473
+        ],
+        [
+          867,
+          477
+        ],
+        [
+          868,
+          372
+        ],
+        [
+          888,
+          372
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          1278,
+          367
+        ],
+        [
+          1287,
+          492
+        ],
+        [
+          1315,
+          482
+        ],
+        [
+          1308,
+          373
+        ],
+        [
+          1278,
+          368
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          1280,
+          543
+        ],
+        [
+          1280,
+          593
+        ],
+        [
+          960,
+          597
+        ],
+        [
+          955,
+          625
+        ],
+        [
+          978,
+          627
+        ],
+        [
+          982,
+          613
+        ],
+        [
+          1348,
+          613
+        ],
+        [
+          1348,
+          628
+        ],
+        [
+          1375,
+          633
+        ],
+        [
+          1372,
+          600
+        ],
+        [
+          1303,
+          595
+        ],
+        [
+          1302,
+          543
+        ],
+        [
+          1282,
+          538
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          962,
+          723
+        ],
+        [
+          962,
+          782
+        ],
+        [
+          978,
+          783
+        ],
+        [
+          982,
+          722
+        ],
+        [
+          962,
+          723
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          1353,
+          720
+        ],
+        [
+          1358,
+          783
+        ],
+        [
+          1377,
+          783
+        ],
+        [
+          1378,
+          725
+        ],
+        [
+          1360,
+          720
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          498,
+          935
+        ],
+        [
+          495,
+          997
+        ],
+        [
+          528,
+          1000
+        ],
+        [
+          527,
+          937
+        ],
+        [
+          500,
+          937
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          102,
+          985
+        ],
+        [
+          105,
+          937
+        ],
+        [
+          127,
+          937
+        ],
+        [
+          128,
+          987
+        ],
+        [
+          102,
+          987
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T10+A6+T11",
+      "type": "interObjectLinkage",
+      "source": "T10",
+      "target": "T11",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T12+A3+T4",
+      "type": "interObjectLinkage",
+      "source": "T12",
+      "target": "T4",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T14+A9+T16",
+      "type": "interObjectLinkage",
+      "source": "T14",
+      "target": "T16",
+      "connector": "A9",
+      "directional": false
+    },
+    {
+      "id": "T15+A8+T17",
+      "type": "interObjectLinkage",
+      "source": "T15",
+      "target": "T17",
+      "connector": "A8",
+      "directional": false
+    },
+    {
+      "id": "T2+A11+T13",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T13",
+      "connector": "A11",
+      "directional": false
+    },
+    {
+      "id": "T3+A10+T14",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T14",
+      "connector": "A10",
+      "directional": false
+    },
+    {
+      "id": "T7+A4+T6",
+      "type": "interObjectLinkage",
+      "source": "T7",
+      "target": "T6",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T9+A7+T8",
+      "type": "interObjectLinkage",
+      "source": "T9",
+      "target": "T8",
+      "connector": "A7",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T10": "part_label",
+    "T11": "part_label",
+    "T12": "part_label",
+    "T13": "part_label",
+    "T14": "part_label",
+    "T15": "part_label",
+    "T16": "part_label",
+    "T17": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A10": "connector",
+    "A11": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "plants and fungi do not form seeds monocotyledonous flowering plants leaves with parallel veins coniferous plants ferns without structures that look like roots, stems and leaves with structures that look like roots, stems and leaves algae mosses roots, stems and leaves no true roots, stems and leaves no flowers forms seeds flowers flowering plants net- veined leaves (reticulated) dicotyledonous flowering plants"
+  }
+}

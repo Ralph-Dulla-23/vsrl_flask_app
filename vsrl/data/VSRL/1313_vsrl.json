@@ -1,0 +1,512 @@
+{
+  "image_id": "1313",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          282,
+          50
+        ],
+        [
+          334,
+          81
+        ]
+      ],
+      "value": "carbon dioxide",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          67,
+          122
+        ],
+        [
+          96,
+          136
+        ]
+      ],
+      "value": "tree",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          211,
+          150
+        ],
+        [
+          249,
+          167
+        ]
+      ],
+      "value": "water",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          23,
+          31
+        ],
+        [
+          48,
+          47
+        ]
+      ],
+      "value": "sun",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          32,
+          7
+        ],
+        [
+          48,
+          15
+        ],
+        [
+          60,
+          23
+        ],
+        [
+          65,
+          31
+        ],
+        [
+          64,
+          47
+        ],
+        [
+          56,
+          61
+        ],
+        [
+          41,
+          68
+        ],
+        [
+          20,
+          66
+        ],
+        [
+          7,
+          55
+        ],
+        [
+          6,
+          40
+        ],
+        [
+          6,
+          27
+        ],
+        [
+          14,
+          13
+        ],
+        [
+          29,
+          8
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          73,
+          48
+        ],
+        [
+          79,
+          65
+        ],
+        [
+          88,
+          61
+        ],
+        [
+          96,
+          68
+        ],
+        [
+          104,
+          73
+        ],
+        [
+          113,
+          70
+        ],
+        [
+          115,
+          79
+        ],
+        [
+          139,
+          81
+        ],
+        [
+          142,
+          93
+        ],
+        [
+          142,
+          173
+        ],
+        [
+          126,
+          186
+        ],
+        [
+          101,
+          191
+        ],
+        [
+          100,
+          207
+        ],
+        [
+          110,
+          214
+        ],
+        [
+          228,
+          215
+        ],
+        [
+          226,
+          202
+        ],
+        [
+          205,
+          193
+        ],
+        [
+          184,
+          181
+        ],
+        [
+          182,
+          173
+        ],
+        [
+          178,
+          112
+        ],
+        [
+          182,
+          99
+        ],
+        [
+          180,
+          90
+        ],
+        [
+          185,
+          85
+        ],
+        [
+          220,
+          89
+        ],
+        [
+          222,
+          83
+        ],
+        [
+          237,
+          79
+        ],
+        [
+          250,
+          83
+        ],
+        [
+          251,
+          73
+        ],
+        [
+          258,
+          61
+        ],
+        [
+          263,
+          43
+        ],
+        [
+          235,
+          38
+        ],
+        [
+          199,
+          39
+        ],
+        [
+          159,
+          31
+        ],
+        [
+          141,
+          36
+        ],
+        [
+          113,
+          40
+        ],
+        [
+          89,
+          36
+        ],
+        [
+          74,
+          47
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          91,
+          123
+        ],
+        [
+          96,
+          143
+        ],
+        [
+          148,
+          141
+        ],
+        [
+          148,
+          121
+        ],
+        [
+          90,
+          125
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          167,
+          164
+        ],
+        [
+          219,
+          164
+        ],
+        [
+          212,
+          149
+        ],
+        [
+          166,
+          151
+        ],
+        [
+          167,
+          164
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          164,
+          171
+        ],
+        [
+          163,
+          115
+        ],
+        [
+          153,
+          115
+        ],
+        [
+          159,
+          173
+        ],
+        [
+          163,
+          173
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          259,
+          63
+        ],
+        [
+          286,
+          62
+        ],
+        [
+          284,
+          51
+        ],
+        [
+          256,
+          52
+        ],
+        [
+          260,
+          64
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B1+A2+B1",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B1",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T0+A3+B1",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B1",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T1+A0+B1",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B1",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T2+A1+B1",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B1",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "carbon dioxide tree water sun"
+  },
+  "questions": [
+    {
+      "question_text": "Which label represents the tree absorbing water?",
+      "question_id": "1313.png-1",
+      "answers": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which letter in the diagram represents the uptake of water by tree roots?",
+      "question_id": "1313.png-0",
+      "answers": [
+        "A",
+        "D",
+        "B",
+        "C"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

@@ -1,0 +1,794 @@
+{
+  "image_id": "506",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          142,
+          4
+        ],
+        [
+          260,
+          26
+        ]
+      ],
+      "value": "broad-winged hawk",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          354,
+          5
+        ],
+        [
+          416,
+          27
+        ]
+      ],
+      "value": "flycatcher",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          286,
+          78
+        ],
+        [
+          364,
+          97
+        ]
+      ],
+      "value": "GRASSHOPPER",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          394,
+          78
+        ],
+        [
+          457,
+          98
+        ]
+      ],
+      "value": "caterpillar",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          6
+        ],
+        [
+          37,
+          25
+        ]
+      ],
+      "value": "Ocelot",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          79
+        ],
+        [
+          49,
+          95
+        ]
+      ],
+      "value": "squirrel",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          142,
+          80
+        ],
+        [
+          188,
+          98
+        ]
+      ],
+      "value": "iguana",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          103,
+          147
+        ],
+        [
+          144,
+          169
+        ]
+      ],
+      "value": "seeds",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          284,
+          147
+        ],
+        [
+          324,
+          168
+        ]
+      ],
+      "value": "leaves",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          13,
+          22
+        ],
+        [
+          27,
+          23
+        ],
+        [
+          27,
+          79
+        ],
+        [
+          17,
+          79
+        ],
+        [
+          15,
+          22
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          41,
+          71
+        ],
+        [
+          47,
+          81
+        ],
+        [
+          152,
+          28
+        ],
+        [
+          145,
+          18
+        ],
+        [
+          42,
+          71
+        ]
+      ],
+      "category": "connector"
+    },
+    "A10": {
+      "id": "A10",
+      "type": "arrow",
+      "polygon": [
+        [
+          392,
+          32
+        ],
+        [
+          398,
+          27
+        ],
+        [
+          438,
+          75
+        ],
+        [
+          433,
+          78
+        ],
+        [
+          392,
+          33
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          39,
+          17
+        ],
+        [
+          36,
+          29
+        ],
+        [
+          143,
+          81
+        ],
+        [
+          149,
+          72
+        ],
+        [
+          40,
+          17
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          29,
+          99
+        ],
+        [
+          35,
+          92
+        ],
+        [
+          112,
+          144
+        ],
+        [
+          106,
+          153
+        ],
+        [
+          28,
+          101
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          121,
+          144
+        ],
+        [
+          129,
+          150
+        ],
+        [
+          163,
+          98
+        ],
+        [
+          152,
+          92
+        ],
+        [
+          120,
+          144
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          184,
+          98
+        ],
+        [
+          191,
+          89
+        ],
+        [
+          285,
+          145
+        ],
+        [
+          278,
+          154
+        ],
+        [
+          184,
+          100
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          162,
+          22
+        ],
+        [
+          175,
+          23
+        ],
+        [
+          174,
+          77
+        ],
+        [
+          164,
+          77
+        ],
+        [
+          163,
+          21
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          296,
+          145
+        ],
+        [
+          308,
+          147
+        ],
+        [
+          316,
+          95
+        ],
+        [
+          307,
+          94
+        ],
+        [
+          297,
+          144
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          314,
+          141
+        ],
+        [
+          322,
+          152
+        ],
+        [
+          416,
+          100
+        ],
+        [
+          411,
+          92
+        ],
+        [
+          317,
+          141
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          314,
+          73
+        ],
+        [
+          324,
+          80
+        ],
+        [
+          365,
+          31
+        ],
+        [
+          357,
+          25
+        ],
+        [
+          313,
+          74
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A10+H2",
+      "type": "arrowHeadTail",
+      "source": "A10",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H3",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H4",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H5",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H6",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H7",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H8",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H8",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A8+H9",
+      "type": "arrowHeadTail",
+      "source": "A8",
+      "target": "H9",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A9+H10",
+      "type": "arrowHeadTail",
+      "source": "A9",
+      "target": "H10",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+A9+T1",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T1",
+      "connector": "A9",
+      "directional": true
+    },
+    {
+      "id": "T3+A10+T1",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T1",
+      "connector": "A10",
+      "directional": true
+    },
+    {
+      "id": "T5+A0+T4",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T4",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T5+A1+T0",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T0",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T6+A2+T4",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T4",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T6+A6+T0",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T0",
+      "connector": "A6",
+      "directional": true
+    },
+    {
+      "id": "T7+A3+T5",
+      "type": "interObjectLinkage",
+      "source": "T7",
+      "target": "T5",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T7+A4+T6",
+      "type": "interObjectLinkage",
+      "source": "T7",
+      "target": "T6",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T8+A5+T6",
+      "type": "interObjectLinkage",
+      "source": "T8",
+      "target": "T6",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T8+A7+T2",
+      "type": "interObjectLinkage",
+      "source": "T8",
+      "target": "T2",
+      "connector": "A7",
+      "directional": true
+    },
+    {
+      "id": "T8+A8+T3",
+      "type": "interObjectLinkage",
+      "source": "T8",
+      "target": "T3",
+      "connector": "A8",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A10": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "broad-winged hawk flycatcher grasshopper caterpillar ocelot squirrel iguana seeds leaves"
+  },
+  "questions": [
+    {
+      "question_text": "From the above food web diagram, if all the leaves are removed from web then which species get directly affected",
+      "question_id": "506.png-2",
+      "answers": [
+        "none of this",
+        "grasshopper",
+        "hawk",
+        "squirrel"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the above food web diagram, what leads to increase in number of grasshopper",
+      "question_id": "506.png-8",
+      "answers": [
+        "decrease in leaves",
+        "increase in ocelot",
+        "decrease in ocelot",
+        "increase in leaves"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the above food web diagram, what would cause squirrel to increase",
+      "question_id": "506.png-4",
+      "answers": [
+        "decrease in seeds",
+        "increase in caterpillar",
+        "increase in seeds",
+        "decrease in caterpillar"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the above food web diagram, which species depends on primary consumer",
+      "question_id": "506.png-10",
+      "answers": [
+        "flycatcher",
+        "seeds",
+        "hawks",
+        "leaves"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the given food web, which population provides energy",
+      "question_id": "506.png-5",
+      "answers": [
+        "squirrel",
+        "caterpillar",
+        "iguana",
+        "seeds"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Primary source of food for iguana is _____?",
+      "question_id": "506.png-0",
+      "answers": [
+        "leaves",
+        "flycatcher",
+        "grasshopper",
+        "caterpillar"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Squirrel is the food for ocelot and _________?",
+      "question_id": "506.png-9",
+      "answers": [
+        "flycatcher",
+        "broad winged hawk",
+        "grasshopper",
+        "iguana"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "The hawk in this food web is a _____",
+      "question_id": "506.png-6",
+      "answers": [
+        "Predator",
+        "Prey",
+        "Herbivore",
+        "Producer"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Use the food web to answer the following question. If the ocelot population disappeared, which of the following populations would grow?",
+      "question_id": "506.png-7",
+      "answers": [
+        "Broad-winged hawk",
+        "Iguana and seeds",
+        "Caterpillar and grasshopper",
+        "Squirrel and iguana"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the main food for squirrel _____?",
+      "question_id": "506.png-1",
+      "answers": [
+        "leaves",
+        "grasshopper",
+        "caterpillar",
+        "seeds"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Who would go extinct if grasshopper were destroyed?",
+      "question_id": "506.png-3",
+      "answers": [
+        "flycatcher",
+        "squirrel",
+        "caterpillar",
+        "iguana"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

@@ -1,0 +1,592 @@
+{
+  "image_id": "1937",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          444,
+          26
+        ],
+        [
+          767,
+          92
+        ]
+      ],
+      "value": "20 predators",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          340,
+          236
+        ],
+        [
+          572,
+          348
+        ]
+      ],
+      "value": "Predator Fishes",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          654,
+          233
+        ],
+        [
+          883,
+          347
+        ]
+      ],
+      "value": "Predator Inverts",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          17,
+          535
+        ],
+        [
+          272,
+          653
+        ]
+      ],
+      "value": "Herbivore Fishes",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          303,
+          538
+        ],
+        [
+          562,
+          649
+        ]
+      ],
+      "value": "Herbivore Inverts",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          658,
+          536
+        ],
+        [
+          951,
+          647
+        ]
+      ],
+      "value": "Planktivore Fishes",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          978,
+          536
+        ],
+        [
+          1269,
+          647
+        ]
+      ],
+      "value": "Planktivore Inverts",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          274,
+          802
+        ],
+        [
+          438,
+          860
+        ]
+      ],
+      "value": "Algae",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          478,
+          1007
+        ],
+        [
+          772,
+          1118
+        ]
+      ],
+      "value": "Primary Production",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          769,
+          804
+        ],
+        [
+          996,
+          852
+        ]
+      ],
+      "value": "Plankton",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          444,
+          205
+        ],
+        [
+          479,
+          225
+        ],
+        [
+          600,
+          127
+        ],
+        [
+          575,
+          114
+        ],
+        [
+          445,
+          201
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          614,
+          132
+        ],
+        [
+          759,
+          228
+        ],
+        [
+          775,
+          203
+        ],
+        [
+          637,
+          114
+        ],
+        [
+          617,
+          131
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          462,
+          371
+        ],
+        [
+          421,
+          518
+        ],
+        [
+          455,
+          528
+        ],
+        [
+          495,
+          374
+        ],
+        [
+          468,
+          373
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          124,
+          516
+        ],
+        [
+          164,
+          523
+        ],
+        [
+          464,
+          381
+        ],
+        [
+          464,
+          363
+        ],
+        [
+          127,
+          515
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          498,
+          374
+        ],
+        [
+          782,
+          523
+        ],
+        [
+          806,
+          512
+        ],
+        [
+          505,
+          360
+        ],
+        [
+          495,
+          375
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          762,
+          370
+        ],
+        [
+          1124,
+          523
+        ],
+        [
+          1131,
+          505
+        ],
+        [
+          774,
+          360
+        ],
+        [
+          762,
+          371
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          145,
+          677
+        ],
+        [
+          347,
+          761
+        ],
+        [
+          435,
+          674
+        ],
+        [
+          424,
+          666
+        ],
+        [
+          351,
+          744
+        ],
+        [
+          155,
+          664
+        ],
+        [
+          146,
+          673
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          789,
+          676
+        ],
+        [
+          878,
+          767
+        ],
+        [
+          1118,
+          671
+        ],
+        [
+          1112,
+          664
+        ],
+        [
+          887,
+          754
+        ],
+        [
+          796,
+          664
+        ],
+        [
+          791,
+          673
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          367,
+          892
+        ],
+        [
+          634,
+          986
+        ],
+        [
+          876,
+          890
+        ],
+        [
+          863,
+          885
+        ],
+        [
+          631,
+          969
+        ],
+        [
+          378,
+          883
+        ],
+        [
+          367,
+          889
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A0+T1",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T1",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T0+A1+T2",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T2",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T1+A2+T4",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T4",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T1+A3+T3",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T3",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T1+A4+T5",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T5",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T2+A5+T6",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T6",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T3+A6+T4",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T4",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T5+A7+T6",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T6",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T7+A8+T9",
+      "type": "interObjectLinkage",
+      "source": "T7",
+      "target": "T9",
+      "connector": "A8",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "20 predators predator fishes predator inverts herbivore fishes herbivore inverts planktivore fishes planktivore inverts algae primary production plankton"
+  },
+  "questions": [
+    {
+      "question_text": "What do herbivore fishes consume?",
+      "question_id": "1937.png-1",
+      "answers": [
+        "sunshine",
+        "algae",
+        "other fish",
+        "meat"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What do predator fishes consume?",
+      "question_id": "1937.png-3",
+      "answers": [
+        "snakes",
+        "deer",
+        "bears",
+        "other fish"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What eats algae?",
+      "question_id": "1937.png-0",
+      "answers": [
+        "herbivore fishes",
+        "predator fishes",
+        "predator inverts",
+        "planktivore fishes"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Wht is at the top of the food web?",
+      "question_id": "1937.png-2",
+      "answers": [
+        "primary producers",
+        "2nd predators",
+        "algae",
+        "predator fishes"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

@@ -1,0 +1,592 @@
+{
+  "image_id": "4047",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          268,
+          350
+        ],
+        [
+          368,
+          375
+        ]
+      ],
+      "value": "Radiative Zone",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          292,
+          201
+        ],
+        [
+          375,
+          244
+        ]
+      ],
+      "value": "Nuclear burning core",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          225,
+          89
+        ],
+        [
+          337,
+          112
+        ]
+      ],
+      "value": "Convection zone",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          388,
+          99
+        ],
+        [
+          433,
+          121
+        ]
+      ],
+      "value": "100%",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          392,
+          143
+        ],
+        [
+          432,
+          161
+        ]
+      ],
+      "value": "70%",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          394,
+          203
+        ],
+        [
+          431,
+          223
+        ]
+      ],
+      "value": "25%",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          401,
+          243
+        ],
+        [
+          447,
+          280
+        ]
+      ],
+      "value": "0 (Core)",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          474,
+          260
+        ],
+        [
+          620,
+          312
+        ]
+      ],
+      "value": "Nuclear reactions produce energy in the Sun's core",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          505,
+          173
+        ],
+        [
+          626,
+          243
+        ]
+      ],
+      "value": "Energy produced in the core is carried outward by photons",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          532,
+          108
+        ],
+        [
+          631,
+          166
+        ]
+      ],
+      "value": "Convection carries energy outward ",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          444,
+          108
+        ],
+        [
+          444,
+          254
+        ],
+        [
+          515,
+          129
+        ],
+        [
+          490,
+          116
+        ],
+        [
+          480,
+          113
+        ],
+        [
+          465,
+          110
+        ],
+        [
+          445,
+          109
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          100,
+          383
+        ],
+        [
+          61,
+          363
+        ],
+        [
+          34,
+          335
+        ],
+        [
+          11,
+          288
+        ],
+        [
+          7,
+          233
+        ],
+        [
+          22,
+          182
+        ],
+        [
+          55,
+          142
+        ],
+        [
+          95,
+          118
+        ],
+        [
+          142,
+          108
+        ],
+        [
+          172,
+          111
+        ],
+        [
+          213,
+          123
+        ],
+        [
+          246,
+          150
+        ],
+        [
+          269,
+          179
+        ],
+        [
+          285,
+          223
+        ],
+        [
+          287,
+          276
+        ],
+        [
+          271,
+          319
+        ],
+        [
+          244,
+          353
+        ],
+        [
+          214,
+          375
+        ],
+        [
+          169,
+          390
+        ],
+        [
+          103,
+          385
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          175,
+          115
+        ],
+        [
+          223,
+          88
+        ],
+        [
+          228,
+          100
+        ],
+        [
+          179,
+          131
+        ],
+        [
+          175,
+          118
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          157,
+          239
+        ],
+        [
+          287,
+          208
+        ],
+        [
+          289,
+          218
+        ],
+        [
+          160,
+          249
+        ],
+        [
+          154,
+          240
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          204,
+          303
+        ],
+        [
+          268,
+          356
+        ],
+        [
+          260,
+          367
+        ],
+        [
+          191,
+          311
+        ],
+        [
+          202,
+          302
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          491,
+          129
+        ],
+        [
+          537,
+          111
+        ],
+        [
+          539,
+          121
+        ],
+        [
+          500,
+          138
+        ],
+        [
+          492,
+          126
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          456,
+          178
+        ],
+        [
+          505,
+          180
+        ],
+        [
+          505,
+          185
+        ],
+        [
+          459,
+          185
+        ],
+        [
+          460,
+          175
+        ],
+        [
+          457,
+          176
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          452,
+          228
+        ],
+        [
+          474,
+          270
+        ],
+        [
+          466,
+          270
+        ],
+        [
+          447,
+          235
+        ],
+        [
+          454,
+          229
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A3+H0",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A2+B1",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B1",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B1",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B1",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T2+A0+B1",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B1",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T4",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T5",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T6",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T7+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T8+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T8",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T9+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T9",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "radiative zone nuclear burning core convection zone 100% 70% 25% 0 (core) nuclear reactions produce energy in the sun's core energy produced in the core is carried outward by photons convection carries energy outward "
+  },
+  "questions": [
+    {
+      "question_text": "Which zone is at the center of the sun?",
+      "question_id": "4047.png-0",
+      "answers": [
+        "convection",
+        "radiative",
+        "nuclear",
+        "productive"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

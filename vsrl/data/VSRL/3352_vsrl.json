@@ -1,0 +1,442 @@
+{
+  "image_id": "3352",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          276,
+          52
+        ],
+        [
+          441,
+          81
+        ]
+      ],
+      "value": "antennae",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          302,
+          176
+        ],
+        [
+          384,
+          206
+        ]
+      ],
+      "value": "eyes",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          9,
+          317
+        ],
+        [
+          123,
+          344
+        ]
+      ],
+      "value": "mouth",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          103,
+          0
+        ],
+        [
+          130,
+          33
+        ],
+        [
+          169,
+          108
+        ],
+        [
+          201,
+          178
+        ],
+        [
+          213,
+          212
+        ],
+        [
+          198,
+          209
+        ],
+        [
+          176,
+          222
+        ],
+        [
+          173,
+          252
+        ],
+        [
+          146,
+          289
+        ],
+        [
+          135,
+          301
+        ],
+        [
+          146,
+          309
+        ],
+        [
+          146,
+          325
+        ],
+        [
+          154,
+          329
+        ],
+        [
+          165,
+          338
+        ],
+        [
+          178,
+          334
+        ],
+        [
+          181,
+          332
+        ],
+        [
+          228,
+          312
+        ],
+        [
+          261,
+          308
+        ],
+        [
+          259,
+          329
+        ],
+        [
+          270,
+          345
+        ],
+        [
+          291,
+          362
+        ],
+        [
+          289,
+          370
+        ],
+        [
+          288,
+          373
+        ],
+        [
+          362,
+          373
+        ],
+        [
+          348,
+          339
+        ],
+        [
+          329,
+          305
+        ],
+        [
+          309,
+          281
+        ],
+        [
+          299,
+          279
+        ],
+        [
+          304,
+          253
+        ],
+        [
+          298,
+          231
+        ],
+        [
+          283,
+          217
+        ],
+        [
+          255,
+          213
+        ],
+        [
+          253,
+          163
+        ],
+        [
+          238,
+          104
+        ],
+        [
+          209,
+          2
+        ],
+        [
+          192,
+          0
+        ],
+        [
+          207,
+          36
+        ],
+        [
+          226,
+          113
+        ],
+        [
+          242,
+          210
+        ],
+        [
+          226,
+          212
+        ],
+        [
+          213,
+          166
+        ],
+        [
+          174,
+          87
+        ],
+        [
+          141,
+          25
+        ],
+        [
+          123,
+          0
+        ],
+        [
+          105,
+          0
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          152,
+          66
+        ],
+        [
+          157,
+          88
+        ],
+        [
+          256,
+          79
+        ],
+        [
+          226,
+          119
+        ],
+        [
+          239,
+          125
+        ],
+        [
+          274,
+          69
+        ],
+        [
+          152,
+          66
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          210,
+          224
+        ],
+        [
+          289,
+          200
+        ],
+        [
+          267,
+          228
+        ],
+        [
+          273,
+          236
+        ],
+        [
+          299,
+          197
+        ],
+        [
+          300,
+          194
+        ],
+        [
+          201,
+          217
+        ],
+        [
+          203,
+          225
+        ],
+        [
+          211,
+          222
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          137,
+          328
+        ],
+        [
+          170,
+          311
+        ],
+        [
+          166,
+          306
+        ],
+        [
+          128,
+          324
+        ],
+        [
+          131,
+          329
+        ],
+        [
+          136,
+          329
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T2+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "antennae eyes mouth"
+  },
+  "questions": [
+    {
+      "question_text": "Label B represents",
+      "question_id": "3352.png-2",
+      "answers": [
+        "mouth",
+        "neck",
+        "eyes",
+        "antennae"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "Label C represents",
+      "question_id": "3352.png-1",
+      "answers": [
+        "eyes",
+        "mouth",
+        "neck",
+        "antennae"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is the longest part of the above picture?",
+      "question_id": "3352.png-3",
+      "answers": [
+        "Mouth",
+        "Antennae",
+        "Body",
+        "Eyes"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What part of the body on the diagram is responsible for vision?",
+      "question_id": "3352.png-0",
+      "answers": [
+        "Antennae",
+        "Mouth",
+        "Body",
+        "Eyes"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    }
+  ]
+}

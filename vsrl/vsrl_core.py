@@ -24,6 +24,69 @@ if os.name == 'nt':  # Windows
 OUTPUT_DIR = "static/results"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
+# Global variable to store loaded VSRL data
+VSRL_DATA = None
+
+def load_vsrl_data(data_dir="C:\\GithubRepos\\TechWrite\\vsrl_flask_app\\vsrl\\data\\VSRL"):
+    """Load all VSRL JSON files and index them by subject and content"""
+    vsrl_data = {
+        "by_id": {},
+        "by_subject": {
+            "biology": [],
+            "physics": [],
+            "chemistry": [],
+            "general": []
+        },
+        "by_keyword": {}
+    }
+    
+    # Load all JSON files
+    try:
+        for filename in os.listdir(data_dir):
+            if filename.endswith('.json'):
+                file_path = os.path.join(data_dir, filename)
+                with open(file_path, 'r') as f:
+                    data = json.load(f)
+                
+                # Get image ID from filename (remove extension)
+                image_id = os.path.splitext(filename)[0]
+                if image_id.startswith('vsrl_'):
+                    image_id = image_id[5:]  # Remove 'vsrl_' prefix if present
+                
+                # Store by ID
+                vsrl_data["by_id"][image_id] = data
+                
+                # Store by subject
+                subject = data.get("educational_context", {}).get("subject", "general")
+                if subject in vsrl_data["by_subject"]:
+                    vsrl_data["by_subject"][subject].append(image_id)
+                
+                # Index by keywords (from text entities)
+                text_content = data.get("educational_context", {}).get("text_content", "")
+                if text_content:
+                    words = [w.lower() for w in text_content.split()]
+                    for word in words:
+                        if len(word) > 3:  # Only index meaningful words
+                            if word not in vsrl_data["by_keyword"]:
+                                vsrl_data["by_keyword"][word] = []
+                            if image_id not in vsrl_data["by_keyword"][word]:
+                                vsrl_data["by_keyword"][word].append(image_id)
+        
+        print(f"Loaded {len(vsrl_data['by_id'])} VSRL annotations")
+        return vsrl_data
+    
+    except Exception as e:
+        print(f"Error loading VSRL data: {e}")
+        return {"by_id": {}, "by_subject": {}, "by_keyword": {}}
+
+def initialize_vsrl_data():
+    global VSRL_DATA
+    # Adjust the path to where your VSRL JSON files are stored
+    VSRL_DATA = load_vsrl_data("C:\\GithubRepos\\TechWrite\\vsrl_flask_app\\vsrl\\data\\VSRL")
+
+# Initialize VSRL data at module import
+initialize_vsrl_data()
+
 # Optimized visual element detection
 def detect_visual_elements(image_path):
     """Detect visual elements with optimized performance"""
@@ -376,90 +439,129 @@ def classify_subject(elements):
         'diagram_type': diagram_type
     }
 
-def get_concept_explanation_from_gemini(subject, key_terms, max_words=100):
-    """Get a brief concept explanation from Gemini AI using minimal tokens"""
+def get_explanation_from_vsrl_data(subject, key_terms, max_samples=3):
+    """Generate explanation using local VSRL data instead of Gemini API"""
+    global VSRL_DATA
+    
     try:
-        # Only use API if we have enough content to justify it
-        if not key_terms or len(key_terms) < 3:
-            return ""
+        # If VSRL data not loaded yet, initialize it
+        if VSRL_DATA is None:
+            initialize_vsrl_data()
             
-        # Create a very focused, minimal prompt
-        prompt = f"Explain this {subject} concept in 2-3 sentences (max {max_words} words): {', '.join(key_terms[:5])}"
+        # First try to find relevant examples by subject and keywords
+        relevant_ids = []
         
-        # Call the Gemini API with minimal parameters
-        api_key = os.getenv('GEMINI_API_KEY')  # Get API key from environment variables
-        if not api_key:
-            print("Warning: GEMINI_API_KEY not found in environment variables")
-            return ""
-        # Call the Gemini API with minimal parameters
-        api_key = "AIzaSyCMuze8eVjgKBgwRz1fvU3B0a1eXuHTqko"  # Replace with your API key
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={api_key}"
+        # Look for matches by subject
+        subject_ids = VSRL_DATA["by_subject"].get(subject, [])
         
-        headers = {"Content-Type": "application/json"}
-        data = {
-            "contents": [{
-                "parts": [{"text": prompt}]
-            }],
-            "generationConfig": {
-                "maxOutputTokens": 100,  # Limit token usage
-                "temperature": 0.2       # More deterministic output
-            }
-        }
+        # Look for matches by keywords
+        keyword_matches = {}
+        for term in key_terms:
+            term = term.lower()
+            if term in VSRL_DATA["by_keyword"]:
+                for img_id in VSRL_DATA["by_keyword"][term]:
+                    if img_id not in keyword_matches:
+                        keyword_matches[img_id] = 0
+                    keyword_matches[img_id] += 1
         
-        response = requests.post(url, headers=headers, json=data, timeout=3)  # Short timeout
+        # Sort by number of keyword matches
+        sorted_matches = sorted(keyword_matches.items(), key=lambda x: x[1], reverse=True)
         
-        if response.status_code == 200:
-            result = response.json()
-            if "candidates" in result and result["candidates"] and "content" in result["candidates"][0]:
-                parts = result["candidates"][0]["content"].get("parts", [])
-                concept_text = "".join([part.get("text", "") for part in parts])
-                return concept_text
+        # Prioritize examples with both subject and keyword matches
+        for img_id, _ in sorted_matches:
+            if img_id in subject_ids and img_id not in relevant_ids:
+                relevant_ids.append(img_id)
+                if len(relevant_ids) >= max_samples:
+                    break
         
-        return ""  # Return empty if anything fails
+        # If we need more, add remaining subject matches
+        if len(relevant_ids) < max_samples:
+            for img_id in subject_ids:
+                if img_id not in relevant_ids:
+                    relevant_ids.append(img_id)
+                    if len(relevant_ids) >= max_samples:
+                        break
         
+        # If still not enough, add keyword matches regardless of subject
+        if len(relevant_ids) < max_samples:
+            for img_id, _ in sorted_matches:
+                if img_id not in relevant_ids:
+                    relevant_ids.append(img_id)
+                    if len(relevant_ids) >= max_samples:
+                        break
+        
+        # Generate explanation from the relevant examples
+        if relevant_ids:
+            # Extract key information from relevant examples
+            examples = []
+            for img_id in relevant_ids:
+                data = VSRL_DATA["by_id"][img_id]
+                subject = data.get("educational_context", {}).get("subject", "")
+                diagram_type = data.get("educational_context", {}).get("diagram_type", "")
+                
+                # Get all text entities labeled as part_label
+                part_labels = []
+                for entity_id, role in data.get("semantic_roles", {}).items():
+                    if role == "part_label" and entity_id in data.get("entities", {}):
+                        entity = data["entities"][entity_id]
+                        if "value" in entity:
+                            part_labels.append(entity["value"])
+                
+                examples.append({
+                    "subject": subject,
+                    "diagram_type": diagram_type,
+                    "part_labels": part_labels
+                })
+            
+            # Generate explanation text
+            explanation = f"This diagram illustrates {subject} concepts. "
+            
+            # Mention common diagram types found
+            diagram_types = [ex["diagram_type"] for ex in examples if "diagram_type" in ex]
+            if diagram_types:
+                most_common_type = max(set(diagram_types), key=diagram_types.count)
+                explanation += f"It appears to be a {most_common_type}. "
+            
+            # Mention typical parts that might be labeled
+            all_parts = []
+            for ex in examples:
+                all_parts.extend(ex.get("part_labels", []))
+            
+            if all_parts:
+                explanation += f"In diagrams like this, important elements often include {', '.join(all_parts[:5])}. "
+                explanation += f"Understanding the relationships between these components is key to mastering this {subject} concept."
+            
+            return explanation
+        
+        # Fallback to generic explanation if no relevant examples found
+        return f"This diagram shows important concepts related to {subject}. Visual diagrams help students understand the relationships between different components."
+            
     except Exception as e:
-        print(f"Minimal AI call error (non-critical): {e}")
-        return ""  # Return empty on any error
+        print(f"Error generating explanation from VSRL data: {e}")
+        return f"This diagram illustrates concepts related to {subject}."
 
 def generate_simple_explanation(subject, diagram_type, detected_texts, labeled_parts):
-    """Generate a simple explanation"""
+    """Generate a simple explanation using local VSRL data"""
     text_str = ", ".join(detected_texts)
     
-    # Extract key terms for minimal AI use
+    # Extract key terms for searching VSRL data
     key_terms = []
     for text in detected_texts:
         if len(text) > 3 and not text.isdigit():
             key_terms.append(text)
     
-    # Only use AI for a small part - the concept explanation
-    ai_concept_explanation = ""
-    if key_terms:
-        ai_concept_explanation = get_concept_explanation_from_gemini(subject, key_terms)
+    # Use local VSRL data instead of Gemini API
+    vsrl_explanation = get_explanation_from_vsrl_data(subject, key_terms)
     
-    # Create the explanation mostly using templates and extracted data
+    # Create the explanation using the VSRL-based content
     explanation = f"""
     <h2>Educational Visual Explanation</h2>
 
     <p>This image is a <strong>{diagram_type}</strong> related to <strong>{subject}</strong>.</p>
 
     <p><strong>Content Description:</strong></p>
+    <p>{vsrl_explanation}</p>
     """
-    
-    # Use the AI-generated concept explanation if available, otherwise use template
-    if ai_concept_explanation:
-        explanation += f"<p>{ai_concept_explanation}</p>"
-    else:
-        # Fall back to template-based description
-        if subject == "biology":
-            explanation += f"<p>This diagram illustrates biological concepts related to {text_str}.</p>"
-        elif subject == "physics":
-            explanation += f"<p>This diagram shows physics concepts involving {text_str}.</p>"
-        elif subject == "chemistry":
-            explanation += f"<p>This diagram represents chemical concepts related to {text_str}.</p>"
-        elif subject == "earth_science":
-            explanation += f"<p>This diagram depicts earth science concepts about {text_str}.</p>"
-        else:
-            explanation += f"<p>This educational diagram illustrates concepts related to {text_str}.</p>"
     
     # Add key components section if we have labeled parts
     if labeled_parts:
@@ -471,7 +573,7 @@ def generate_simple_explanation(subject, diagram_type, detected_texts, labeled_p
             explanation += f"<li><strong>{part}</strong></li>"
         explanation += "</ul>"
 
-    # Add educational relevance based on subject - using templates, not AI
+    # Add educational relevance based on subject
     explanation += "<p><strong>Educational Relevance:</strong></p>"
 
     if subject == "biology":
@@ -492,12 +594,6 @@ def generate_simple_explanation(subject, diagram_type, detected_texts, labeled_p
         Visual representations like this are essential for understanding the behavior of matter at scales
         that cannot be directly observed.</p>
         """
-    elif subject == "earth_science":
-        explanation += """
-        <p>This earth science diagram helps students visualize planetary processes, geological formations,
-        or environmental systems. Visual representations like this are essential for understanding
-        large-scale phenomena that occur over vast distances or time periods.</p>
-        """
     else:
         explanation += """
         <p>This diagram helps students visualize important concepts in an accessible format.
@@ -505,7 +601,7 @@ def generate_simple_explanation(subject, diagram_type, detected_texts, labeled_p
         mental models of abstract concepts.</p>
         """
 
-    # Add learning activities - template-based, not AI
+    # Add learning activities
     explanation += """
     <p><strong>Suggested Learning Activities:</strong></p>
     <ul>

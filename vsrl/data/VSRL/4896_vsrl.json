@@ -1,0 +1,522 @@
+{
+  "image_id": "4896",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          97,
+          84
+        ],
+        [
+          133,
+          100
+        ]
+      ],
+      "value": "lava",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          43,
+          122
+        ],
+        [
+          125,
+          140
+        ]
+      ],
+      "value": "main vent",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          270,
+          123
+        ],
+        [
+          396,
+          140
+        ]
+      ],
+      "value": "secondary cone",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          12,
+          315
+        ],
+        [
+          146,
+          334
+        ]
+      ],
+      "value": "magma chamber",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          18,
+          8
+        ],
+        [
+          384,
+          36
+        ]
+      ],
+      "value": "A simple cross section of a volcano",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          223,
+          53
+        ],
+        [
+          396,
+          73
+        ]
+      ],
+      "value": "layers of ash and lava",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          156,
+          74
+        ],
+        [
+          207,
+          89
+        ]
+      ],
+      "value": "crater",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          0,
+          266
+        ],
+        [
+          16,
+          264
+        ],
+        [
+          41,
+          250
+        ],
+        [
+          78,
+          216
+        ],
+        [
+          96,
+          206
+        ],
+        [
+          107,
+          199
+        ],
+        [
+          124,
+          181
+        ],
+        [
+          140,
+          160
+        ],
+        [
+          147,
+          132
+        ],
+        [
+          149,
+          122
+        ],
+        [
+          160,
+          119
+        ],
+        [
+          185,
+          103
+        ],
+        [
+          198,
+          103
+        ],
+        [
+          210,
+          105
+        ],
+        [
+          223,
+          104
+        ],
+        [
+          253,
+          108
+        ],
+        [
+          251,
+          117
+        ],
+        [
+          270,
+          140
+        ],
+        [
+          288,
+          149
+        ],
+        [
+          302,
+          152
+        ],
+        [
+          320,
+          182
+        ],
+        [
+          333,
+          192
+        ],
+        [
+          332,
+          196
+        ],
+        [
+          323,
+          193
+        ],
+        [
+          328,
+          199
+        ],
+        [
+          352,
+          214
+        ],
+        [
+          381,
+          262
+        ],
+        [
+          397,
+          272
+        ],
+        [
+          399,
+          399
+        ],
+        [
+          0,
+          399
+        ],
+        [
+          1,
+          267
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          200,
+          110
+        ],
+        [
+          179,
+          92
+        ],
+        [
+          184,
+          85
+        ],
+        [
+          205,
+          104
+        ],
+        [
+          202,
+          109
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          222,
+          130
+        ],
+        [
+          227,
+          138
+        ],
+        [
+          315,
+          77
+        ],
+        [
+          308,
+          65
+        ],
+        [
+          224,
+          126
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          111,
+          108
+        ],
+        [
+          116,
+          94
+        ],
+        [
+          169,
+          112
+        ],
+        [
+          166,
+          120
+        ],
+        [
+          113,
+          107
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          288,
+          144
+        ],
+        [
+          294,
+          159
+        ],
+        [
+          328,
+          143
+        ],
+        [
+          323,
+          131
+        ],
+        [
+          288,
+          147
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          78,
+          145
+        ],
+        [
+          86,
+          134
+        ],
+        [
+          221,
+          252
+        ],
+        [
+          215,
+          261
+        ],
+        [
+          79,
+          145
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          65,
+          336
+        ],
+        [
+          199,
+          369
+        ],
+        [
+          199,
+          354
+        ],
+        [
+          69,
+          325
+        ],
+        [
+          66,
+          334
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T1+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T2+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T3+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T4+I0",
+      "type": "imageTitle",
+      "source": "T4",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T6+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "title",
+    "T5": "part_label",
+    "T6": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector"
+  },
+  "educational_context": {
+    "subject": "earth_science",
+    "diagram_type": "flow_diagram",
+    "text_content": "lava main vent secondary cone magma chamber a simple cross section of a volcano layers of ash and lava crater"
+  },
+  "questions": [
+    {
+      "question_text": "Which is marked 'B' ?",
+      "question_id": "4896.png-0",
+      "answers": [
+        "Lava",
+        "Main vent",
+        "Magma chamber",
+        "Crater"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which part is the bowl-shaped depression at the mouth of the volcano?",
+      "question_id": "4896.png-1",
+      "answers": [
+        "F",
+        "B",
+        "D",
+        "A"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

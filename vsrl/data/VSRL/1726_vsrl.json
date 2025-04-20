@@ -1,0 +1,306 @@
+{
+  "image_id": "1726",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          192,
+          299
+        ],
+        [
+          282,
+          324
+        ]
+      ],
+      "value": "Fault plane",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          82,
+          57
+        ],
+        [
+          8,
+          142
+        ],
+        [
+          7,
+          324
+        ],
+        [
+          121,
+          325
+        ],
+        [
+          166,
+          278
+        ],
+        [
+          345,
+          275
+        ],
+        [
+          417,
+          196
+        ],
+        [
+          417,
+          14
+        ],
+        [
+          416,
+          12
+        ],
+        [
+          404,
+          10
+        ],
+        [
+          392,
+          13
+        ],
+        [
+          379,
+          7
+        ],
+        [
+          371,
+          12
+        ],
+        [
+          358,
+          12
+        ],
+        [
+          348,
+          12
+        ],
+        [
+          336,
+          12
+        ],
+        [
+          309,
+          10
+        ],
+        [
+          295,
+          9
+        ],
+        [
+          283,
+          17
+        ],
+        [
+          282,
+          19
+        ],
+        [
+          277,
+          26
+        ],
+        [
+          268,
+          37
+        ],
+        [
+          261,
+          49
+        ],
+        [
+          247,
+          65
+        ],
+        [
+          79,
+          59
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          138,
+          109
+        ],
+        [
+          167,
+          109
+        ],
+        [
+          167,
+          21
+        ],
+        [
+          138,
+          22
+        ],
+        [
+          139,
+          108
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          162,
+          204
+        ],
+        [
+          174,
+          207
+        ],
+        [
+          193,
+          164
+        ],
+        [
+          178,
+          163
+        ],
+        [
+          161,
+          201
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          171,
+          206
+        ],
+        [
+          186,
+          210
+        ],
+        [
+          210,
+          169
+        ],
+        [
+          193,
+          167
+        ],
+        [
+          173,
+          205
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          142,
+          291
+        ],
+        [
+          150,
+          284
+        ],
+        [
+          193,
+          307
+        ],
+        [
+          190,
+          318
+        ],
+        [
+          142,
+          291
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "fault plane"
+  },
+  "questions": [
+    {
+      "question_text": "How many layers are shown?",
+      "question_id": "1726.png-0",
+      "answers": [
+        "1",
+        "4",
+        "2",
+        "8"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is a result of moving fault planes?",
+      "question_id": "1726.png-1",
+      "answers": [
+        "Earthquake",
+        "Rain",
+        "Hurricane",
+        "Lightning"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is the line that divides the two different plates?",
+      "question_id": "1726.png-2",
+      "answers": [
+        "ground",
+        "fault line",
+        "dirt",
+        "earthquake"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

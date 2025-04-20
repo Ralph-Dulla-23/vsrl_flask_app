@@ -1,0 +1,422 @@
+{
+  "image_id": "4845",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          3,
+          284
+        ],
+        [
+          183,
+          297
+        ]
+      ],
+      "value": "\u00a9 2006 Encyclopaedia Britannica, Inc.",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          3,
+          3
+        ],
+        [
+          139,
+          17
+        ]
+      ],
+      "value": "Volcanic Landforms",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          281,
+          72
+        ],
+        [
+          372,
+          82
+        ]
+      ],
+      "value": "complex volcano",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          3,
+          118
+        ],
+        [
+          82,
+          130
+        ]
+      ],
+      "value": "shield volcano",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          272,
+          177
+        ],
+        [
+          327,
+          193
+        ]
+      ],
+      "value": "caldera",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          281,
+          279
+        ],
+        [
+          366,
+          291
+        ]
+      ],
+      "value": "somma volcano",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          231
+        ],
+        [
+          91,
+          255
+        ]
+      ],
+      "value": "stratovolcano",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          8,
+          96
+        ],
+        [
+          76,
+          45
+        ],
+        [
+          261,
+          49
+        ],
+        [
+          241,
+          101
+        ],
+        [
+          239,
+          110
+        ],
+        [
+          227,
+          109
+        ],
+        [
+          3,
+          112
+        ],
+        [
+          7,
+          101
+        ],
+        [
+          11,
+          96
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          281,
+          51
+        ],
+        [
+          281,
+          67
+        ],
+        [
+          506,
+          67
+        ],
+        [
+          538,
+          15
+        ],
+        [
+          534,
+          7
+        ],
+        [
+          338,
+          6
+        ],
+        [
+          282,
+          51
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          282,
+          173
+        ],
+        [
+          283,
+          157
+        ],
+        [
+          350,
+          101
+        ],
+        [
+          532,
+          100
+        ],
+        [
+          536,
+          112
+        ],
+        [
+          484,
+          175
+        ],
+        [
+          282,
+          175
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          281,
+          254
+        ],
+        [
+          280,
+          274
+        ],
+        [
+          485,
+          273
+        ],
+        [
+          535,
+          215
+        ],
+        [
+          535,
+          202
+        ],
+        [
+          353,
+          199
+        ],
+        [
+          282,
+          252
+        ]
+      ],
+      "category": "object"
+    },
+    "B4": {
+      "id": "B4",
+      "type": "blob",
+      "polygon": [
+        [
+          78,
+          154
+        ],
+        [
+          4,
+          211
+        ],
+        [
+          5,
+          227
+        ],
+        [
+          212,
+          230
+        ],
+        [
+          263,
+          168
+        ],
+        [
+          262,
+          156
+        ],
+        [
+          80,
+          154
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "misc",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+I0",
+      "type": "imageTitle",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B1",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B2",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+B3",
+      "type": "intraObjectLabel",
+      "source": "T5",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+B4",
+      "type": "intraObjectLabel",
+      "source": "T6",
+      "target": "B4",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "title",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "B4": "whole"
+  },
+  "educational_context": {
+    "subject": "earth_science",
+    "diagram_type": "labeled_illustration",
+    "text_content": "\u00a9 2006 encyclopaedia britannica, inc. volcanic landforms complex volcano shield volcano caldera somma volcano stratovolcano"
+  },
+  "questions": [
+    {
+      "question_text": "What does letter A represent?",
+      "question_id": "4845.png-0",
+      "answers": [
+        "Caldera",
+        "Somma Volcano",
+        "Shield Volcano",
+        "Complex Volcano"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is a large crater formed by volcanic explosion or by collapse of a volcanic cone called?",
+      "question_id": "4845.png-2",
+      "answers": [
+        "somma volcano",
+        "stratovolcano",
+        "caldera",
+        "shield volcano"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which diagram represents a shield volcano?",
+      "question_id": "4845.png-1",
+      "answers": [
+        "E",
+        "A",
+        "C",
+        "G"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

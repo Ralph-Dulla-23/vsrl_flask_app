@@ -1,0 +1,833 @@
+{
+  "image_id": "3070",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          106,
+          5
+        ],
+        [
+          743,
+          35
+        ]
+      ],
+      "value": "A Typical Plant Cell as Seen Under an Electron Microscope",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          68,
+          132
+        ],
+        [
+          95,
+          161
+        ]
+      ],
+      "value": "C",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          546,
+          200
+        ],
+        [
+          575,
+          222
+        ]
+      ],
+      "value": "A",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          454,
+          659
+        ],
+        [
+          480,
+          678
+        ]
+      ],
+      "value": "B",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          665,
+          544
+        ],
+        [
+          694,
+          568
+        ]
+      ],
+      "value": "D",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          350,
+          659
+        ],
+        [
+          580,
+          589
+        ],
+        [
+          648,
+          496
+        ],
+        [
+          615,
+          329
+        ],
+        [
+          603,
+          311
+        ],
+        [
+          484,
+          292
+        ],
+        [
+          465,
+          200
+        ],
+        [
+          406,
+          159
+        ],
+        [
+          318,
+          118
+        ],
+        [
+          228,
+          166
+        ],
+        [
+          167,
+          211
+        ],
+        [
+          134,
+          260
+        ],
+        [
+          107,
+          406
+        ],
+        [
+          168,
+          488
+        ],
+        [
+          236,
+          580
+        ],
+        [
+          272,
+          628
+        ],
+        [
+          300,
+          653
+        ],
+        [
+          321,
+          656
+        ],
+        [
+          349,
+          658
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          362,
+          291
+        ],
+        [
+          541,
+          151
+        ],
+        [
+          553,
+          149
+        ],
+        [
+          549,
+          138
+        ],
+        [
+          529,
+          138
+        ],
+        [
+          351,
+          281
+        ],
+        [
+          357,
+          292
+        ],
+        [
+          361,
+          290
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          393,
+          302
+        ],
+        [
+          541,
+          189
+        ],
+        [
+          551,
+          188
+        ],
+        [
+          547,
+          174
+        ],
+        [
+          528,
+          179
+        ],
+        [
+          409,
+          272
+        ],
+        [
+          380,
+          292
+        ],
+        [
+          394,
+          302
+        ]
+      ],
+      "category": "connector"
+    },
+    "A10": {
+      "id": "A10",
+      "type": "arrow",
+      "polygon": [
+        [
+          183,
+          682
+        ],
+        [
+          201,
+          679
+        ],
+        [
+          264,
+          567
+        ],
+        [
+          253,
+          559
+        ],
+        [
+          192,
+          659
+        ],
+        [
+          175,
+          672
+        ],
+        [
+          188,
+          684
+        ],
+        [
+          184,
+          681
+        ]
+      ],
+      "category": "connector"
+    },
+    "A11": {
+      "id": "A11",
+      "type": "arrow",
+      "polygon": [
+        [
+          92,
+          622
+        ],
+        [
+          112,
+          620
+        ],
+        [
+          219,
+          492
+        ],
+        [
+          210,
+          479
+        ],
+        [
+          101,
+          602
+        ],
+        [
+          89,
+          608
+        ],
+        [
+          91,
+          622
+        ]
+      ],
+      "category": "connector"
+    },
+    "A12": {
+      "id": "A12",
+      "type": "arrow",
+      "polygon": [
+        [
+          123,
+          545
+        ],
+        [
+          134,
+          544
+        ],
+        [
+          152,
+          523
+        ],
+        [
+          238,
+          416
+        ],
+        [
+          244,
+          424
+        ],
+        [
+          241,
+          436
+        ],
+        [
+          179,
+          509
+        ],
+        [
+          147,
+          546
+        ],
+        [
+          136,
+          557
+        ],
+        [
+          120,
+          558
+        ],
+        [
+          120,
+          545
+        ]
+      ],
+      "category": "connector"
+    },
+    "A13": {
+      "id": "A13",
+      "type": "arrow",
+      "polygon": [
+        [
+          113,
+          499
+        ],
+        [
+          133,
+          500
+        ],
+        [
+          313,
+          295
+        ],
+        [
+          309,
+          283
+        ],
+        [
+          122,
+          490
+        ],
+        [
+          113,
+          498
+        ]
+      ],
+      "category": "connector"
+    },
+    "A14": {
+      "id": "A14",
+      "type": "arrow",
+      "polygon": [
+        [
+          87,
+          208
+        ],
+        [
+          101,
+          212
+        ],
+        [
+          215,
+          315
+        ],
+        [
+          222,
+          322
+        ],
+        [
+          226,
+          316
+        ],
+        [
+          103,
+          194
+        ],
+        [
+          77,
+          193
+        ],
+        [
+          83,
+          209
+        ]
+      ],
+      "category": "connector"
+    },
+    "A15": {
+      "id": "A15",
+      "type": "arrow",
+      "polygon": [
+        [
+          94,
+          156
+        ],
+        [
+          103,
+          154
+        ],
+        [
+          230,
+          263
+        ],
+        [
+          242,
+          249
+        ],
+        [
+          101,
+          138
+        ],
+        [
+          87,
+          145
+        ],
+        [
+          93,
+          158
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          404,
+          336
+        ],
+        [
+          541,
+          224
+        ],
+        [
+          549,
+          222
+        ],
+        [
+          550,
+          211
+        ],
+        [
+          540,
+          207
+        ],
+        [
+          392,
+          330
+        ],
+        [
+          400,
+          335
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          447,
+          351
+        ],
+        [
+          572,
+          293
+        ],
+        [
+          583,
+          293
+        ],
+        [
+          585,
+          281
+        ],
+        [
+          574,
+          278
+        ],
+        [
+          435,
+          342
+        ],
+        [
+          446,
+          353
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          581,
+          386
+        ],
+        [
+          660,
+          343
+        ],
+        [
+          664,
+          342
+        ],
+        [
+          667,
+          328
+        ],
+        [
+          646,
+          327
+        ],
+        [
+          572,
+          371
+        ],
+        [
+          579,
+          387
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          592,
+          434
+        ],
+        [
+          644,
+          406
+        ],
+        [
+          665,
+          404
+        ],
+        [
+          665,
+          389
+        ],
+        [
+          621,
+          394
+        ],
+        [
+          583,
+          421
+        ],
+        [
+          590,
+          433
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          517,
+          441
+        ],
+        [
+          643,
+          566
+        ],
+        [
+          669,
+          572
+        ],
+        [
+          667,
+          557
+        ],
+        [
+          651,
+          552
+        ],
+        [
+          518,
+          422
+        ],
+        [
+          518,
+          443
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          520,
+          504
+        ],
+        [
+          645,
+          644
+        ],
+        [
+          664,
+          640
+        ],
+        [
+          635,
+          612
+        ],
+        [
+          526,
+          492
+        ],
+        [
+          520,
+          502
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          373,
+          527
+        ],
+        [
+          491,
+          637
+        ],
+        [
+          509,
+          640
+        ],
+        [
+          514,
+          634
+        ],
+        [
+          512,
+          622
+        ],
+        [
+          495,
+          621
+        ],
+        [
+          376,
+          513
+        ],
+        [
+          374,
+          526
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          345,
+          591
+        ],
+        [
+          427,
+          673
+        ],
+        [
+          448,
+          675
+        ],
+        [
+          450,
+          662
+        ],
+        [
+          427,
+          653
+        ],
+        [
+          355,
+          577
+        ],
+        [
+          347,
+          591
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A15+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A15",
+      "directional": false
+    },
+    {
+      "id": "T2+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T3+A9+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A9",
+      "directional": false
+    },
+    {
+      "id": "T4+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A10": "connector",
+    "A11": "connector",
+    "A12": "connector",
+    "A13": "connector",
+    "A14": "connector",
+    "A15": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "a typical plant cell as seen under an electron microscope c a b d"
+  },
+  "questions": []
+}

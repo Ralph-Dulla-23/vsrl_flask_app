@@ -1,0 +1,408 @@
+{
+  "image_id": "123",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          4
+        ],
+        [
+          170,
+          24
+        ]
+      ],
+      "value": "Tidal bulge due to inertia",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          279,
+          8
+        ],
+        [
+          448,
+          28
+        ]
+      ],
+      "value": "Tidal bulge due to gravity",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          416,
+          106
+        ],
+        [
+          466,
+          130
+        ]
+      ],
+      "value": "Moon",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          235,
+          91
+        ],
+        [
+          322,
+          146
+        ]
+      ],
+      "value": "Moon's gravitational pull",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          141,
+          35
+        ],
+        [
+          81,
+          51
+        ],
+        [
+          39,
+          75
+        ],
+        [
+          13,
+          105
+        ],
+        [
+          16,
+          141
+        ],
+        [
+          46,
+          169
+        ],
+        [
+          104,
+          195
+        ],
+        [
+          168,
+          200
+        ],
+        [
+          248,
+          189
+        ],
+        [
+          287,
+          169
+        ],
+        [
+          317,
+          139
+        ],
+        [
+          323,
+          122
+        ],
+        [
+          322,
+          103
+        ],
+        [
+          300,
+          77
+        ],
+        [
+          256,
+          51
+        ],
+        [
+          207,
+          39
+        ],
+        [
+          141,
+          36
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          425,
+          94
+        ],
+        [
+          415,
+          106
+        ],
+        [
+          412,
+          122
+        ],
+        [
+          417,
+          136
+        ],
+        [
+          433,
+          147
+        ],
+        [
+          451,
+          147
+        ],
+        [
+          463,
+          139
+        ],
+        [
+          470,
+          127
+        ],
+        [
+          472,
+          115
+        ],
+        [
+          469,
+          104
+        ],
+        [
+          460,
+          92
+        ],
+        [
+          444,
+          86
+        ],
+        [
+          431,
+          87
+        ],
+        [
+          424,
+          93
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          14,
+          18
+        ],
+        [
+          31,
+          79
+        ],
+        [
+          42,
+          73
+        ],
+        [
+          25,
+          17
+        ],
+        [
+          14,
+          19
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          308,
+          23
+        ],
+        [
+          320,
+          24
+        ],
+        [
+          301,
+          78
+        ],
+        [
+          288,
+          72
+        ],
+        [
+          308,
+          23
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          316,
+          85
+        ],
+        [
+          317,
+          144
+        ],
+        [
+          391,
+          147
+        ],
+        [
+          388,
+          85
+        ],
+        [
+          318,
+          84
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A2+H0",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A2+B1",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B1",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T2+B1",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+A2",
+      "type": "arrowDescriptor",
+      "source": "T3",
+      "target": "A2",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "tidal bulge due to inertia tidal bulge due to gravity moon moon's gravitational pull"
+  },
+  "questions": [
+    {
+      "question_text": "In the diagram, which letter shows the Moon's gravitational pull?",
+      "question_id": "123.png-3",
+      "answers": [
+        "B",
+        "C",
+        "D",
+        "A"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "What causes the tidal bulge on the left of the diagram?",
+      "question_id": "123.png-1",
+      "answers": [
+        "Earth",
+        "Gravity",
+        "Inertia",
+        "Wind"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What in the diagram is shown at letter D?",
+      "question_id": "123.png-0",
+      "answers": [
+        "Tidal bulge due to inertia",
+        "Tidal bulge due to gravity",
+        "Moon's gravitational pull",
+        "Moon"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is represented at letter C?",
+      "question_id": "123.png-2",
+      "answers": [
+        "Tidal bulge due to inertia",
+        "Moon",
+        "Tidal bulge due to gravity",
+        "Earth"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}

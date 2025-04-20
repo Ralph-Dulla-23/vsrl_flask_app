@@ -1,0 +1,390 @@
+{
+  "image_id": "1636",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          54,
+          224
+        ],
+        [
+          89,
+          239
+        ]
+      ],
+      "value": "SUN",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          361,
+          225
+        ],
+        [
+          414,
+          239
+        ]
+      ],
+      "value": "EARTH",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          461,
+          225
+        ],
+        [
+          512,
+          239
+        ]
+      ],
+      "value": "MOON",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          395,
+          86
+        ],
+        [
+          531,
+          87
+        ],
+        [
+          532,
+          159
+        ],
+        [
+          399,
+          160
+        ],
+        [
+          395,
+          84
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          396,
+          85
+        ],
+        [
+          382,
+          88
+        ],
+        [
+          364,
+          99
+        ],
+        [
+          353,
+          119
+        ],
+        [
+          359,
+          138
+        ],
+        [
+          373,
+          154
+        ],
+        [
+          395,
+          158
+        ],
+        [
+          396,
+          133
+        ],
+        [
+          397,
+          110
+        ],
+        [
+          395,
+          83
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          464,
+          118
+        ],
+        [
+          472,
+          110
+        ],
+        [
+          482,
+          109
+        ],
+        [
+          490,
+          118
+        ],
+        [
+          490,
+          131
+        ],
+        [
+          477,
+          142
+        ],
+        [
+          465,
+          136
+        ],
+        [
+          461,
+          126
+        ],
+        [
+          464,
+          118
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          105,
+          180
+        ],
+        [
+          81,
+          184
+        ],
+        [
+          57,
+          175
+        ],
+        [
+          39,
+          160
+        ],
+        [
+          29,
+          140
+        ],
+        [
+          29,
+          111
+        ],
+        [
+          42,
+          91
+        ],
+        [
+          62,
+          74
+        ],
+        [
+          92,
+          69
+        ],
+        [
+          116,
+          76
+        ],
+        [
+          135,
+          88
+        ],
+        [
+          140,
+          99
+        ],
+        [
+          144,
+          121
+        ],
+        [
+          143,
+          142
+        ],
+        [
+          127,
+          164
+        ],
+        [
+          105,
+          179
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          395,
+          218
+        ],
+        [
+          369,
+          219
+        ],
+        [
+          368,
+          212
+        ],
+        [
+          409,
+          211
+        ],
+        [
+          409,
+          218
+        ],
+        [
+          397,
+          219
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          382,
+          28
+        ],
+        [
+          373,
+          28
+        ],
+        [
+          373,
+          20
+        ],
+        [
+          409,
+          20
+        ],
+        [
+          409,
+          27
+        ],
+        [
+          384,
+          28
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+B3",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B1",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B2",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "A0": "connector",
+    "A1": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "sun earth moon"
+  },
+  "questions": [
+    {
+      "question_text": "Which among the below give us energy?",
+      "question_id": "1636.png-1",
+      "answers": [
+        "B",
+        "A",
+        "C",
+        "{}"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which label represents the moon?",
+      "question_id": "1636.png-0",
+      "answers": [
+        "{}",
+        "C",
+        "A",
+        "B"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    }
+  ]
+}

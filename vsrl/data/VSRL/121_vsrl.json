@@ -1,0 +1,466 @@
+{
+  "image_id": "121",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          163,
+          59
+        ],
+        [
+          239,
+          92
+        ]
+      ],
+      "value": "EARTH",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          289,
+          0
+        ],
+        [
+          455,
+          32
+        ]
+      ],
+      "value": "indicates centre of rotation for the Earth-Moon system",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          258,
+          133
+        ],
+        [
+          391,
+          183
+        ]
+      ],
+      "value": "Gravity is stronger than the rotational force",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          442,
+          61
+        ],
+        [
+          511,
+          94
+        ]
+      ],
+      "value": "MOON",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          2,
+          131
+        ],
+        [
+          140,
+          185
+        ]
+      ],
+      "value": "The rotational force is stronger than gravity",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          114,
+          48
+        ],
+        [
+          133,
+          30
+        ],
+        [
+          155,
+          14
+        ],
+        [
+          173,
+          6
+        ],
+        [
+          203,
+          5
+        ],
+        [
+          231,
+          6
+        ],
+        [
+          252,
+          17
+        ],
+        [
+          275,
+          34
+        ],
+        [
+          288,
+          51
+        ],
+        [
+          294,
+          75
+        ],
+        [
+          290,
+          100
+        ],
+        [
+          275,
+          123
+        ],
+        [
+          246,
+          141
+        ],
+        [
+          212,
+          150
+        ],
+        [
+          183,
+          148
+        ],
+        [
+          160,
+          143
+        ],
+        [
+          138,
+          127
+        ],
+        [
+          119,
+          113
+        ],
+        [
+          114,
+          96
+        ],
+        [
+          112,
+          73
+        ],
+        [
+          115,
+          50
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          449,
+          45
+        ],
+        [
+          464,
+          37
+        ],
+        [
+          482,
+          36
+        ],
+        [
+          497,
+          41
+        ],
+        [
+          514,
+          60
+        ],
+        [
+          516,
+          77
+        ],
+        [
+          516,
+          92
+        ],
+        [
+          509,
+          105
+        ],
+        [
+          498,
+          113
+        ],
+        [
+          483,
+          122
+        ],
+        [
+          462,
+          119
+        ],
+        [
+          451,
+          111
+        ],
+        [
+          440,
+          99
+        ],
+        [
+          435,
+          85
+        ],
+        [
+          435,
+          65
+        ],
+        [
+          447,
+          48
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          301,
+          82
+        ],
+        [
+          333,
+          82
+        ],
+        [
+          339,
+          86
+        ],
+        [
+          348,
+          73
+        ],
+        [
+          348,
+          73
+        ],
+        [
+          333,
+          68
+        ],
+        [
+          331,
+          72
+        ],
+        [
+          300,
+          74
+        ],
+        [
+          299,
+          85
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          65,
+          77
+        ],
+        [
+          72,
+          85
+        ],
+        [
+          75,
+          81
+        ],
+        [
+          102,
+          82
+        ],
+        [
+          104,
+          72
+        ],
+        [
+          75,
+          72
+        ],
+        [
+          74,
+          65
+        ],
+        [
+          65,
+          74
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H1",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A0+B1",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B1",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+I0",
+      "type": "misc",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+A0",
+      "type": "arrowDescriptor",
+      "source": "T2",
+      "target": "A0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B1",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+A2",
+      "type": "arrowDescriptor",
+      "source": "T4",
+      "target": "A2",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "earth indicates centre of rotation for the earth-moon system gravity is stronger than the rotational force moon the rotational force is stronger than gravity"
+  },
+  "questions": [
+    {
+      "question_text": "What does B represent in the diagram?",
+      "question_id": "121.png-1",
+      "answers": [
+        "earth",
+        "none of the above",
+        "sun",
+        "moon"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "What does E stand for in the diagram?",
+      "question_id": "121.png-3",
+      "answers": [
+        "none of the above",
+        "moon",
+        "earth",
+        "gravity"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "What does the diagram marked with the letter E represent?",
+      "question_id": "121.png-2",
+      "answers": [
+        "The Sun.",
+        "The Earth.",
+        "The Moon.",
+        "The Solar System."
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which letter in the diagram above represents the Moon?",
+      "question_id": "121.png-0",
+      "answers": [
+        "B.",
+        "E.",
+        "D.",
+        "A."
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "image_id": "1505",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          71,
+          4
+        ],
+        [
+          309,
+          46
+        ]
+      ],
+      "value": "Frost Wedging",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          9,
+          200
+        ],
+        [
+          121,
+          247
+        ]
+      ],
+      "value": "Water-filled crack",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          132,
+          197
+        ],
+        [
+          225,
+          246
+        ]
+      ],
+      "value": "Freezes to ice",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          260,
+          196
+        ],
+        [
+          327,
+          244
+        ]
+      ],
+      "value": "Breaks Rock",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          105,
+          184
+        ],
+        [
+          21,
+          185
+        ],
+        [
+          20,
+          51
+        ],
+        [
+          56,
+          50
+        ],
+        [
+          104,
+          52
+        ],
+        [
+          106,
+          183
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          131,
+          179
+        ],
+        [
+          131,
+          52
+        ],
+        [
+          225,
+          50
+        ],
+        [
+          215,
+          173
+        ],
+        [
+          213,
+          185
+        ],
+        [
+          130,
+          184
+        ],
+        [
+          131,
+          178
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          239,
+          181
+        ],
+        [
+          239,
+          53
+        ],
+        [
+          279,
+          51
+        ],
+        [
+          281,
+          183
+        ],
+        [
+          240,
+          183
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          302,
+          181
+        ],
+        [
+          316,
+          52
+        ],
+        [
+          355,
+          52
+        ],
+        [
+          342,
+          183
+        ],
+        [
+          302,
+          182
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B1",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B3",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole"
+  },
+  "educational_context": {
+    "subject": "earth_science",
+    "diagram_type": "labeled_illustration",
+    "text_content": "frost wedging water-filled crack freezes to ice breaks rock"
+  },
+  "questions": [
+    {
+      "question_text": "What letter corresponds to breaks rock in the photo?",
+      "question_id": "1505.png-1",
+      "answers": [
+        "B",
+        "C",
+        "D",
+        "A"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "What letter corresponds to frost wedging in the photo?",
+      "question_id": "1505.png-3",
+      "answers": [
+        "B",
+        "D",
+        "A",
+        "C"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "What stage is shown at letter C in the photo?",
+      "question_id": "1505.png-0",
+      "answers": [
+        "water-filled cracks",
+        "frost wedging",
+        "breaks rock",
+        "freezes to ice"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "how many stages are in frost wedging?",
+      "question_id": "1505.png-2",
+      "answers": [
+        "3",
+        "1",
+        "6",
+        "2"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

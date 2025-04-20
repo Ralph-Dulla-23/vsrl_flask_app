@@ -1,0 +1,884 @@
+{
+  "image_id": "1906",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          363,
+          108
+        ],
+        [
+          468,
+          141
+        ]
+      ],
+      "value": "UNDERSTORY PLANTS",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          350,
+          175
+        ],
+        [
+          401,
+          190
+        ]
+      ],
+      "value": "nutrients",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T10": {
+      "id": "T10",
+      "type": "text",
+      "bbox": [
+        [
+          104,
+          176
+        ],
+        [
+          167,
+          189
+        ]
+      ],
+      "value": "nutrients",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T11": {
+      "id": "T11",
+      "type": "text",
+      "bbox": [
+        [
+          96,
+          112
+        ],
+        [
+          172,
+          131
+        ]
+      ],
+      "value": "PEOPLE",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T12": {
+      "id": "T12",
+      "type": "text",
+      "bbox": [
+        [
+          257,
+          58
+        ],
+        [
+          326,
+          84
+        ]
+      ],
+      "value": "TREES",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          270,
+          147
+        ],
+        [
+          324,
+          161
+        ]
+      ],
+      "value": "nutrients",
+      "replacementText": "K",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          260,
+          224
+        ],
+        [
+          328,
+          259
+        ]
+      ],
+      "value": "FOREST FLOOR",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          267,
+          297
+        ],
+        [
+          328,
+          308
+        ]
+      ],
+      "value": "nutrients",
+      "replacementText": "L",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          274,
+          350
+        ],
+        [
+          318,
+          372
+        ]
+      ],
+      "value": "SOIL",
+      "replacementText": "M",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          159,
+          3
+        ],
+        [
+          406,
+          21
+        ]
+      ],
+      "value": "Hardwood Forest Ecosystem Model",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          19,
+          174
+        ],
+        [
+          61,
+          190
+        ]
+      ],
+      "value": "inputs",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          454,
+          206
+        ],
+        [
+          506,
+          222
+        ]
+      ],
+      "value": "outputs",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          87,
+          234
+        ],
+        [
+          180,
+          253
+        ]
+      ],
+      "value": "ANIMALS",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          438,
+          235
+        ],
+        [
+          496,
+          235
+        ],
+        [
+          497,
+          255
+        ],
+        [
+          529,
+          214
+        ],
+        [
+          497,
+          169
+        ],
+        [
+          498,
+          188
+        ],
+        [
+          440,
+          189
+        ],
+        [
+          440,
+          231
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          2,
+          202
+        ],
+        [
+          61,
+          204
+        ],
+        [
+          63,
+          221
+        ],
+        [
+          95,
+          184
+        ],
+        [
+          61,
+          141
+        ],
+        [
+          61,
+          158
+        ],
+        [
+          3,
+          159
+        ],
+        [
+          2,
+          202
+        ]
+      ],
+      "category": "connector"
+    },
+    "A10": {
+      "id": "A10",
+      "type": "arrow",
+      "polygon": [
+        [
+          275,
+          267
+        ],
+        [
+          275,
+          294
+        ],
+        [
+          293,
+          295
+        ],
+        [
+          295,
+          265
+        ],
+        [
+          278,
+          267
+        ]
+      ],
+      "category": "connector"
+    },
+    "A11": {
+      "id": "A11",
+      "type": "arrow",
+      "polygon": [
+        [
+          299,
+          262
+        ],
+        [
+          299,
+          294
+        ],
+        [
+          316,
+          294
+        ],
+        [
+          315,
+          263
+        ],
+        [
+          301,
+          263
+        ]
+      ],
+      "category": "connector"
+    },
+    "A12": {
+      "id": "A12",
+      "type": "arrow",
+      "polygon": [
+        [
+          299,
+          309
+        ],
+        [
+          299,
+          336
+        ],
+        [
+          318,
+          335
+        ],
+        [
+          315,
+          306
+        ],
+        [
+          301,
+          309
+        ]
+      ],
+      "category": "connector"
+    },
+    "A13": {
+      "id": "A13",
+      "type": "arrow",
+      "polygon": [
+        [
+          275,
+          306
+        ],
+        [
+          275,
+          334
+        ],
+        [
+          293,
+          334
+        ],
+        [
+          295,
+          304
+        ],
+        [
+          278,
+          305
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          125,
+          148
+        ],
+        [
+          127,
+          174
+        ],
+        [
+          145,
+          174
+        ],
+        [
+          140,
+          147
+        ],
+        [
+          126,
+          148
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          128,
+          188
+        ],
+        [
+          140,
+          191
+        ],
+        [
+          142,
+          213
+        ],
+        [
+          129,
+          215
+        ],
+        [
+          128,
+          192
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          287,
+          101
+        ],
+        [
+          303,
+          101
+        ],
+        [
+          305,
+          144
+        ],
+        [
+          289,
+          144
+        ],
+        [
+          288,
+          102
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          371,
+          173
+        ],
+        [
+          388,
+          146
+        ],
+        [
+          375,
+          138
+        ],
+        [
+          356,
+          173
+        ],
+        [
+          368,
+          178
+        ],
+        [
+          370,
+          172
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          397,
+          144
+        ],
+        [
+          407,
+          152
+        ],
+        [
+          392,
+          177
+        ],
+        [
+          380,
+          171
+        ],
+        [
+          396,
+          145
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          372,
+          187
+        ],
+        [
+          383,
+          196
+        ],
+        [
+          356,
+          235
+        ],
+        [
+          346,
+          226
+        ],
+        [
+          372,
+          188
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          358,
+          191
+        ],
+        [
+          343,
+          223
+        ],
+        [
+          327,
+          218
+        ],
+        [
+          348,
+          185
+        ],
+        [
+          361,
+          192
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          285,
+          159
+        ],
+        [
+          305,
+          159
+        ],
+        [
+          305,
+          215
+        ],
+        [
+          286,
+          216
+        ],
+        [
+          283,
+          161
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H4",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H11",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H11",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A10+H6",
+      "type": "arrowHeadTail",
+      "source": "A10",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A11+H7",
+      "type": "arrowHeadTail",
+      "source": "A11",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A12+H1",
+      "type": "arrowHeadTail",
+      "source": "A12",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A13+H8",
+      "type": "arrowHeadTail",
+      "source": "A13",
+      "target": "H8",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H12",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H12",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H5",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H10",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H10",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H3",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H13",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H13",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H0",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A8+H2",
+      "type": "arrowHeadTail",
+      "source": "A8",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A9+H9",
+      "type": "arrowHeadTail",
+      "source": "A9",
+      "target": "H9",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A5+T0",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T0",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T1+A6+T0",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T0",
+      "connector": "A6",
+      "directional": true
+    },
+    {
+      "id": "T1+A7+T3",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T3",
+      "connector": "A7",
+      "directional": true
+    },
+    {
+      "id": "T1+A8+T3",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T3",
+      "connector": "A8",
+      "directional": true
+    },
+    {
+      "id": "T10+A2+T11",
+      "type": "interObjectLinkage",
+      "source": "T10",
+      "target": "T11",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T10+A3+T9",
+      "type": "interObjectLinkage",
+      "source": "T10",
+      "target": "T9",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T2+A4+T12",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T12",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T2+A9+T3",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T3",
+      "connector": "A9",
+      "directional": true
+    },
+    {
+      "id": "T4+A10+T3",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T3",
+      "connector": "A10",
+      "directional": true
+    },
+    {
+      "id": "T4+A11+T3",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T3",
+      "connector": "A11",
+      "directional": true
+    },
+    {
+      "id": "T4+A12+T5",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T5",
+      "connector": "A12",
+      "directional": true
+    },
+    {
+      "id": "T4+A13+T5",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T5",
+      "connector": "A13",
+      "directional": true
+    },
+    {
+      "id": "T7+A1+T10",
+      "type": "interObjectLinkage",
+      "source": "T7",
+      "target": "T10",
+      "connector": "A1",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T10": "part_label",
+    "T11": "part_label",
+    "T12": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A10": "connector",
+    "A11": "connector",
+    "A12": "connector",
+    "A13": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "understory plants nutrients nutrients people trees nutrients forest floor nutrients soil hardwood forest ecosystem model inputs outputs animals"
+  }
+}

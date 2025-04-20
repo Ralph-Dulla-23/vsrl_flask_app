@@ -1,0 +1,674 @@
+{
+  "image_id": "70",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          13,
+          10
+        ],
+        [
+          291,
+          41
+        ]
+      ],
+      "value": "Basic Carbon Cycle of Living Systems",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          153,
+          55
+        ],
+        [
+          249,
+          105
+        ]
+      ],
+      "value": "air (atmosphere)",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          23,
+          155
+        ],
+        [
+          159,
+          193
+        ]
+      ],
+      "value": "Carbon dioxide (respiration)",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          243,
+          154
+        ],
+        [
+          378,
+          200
+        ]
+      ],
+      "value": "carbon dioxide (photosynthesis)",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          284,
+          249
+        ],
+        [
+          382,
+          298
+        ]
+      ],
+      "value": "plants",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          20,
+          251
+        ],
+        [
+          118,
+          296
+        ]
+      ],
+      "value": "animals",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          141,
+          351
+        ],
+        [
+          265,
+          392
+        ]
+      ],
+      "value": "carbohydrates (eating)",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          268,
+          89
+        ],
+        [
+          300,
+          113
+        ],
+        [
+          324,
+          141
+        ],
+        [
+          316,
+          141
+        ],
+        [
+          316,
+          145
+        ],
+        [
+          330,
+          146
+        ],
+        [
+          337,
+          132
+        ],
+        [
+          330,
+          131
+        ],
+        [
+          328,
+          138
+        ],
+        [
+          305,
+          109
+        ],
+        [
+          270,
+          84
+        ],
+        [
+          269,
+          90
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          349,
+          203
+        ],
+        [
+          351,
+          234
+        ],
+        [
+          357,
+          229
+        ],
+        [
+          360,
+          233
+        ],
+        [
+          348,
+          245
+        ],
+        [
+          339,
+          229
+        ],
+        [
+          343,
+          225
+        ],
+        [
+          346,
+          233
+        ],
+        [
+          345,
+          204
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          311,
+          312
+        ],
+        [
+          318,
+          317
+        ],
+        [
+          276,
+          351
+        ],
+        [
+          286,
+          352
+        ],
+        [
+          268,
+          353
+        ],
+        [
+          268,
+          338
+        ],
+        [
+          276,
+          338
+        ],
+        [
+          272,
+          346
+        ],
+        [
+          296,
+          329
+        ],
+        [
+          312,
+          313
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          132,
+          356
+        ],
+        [
+          139,
+          350
+        ],
+        [
+          116,
+          337
+        ],
+        [
+          96,
+          320
+        ],
+        [
+          103,
+          319
+        ],
+        [
+          104,
+          314
+        ],
+        [
+          90,
+          313
+        ],
+        [
+          86,
+          326
+        ],
+        [
+          92,
+          329
+        ],
+        [
+          92,
+          320
+        ],
+        [
+          134,
+          358
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          52,
+          238
+        ],
+        [
+          54,
+          209
+        ],
+        [
+          48,
+          216
+        ],
+        [
+          44,
+          209
+        ],
+        [
+          56,
+          201
+        ],
+        [
+          66,
+          214
+        ],
+        [
+          62,
+          217
+        ],
+        [
+          56,
+          212
+        ],
+        [
+          59,
+          239
+        ],
+        [
+          55,
+          240
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          270,
+          264
+        ],
+        [
+          222,
+          254
+        ],
+        [
+          164,
+          235
+        ],
+        [
+          117,
+          209
+        ],
+        [
+          128,
+          206
+        ],
+        [
+          123,
+          201
+        ],
+        [
+          108,
+          204
+        ],
+        [
+          111,
+          223
+        ],
+        [
+          116,
+          222
+        ],
+        [
+          116,
+          212
+        ],
+        [
+          161,
+          239
+        ],
+        [
+          226,
+          265
+        ],
+        [
+          272,
+          271
+        ],
+        [
+          272,
+          266
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          71,
+          139
+        ],
+        [
+          126,
+          89
+        ],
+        [
+          132,
+          90
+        ],
+        [
+          119,
+          86
+        ],
+        [
+          125,
+          82
+        ],
+        [
+          137,
+          86
+        ],
+        [
+          136,
+          105
+        ],
+        [
+          130,
+          95
+        ],
+        [
+          92,
+          122
+        ],
+        [
+          77,
+          148
+        ],
+        [
+          72,
+          139
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H2",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H3",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H4",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H5",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H6",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A0+T3",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T3",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T2+A7+T1",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T1",
+      "connector": "A7",
+      "directional": true
+    },
+    {
+      "id": "T3+A1+T4",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T4",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T4+A3+T6",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T6",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T4+A6+T2",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T2",
+      "connector": "A6",
+      "directional": true
+    },
+    {
+      "id": "T5+A5+T2",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T2",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T6+A4+T5",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T5",
+      "connector": "A4",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "basic carbon cycle of living systems air (atmosphere) carbon dioxide (respiration) carbon dioxide (photosynthesis) plants animals carbohydrates (eating)"
+  },
+  "questions": [
+    {
+      "question_text": "What do animals respire into the air?",
+      "question_id": "70.png-1",
+      "answers": [
+        "Hydrogen",
+        "Photosynthesis",
+        "Oxygen",
+        "Carbon Dioxide"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What letter in the given diagram represents the respiration stage where carbon dioxide is exhaled?",
+      "question_id": "70.png-3",
+      "answers": [
+        "C",
+        "B",
+        "E",
+        "G"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "What stage in the given diagram represents the plant stage?",
+      "question_id": "70.png-0",
+      "answers": [
+        "A",
+        "D",
+        "B",
+        "C"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which describes label A in the above diagram?",
+      "question_id": "70.png-2",
+      "answers": [
+        "plants",
+        "animals",
+        "air",
+        "none"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

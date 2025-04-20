@@ -1,0 +1,826 @@
+{
+  "image_id": "1753",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          2,
+          478
+        ],
+        [
+          160,
+          494
+        ]
+      ],
+      "value": "(c) 2006 Brooks/Cole - Thomson",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          284,
+          10
+        ],
+        [
+          380,
+          32
+        ]
+      ],
+      "value": "Fault  scarp",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          378,
+          146
+        ],
+        [
+          467,
+          166
+        ]
+      ],
+      "value": "Extension",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          160,
+          191
+        ],
+        [
+          263,
+          213
+        ]
+      ],
+      "value": "Normal fault",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          671,
+          190
+        ],
+        [
+          788,
+          210
+        ]
+      ],
+      "value": "Reverse fault",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          888,
+          144
+        ],
+        [
+          999,
+          168
+        ]
+      ],
+      "value": "Compression",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          873,
+          266
+        ],
+        [
+          923,
+          286
+        ]
+      ],
+      "value": "Shear",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          600,
+          430
+        ],
+        [
+          836,
+          452
+        ]
+      ],
+      "value": "Right-lateral strike-slip fault",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          156,
+          430
+        ],
+        [
+          254,
+          451
+        ]
+      ],
+      "value": "Thrust fault",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          62,
+          179
+        ],
+        [
+          343,
+          180
+        ],
+        [
+          414,
+          108
+        ],
+        [
+          410,
+          110
+        ],
+        [
+          407,
+          51
+        ],
+        [
+          289,
+          49
+        ],
+        [
+          262,
+          2
+        ],
+        [
+          132,
+          0
+        ],
+        [
+          64,
+          69
+        ],
+        [
+          64,
+          178
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          576,
+          179
+        ],
+        [
+          852,
+          180
+        ],
+        [
+          924,
+          113
+        ],
+        [
+          922,
+          53
+        ],
+        [
+          796,
+          50
+        ],
+        [
+          814,
+          0
+        ],
+        [
+          644,
+          0
+        ],
+        [
+          572,
+          68
+        ],
+        [
+          576,
+          179
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          29,
+          419
+        ],
+        [
+          319,
+          421
+        ],
+        [
+          408,
+          366
+        ],
+        [
+          410,
+          303
+        ],
+        [
+          349,
+          298
+        ],
+        [
+          400,
+          270
+        ],
+        [
+          157,
+          263
+        ],
+        [
+          73,
+          312
+        ],
+        [
+          77,
+          382
+        ],
+        [
+          88,
+          382
+        ],
+        [
+          29,
+          418
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          543,
+          396
+        ],
+        [
+          676,
+          393
+        ],
+        [
+          678,
+          419
+        ],
+        [
+          849,
+          421
+        ],
+        [
+          922,
+          351
+        ],
+        [
+          919,
+          296
+        ],
+        [
+          753,
+          292
+        ],
+        [
+          773,
+          270
+        ],
+        [
+          612,
+          267
+        ],
+        [
+          547,
+          332
+        ],
+        [
+          547,
+          392
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          18,
+          360
+        ],
+        [
+          44,
+          360
+        ],
+        [
+          46,
+          367
+        ],
+        [
+          66,
+          357
+        ],
+        [
+          49,
+          346
+        ],
+        [
+          48,
+          350
+        ],
+        [
+          17,
+          349
+        ],
+        [
+          17,
+          356
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          374,
+          356
+        ],
+        [
+          392,
+          343
+        ],
+        [
+          393,
+          348
+        ],
+        [
+          423,
+          350
+        ],
+        [
+          423,
+          360
+        ],
+        [
+          397,
+          360
+        ],
+        [
+          394,
+          367
+        ],
+        [
+          376,
+          360
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          583,
+          403
+        ],
+        [
+          596,
+          407
+        ],
+        [
+          609,
+          382
+        ],
+        [
+          617,
+          387
+        ],
+        [
+          612,
+          373
+        ],
+        [
+          592,
+          377
+        ],
+        [
+          596,
+          380
+        ],
+        [
+          582,
+          400
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          826,
+          288
+        ],
+        [
+          852,
+          276
+        ],
+        [
+          841,
+          274
+        ],
+        [
+          857,
+          252
+        ],
+        [
+          848,
+          250
+        ],
+        [
+          832,
+          270
+        ],
+        [
+          821,
+          272
+        ],
+        [
+          827,
+          286
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          911,
+          131
+        ],
+        [
+          931,
+          146
+        ],
+        [
+          930,
+          136
+        ],
+        [
+          959,
+          137
+        ],
+        [
+          960,
+          128
+        ],
+        [
+          930,
+          128
+        ],
+        [
+          930,
+          121
+        ],
+        [
+          913,
+          131
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          516,
+          137
+        ],
+        [
+          546,
+          136
+        ],
+        [
+          548,
+          143
+        ],
+        [
+          566,
+          133
+        ],
+        [
+          548,
+          122
+        ],
+        [
+          548,
+          128
+        ],
+        [
+          516,
+          128
+        ],
+        [
+          516,
+          133
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          439,
+          140
+        ],
+        [
+          457,
+          131
+        ],
+        [
+          440,
+          121
+        ],
+        [
+          439,
+          127
+        ],
+        [
+          407,
+          127
+        ],
+        [
+          407,
+          133
+        ],
+        [
+          438,
+          136
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          2,
+          132
+        ],
+        [
+          19,
+          121
+        ],
+        [
+          20,
+          126
+        ],
+        [
+          49,
+          127
+        ],
+        [
+          49,
+          134
+        ],
+        [
+          21,
+          133
+        ],
+        [
+          20,
+          142
+        ],
+        [
+          7,
+          133
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H7",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H4",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H6",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H2",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H0",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H1",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H3",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H5",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+I0",
+      "type": "misc",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B1",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T7+B3",
+      "type": "intraObjectLabel",
+      "source": "T7",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T8+B2",
+      "type": "intraObjectLabel",
+      "source": "T8",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "(c) 2006 brooks/cole - thomson fault  scarp extension normal fault reverse fault compression shear right-lateral strike-slip fault thrust fault"
+  },
+  "questions": [
+    {
+      "question_text": "Which fault moves side to side?",
+      "question_id": "1753.png-0",
+      "answers": [
+        "normal fault",
+        "right-lateral strike-slight fault",
+        "thrust fault",
+        "reverse fault"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which shows the force moving away from each other?",
+      "question_id": "1753.png-1",
+      "answers": [
+        "thrust fault",
+        "lateral strike-slip fault",
+        "reverse fault",
+        "normal fault"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    }
+  ]
+}

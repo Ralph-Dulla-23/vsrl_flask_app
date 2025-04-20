@@ -1,0 +1,328 @@
+{
+  "image_id": "1714",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          276,
+          0
+        ],
+        [
+          403,
+          17
+        ]
+      ],
+      "value": "unconformity trap",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          167,
+          13
+        ],
+        [
+          263,
+          33
+        ]
+      ],
+      "value": "anticlinal trap",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          392,
+          26
+        ],
+        [
+          540,
+          45
+        ]
+      ],
+      "value": "tilted fault-block trap",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          72,
+          279
+        ],
+        [
+          127,
+          298
+        ]
+      ],
+      "value": "oil pool",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          4,
+          264
+        ],
+        [
+          1,
+          119
+        ],
+        [
+          72,
+          84
+        ],
+        [
+          140,
+          63
+        ],
+        [
+          199,
+          54
+        ],
+        [
+          241,
+          55
+        ],
+        [
+          304,
+          57
+        ],
+        [
+          400,
+          67
+        ],
+        [
+          461,
+          75
+        ],
+        [
+          544,
+          82
+        ],
+        [
+          549,
+          128
+        ],
+        [
+          549,
+          168
+        ],
+        [
+          549,
+          267
+        ],
+        [
+          5,
+          265
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          213,
+          30
+        ],
+        [
+          238,
+          80
+        ],
+        [
+          248,
+          74
+        ],
+        [
+          223,
+          27
+        ],
+        [
+          214,
+          28
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          328,
+          13
+        ],
+        [
+          218,
+          159
+        ],
+        [
+          225,
+          165
+        ],
+        [
+          338,
+          18
+        ],
+        [
+          329,
+          11
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          454,
+          41
+        ],
+        [
+          370,
+          172
+        ],
+        [
+          380,
+          179
+        ],
+        [
+          464,
+          47
+        ],
+        [
+          455,
+          42
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T1+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T2+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T3+I0",
+      "type": "imageCaption",
+      "source": "T3",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "unconformity trap anticlinal trap tilted fault-block trap oil pool"
+  },
+  "questions": [
+    {
+      "question_text": "What is directly below the first layer?",
+      "question_id": "1714.png-1",
+      "answers": [
+        "mud",
+        "tilted fault-block trap",
+        "unconformity trap",
+        "anticlinal trap"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is represented by the red parts of the diagram?",
+      "question_id": "1714.png-2",
+      "answers": [
+        "gold",
+        "blood",
+        "water",
+        "oil pool"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "label anticlinal trap in diagram?",
+      "question_id": "1714.png-0",
+      "answers": [
+        "c",
+        "a",
+        "b",
+        "d"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

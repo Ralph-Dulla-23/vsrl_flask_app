@@ -1,0 +1,636 @@
+{
+  "image_id": "3863",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          13,
+          165
+        ],
+        [
+          88,
+          182
+        ]
+      ],
+      "value": "Guard cells",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          144,
+          167
+        ],
+        [
+          198,
+          182
+        ]
+      ],
+      "value": "Stomata",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          220,
+          162
+        ],
+        [
+          346,
+          183
+        ]
+      ],
+      "value": "Intercellular chamber",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          299,
+          18
+        ],
+        [
+          403,
+          36
+        ]
+      ],
+      "value": "Upper epidermis",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          302,
+          45
+        ],
+        [
+          391,
+          65
+        ]
+      ],
+      "value": "Palisade layer",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          302,
+          74
+        ],
+        [
+          400,
+          91
+        ]
+      ],
+      "value": "Vascular bundle",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          302,
+          105
+        ],
+        [
+          419,
+          121
+        ]
+      ],
+      "value": "Spongy mesophyll",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          304,
+          132
+        ],
+        [
+          405,
+          150
+        ]
+      ],
+      "value": "Lower epidermis",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          74,
+          8
+        ],
+        [
+          284,
+          17
+        ],
+        [
+          282,
+          18
+        ],
+        [
+          282,
+          161
+        ],
+        [
+          276,
+          159
+        ],
+        [
+          0,
+          155
+        ],
+        [
+          0,
+          155
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          76,
+          6
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          86,
+          151
+        ],
+        [
+          90,
+          172
+        ],
+        [
+          94,
+          172
+        ],
+        [
+          98,
+          155
+        ],
+        [
+          98,
+          151
+        ],
+        [
+          84,
+          152
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          106,
+          150
+        ],
+        [
+          95,
+          167
+        ],
+        [
+          99,
+          175
+        ],
+        [
+          116,
+          157
+        ],
+        [
+          107,
+          151
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          180,
+          150
+        ],
+        [
+          179,
+          166
+        ],
+        [
+          188,
+          168
+        ],
+        [
+          194,
+          154
+        ],
+        [
+          182,
+          151
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          186,
+          127
+        ],
+        [
+          209,
+          173
+        ],
+        [
+          219,
+          170
+        ],
+        [
+          190,
+          119
+        ],
+        [
+          186,
+          124
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          280,
+          146
+        ],
+        [
+          301,
+          147
+        ],
+        [
+          301,
+          136
+        ],
+        [
+          281,
+          136
+        ],
+        [
+          277,
+          145
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          232,
+          103
+        ],
+        [
+          306,
+          85
+        ],
+        [
+          298,
+          75
+        ],
+        [
+          219,
+          95
+        ],
+        [
+          227,
+          104
+        ],
+        [
+          234,
+          104
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          278,
+          118
+        ],
+        [
+          279,
+          110
+        ],
+        [
+          302,
+          109
+        ],
+        [
+          302,
+          120
+        ],
+        [
+          281,
+          120
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          280,
+          59
+        ],
+        [
+          302,
+          59
+        ],
+        [
+          300,
+          50
+        ],
+        [
+          280,
+          50
+        ],
+        [
+          277,
+          59
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          277,
+          33
+        ],
+        [
+          303,
+          34
+        ],
+        [
+          304,
+          22
+        ],
+        [
+          276,
+          20
+        ],
+        [
+          276,
+          32
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H6",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H5",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H3",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H2",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H1",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H8",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H8",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H4",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H0",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A8+H7",
+      "type": "arrowHeadTail",
+      "source": "A8",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T0+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T1+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T2+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T3+A8+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A8",
+      "directional": false
+    },
+    {
+      "id": "T4+A7+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T5+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T6+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T7+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "guard cells stomata intercellular chamber upper epidermis palisade layer vascular bundle spongy mesophyll lower epidermis"
+  },
+  "questions": [
+    {
+      "question_text": "The outer, protective, nonvascular layer of the skin of vertebrates, covering the dermis.",
+      "question_id": "3863.png-1",
+      "answers": [
+        "Guard cells",
+        "Upper epidermis",
+        "Stomata",
+        "Palisade Layer"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the outermost layer of the leaf?",
+      "question_id": "3863.png-0",
+      "answers": [
+        "E",
+        "H",
+        "G",
+        "B"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    }
+  ]
+}

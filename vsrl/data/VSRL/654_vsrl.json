@@ -1,0 +1,320 @@
+{
+  "image_id": "654",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          148,
+          0
+        ],
+        [
+          197,
+          16
+        ]
+      ],
+      "value": "Saturn",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          364
+        ],
+        [
+          78,
+          383
+        ]
+      ],
+      "value": "Rocky core",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          32,
+          414
+        ],
+        [
+          134,
+          448
+        ]
+      ],
+      "value": "Liquid metallic hydrogen",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          198,
+          413
+        ],
+        [
+          275,
+          448
+        ]
+      ],
+      "value": "Molecular hydrogen",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          148,
+          354
+        ],
+        [
+          77,
+          331
+        ],
+        [
+          28,
+          275
+        ],
+        [
+          5,
+          205
+        ],
+        [
+          14,
+          136
+        ],
+        [
+          48,
+          83
+        ],
+        [
+          93,
+          45
+        ],
+        [
+          146,
+          28
+        ],
+        [
+          204,
+          28
+        ],
+        [
+          251,
+          45
+        ],
+        [
+          296,
+          78
+        ],
+        [
+          329,
+          134
+        ],
+        [
+          337,
+          205
+        ],
+        [
+          322,
+          266
+        ],
+        [
+          293,
+          306
+        ],
+        [
+          233,
+          350
+        ],
+        [
+          169,
+          360
+        ],
+        [
+          149,
+          357
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          153,
+          191
+        ],
+        [
+          34,
+          364
+        ],
+        [
+          43,
+          368
+        ],
+        [
+          162,
+          195
+        ],
+        [
+          156,
+          191
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          136,
+          250
+        ],
+        [
+          76,
+          414
+        ],
+        [
+          88,
+          418
+        ],
+        [
+          143,
+          250
+        ],
+        [
+          133,
+          247
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          191,
+          305
+        ],
+        [
+          234,
+          419
+        ],
+        [
+          242,
+          417
+        ],
+        [
+          201,
+          300
+        ],
+        [
+          193,
+          305
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T2+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T3+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "earth_science",
+    "diagram_type": "labeled_illustration",
+    "text_content": "saturn rocky core liquid metallic hydrogen molecular hydrogen"
+  },
+  "questions": [
+    {
+      "question_text": "What is the part represented by A?",
+      "question_id": "654.png-1",
+      "answers": [
+        "none of the above",
+        "liquid metallic hydrogen",
+        "molecular hydrogen",
+        "rocky core"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "which is the inner part of  saturn?",
+      "question_id": "654.png-0",
+      "answers": [
+        "Liquid metallic hydrogen",
+        "Rocky core",
+        "none",
+        "molecular hydrogen"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "which is the middle part of  saturn?",
+      "question_id": "654.png-2",
+      "answers": [
+        "none",
+        "Rocky core",
+        "molecular hydrogen",
+        "Liquid metallic hydrogen"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    }
+  ]
+}

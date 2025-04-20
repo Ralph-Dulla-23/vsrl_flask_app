@@ -1,0 +1,498 @@
+{
+  "image_id": "2452",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          328,
+          125
+        ],
+        [
+          338,
+          203
+        ]
+      ],
+      "value": "EnchantedLearning.com",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          44,
+          11
+        ],
+        [
+          39,
+          21
+        ],
+        [
+          58,
+          23
+        ],
+        [
+          63,
+          15
+        ],
+        [
+          46,
+          10
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          205,
+          22
+        ],
+        [
+          216,
+          8
+        ],
+        [
+          243,
+          15
+        ],
+        [
+          273,
+          9
+        ],
+        [
+          303,
+          11
+        ],
+        [
+          321,
+          22
+        ],
+        [
+          318,
+          33
+        ],
+        [
+          286,
+          28
+        ],
+        [
+          259,
+          34
+        ],
+        [
+          238,
+          46
+        ],
+        [
+          217,
+          38
+        ],
+        [
+          206,
+          26
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          177,
+          168
+        ],
+        [
+          189,
+          150
+        ],
+        [
+          217,
+          139
+        ],
+        [
+          249,
+          133
+        ],
+        [
+          284,
+          142
+        ],
+        [
+          308,
+          162
+        ],
+        [
+          323,
+          171
+        ],
+        [
+          306,
+          179
+        ],
+        [
+          280,
+          170
+        ],
+        [
+          247,
+          174
+        ],
+        [
+          228,
+          183
+        ],
+        [
+          203,
+          191
+        ],
+        [
+          177,
+          179
+        ],
+        [
+          177,
+          168
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          56,
+          191
+        ],
+        [
+          72,
+          177
+        ],
+        [
+          88,
+          182
+        ],
+        [
+          90,
+          176
+        ],
+        [
+          82,
+          171
+        ],
+        [
+          83,
+          146
+        ],
+        [
+          89,
+          146
+        ],
+        [
+          89,
+          140
+        ],
+        [
+          83,
+          134
+        ],
+        [
+          82,
+          86
+        ],
+        [
+          91,
+          78
+        ],
+        [
+          91,
+          59
+        ],
+        [
+          58,
+          71
+        ],
+        [
+          47,
+          71
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          19,
+          78
+        ],
+        [
+          26,
+          84
+        ],
+        [
+          26,
+          111
+        ],
+        [
+          25,
+          135
+        ],
+        [
+          17,
+          142
+        ],
+        [
+          18,
+          148
+        ],
+        [
+          22,
+          147
+        ],
+        [
+          25,
+          168
+        ],
+        [
+          16,
+          180
+        ],
+        [
+          21,
+          187
+        ],
+        [
+          32,
+          177
+        ],
+        [
+          42,
+          188
+        ],
+        [
+          53,
+          191
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          255,
+          76
+        ],
+        [
+          253,
+          120
+        ],
+        [
+          265,
+          123
+        ],
+        [
+          264,
+          76
+        ],
+        [
+          255,
+          74
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          117,
+          29
+        ],
+        [
+          164,
+          30
+        ],
+        [
+          161,
+          21
+        ],
+        [
+          116,
+          23
+        ],
+        [
+          116,
+          33
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          55,
+          61
+        ],
+        [
+          57,
+          40
+        ],
+        [
+          47,
+          37
+        ],
+        [
+          48,
+          62
+        ],
+        [
+          59,
+          63
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          122,
+          170
+        ],
+        [
+          168,
+          172
+        ],
+        [
+          169,
+          165
+        ],
+        [
+          123,
+          161
+        ],
+        [
+          122,
+          171
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H2",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H3",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H1",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A1+B1",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B1",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "B1+A0+B2",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B2",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "B2+A3+B3",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B3",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "B3+A2+B0",
+      "type": "interObjectLinkage",
+      "source": "B3",
+      "target": "B0",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T0+I0",
+      "type": "misc",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "enchantedlearning.com"
+  },
+  "questions": [
+    {
+      "question_text": "How many total stages are shown in the diagram?",
+      "question_id": "2452.png-0",
+      "answers": [
+        "4",
+        "5",
+        "2",
+        "2"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

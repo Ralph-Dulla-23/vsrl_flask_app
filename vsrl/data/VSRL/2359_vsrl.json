@@ -1,0 +1,258 @@
+{
+  "image_id": "2359",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          65,
+          5
+        ],
+        [
+          95,
+          21
+        ]
+      ],
+      "value": "egg",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          39
+        ],
+        [
+          91,
+          77
+        ]
+      ],
+      "value": "adult nematode capable of reproduction",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          93,
+          51
+        ],
+        [
+          149,
+          77
+        ]
+      ],
+      "value": "4 juvenile stages",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          21,
+          38
+        ],
+        [
+          54,
+          42
+        ],
+        [
+          65,
+          12
+        ],
+        [
+          47,
+          4
+        ],
+        [
+          20,
+          34
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          116,
+          6
+        ],
+        [
+          136,
+          54
+        ],
+        [
+          116,
+          56
+        ],
+        [
+          104,
+          21
+        ],
+        [
+          116,
+          12
+        ],
+        [
+          116,
+          12
+        ],
+        [
+          115,
+          7
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          34,
+          72
+        ],
+        [
+          120,
+          74
+        ],
+        [
+          117,
+          94
+        ],
+        [
+          32,
+          101
+        ],
+        [
+          35,
+          74
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H2",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H0",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A1+T2",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T2",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T1+A0+T0",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T0",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T2+A2+T1",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T1",
+      "connector": "A2",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "egg adult nematode capable of reproduction 4 juvenile stages"
+  },
+  "questions": [
+    {
+      "question_text": "How many stages are shown in the diagram?",
+      "question_id": "2359.png-3",
+      "answers": [
+        "5",
+        "none of the above",
+        "4",
+        "3"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is this a life cycle of?",
+      "question_id": "2359.png-0",
+      "answers": [
+        "human",
+        "nematode",
+        "rat",
+        "none of the above"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What letter represents juvenile stages?",
+      "question_id": "2359.png-2",
+      "answers": [
+        "C",
+        "A",
+        "B",
+        "None of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "What letter represents the egg?",
+      "question_id": "2359.png-1",
+      "answers": [
+        "B",
+        "C",
+        "None of the above",
+        "A"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

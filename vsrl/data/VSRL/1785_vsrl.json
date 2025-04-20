@@ -1,0 +1,526 @@
+{
+  "image_id": "1785",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          13,
+          125
+        ],
+        [
+          54,
+          140
+        ]
+      ],
+      "value": "sun",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          120,
+          121
+        ],
+        [
+          226,
+          163
+        ]
+      ],
+      "value": "holly leaves 6000",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          302,
+          122
+        ],
+        [
+          390,
+          183
+        ]
+      ],
+      "value": "holly leaf-miner",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          448,
+          126
+        ],
+        [
+          528,
+          160
+        ]
+      ],
+      "value": "parasites 89",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          446,
+          235
+        ],
+        [
+          630,
+          274
+        ]
+      ],
+      "value": "other causes of death 64",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          447,
+          32
+        ],
+        [
+          508,
+          72
+        ]
+      ],
+      "value": "blue tit",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          595,
+          33
+        ],
+        [
+          709,
+          58
+        ]
+      ],
+      "value": "sparrowhawk",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          514,
+          35
+        ],
+        [
+          589,
+          37
+        ],
+        [
+          589,
+          48
+        ],
+        [
+          513,
+          49
+        ],
+        [
+          513,
+          35
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          360,
+          126
+        ],
+        [
+          445,
+          48
+        ],
+        [
+          434,
+          36
+        ],
+        [
+          354,
+          112
+        ],
+        [
+          359,
+          125
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          385,
+          126
+        ],
+        [
+          385,
+          133
+        ],
+        [
+          446,
+          137
+        ],
+        [
+          445,
+          126
+        ],
+        [
+          383,
+          126
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          227,
+          129
+        ],
+        [
+          303,
+          128
+        ],
+        [
+          303,
+          137
+        ],
+        [
+          226,
+          139
+        ],
+        [
+          228,
+          129
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          50,
+          126
+        ],
+        [
+          119,
+          127
+        ],
+        [
+          119,
+          137
+        ],
+        [
+          52,
+          138
+        ],
+        [
+          50,
+          128
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          348,
+          175
+        ],
+        [
+          434,
+          264
+        ],
+        [
+          447,
+          256
+        ],
+        [
+          357,
+          167
+        ],
+        [
+          347,
+          175
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H4",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H5",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H3",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H1",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H0",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H2",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A4+T1",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T1",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T1+A3+T2",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T2",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T2+A1+T5",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T5",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T2+A2+T3",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T3",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T2+A5+T4",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T4",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T5+A0+T6",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T6",
+      "connector": "A0",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "sun holly leaves 6000 holly leaf-miner parasites 89 other causes of death 64 blue tit sparrowhawk"
+  },
+  "questions": [
+    {
+      "question_text": "Based on the given food web diagram, which animal does the sparrowhawk consume on?",
+      "question_id": "1785.png-9",
+      "answers": [
+        "Holly leaves",
+        "Sun",
+        "blue tit",
+        "holly leaf miner"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Based on the given food web diagram, which is the tertiary consumer",
+      "question_id": "1785.png-4",
+      "answers": [
+        "sparrow Hawk",
+        "sun",
+        "holly leaf miner",
+        "holly leaves"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Blue tit in the given chart represents?",
+      "question_id": "1785.png-0",
+      "answers": [
+        "Predator",
+        "Primary consumer",
+        "Producer",
+        "Secondary consumer"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Food energy relationship among organisms is shown below. Which organisms consumes energy from sun?",
+      "question_id": "1785.png-5",
+      "answers": [
+        "parasites",
+        "sun",
+        "Holly leaves",
+        "blue tit"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the above food web diagram, which of the following provide light",
+      "question_id": "1785.png-6",
+      "answers": [
+        "none",
+        "plants",
+        "deer",
+        "sun"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the above food web diagram, which of the species provide energy to consumer",
+      "question_id": "1785.png-3",
+      "answers": [
+        "none",
+        "primary consumer",
+        "bacteria",
+        "plants"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Part of a food web is shown. Sparrowhawk is a/an?",
+      "question_id": "1785.png-2",
+      "answers": [
+        "Prey",
+        "Decomposer",
+        "Predator",
+        "Producer"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is considered a producer?",
+      "question_id": "1785.png-7",
+      "answers": [
+        "Holly Leaves",
+        "Parasites",
+        "Sparrowhawk",
+        "Blue Tit"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would cause a decrease in sparrowhawks?",
+      "question_id": "1785.png-8",
+      "answers": [
+        "Increasing parasites",
+        "Increasing holly leaves",
+        "Removing blue tits",
+        "Increasing leaf-miners"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which is the primary source of energy as per the diagram shown?",
+      "question_id": "1785.png-1",
+      "answers": [
+        "Holly Leaves",
+        "Sun",
+        "Blue tit",
+        "Parasites"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

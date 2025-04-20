@@ -1,0 +1,678 @@
+{
+  "image_id": "2618",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          601,
+          190
+        ],
+        [
+          683,
+          233
+        ]
+      ],
+      "value": "Tides",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          822,
+          299
+        ],
+        [
+          1107,
+          345
+        ]
+      ],
+      "value": "Earth tugs on moon",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          836,
+          500
+        ],
+        [
+          1114,
+          537
+        ]
+      ],
+      "value": "Moon tugs on Earth",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          482,
+          411
+        ],
+        [
+          488,
+          387
+        ],
+        [
+          498,
+          356
+        ],
+        [
+          515,
+          332
+        ],
+        [
+          540,
+          313
+        ],
+        [
+          564,
+          296
+        ],
+        [
+          593,
+          285
+        ],
+        [
+          632,
+          276
+        ],
+        [
+          669,
+          276
+        ],
+        [
+          703,
+          285
+        ],
+        [
+          732,
+          301
+        ],
+        [
+          757,
+          316
+        ],
+        [
+          777,
+          333
+        ],
+        [
+          791,
+          356
+        ],
+        [
+          802,
+          380
+        ],
+        [
+          807,
+          401
+        ],
+        [
+          807,
+          437
+        ],
+        [
+          798,
+          454
+        ],
+        [
+          787,
+          479
+        ],
+        [
+          764,
+          503
+        ],
+        [
+          739,
+          523
+        ],
+        [
+          716,
+          533
+        ],
+        [
+          712,
+          539
+        ],
+        [
+          712,
+          539
+        ],
+        [
+          681,
+          549
+        ],
+        [
+          654,
+          553
+        ],
+        [
+          654,
+          553
+        ],
+        [
+          625,
+          552
+        ],
+        [
+          597,
+          542
+        ],
+        [
+          571,
+          529
+        ],
+        [
+          549,
+          519
+        ],
+        [
+          529,
+          506
+        ],
+        [
+          512,
+          486
+        ],
+        [
+          509,
+          485
+        ],
+        [
+          496,
+          464
+        ],
+        [
+          495,
+          461
+        ],
+        [
+          486,
+          440
+        ],
+        [
+          481,
+          413
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          1154,
+          373
+        ],
+        [
+          1163,
+          366
+        ],
+        [
+          1178,
+          357
+        ],
+        [
+          1192,
+          354
+        ],
+        [
+          1209,
+          359
+        ],
+        [
+          1226,
+          370
+        ],
+        [
+          1233,
+          387
+        ],
+        [
+          1233,
+          410
+        ],
+        [
+          1224,
+          428
+        ],
+        [
+          1202,
+          440
+        ],
+        [
+          1182,
+          440
+        ],
+        [
+          1180,
+          438
+        ],
+        [
+          1158,
+          428
+        ],
+        [
+          1158,
+          427
+        ],
+        [
+          1148,
+          408
+        ],
+        [
+          1150,
+          388
+        ],
+        [
+          1155,
+          371
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          855,
+          357
+        ],
+        [
+          855,
+          393
+        ],
+        [
+          964,
+          394
+        ],
+        [
+          973,
+          411
+        ],
+        [
+          1085,
+          381
+        ],
+        [
+          966,
+          346
+        ],
+        [
+          966,
+          357
+        ],
+        [
+          855,
+          356
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          839,
+          461
+        ],
+        [
+          967,
+          432
+        ],
+        [
+          968,
+          448
+        ],
+        [
+          1082,
+          454
+        ],
+        [
+          1083,
+          485
+        ],
+        [
+          967,
+          486
+        ],
+        [
+          960,
+          500
+        ],
+        [
+          841,
+          466
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          540,
+          288
+        ],
+        [
+          564,
+          306
+        ],
+        [
+          642,
+          245
+        ],
+        [
+          730,
+          306
+        ],
+        [
+          736,
+          296
+        ],
+        [
+          638,
+          223
+        ],
+        [
+          537,
+          288
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          1173,
+          357
+        ],
+        [
+          1199,
+          359
+        ],
+        [
+          1158,
+          274
+        ],
+        [
+          1043,
+          160
+        ],
+        [
+          818,
+          74
+        ],
+        [
+          552,
+          52
+        ],
+        [
+          313,
+          113
+        ],
+        [
+          177,
+          191
+        ],
+        [
+          64,
+          323
+        ],
+        [
+          58,
+          492
+        ],
+        [
+          81,
+          540
+        ],
+        [
+          160,
+          648
+        ],
+        [
+          325,
+          737
+        ],
+        [
+          512,
+          784
+        ],
+        [
+          824,
+          793
+        ],
+        [
+          1039,
+          693
+        ],
+        [
+          1164,
+          580
+        ],
+        [
+          1214,
+          459
+        ],
+        [
+          1207,
+          442
+        ],
+        [
+          1180,
+          444
+        ],
+        [
+          1170,
+          496
+        ],
+        [
+          1136,
+          570
+        ],
+        [
+          1078,
+          625
+        ],
+        [
+          998,
+          675
+        ],
+        [
+          827,
+          744
+        ],
+        [
+          618,
+          767
+        ],
+        [
+          468,
+          750
+        ],
+        [
+          360,
+          720
+        ],
+        [
+          252,
+          669
+        ],
+        [
+          143,
+          577
+        ],
+        [
+          92,
+          495
+        ],
+        [
+          81,
+          413
+        ],
+        [
+          105,
+          347
+        ],
+        [
+          113,
+          315
+        ],
+        [
+          160,
+          257
+        ],
+        [
+          241,
+          191
+        ],
+        [
+          354,
+          138
+        ],
+        [
+          464,
+          106
+        ],
+        [
+          601,
+          91
+        ],
+        [
+          771,
+          103
+        ],
+        [
+          956,
+          155
+        ],
+        [
+          1051,
+          207
+        ],
+        [
+          1121,
+          275
+        ],
+        [
+          1168,
+          359
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "tides earth tugs on moon moon tugs on earth"
+  },
+  "questions": [
+    {
+      "question_text": "What is represented at letter B?",
+      "question_id": "2618.png-2",
+      "answers": [
+        "moon tugs on Earth",
+        "presence of tides",
+        "Earth tugs on moon",
+        "position of sun"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "What part of the diagram shows the moon's gravitational pull on earth?",
+      "question_id": "2618.png-3",
+      "answers": [
+        "C",
+        "B",
+        "",
+        "A"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "What process causes tides?",
+      "question_id": "2618.png-0",
+      "answers": [
+        "earth and moon tugging on each other",
+        "size of the sun",
+        "distance to mars",
+        "presence of asteroids around Earth"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which is known as natural satellite of the Earth?",
+      "question_id": "2618.png-1",
+      "answers": [
+        "Tides",
+        "Earth",
+        "Moon",
+        "Sun"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

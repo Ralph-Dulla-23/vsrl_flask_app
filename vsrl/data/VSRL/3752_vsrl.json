@@ -1,0 +1,980 @@
+{
+  "image_id": "3752",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          8,
+          625
+        ],
+        [
+          139,
+          655
+        ]
+      ],
+      "value": "Right lung",
+      "replacementText": "N",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          289,
+          4
+        ],
+        [
+          714,
+          54
+        ]
+      ],
+      "value": "Respiratory System",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T10": {
+      "id": "T10",
+      "type": "text",
+      "bbox": [
+        [
+          830,
+          582
+        ],
+        [
+          937,
+          615
+        ]
+      ],
+      "value": "Left lung",
+      "replacementText": "L",
+      "category": "label"
+    },
+    "T11": {
+      "id": "T11",
+      "type": "text",
+      "bbox": [
+        [
+          871,
+          624
+        ],
+        [
+          950,
+          652
+        ]
+      ],
+      "value": "Pleura",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T12": {
+      "id": "T12",
+      "type": "text",
+      "bbox": [
+        [
+          851,
+          669
+        ],
+        [
+          1023,
+          734
+        ]
+      ],
+      "value": "Bronchioles (small airways)",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T13": {
+      "id": "T13",
+      "type": "text",
+      "bbox": [
+        [
+          870,
+          747
+        ],
+        [
+          982,
+          810
+        ]
+      ],
+      "value": "Alveoli (air sacs)",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          231,
+          1146
+        ],
+        [
+          773,
+          1166
+        ]
+      ],
+      "value": "Copyright \u00a9 2005 McKesson Health Solutions, LLC, All Rights Reserved",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          759,
+          285
+        ],
+        [
+          904,
+          318
+        ]
+      ],
+      "value": "Nasal cavity",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          747,
+          338
+        ],
+        [
+          826,
+          368
+        ]
+      ],
+      "value": "Mouth",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          746,
+          384
+        ],
+        [
+          857,
+          418
+        ]
+      ],
+      "value": "Epiglottis",
+      "replacementText": "K",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          738,
+          443
+        ],
+        [
+          941,
+          478
+        ]
+      ],
+      "value": "Thyroid cartilage",
+      "replacementText": "M",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          778,
+          516
+        ],
+        [
+          1000,
+          547
+        ]
+      ],
+      "value": "Trachea (windpipe)",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          230,
+          338
+        ],
+        [
+          333,
+          405
+        ]
+      ],
+      "value": "Pharynx (throat)",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          541
+        ],
+        [
+          182,
+          572
+        ]
+      ],
+      "value": "Bronchial tubes",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          559,
+          106
+        ],
+        [
+          462,
+          106
+        ],
+        [
+          402,
+          134
+        ],
+        [
+          357,
+          184
+        ],
+        [
+          341,
+          241
+        ],
+        [
+          346,
+          289
+        ],
+        [
+          367,
+          349
+        ],
+        [
+          381,
+          393
+        ],
+        [
+          381,
+          447
+        ],
+        [
+          375,
+          478
+        ],
+        [
+          355,
+          507
+        ],
+        [
+          288,
+          555
+        ],
+        [
+          224,
+          590
+        ],
+        [
+          180,
+          616
+        ],
+        [
+          153,
+          668
+        ],
+        [
+          136,
+          724
+        ],
+        [
+          134,
+          812
+        ],
+        [
+          117,
+          961
+        ],
+        [
+          271,
+          988
+        ],
+        [
+          270,
+          1075
+        ],
+        [
+          718,
+          1078
+        ],
+        [
+          711,
+          1046
+        ],
+        [
+          724,
+          975
+        ],
+        [
+          738,
+          989
+        ],
+        [
+          884,
+          961
+        ],
+        [
+          864,
+          865
+        ],
+        [
+          853,
+          844
+        ],
+        [
+          858,
+          740
+        ],
+        [
+          825,
+          646
+        ],
+        [
+          760,
+          564
+        ],
+        [
+          586,
+          499
+        ],
+        [
+          591,
+          468
+        ],
+        [
+          660,
+          455
+        ],
+        [
+          672,
+          401
+        ],
+        [
+          677,
+          346
+        ],
+        [
+          695,
+          338
+        ],
+        [
+          695,
+          305
+        ],
+        [
+          660,
+          248
+        ],
+        [
+          651,
+          187
+        ],
+        [
+          563,
+          105
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          332,
+          344
+        ],
+        [
+          333,
+          370
+        ],
+        [
+          528,
+          366
+        ],
+        [
+          528,
+          333
+        ],
+        [
+          336,
+          342
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          634,
+          284
+        ],
+        [
+          634,
+          312
+        ],
+        [
+          753,
+          312
+        ],
+        [
+          753,
+          283
+        ],
+        [
+          638,
+          283
+        ]
+      ],
+      "category": "connector"
+    },
+    "A10": {
+      "id": "A10",
+      "type": "arrow",
+      "polygon": [
+        [
+          644,
+          834
+        ],
+        [
+          657,
+          853
+        ],
+        [
+          875,
+          768
+        ],
+        [
+          873,
+          757
+        ],
+        [
+          650,
+          835
+        ]
+      ],
+      "category": "connector"
+    },
+    "A11": {
+      "id": "A11",
+      "type": "arrow",
+      "polygon": [
+        [
+          664,
+          783
+        ],
+        [
+          670,
+          794
+        ],
+        [
+          874,
+          769
+        ],
+        [
+          874,
+          752
+        ],
+        [
+          669,
+          781
+        ]
+      ],
+      "category": "connector"
+    },
+    "A12": {
+      "id": "A12",
+      "type": "arrow",
+      "polygon": [
+        [
+          187,
+          550
+        ],
+        [
+          184,
+          572
+        ],
+        [
+          472,
+          685
+        ],
+        [
+          478,
+          674
+        ],
+        [
+          191,
+          551
+        ]
+      ],
+      "category": "connector"
+    },
+    "A13": {
+      "id": "A13",
+      "type": "arrow",
+      "polygon": [
+        [
+          137,
+          635
+        ],
+        [
+          137,
+          656
+        ],
+        [
+          327,
+          734
+        ],
+        [
+          328,
+          704
+        ],
+        [
+          141,
+          637
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          630,
+          349
+        ],
+        [
+          630,
+          364
+        ],
+        [
+          747,
+          363
+        ],
+        [
+          746,
+          342
+        ],
+        [
+          630,
+          345
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          536,
+          389
+        ],
+        [
+          537,
+          415
+        ],
+        [
+          739,
+          415
+        ],
+        [
+          739,
+          388
+        ],
+        [
+          536,
+          388
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          495,
+          473
+        ],
+        [
+          498,
+          495
+        ],
+        [
+          744,
+          468
+        ],
+        [
+          738,
+          445
+        ],
+        [
+          498,
+          469
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          495,
+          525
+        ],
+        [
+          499,
+          551
+        ],
+        [
+          782,
+          541
+        ],
+        [
+          781,
+          525
+        ],
+        [
+          497,
+          524
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          609,
+          591
+        ],
+        [
+          612,
+          617
+        ],
+        [
+          830,
+          607
+        ],
+        [
+          826,
+          581
+        ],
+        [
+          615,
+          591
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          661,
+          661
+        ],
+        [
+          681,
+          695
+        ],
+        [
+          867,
+          651
+        ],
+        [
+          860,
+          625
+        ],
+        [
+          665,
+          663
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          861,
+          687
+        ],
+        [
+          626,
+          770
+        ],
+        [
+          620,
+          759
+        ],
+        [
+          858,
+          681
+        ],
+        [
+          861,
+          687
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          621,
+          701
+        ],
+        [
+          626,
+          721
+        ],
+        [
+          864,
+          695
+        ],
+        [
+          858,
+          682
+        ],
+        [
+          625,
+          699
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A13+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A13",
+      "directional": false
+    },
+    {
+      "id": "T1+I0",
+      "type": "imageTitle",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T10+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T10",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T11+A7+B0",
+      "type": "intraObjectLinkage",
+      "source": "T11",
+      "target": "B0",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T12+A8+B0",
+      "type": "intraObjectLinkage",
+      "source": "T12",
+      "target": "B0",
+      "connector": "A8",
+      "directional": false
+    },
+    {
+      "id": "T12+A9+B0",
+      "type": "intraObjectLinkage",
+      "source": "T12",
+      "target": "B0",
+      "connector": "A9",
+      "directional": false
+    },
+    {
+      "id": "T13+A10+B0",
+      "type": "intraObjectLinkage",
+      "source": "T13",
+      "target": "B0",
+      "connector": "A10",
+      "directional": false
+    },
+    {
+      "id": "T13+A11+B0",
+      "type": "intraObjectLinkage",
+      "source": "T13",
+      "target": "B0",
+      "connector": "A11",
+      "directional": false
+    },
+    {
+      "id": "T2+I0",
+      "type": "misc",
+      "source": "T2",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T4+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T5+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T6+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T7+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T8+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T8",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T9+A12+B0",
+      "type": "intraObjectLinkage",
+      "source": "T9",
+      "target": "B0",
+      "connector": "A12",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "title",
+    "T10": "part_label",
+    "T11": "part_label",
+    "T12": "part_label",
+    "T13": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A10": "connector",
+    "A11": "connector",
+    "A12": "connector",
+    "A13": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "right lung respiratory system left lung pleura bronchioles (small airways) alveoli (air sacs) copyright \u00a9 2005 mckesson health solutions, llc, all rights reserved nasal cavity mouth epiglottis thyroid cartilage trachea (windpipe) pharynx (throat) bronchial tubes"
+  },
+  "questions": [
+    {
+      "question_text": "Another name for the throat is the what?",
+      "question_id": "3752.png-1",
+      "answers": [
+        "Pharynx",
+        "Nasal Cavity",
+        "Lung",
+        "Mouth"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "How many lungs do humans have?",
+      "question_id": "3752.png-0",
+      "answers": [
+        "1",
+        "3",
+        "2",
+        "4"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

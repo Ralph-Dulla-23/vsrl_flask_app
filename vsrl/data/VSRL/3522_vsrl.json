@@ -1,0 +1,646 @@
+{
+  "image_id": "3522",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          153,
+          246
+        ],
+        [
+          273,
+          258
+        ]
+      ],
+      "value": "Section of Plant Cell",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          332,
+          43
+        ],
+        [
+          396,
+          58
+        ]
+      ],
+      "value": "Nucleolus",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          12,
+          56
+        ],
+        [
+          80,
+          75
+        ]
+      ],
+      "value": "Chloroplast",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          43,
+          207
+        ],
+        [
+          130,
+          240
+        ]
+      ],
+      "value": "Cell Wall of Adjacent Cell",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          228,
+          189
+        ],
+        [
+          320,
+          204
+        ]
+      ],
+      "value": "Mitochondrion",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          304,
+          112
+        ],
+        [
+          368,
+          128
+        ]
+      ],
+      "value": "Smooth ER",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          320,
+          95
+        ],
+        [
+          379,
+          111
+        ]
+      ],
+      "value": "Rough ER",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          307,
+          132
+        ],
+        [
+          420,
+          145
+        ]
+      ],
+      "value": "Plasma Membrane",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          314,
+          150
+        ],
+        [
+          367,
+          163
+        ]
+      ],
+      "value": "Cell Wall",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          54,
+          96
+        ],
+        [
+          109,
+          76
+        ],
+        [
+          153,
+          48
+        ],
+        [
+          174,
+          47
+        ],
+        [
+          182,
+          17
+        ],
+        [
+          204,
+          9
+        ],
+        [
+          240,
+          6
+        ],
+        [
+          268,
+          9
+        ],
+        [
+          290,
+          15
+        ],
+        [
+          299,
+          34
+        ],
+        [
+          304,
+          79
+        ],
+        [
+          305,
+          102
+        ],
+        [
+          300,
+          115
+        ],
+        [
+          258,
+          150
+        ],
+        [
+          208,
+          181
+        ],
+        [
+          187,
+          190
+        ],
+        [
+          185,
+          190
+        ],
+        [
+          184,
+          209
+        ],
+        [
+          180,
+          214
+        ],
+        [
+          165,
+          210
+        ],
+        [
+          163,
+          204
+        ],
+        [
+          136,
+          202
+        ],
+        [
+          112,
+          197
+        ],
+        [
+          83,
+          176
+        ],
+        [
+          71,
+          162
+        ],
+        [
+          63,
+          154
+        ],
+        [
+          63,
+          151
+        ],
+        [
+          56,
+          149
+        ],
+        [
+          54,
+          148
+        ],
+        [
+          51,
+          137
+        ],
+        [
+          50,
+          105
+        ],
+        [
+          54,
+          99
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          117,
+          220
+        ],
+        [
+          120,
+          226
+        ],
+        [
+          177,
+          207
+        ],
+        [
+          176,
+          199
+        ],
+        [
+          119,
+          217
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          232,
+          195
+        ],
+        [
+          239,
+          194
+        ],
+        [
+          241,
+          191
+        ],
+        [
+          156,
+          140
+        ],
+        [
+          147,
+          148
+        ],
+        [
+          230,
+          198
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          317,
+          149
+        ],
+        [
+          311,
+          160
+        ],
+        [
+          254,
+          138
+        ],
+        [
+          259,
+          131
+        ],
+        [
+          316,
+          150
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          247,
+          124
+        ],
+        [
+          248,
+          129
+        ],
+        [
+          310,
+          142
+        ],
+        [
+          311,
+          133
+        ],
+        [
+          250,
+          123
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          225,
+          111
+        ],
+        [
+          225,
+          121
+        ],
+        [
+          311,
+          125
+        ],
+        [
+          309,
+          116
+        ],
+        [
+          225,
+          112
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          245,
+          98
+        ],
+        [
+          246,
+          105
+        ],
+        [
+          248,
+          107
+        ],
+        [
+          322,
+          108
+        ],
+        [
+          321,
+          101
+        ],
+        [
+          245,
+          96
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          250,
+          74
+        ],
+        [
+          261,
+          82
+        ],
+        [
+          339,
+          53
+        ],
+        [
+          334,
+          41
+        ],
+        [
+          251,
+          72
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          99,
+          100
+        ],
+        [
+          107,
+          99
+        ],
+        [
+          106,
+          92
+        ],
+        [
+          59,
+          69
+        ],
+        [
+          55,
+          78
+        ],
+        [
+          98,
+          100
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T2+A7+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T3+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T4+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T5+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T6+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T7+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T8+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T8",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "section of plant cell nucleolus chloroplast cell wall of adjacent cell mitochondrion smooth er rough er plasma membrane cell wall"
+  },
+  "questions": [
+    {
+      "question_text": "What is in the center of the nucleus?",
+      "question_id": "3522.png-0",
+      "answers": [
+        "cytoplasm",
+        "none of the above",
+        "cell wall",
+        "nucleolus"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the outer layer of the cell called?",
+      "question_id": "3522.png-1",
+      "answers": [
+        "nucleus",
+        "none of the above",
+        "rough ER",
+        "cell wall"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    }
+  ]
+}

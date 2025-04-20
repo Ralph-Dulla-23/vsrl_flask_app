@@ -1,0 +1,348 @@
+{
+  "image_id": "690",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          458,
+          82
+        ],
+        [
+          868,
+          151
+        ]
+      ],
+      "value": "LUNAR ECLIPSE",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          271,
+          548
+        ],
+        [
+          489,
+          637
+        ]
+      ],
+      "value": "SUN",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          988,
+          294
+        ],
+        [
+          1124,
+          333
+        ]
+      ],
+      "value": "MOON",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          829,
+          463
+        ],
+        [
+          1009,
+          532
+        ]
+      ],
+      "value": "EARTH",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          215,
+          453
+        ],
+        [
+          195,
+          384
+        ],
+        [
+          200,
+          317
+        ],
+        [
+          228,
+          261
+        ],
+        [
+          269,
+          218
+        ],
+        [
+          335,
+          197
+        ],
+        [
+          404,
+          189
+        ],
+        [
+          463,
+          210
+        ],
+        [
+          502,
+          243
+        ],
+        [
+          535,
+          294
+        ],
+        [
+          550,
+          356
+        ],
+        [
+          543,
+          422
+        ],
+        [
+          517,
+          476
+        ],
+        [
+          474,
+          517
+        ],
+        [
+          422,
+          540
+        ],
+        [
+          358,
+          545
+        ],
+        [
+          297,
+          527
+        ],
+        [
+          256,
+          502
+        ],
+        [
+          215,
+          453
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          845,
+          387
+        ],
+        [
+          845,
+          353
+        ],
+        [
+          863,
+          325
+        ],
+        [
+          888,
+          307
+        ],
+        [
+          924,
+          300
+        ],
+        [
+          955,
+          305
+        ],
+        [
+          978,
+          330
+        ],
+        [
+          988,
+          358
+        ],
+        [
+          986,
+          394
+        ],
+        [
+          968,
+          425
+        ],
+        [
+          942,
+          443
+        ],
+        [
+          916,
+          443
+        ],
+        [
+          883,
+          440
+        ],
+        [
+          858,
+          417
+        ],
+        [
+          842,
+          384
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          1060,
+          379
+        ],
+        [
+          1050,
+          358
+        ],
+        [
+          1065,
+          346
+        ],
+        [
+          1085,
+          346
+        ],
+        [
+          1096,
+          364
+        ],
+        [
+          1091,
+          381
+        ],
+        [
+          1070,
+          389
+        ],
+        [
+          1062,
+          376
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B2",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B1",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "lunar eclipse sun moon earth"
+  },
+  "questions": [
+    {
+      "question_text": "A phenomenon occurring when the Earth casts a shadow over the Moon.",
+      "question_id": "690.png-2",
+      "answers": [
+        "solar eclipse",
+        "all of above",
+        "lunar eclipse",
+        "none of above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "Name the phenomenon occurring when the Earth casts a shadow over the Moon?",
+      "question_id": "690.png-1",
+      "answers": [
+        "sun eclipse",
+        "Lunar eclipse",
+        "moon eclipse",
+        "Solar eclipse"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What comes between sun and moon when Lunar eclipse occurs?",
+      "question_id": "690.png-0",
+      "answers": [
+        "None of these",
+        "Moon",
+        "Earth",
+        "Sun"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

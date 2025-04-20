@@ -1,0 +1,434 @@
+{
+  "image_id": "3823",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          31,
+          566
+        ],
+        [
+          232,
+          584
+        ]
+      ],
+      "value": "www.exploringnature.org",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          299,
+          61
+        ],
+        [
+          430,
+          78
+        ]
+      ],
+      "value": "Canis lupus tundrarum",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          290,
+          33
+        ],
+        [
+          439,
+          57
+        ]
+      ],
+      "value": "Arctic Wolf",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          453,
+          173
+        ],
+        [
+          645,
+          205
+        ]
+      ],
+      "value": "thick, white coat that covers whole body, including feet",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          186,
+          363
+        ],
+        [
+          301,
+          423
+        ]
+      ],
+      "value": "smaller ears, and a shorter snout to help survive the cold",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          282,
+          477
+        ],
+        [
+          556,
+          507
+        ]
+      ],
+      "value": "shorter legs keeps the body closer to the ground to help survive the cold",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          633,
+          559
+        ],
+        [
+          758,
+          583
+        ]
+      ],
+      "value": "\u00a9Sheri Amsel",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          239,
+          221
+        ],
+        [
+          272,
+          234
+        ],
+        [
+          306,
+          232
+        ],
+        [
+          319,
+          234
+        ],
+        [
+          355,
+          219
+        ],
+        [
+          364,
+          236
+        ],
+        [
+          369,
+          243
+        ],
+        [
+          414,
+          252
+        ],
+        [
+          533,
+          243
+        ],
+        [
+          577,
+          253
+        ],
+        [
+          601,
+          284
+        ],
+        [
+          606,
+          343
+        ],
+        [
+          602,
+          382
+        ],
+        [
+          607,
+          407
+        ],
+        [
+          580,
+          401
+        ],
+        [
+          557,
+          442
+        ],
+        [
+          533,
+          461
+        ],
+        [
+          492,
+          459
+        ],
+        [
+          497,
+          442
+        ],
+        [
+          514,
+          430
+        ],
+        [
+          521,
+          403
+        ],
+        [
+          498,
+          363
+        ],
+        [
+          464,
+          364
+        ],
+        [
+          422,
+          375
+        ],
+        [
+          425,
+          414
+        ],
+        [
+          402,
+          462
+        ],
+        [
+          356,
+          465
+        ],
+        [
+          323,
+          449
+        ],
+        [
+          299,
+          403
+        ],
+        [
+          324,
+          367
+        ],
+        [
+          312,
+          348
+        ],
+        [
+          288,
+          349
+        ],
+        [
+          258,
+          328
+        ],
+        [
+          234,
+          285
+        ],
+        [
+          241,
+          272
+        ],
+        [
+          226,
+          234
+        ],
+        [
+          238,
+          221
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          186,
+          351
+        ],
+        [
+          201,
+          355
+        ],
+        [
+          242,
+          269
+        ],
+        [
+          229,
+          264
+        ],
+        [
+          187,
+          348
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          305,
+          432
+        ],
+        [
+          291,
+          465
+        ],
+        [
+          300,
+          471
+        ],
+        [
+          316,
+          437
+        ],
+        [
+          308,
+          431
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "misc",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+I0",
+      "type": "imageCaption",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+I0",
+      "type": "imageTitle",
+      "source": "T2",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+I0",
+      "type": "imageCaption",
+      "source": "T3",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T5+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T6+I0",
+      "type": "misc",
+      "source": "T6",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "title",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "www.exploringnature.org canis lupus tundrarum arctic wolf thick, white coat that covers whole body, including feet smaller ears, and a shorter snout to help survive the cold shorter legs keeps the body closer to the ground to help survive the cold \u00a9sheri amsel"
+  },
+  "questions": [
+    {
+      "question_text": "what is the above animal?",
+      "question_id": "3823.png-1",
+      "answers": [
+        "tiger",
+        "arctic wolf",
+        "lion",
+        "dog"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "what is the color of wolf?",
+      "question_id": "3823.png-0",
+      "answers": [
+        "red",
+        "white",
+        "blue",
+        "green"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

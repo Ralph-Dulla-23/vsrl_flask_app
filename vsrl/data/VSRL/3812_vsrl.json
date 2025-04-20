@@ -1,0 +1,717 @@
+{
+  "image_id": "3812",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          123,
+          2
+        ],
+        [
+          197,
+          21
+        ]
+      ],
+      "value": "seed coat",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          124,
+          40
+        ],
+        [
+          193,
+          59
+        ]
+      ],
+      "value": "micropyle",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          120,
+          82
+        ],
+        [
+          164,
+          104
+        ]
+      ],
+      "value": "hilum",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          231,
+          185
+        ],
+        [
+          301,
+          224
+        ]
+      ],
+      "value": "embryonic plant",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          156,
+          218
+        ],
+        [
+          203,
+          233
+        ]
+      ],
+      "value": "radicle",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          155,
+          174
+        ],
+        [
+          213,
+          190
+        ]
+      ],
+      "value": "epicotyl",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          155,
+          196
+        ],
+        [
+          224,
+          213
+        ]
+      ],
+      "value": "hypocotyl",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          154,
+          330
+        ],
+        [
+          229,
+          350
+        ]
+      ],
+      "value": "cotyledons",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          108,
+          361
+        ],
+        [
+          192,
+          383
+        ]
+      ],
+      "value": "Figure 1.1",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          91,
+          174
+        ],
+        [
+          111,
+          185
+        ],
+        [
+          131,
+          206
+        ],
+        [
+          140,
+          226
+        ],
+        [
+          146,
+          250
+        ],
+        [
+          148,
+          273
+        ],
+        [
+          144,
+          294
+        ],
+        [
+          135,
+          316
+        ],
+        [
+          109,
+          344
+        ],
+        [
+          97,
+          352
+        ],
+        [
+          87,
+          349
+        ],
+        [
+          75,
+          341
+        ],
+        [
+          65,
+          325
+        ],
+        [
+          63,
+          340
+        ],
+        [
+          55,
+          353
+        ],
+        [
+          43,
+          353
+        ],
+        [
+          30,
+          344
+        ],
+        [
+          15,
+          317
+        ],
+        [
+          4,
+          289
+        ],
+        [
+          0,
+          241
+        ],
+        [
+          3,
+          209
+        ],
+        [
+          18,
+          189
+        ],
+        [
+          30,
+          180
+        ],
+        [
+          47,
+          179
+        ],
+        [
+          61,
+          192
+        ],
+        [
+          67,
+          183
+        ],
+        [
+          78,
+          175
+        ],
+        [
+          88,
+          176
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          70,
+          169
+        ],
+        [
+          86,
+          139
+        ],
+        [
+          94,
+          103
+        ],
+        [
+          97,
+          61
+        ],
+        [
+          92,
+          27
+        ],
+        [
+          79,
+          7
+        ],
+        [
+          58,
+          0
+        ],
+        [
+          40,
+          8
+        ],
+        [
+          29,
+          29
+        ],
+        [
+          22,
+          58
+        ],
+        [
+          22,
+          88
+        ],
+        [
+          25,
+          118
+        ],
+        [
+          36,
+          145
+        ],
+        [
+          47,
+          163
+        ],
+        [
+          57,
+          173
+        ],
+        [
+          63,
+          173
+        ],
+        [
+          68,
+          169
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          90,
+          28
+        ],
+        [
+          130,
+          18
+        ],
+        [
+          124,
+          6
+        ],
+        [
+          85,
+          16
+        ],
+        [
+          88,
+          26
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          60,
+          52
+        ],
+        [
+          126,
+          55
+        ],
+        [
+          128,
+          45
+        ],
+        [
+          62,
+          42
+        ],
+        [
+          62,
+          51
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          64,
+          72
+        ],
+        [
+          126,
+          90
+        ],
+        [
+          125,
+          100
+        ],
+        [
+          63,
+          86
+        ],
+        [
+          64,
+          73
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          91,
+          194
+        ],
+        [
+          160,
+          193
+        ],
+        [
+          161,
+          179
+        ],
+        [
+          90,
+          179
+        ],
+        [
+          90,
+          191
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          78,
+          219
+        ],
+        [
+          163,
+          211
+        ],
+        [
+          162,
+          198
+        ],
+        [
+          75,
+          209
+        ],
+        [
+          77,
+          218
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          73,
+          226
+        ],
+        [
+          161,
+          218
+        ],
+        [
+          161,
+          230
+        ],
+        [
+          77,
+          240
+        ],
+        [
+          74,
+          229
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          115,
+          301
+        ],
+        [
+          156,
+          340
+        ],
+        [
+          150,
+          342
+        ],
+        [
+          106,
+          310
+        ],
+        [
+          116,
+          303
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          42,
+          318
+        ],
+        [
+          151,
+          347
+        ],
+        [
+          153,
+          340
+        ],
+        [
+          41,
+          304
+        ],
+        [
+          41,
+          317
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H4",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H3",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H0",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H2",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+B1",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B1",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B1",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B1",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T2+A2+B1",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B1",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T5+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T6+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T7+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T7+A7+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T8+I0",
+      "type": "imageTitle",
+      "source": "T8",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "title",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "seed coat micropyle hilum embryonic plant radicle epicotyl hypocotyl cotyledons figure 1.1"
+  },
+  "questions": []
+}

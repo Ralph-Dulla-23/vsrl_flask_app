@@ -1,0 +1,999 @@
+{
+  "image_id": "3572",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          391,
+          4
+        ],
+        [
+          670,
+          36
+        ]
+      ],
+      "value": "Seed Germination",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          630,
+          38
+        ],
+        [
+          699,
+          77
+        ]
+      ],
+      "value": "Foliage leaves",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          370,
+          171
+        ],
+        [
+          478,
+          199
+        ]
+      ],
+      "value": "Cotyledons",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          380,
+          299
+        ],
+        [
+          476,
+          323
+        ]
+      ],
+      "value": "Seed coat",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          283,
+          448
+        ],
+        [
+          420,
+          477
+        ]
+      ],
+      "value": "Bean (dicot)",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          194,
+          363
+        ],
+        [
+          270,
+          410
+        ]
+      ],
+      "value": "Primary root",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          200,
+          151
+        ],
+        [
+          265,
+          195
+        ]
+      ],
+      "value": "Young shoot",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          4,
+          377
+        ],
+        [
+          132,
+          421
+        ]
+      ],
+      "value": "Germinating seed",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          139,
+          363
+        ],
+        [
+          127,
+          340
+        ],
+        [
+          123,
+          316
+        ],
+        [
+          127,
+          276
+        ],
+        [
+          140,
+          266
+        ],
+        [
+          158,
+          263
+        ],
+        [
+          170,
+          271
+        ],
+        [
+          180,
+          291
+        ],
+        [
+          187,
+          316
+        ],
+        [
+          191,
+          351
+        ],
+        [
+          180,
+          374
+        ],
+        [
+          162,
+          379
+        ],
+        [
+          147,
+          378
+        ],
+        [
+          142,
+          365
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          294,
+          375
+        ],
+        [
+          279,
+          350
+        ],
+        [
+          267,
+          309
+        ],
+        [
+          262,
+          271
+        ],
+        [
+          275,
+          232
+        ],
+        [
+          286,
+          195
+        ],
+        [
+          305,
+          184
+        ],
+        [
+          325,
+          192
+        ],
+        [
+          339,
+          204
+        ],
+        [
+          361,
+          221
+        ],
+        [
+          373,
+          242
+        ],
+        [
+          377,
+          260
+        ],
+        [
+          371,
+          290
+        ],
+        [
+          356,
+          318
+        ],
+        [
+          348,
+          324
+        ],
+        [
+          335,
+          314
+        ],
+        [
+          326,
+          309
+        ],
+        [
+          330,
+          323
+        ],
+        [
+          327,
+          342
+        ],
+        [
+          313,
+          370
+        ],
+        [
+          309,
+          389
+        ],
+        [
+          298,
+          389
+        ],
+        [
+          295,
+          374
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          542,
+          450
+        ],
+        [
+          505,
+          418
+        ],
+        [
+          479,
+          381
+        ],
+        [
+          462,
+          347
+        ],
+        [
+          476,
+          305
+        ],
+        [
+          506,
+          271
+        ],
+        [
+          525,
+          257
+        ],
+        [
+          513,
+          203
+        ],
+        [
+          510,
+          181
+        ],
+        [
+          488,
+          166
+        ],
+        [
+          465,
+          148
+        ],
+        [
+          460,
+          128
+        ],
+        [
+          474,
+          121
+        ],
+        [
+          500,
+          121
+        ],
+        [
+          517,
+          142
+        ],
+        [
+          517,
+          124
+        ],
+        [
+          505,
+          107
+        ],
+        [
+          491,
+          99
+        ],
+        [
+          469,
+          101
+        ],
+        [
+          445,
+          110
+        ],
+        [
+          426,
+          115
+        ],
+        [
+          410,
+          121
+        ],
+        [
+          403,
+          108
+        ],
+        [
+          419,
+          93
+        ],
+        [
+          436,
+          78
+        ],
+        [
+          442,
+          56
+        ],
+        [
+          463,
+          45
+        ],
+        [
+          485,
+          39
+        ],
+        [
+          511,
+          44
+        ],
+        [
+          525,
+          51
+        ],
+        [
+          535,
+          58
+        ],
+        [
+          529,
+          68
+        ],
+        [
+          514,
+          76
+        ],
+        [
+          522,
+          88
+        ],
+        [
+          526,
+          101
+        ],
+        [
+          537,
+          87
+        ],
+        [
+          544,
+          79
+        ],
+        [
+          558,
+          83
+        ],
+        [
+          566,
+          89
+        ],
+        [
+          568,
+          74
+        ],
+        [
+          578,
+          69
+        ],
+        [
+          592,
+          70
+        ],
+        [
+          615,
+          71
+        ],
+        [
+          623,
+          79
+        ],
+        [
+          631,
+          104
+        ],
+        [
+          638,
+          138
+        ],
+        [
+          635,
+          161
+        ],
+        [
+          631,
+          172
+        ],
+        [
+          624,
+          166
+        ],
+        [
+          611,
+          163
+        ],
+        [
+          596,
+          152
+        ],
+        [
+          570,
+          139
+        ],
+        [
+          552,
+          124
+        ],
+        [
+          543,
+          117
+        ],
+        [
+          536,
+          134
+        ],
+        [
+          530,
+          150
+        ],
+        [
+          532,
+          155
+        ],
+        [
+          552,
+          160
+        ],
+        [
+          570,
+          170
+        ],
+        [
+          587,
+          188
+        ],
+        [
+          584,
+          203
+        ],
+        [
+          577,
+          211
+        ],
+        [
+          558,
+          214
+        ],
+        [
+          533,
+          196
+        ],
+        [
+          539,
+          222
+        ],
+        [
+          547,
+          240
+        ],
+        [
+          566,
+          241
+        ],
+        [
+          580,
+          240
+        ],
+        [
+          593,
+          241
+        ],
+        [
+          607,
+          242
+        ],
+        [
+          612,
+          243
+        ],
+        [
+          620,
+          245
+        ],
+        [
+          620,
+          265
+        ],
+        [
+          608,
+          302
+        ],
+        [
+          606,
+          326
+        ],
+        [
+          592,
+          327
+        ],
+        [
+          593,
+          339
+        ],
+        [
+          595,
+          357
+        ],
+        [
+          582,
+          375
+        ],
+        [
+          579,
+          385
+        ],
+        [
+          577,
+          396
+        ],
+        [
+          545,
+          418
+        ],
+        [
+          558,
+          431
+        ],
+        [
+          542,
+          448
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          512,
+          71
+        ],
+        [
+          619,
+          59
+        ],
+        [
+          597,
+          81
+        ],
+        [
+          606,
+          86
+        ],
+        [
+          638,
+          49
+        ],
+        [
+          511,
+          60
+        ],
+        [
+          514,
+          69
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          497,
+          150
+        ],
+        [
+          480,
+          183
+        ],
+        [
+          489,
+          189
+        ],
+        [
+          552,
+          190
+        ],
+        [
+          551,
+          178
+        ],
+        [
+          498,
+          178
+        ],
+        [
+          508,
+          152
+        ],
+        [
+          501,
+          149
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          331,
+          219
+        ],
+        [
+          341,
+          179
+        ],
+        [
+          373,
+          178
+        ],
+        [
+          369,
+          187
+        ],
+        [
+          351,
+          188
+        ],
+        [
+          344,
+          225
+        ],
+        [
+          335,
+          221
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          271,
+          178
+        ],
+        [
+          300,
+          200
+        ],
+        [
+          295,
+          204
+        ],
+        [
+          265,
+          186
+        ],
+        [
+          271,
+          175
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          363,
+          264
+        ],
+        [
+          361,
+          273
+        ],
+        [
+          387,
+          275
+        ],
+        [
+          415,
+          305
+        ],
+        [
+          427,
+          301
+        ],
+        [
+          398,
+          266
+        ],
+        [
+          361,
+          262
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          455,
+          304
+        ],
+        [
+          475,
+          282
+        ],
+        [
+          575,
+          280
+        ],
+        [
+          574,
+          271
+        ],
+        [
+          472,
+          269
+        ],
+        [
+          447,
+          301
+        ],
+        [
+          451,
+          302
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          273,
+          381
+        ],
+        [
+          312,
+          364
+        ],
+        [
+          306,
+          356
+        ],
+        [
+          267,
+          374
+        ],
+        [
+          274,
+          381
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          73,
+          370
+        ],
+        [
+          82,
+          378
+        ],
+        [
+          140,
+          348
+        ],
+        [
+          137,
+          337
+        ],
+        [
+          72,
+          370
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+B2",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A0+B2",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B2",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T2+A2+B1",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B1",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T3+A4+B1",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B1",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T4+I0",
+      "type": "imageCaption",
+      "source": "T4",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+A6+B1",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B1",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T6+A3+B1",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B1",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T7+A7+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A7",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "seed germination foliage leaves cotyledons seed coat bean (dicot) primary root young shoot germinating seed"
+  },
+  "questions": []
+}

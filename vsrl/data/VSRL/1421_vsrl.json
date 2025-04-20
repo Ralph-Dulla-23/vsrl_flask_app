@@ -1,0 +1,656 @@
+{
+  "image_id": "1421",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          113,
+          115
+        ],
+        [
+          177,
+          140
+        ]
+      ],
+      "value": "Jupiter",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          261,
+          143
+        ],
+        [
+          338,
+          166
+        ]
+      ],
+      "value": "Mercury",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          374,
+          118
+        ],
+        [
+          424,
+          140
+        ]
+      ],
+      "value": "Mars",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          266,
+          212
+        ],
+        [
+          319,
+          233
+        ]
+      ],
+      "value": "Earth",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          230,
+          255
+        ],
+        [
+          285,
+          274
+        ]
+      ],
+      "value": "Moon",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          207,
+          281
+        ],
+        [
+          263,
+          309
+        ]
+      ],
+      "value": "Venus",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          137,
+          391
+        ],
+        [
+          201,
+          412
+        ]
+      ],
+      "value": "Saturn",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          291,
+          326
+        ],
+        [
+          329,
+          347
+        ]
+      ],
+      "value": "Sun",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          86,
+          390
+        ],
+        [
+          87,
+          415
+        ],
+        [
+          98,
+          422
+        ],
+        [
+          109,
+          426
+        ],
+        [
+          119,
+          416
+        ],
+        [
+          125,
+          408
+        ],
+        [
+          123,
+          397
+        ],
+        [
+          117,
+          386
+        ],
+        [
+          105,
+          380
+        ],
+        [
+          95,
+          383
+        ],
+        [
+          87,
+          390
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          224,
+          348
+        ],
+        [
+          239,
+          370
+        ],
+        [
+          256,
+          373
+        ],
+        [
+          267,
+          370
+        ],
+        [
+          278,
+          357
+        ],
+        [
+          278,
+          343
+        ],
+        [
+          276,
+          332
+        ],
+        [
+          267,
+          322
+        ],
+        [
+          248,
+          322
+        ],
+        [
+          230,
+          328
+        ],
+        [
+          225,
+          347
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          184,
+          302
+        ],
+        [
+          173,
+          301
+        ],
+        [
+          169,
+          291
+        ],
+        [
+          175,
+          280
+        ],
+        [
+          188,
+          277
+        ],
+        [
+          195,
+          285
+        ],
+        [
+          190,
+          295
+        ],
+        [
+          189,
+          300
+        ],
+        [
+          186,
+          301
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          240,
+          238
+        ],
+        [
+          233,
+          238
+        ],
+        [
+          225,
+          229
+        ],
+        [
+          223,
+          216
+        ],
+        [
+          233,
+          206
+        ],
+        [
+          244,
+          205
+        ],
+        [
+          253,
+          211
+        ],
+        [
+          258,
+          222
+        ],
+        [
+          256,
+          230
+        ],
+        [
+          249,
+          239
+        ],
+        [
+          241,
+          239
+        ]
+      ],
+      "category": "object"
+    },
+    "B4": {
+      "id": "B4",
+      "type": "blob",
+      "polygon": [
+        [
+          239,
+          178
+        ],
+        [
+          229,
+          177
+        ],
+        [
+          226,
+          169
+        ],
+        [
+          226,
+          160
+        ],
+        [
+          234,
+          149
+        ],
+        [
+          245,
+          153
+        ],
+        [
+          249,
+          160
+        ],
+        [
+          248,
+          170
+        ],
+        [
+          242,
+          177
+        ]
+      ],
+      "category": "object"
+    },
+    "B5": {
+      "id": "B5",
+      "type": "blob",
+      "polygon": [
+        [
+          87,
+          158
+        ],
+        [
+          71,
+          154
+        ],
+        [
+          61,
+          141
+        ],
+        [
+          62,
+          126
+        ],
+        [
+          74,
+          112
+        ],
+        [
+          92,
+          110
+        ],
+        [
+          104,
+          118
+        ],
+        [
+          108,
+          130
+        ],
+        [
+          106,
+          143
+        ],
+        [
+          98,
+          152
+        ],
+        [
+          89,
+          157
+        ]
+      ],
+      "category": "object"
+    },
+    "B6": {
+      "id": "B6",
+      "type": "blob",
+      "polygon": [
+        [
+          374,
+          162
+        ],
+        [
+          363,
+          159
+        ],
+        [
+          359,
+          150
+        ],
+        [
+          362,
+          140
+        ],
+        [
+          371,
+          137
+        ],
+        [
+          379,
+          138
+        ],
+        [
+          382,
+          148
+        ],
+        [
+          379,
+          157
+        ],
+        [
+          376,
+          161
+        ]
+      ],
+      "category": "object"
+    },
+    "B7": {
+      "id": "B7",
+      "type": "blob",
+      "polygon": [
+        [
+          228,
+          267
+        ],
+        [
+          223,
+          264
+        ],
+        [
+          220,
+          259
+        ],
+        [
+          223,
+          252
+        ],
+        [
+          229,
+          251
+        ],
+        [
+          234,
+          253
+        ],
+        [
+          236,
+          258
+        ],
+        [
+          233,
+          264
+        ],
+        [
+          230,
+          265
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+B5",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B4",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B6",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B3",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B7",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+B2",
+      "type": "intraObjectLabel",
+      "source": "T5",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+B0",
+      "type": "intraObjectLabel",
+      "source": "T6",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T7+B1",
+      "type": "intraObjectLabel",
+      "source": "T7",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "B4": "whole",
+    "B5": "whole",
+    "B6": "whole",
+    "B7": "whole"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "jupiter mercury mars earth moon venus saturn sun"
+  },
+  "questions": [
+    {
+      "question_text": "What is the fifth planet from the sun, the largest and most massive in the solar system?",
+      "question_id": "1421.png-1",
+      "answers": [
+        "Saturn",
+        "Mars",
+        "Earth",
+        "Jupiter"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the object labeled E?",
+      "question_id": "1421.png-2",
+      "answers": [
+        "Earth",
+        "Uranus",
+        "Mars",
+        "Venus"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is the second farthest object from the center? (Orange in color.)",
+      "question_id": "1421.png-0",
+      "answers": [
+        "Saturn",
+        "Uranus",
+        "Jupiter",
+        "Mars"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "What star is the basis of the solar system that sustains life on Earth, being the source of heat and light?",
+      "question_id": "1421.png-3",
+      "answers": [
+        "Venus",
+        "Saturn",
+        "sun",
+        "moon"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

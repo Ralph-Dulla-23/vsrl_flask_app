@@ -1,0 +1,524 @@
+{
+  "image_id": "4634",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          192,
+          174
+        ],
+        [
+          221,
+          203
+        ]
+      ],
+      "value": "Corn and Oats",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          22,
+          39
+        ],
+        [
+          60,
+          68
+        ]
+      ],
+      "value": "Hawks and Owls ",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          115,
+          12
+        ],
+        [
+          182,
+          26
+        ]
+      ],
+      "value": "Food Web",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          182,
+          36
+        ],
+        [
+          237,
+          68
+        ]
+      ],
+      "value": "Snakes and Raccoons",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          244,
+          105
+        ],
+        [
+          273,
+          137
+        ]
+      ],
+      "value": "Mico and Rats",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          22,
+          108
+        ],
+        [
+          65,
+          123
+        ]
+      ],
+      "value": "Rabbits",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          22,
+          185
+        ],
+        [
+          68,
+          203
+        ]
+      ],
+      "value": "Grasses",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          95,
+          126
+        ],
+        [
+          170,
+          155
+        ]
+      ],
+      "value": "Grasshoppers and Crickets",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          188,
+          44
+        ],
+        [
+          109,
+          129
+        ],
+        [
+          117,
+          133
+        ],
+        [
+          194,
+          47
+        ],
+        [
+          192,
+          46
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          227,
+          48
+        ],
+        [
+          265,
+          111
+        ],
+        [
+          271,
+          106
+        ],
+        [
+          234,
+          44
+        ],
+        [
+          230,
+          49
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          197,
+          180
+        ],
+        [
+          247,
+          123
+        ],
+        [
+          243,
+          118
+        ],
+        [
+          192,
+          177
+        ],
+        [
+          196,
+          179
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          192,
+          173
+        ],
+        [
+          188,
+          179
+        ],
+        [
+          144,
+          142
+        ],
+        [
+          150,
+          137
+        ],
+        [
+          192,
+          171
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          110,
+          155
+        ],
+        [
+          49,
+          194
+        ],
+        [
+          47,
+          190
+        ],
+        [
+          109,
+          148
+        ],
+        [
+          110,
+          155
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          36,
+          121
+        ],
+        [
+          46,
+          121
+        ],
+        [
+          46,
+          192
+        ],
+        [
+          39,
+          191
+        ],
+        [
+          37,
+          124
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          38,
+          110
+        ],
+        [
+          46,
+          110
+        ],
+        [
+          46,
+          67
+        ],
+        [
+          38,
+          67
+        ],
+        [
+          39,
+          110
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          54,
+          54
+        ],
+        [
+          244,
+          116
+        ],
+        [
+          248,
+          107
+        ],
+        [
+          56,
+          47
+        ],
+        [
+          53,
+          50
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H7",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H3",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H5",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H1",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H4",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H2",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H0",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H6",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A2+T4",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T4",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T0+A3+T7",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T7",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T4+A1+T3",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T3",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T4+A7+T1",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T1",
+      "connector": "A7",
+      "directional": true
+    },
+    {
+      "id": "T5+A6+T1",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T1",
+      "connector": "A6",
+      "directional": true
+    },
+    {
+      "id": "T6+A4+T7",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T7",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T6+A5+T5",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T5",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T7+A0+T3",
+      "type": "interObjectLinkage",
+      "source": "T7",
+      "target": "T3",
+      "connector": "A0",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "corn and oats hawks and owls  food web snakes and raccoons mico and rats rabbits grasses grasshoppers and crickets"
+  },
+  "questions": [
+    {
+      "question_text": "Who are the primary consumers in this food web?",
+      "question_id": "4634.png-0",
+      "answers": [
+        "hawks and owls",
+        "snakes",
+        "rabbits, grasshoppers and crickets",
+        "mice and rats"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "image_id": "3817",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          20,
+          5
+        ],
+        [
+          403,
+          33
+        ]
+      ],
+      "value": "Let's review the parts of a seed.",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          23,
+          122
+        ],
+        [
+          101,
+          142
+        ]
+      ],
+      "value": "embryo",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          27,
+          159
+        ],
+        [
+          120,
+          176
+        ]
+      ],
+      "value": "seed coat",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          23,
+          199
+        ],
+        [
+          137,
+          222
+        ]
+      ],
+      "value": "food supply",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          250,
+          152
+        ],
+        [
+          239,
+          88
+        ],
+        [
+          261,
+          44
+        ],
+        [
+          295,
+          37
+        ],
+        [
+          326,
+          37
+        ],
+        [
+          374,
+          76
+        ],
+        [
+          396,
+          137
+        ],
+        [
+          409,
+          198
+        ],
+        [
+          398,
+          257
+        ],
+        [
+          380,
+          296
+        ],
+        [
+          328,
+          306
+        ],
+        [
+          276,
+          305
+        ],
+        [
+          272,
+          267
+        ],
+        [
+          251,
+          217
+        ],
+        [
+          253,
+          151
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          150,
+          94
+        ],
+        [
+          154,
+          104
+        ],
+        [
+          276,
+          102
+        ],
+        [
+          276,
+          93
+        ],
+        [
+          148,
+          90
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          155,
+          174
+        ],
+        [
+          305,
+          175
+        ],
+        [
+          304,
+          166
+        ],
+        [
+          153,
+          164
+        ],
+        [
+          154,
+          171
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          154,
+          237
+        ],
+        [
+          154,
+          247
+        ],
+        [
+          270,
+          246
+        ],
+        [
+          267,
+          240
+        ],
+        [
+          263,
+          236
+        ],
+        [
+          154,
+          236
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T2+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T3+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "let's review the parts of a seed. embryo seed coat food supply"
+  },
+  "questions": [
+    {
+      "question_text": "What is the minute, rudimentary plant contained within a seed or an archegonium?",
+      "question_id": "3817.png-1",
+      "answers": [
+        "food",
+        "seed coat",
+        "embryo",
+        "seed"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which part labeled as B is embedded within the seed and surrounded by food supply?",
+      "question_id": "3817.png-0",
+      "answers": [
+        "Food supply",
+        "Seed",
+        "Embryo",
+        "Seed coat"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which part of the seed is a covering?",
+      "question_id": "3817.png-2",
+      "answers": [
+        "Embryo",
+        "{}",
+        "Seed coat",
+        "Food supply"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}

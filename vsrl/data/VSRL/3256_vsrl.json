@@ -1,0 +1,815 @@
+{
+  "image_id": "3256",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          541
+        ],
+        [
+          19,
+          561
+        ]
+      ],
+      "value": "A",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          378,
+          0
+        ],
+        [
+          551,
+          70
+        ]
+      ],
+      "value": "Mitochondria (contain respiratory enzymes)",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          644,
+          27
+        ],
+        [
+          783,
+          118
+        ]
+      ],
+      "value": "Chloroplast (organelle that performs photosynthesis)",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          670,
+          389
+        ],
+        [
+          799,
+          414
+        ]
+      ],
+      "value": "Chromosomes",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          596,
+          469
+        ],
+        [
+          799,
+          512
+        ]
+      ],
+      "value": "Nucleus surrounded by nuclear membrane",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          444,
+          509
+        ],
+        [
+          566,
+          534
+        ]
+      ],
+      "value": "Eukaryote",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          15,
+          252
+        ],
+        [
+          128,
+          276
+        ]
+      ],
+      "value": "Loop of DNA",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          404
+        ],
+        [
+          86,
+          426
+        ]
+      ],
+      "value": "Flagellum",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          50,
+          512
+        ],
+        [
+          184,
+          534
+        ]
+      ],
+      "value": "Prokaryote",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          284,
+          103
+        ],
+        [
+          362,
+          126
+        ]
+      ],
+      "value": "Cell Wall",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          291,
+          379
+        ],
+        [
+          276,
+          290
+        ],
+        [
+          295,
+          214
+        ],
+        [
+          338,
+          163
+        ],
+        [
+          393,
+          111
+        ],
+        [
+          431,
+          101
+        ],
+        [
+          475,
+          101
+        ],
+        [
+          497,
+          117
+        ],
+        [
+          517,
+          117
+        ],
+        [
+          526,
+          104
+        ],
+        [
+          555,
+          93
+        ],
+        [
+          575,
+          106
+        ],
+        [
+          604,
+          115
+        ],
+        [
+          648,
+          156
+        ],
+        [
+          664,
+          193
+        ],
+        [
+          675,
+          254
+        ],
+        [
+          675,
+          281
+        ],
+        [
+          682,
+          296
+        ],
+        [
+          667,
+          327
+        ],
+        [
+          661,
+          347
+        ],
+        [
+          656,
+          363
+        ],
+        [
+          650,
+          380
+        ],
+        [
+          648,
+          394
+        ],
+        [
+          645,
+          401
+        ],
+        [
+          625,
+          409
+        ],
+        [
+          624,
+          411
+        ],
+        [
+          623,
+          429
+        ],
+        [
+          599,
+          468
+        ],
+        [
+          552,
+          487
+        ],
+        [
+          502,
+          495
+        ],
+        [
+          474,
+          503
+        ],
+        [
+          449,
+          502
+        ],
+        [
+          425,
+          493
+        ],
+        [
+          415,
+          487
+        ],
+        [
+          415,
+          480
+        ],
+        [
+          419,
+          469
+        ],
+        [
+          417,
+          459
+        ],
+        [
+          412,
+          455
+        ],
+        [
+          403,
+          455
+        ],
+        [
+          388,
+          464
+        ],
+        [
+          354,
+          465
+        ],
+        [
+          327,
+          450
+        ],
+        [
+          308,
+          420
+        ],
+        [
+          290,
+          378
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          140,
+          199
+        ],
+        [
+          149,
+          182
+        ],
+        [
+          177,
+          177
+        ],
+        [
+          205,
+          182
+        ],
+        [
+          210,
+          199
+        ],
+        [
+          215,
+          238
+        ],
+        [
+          215,
+          291
+        ],
+        [
+          217,
+          342
+        ],
+        [
+          217,
+          393
+        ],
+        [
+          207,
+          403
+        ],
+        [
+          183,
+          410
+        ],
+        [
+          164,
+          410
+        ],
+        [
+          149,
+          404
+        ],
+        [
+          143,
+          392
+        ],
+        [
+          143,
+          376
+        ],
+        [
+          141,
+          338
+        ],
+        [
+          143,
+          293
+        ],
+        [
+          145,
+          245
+        ],
+        [
+          140,
+          202
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          362,
+          108
+        ],
+        [
+          403,
+          109
+        ],
+        [
+          410,
+          110
+        ],
+        [
+          409,
+          119
+        ],
+        [
+          361,
+          119
+        ],
+        [
+          360,
+          109
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          462,
+          69
+        ],
+        [
+          407,
+          155
+        ],
+        [
+          417,
+          157
+        ],
+        [
+          471,
+          70
+        ],
+        [
+          462,
+          70
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          464,
+          66
+        ],
+        [
+          578,
+          168
+        ],
+        [
+          587,
+          166
+        ],
+        [
+          473,
+          66
+        ],
+        [
+          466,
+          65
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          701,
+          114
+        ],
+        [
+          716,
+          119
+        ],
+        [
+          628,
+          259
+        ],
+        [
+          612,
+          251
+        ],
+        [
+          701,
+          117
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          668,
+          403
+        ],
+        [
+          422,
+          331
+        ],
+        [
+          427,
+          323
+        ],
+        [
+          675,
+          395
+        ],
+        [
+          669,
+          405
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          667,
+          403
+        ],
+        [
+          675,
+          390
+        ],
+        [
+          491,
+          278
+        ],
+        [
+          486,
+          290
+        ],
+        [
+          665,
+          400
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          603,
+          488
+        ],
+        [
+          497,
+          389
+        ],
+        [
+          490,
+          394
+        ],
+        [
+          599,
+          496
+        ],
+        [
+          604,
+          489
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          125,
+          257
+        ],
+        [
+          174,
+          259
+        ],
+        [
+          171,
+          268
+        ],
+        [
+          128,
+          267
+        ],
+        [
+          126,
+          258
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          82,
+          413
+        ],
+        [
+          105,
+          413
+        ],
+        [
+          105,
+          423
+        ],
+        [
+          80,
+          422
+        ],
+        [
+          82,
+          414
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageCaption",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T1+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T2+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T3+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T3+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T4+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T5+B0",
+      "type": "intraObjectLabel",
+      "source": "T5",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+A7+B1",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B1",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T7+A8+B1",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B1",
+      "connector": "A8",
+      "directional": false
+    },
+    {
+      "id": "T8+I0",
+      "type": "imageCaption",
+      "source": "T8",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T9+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T9",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "a mitochondria (contain respiratory enzymes) chloroplast (organelle that performs photosynthesis) chromosomes nucleus surrounded by nuclear membrane eukaryote loop of dna flagellum prokaryote cell wall"
+  },
+  "questions": []
+}

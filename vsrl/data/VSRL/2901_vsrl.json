@@ -1,0 +1,730 @@
+{
+  "image_id": "2901",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          369,
+          354
+        ],
+        [
+          539,
+          387
+        ]
+      ],
+      "value": "Brain stem",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          381,
+          400
+        ],
+        [
+          536,
+          436
+        ]
+      ],
+      "value": "Spinal cord ",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          26,
+          479
+        ],
+        [
+          187,
+          517
+        ]
+      ],
+      "value": "Cerebellum ",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          23,
+          162
+        ],
+        [
+          128,
+          234
+        ]
+      ],
+      "value": "Pineal",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          28,
+          28
+        ],
+        [
+          176,
+          68
+        ]
+      ],
+      "value": "Cerebrum",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          484,
+          32
+        ],
+        [
+          700,
+          77
+        ]
+      ],
+      "value": "Hypothalamus ",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          433,
+          276
+        ],
+        [
+          557,
+          343
+        ]
+      ],
+      "value": "Pituitary gland ",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          126,
+          477
+        ],
+        [
+          210,
+          522
+        ],
+        [
+          256,
+          536
+        ],
+        [
+          365,
+          563
+        ],
+        [
+          388,
+          522
+        ],
+        [
+          404,
+          509
+        ],
+        [
+          423,
+          507
+        ],
+        [
+          456,
+          504
+        ],
+        [
+          475,
+          502
+        ],
+        [
+          515,
+          506
+        ],
+        [
+          538,
+          500
+        ],
+        [
+          556,
+          478
+        ],
+        [
+          561,
+          467
+        ],
+        [
+          563,
+          457
+        ],
+        [
+          556,
+          437
+        ],
+        [
+          564,
+          419
+        ],
+        [
+          573,
+          401
+        ],
+        [
+          571,
+          392
+        ],
+        [
+          578,
+          382
+        ],
+        [
+          578,
+          375
+        ],
+        [
+          569,
+          358
+        ],
+        [
+          570,
+          348
+        ],
+        [
+          583,
+          342
+        ],
+        [
+          594,
+          334
+        ],
+        [
+          599,
+          325
+        ],
+        [
+          601,
+          319
+        ],
+        [
+          565,
+          264
+        ],
+        [
+          565,
+          199
+        ],
+        [
+          555,
+          143
+        ],
+        [
+          525,
+          97
+        ],
+        [
+          497,
+          70
+        ],
+        [
+          454,
+          42
+        ],
+        [
+          402,
+          31
+        ],
+        [
+          342,
+          22
+        ],
+        [
+          290,
+          30
+        ],
+        [
+          251,
+          46
+        ],
+        [
+          220,
+          60
+        ],
+        [
+          189,
+          84
+        ],
+        [
+          167,
+          104
+        ],
+        [
+          148,
+          134
+        ],
+        [
+          133,
+          177
+        ],
+        [
+          128,
+          202
+        ],
+        [
+          127,
+          239
+        ],
+        [
+          127,
+          257
+        ],
+        [
+          132,
+          285
+        ],
+        [
+          148,
+          323
+        ],
+        [
+          168,
+          357
+        ],
+        [
+          173,
+          373
+        ],
+        [
+          168,
+          396
+        ],
+        [
+          153,
+          426
+        ],
+        [
+          126,
+          478
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          174,
+          56
+        ],
+        [
+          298,
+          58
+        ],
+        [
+          302,
+          125
+        ],
+        [
+          317,
+          127
+        ],
+        [
+          310,
+          38
+        ],
+        [
+          175,
+          37
+        ],
+        [
+          174,
+          62
+        ],
+        [
+          174,
+          56
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          490,
+          45
+        ],
+        [
+          464,
+          45
+        ],
+        [
+          377,
+          250
+        ],
+        [
+          400,
+          256
+        ],
+        [
+          478,
+          64
+        ],
+        [
+          491,
+          61
+        ],
+        [
+          491,
+          48
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          433,
+          306
+        ],
+        [
+          394,
+          304
+        ],
+        [
+          392,
+          275
+        ],
+        [
+          370,
+          275
+        ],
+        [
+          378,
+          315
+        ],
+        [
+          438,
+          319
+        ],
+        [
+          434,
+          307
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          380,
+          362
+        ],
+        [
+          324,
+          249
+        ],
+        [
+          318,
+          254
+        ],
+        [
+          375,
+          370
+        ],
+        [
+          382,
+          360
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          377,
+          362
+        ],
+        [
+          317,
+          334
+        ],
+        [
+          312,
+          346
+        ],
+        [
+          375,
+          370
+        ],
+        [
+          375,
+          362
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          374,
+          408
+        ],
+        [
+          295,
+          406
+        ],
+        [
+          295,
+          422
+        ],
+        [
+          381,
+          423
+        ],
+        [
+          378,
+          407
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          210,
+          491
+        ],
+        [
+          213,
+          293
+        ],
+        [
+          202,
+          295
+        ],
+        [
+          202,
+          491
+        ],
+        [
+          186,
+          489
+        ],
+        [
+          188,
+          503
+        ],
+        [
+          210,
+          505
+        ],
+        [
+          210,
+          489
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          115,
+          203
+        ],
+        [
+          304,
+          208
+        ],
+        [
+          299,
+          228
+        ],
+        [
+          111,
+          221
+        ],
+        [
+          119,
+          203
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T0+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T1+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T2+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T3+A7+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T4+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T5+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T6+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "brain stem spinal cord  cerebellum  pineal cerebrum hypothalamus  pituitary gland "
+  },
+  "questions": [
+    {
+      "question_text": "In this diagram, what structure does G represent?",
+      "question_id": "2901.png-2",
+      "answers": [
+        "Cerebrum",
+        "Cerebellum",
+        "Brain stem",
+        "Hypothalamus"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "What area contains the glands that influences growth, metabolism, and maturation?",
+      "question_id": "2901.png-3",
+      "answers": [
+        "D",
+        "F",
+        "C",
+        "B"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "What gland is found in the brain?",
+      "question_id": "2901.png-0",
+      "answers": [
+        "Pituitary gland",
+        "Adrenal gland",
+        "Goblet cells",
+        "Thyroid gland"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What parts of the human body are illustrated in the picture?",
+      "question_id": "2901.png-1",
+      "answers": [
+        "Heart and lungs",
+        "Brain and brain stem",
+        "Eyes",
+        "Mouth"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

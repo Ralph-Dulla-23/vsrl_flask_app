@@ -1,0 +1,402 @@
+{
+  "image_id": "3869",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          87,
+          67
+        ],
+        [
+          532,
+          106
+        ]
+      ],
+      "value": "External Parts of the Leaf",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          404,
+          418
+        ],
+        [
+          444,
+          432
+        ]
+      ],
+      "value": "Blade",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          155,
+          420
+        ],
+        [
+          201,
+          438
+        ]
+      ],
+      "value": "Petiole",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          269,
+          157
+        ],
+        [
+          349,
+          176
+        ]
+      ],
+      "value": "Simple Leaf",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          309,
+          197
+        ],
+        [
+          353,
+          212
+        ]
+      ],
+      "value": "Midrib",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          92,
+          401
+        ],
+        [
+          119,
+          396
+        ],
+        [
+          147,
+          382
+        ],
+        [
+          165,
+          370
+        ],
+        [
+          172,
+          355
+        ],
+        [
+          194,
+          312
+        ],
+        [
+          207,
+          287
+        ],
+        [
+          226,
+          261
+        ],
+        [
+          254,
+          239
+        ],
+        [
+          291,
+          227
+        ],
+        [
+          347,
+          217
+        ],
+        [
+          383,
+          214
+        ],
+        [
+          424,
+          210
+        ],
+        [
+          461,
+          209
+        ],
+        [
+          499,
+          205
+        ],
+        [
+          523,
+          197
+        ],
+        [
+          530,
+          203
+        ],
+        [
+          516,
+          234
+        ],
+        [
+          509,
+          251
+        ],
+        [
+          486,
+          296
+        ],
+        [
+          472,
+          320
+        ],
+        [
+          452,
+          344
+        ],
+        [
+          410,
+          381
+        ],
+        [
+          373,
+          394
+        ],
+        [
+          352,
+          402
+        ],
+        [
+          318,
+          408
+        ],
+        [
+          281,
+          409
+        ],
+        [
+          248,
+          409
+        ],
+        [
+          228,
+          402
+        ],
+        [
+          191,
+          394
+        ],
+        [
+          172,
+          392
+        ],
+        [
+          158,
+          395
+        ],
+        [
+          132,
+          409
+        ],
+        [
+          102,
+          428
+        ],
+        [
+          90,
+          401
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          346,
+          201
+        ],
+        [
+          408,
+          274
+        ],
+        [
+          418,
+          268
+        ],
+        [
+          354,
+          193
+        ],
+        [
+          345,
+          199
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          115,
+          406
+        ],
+        [
+          121,
+          402
+        ],
+        [
+          160,
+          428
+        ],
+        [
+          155,
+          435
+        ],
+        [
+          114,
+          409
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          355,
+          388
+        ],
+        [
+          350,
+          394
+        ],
+        [
+          404,
+          429
+        ],
+        [
+          406,
+          421
+        ],
+        [
+          354,
+          387
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T2+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T3+I0",
+      "type": "imageCaption",
+      "source": "T3",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "external parts of the leaf blade petiole simple leaf midrib"
+  },
+  "questions": [
+    {
+      "question_text": "What is represented by A?",
+      "question_id": "3869.png-1",
+      "answers": [
+        "midrib",
+        "blade",
+        "petiole",
+        "none of the above"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "What organism is shown in the diagram above?",
+      "question_id": "3869.png-0",
+      "answers": [
+        "Dog",
+        "Leaf",
+        "Human",
+        "Cat"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

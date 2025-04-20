@@ -1,0 +1,518 @@
+{
+  "image_id": "3062",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          205,
+          5
+        ],
+        [
+          273,
+          35
+        ]
+      ],
+      "value": "nucleus",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          13,
+          105
+        ],
+        [
+          134,
+          137
+        ]
+      ],
+      "value": "mitochondria",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          525,
+          82
+        ],
+        [
+          620,
+          113
+        ]
+      ],
+      "value": "cytoplasm",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          555,
+          416
+        ],
+        [
+          641,
+          449
+        ]
+      ],
+      "value": "vacuoles",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          31,
+          438
+        ],
+        [
+          161,
+          462
+        ]
+      ],
+      "value": "cell membrane",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          364,
+          106
+        ],
+        [
+          387,
+          108
+        ],
+        [
+          411,
+          112
+        ],
+        [
+          446,
+          120
+        ],
+        [
+          486,
+          132
+        ],
+        [
+          538,
+          159
+        ],
+        [
+          564,
+          185
+        ],
+        [
+          574,
+          204
+        ],
+        [
+          580,
+          230
+        ],
+        [
+          580,
+          250
+        ],
+        [
+          578,
+          294
+        ],
+        [
+          568,
+          330
+        ],
+        [
+          552,
+          361
+        ],
+        [
+          519,
+          404
+        ],
+        [
+          481,
+          440
+        ],
+        [
+          441,
+          458
+        ],
+        [
+          404,
+          472
+        ],
+        [
+          337,
+          476
+        ],
+        [
+          266,
+          468
+        ],
+        [
+          211,
+          446
+        ],
+        [
+          181,
+          430
+        ],
+        [
+          155,
+          405
+        ],
+        [
+          145,
+          390
+        ],
+        [
+          133,
+          365
+        ],
+        [
+          117,
+          341
+        ],
+        [
+          102,
+          306
+        ],
+        [
+          96,
+          277
+        ],
+        [
+          93,
+          240
+        ],
+        [
+          97,
+          200
+        ],
+        [
+          136,
+          159
+        ],
+        [
+          181,
+          135
+        ],
+        [
+          241,
+          116
+        ],
+        [
+          305,
+          105
+        ],
+        [
+          363,
+          105
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          235,
+          34
+        ],
+        [
+          251,
+          29
+        ],
+        [
+          320,
+          128
+        ],
+        [
+          316,
+          143
+        ],
+        [
+          290,
+          133
+        ],
+        [
+          235,
+          34
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          463,
+          143
+        ],
+        [
+          537,
+          103
+        ],
+        [
+          541,
+          112
+        ],
+        [
+          474,
+          155
+        ],
+        [
+          464,
+          144
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          479,
+          192
+        ],
+        [
+          495,
+          189
+        ],
+        [
+          602,
+          424
+        ],
+        [
+          288,
+          341
+        ],
+        [
+          282,
+          336
+        ],
+        [
+          319,
+          332
+        ],
+        [
+          583,
+          409
+        ],
+        [
+          481,
+          193
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          44,
+          129
+        ],
+        [
+          137,
+          216
+        ],
+        [
+          156,
+          204
+        ],
+        [
+          81,
+          147
+        ],
+        [
+          430,
+          290
+        ],
+        [
+          436,
+          276
+        ],
+        [
+          46,
+          126
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          119,
+          437
+        ],
+        [
+          125,
+          445
+        ],
+        [
+          235,
+          358
+        ],
+        [
+          222,
+          354
+        ],
+        [
+          120,
+          438
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H2",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H4",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H1",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T2+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T3+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T4+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "nucleus mitochondria cytoplasm vacuoles cell membrane"
+  },
+  "questions": [
+    {
+      "question_text": "What is represented by B?",
+      "question_id": "3062.png-0",
+      "answers": [
+        "none of the above",
+        "vacuoles",
+        "nucleus",
+        "cell membrane"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is the center region?",
+      "question_id": "3062.png-1",
+      "answers": [
+        "vacuoles",
+        "none of the above",
+        "cell membrane",
+        "nucleus"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    }
+  ]
+}

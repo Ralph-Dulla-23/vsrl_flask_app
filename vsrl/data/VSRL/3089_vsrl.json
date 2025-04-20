@@ -1,0 +1,548 @@
+{
+  "image_id": "3089",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          136,
+          9
+        ],
+        [
+          203,
+          29
+        ]
+      ],
+      "value": "Dendrites",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          33
+        ],
+        [
+          59,
+          61
+        ]
+      ],
+      "value": "Nerve Endings",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          32,
+          115
+        ],
+        [
+          75,
+          140
+        ]
+      ],
+      "value": "Cell Soma",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          122,
+          75
+        ],
+        [
+          169,
+          100
+        ]
+      ],
+      "value": "Axon Hillock",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          104,
+          120
+        ],
+        [
+          142,
+          134
+        ]
+      ],
+      "value": "Axon",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          93,
+          144
+        ],
+        [
+          202,
+          171
+        ]
+      ],
+      "value": "Neuromuscular Junction",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          25,
+          131
+        ],
+        [
+          7,
+          112
+        ],
+        [
+          2,
+          94
+        ],
+        [
+          20,
+          62
+        ],
+        [
+          34,
+          41
+        ],
+        [
+          60,
+          25
+        ],
+        [
+          77,
+          14
+        ],
+        [
+          116,
+          17
+        ],
+        [
+          134,
+          19
+        ],
+        [
+          127,
+          47
+        ],
+        [
+          124,
+          58
+        ],
+        [
+          150,
+          49
+        ],
+        [
+          184,
+          80
+        ],
+        [
+          194,
+          64
+        ],
+        [
+          215,
+          60
+        ],
+        [
+          228,
+          76
+        ],
+        [
+          230,
+          96
+        ],
+        [
+          225,
+          115
+        ],
+        [
+          223,
+          121
+        ],
+        [
+          232,
+          125
+        ],
+        [
+          204,
+          171
+        ],
+        [
+          195,
+          170
+        ],
+        [
+          194,
+          156
+        ],
+        [
+          192,
+          155
+        ],
+        [
+          177,
+          148
+        ],
+        [
+          159,
+          141
+        ],
+        [
+          151,
+          128
+        ],
+        [
+          119,
+          117
+        ],
+        [
+          105,
+          121
+        ],
+        [
+          102,
+          132
+        ],
+        [
+          106,
+          155
+        ],
+        [
+          92,
+          164
+        ],
+        [
+          66,
+          169
+        ],
+        [
+          60,
+          164
+        ],
+        [
+          69,
+          149
+        ],
+        [
+          83,
+          118
+        ],
+        [
+          83,
+          109
+        ],
+        [
+          71,
+          108
+        ],
+        [
+          45,
+          122
+        ],
+        [
+          35,
+          129
+        ],
+        [
+          29,
+          132
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          107,
+          32
+        ],
+        [
+          117,
+          47
+        ],
+        [
+          159,
+          27
+        ],
+        [
+          153,
+          12
+        ],
+        [
+          106,
+          33
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          49,
+          82
+        ],
+        [
+          63,
+          72
+        ],
+        [
+          21,
+          52
+        ],
+        [
+          15,
+          63
+        ],
+        [
+          51,
+          81
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          53,
+          113
+        ],
+        [
+          63,
+          125
+        ],
+        [
+          95,
+          103
+        ],
+        [
+          89,
+          95
+        ],
+        [
+          56,
+          110
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          114,
+          105
+        ],
+        [
+          120,
+          114
+        ],
+        [
+          148,
+          99
+        ],
+        [
+          138,
+          90
+        ],
+        [
+          113,
+          103
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          129,
+          121
+        ],
+        [
+          130,
+          132
+        ],
+        [
+          162,
+          127
+        ],
+        [
+          160,
+          117
+        ],
+        [
+          128,
+          123
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          171,
+          159
+        ],
+        [
+          174,
+          168
+        ],
+        [
+          213,
+          164
+        ],
+        [
+          207,
+          153
+        ],
+        [
+          170,
+          159
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T2+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T3+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T4+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T5+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "dendrites nerve endings cell soma axon hillock axon neuromuscular junction"
+  },
+  "questions": [
+    {
+      "question_text": "What are the tips of the hair like parts of the nerve called?",
+      "question_id": "3089.png-2",
+      "answers": [
+        "Dendrites",
+        "Axon",
+        "Soma",
+        "Cell"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is this a diagram of?",
+      "question_id": "3089.png-0",
+      "answers": [
+        "Nerve",
+        "DNA",
+        "Atom",
+        "Cell"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What lies between the neuromuscular junction and the axon hillock in the nervous system?",
+      "question_id": "3089.png-1",
+      "answers": [
+        "axon",
+        "nerve ending",
+        "sell soma",
+        "dendrites"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

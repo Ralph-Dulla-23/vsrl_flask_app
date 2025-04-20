@@ -1,0 +1,668 @@
+{
+  "image_id": "349",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          106,
+          39
+        ],
+        [
+          308,
+          70
+        ]
+      ],
+      "value": "Cricket Life Cycle",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          170,
+          198
+        ],
+        [
+          211,
+          215
+        ]
+      ],
+      "value": "adult",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          387,
+          280
+        ],
+        [
+          408,
+          301
+        ]
+      ],
+      "value": "egg",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          38,
+          407
+        ],
+        [
+          88,
+          427
+        ]
+      ],
+      "value": "nymph",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          336,
+          279
+        ],
+        [
+          347,
+          272
+        ],
+        [
+          371,
+          265
+        ],
+        [
+          378,
+          271
+        ],
+        [
+          368,
+          278
+        ],
+        [
+          349,
+          284
+        ],
+        [
+          335,
+          281
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          198,
+          377
+        ],
+        [
+          211,
+          372
+        ],
+        [
+          224,
+          381
+        ],
+        [
+          253,
+          378
+        ],
+        [
+          225,
+          382
+        ],
+        [
+          228,
+          390
+        ],
+        [
+          218,
+          393
+        ],
+        [
+          201,
+          389
+        ],
+        [
+          199,
+          376
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          44,
+          317
+        ],
+        [
+          100,
+          327
+        ],
+        [
+          139,
+          311
+        ],
+        [
+          140,
+          310
+        ],
+        [
+          94,
+          302
+        ],
+        [
+          60,
+          296
+        ],
+        [
+          37,
+          295
+        ],
+        [
+          46,
+          322
+        ],
+        [
+          47,
+          319
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          126,
+          179
+        ],
+        [
+          171,
+          172
+        ],
+        [
+          175,
+          175
+        ],
+        [
+          160,
+          192
+        ],
+        [
+          180,
+          178
+        ],
+        [
+          207,
+          178
+        ],
+        [
+          214,
+          180
+        ],
+        [
+          219,
+          177
+        ],
+        [
+          222,
+          178
+        ],
+        [
+          224,
+          177
+        ],
+        [
+          221,
+          200
+        ],
+        [
+          228,
+          199
+        ],
+        [
+          228,
+          179
+        ],
+        [
+          239,
+          184
+        ],
+        [
+          244,
+          195
+        ],
+        [
+          250,
+          195
+        ],
+        [
+          242,
+          177
+        ],
+        [
+          248,
+          173
+        ],
+        [
+          248,
+          163
+        ],
+        [
+          301,
+          155
+        ],
+        [
+          327,
+          156
+        ],
+        [
+          314,
+          147
+        ],
+        [
+          246,
+          158
+        ],
+        [
+          236,
+          158
+        ],
+        [
+          204,
+          155
+        ],
+        [
+          199,
+          153
+        ],
+        [
+          190,
+          143
+        ],
+        [
+          179,
+          158
+        ],
+        [
+          165,
+          151
+        ],
+        [
+          158,
+          152
+        ],
+        [
+          164,
+          164
+        ],
+        [
+          127,
+          168
+        ],
+        [
+          127,
+          186
+        ],
+        [
+          127,
+          181
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          89,
+          379
+        ],
+        [
+          132,
+          406
+        ],
+        [
+          146,
+          409
+        ],
+        [
+          149,
+          396
+        ],
+        [
+          140,
+          394
+        ],
+        [
+          115,
+          381
+        ],
+        [
+          98,
+          370
+        ],
+        [
+          98,
+          365
+        ],
+        [
+          79,
+          361
+        ],
+        [
+          83,
+          384
+        ],
+        [
+          90,
+          378
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          307,
+          364
+        ],
+        [
+          304,
+          384
+        ],
+        [
+          325,
+          378
+        ],
+        [
+          321,
+          373
+        ],
+        [
+          342,
+          354
+        ],
+        [
+          360,
+          326
+        ],
+        [
+          352,
+          319
+        ],
+        [
+          337,
+          339
+        ],
+        [
+          321,
+          359
+        ],
+        [
+          315,
+          367
+        ],
+        [
+          305,
+          365
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          281,
+          168
+        ],
+        [
+          275,
+          177
+        ],
+        [
+          295,
+          189
+        ],
+        [
+          318,
+          210
+        ],
+        [
+          322,
+          214
+        ],
+        [
+          318,
+          219
+        ],
+        [
+          339,
+          226
+        ],
+        [
+          336,
+          204
+        ],
+        [
+          330,
+          207
+        ],
+        [
+          306,
+          181
+        ],
+        [
+          282,
+          170
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          79,
+          258
+        ],
+        [
+          90,
+          261
+        ],
+        [
+          97,
+          243
+        ],
+        [
+          117,
+          209
+        ],
+        [
+          122,
+          210
+        ],
+        [
+          123,
+          192
+        ],
+        [
+          102,
+          198
+        ],
+        [
+          106,
+          203
+        ],
+        [
+          92,
+          224
+        ],
+        [
+          80,
+          254
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A1+B1",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B1",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "B1+A0+B2",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B2",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "B2+A3+B3",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B3",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "B3+A2+B0",
+      "type": "interObjectLinkage",
+      "source": "B3",
+      "target": "B0",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B3",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B2",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "cricket life cycle adult egg nymph"
+  },
+  "questions": [
+    {
+      "question_text": "During the life cycle of a cricket,",
+      "question_id": "349.png-0",
+      "answers": [
+        "eggs hatch into larvae",
+        "eggs hatch into pupae",
+        "Adults give birth to young nymphs",
+        "eggs hatch into nymphs"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    }
+  ]
+}

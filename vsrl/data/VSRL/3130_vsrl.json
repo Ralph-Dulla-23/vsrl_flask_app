@@ -1,0 +1,726 @@
+{
+  "image_id": "3130",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          3,
+          407
+        ],
+        [
+          151,
+          430
+        ]
+      ],
+      "value": "@2003, Gary Fewless",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          11,
+          18
+        ],
+        [
+          159,
+          48
+        ]
+      ],
+      "value": "Some important features of a fern frond",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          300,
+          154
+        ],
+        [
+          341,
+          198
+        ]
+      ],
+      "value": "blade or lamina",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          374,
+          187
+        ],
+        [
+          405,
+          204
+        ]
+      ],
+      "value": "frond",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          63,
+          138
+        ],
+        [
+          111,
+          202
+        ]
+      ],
+      "value": "costa (midrib of pinna)",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          61,
+          244
+        ],
+        [
+          111,
+          303
+        ]
+      ],
+      "value": "rachis(midrib of blade)",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          72,
+          327
+        ],
+        [
+          123,
+          359
+        ]
+      ],
+      "value": "pinna(leaflet)",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          137,
+          360
+        ],
+        [
+          181,
+          375
+        ]
+      ],
+      "value": "scales",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          304,
+          359
+        ],
+        [
+          338,
+          378
+        ]
+      ],
+      "value": "stipe",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          208,
+          11
+        ],
+        [
+          238,
+          37
+        ],
+        [
+          250,
+          52
+        ],
+        [
+          276,
+          76
+        ],
+        [
+          272,
+          96
+        ],
+        [
+          287,
+          123
+        ],
+        [
+          288,
+          142
+        ],
+        [
+          291,
+          174
+        ],
+        [
+          292,
+          221
+        ],
+        [
+          287,
+          268
+        ],
+        [
+          277,
+          299
+        ],
+        [
+          257,
+          319
+        ],
+        [
+          240,
+          321
+        ],
+        [
+          234,
+          324
+        ],
+        [
+          229,
+          412
+        ],
+        [
+          213,
+          420
+        ],
+        [
+          192,
+          420
+        ],
+        [
+          204,
+          330
+        ],
+        [
+          155,
+          310
+        ],
+        [
+          149,
+          284
+        ],
+        [
+          172,
+          282
+        ],
+        [
+          148,
+          248
+        ],
+        [
+          135,
+          208
+        ],
+        [
+          138,
+          203
+        ],
+        [
+          168,
+          209
+        ],
+        [
+          134,
+          174
+        ],
+        [
+          142,
+          162
+        ],
+        [
+          159,
+          172
+        ],
+        [
+          142,
+          140
+        ],
+        [
+          210,
+          10
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          112,
+          149
+        ],
+        [
+          187,
+          226
+        ],
+        [
+          201,
+          217
+        ],
+        [
+          122,
+          138
+        ],
+        [
+          112,
+          146
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          102,
+          262
+        ],
+        [
+          214,
+          294
+        ],
+        [
+          216,
+          275
+        ],
+        [
+          107,
+          245
+        ],
+        [
+          107,
+          245
+        ],
+        [
+          102,
+          261
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          128,
+          345
+        ],
+        [
+          168,
+          313
+        ],
+        [
+          158,
+          301
+        ],
+        [
+          115,
+          329
+        ],
+        [
+          129,
+          346
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          168,
+          374
+        ],
+        [
+          198,
+          397
+        ],
+        [
+          209,
+          389
+        ],
+        [
+          180,
+          358
+        ],
+        [
+          167,
+          373
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          276,
+          8
+        ],
+        [
+          304,
+          10
+        ],
+        [
+          304,
+          10
+        ],
+        [
+          305,
+          318
+        ],
+        [
+          277,
+          319
+        ],
+        [
+          277,
+          309
+        ],
+        [
+          291,
+          309
+        ],
+        [
+          292,
+          26
+        ],
+        [
+          292,
+          26
+        ],
+        [
+          292,
+          26
+        ],
+        [
+          274,
+          24
+        ],
+        [
+          274,
+          24
+        ],
+        [
+          275,
+          6
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          301,
+          322
+        ],
+        [
+          303,
+          420
+        ],
+        [
+          276,
+          420
+        ],
+        [
+          277,
+          407
+        ],
+        [
+          293,
+          407
+        ],
+        [
+          293,
+          329
+        ],
+        [
+          277,
+          330
+        ],
+        [
+          279,
+          319
+        ],
+        [
+          279,
+          319
+        ],
+        [
+          279,
+          319
+        ],
+        [
+          300,
+          318
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          347,
+          12
+        ],
+        [
+          375,
+          10
+        ],
+        [
+          375,
+          10
+        ],
+        [
+          376,
+          420
+        ],
+        [
+          346,
+          421
+        ],
+        [
+          346,
+          421
+        ],
+        [
+          346,
+          407
+        ],
+        [
+          364,
+          406
+        ],
+        [
+          363,
+          29
+        ],
+        [
+          347,
+          28
+        ],
+        [
+          349,
+          11
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H3",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H2",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+I0",
+      "type": "misc",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+I0",
+      "type": "imageTitle",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T3+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T4+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T5+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T6+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T7+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T8+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T8",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "title",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "@2003, gary fewless some important features of a fern frond blade or lamina frond costa (midrib of pinna) rachis(midrib of blade) pinna(leaflet) scales stipe"
+  },
+  "questions": [
+    {
+      "question_text": "What is the diagram of?",
+      "question_id": "3130.png-0",
+      "answers": [
+        "pinna",
+        "none of the above",
+        "rachis",
+        "fern frond"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the full length of the structure called?",
+      "question_id": "3130.png-1",
+      "answers": [
+        "tree",
+        "rachis",
+        "frond",
+        "none of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What label applies to C?",
+      "question_id": "3130.png-2",
+      "answers": [
+        "frond",
+        "costa",
+        "stipe",
+        "scales"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}

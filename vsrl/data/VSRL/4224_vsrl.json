@@ -1,0 +1,816 @@
+{
+  "image_id": "4224",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          587,
+          742
+        ],
+        [
+          795,
+          798
+        ]
+      ],
+      "value": "Magma",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          340,
+          762
+        ],
+        [
+          598,
+          1053
+        ]
+      ],
+      "value": "Crystallization",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          425,
+          5
+        ],
+        [
+          918,
+          92
+        ]
+      ],
+      "value": "Rock Cycle",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          418,
+          190
+        ],
+        [
+          927,
+          250
+        ]
+      ],
+      "value": "Sedimentary Rock",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          615,
+          355
+        ],
+        [
+          677,
+          545
+        ]
+      ],
+      "value": "Melting",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          108,
+          1133
+        ],
+        [
+          338,
+          1273
+        ]
+      ],
+      "value": "Igneous Rock",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          422,
+          1378
+        ],
+        [
+          1045,
+          1488
+        ]
+      ],
+      "value": "Pressure and Temperature",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          1052,
+          397
+        ],
+        [
+          1233,
+          992
+        ]
+      ],
+      "value": "Pressure and Temperature",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          873,
+          912
+        ],
+        [
+          1023,
+          1077
+        ]
+      ],
+      "value": "Melting",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          930,
+          1155
+        ],
+        [
+          1313,
+          1290
+        ]
+      ],
+      "value": "Metamorphic Rock",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          1162,
+          1108
+        ],
+        [
+          1215,
+          1040
+        ],
+        [
+          1205,
+          1033
+        ],
+        [
+          1255,
+          903
+        ],
+        [
+          1257,
+          758
+        ],
+        [
+          1232,
+          622
+        ],
+        [
+          1165,
+          468
+        ],
+        [
+          1077,
+          360
+        ],
+        [
+          922,
+          245
+        ],
+        [
+          907,
+          275
+        ],
+        [
+          1055,
+          385
+        ],
+        [
+          1145,
+          492
+        ],
+        [
+          1212,
+          645
+        ],
+        [
+          1232,
+          757
+        ],
+        [
+          1228,
+          895
+        ],
+        [
+          1190,
+          1022
+        ],
+        [
+          1180,
+          1022
+        ],
+        [
+          1157,
+          1112
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          1023,
+          283
+        ],
+        [
+          1013,
+          290
+        ],
+        [
+          937,
+          237
+        ],
+        [
+          1032,
+          267
+        ],
+        [
+          1030,
+          270
+        ],
+        [
+          1112,
+          335
+        ],
+        [
+          1212,
+          450
+        ],
+        [
+          1278,
+          568
+        ],
+        [
+          1317,
+          720
+        ],
+        [
+          1317,
+          862
+        ],
+        [
+          1290,
+          982
+        ],
+        [
+          1257,
+          1075
+        ],
+        [
+          1220,
+          1138
+        ],
+        [
+          1210,
+          1147
+        ],
+        [
+          1197,
+          1140
+        ],
+        [
+          1228,
+          1077
+        ],
+        [
+          1285,
+          928
+        ],
+        [
+          1302,
+          758
+        ],
+        [
+          1267,
+          608
+        ],
+        [
+          1188,
+          452
+        ],
+        [
+          1080,
+          335
+        ],
+        [
+          1025,
+          288
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          812,
+          930
+        ],
+        [
+          1008,
+          1148
+        ],
+        [
+          1020,
+          1138
+        ],
+        [
+          830,
+          918
+        ],
+        [
+          833,
+          910
+        ],
+        [
+          752,
+          842
+        ],
+        [
+          808,
+          935
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          448,
+          1017
+        ],
+        [
+          607,
+          842
+        ],
+        [
+          587,
+          822
+        ],
+        [
+          437,
+          1003
+        ],
+        [
+          372,
+          1090
+        ],
+        [
+          453,
+          1022
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          943,
+          1337
+        ],
+        [
+          1040,
+          1303
+        ],
+        [
+          1050,
+          1323
+        ],
+        [
+          972,
+          1378
+        ],
+        [
+          952,
+          1378
+        ],
+        [
+          853,
+          1418
+        ],
+        [
+          673,
+          1443
+        ],
+        [
+          535,
+          1422
+        ],
+        [
+          427,
+          1383
+        ],
+        [
+          345,
+          1342
+        ],
+        [
+          277,
+          1283
+        ],
+        [
+          298,
+          1262
+        ],
+        [
+          373,
+          1320
+        ],
+        [
+          465,
+          1362
+        ],
+        [
+          585,
+          1400
+        ],
+        [
+          667,
+          1400
+        ],
+        [
+          800,
+          1402
+        ],
+        [
+          943,
+          1340
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          150,
+          1068
+        ],
+        [
+          102,
+          908
+        ],
+        [
+          107,
+          682
+        ],
+        [
+          183,
+          478
+        ],
+        [
+          288,
+          353
+        ],
+        [
+          328,
+          310
+        ],
+        [
+          413,
+          247
+        ],
+        [
+          312,
+          285
+        ],
+        [
+          307,
+          300
+        ],
+        [
+          178,
+          412
+        ],
+        [
+          105,
+          533
+        ],
+        [
+          67,
+          640
+        ],
+        [
+          50,
+          807
+        ],
+        [
+          65,
+          952
+        ],
+        [
+          112,
+          1073
+        ],
+        [
+          130,
+          1108
+        ],
+        [
+          157,
+          1083
+        ],
+        [
+          153,
+          1067
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          668,
+          268
+        ],
+        [
+          712,
+          267
+        ],
+        [
+          702,
+          608
+        ],
+        [
+          718,
+          622
+        ],
+        [
+          693,
+          737
+        ],
+        [
+          678,
+          723
+        ],
+        [
+          663,
+          615
+        ],
+        [
+          675,
+          613
+        ],
+        [
+          670,
+          273
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H2",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H4",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H3",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H1",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H5",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H6",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H0",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A3+T5",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T5",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T3+A0+T9",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T9",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T3+A6+T0",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T0",
+      "connector": "A6",
+      "directional": true
+    },
+    {
+      "id": "T5+A4+T9",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T9",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T5+A5+T3",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T3",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T9+A1+T3",
+      "type": "interObjectLinkage",
+      "source": "T9",
+      "target": "T3",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T9+A2+T0",
+      "type": "interObjectLinkage",
+      "source": "T9",
+      "target": "T0",
+      "connector": "A2",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector"
+  },
+  "educational_context": {
+    "subject": "earth_science",
+    "diagram_type": "flow_diagram",
+    "text_content": "magma crystallization rock cycle sedimentary rock melting igneous rock pressure and temperature pressure and temperature melting metamorphic rock"
+  },
+  "questions": [
+    {
+      "question_text": "By what process does Mamga turn into Igneous Rock?",
+      "question_id": "4224.png-2",
+      "answers": [
+        "Melting",
+        "Deposition",
+        "Crystilization",
+        "Diagenesis"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "Describe what appears in stage F.",
+      "question_id": "4224.png-4",
+      "answers": [
+        "Metamorphic Rock",
+        "Igneous Rock",
+        "Crystilization",
+        "Magma"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "How is igneous rock converted into metamorphic rock?",
+      "question_id": "4224.png-0",
+      "answers": [
+        "Because of crystallization",
+        "Because of deposition",
+        "Because of melting",
+        "Because of pressure and temperature"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the diagram of?",
+      "question_id": "4224.png-1",
+      "answers": [
+        "Lava cycle",
+        "Energy cycle",
+        "Magma cycle",
+        "Rock cycle"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the order of the stages in the transformation of igneous rock to sedimentary rock",
+      "question_id": "4224.png-3",
+      "answers": [
+        "Erosion, Transport, Deposition, Diagenesis",
+        "Erosion, Transport, Diagenesis, Deposition",
+        "Diagenesis, Deposition, Transport, Erosion",
+        "Transport, Erosion, Deposition, Diagenesis"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "image_id": "4888",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          44,
+          9
+        ],
+        [
+          100,
+          27
+        ]
+      ],
+      "value": "Igneous",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          43,
+          33
+        ],
+        [
+          135,
+          52
+        ]
+      ],
+      "value": "Sedimentary",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          44,
+          55
+        ],
+        [
+          138,
+          73
+        ]
+      ],
+      "value": "Metamorphic",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          200,
+          212
+        ],
+        [
+          244,
+          232
+        ]
+      ],
+      "value": "Magma",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          117,
+          376
+        ],
+        [
+          282,
+          398
+        ]
+      ],
+      "value": "Three Types of Rocks",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          58,
+          172
+        ],
+        [
+          79,
+          171
+        ],
+        [
+          106,
+          163
+        ],
+        [
+          122,
+          145
+        ],
+        [
+          127,
+          134
+        ],
+        [
+          143,
+          124
+        ],
+        [
+          154,
+          108
+        ],
+        [
+          169,
+          93
+        ],
+        [
+          191,
+          78
+        ],
+        [
+          199,
+          73
+        ],
+        [
+          211,
+          76
+        ],
+        [
+          216,
+          79
+        ],
+        [
+          221,
+          78
+        ],
+        [
+          232,
+          75
+        ],
+        [
+          243,
+          81
+        ],
+        [
+          259,
+          92
+        ],
+        [
+          277,
+          107
+        ],
+        [
+          284,
+          120
+        ],
+        [
+          293,
+          126
+        ],
+        [
+          308,
+          132
+        ],
+        [
+          319,
+          144
+        ],
+        [
+          334,
+          150
+        ],
+        [
+          346,
+          153
+        ],
+        [
+          349,
+          166
+        ],
+        [
+          348,
+          213
+        ],
+        [
+          350,
+          229
+        ],
+        [
+          327,
+          249
+        ],
+        [
+          298,
+          278
+        ],
+        [
+          269,
+          263
+        ],
+        [
+          250,
+          249
+        ],
+        [
+          220,
+          234
+        ],
+        [
+          109,
+          286
+        ],
+        [
+          58,
+          248
+        ],
+        [
+          53,
+          246
+        ],
+        [
+          56,
+          174
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageCaption",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+I0",
+      "type": "imageCaption",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+I0",
+      "type": "imageCaption",
+      "source": "T2",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+I0",
+      "type": "imageTitle",
+      "source": "T4",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "title",
+    "B0": "whole"
+  },
+  "educational_context": {
+    "subject": "earth_science",
+    "diagram_type": "labeled_illustration",
+    "text_content": "igneous sedimentary metamorphic magma three types of rocks"
+  },
+  "questions": [
+    {
+      "question_text": "What is the liquid in the center?",
+      "question_id": "4888.png-0",
+      "answers": [
+        "metamorphic",
+        "igneous",
+        "none of the above",
+        "magma"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is the molten rock material under the Earth's crust?",
+      "question_id": "4888.png-1",
+      "answers": [
+        "Magma",
+        "Crust",
+        "Earth",
+        "Crusty"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

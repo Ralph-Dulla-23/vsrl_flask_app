@@ -1,0 +1,296 @@
+{
+  "image_id": "542",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          351,
+          11
+        ],
+        [
+          392,
+          28
+        ]
+      ],
+      "value": "Crust",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          228,
+          35
+        ],
+        [
+          274,
+          52
+        ]
+      ],
+      "value": "Mantle",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          207,
+          66
+        ],
+        [
+          265,
+          96
+        ]
+      ],
+      "value": "Outer Core",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          200,
+          106
+        ],
+        [
+          245,
+          141
+        ]
+      ],
+      "value": "Inner Core",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          88,
+          61
+        ],
+        [
+          70,
+          108
+        ],
+        [
+          65,
+          149
+        ],
+        [
+          77,
+          189
+        ],
+        [
+          102,
+          231
+        ],
+        [
+          132,
+          254
+        ],
+        [
+          181,
+          272
+        ],
+        [
+          224,
+          271
+        ],
+        [
+          273,
+          254
+        ],
+        [
+          309,
+          221
+        ],
+        [
+          331,
+          170
+        ],
+        [
+          335,
+          123
+        ],
+        [
+          323,
+          85
+        ],
+        [
+          300,
+          49
+        ],
+        [
+          272,
+          26
+        ],
+        [
+          242,
+          12
+        ],
+        [
+          198,
+          7
+        ],
+        [
+          162,
+          12
+        ],
+        [
+          126,
+          29
+        ],
+        [
+          103,
+          48
+        ],
+        [
+          90,
+          61
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          302,
+          51
+        ],
+        [
+          316,
+          63
+        ],
+        [
+          357,
+          29
+        ],
+        [
+          344,
+          18
+        ],
+        [
+          304,
+          51
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "A0": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "crust mantle outer core inner core"
+  },
+  "questions": [
+    {
+      "question_text": "What is directly above the outer core?",
+      "question_id": "542.png-0",
+      "answers": [
+        "crust",
+        "inner core",
+        "none of the above",
+        "mantle"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the innermost part called?",
+      "question_id": "542.png-3",
+      "answers": [
+        "mantle",
+        "crust",
+        "none of the above",
+        "inner core"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which region represents the inner core?",
+      "question_id": "542.png-1",
+      "answers": [
+        "b",
+        "d",
+        "a",
+        "c"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which region represents the mantle?",
+      "question_id": "542.png-2",
+      "answers": [
+        "a",
+        "b",
+        "d",
+        "c"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

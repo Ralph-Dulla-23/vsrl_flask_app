@@ -1,0 +1,878 @@
+{
+  "image_id": "918",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          1,
+          99
+        ],
+        [
+          174,
+          117
+        ]
+      ],
+      "value": "DECOMPOSERS",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          355,
+          95
+        ],
+        [
+          495,
+          116
+        ]
+      ],
+      "value": "CARNIVORES",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          352,
+          347
+        ],
+        [
+          494,
+          367
+        ]
+      ],
+      "value": "HERBIVORES",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          46,
+          349
+        ],
+        [
+          97,
+          367
+        ]
+      ],
+      "value": "SOIL",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          213,
+          449
+        ],
+        [
+          301,
+          468
+        ]
+      ],
+      "value": "PLANTS",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          80,
+          90
+        ],
+        [
+          92,
+          63
+        ],
+        [
+          97,
+          74
+        ],
+        [
+          124,
+          47
+        ],
+        [
+          154,
+          27
+        ],
+        [
+          203,
+          10
+        ],
+        [
+          255,
+          2
+        ],
+        [
+          327,
+          9
+        ],
+        [
+          404,
+          48
+        ],
+        [
+          444,
+          92
+        ],
+        [
+          441,
+          99
+        ],
+        [
+          410,
+          68
+        ],
+        [
+          351,
+          30
+        ],
+        [
+          270,
+          13
+        ],
+        [
+          192,
+          25
+        ],
+        [
+          127,
+          61
+        ],
+        [
+          102,
+          77
+        ],
+        [
+          106,
+          85
+        ],
+        [
+          82,
+          99
+        ],
+        [
+          82,
+          91
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          64,
+          111
+        ],
+        [
+          77,
+          121
+        ],
+        [
+          58,
+          151
+        ],
+        [
+          41,
+          200
+        ],
+        [
+          38,
+          244
+        ],
+        [
+          55,
+          317
+        ],
+        [
+          62,
+          317
+        ],
+        [
+          65,
+          342
+        ],
+        [
+          45,
+          327
+        ],
+        [
+          49,
+          321
+        ],
+        [
+          34,
+          260
+        ],
+        [
+          36,
+          176
+        ],
+        [
+          64,
+          115
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          184,
+          69
+        ],
+        [
+          171,
+          93
+        ],
+        [
+          197,
+          89
+        ],
+        [
+          193,
+          84
+        ],
+        [
+          231,
+          65
+        ],
+        [
+          304,
+          56
+        ],
+        [
+          367,
+          64
+        ],
+        [
+          419,
+          89
+        ],
+        [
+          432,
+          96
+        ],
+        [
+          436,
+          88
+        ],
+        [
+          394,
+          68
+        ],
+        [
+          317,
+          48
+        ],
+        [
+          261,
+          52
+        ],
+        [
+          194,
+          77
+        ],
+        [
+          186,
+          71
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          453,
+          113
+        ],
+        [
+          458,
+          139
+        ],
+        [
+          463,
+          135
+        ],
+        [
+          477,
+          167
+        ],
+        [
+          484,
+          205
+        ],
+        [
+          487,
+          253
+        ],
+        [
+          477,
+          302
+        ],
+        [
+          456,
+          346
+        ],
+        [
+          466,
+          349
+        ],
+        [
+          483,
+          295
+        ],
+        [
+          493,
+          242
+        ],
+        [
+          482,
+          169
+        ],
+        [
+          468,
+          133
+        ],
+        [
+          473,
+          128
+        ],
+        [
+          455,
+          114
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          177,
+          100
+        ],
+        [
+          194,
+          91
+        ],
+        [
+          197,
+          94
+        ],
+        [
+          239,
+          95
+        ],
+        [
+          299,
+          103
+        ],
+        [
+          378,
+          148
+        ],
+        [
+          425,
+          204
+        ],
+        [
+          442,
+          247
+        ],
+        [
+          453,
+          279
+        ],
+        [
+          457,
+          341
+        ],
+        [
+          448,
+          346
+        ],
+        [
+          450,
+          322
+        ],
+        [
+          450,
+          293
+        ],
+        [
+          423,
+          210
+        ],
+        [
+          374,
+          156
+        ],
+        [
+          332,
+          125
+        ],
+        [
+          281,
+          103
+        ],
+        [
+          196,
+          103
+        ],
+        [
+          196,
+          106
+        ],
+        [
+          175,
+          101
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          172,
+          116
+        ],
+        [
+          195,
+          118
+        ],
+        [
+          191,
+          123
+        ],
+        [
+          222,
+          150
+        ],
+        [
+          258,
+          187
+        ],
+        [
+          289,
+          252
+        ],
+        [
+          299,
+          342
+        ],
+        [
+          277,
+          416
+        ],
+        [
+          260,
+          443
+        ],
+        [
+          256,
+          438
+        ],
+        [
+          280,
+          390
+        ],
+        [
+          293,
+          330
+        ],
+        [
+          286,
+          251
+        ],
+        [
+          243,
+          172
+        ],
+        [
+          190,
+          130
+        ],
+        [
+          184,
+          137
+        ],
+        [
+          173,
+          119
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          79,
+          376
+        ],
+        [
+          89,
+          368
+        ],
+        [
+          117,
+          404
+        ],
+        [
+          160,
+          431
+        ],
+        [
+          187,
+          443
+        ],
+        [
+          191,
+          438
+        ],
+        [
+          207,
+          450
+        ],
+        [
+          188,
+          458
+        ],
+        [
+          187,
+          448
+        ],
+        [
+          159,
+          438
+        ],
+        [
+          123,
+          416
+        ],
+        [
+          94,
+          393
+        ],
+        [
+          79,
+          375
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          299,
+          445
+        ],
+        [
+          301,
+          459
+        ],
+        [
+          346,
+          448
+        ],
+        [
+          380,
+          431
+        ],
+        [
+          415,
+          407
+        ],
+        [
+          429,
+          392
+        ],
+        [
+          435,
+          394
+        ],
+        [
+          444,
+          371
+        ],
+        [
+          421,
+          383
+        ],
+        [
+          424,
+          387
+        ],
+        [
+          396,
+          415
+        ],
+        [
+          370,
+          430
+        ],
+        [
+          334,
+          445
+        ],
+        [
+          301,
+          452
+        ],
+        [
+          301,
+          452
+        ],
+        [
+          299,
+          445
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H4",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H5",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H6",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A1+T3",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T3",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T1+A0+T0",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T0",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T1+A2+T0",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T0",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T2+A3+T1",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T1",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T2+A4+T0",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T3+A6+T4",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T4",
+      "connector": "A6",
+      "directional": true
+    },
+    {
+      "id": "T4+A5+T0",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T0",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T4+A7+T2",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T2",
+      "connector": "A7",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "decomposers carnivores herbivores soil plants"
+  },
+  "questions": [
+    {
+      "question_text": "According to the given food chain, which organism is the primary consumer?",
+      "question_id": "918.png-0",
+      "answers": [
+        "plants",
+        "soil",
+        "carnivores",
+        "herbivores"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "According to the given food chain, which organism would suffer if herbivores were eliminated from the food chain?",
+      "question_id": "918.png-1",
+      "answers": [
+        "herbivores",
+        "soil",
+        "decomposer",
+        "carnivores"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Based on the food web below, what does not decompose?",
+      "question_id": "918.png-3",
+      "answers": [
+        "carnivores",
+        "plants",
+        "soil",
+        "herbivores"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Based on the food web below, what is consumed by carnivores??",
+      "question_id": "918.png-5",
+      "answers": [
+        "plants",
+        "herbivores",
+        "soil",
+        "decomposers"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the above food web diagram, if all herbivores dies then which species get directly affected",
+      "question_id": "918.png-2",
+      "answers": [
+        "carnivores",
+        "soil",
+        "plants",
+        "decomposer"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would mostly happen to the owl population if the hawk population was removed",
+      "question_id": "918.png-4",
+      "answers": [
+        "owl population would increase",
+        "owl population would be unaffected",
+        "The owl population would decrease",
+        "everything would stay the same"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

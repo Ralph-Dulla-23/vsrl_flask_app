@@ -1,0 +1,416 @@
+{
+  "image_id": "1679",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          182,
+          6
+        ],
+        [
+          319,
+          31
+        ]
+      ],
+      "value": "Solar Eclipse",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          6,
+          62
+        ],
+        [
+          61,
+          96
+        ]
+      ],
+      "value": "Moon's Orbit",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          119,
+          173
+        ],
+        [
+          171,
+          193
+        ]
+      ],
+      "value": "Earth",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          239,
+          156
+        ],
+        [
+          283,
+          172
+        ]
+      ],
+      "value": "Moon",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          461,
+          172
+        ],
+        [
+          496,
+          187
+        ]
+      ],
+      "value": "Sun",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          126,
+          234
+        ],
+        [
+          319,
+          252
+        ]
+      ],
+      "value": "Phase of the Moon: NEW",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          185,
+          125
+        ],
+        [
+          497,
+          93
+        ],
+        [
+          513,
+          101
+        ],
+        [
+          521,
+          112
+        ],
+        [
+          524,
+          122
+        ],
+        [
+          524,
+          132
+        ],
+        [
+          518,
+          138
+        ],
+        [
+          516,
+          147
+        ],
+        [
+          500,
+          159
+        ],
+        [
+          486,
+          160
+        ],
+        [
+          475,
+          157
+        ],
+        [
+          190,
+          126
+        ],
+        [
+          188,
+          126
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          474,
+          95
+        ],
+        [
+          464,
+          103
+        ],
+        [
+          456,
+          111
+        ],
+        [
+          456,
+          122
+        ],
+        [
+          456,
+          136
+        ],
+        [
+          461,
+          145
+        ],
+        [
+          466,
+          152
+        ],
+        [
+          472,
+          155
+        ],
+        [
+          482,
+          158
+        ],
+        [
+          487,
+          159
+        ],
+        [
+          501,
+          161
+        ],
+        [
+          515,
+          152
+        ],
+        [
+          520,
+          143
+        ],
+        [
+          523,
+          133
+        ],
+        [
+          525,
+          123
+        ],
+        [
+          522,
+          111
+        ],
+        [
+          513,
+          100
+        ],
+        [
+          496,
+          94
+        ],
+        [
+          480,
+          92
+        ],
+        [
+          471,
+          96
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          188,
+          127
+        ],
+        [
+          184,
+          137
+        ],
+        [
+          173,
+          148
+        ],
+        [
+          164,
+          159
+        ],
+        [
+          148,
+          158
+        ],
+        [
+          138,
+          155
+        ],
+        [
+          129,
+          148
+        ],
+        [
+          123,
+          135
+        ],
+        [
+          119,
+          117
+        ],
+        [
+          124,
+          110
+        ],
+        [
+          131,
+          101
+        ],
+        [
+          141,
+          95
+        ],
+        [
+          148,
+          92
+        ],
+        [
+          158,
+          92
+        ],
+        [
+          168,
+          95
+        ],
+        [
+          173,
+          101
+        ],
+        [
+          182,
+          108
+        ],
+        [
+          185,
+          114
+        ],
+        [
+          186,
+          121
+        ],
+        [
+          187,
+          126
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B2",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B1",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+I0",
+      "type": "sectionTitle",
+      "source": "T5",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "solar eclipse moon's orbit earth moon sun phase of the moon: new"
+  },
+  "questions": [
+    {
+      "question_text": "What is the other name for Sun?",
+      "question_id": "1679.png-0",
+      "answers": [
+        "Moon",
+        "Saturn",
+        "Solar",
+        "Earth"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which is nearer to Earth?",
+      "question_id": "1679.png-1",
+      "answers": [
+        "Sun",
+        "Jupiter",
+        "Moon",
+        "Saturn"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

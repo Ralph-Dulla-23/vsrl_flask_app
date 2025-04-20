@@ -1,0 +1,844 @@
+{
+  "image_id": "1991",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          15,
+          0
+        ],
+        [
+          45,
+          13
+        ]
+      ],
+      "value": "Birds,",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          94,
+          43
+        ],
+        [
+          120,
+          61
+        ]
+      ],
+      "value": "Fish",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          6,
+          87
+        ],
+        [
+          52,
+          107
+        ]
+      ],
+      "value": "Crayfish",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          90,
+          90
+        ],
+        [
+          128,
+          104
+        ]
+      ],
+      "value": "Worms",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          47,
+          135
+        ],
+        [
+          79,
+          150
+        ]
+      ],
+      "value": "Algae",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          99,
+          180
+        ],
+        [
+          142,
+          194
+        ]
+      ],
+      "value": "Bacteria",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          22,
+          15
+        ],
+        [
+          34,
+          15
+        ],
+        [
+          35,
+          91
+        ],
+        [
+          25,
+          89
+        ],
+        [
+          22,
+          17
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          33,
+          19
+        ],
+        [
+          38,
+          13
+        ],
+        [
+          107,
+          84
+        ],
+        [
+          102,
+          89
+        ],
+        [
+          31,
+          18
+        ]
+      ],
+      "category": "connector"
+    },
+    "A10": {
+      "id": "A10",
+      "type": "arrow",
+      "polygon": [
+        [
+          39,
+          0
+        ],
+        [
+          42,
+          9
+        ],
+        [
+          136,
+          12
+        ],
+        [
+          141,
+          199
+        ],
+        [
+          128,
+          198
+        ],
+        [
+          128,
+          188
+        ],
+        [
+          114,
+          191
+        ],
+        [
+          113,
+          208
+        ],
+        [
+          146,
+          208
+        ],
+        [
+          146,
+          5
+        ],
+        [
+          38,
+          0
+        ]
+      ],
+      "category": "connector"
+    },
+    "A11": {
+      "id": "A11",
+      "type": "arrow",
+      "polygon": [
+        [
+          115,
+          39
+        ],
+        [
+          117,
+          58
+        ],
+        [
+          129,
+          67
+        ],
+        [
+          129,
+          177
+        ],
+        [
+          136,
+          178
+        ],
+        [
+          139,
+          44
+        ],
+        [
+          117,
+          39
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          37,
+          11
+        ],
+        [
+          46,
+          5
+        ],
+        [
+          101,
+          43
+        ],
+        [
+          92,
+          46
+        ],
+        [
+          38,
+          15
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          92,
+          44
+        ],
+        [
+          99,
+          61
+        ],
+        [
+          49,
+          94
+        ],
+        [
+          44,
+          82
+        ],
+        [
+          91,
+          48
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          104,
+          59
+        ],
+        [
+          116,
+          61
+        ],
+        [
+          113,
+          88
+        ],
+        [
+          104,
+          86
+        ],
+        [
+          106,
+          58
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          96,
+          111
+        ],
+        [
+          111,
+          111
+        ],
+        [
+          112,
+          181
+        ],
+        [
+          104,
+          179
+        ],
+        [
+          99,
+          112
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          85,
+          95
+        ],
+        [
+          95,
+          107
+        ],
+        [
+          77,
+          137
+        ],
+        [
+          71,
+          135
+        ],
+        [
+          85,
+          97
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          24,
+          106
+        ],
+        [
+          31,
+          103
+        ],
+        [
+          57,
+          133
+        ],
+        [
+          51,
+          138
+        ],
+        [
+          22,
+          109
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          71,
+          154
+        ],
+        [
+          93,
+          181
+        ],
+        [
+          98,
+          176
+        ],
+        [
+          77,
+          145
+        ],
+        [
+          67,
+          152
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          7,
+          91
+        ],
+        [
+          0,
+          92
+        ],
+        [
+          0,
+          192
+        ],
+        [
+          99,
+          195
+        ],
+        [
+          99,
+          185
+        ],
+        [
+          9,
+          181
+        ],
+        [
+          6,
+          104
+        ],
+        [
+          9,
+          104
+        ],
+        [
+          7,
+          93
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H8",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H8",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H9",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H9",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A10+H7",
+      "type": "arrowHeadTail",
+      "source": "A10",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A11+H2",
+      "type": "arrowHeadTail",
+      "source": "A11",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H10",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H10",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H0",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H11",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H11",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H6",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H5",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H1",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A8+H4",
+      "type": "arrowHeadTail",
+      "source": "A8",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A9+H3",
+      "type": "arrowHeadTail",
+      "source": "A9",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A10+T5",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T5",
+      "connector": "A10",
+      "directional": true
+    },
+    {
+      "id": "T1+A11+T5",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T5",
+      "connector": "A11",
+      "directional": true
+    },
+    {
+      "id": "T1+A2+T0",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T0",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T2+A0+T0",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T0",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T2+A3+T1",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T1",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T2+A9+T5",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T5",
+      "connector": "A9",
+      "directional": true
+    },
+    {
+      "id": "T3+A1+T0",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T0",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T3+A4+T1",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T1",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T3+A5+T5",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T5",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T4+A6+T3",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T3",
+      "connector": "A6",
+      "directional": true
+    },
+    {
+      "id": "T4+A7+T2",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T2",
+      "connector": "A7",
+      "directional": true
+    },
+    {
+      "id": "T4+A8+T5",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T5",
+      "connector": "A8",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A10": "connector",
+    "A11": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "birds, fish crayfish worms algae bacteria"
+  },
+  "questions": [
+    {
+      "question_text": "If the fish in the community below were destroyed, which population would be most directly affected?",
+      "question_id": "1991.png-0",
+      "answers": [
+        "Birds",
+        "Crayfish",
+        "Algae",
+        "All of the Above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the diagram shown, which is the producer?",
+      "question_id": "1991.png-1",
+      "answers": [
+        "worms",
+        "algae",
+        "bacteria",
+        "crayfish"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the diagram shown, which organism consumes algae as a food energy source?",
+      "question_id": "1991.png-8",
+      "answers": [
+        "bacteria",
+        "fish",
+        "worms",
+        "birds"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "The main source of energy for this ecosystem is:",
+      "question_id": "1991.png-4",
+      "answers": [
+        "Fish",
+        "Algae",
+        "Birds",
+        "Worms"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What do worms feed on?",
+      "question_id": "1991.png-2",
+      "answers": [
+        "algae",
+        "crayfish",
+        "birds",
+        "none of the above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is a predator and prey?",
+      "question_id": "1991.png-3",
+      "answers": [
+        "fish",
+        "algae",
+        "bacteria",
+        "crayfish"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is a primary producer here?",
+      "question_id": "1991.png-9",
+      "answers": [
+        "birds",
+        "algae",
+        "crayfish",
+        "none of the above"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is at the top of the food chain?",
+      "question_id": "1991.png-10",
+      "answers": [
+        "worm",
+        "bird",
+        "algae",
+        "crayfish"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which is classified as a Producer?",
+      "question_id": "1991.png-11",
+      "answers": [
+        "Fish",
+        "Crayfish",
+        "Birds",
+        "Algae"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which is the producer in the group?",
+      "question_id": "1991.png-5",
+      "answers": [
+        "Fish",
+        "Birds",
+        "Algae",
+        "None of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which is the top predator in the food web?",
+      "question_id": "1991.png-7",
+      "answers": [
+        "Birds",
+        "Crayfish",
+        "Fish",
+        "None of the above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which of the following is a primary consumer?",
+      "question_id": "1991.png-6",
+      "answers": [
+        "Fish",
+        "Bacteria",
+        "Birds",
+        "Crayfish"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    }
+  ]
+}

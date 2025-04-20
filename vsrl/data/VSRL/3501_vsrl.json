@@ -1,0 +1,940 @@
+{
+  "image_id": "3501",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          358,
+          345
+        ],
+        [
+          544,
+          388
+        ]
+      ],
+      "value": "Golgi Body (folded hard candy ribbon)",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          89,
+          49
+        ],
+        [
+          195,
+          88
+        ]
+      ],
+      "value": "Cell Membrane (plastic bag)",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T10": {
+      "id": "T10",
+      "type": "text",
+      "bbox": [
+        [
+          422,
+          106
+        ],
+        [
+          496,
+          136
+        ]
+      ],
+      "value": "Cytoplasm (jello)",
+      "replacementText": "K",
+      "category": "label"
+    },
+    "T11": {
+      "id": "T11",
+      "type": "text",
+      "bbox": [
+        [
+          441,
+          239
+        ],
+        [
+          551,
+          279
+        ]
+      ],
+      "value": "Smooth ER (gummy worms)",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T12": {
+      "id": "T12",
+      "type": "text",
+      "bbox": [
+        [
+          445,
+          155
+        ],
+        [
+          558,
+          236
+        ]
+      ],
+      "value": "Rough ER (sour gummy worms, with a rough sugar coating)",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T13": {
+      "id": "T13",
+      "type": "text",
+      "bbox": [
+        [
+          425,
+          285
+        ],
+        [
+          551,
+          328
+        ]
+      ],
+      "value": "Ribosomes (candy sprinkles)",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          51,
+          104
+        ],
+        [
+          147,
+          148
+        ]
+      ],
+      "value": "Lysosome (m & m candy)",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          39,
+          182
+        ],
+        [
+          100,
+          218
+        ]
+      ],
+      "value": "Nucleus (plum)",
+      "replacementText": "M",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          18,
+          261
+        ],
+        [
+          107,
+          321
+        ]
+      ],
+      "value": "Nuclear Membrane (plum skin)",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          22,
+          224
+        ],
+        [
+          98,
+          254
+        ]
+      ],
+      "value": "Nucleolus (plum pit)",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          53,
+          374
+        ],
+        [
+          159,
+          408
+        ]
+      ],
+      "value": "Mitochondrion (raisins)",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          27,
+          331
+        ],
+        [
+          127,
+          365
+        ]
+      ],
+      "value": "Vacuole (jaw breakers)",
+      "replacementText": "N",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          176,
+          5
+        ],
+        [
+          384,
+          31
+        ]
+      ],
+      "value": "Jello Animal Cell",
+      "replacementText": "L",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          409,
+          38
+        ],
+        [
+          495,
+          70
+        ]
+      ],
+      "value": "Centrosome (gumdrops)",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          189,
+          102
+        ],
+        [
+          229,
+          70
+        ],
+        [
+          284,
+          42
+        ],
+        [
+          342,
+          41
+        ],
+        [
+          389,
+          67
+        ],
+        [
+          427,
+          124
+        ],
+        [
+          447,
+          184
+        ],
+        [
+          432,
+          298
+        ],
+        [
+          382,
+          363
+        ],
+        [
+          351,
+          384
+        ],
+        [
+          282,
+          400
+        ],
+        [
+          204,
+          393
+        ],
+        [
+          140,
+          361
+        ],
+        [
+          101,
+          282
+        ],
+        [
+          116,
+          198
+        ],
+        [
+          189,
+          102
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          388,
+          368
+        ],
+        [
+          379,
+          374
+        ],
+        [
+          330,
+          324
+        ],
+        [
+          345,
+          316
+        ],
+        [
+          387,
+          364
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          436,
+          293
+        ],
+        [
+          436,
+          303
+        ],
+        [
+          393,
+          306
+        ],
+        [
+          393,
+          289
+        ],
+        [
+          437,
+          290
+        ]
+      ],
+      "category": "connector"
+    },
+    "A10": {
+      "id": "A10",
+      "type": "arrow",
+      "polygon": [
+        [
+          217,
+          121
+        ],
+        [
+          217,
+          136
+        ],
+        [
+          153,
+          138
+        ],
+        [
+          153,
+          125
+        ],
+        [
+          219,
+          119
+        ]
+      ],
+      "category": "connector"
+    },
+    "A11": {
+      "id": "A11",
+      "type": "arrow",
+      "polygon": [
+        [
+          216,
+          98
+        ],
+        [
+          227,
+          86
+        ],
+        [
+          196,
+          59
+        ],
+        [
+          187,
+          71
+        ],
+        [
+          219,
+          99
+        ]
+      ],
+      "category": "connector"
+    },
+    "A12": {
+      "id": "A12",
+      "type": "arrow",
+      "polygon": [
+        [
+          393,
+          146
+        ],
+        [
+          402,
+          157
+        ],
+        [
+          435,
+          128
+        ],
+        [
+          423,
+          119
+        ],
+        [
+          393,
+          145
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          450,
+          240
+        ],
+        [
+          452,
+          255
+        ],
+        [
+          355,
+          256
+        ],
+        [
+          353,
+          242
+        ],
+        [
+          450,
+          242
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          456,
+          191
+        ],
+        [
+          456,
+          206
+        ],
+        [
+          341,
+          206
+        ],
+        [
+          348,
+          188
+        ],
+        [
+          455,
+          191
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          154,
+          390
+        ],
+        [
+          161,
+          397
+        ],
+        [
+          209,
+          352
+        ],
+        [
+          192,
+          342
+        ],
+        [
+          154,
+          389
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          108,
+          339
+        ],
+        [
+          123,
+          345
+        ],
+        [
+          156,
+          312
+        ],
+        [
+          139,
+          304
+        ],
+        [
+          105,
+          336
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          111,
+          280
+        ],
+        [
+          109,
+          293
+        ],
+        [
+          225,
+          296
+        ],
+        [
+          225,
+          279
+        ],
+        [
+          114,
+          280
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          98,
+          236
+        ],
+        [
+          98,
+          247
+        ],
+        [
+          290,
+          247
+        ],
+        [
+          291,
+          230
+        ],
+        [
+          95,
+          233
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          293,
+          165
+        ],
+        [
+          307,
+          178
+        ],
+        [
+          416,
+          68
+        ],
+        [
+          398,
+          56
+        ],
+        [
+          293,
+          160
+        ],
+        [
+          293,
+          164
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          258,
+          196
+        ],
+        [
+          259,
+          211
+        ],
+        [
+          116,
+          214
+        ],
+        [
+          116,
+          195
+        ],
+        [
+          256,
+          195
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H9",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H9",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A10+H5",
+      "type": "arrowHeadTail",
+      "source": "A10",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A11+H7",
+      "type": "arrowHeadTail",
+      "source": "A11",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A12+H3",
+      "type": "arrowHeadTail",
+      "source": "A12",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H6",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H1",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H11",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H11",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H0",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H10",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H10",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H2",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A8+H8",
+      "type": "arrowHeadTail",
+      "source": "A8",
+      "target": "H8",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A9+H4",
+      "type": "arrowHeadTail",
+      "source": "A9",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A11+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A11",
+      "directional": false
+    },
+    {
+      "id": "T10+A12+B0",
+      "type": "intraObjectLinkage",
+      "source": "T10",
+      "target": "B0",
+      "connector": "A12",
+      "directional": false
+    },
+    {
+      "id": "T11+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T11",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T12+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T12",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T13+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T13",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T2+A10+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A10",
+      "directional": false
+    },
+    {
+      "id": "T3+A9+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A9",
+      "directional": false
+    },
+    {
+      "id": "T4+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T5+A7+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T6+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T7+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T8+I0",
+      "type": "imageTitle",
+      "source": "T8",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T9+A8+B0",
+      "type": "intraObjectLinkage",
+      "source": "T9",
+      "target": "B0",
+      "connector": "A8",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T10": "part_label",
+    "T11": "part_label",
+    "T12": "part_label",
+    "T13": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "title",
+    "T9": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A10": "connector",
+    "A11": "connector",
+    "A12": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "golgi body (folded hard candy ribbon) cell membrane (plastic bag) cytoplasm (jello) smooth er (gummy worms) rough er (sour gummy worms, with a rough sugar coating) ribosomes (candy sprinkles) lysosome (m & m candy) nucleus (plum) nuclear membrane (plum skin) nucleolus (plum pit) mitochondrion (raisins) vacuole (jaw breakers) jello animal cell centrosome (gumdrops)"
+  },
+  "questions": [
+    {
+      "question_text": "Name the type of structure represented in the picture.",
+      "question_id": "3501.png-0",
+      "answers": [
+        "Oxygen",
+        "Stomach",
+        "Temporal Lobe",
+        "Animal cell"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which surrounds the outside of the cytoplasm?",
+      "question_id": "3501.png-1",
+      "answers": [
+        "Vacuole",
+        "Cell Membrane",
+        "Nuclear Membrane",
+        "Lysosome"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

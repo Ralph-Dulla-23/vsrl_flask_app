@@ -1,0 +1,615 @@
+{
+  "image_id": "3965",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          338,
+          14
+        ],
+        [
+          396,
+          26
+        ]
+      ],
+      "value": "umbellule",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          144,
+          100
+        ],
+        [
+          188,
+          114
+        ]
+      ],
+      "value": "pedicel",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          126,
+          131
+        ],
+        [
+          162,
+          144
+        ]
+      ],
+      "value": "rachis",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          112,
+          181
+        ],
+        [
+          166,
+          195
+        ]
+      ],
+      "value": "peduncle",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          249,
+          156
+        ],
+        [
+          285,
+          169
+        ]
+      ],
+      "value": "bract",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          394,
+          112
+        ],
+        [
+          438,
+          126
+        ]
+      ],
+      "value": "bractlet",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          88,
+          213
+        ],
+        [
+          93,
+          152
+        ],
+        [
+          169,
+          43
+        ],
+        [
+          169,
+          40
+        ],
+        [
+          1,
+          41
+        ],
+        [
+          4,
+          53
+        ],
+        [
+          73,
+          161
+        ],
+        [
+          74,
+          217
+        ],
+        [
+          87,
+          214
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          204,
+          137
+        ],
+        [
+          199,
+          117
+        ],
+        [
+          198,
+          93
+        ],
+        [
+          203,
+          41
+        ],
+        [
+          231,
+          27
+        ],
+        [
+          259,
+          38
+        ],
+        [
+          265,
+          77
+        ],
+        [
+          269,
+          113
+        ],
+        [
+          266,
+          143
+        ],
+        [
+          249,
+          158
+        ],
+        [
+          244,
+          185
+        ],
+        [
+          243,
+          211
+        ],
+        [
+          229,
+          215
+        ],
+        [
+          220,
+          214
+        ],
+        [
+          220,
+          157
+        ],
+        [
+          218,
+          140
+        ],
+        [
+          205,
+          133
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          359,
+          202
+        ],
+        [
+          356,
+          119
+        ],
+        [
+          326,
+          100
+        ],
+        [
+          317,
+          116
+        ],
+        [
+          289,
+          85
+        ],
+        [
+          310,
+          50
+        ],
+        [
+          336,
+          37
+        ],
+        [
+          383,
+          30
+        ],
+        [
+          417,
+          48
+        ],
+        [
+          439,
+          91
+        ],
+        [
+          415,
+          113
+        ],
+        [
+          404,
+          100
+        ],
+        [
+          379,
+          118
+        ],
+        [
+          373,
+          208
+        ],
+        [
+          359,
+          211
+        ],
+        [
+          360,
+          203
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          130,
+          88
+        ],
+        [
+          155,
+          98
+        ],
+        [
+          151,
+          103
+        ],
+        [
+          127,
+          92
+        ],
+        [
+          130,
+          89
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          85,
+          115
+        ],
+        [
+          124,
+          130
+        ],
+        [
+          120,
+          140
+        ],
+        [
+          81,
+          123
+        ],
+        [
+          85,
+          116
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          84,
+          184
+        ],
+        [
+          109,
+          184
+        ],
+        [
+          109,
+          191
+        ],
+        [
+          84,
+          191
+        ],
+        [
+          84,
+          185
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          168,
+          183
+        ],
+        [
+          221,
+          184
+        ],
+        [
+          221,
+          194
+        ],
+        [
+          167,
+          194
+        ],
+        [
+          169,
+          184
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          174,
+          135
+        ],
+        [
+          229,
+          144
+        ],
+        [
+          228,
+          151
+        ],
+        [
+          173,
+          142
+        ],
+        [
+          175,
+          135
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          241,
+          154
+        ],
+        [
+          253,
+          158
+        ],
+        [
+          250,
+          164
+        ],
+        [
+          238,
+          159
+        ],
+        [
+          241,
+          154
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          282,
+          158
+        ],
+        [
+          287,
+          166
+        ],
+        [
+          361,
+          126
+        ],
+        [
+          355,
+          118
+        ],
+        [
+          284,
+          156
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          397,
+          108
+        ],
+        [
+          408,
+          85
+        ],
+        [
+          413,
+          87
+        ],
+        [
+          407,
+          112
+        ],
+        [
+          397,
+          108
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          344,
+          31
+        ],
+        [
+          344,
+          39
+        ],
+        [
+          389,
+          39
+        ],
+        [
+          388,
+          28
+        ],
+        [
+          346,
+          29
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A8+B2",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B2",
+      "connector": "A8",
+      "directional": false
+    },
+    {
+      "id": "T1+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T2+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T3+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T4+A5+B1",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B1",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T5+A7+B2",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B2",
+      "connector": "A7",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "umbellule pedicel rachis peduncle bract bractlet"
+  },
+  "questions": []
+}

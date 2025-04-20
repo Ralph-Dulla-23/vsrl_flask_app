@@ -1,0 +1,750 @@
+{
+  "image_id": "1931",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          89,
+          135
+        ],
+        [
+          140,
+          148
+        ]
+      ],
+      "value": "Small fish",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          91,
+          180
+        ],
+        [
+          136,
+          192
+        ]
+      ],
+      "value": "Seaweed",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          188,
+          135
+        ],
+        [
+          218,
+          149
+        ]
+      ],
+      "value": "Crabs",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          166,
+          90
+        ],
+        [
+          218,
+          103
+        ]
+      ],
+      "value": "Large fish",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          163,
+          0
+        ],
+        [
+          199,
+          14
+        ]
+      ],
+      "value": "Sharks",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          67,
+          45
+        ],
+        [
+          117,
+          58
+        ]
+      ],
+      "value": "Sea otters",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          136
+        ],
+        [
+          59,
+          148
+        ]
+      ],
+      "value": "Sea urchins",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          72,
+          64
+        ],
+        [
+          72,
+          72
+        ],
+        [
+          32,
+          136
+        ],
+        [
+          24,
+          131
+        ],
+        [
+          63,
+          70
+        ],
+        [
+          67,
+          61
+        ],
+        [
+          73,
+          63
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          94,
+          45
+        ],
+        [
+          148,
+          15
+        ],
+        [
+          156,
+          12
+        ],
+        [
+          149,
+          9
+        ],
+        [
+          90,
+          40
+        ],
+        [
+          92,
+          46
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          124,
+          57
+        ],
+        [
+          190,
+          91
+        ],
+        [
+          194,
+          85
+        ],
+        [
+          124,
+          50
+        ],
+        [
+          124,
+          58
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          97,
+          60
+        ],
+        [
+          184,
+          130
+        ],
+        [
+          185,
+          136
+        ],
+        [
+          97,
+          68
+        ],
+        [
+          89,
+          64
+        ],
+        [
+          98,
+          62
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          162,
+          99
+        ],
+        [
+          160,
+          107
+        ],
+        [
+          116,
+          134
+        ],
+        [
+          113,
+          128
+        ],
+        [
+          150,
+          103
+        ],
+        [
+          159,
+          96
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          199,
+          108
+        ],
+        [
+          200,
+          137
+        ],
+        [
+          207,
+          136
+        ],
+        [
+          206,
+          116
+        ],
+        [
+          205,
+          105
+        ],
+        [
+          200,
+          107
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          136,
+          178
+        ],
+        [
+          174,
+          155
+        ],
+        [
+          181,
+          149
+        ],
+        [
+          173,
+          149
+        ],
+        [
+          134,
+          172
+        ],
+        [
+          138,
+          179
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          146,
+          143
+        ],
+        [
+          182,
+          144
+        ],
+        [
+          170,
+          136
+        ],
+        [
+          146,
+          136
+        ],
+        [
+          146,
+          143
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          114,
+          149
+        ],
+        [
+          117,
+          161
+        ],
+        [
+          118,
+          181
+        ],
+        [
+          109,
+          179
+        ],
+        [
+          111,
+          155
+        ],
+        [
+          114,
+          151
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          55,
+          155
+        ],
+        [
+          62,
+          159
+        ],
+        [
+          93,
+          182
+        ],
+        [
+          95,
+          175
+        ],
+        [
+          63,
+          152
+        ],
+        [
+          54,
+          152
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H5",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H0",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H6",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H8",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H8",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H4",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H2",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A8+H7",
+      "type": "arrowHeadTail",
+      "source": "A8",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A9+H9",
+      "type": "arrowHeadTail",
+      "source": "A9",
+      "target": "H9",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A4+T3",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T3",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T0+A7+T2",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T2",
+      "connector": "A7",
+      "directional": true
+    },
+    {
+      "id": "T1+A6+T2",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T2",
+      "connector": "A6",
+      "directional": true
+    },
+    {
+      "id": "T1+A8+T0",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T0",
+      "connector": "A8",
+      "directional": true
+    },
+    {
+      "id": "T1+A9+T6",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T6",
+      "connector": "A9",
+      "directional": true
+    },
+    {
+      "id": "T2+A3+T5",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T5",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T2+A5+T3",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T3",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T3+A2+T5",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T5",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T5+A1+T4",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T4",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T6+A0+T5",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T5",
+      "connector": "A0",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "small fish seaweed crabs large fish sharks sea otters sea urchins"
+  },
+  "questions": [
+    {
+      "question_text": "According to the given food web, which animals belong to the category of primary consumers?",
+      "question_id": "1931.png-5",
+      "answers": [
+        "shark, otter",
+        "sea urchins, small, fish, crab",
+        "large fish",
+        "sea otters"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Choose the correct term for sharks using the diagram below.",
+      "question_id": "1931.png-7",
+      "answers": [
+        "Decomposer",
+        "Primary consumer",
+        "Producer",
+        "Predator"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "If the sea urchins disappeared, which population would likely decrease as a result?",
+      "question_id": "1931.png-4",
+      "answers": [
+        "Small fish",
+        "Large fish",
+        "Crabs",
+        "Sea otters"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Using the accompanying diagram, choose the producer from the following:",
+      "question_id": "1931.png-9",
+      "answers": [
+        "Seaweed",
+        "Crabs",
+        "Sharks",
+        "Small fish"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What change could occur to increase the size of the large fish population?",
+      "question_id": "1931.png-3",
+      "answers": [
+        "More sea otters",
+        "More sea urchins",
+        "Fewer small fish",
+        "More crabs"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is a producer?",
+      "question_id": "1931.png-8",
+      "answers": [
+        "urchin",
+        "small fish",
+        "crab",
+        "seaweed"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is at the top of the food chain?",
+      "question_id": "1931.png-2",
+      "answers": [
+        "shark",
+        "crab",
+        "seaweed",
+        "large fish"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is both predator and prey?",
+      "question_id": "1931.png-10",
+      "answers": [
+        "large fish",
+        "seaweed",
+        "shark",
+        "sea urchin"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which organism is the main source of energy?",
+      "question_id": "1931.png-0",
+      "answers": [
+        "crabs",
+        "otters",
+        "seaweed",
+        "small fish"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which organism serves as prey for the largest number of other organisms?",
+      "question_id": "1931.png-1",
+      "answers": [
+        "Sharks",
+        "Small fish",
+        "Sea urchins",
+        "Sea otters"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which population would suffer first if there were no producers in this food chain?",
+      "question_id": "1931.png-6",
+      "answers": [
+        "Large fish",
+        "Sharks",
+        "Sea otters",
+        "Small fish"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    }
+  ]
+}

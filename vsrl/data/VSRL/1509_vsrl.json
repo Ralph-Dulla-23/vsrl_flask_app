@@ -1,0 +1,474 @@
+{
+  "image_id": "1509",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          435,
+          352
+        ],
+        [
+          504,
+          372
+        ]
+      ],
+      "value": "electron",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          629,
+          354
+        ],
+        [
+          702,
+          369
+        ]
+      ],
+      "value": "electron",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          150,
+          539
+        ],
+        [
+          227,
+          567
+        ]
+      ],
+      "value": "electron",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          297,
+          189
+        ],
+        [
+          377,
+          213
+        ]
+      ],
+      "value": "Level 1",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          287,
+          93
+        ],
+        [
+          383,
+          120
+        ]
+      ],
+      "value": "Level 2",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          295,
+          3
+        ],
+        [
+          380,
+          30
+        ]
+      ],
+      "value": "Level 3",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          291,
+          355
+        ],
+        [
+          387,
+          381
+        ]
+      ],
+      "value": "Nucleus",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          358,
+          311
+        ],
+        [
+          372,
+          316
+        ],
+        [
+          380,
+          325
+        ],
+        [
+          389,
+          341
+        ],
+        [
+          388,
+          363
+        ],
+        [
+          382,
+          381
+        ],
+        [
+          374,
+          391
+        ],
+        [
+          349,
+          401
+        ],
+        [
+          334,
+          403
+        ],
+        [
+          314,
+          397
+        ],
+        [
+          296,
+          379
+        ],
+        [
+          288,
+          357
+        ],
+        [
+          300,
+          323
+        ],
+        [
+          330,
+          304
+        ],
+        [
+          354,
+          309
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          477,
+          317
+        ],
+        [
+          494,
+          324
+        ],
+        [
+          505,
+          337
+        ],
+        [
+          509,
+          353
+        ],
+        [
+          508,
+          367
+        ],
+        [
+          497,
+          379
+        ],
+        [
+          488,
+          388
+        ],
+        [
+          468,
+          388
+        ],
+        [
+          445,
+          381
+        ],
+        [
+          436,
+          357
+        ],
+        [
+          432,
+          351
+        ],
+        [
+          440,
+          327
+        ],
+        [
+          469,
+          317
+        ],
+        [
+          476,
+          316
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          626,
+          344
+        ],
+        [
+          628,
+          363
+        ],
+        [
+          633,
+          373
+        ],
+        [
+          647,
+          383
+        ],
+        [
+          668,
+          388
+        ],
+        [
+          692,
+          380
+        ],
+        [
+          702,
+          354
+        ],
+        [
+          698,
+          332
+        ],
+        [
+          676,
+          319
+        ],
+        [
+          655,
+          317
+        ],
+        [
+          634,
+          326
+        ],
+        [
+          629,
+          341
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          206,
+          516
+        ],
+        [
+          224,
+          533
+        ],
+        [
+          228,
+          556
+        ],
+        [
+          217,
+          577
+        ],
+        [
+          193,
+          587
+        ],
+        [
+          170,
+          581
+        ],
+        [
+          154,
+          552
+        ],
+        [
+          160,
+          527
+        ],
+        [
+          178,
+          516
+        ],
+        [
+          206,
+          512
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+B1",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B2",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B3",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+I0",
+      "type": "sectionTitle",
+      "source": "T4",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+I0",
+      "type": "sectionTitle",
+      "source": "T5",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+B0",
+      "type": "intraObjectLabel",
+      "source": "T6",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "electron electron electron level 1 level 2 level 3 nucleus"
+  },
+  "questions": [
+    {
+      "question_text": "Label A, C and E represents",
+      "question_id": "1509.png-0",
+      "answers": [
+        "none of above",
+        "all of above",
+        "electrons",
+        "nucleus"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "What exists at level 1?",
+      "question_id": "1509.png-1",
+      "answers": [
+        "electron",
+        "proton",
+        "nucleus",
+        "none of the above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is in the middle of the diagram?",
+      "question_id": "1509.png-3",
+      "answers": [
+        "both above",
+        "nucleus",
+        "electron",
+        "none of the above"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "which label represents nucleus?",
+      "question_id": "1509.png-2",
+      "answers": [
+        "C",
+        "A",
+        "E",
+        "B"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    }
+  ]
+}

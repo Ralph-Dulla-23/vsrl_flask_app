@@ -1,0 +1,336 @@
+{
+  "image_id": "4274",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          95,
+          157
+        ],
+        [
+          185,
+          207
+        ]
+      ],
+      "value": "Soil",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          379,
+          157
+        ],
+        [
+          489,
+          206
+        ]
+      ],
+      "value": "Arch",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          14,
+          579
+        ],
+        [
+          139,
+          627
+        ]
+      ],
+      "value": "Cave",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          319,
+          519
+        ],
+        [
+          550,
+          608
+        ]
+      ],
+      "value": "Limestone bedrock",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          1,
+          21
+        ],
+        [
+          36,
+          22
+        ],
+        [
+          96,
+          39
+        ],
+        [
+          128,
+          48
+        ],
+        [
+          158,
+          46
+        ],
+        [
+          217,
+          56
+        ],
+        [
+          353,
+          55
+        ],
+        [
+          434,
+          38
+        ],
+        [
+          472,
+          25
+        ],
+        [
+          571,
+          25
+        ],
+        [
+          570,
+          850
+        ],
+        [
+          2,
+          855
+        ],
+        [
+          2,
+          25
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          372,
+          189
+        ],
+        [
+          354,
+          190
+        ],
+        [
+          294,
+          313
+        ],
+        [
+          301,
+          313
+        ],
+        [
+          280,
+          337
+        ],
+        [
+          276,
+          310
+        ],
+        [
+          275,
+          304
+        ],
+        [
+          285,
+          310
+        ],
+        [
+          347,
+          180
+        ],
+        [
+          372,
+          179
+        ],
+        [
+          373,
+          178
+        ],
+        [
+          373,
+          188
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          144,
+          603
+        ],
+        [
+          161,
+          603
+        ],
+        [
+          196,
+          726
+        ],
+        [
+          190,
+          726
+        ],
+        [
+          207,
+          750
+        ],
+        [
+          211,
+          723
+        ],
+        [
+          207,
+          723
+        ],
+        [
+          171,
+          598
+        ],
+        [
+          143,
+          596
+        ],
+        [
+          143,
+          600
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T2+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector"
+  },
+  "educational_context": {
+    "subject": "earth_science",
+    "diagram_type": "labeled_illustration",
+    "text_content": "soil arch cave limestone bedrock"
+  },
+  "questions": [
+    {
+      "question_text": "What is an hollow opening found under the earth?",
+      "question_id": "4274.png-2",
+      "answers": [
+        "soil",
+        "arch",
+        "bedrock",
+        "cave"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the part represented by B?",
+      "question_id": "4274.png-0",
+      "answers": [
+        "cave",
+        "limestone bedrock",
+        "arch",
+        "none of the above"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is the topmost layer?",
+      "question_id": "4274.png-1",
+      "answers": [
+        "cave",
+        "none of the above",
+        "arch",
+        "soil"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    }
+  ]
+}

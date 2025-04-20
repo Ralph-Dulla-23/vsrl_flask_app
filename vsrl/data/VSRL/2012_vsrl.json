@@ -1,0 +1,868 @@
+{
+  "image_id": "2012",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          19,
+          4
+        ],
+        [
+          71,
+          21
+        ]
+      ],
+      "value": "Grass",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          4,
+          111
+        ],
+        [
+          93,
+          133
+        ]
+      ],
+      "value": "Producers",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          116,
+          0
+        ],
+        [
+          227,
+          20
+        ]
+      ],
+      "value": "Grasshopper",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          254,
+          1
+        ],
+        [
+          299,
+          21
+        ]
+      ],
+      "value": "Frog",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          355,
+          2
+        ],
+        [
+          415,
+          19
+        ]
+      ],
+      "value": "Snake",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          469,
+          2
+        ],
+        [
+          520,
+          19
+        ]
+      ],
+      "value": "Hawk",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          453,
+          111
+        ],
+        [
+          549,
+          147
+        ]
+      ],
+      "value": "Top level consumers",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          348,
+          113
+        ],
+        [
+          439,
+          147
+        ]
+      ],
+      "value": "Tertiary consumers",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          237,
+          111
+        ],
+        [
+          328,
+          145
+        ]
+      ],
+      "value": "Secondary consumers",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          120,
+          110
+        ],
+        [
+          220,
+          147
+        ]
+      ],
+      "value": "Primary consumers",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          22,
+          102
+        ],
+        [
+          6,
+          88
+        ],
+        [
+          6,
+          58
+        ],
+        [
+          16,
+          36
+        ],
+        [
+          45,
+          25
+        ],
+        [
+          78,
+          37
+        ],
+        [
+          87,
+          64
+        ],
+        [
+          80,
+          83
+        ],
+        [
+          73,
+          102
+        ],
+        [
+          54,
+          109
+        ],
+        [
+          24,
+          104
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          146,
+          96
+        ],
+        [
+          132,
+          83
+        ],
+        [
+          122,
+          66
+        ],
+        [
+          129,
+          39
+        ],
+        [
+          145,
+          21
+        ],
+        [
+          172,
+          18
+        ],
+        [
+          193,
+          26
+        ],
+        [
+          210,
+          51
+        ],
+        [
+          205,
+          80
+        ],
+        [
+          184,
+          98
+        ],
+        [
+          162,
+          103
+        ],
+        [
+          147,
+          97
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          249,
+          94
+        ],
+        [
+          240,
+          77
+        ],
+        [
+          238,
+          45
+        ],
+        [
+          257,
+          31
+        ],
+        [
+          287,
+          25
+        ],
+        [
+          308,
+          33
+        ],
+        [
+          320,
+          60
+        ],
+        [
+          322,
+          77
+        ],
+        [
+          316,
+          92
+        ],
+        [
+          281,
+          109
+        ],
+        [
+          263,
+          104
+        ],
+        [
+          250,
+          96
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          374,
+          104
+        ],
+        [
+          355,
+          91
+        ],
+        [
+          349,
+          69
+        ],
+        [
+          356,
+          44
+        ],
+        [
+          377,
+          27
+        ],
+        [
+          399,
+          23
+        ],
+        [
+          426,
+          40
+        ],
+        [
+          432,
+          58
+        ],
+        [
+          432,
+          76
+        ],
+        [
+          420,
+          95
+        ],
+        [
+          406,
+          105
+        ],
+        [
+          390,
+          108
+        ],
+        [
+          373,
+          106
+        ]
+      ],
+      "category": "object"
+    },
+    "B4": {
+      "id": "B4",
+      "type": "blob",
+      "polygon": [
+        [
+          485,
+          101
+        ],
+        [
+          465,
+          86
+        ],
+        [
+          459,
+          62
+        ],
+        [
+          466,
+          42
+        ],
+        [
+          482,
+          28
+        ],
+        [
+          505,
+          22
+        ],
+        [
+          529,
+          35
+        ],
+        [
+          541,
+          61
+        ],
+        [
+          537,
+          82
+        ],
+        [
+          520,
+          96
+        ],
+        [
+          499,
+          105
+        ],
+        [
+          491,
+          103
+        ],
+        [
+          488,
+          103
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          88,
+          53
+        ],
+        [
+          87,
+          76
+        ],
+        [
+          112,
+          76
+        ],
+        [
+          113,
+          53
+        ],
+        [
+          91,
+          53
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          209,
+          47
+        ],
+        [
+          208,
+          67
+        ],
+        [
+          234,
+          70
+        ],
+        [
+          234,
+          50
+        ],
+        [
+          208,
+          49
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          321,
+          50
+        ],
+        [
+          323,
+          73
+        ],
+        [
+          342,
+          72
+        ],
+        [
+          343,
+          53
+        ],
+        [
+          321,
+          49
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          430,
+          52
+        ],
+        [
+          433,
+          77
+        ],
+        [
+          459,
+          76
+        ],
+        [
+          455,
+          53
+        ],
+        [
+          431,
+          55
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H3",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H2",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A0+B1",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B1",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "B1+A1+B2",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B2",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "B2+A2+B3",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B3",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "B3+A3+B4",
+      "type": "interObjectLinkage",
+      "source": "B3",
+      "target": "B4",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B1",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B2",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B3",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+B4",
+      "type": "intraObjectLabel",
+      "source": "T5",
+      "target": "B4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+B4",
+      "type": "intraObjectLabel",
+      "source": "T6",
+      "target": "B4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T7+B3",
+      "type": "intraObjectLabel",
+      "source": "T7",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T8+B2",
+      "type": "intraObjectLabel",
+      "source": "T8",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T9+B1",
+      "type": "intraObjectLabel",
+      "source": "T9",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "B4": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "grass producers grasshopper frog snake hawk top level consumers tertiary consumers secondary consumers primary consumers"
+  },
+  "questions": [
+    {
+      "question_text": "If snakes are removed what would happen?",
+      "question_id": "2012.png-7",
+      "answers": [
+        "Hawks would increase in population",
+        "Hawks would decrease in population",
+        "Frogs would decrease in population",
+        "None of the above"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the diagram shown, which organism consumes snakes as food?",
+      "question_id": "2012.png-10",
+      "answers": [
+        "frog",
+        "hawk",
+        "grasshopper",
+        "grass"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the diagram shown, which organism is a primary consumer?",
+      "question_id": "2012.png-8",
+      "answers": [
+        "grasshopper",
+        "hawks",
+        "snakes",
+        "frog"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "In this example of a food chain, which is the correct flow?",
+      "question_id": "2012.png-9",
+      "answers": [
+        "Frog to Grass",
+        "Snake to Hawk",
+        "Hawk to Grasshopper",
+        "Hawk to Frog"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "In this food web diagram, who would benefit the most from a decrease in Hawks?",
+      "question_id": "2012.png-6",
+      "answers": [
+        "Snakes",
+        "Frogs",
+        "Grass",
+        "Grasshoppers"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What happens to frogs if grasshoppers decrease?",
+      "question_id": "2012.png-2",
+      "answers": [
+        "nothing",
+        "increase",
+        "decrease",
+        "none of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the producer for this web?",
+      "question_id": "2012.png-1",
+      "answers": [
+        "snake",
+        "hawk",
+        "grass",
+        "none of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which is the top predator in the food web?",
+      "question_id": "2012.png-5",
+      "answers": [
+        "Snake",
+        "Frog",
+        "Hawk",
+        "None of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which of these is the highest in the food chain in this diagram?",
+      "question_id": "2012.png-0",
+      "answers": [
+        "hawk",
+        "snake",
+        "frog",
+        "grasshopper"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which of these is the lowest in the food chain in this diagram?",
+      "question_id": "2012.png-4",
+      "answers": [
+        "grass",
+        "hawk",
+        "snake",
+        "frog"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "name the secondary consumer in the web?",
+      "question_id": "2012.png-3",
+      "answers": [
+        "frog",
+        "grass",
+        "snake",
+        "none of the above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

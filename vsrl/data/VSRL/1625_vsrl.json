@@ -1,0 +1,356 @@
+{
+  "image_id": "1625",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          14,
+          6
+        ],
+        [
+          108,
+          36
+        ]
+      ],
+      "value": "Current ",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          198,
+          8
+        ],
+        [
+          365,
+          37
+        ]
+      ],
+      "value": "Electron Flow",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          134,
+          202
+        ],
+        [
+          228,
+          226
+        ]
+      ],
+      "value": "resistor ",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          127,
+          234
+        ],
+        [
+          233,
+          236
+        ],
+        [
+          233,
+          257
+        ],
+        [
+          126,
+          257
+        ],
+        [
+          129,
+          237
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          150,
+          52
+        ],
+        [
+          150,
+          85
+        ],
+        [
+          166,
+          84
+        ],
+        [
+          175,
+          77
+        ],
+        [
+          177,
+          60
+        ],
+        [
+          169,
+          51
+        ],
+        [
+          152,
+          51
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          105,
+          45
+        ],
+        [
+          106,
+          51
+        ],
+        [
+          33,
+          53
+        ],
+        [
+          31,
+          59
+        ],
+        [
+          14,
+          58
+        ],
+        [
+          13,
+          48
+        ],
+        [
+          23,
+          35
+        ],
+        [
+          37,
+          36
+        ],
+        [
+          32,
+          41
+        ],
+        [
+          106,
+          44
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          218,
+          46
+        ],
+        [
+          218,
+          54
+        ],
+        [
+          296,
+          56
+        ],
+        [
+          294,
+          59
+        ],
+        [
+          298,
+          63
+        ],
+        [
+          310,
+          52
+        ],
+        [
+          298,
+          40
+        ],
+        [
+          295,
+          40
+        ],
+        [
+          295,
+          45
+        ],
+        [
+          221,
+          47
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          149,
+          60
+        ],
+        [
+          151,
+          70
+        ],
+        [
+          15,
+          72
+        ],
+        [
+          15,
+          242
+        ],
+        [
+          125,
+          244
+        ],
+        [
+          124,
+          255
+        ],
+        [
+          0,
+          254
+        ],
+        [
+          2,
+          63
+        ],
+        [
+          149,
+          62
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          175,
+          59
+        ],
+        [
+          175,
+          71
+        ],
+        [
+          323,
+          71
+        ],
+        [
+          323,
+          241
+        ],
+        [
+          233,
+          242
+        ],
+        [
+          233,
+          254
+        ],
+        [
+          337,
+          253
+        ],
+        [
+          337,
+          62
+        ],
+        [
+          175,
+          61
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B1+A2+B0",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "B1+A3+B0",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "current  electron flow resistor "
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "image_id": "951",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          7,
+          86
+        ],
+        [
+          116,
+          117
+        ]
+      ],
+      "value": "Large Ground Finch (Geospiza Magnirostris)",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          144,
+          81
+        ],
+        [
+          234,
+          112
+        ]
+      ],
+      "value": "warbler Finch (Certhidea olivasea)",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          111,
+          16
+        ],
+        [
+          76,
+          9
+        ],
+        [
+          76,
+          9
+        ],
+        [
+          33,
+          23
+        ],
+        [
+          33,
+          23
+        ],
+        [
+          9,
+          51
+        ],
+        [
+          9,
+          51
+        ],
+        [
+          56,
+          40
+        ],
+        [
+          56,
+          40
+        ],
+        [
+          7,
+          52
+        ],
+        [
+          9,
+          51
+        ],
+        [
+          44,
+          68
+        ],
+        [
+          44,
+          68
+        ],
+        [
+          60,
+          88
+        ],
+        [
+          60,
+          88
+        ],
+        [
+          75,
+          82
+        ],
+        [
+          75,
+          82
+        ],
+        [
+          88,
+          84
+        ],
+        [
+          88,
+          84
+        ],
+        [
+          91,
+          67
+        ],
+        [
+          93,
+          63
+        ],
+        [
+          95,
+          50
+        ],
+        [
+          98,
+          41
+        ],
+        [
+          102,
+          37
+        ],
+        [
+          103,
+          34
+        ],
+        [
+          110,
+          18
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          142,
+          28
+        ],
+        [
+          165,
+          40
+        ],
+        [
+          167,
+          39
+        ],
+        [
+          167,
+          39
+        ],
+        [
+          175,
+          56
+        ],
+        [
+          174,
+          57
+        ],
+        [
+          176,
+          75
+        ],
+        [
+          183,
+          69
+        ],
+        [
+          183,
+          55
+        ],
+        [
+          199,
+          56
+        ],
+        [
+          199,
+          56
+        ],
+        [
+          221,
+          45
+        ],
+        [
+          221,
+          45
+        ],
+        [
+          235,
+          50
+        ],
+        [
+          235,
+          50
+        ],
+        [
+          227,
+          41
+        ],
+        [
+          222,
+          37
+        ],
+        [
+          206,
+          22
+        ],
+        [
+          198,
+          21
+        ],
+        [
+          169,
+          15
+        ],
+        [
+          144,
+          27
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+B0",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B1",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "B0": "whole",
+    "B1": "whole"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "large ground finch (geospiza magnirostris) warbler finch (certhidea olivasea)"
+  },
+  "questions": [
+    {
+      "question_text": "Which image represents Large Ground Finch",
+      "question_id": "951.png-1",
+      "answers": [
+        "A",
+        "None of above",
+        "B",
+        "Both"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which image represents Warbler Finch",
+      "question_id": "951.png-0",
+      "answers": [
+        "A",
+        "Both",
+        "None of above",
+        "B"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    }
+  ]
+}
