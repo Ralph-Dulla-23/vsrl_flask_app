@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VSRL Analysis Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container results-container">
+        <header>
+            <h1>VSRL Analysis Results</h1>
+            <a href="{{ url_for('index') }}" class="back-link">Upload Another Image</a>
+        </header>
+        
+        <main>
+            <section class="results-overview">
+                <h2>Analysis Overview</h2>
+                <p>Subject: <strong>{{ vsrl_data.educational_context.subject }}</strong></p>
+                <p>Diagram Type: <strong>{{ vsrl_data.educational_context.diagram_type }}</strong></p>
+                <p>Relationships Identified: <strong>{{ vsrl_data.relationships|length }}</strong></p>
+            </section>
+            
+            <div class="results-grid">
+                <section class="original-image">
+                    <h2>Original Image</h2>
+                    <img src="{{ url_for('static', filename=image_file) }}" alt="Original image" class="result-image">
+                </section>
+                
+                <section class="analyzed-image">
+                    <h2>VSRL Analysis</h2>
+                    <img src="{{ url_for('static', filename=visualization_file) }}" alt="VSRL analysis visualization" class="result-image">
+                </section>
+            </div>
+            
+            <section class="explanation-section">
+                <h2>Educational Explanation</h2>
+                <div class="explanation-content">
+                    {{ explanation|safe }}
+                </div>
+            </section>
+            
+        </main>
+        
+        <footer>
+            <p>&copy; 2023 VSRL Tool</p>
+        </footer>
+    </div>
+    
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VSRL Tool - Educational Image Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Visual Semantic Role Labeling Tool</h1>
+            <p>Analyze educational images to identify visual elements and their relationships</p>
+        </header>
+        
+        <main>
+            <section class="upload-section">
+                <h2>Upload an Educational Image</h2>
+                
+                {% with messages = get_flashed_messages() %}
+                    {% if messages %}
+                        <div class="alert">
+                            {% for message in messages %}
+                                <p>{{ message }}</p>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                {% endwith %}
+                
+                <form action="{{ url_for('upload_file') }}" method="post" enctype="multipart/form-data" class="upload-form">
+                    <div class="file-input-container">
+                        <input type="file" name="file" id="file" accept="image/*" required>
+                        <label for="file" class="file-label">
+                            <span>Choose an image</span>
+                        </label>
+                        <div id="file-name-display">No file selected</div>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Analyze Image</button>
+                </form>
+            </section>
+            
+            <section class="info-section">
+                <h2>About This Tool</h2>
+                <p>The Visual Semantic Role Labeling (VSRL) Tool analyzes educational images to help understand the relationships between visual elements. Upload an educational diagram to:</p>
+                <ul>
+                    <li>Identify text, objects, and connectors</li>
+                    <li>Classify the subject and diagram type</li>
+                    <li>Generate educational explanations</li>
+                </ul>
+                <p>Ideal for teachers, students, and educational content creators.</p>
+            </section>
+        </main>
+        
+        <footer>
+            <p>&copy; 2026 VSRL Tool</p>
+        </footer>
+    </div>
+    
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
