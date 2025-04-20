@@ -1,0 +1,425 @@
+{
+  "image_id": "4261",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          41,
+          341
+        ],
+        [
+          199,
+          361
+        ]
+      ],
+      "value": "SOIL PROFILE",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          229,
+          49
+        ],
+        [
+          300,
+          66
+        ]
+      ],
+      "value": "A-Horizon",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          239,
+          119
+        ],
+        [
+          310,
+          135
+        ]
+      ],
+      "value": "B-Horizon",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          228,
+          210
+        ],
+        [
+          300,
+          226
+        ]
+      ],
+      "value": "C-Horizon",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          238,
+          267
+        ],
+        [
+          301,
+          286
+        ]
+      ],
+      "value": "Bedrock",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          34,
+          315
+        ],
+        [
+          158,
+          313
+        ],
+        [
+          208,
+          289
+        ],
+        [
+          205,
+          27
+        ],
+        [
+          172,
+          25
+        ],
+        [
+          142,
+          33
+        ],
+        [
+          124,
+          21
+        ],
+        [
+          116,
+          20
+        ],
+        [
+          123,
+          33
+        ],
+        [
+          102,
+          33
+        ],
+        [
+          78,
+          31
+        ],
+        [
+          54,
+          30
+        ],
+        [
+          37,
+          33
+        ],
+        [
+          20,
+          38
+        ],
+        [
+          35,
+          49
+        ],
+        [
+          11,
+          52
+        ],
+        [
+          12,
+          55
+        ],
+        [
+          32,
+          66
+        ],
+        [
+          32,
+          316
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          232,
+          269
+        ],
+        [
+          233,
+          280
+        ],
+        [
+          203,
+          279
+        ],
+        [
+          201,
+          270
+        ],
+        [
+          233,
+          269
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          213,
+          256
+        ],
+        [
+          216,
+          236
+        ],
+        [
+          215,
+          196
+        ],
+        [
+          210,
+          188
+        ],
+        [
+          215,
+          183
+        ],
+        [
+          219,
+          193
+        ],
+        [
+          221,
+          215
+        ],
+        [
+          227,
+          221
+        ],
+        [
+          222,
+          224
+        ],
+        [
+          221,
+          253
+        ],
+        [
+          218,
+          260
+        ],
+        [
+          212,
+          257
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          209,
+          180
+        ],
+        [
+          217,
+          184
+        ],
+        [
+          224,
+          164
+        ],
+        [
+          224,
+          134
+        ],
+        [
+          236,
+          129
+        ],
+        [
+          225,
+          119
+        ],
+        [
+          223,
+          92
+        ],
+        [
+          214,
+          87
+        ],
+        [
+          214,
+          93
+        ],
+        [
+          218,
+          98
+        ],
+        [
+          218,
+          140
+        ],
+        [
+          211,
+          179
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          209,
+          81
+        ],
+        [
+          212,
+          89
+        ],
+        [
+          222,
+          82
+        ],
+        [
+          224,
+          67
+        ],
+        [
+          229,
+          60
+        ],
+        [
+          225,
+          52
+        ],
+        [
+          223,
+          42
+        ],
+        [
+          212,
+          41
+        ],
+        [
+          209,
+          47
+        ],
+        [
+          217,
+          48
+        ],
+        [
+          218,
+          78
+        ],
+        [
+          211,
+          77
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T2+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T3+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T4+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "earth_science",
+    "diagram_type": "labeled_illustration",
+    "text_content": "soil profile a-horizon b-horizon c-horizon bedrock"
+  },
+  "questions": []
+}

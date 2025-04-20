@@ -1,0 +1,426 @@
+{
+  "image_id": "1598",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          130,
+          17
+        ],
+        [
+          207,
+          30
+        ]
+      ],
+      "value": "R=33 ohms",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          149,
+          49
+        ],
+        [
+          184,
+          64
+        ]
+      ],
+      "value": "Load",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          197,
+          140
+        ],
+        [
+          252,
+          153
+        ]
+      ],
+      "value": "3.0 volts",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          187,
+          197
+        ],
+        [
+          266,
+          217
+        ]
+      ],
+      "value": "Two batteries",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          136,
+          244
+        ],
+        [
+          192,
+          265
+        ]
+      ],
+      "value": "Fig.2",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          78,
+          182
+        ],
+        [
+          119,
+          193
+        ]
+      ],
+      "value": "switch",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          141,
+          32
+        ],
+        [
+          141,
+          46
+        ],
+        [
+          195,
+          47
+        ],
+        [
+          196,
+          32
+        ],
+        [
+          140,
+          32
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          201,
+          156
+        ],
+        [
+          204,
+          199
+        ],
+        [
+          216,
+          198
+        ],
+        [
+          218,
+          192
+        ],
+        [
+          223,
+          190
+        ],
+        [
+          228,
+          201
+        ],
+        [
+          245,
+          200
+        ],
+        [
+          244,
+          152
+        ],
+        [
+          202,
+          152
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          80,
+          176
+        ],
+        [
+          114,
+          155
+        ],
+        [
+          120,
+          181
+        ],
+        [
+          80,
+          179
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          241,
+          170
+        ],
+        [
+          240,
+          182
+        ],
+        [
+          321,
+          182
+        ],
+        [
+          321,
+          35
+        ],
+        [
+          195,
+          35
+        ],
+        [
+          195,
+          47
+        ],
+        [
+          309,
+          47
+        ],
+        [
+          309,
+          170
+        ],
+        [
+          242,
+          170
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          117,
+          167
+        ],
+        [
+          119,
+          181
+        ],
+        [
+          203,
+          182
+        ],
+        [
+          204,
+          168
+        ],
+        [
+          119,
+          168
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          135,
+          35
+        ],
+        [
+          134,
+          48
+        ],
+        [
+          28,
+          46
+        ],
+        [
+          29,
+          165
+        ],
+        [
+          75,
+          165
+        ],
+        [
+          75,
+          177
+        ],
+        [
+          74,
+          186
+        ],
+        [
+          18,
+          184
+        ],
+        [
+          19,
+          38
+        ],
+        [
+          137,
+          35
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H0",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A0+B1",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B1",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "B0+A2+B2",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B2",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "B1+A1+B2",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B2",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+I0",
+      "type": "imageCaption",
+      "source": "T2",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B1",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+I0",
+      "type": "imageTitle",
+      "source": "T4",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+B2",
+      "type": "intraObjectLabel",
+      "source": "T5",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "title",
+    "T5": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "r=33 ohms load 3.0 volts two batteries fig.2 switch"
+  }
+}

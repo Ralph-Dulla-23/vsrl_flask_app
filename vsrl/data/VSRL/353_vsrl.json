@@ -1,0 +1,286 @@
+{
+  "image_id": "353",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          204,
+          55
+        ],
+        [
+          242,
+          71
+        ]
+      ],
+      "value": "egg",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          322,
+          145
+        ],
+        [
+          377,
+          160
+        ]
+      ],
+      "value": "nymph",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          73,
+          143
+        ],
+        [
+          109,
+          159
+        ]
+      ],
+      "value": "adult",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          71,
+          129
+        ],
+        [
+          78,
+          133
+        ],
+        [
+          174,
+          69
+        ],
+        [
+          177,
+          72
+        ],
+        [
+          188,
+          56
+        ],
+        [
+          173,
+          59
+        ],
+        [
+          172,
+          63
+        ],
+        [
+          69,
+          127
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          135,
+          157
+        ],
+        [
+          149,
+          149
+        ],
+        [
+          152,
+          154
+        ],
+        [
+          305,
+          155
+        ],
+        [
+          304,
+          162
+        ],
+        [
+          151,
+          161
+        ],
+        [
+          150,
+          166
+        ],
+        [
+          132,
+          160
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          266,
+          59
+        ],
+        [
+          337,
+          123
+        ],
+        [
+          333,
+          126
+        ],
+        [
+          353,
+          134
+        ],
+        [
+          348,
+          118
+        ],
+        [
+          341,
+          120
+        ],
+        [
+          274,
+          56
+        ],
+        [
+          266,
+          58
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A2+T1",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T1",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T1+A1+T2",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T2",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T2+A0+T0",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T0",
+      "connector": "A0",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "egg nymph adult"
+  },
+  "questions": [
+    {
+      "question_text": "What is the stage between egg and adult in the diagram?",
+      "question_id": "353.png-1",
+      "answers": [
+        "none of the above",
+        "nymph",
+        "teenager",
+        "larva"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What stage of the life cycle does A refer to?",
+      "question_id": "353.png-0",
+      "answers": [
+        "adult",
+        "nymph",
+        "immature",
+        "egg"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "What term best describes frog B in the given diagram?",
+      "question_id": "353.png-2",
+      "answers": [
+        "nymph",
+        "egg",
+        "{}",
+        "adult"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which stage of the life cycle is the most mature?",
+      "question_id": "353.png-3",
+      "answers": [
+        "adult",
+        "egg",
+        "none of the above",
+        "nymph"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

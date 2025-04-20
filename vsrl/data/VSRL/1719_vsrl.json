@@ -1,0 +1,394 @@
+{
+  "image_id": "1719",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          30,
+          97
+        ],
+        [
+          93,
+          110
+        ]
+      ],
+      "value": "EARTHQUAKE",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          9,
+          124
+        ],
+        [
+          125,
+          140
+        ]
+      ],
+      "value": "Earthquake fault types",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          236,
+          112
+        ],
+        [
+          292,
+          128
+        ]
+      ],
+      "value": "Strike -Slip",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          410,
+          139
+        ],
+        [
+          453,
+          151
+        ]
+      ],
+      "value": "Normal",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          568,
+          108
+        ],
+        [
+          607,
+          122
+        ]
+      ],
+      "value": "Thrust",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          153,
+          113
+        ],
+        [
+          213,
+          115
+        ],
+        [
+          221,
+          106
+        ],
+        [
+          273,
+          106
+        ],
+        [
+          291,
+          101
+        ],
+        [
+          293,
+          93
+        ],
+        [
+          296,
+          84
+        ],
+        [
+          293,
+          51
+        ],
+        [
+          293,
+          49
+        ],
+        [
+          292,
+          48
+        ],
+        [
+          287,
+          43
+        ],
+        [
+          232,
+          43
+        ],
+        [
+          222,
+          51
+        ],
+        [
+          221,
+          51
+        ],
+        [
+          165,
+          48
+        ],
+        [
+          164,
+          51
+        ],
+        [
+          153,
+          57
+        ],
+        [
+          154,
+          68
+        ],
+        [
+          151,
+          112
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          410,
+          133
+        ],
+        [
+          437,
+          135
+        ],
+        [
+          441,
+          130
+        ],
+        [
+          459,
+          124
+        ],
+        [
+          455,
+          77
+        ],
+        [
+          455,
+          74
+        ],
+        [
+          448,
+          70
+        ],
+        [
+          402,
+          71
+        ],
+        [
+          391,
+          52
+        ],
+        [
+          328,
+          49
+        ],
+        [
+          328,
+          49
+        ],
+        [
+          319,
+          61
+        ],
+        [
+          319,
+          65
+        ],
+        [
+          315,
+          108
+        ],
+        [
+          399,
+          109
+        ],
+        [
+          401,
+          112
+        ],
+        [
+          412,
+          134
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          466,
+          112
+        ],
+        [
+          557,
+          114
+        ],
+        [
+          569,
+          100
+        ],
+        [
+          573,
+          99
+        ],
+        [
+          577,
+          99
+        ],
+        [
+          601,
+          86
+        ],
+        [
+          600,
+          86
+        ],
+        [
+          595,
+          39
+        ],
+        [
+          544,
+          29
+        ],
+        [
+          525,
+          37
+        ],
+        [
+          525,
+          53
+        ],
+        [
+          484,
+          49
+        ],
+        [
+          472,
+          61
+        ],
+        [
+          469,
+          114
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageCaption",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+I0",
+      "type": "imageTitle",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B1",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B2",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "title",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "earthquake earthquake fault types strike -slip normal thrust"
+  },
+  "questions": [
+    {
+      "question_text": "which label is give to thrust?",
+      "question_id": "1719.png-1",
+      "answers": [
+        "d",
+        "a",
+        "b",
+        "c"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "which layer is between b and d?",
+      "question_id": "1719.png-0",
+      "answers": [
+        "c",
+        "a",
+        "d",
+        "b"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

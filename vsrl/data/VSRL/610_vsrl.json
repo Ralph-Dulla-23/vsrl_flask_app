@@ -1,0 +1,640 @@
+{
+  "image_id": "610",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          416,
+          48
+        ],
+        [
+          476,
+          65
+        ]
+      ],
+      "value": "Aquatic",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          106,
+          48
+        ],
+        [
+          180,
+          67
+        ]
+      ],
+      "value": "TERRESTRIAL",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          271,
+          140
+        ],
+        [
+          337,
+          160
+        ]
+      ],
+      "value": "1. Eggs",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          517,
+          258
+        ],
+        [
+          599,
+          278
+        ]
+      ],
+      "value": "2.LARVAE",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          420,
+          302
+        ],
+        [
+          475,
+          323
+        ]
+      ],
+      "value": "Aquatic",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          263,
+          360
+        ],
+        [
+          346,
+          378
+        ]
+      ],
+      "value": "3. Pupae",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          102,
+          298
+        ],
+        [
+          175,
+          316
+        ]
+      ],
+      "value": "TERRESTRIAL ",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          13,
+          268
+        ],
+        [
+          83,
+          289
+        ]
+      ],
+      "value": "4. Adult",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          222,
+          6
+        ],
+        [
+          385,
+          6
+        ],
+        [
+          385,
+          136
+        ],
+        [
+          224,
+          136
+        ],
+        [
+          221,
+          8
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          427,
+          116
+        ],
+        [
+          599,
+          118
+        ],
+        [
+          599,
+          247
+        ],
+        [
+          431,
+          247
+        ],
+        [
+          430,
+          116
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          396,
+          226
+        ],
+        [
+          396,
+          353
+        ],
+        [
+          227,
+          352
+        ],
+        [
+          228,
+          224
+        ],
+        [
+          395,
+          227
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          1,
+          118
+        ],
+        [
+          2,
+          258
+        ],
+        [
+          185,
+          257
+        ],
+        [
+          182,
+          120
+        ],
+        [
+          1,
+          118
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          388,
+          66
+        ],
+        [
+          518,
+          66
+        ],
+        [
+          518,
+          108
+        ],
+        [
+          523,
+          108
+        ],
+        [
+          517,
+          121
+        ],
+        [
+          506,
+          112
+        ],
+        [
+          511,
+          110
+        ],
+        [
+          511,
+          74
+        ],
+        [
+          388,
+          76
+        ],
+        [
+          388,
+          68
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          509,
+          251
+        ],
+        [
+          517,
+          251
+        ],
+        [
+          517,
+          304
+        ],
+        [
+          408,
+          302
+        ],
+        [
+          408,
+          308
+        ],
+        [
+          394,
+          299
+        ],
+        [
+          408,
+          292
+        ],
+        [
+          408,
+          299
+        ],
+        [
+          511,
+          299
+        ],
+        [
+          509,
+          251
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          223,
+          286
+        ],
+        [
+          95,
+          284
+        ],
+        [
+          92,
+          264
+        ],
+        [
+          96,
+          264
+        ],
+        [
+          95,
+          254
+        ],
+        [
+          86,
+          266
+        ],
+        [
+          90,
+          266
+        ],
+        [
+          91,
+          294
+        ],
+        [
+          226,
+          293
+        ],
+        [
+          226,
+          286
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          89,
+          118
+        ],
+        [
+          89,
+          68
+        ],
+        [
+          211,
+          68
+        ],
+        [
+          214,
+          64
+        ],
+        [
+          227,
+          73
+        ],
+        [
+          215,
+          79
+        ],
+        [
+          214,
+          70
+        ],
+        [
+          96,
+          72
+        ],
+        [
+          97,
+          119
+        ],
+        [
+          90,
+          119
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A0+B1",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B1",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "B1+A1+B2",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B2",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "B2+A2+B3",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B3",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "B3+A3+B0",
+      "type": "interObjectLinkage",
+      "source": "B3",
+      "target": "B0",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T0+A0",
+      "type": "arrowDescriptor",
+      "source": "T0",
+      "target": "A0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A3",
+      "type": "arrowDescriptor",
+      "source": "T1",
+      "target": "A3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B1",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+A1",
+      "type": "arrowDescriptor",
+      "source": "T4",
+      "target": "A1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+B2",
+      "type": "intraObjectLabel",
+      "source": "T5",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+A2",
+      "type": "arrowDescriptor",
+      "source": "T6",
+      "target": "A2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T7+B3",
+      "type": "intraObjectLabel",
+      "source": "T7",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "aquatic terrestrial 1. eggs 2.larvae aquatic 3. pupae terrestrial  4. adult"
+  },
+  "questions": [
+    {
+      "question_text": "A represents what?",
+      "question_id": "610.png-1",
+      "answers": [
+        "Egg",
+        "Pupae",
+        "Adult",
+        "Larvae"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "What organism does this diagram portray?",
+      "question_id": "610.png-0",
+      "answers": [
+        "Democrat",
+        "Human",
+        "Mosquito",
+        "Hyena"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "what is the second stage in life called?",
+      "question_id": "610.png-3",
+      "answers": [
+        "adult",
+        "egg",
+        "pupa",
+        "larva"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "what is the third stage in the life called?",
+      "question_id": "610.png-2",
+      "answers": [
+        "egg",
+        "pupa",
+        "adult",
+        "larva"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

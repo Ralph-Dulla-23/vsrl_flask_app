@@ -1,0 +1,677 @@
+{
+  "image_id": "3765",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          6,
+          11
+        ],
+        [
+          196,
+          40
+        ]
+      ],
+      "value": "The respiratory System",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          206,
+          71
+        ],
+        [
+          272,
+          92
+        ]
+      ],
+      "value": "pharynx",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          185,
+          138
+        ],
+        [
+          250,
+          161
+        ]
+      ],
+      "value": "bronchi",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          207,
+          179
+        ],
+        [
+          304,
+          200
+        ]
+      ],
+      "value": "bronchioles",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          4,
+          188
+        ],
+        [
+          76,
+          211
+        ]
+      ],
+      "value": "trachea",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          7,
+          149
+        ],
+        [
+          58,
+          168
+        ]
+      ],
+      "value": "larynx",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          9,
+          90
+        ],
+        [
+          49,
+          108
+        ]
+      ],
+      "value": "nose",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          32,
+          381
+        ],
+        [
+          76,
+          406
+        ]
+      ],
+      "value": "lung",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          210,
+          378
+        ],
+        [
+          256,
+          406
+        ]
+      ],
+      "value": "lung",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          87,
+          57
+        ],
+        [
+          112,
+          47
+        ],
+        [
+          141,
+          45
+        ],
+        [
+          160,
+          46
+        ],
+        [
+          180,
+          60
+        ],
+        [
+          194,
+          79
+        ],
+        [
+          197,
+          105
+        ],
+        [
+          186,
+          127
+        ],
+        [
+          178,
+          155
+        ],
+        [
+          179,
+          170
+        ],
+        [
+          187,
+          185
+        ],
+        [
+          200,
+          197
+        ],
+        [
+          245,
+          211
+        ],
+        [
+          272,
+          233
+        ],
+        [
+          277,
+          252
+        ],
+        [
+          275,
+          280
+        ],
+        [
+          273,
+          297
+        ],
+        [
+          278,
+          324
+        ],
+        [
+          279,
+          345
+        ],
+        [
+          236,
+          373
+        ],
+        [
+          78,
+          378
+        ],
+        [
+          27,
+          351
+        ],
+        [
+          27,
+          311
+        ],
+        [
+          21,
+          271
+        ],
+        [
+          28,
+          240
+        ],
+        [
+          43,
+          216
+        ],
+        [
+          64,
+          211
+        ],
+        [
+          87,
+          201
+        ],
+        [
+          109,
+          190
+        ],
+        [
+          110,
+          171
+        ],
+        [
+          91,
+          171
+        ],
+        [
+          82,
+          161
+        ],
+        [
+          78,
+          148
+        ],
+        [
+          76,
+          134
+        ],
+        [
+          71,
+          121
+        ],
+        [
+          75,
+          113
+        ],
+        [
+          78,
+          101
+        ],
+        [
+          82,
+          85
+        ],
+        [
+          81,
+          60
+        ],
+        [
+          85,
+          54
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          106,
+          121
+        ],
+        [
+          203,
+          79
+        ],
+        [
+          205,
+          84
+        ],
+        [
+          108,
+          127
+        ],
+        [
+          104,
+          123
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          50,
+          98
+        ],
+        [
+          85,
+          122
+        ],
+        [
+          82,
+          128
+        ],
+        [
+          47,
+          102
+        ],
+        [
+          48,
+          97
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          55,
+          157
+        ],
+        [
+          130,
+          173
+        ],
+        [
+          129,
+          179
+        ],
+        [
+          54,
+          162
+        ],
+        [
+          55,
+          157
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          69,
+          197
+        ],
+        [
+          132,
+          197
+        ],
+        [
+          132,
+          202
+        ],
+        [
+          69,
+          204
+        ],
+        [
+          69,
+          197
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          49,
+          382
+        ],
+        [
+          106,
+          277
+        ],
+        [
+          111,
+          280
+        ],
+        [
+          56,
+          385
+        ],
+        [
+          49,
+          382
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          224,
+          386
+        ],
+        [
+          211,
+          301
+        ],
+        [
+          217,
+          299
+        ],
+        [
+          231,
+          386
+        ],
+        [
+          224,
+          386
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          169,
+          276
+        ],
+        [
+          238,
+          197
+        ],
+        [
+          243,
+          199
+        ],
+        [
+          173,
+          280
+        ],
+        [
+          169,
+          275
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          174,
+          243
+        ],
+        [
+          239,
+          197
+        ],
+        [
+          242,
+          201
+        ],
+        [
+          178,
+          248
+        ],
+        [
+          174,
+          244
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          151,
+          244
+        ],
+        [
+          197,
+          155
+        ],
+        [
+          203,
+          157
+        ],
+        [
+          158,
+          246
+        ],
+        [
+          152,
+          244
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T2+A8+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A8",
+      "directional": false
+    },
+    {
+      "id": "T3+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T3+A7+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T4+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T5+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T6+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T7+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T8+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T8",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "the respiratory system pharynx bronchi bronchioles trachea larynx nose lung lung"
+  },
+  "questions": []
+}

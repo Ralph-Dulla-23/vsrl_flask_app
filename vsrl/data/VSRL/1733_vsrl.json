@@ -1,0 +1,384 @@
+{
+  "image_id": "1733",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          245,
+          51
+        ],
+        [
+          485,
+          88
+        ]
+      ],
+      "value": "Reverse fault",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          322,
+          258
+        ],
+        [
+          518,
+          286
+        ]
+      ],
+      "value": "Hanging Wall Block",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          79,
+          298
+        ],
+        [
+          221,
+          325
+        ]
+      ],
+      "value": "Footwall Block",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          462,
+          393
+        ],
+        [
+          727,
+          430
+        ]
+      ],
+      "value": "Reverse Fault",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          289,
+          144
+        ],
+        [
+          231,
+          146
+        ],
+        [
+          51,
+          250
+        ],
+        [
+          52,
+          424
+        ],
+        [
+          402,
+          425
+        ],
+        [
+          474,
+          384
+        ],
+        [
+          537,
+          385
+        ],
+        [
+          719,
+          279
+        ],
+        [
+          719,
+          105
+        ],
+        [
+          366,
+          105
+        ],
+        [
+          293,
+          146
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          630,
+          133
+        ],
+        [
+          563,
+          180
+        ],
+        [
+          438,
+          176
+        ],
+        [
+          410,
+          192
+        ],
+        [
+          410,
+          138
+        ],
+        [
+          527,
+          118
+        ],
+        [
+          507,
+          134
+        ],
+        [
+          631,
+          132
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          62,
+          162
+        ],
+        [
+          1,
+          206
+        ],
+        [
+          0,
+          212
+        ],
+        [
+          119,
+          212
+        ],
+        [
+          100,
+          222
+        ],
+        [
+          96,
+          230
+        ],
+        [
+          215,
+          199
+        ],
+        [
+          219,
+          147
+        ],
+        [
+          189,
+          169
+        ],
+        [
+          62,
+          163
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          261,
+          295
+        ],
+        [
+          255,
+          305
+        ],
+        [
+          322,
+          366
+        ],
+        [
+          323,
+          374
+        ],
+        [
+          335,
+          376
+        ],
+        [
+          333,
+          361
+        ],
+        [
+          328,
+          361
+        ],
+        [
+          259,
+          292
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          330,
+          320
+        ],
+        [
+          318,
+          330
+        ],
+        [
+          267,
+          271
+        ],
+        [
+          263,
+          277
+        ],
+        [
+          254,
+          255
+        ],
+        [
+          273,
+          258
+        ],
+        [
+          272,
+          266
+        ],
+        [
+          328,
+          319
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H3",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H2",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+I0",
+      "type": "imageTitle",
+      "source": "T3",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "title",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "reverse fault hanging wall block footwall block reverse fault"
+  },
+  "questions": [
+    {
+      "question_text": "Reverse fault occurs in which direction?",
+      "question_id": "1733.png-0",
+      "answers": [
+        "Opposite",
+        "Same",
+        "Parallel",
+        "Circular"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

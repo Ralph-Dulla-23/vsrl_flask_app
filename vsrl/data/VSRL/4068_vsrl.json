@@ -1,0 +1,398 @@
+{
+  "image_id": "4068",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          863,
+          0
+        ],
+        [
+          1015,
+          60
+        ]
+      ],
+      "value": "Crust",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          1030,
+          137
+        ],
+        [
+          1205,
+          202
+        ]
+      ],
+      "value": "Mantle",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          1132,
+          302
+        ],
+        [
+          1423,
+          367
+        ]
+      ],
+      "value": "Outer Core",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          1208,
+          477
+        ],
+        [
+          1497,
+          538
+        ]
+      ],
+      "value": "Inner Core",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          845,
+          1093
+        ],
+        [
+          965,
+          1155
+        ]
+      ],
+      "value": "TM",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          343,
+          67
+        ],
+        [
+          497,
+          25
+        ],
+        [
+          620,
+          25
+        ],
+        [
+          757,
+          50
+        ],
+        [
+          892,
+          118
+        ],
+        [
+          1000,
+          212
+        ],
+        [
+          1067,
+          313
+        ],
+        [
+          1118,
+          428
+        ],
+        [
+          1142,
+          570
+        ],
+        [
+          1138,
+          658
+        ],
+        [
+          1098,
+          797
+        ],
+        [
+          1040,
+          905
+        ],
+        [
+          945,
+          1007
+        ],
+        [
+          828,
+          1087
+        ],
+        [
+          652,
+          1140
+        ],
+        [
+          485,
+          1143
+        ],
+        [
+          353,
+          1105
+        ],
+        [
+          222,
+          1033
+        ],
+        [
+          127,
+          942
+        ],
+        [
+          43,
+          810
+        ],
+        [
+          3,
+          660
+        ],
+        [
+          0,
+          545
+        ],
+        [
+          27,
+          408
+        ],
+        [
+          85,
+          287
+        ],
+        [
+          175,
+          175
+        ],
+        [
+          263,
+          107
+        ],
+        [
+          340,
+          67
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          460,
+          80
+        ],
+        [
+          463,
+          93
+        ],
+        [
+          865,
+          42
+        ],
+        [
+          862,
+          27
+        ],
+        [
+          462,
+          80
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          852,
+          347
+        ],
+        [
+          855,
+          365
+        ],
+        [
+          1130,
+          345
+        ],
+        [
+          1127,
+          332
+        ],
+        [
+          852,
+          350
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          697,
+          528
+        ],
+        [
+          1207,
+          512
+        ],
+        [
+          1210,
+          500
+        ],
+        [
+          697,
+          515
+        ],
+        [
+          693,
+          525
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          848,
+          200
+        ],
+        [
+          1032,
+          173
+        ],
+        [
+          1027,
+          155
+        ],
+        [
+          840,
+          183
+        ],
+        [
+          845,
+          200
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T2+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T3+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T4+I0",
+      "type": "misc",
+      "source": "T4",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "crust mantle outer core inner core tm"
+  },
+  "questions": [
+    {
+      "question_text": "Where is the Earth's mantle?",
+      "question_id": "4068.png-1",
+      "answers": [
+        "E",
+        "C",
+        "A",
+        "D"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which is the outermost layer of earth?",
+      "question_id": "4068.png-0",
+      "answers": [
+        "Outer core",
+        "Crust",
+        "Mantle",
+        "Inner core"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

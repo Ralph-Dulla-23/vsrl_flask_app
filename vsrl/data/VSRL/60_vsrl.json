@@ -1,0 +1,222 @@
+{
+  "image_id": "60",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          93,
+          32
+        ],
+        [
+          179,
+          83
+        ]
+      ],
+      "value": "Grand Canyon",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          258,
+          9
+        ],
+        [
+          415,
+          33
+        ]
+      ],
+      "value": "Cenozoic Lavas",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          263,
+          68
+        ],
+        [
+          377,
+          121
+        ]
+      ],
+      "value": "Paleozoic Formations",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          207,
+          155
+        ],
+        [
+          353,
+          226
+        ]
+      ],
+      "value": "Precambrian Formations",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          9,
+          255
+        ],
+        [
+          173,
+          290
+        ]
+      ],
+      "value": "\"Basement rock\"",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          2,
+          31
+        ],
+        [
+          1,
+          297
+        ],
+        [
+          449,
+          296
+        ],
+        [
+          449,
+          6
+        ],
+        [
+          448,
+          0
+        ],
+        [
+          237,
+          1
+        ],
+        [
+          220,
+          19
+        ],
+        [
+          201,
+          131
+        ],
+        [
+          193,
+          150
+        ],
+        [
+          200,
+          167
+        ],
+        [
+          156,
+          237
+        ],
+        [
+          93,
+          144
+        ],
+        [
+          70,
+          34
+        ],
+        [
+          5,
+          32
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T4",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole"
+  },
+  "educational_context": {
+    "subject": "chemistry",
+    "diagram_type": "labeled_illustration",
+    "text_content": "grand canyon cenozoic lavas paleozoic formations precambrian formations \"basement rock\""
+  },
+  "questions": [
+    {
+      "question_text": "Which is relatively hard and naturally formed mineral ?",
+      "question_id": "60.png-0",
+      "answers": [
+        "Sand",
+        "Mud",
+        "Stone",
+        "Rock"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    }
+  ]
+}

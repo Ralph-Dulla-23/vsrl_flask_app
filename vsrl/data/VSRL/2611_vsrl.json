@@ -1,0 +1,660 @@
+{
+  "image_id": "2611",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          11,
+          3
+        ],
+        [
+          105,
+          33
+        ]
+      ],
+      "value": "Ocean",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          69
+        ],
+        [
+          86,
+          116
+        ]
+      ],
+      "value": "Smaller Attraction",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          106,
+          194
+        ],
+        [
+          210,
+          235
+        ]
+      ],
+      "value": "Earth",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          259,
+          67
+        ],
+        [
+          357,
+          119
+        ]
+      ],
+      "value": "Bigger Attraction",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          122,
+          65
+        ],
+        [
+          224,
+          120
+        ]
+      ],
+      "value": "Average Attraction",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          407,
+          150
+        ],
+        [
+          513,
+          199
+        ]
+      ],
+      "value": "Moon",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          72,
+          72
+        ],
+        [
+          95,
+          55
+        ],
+        [
+          116,
+          43
+        ],
+        [
+          150,
+          36
+        ],
+        [
+          167,
+          36
+        ],
+        [
+          189,
+          41
+        ],
+        [
+          222,
+          57
+        ],
+        [
+          226,
+          60
+        ],
+        [
+          238,
+          71
+        ],
+        [
+          246,
+          79
+        ],
+        [
+          258,
+          95
+        ],
+        [
+          259,
+          112
+        ],
+        [
+          248,
+          149
+        ],
+        [
+          233,
+          163
+        ],
+        [
+          222,
+          176
+        ],
+        [
+          204,
+          182
+        ],
+        [
+          185,
+          189
+        ],
+        [
+          158,
+          192
+        ],
+        [
+          143,
+          195
+        ],
+        [
+          125,
+          191
+        ],
+        [
+          102,
+          180
+        ],
+        [
+          76,
+          168
+        ],
+        [
+          60,
+          145
+        ],
+        [
+          52,
+          124
+        ],
+        [
+          57,
+          93
+        ],
+        [
+          72,
+          71
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          445,
+          116
+        ],
+        [
+          452,
+          103
+        ],
+        [
+          462,
+          100
+        ],
+        [
+          469,
+          100
+        ],
+        [
+          477,
+          107
+        ],
+        [
+          479,
+          117
+        ],
+        [
+          480,
+          125
+        ],
+        [
+          474,
+          130
+        ],
+        [
+          462,
+          135
+        ],
+        [
+          448,
+          126
+        ],
+        [
+          445,
+          118
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          56,
+          35
+        ],
+        [
+          61,
+          31
+        ],
+        [
+          95,
+          62
+        ],
+        [
+          91,
+          69
+        ],
+        [
+          52,
+          40
+        ],
+        [
+          52,
+          36
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          161,
+          34
+        ],
+        [
+          159,
+          47
+        ],
+        [
+          205,
+          63
+        ],
+        [
+          206,
+          66
+        ],
+        [
+          228,
+          60
+        ],
+        [
+          214,
+          46
+        ],
+        [
+          213,
+          49
+        ],
+        [
+          164,
+          36
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          60,
+          112
+        ],
+        [
+          60,
+          122
+        ],
+        [
+          98,
+          124
+        ],
+        [
+          100,
+          125
+        ],
+        [
+          117,
+          120
+        ],
+        [
+          103,
+          105
+        ],
+        [
+          101,
+          111
+        ],
+        [
+          64,
+          111
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          156,
+          111
+        ],
+        [
+          156,
+          123
+        ],
+        [
+          206,
+          125
+        ],
+        [
+          208,
+          127
+        ],
+        [
+          226,
+          118
+        ],
+        [
+          208,
+          106
+        ],
+        [
+          208,
+          109
+        ],
+        [
+          157,
+          110
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          162,
+          180
+        ],
+        [
+          166,
+          195
+        ],
+        [
+          213,
+          184
+        ],
+        [
+          216,
+          188
+        ],
+        [
+          233,
+          172
+        ],
+        [
+          214,
+          163
+        ],
+        [
+          213,
+          169
+        ],
+        [
+          165,
+          181
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          240,
+          106
+        ],
+        [
+          241,
+          125
+        ],
+        [
+          338,
+          125
+        ],
+        [
+          344,
+          130
+        ],
+        [
+          365,
+          118
+        ],
+        [
+          340,
+          106
+        ],
+        [
+          339,
+          111
+        ],
+        [
+          242,
+          106
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          466,
+          111
+        ],
+        [
+          467,
+          124
+        ],
+        [
+          418,
+          125
+        ],
+        [
+          417,
+          130
+        ],
+        [
+          392,
+          118
+        ],
+        [
+          418,
+          104
+        ],
+        [
+          420,
+          113
+        ],
+        [
+          468,
+          112
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H0",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H3",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H4",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H5",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+B1",
+      "type": "intraObjectLabel",
+      "source": "T5",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "ocean smaller attraction earth bigger attraction average attraction moon"
+  },
+  "questions": [
+    {
+      "question_text": "In the given diagram, what does the letter E represent?",
+      "question_id": "2611.png-2",
+      "answers": [
+        "Smaller Attraction",
+        "Earth",
+        "Bigger Attraction",
+        "Moon"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "In the given diagram, what letter shows Smaller Attraction?",
+      "question_id": "2611.png-0",
+      "answers": [
+        "D",
+        "E",
+        "C",
+        "B"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "What type of force occurs at B?",
+      "question_id": "2611.png-1",
+      "answers": [
+        "Smaller Attraction",
+        "Gravity",
+        "Bigger Attraction",
+        "Average Attraction"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

@@ -1,0 +1,584 @@
+{
+  "image_id": "1739",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          217,
+          13
+        ],
+        [
+          253,
+          33
+        ]
+      ],
+      "value": "Tension forces",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          35,
+          85
+        ],
+        [
+          98,
+          95
+        ]
+      ],
+      "value": "Strike-slip fault",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          57,
+          108
+        ],
+        [
+          127,
+          122
+        ]
+      ],
+      "value": "Shearing forces",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          185,
+          85
+        ],
+        [
+          240,
+          99
+        ]
+      ],
+      "value": "Thrust fault",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          181,
+          109
+        ],
+        [
+          243,
+          132
+        ]
+      ],
+      "value": "Compression forces",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          7,
+          55
+        ],
+        [
+          146,
+          70
+        ]
+      ],
+      "value": "Reverse (thrust) faults",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          10,
+          33
+        ],
+        [
+          202,
+          49
+        ]
+      ],
+      "value": "Strike-slip faults (transpression)",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          2,
+          12
+        ],
+        [
+          163,
+          26
+        ]
+      ],
+      "value": "Normal Faults (extension)",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          36,
+          171
+        ],
+        [
+          71,
+          179
+        ],
+        [
+          80,
+          174
+        ],
+        [
+          104,
+          179
+        ],
+        [
+          125,
+          153
+        ],
+        [
+          125,
+          128
+        ],
+        [
+          96,
+          120
+        ],
+        [
+          84,
+          127
+        ],
+        [
+          62,
+          122
+        ],
+        [
+          37,
+          140
+        ],
+        [
+          35,
+          168
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          193,
+          176
+        ],
+        [
+          230,
+          186
+        ],
+        [
+          228,
+          177
+        ],
+        [
+          253,
+          180
+        ],
+        [
+          275,
+          152
+        ],
+        [
+          274,
+          128
+        ],
+        [
+          245,
+          120
+        ],
+        [
+          233,
+          127
+        ],
+        [
+          222,
+          126
+        ],
+        [
+          198,
+          142
+        ],
+        [
+          193,
+          147
+        ],
+        [
+          196,
+          176
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          262,
+          84
+        ],
+        [
+          285,
+          83
+        ],
+        [
+          284,
+          91
+        ],
+        [
+          286,
+          93
+        ],
+        [
+          305,
+          71
+        ],
+        [
+          305,
+          49
+        ],
+        [
+          275,
+          40
+        ],
+        [
+          275,
+          32
+        ],
+        [
+          253,
+          28
+        ],
+        [
+          231,
+          44
+        ],
+        [
+          231,
+          72
+        ],
+        [
+          261,
+          79
+        ],
+        [
+          264,
+          84
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          298,
+          54
+        ],
+        [
+          305,
+          56
+        ],
+        [
+          313,
+          63
+        ],
+        [
+          306,
+          65
+        ],
+        [
+          302,
+          65
+        ],
+        [
+          291,
+          61
+        ],
+        [
+          300,
+          54
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          223,
+          33
+        ],
+        [
+          235,
+          32
+        ],
+        [
+          244,
+          35
+        ],
+        [
+          237,
+          41
+        ],
+        [
+          225,
+          39
+        ],
+        [
+          222,
+          34
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          184,
+          130
+        ],
+        [
+          194,
+          131
+        ],
+        [
+          205,
+          137
+        ],
+        [
+          199,
+          143
+        ],
+        [
+          185,
+          141
+        ],
+        [
+          179,
+          141
+        ],
+        [
+          185,
+          131
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          263,
+          146
+        ],
+        [
+          284,
+          151
+        ],
+        [
+          283,
+          140
+        ],
+        [
+          267,
+          135
+        ],
+        [
+          262,
+          147
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H1",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H2",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+B2",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+I0",
+      "type": "sectionTitle",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B1",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B1",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+I0",
+      "type": "imageTitle",
+      "source": "T5",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+I0",
+      "type": "imageTitle",
+      "source": "T6",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T7+I0",
+      "type": "imageTitle",
+      "source": "T7",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "title",
+    "T6": "title",
+    "T7": "title",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "tension forces strike-slip fault shearing forces thrust fault compression forces reverse (thrust) faults strike-slip faults (transpression) normal faults (extension)"
+  },
+  "questions": [
+    {
+      "question_text": "Fault A is undergoing what kind of force?",
+      "question_id": "1739.png-1",
+      "answers": [
+        "Shearing forces",
+        "Tension forces",
+        "Compression forces",
+        "Emotional stress"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which fault is extension?",
+      "question_id": "1739.png-0",
+      "answers": [
+        "Normal fault",
+        "Reverse faults",
+        "Abnormal fault",
+        "Strike slip faults"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which of the above faults move sideways?",
+      "question_id": "1739.png-2",
+      "answers": [
+        "Thrust",
+        "Strike-slip",
+        "Nobody's fault",
+        "Normal"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

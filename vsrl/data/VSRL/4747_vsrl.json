@@ -1,0 +1,916 @@
+{
+  "image_id": "4747",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          8,
+          137
+        ],
+        [
+          24,
+          149
+        ]
+      ],
+      "value": "(h)",
+      "replacementText": "N",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          64,
+          136
+        ],
+        [
+          84,
+          149
+        ]
+      ],
+      "value": "(j)",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T10": {
+      "id": "T10",
+      "type": "text",
+      "bbox": [
+        [
+          115,
+          61
+        ],
+        [
+          132,
+          75
+        ]
+      ],
+      "value": "(d)",
+      "replacementText": "L",
+      "category": "label"
+    },
+    "T11": {
+      "id": "T11",
+      "type": "text",
+      "bbox": [
+        [
+          145,
+          59
+        ],
+        [
+          167,
+          76
+        ]
+      ],
+      "value": "(e)",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T12": {
+      "id": "T12",
+      "type": "text",
+      "bbox": [
+        [
+          209,
+          60
+        ],
+        [
+          226,
+          75
+        ]
+      ],
+      "value": "(g)",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T13": {
+      "id": "T13",
+      "type": "text",
+      "bbox": [
+        [
+          183,
+          61
+        ],
+        [
+          197,
+          75
+        ]
+      ],
+      "value": "(f)",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          38,
+          138
+        ],
+        [
+          52,
+          149
+        ]
+      ],
+      "value": "(I)",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          98,
+          138
+        ],
+        [
+          116,
+          149
+        ]
+      ],
+      "value": "(k)",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          133,
+          137
+        ],
+        [
+          147,
+          149
+        ]
+      ],
+      "value": "(l)",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          167,
+          134
+        ],
+        [
+          190,
+          149
+        ]
+      ],
+      "value": "(m)",
+      "replacementText": "K",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          206,
+          138
+        ],
+        [
+          232,
+          149
+        ]
+      ],
+      "value": "(n)",
+      "replacementText": "M",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          8,
+          61
+        ],
+        [
+          24,
+          75
+        ]
+      ],
+      "value": "(a)",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          44,
+          60
+        ],
+        [
+          60,
+          74
+        ]
+      ],
+      "value": "(b)",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          77,
+          61
+        ],
+        [
+          92,
+          74
+        ]
+      ],
+      "value": "(c)",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          8,
+          56
+        ],
+        [
+          32,
+          2
+        ],
+        [
+          37,
+          40
+        ],
+        [
+          35,
+          58
+        ],
+        [
+          8,
+          56
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          35,
+          56
+        ],
+        [
+          43,
+          32
+        ],
+        [
+          58,
+          9
+        ],
+        [
+          67,
+          37
+        ],
+        [
+          65,
+          56
+        ],
+        [
+          35,
+          57
+        ]
+      ],
+      "category": "object"
+    },
+    "B10": {
+      "id": "B10",
+      "type": "blob",
+      "polygon": [
+        [
+          95,
+          87
+        ],
+        [
+          125,
+          87
+        ],
+        [
+          119,
+          119
+        ],
+        [
+          109,
+          115
+        ],
+        [
+          101,
+          121
+        ],
+        [
+          94,
+          89
+        ]
+      ],
+      "category": "object"
+    },
+    "B11": {
+      "id": "B11",
+      "type": "blob",
+      "polygon": [
+        [
+          134,
+          115
+        ],
+        [
+          127,
+          88
+        ],
+        [
+          157,
+          89
+        ],
+        [
+          152,
+          117
+        ],
+        [
+          144,
+          108
+        ],
+        [
+          138,
+          106
+        ],
+        [
+          136,
+          114
+        ]
+      ],
+      "category": "object"
+    },
+    "B12": {
+      "id": "B12",
+      "type": "blob",
+      "polygon": [
+        [
+          157,
+          116
+        ],
+        [
+          165,
+          104
+        ],
+        [
+          165,
+          85
+        ],
+        [
+          191,
+          87
+        ],
+        [
+          191,
+          107
+        ],
+        [
+          198,
+          117
+        ],
+        [
+          193,
+          116
+        ],
+        [
+          183,
+          111
+        ],
+        [
+          167,
+          116
+        ],
+        [
+          160,
+          116
+        ]
+      ],
+      "category": "object"
+    },
+    "B13": {
+      "id": "B13",
+      "type": "blob",
+      "polygon": [
+        [
+          207,
+          124
+        ],
+        [
+          199,
+          87
+        ],
+        [
+          223,
+          88
+        ],
+        [
+          225,
+          109
+        ],
+        [
+          221,
+          121
+        ],
+        [
+          214,
+          124
+        ],
+        [
+          210,
+          123
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          63,
+          55
+        ],
+        [
+          74,
+          25
+        ],
+        [
+          88,
+          9
+        ],
+        [
+          101,
+          26
+        ],
+        [
+          102,
+          59
+        ],
+        [
+          63,
+          57
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          104,
+          55
+        ],
+        [
+          104,
+          19
+        ],
+        [
+          137,
+          16
+        ],
+        [
+          139,
+          58
+        ],
+        [
+          108,
+          58
+        ],
+        [
+          108,
+          56
+        ]
+      ],
+      "category": "object"
+    },
+    "B4": {
+      "id": "B4",
+      "type": "blob",
+      "polygon": [
+        [
+          141,
+          55
+        ],
+        [
+          138,
+          23
+        ],
+        [
+          148,
+          14
+        ],
+        [
+          164,
+          15
+        ],
+        [
+          169,
+          22
+        ],
+        [
+          172,
+          55
+        ],
+        [
+          142,
+          57
+        ]
+      ],
+      "category": "object"
+    },
+    "B5": {
+      "id": "B5",
+      "type": "blob",
+      "polygon": [
+        [
+          170,
+          56
+        ],
+        [
+          173,
+          25
+        ],
+        [
+          184,
+          16
+        ],
+        [
+          197,
+          15
+        ],
+        [
+          201,
+          28
+        ],
+        [
+          203,
+          58
+        ],
+        [
+          170,
+          58
+        ]
+      ],
+      "category": "object"
+    },
+    "B6": {
+      "id": "B6",
+      "type": "blob",
+      "polygon": [
+        [
+          206,
+          56
+        ],
+        [
+          201,
+          21
+        ],
+        [
+          216,
+          12
+        ],
+        [
+          232,
+          27
+        ],
+        [
+          228,
+          60
+        ],
+        [
+          207,
+          58
+        ]
+      ],
+      "category": "object"
+    },
+    "B7": {
+      "id": "B7",
+      "type": "blob",
+      "polygon": [
+        [
+          1,
+          86
+        ],
+        [
+          10,
+          119
+        ],
+        [
+          27,
+          86
+        ],
+        [
+          0,
+          86
+        ]
+      ],
+      "category": "object"
+    },
+    "B8": {
+      "id": "B8",
+      "type": "blob",
+      "polygon": [
+        [
+          27,
+          86
+        ],
+        [
+          34,
+          110
+        ],
+        [
+          37,
+          116
+        ],
+        [
+          38,
+          131
+        ],
+        [
+          40,
+          117
+        ],
+        [
+          54,
+          117
+        ],
+        [
+          62,
+          90
+        ],
+        [
+          28,
+          88
+        ]
+      ],
+      "category": "object"
+    },
+    "B9": {
+      "id": "B9",
+      "type": "blob",
+      "polygon": [
+        [
+          65,
+          87
+        ],
+        [
+          86,
+          89
+        ],
+        [
+          90,
+          101
+        ],
+        [
+          90,
+          114
+        ],
+        [
+          86,
+          119
+        ],
+        [
+          78,
+          115
+        ],
+        [
+          65,
+          121
+        ],
+        [
+          62,
+          114
+        ],
+        [
+          66,
+          86
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+B7",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B9",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B9",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T10+B3",
+      "type": "intraObjectLabel",
+      "source": "T10",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T11+B4",
+      "type": "intraObjectLabel",
+      "source": "T11",
+      "target": "B4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T12+B6",
+      "type": "intraObjectLabel",
+      "source": "T12",
+      "target": "B6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T13+B5",
+      "type": "intraObjectLabel",
+      "source": "T13",
+      "target": "B5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B8",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B8",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B10",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B10",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B11",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B11",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+B12",
+      "type": "intraObjectLabel",
+      "source": "T5",
+      "target": "B12",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+B13",
+      "type": "intraObjectLabel",
+      "source": "T6",
+      "target": "B13",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T7+B0",
+      "type": "intraObjectLabel",
+      "source": "T7",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T8+B1",
+      "type": "intraObjectLabel",
+      "source": "T8",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T9+B2",
+      "type": "intraObjectLabel",
+      "source": "T9",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T10": "part_label",
+    "T11": "part_label",
+    "T12": "part_label",
+    "T13": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B10": "whole",
+    "B11": "whole",
+    "B12": "whole",
+    "B13": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "B4": "whole",
+    "B5": "whole",
+    "B6": "whole",
+    "B7": "whole",
+    "B8": "whole",
+    "B9": "whole"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "(h) (j) (d) (e) (g) (f) (i) (k) (l) (m) (n) (a) (b) (c)"
+  },
+  "questions": [
+    {
+      "question_text": "Which leaf has a square shaped top?",
+      "question_id": "4747.png-0",
+      "answers": [
+        "H",
+        "C",
+        "L",
+        "F"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which leaf has the sharpest tip?",
+      "question_id": "4747.png-3",
+      "answers": [
+        "D",
+        "H",
+        "L",
+        "C"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which letter points at a narrow-tipped leaf top?",
+      "question_id": "4747.png-1",
+      "answers": [
+        "(d)",
+        "(a)",
+        "(b)",
+        "(c)"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which of the above leaves has the flattest top?",
+      "question_id": "4747.png-2",
+      "answers": [
+        "(a)",
+        "(g)",
+        "(f)",
+        "(d)"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    }
+  ]
+}

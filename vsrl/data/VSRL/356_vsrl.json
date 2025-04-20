@@ -1,0 +1,274 @@
+{
+  "image_id": "356",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          125,
+          11
+        ],
+        [
+          179,
+          47
+        ]
+      ],
+      "value": "Egg",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          2,
+          131
+        ],
+        [
+          70,
+          162
+        ]
+      ],
+      "value": "Adult",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          237,
+          135
+        ],
+        [
+          319,
+          166
+        ]
+      ],
+      "value": "Nymph",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          124,
+          43
+        ],
+        [
+          67,
+          116
+        ],
+        [
+          72,
+          121
+        ],
+        [
+          50,
+          129
+        ],
+        [
+          49,
+          109
+        ],
+        [
+          61,
+          113
+        ],
+        [
+          116,
+          37
+        ],
+        [
+          123,
+          40
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          196,
+          43
+        ],
+        [
+          274,
+          117
+        ],
+        [
+          268,
+          123
+        ],
+        [
+          290,
+          128
+        ],
+        [
+          282,
+          109
+        ],
+        [
+          276,
+          110
+        ],
+        [
+          202,
+          35
+        ],
+        [
+          198,
+          41
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          226,
+          141
+        ],
+        [
+          93,
+          143
+        ],
+        [
+          91,
+          137
+        ],
+        [
+          81,
+          149
+        ],
+        [
+          93,
+          158
+        ],
+        [
+          94,
+          153
+        ],
+        [
+          232,
+          153
+        ],
+        [
+          228,
+          143
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+T1",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T1",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T0+A1+T2",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T2",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T2+A2+T1",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T1",
+      "connector": "A2",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "egg adult nymph"
+  },
+  "questions": [
+    {
+      "question_text": "In the illustrated life cycle, the three phases are adult, nymph and?",
+      "question_id": "356.png-2",
+      "answers": [
+        "egg",
+        "coccoon",
+        "larvae",
+        "death"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the life cycle depicted, which phase comes before nymph?",
+      "question_id": "356.png-1",
+      "answers": [
+        "larvae",
+        "adult",
+        "coccoon",
+        "egg"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the stage after nymph?",
+      "question_id": "356.png-0",
+      "answers": [
+        "egg",
+        "adult",
+        "none of the above",
+        "pupa"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

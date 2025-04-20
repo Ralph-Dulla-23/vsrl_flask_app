@@ -1,0 +1,734 @@
+{
+  "image_id": "2867",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          30,
+          26
+        ],
+        [
+          426,
+          103
+        ]
+      ],
+      "value": "Chloroplast",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          57,
+          177
+        ],
+        [
+          313,
+          284
+        ]
+      ],
+      "value": "Outer Membrane",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          639,
+          174
+        ],
+        [
+          823,
+          223
+        ]
+      ],
+      "value": "Granum ",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          892,
+          245
+        ],
+        [
+          1055,
+          291
+        ]
+      ],
+      "value": "Lumen",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          660,
+          918
+        ],
+        [
+          840,
+          969
+        ]
+      ],
+      "value": "Stroma",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          1059,
+          935
+        ],
+        [
+          1317,
+          986
+        ]
+      ],
+      "value": "Thylakoids",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          251,
+          870
+        ],
+        [
+          501,
+          972
+        ]
+      ],
+      "value": "Inner Membrane",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          651,
+          258
+        ],
+        [
+          699,
+          266
+        ],
+        [
+          737,
+          275
+        ],
+        [
+          787,
+          285
+        ],
+        [
+          840,
+          304
+        ],
+        [
+          903,
+          328
+        ],
+        [
+          959,
+          358
+        ],
+        [
+          1007,
+          385
+        ],
+        [
+          1060,
+          426
+        ],
+        [
+          1101,
+          471
+        ],
+        [
+          1139,
+          524
+        ],
+        [
+          1161,
+          580
+        ],
+        [
+          1172,
+          642
+        ],
+        [
+          1167,
+          713
+        ],
+        [
+          1152,
+          779
+        ],
+        [
+          1123,
+          850
+        ],
+        [
+          1095,
+          883
+        ],
+        [
+          1048,
+          914
+        ],
+        [
+          1000,
+          926
+        ],
+        [
+          954,
+          929
+        ],
+        [
+          904,
+          917
+        ],
+        [
+          843,
+          895
+        ],
+        [
+          769,
+          862
+        ],
+        [
+          571,
+          775
+        ],
+        [
+          544,
+          779
+        ],
+        [
+          445,
+          797
+        ],
+        [
+          399,
+          802
+        ],
+        [
+          362,
+          799
+        ],
+        [
+          332,
+          788
+        ],
+        [
+          310,
+          785
+        ],
+        [
+          263,
+          769
+        ],
+        [
+          230,
+          743
+        ],
+        [
+          190,
+          699
+        ],
+        [
+          168,
+          645
+        ],
+        [
+          153,
+          581
+        ],
+        [
+          157,
+          512
+        ],
+        [
+          178,
+          468
+        ],
+        [
+          223,
+          400
+        ],
+        [
+          273,
+          359
+        ],
+        [
+          347,
+          314
+        ],
+        [
+          421,
+          288
+        ],
+        [
+          488,
+          270
+        ],
+        [
+          548,
+          258
+        ],
+        [
+          602,
+          255
+        ],
+        [
+          652,
+          260
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          186,
+          285
+        ],
+        [
+          204,
+          276
+        ],
+        [
+          291,
+          400
+        ],
+        [
+          269,
+          418
+        ],
+        [
+          184,
+          290
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          713,
+          233
+        ],
+        [
+          741,
+          223
+        ],
+        [
+          797,
+          451
+        ],
+        [
+          772,
+          464
+        ],
+        [
+          716,
+          234
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          954,
+          284
+        ],
+        [
+          989,
+          290
+        ],
+        [
+          924,
+          666
+        ],
+        [
+          903,
+          666
+        ],
+        [
+          953,
+          282
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          735,
+          924
+        ],
+        [
+          757,
+          926
+        ],
+        [
+          761,
+          782
+        ],
+        [
+          741,
+          782
+        ],
+        [
+          735,
+          926
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          362,
+          879
+        ],
+        [
+          374,
+          871
+        ],
+        [
+          282,
+          661
+        ],
+        [
+          261,
+          661
+        ],
+        [
+          288,
+          749
+        ],
+        [
+          359,
+          880
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          997,
+          877
+        ],
+        [
+          1000,
+          856
+        ],
+        [
+          1146,
+          911
+        ],
+        [
+          1178,
+          927
+        ],
+        [
+          1178,
+          933
+        ],
+        [
+          997,
+          879
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          1007,
+          844
+        ],
+        [
+          1013,
+          832
+        ],
+        [
+          1170,
+          915
+        ],
+        [
+          1166,
+          926
+        ],
+        [
+          1004,
+          844
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          1004,
+          818
+        ],
+        [
+          1015,
+          797
+        ],
+        [
+          1194,
+          924
+        ],
+        [
+          1185,
+          933
+        ],
+        [
+          1003,
+          821
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H5",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H6",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H1",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H2",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H4",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H7",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H0",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T2+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T3+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T4+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T5+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T5+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T5+A7+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T6+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "chloroplast outer membrane granum  lumen stroma thylakoids inner membrane"
+  },
+  "questions": [
+    {
+      "question_text": "What is represented in the diagram?",
+      "question_id": "2867.png-2",
+      "answers": [
+        "cytoplasm",
+        "chloroplast",
+        "nucleus",
+        "none of the above"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Where is the Lumen located?",
+      "question_id": "2867.png-0",
+      "answers": [
+        "A",
+        "B",
+        "E",
+        "F"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which letter represents the Inner Membrane?",
+      "question_id": "2867.png-1",
+      "answers": [
+        "D",
+        "E",
+        "G",
+        "F"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    }
+  ]
+}

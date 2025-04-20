@@ -1,0 +1,456 @@
+{
+  "image_id": "3828",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          294,
+          7
+        ],
+        [
+          343,
+          25
+        ]
+      ],
+      "value": "rumen",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          295,
+          47
+        ],
+        [
+          363,
+          61
+        ]
+      ],
+      "value": "reticulum",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          293,
+          91
+        ],
+        [
+          355,
+          104
+        ]
+      ],
+      "value": "omasum",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          294,
+          131
+        ],
+        [
+          371,
+          149
+        ]
+      ],
+      "value": "abomasum",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          31,
+          140
+        ],
+        [
+          50,
+          152
+        ],
+        [
+          76,
+          156
+        ],
+        [
+          112,
+          150
+        ],
+        [
+          134,
+          142
+        ],
+        [
+          135,
+          148
+        ],
+        [
+          138,
+          158
+        ],
+        [
+          146,
+          167
+        ],
+        [
+          164,
+          187
+        ],
+        [
+          179,
+          193
+        ],
+        [
+          202,
+          193
+        ],
+        [
+          223,
+          190
+        ],
+        [
+          232,
+          178
+        ],
+        [
+          251,
+          163
+        ],
+        [
+          261,
+          138
+        ],
+        [
+          260,
+          107
+        ],
+        [
+          249,
+          91
+        ],
+        [
+          230,
+          82
+        ],
+        [
+          225,
+          85
+        ],
+        [
+          227,
+          61
+        ],
+        [
+          206,
+          40
+        ],
+        [
+          182,
+          30
+        ],
+        [
+          168,
+          28
+        ],
+        [
+          164,
+          33
+        ],
+        [
+          129,
+          13
+        ],
+        [
+          72,
+          4
+        ],
+        [
+          23,
+          24
+        ],
+        [
+          10,
+          45
+        ],
+        [
+          9,
+          55
+        ],
+        [
+          4,
+          68
+        ],
+        [
+          0,
+          90
+        ],
+        [
+          10,
+          98
+        ],
+        [
+          19,
+          103
+        ],
+        [
+          17,
+          119
+        ],
+        [
+          28,
+          138
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          111,
+          53
+        ],
+        [
+          296,
+          19
+        ],
+        [
+          290,
+          6
+        ],
+        [
+          106,
+          42
+        ],
+        [
+          112,
+          58
+        ],
+        [
+          113,
+          53
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          201,
+          57
+        ],
+        [
+          295,
+          46
+        ],
+        [
+          293,
+          63
+        ],
+        [
+          198,
+          70
+        ],
+        [
+          201,
+          56
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          175,
+          136
+        ],
+        [
+          177,
+          146
+        ],
+        [
+          206,
+          137
+        ],
+        [
+          296,
+          100
+        ],
+        [
+          291,
+          88
+        ],
+        [
+          173,
+          134
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          235,
+          159
+        ],
+        [
+          295,
+          145
+        ],
+        [
+          293,
+          132
+        ],
+        [
+          232,
+          146
+        ],
+        [
+          236,
+          161
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H3",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H2",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T2+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T3+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "rumen reticulum omasum abomasum"
+  },
+  "questions": [
+    {
+      "question_text": "What is between the reticulum and the abomasum?",
+      "question_id": "3828.png-0",
+      "answers": [
+        "Intestine",
+        "Omasum",
+        "Stomach",
+        "Rumen"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which letter represents the reticulum?",
+      "question_id": "3828.png-1",
+      "answers": [
+        "B",
+        "D",
+        "A",
+        "C"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which letter represents the rumen?",
+      "question_id": "3828.png-2",
+      "answers": [
+        "C",
+        "B",
+        "D",
+        "A"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}

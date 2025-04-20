@@ -1,0 +1,854 @@
+{
+  "image_id": "468",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          145,
+          20
+        ],
+        [
+          209,
+          37
+        ]
+      ],
+      "value": "scorpion",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          313,
+          40
+        ],
+        [
+          382,
+          57
+        ]
+      ],
+      "value": "centipede",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          390,
+          95
+        ],
+        [
+          436,
+          115
+        ]
+      ],
+      "value": "toad",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          240,
+          112
+        ],
+        [
+          287,
+          127
+        ]
+      ],
+      "value": "termite",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          357,
+          173
+        ],
+        [
+          399,
+          188
+        ]
+      ],
+      "value": "spider",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          224,
+          190
+        ],
+        [
+          288,
+          207
+        ]
+      ],
+      "value": "millipede",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          110,
+          111
+        ],
+        [
+          192,
+          131
+        ]
+      ],
+      "value": "dead leaves",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          12,
+          112
+        ],
+        [
+          55,
+          131
+        ]
+      ],
+      "value": "slug",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          47,
+          190
+        ],
+        [
+          94,
+          207
+        ]
+      ],
+      "value": "lizard",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          174,
+          46
+        ],
+        [
+          184,
+          41
+        ],
+        [
+          257,
+          102
+        ],
+        [
+          249,
+          107
+        ],
+        [
+          172,
+          48
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          29,
+          100
+        ],
+        [
+          35,
+          107
+        ],
+        [
+          312,
+          48
+        ],
+        [
+          308,
+          40
+        ],
+        [
+          30,
+          101
+        ]
+      ],
+      "category": "connector"
+    },
+    "A10": {
+      "id": "A10",
+      "type": "arrow",
+      "polygon": [
+        [
+          294,
+          191
+        ],
+        [
+          294,
+          201
+        ],
+        [
+          344,
+          186
+        ],
+        [
+          344,
+          176
+        ],
+        [
+          297,
+          191
+        ]
+      ],
+      "category": "connector"
+    },
+    "A11": {
+      "id": "A11",
+      "type": "arrow",
+      "polygon": [
+        [
+          372,
+          160
+        ],
+        [
+          384,
+          164
+        ],
+        [
+          416,
+          118
+        ],
+        [
+          401,
+          116
+        ],
+        [
+          372,
+          160
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          69,
+          112
+        ],
+        [
+          69,
+          126
+        ],
+        [
+          106,
+          125
+        ],
+        [
+          104,
+          114
+        ],
+        [
+          70,
+          112
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          28,
+          136
+        ],
+        [
+          40,
+          135
+        ],
+        [
+          74,
+          180
+        ],
+        [
+          60,
+          181
+        ],
+        [
+          25,
+          138
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          102,
+          195
+        ],
+        [
+          100,
+          206
+        ],
+        [
+          214,
+          207
+        ],
+        [
+          215,
+          199
+        ],
+        [
+          101,
+          193
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          142,
+          134
+        ],
+        [
+          153,
+          136
+        ],
+        [
+          217,
+          195
+        ],
+        [
+          210,
+          202
+        ],
+        [
+          141,
+          135
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          194,
+          114
+        ],
+        [
+          196,
+          122
+        ],
+        [
+          231,
+          126
+        ],
+        [
+          230,
+          116
+        ],
+        [
+          196,
+          115
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          264,
+          101
+        ],
+        [
+          274,
+          102
+        ],
+        [
+          310,
+          60
+        ],
+        [
+          309,
+          52
+        ],
+        [
+          298,
+          52
+        ],
+        [
+          264,
+          98
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          297,
+          112
+        ],
+        [
+          298,
+          122
+        ],
+        [
+          380,
+          109
+        ],
+        [
+          377,
+          99
+        ],
+        [
+          294,
+          111
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          270,
+          182
+        ],
+        [
+          281,
+          183
+        ],
+        [
+          353,
+          66
+        ],
+        [
+          339,
+          64
+        ],
+        [
+          271,
+          182
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A10+H2",
+      "type": "arrowHeadTail",
+      "source": "A10",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A11+H3",
+      "type": "arrowHeadTail",
+      "source": "A11",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H4",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H5",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H6",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H7",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H8",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H8",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H9",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H9",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A8+H10",
+      "type": "arrowHeadTail",
+      "source": "A8",
+      "target": "H10",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A9+H11",
+      "type": "arrowHeadTail",
+      "source": "A9",
+      "target": "H11",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+A0+T0",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T0",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T3+A7+T1",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T1",
+      "connector": "A7",
+      "directional": true
+    },
+    {
+      "id": "T3+A8+T2",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T2",
+      "connector": "A8",
+      "directional": true
+    },
+    {
+      "id": "T4+A11+T2",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T2",
+      "connector": "A11",
+      "directional": true
+    },
+    {
+      "id": "T5+A10+T4",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T4",
+      "connector": "A10",
+      "directional": true
+    },
+    {
+      "id": "T5+A4+T8",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T8",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T5+A9+T1",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T1",
+      "connector": "A9",
+      "directional": true
+    },
+    {
+      "id": "T6+A2+T7",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T7",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T6+A5+T5",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T5",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T6+A6+T3",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T3",
+      "connector": "A6",
+      "directional": true
+    },
+    {
+      "id": "T7+A1+T1",
+      "type": "interObjectLinkage",
+      "source": "T7",
+      "target": "T1",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T7+A3+T8",
+      "type": "interObjectLinkage",
+      "source": "T7",
+      "target": "T8",
+      "connector": "A3",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A10": "connector",
+    "A11": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "scorpion centipede toad termite spider millipede dead leaves slug lizard"
+  },
+  "questions": [
+    {
+      "question_text": "From the above food web diagram, lizards represents",
+      "question_id": "468.png-0",
+      "answers": [
+        "producer",
+        "herbivore",
+        "scavenger",
+        "carnivore"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the above food web diagram, which species need to find new food source if all spider dies",
+      "question_id": "468.png-5",
+      "answers": [
+        "millipede",
+        "toad",
+        "lizards",
+        "slug"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "If the slug population decreased the population of lizards would most likely?",
+      "question_id": "468.png-6",
+      "answers": [
+        "Increase",
+        "Decrease",
+        "Stay the same",
+        "None of the above"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "If there was suddenly more scorpions, what would happen to the termites?",
+      "question_id": "468.png-11",
+      "answers": [
+        "can't predict",
+        "stay the same",
+        "decrease",
+        "increase"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Imagine if all the lizards in the food chain above were banished from earth, what would happen to the slug population?",
+      "question_id": "468.png-2",
+      "answers": [
+        "There would be more slugs because less lizards are eating them.",
+        "There would be no change",
+        "The slugs will also go extinct.",
+        "NA"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "It's the year 2050, there are no longer any termites on the planet. Because of this, what other population is most affected?",
+      "question_id": "468.png-7",
+      "answers": [
+        "scorpion",
+        "lizard",
+        "slug",
+        "toad"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is a producer?",
+      "question_id": "468.png-3",
+      "answers": [
+        "scorpion",
+        "toad",
+        "dead leaves",
+        "spider"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would be most directly affected if the scorpions died?",
+      "question_id": "468.png-4",
+      "answers": [
+        "termite",
+        "toad",
+        "slug",
+        "lizard"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would happen if there were suddenly no lizards?",
+      "question_id": "468.png-1",
+      "answers": [
+        "less scorpions",
+        "more slugs",
+        "less spiders",
+        "more toads"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would happen to scorpions if the termites increase?",
+      "question_id": "468.png-10",
+      "answers": [
+        "can't predict",
+        "increase",
+        "stay same",
+        "decrease"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would happen to the termites if the toads all died?",
+      "question_id": "468.png-9",
+      "answers": [
+        "can't predict",
+        "increase",
+        "stay the same",
+        "decrease"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which of the following organisms shown in the diagram are consumers?",
+      "question_id": "468.png-8",
+      "answers": [
+        "Sun",
+        "Dead Leaves",
+        "Termite",
+        "None of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

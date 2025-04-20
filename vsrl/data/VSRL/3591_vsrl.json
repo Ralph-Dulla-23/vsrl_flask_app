@@ -1,0 +1,630 @@
+{
+  "image_id": "3591",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          409,
+          226
+        ],
+        [
+          598,
+          256
+        ]
+      ],
+      "value": "Larynx ('voice box')",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          409,
+          266
+        ],
+        [
+          607,
+          296
+        ]
+      ],
+      "value": "Trachea (' windpipe')",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          416,
+          338
+        ],
+        [
+          477,
+          365
+        ]
+      ],
+      "value": "Lungs",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          416,
+          391
+        ],
+        [
+          588,
+          467
+        ]
+      ],
+      "value": "Diaphragm - separates chest from abdomen",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          25,
+          42
+        ],
+        [
+          526,
+          83
+        ]
+      ],
+      "value": "The Human Respiratory System",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          408,
+          149
+        ],
+        [
+          531,
+          174
+        ]
+      ],
+      "value": "Nasal cavity",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          409,
+          183
+        ],
+        [
+          494,
+          207
+        ]
+      ],
+      "value": "Pharynx",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          67,
+          403
+        ],
+        [
+          73,
+          381
+        ],
+        [
+          70,
+          317
+        ],
+        [
+          83,
+          289
+        ],
+        [
+          107,
+          268
+        ],
+        [
+          154,
+          254
+        ],
+        [
+          174,
+          239
+        ],
+        [
+          172,
+          217
+        ],
+        [
+          166,
+          199
+        ],
+        [
+          156,
+          186
+        ],
+        [
+          147,
+          172
+        ],
+        [
+          145,
+          149
+        ],
+        [
+          154,
+          128
+        ],
+        [
+          167,
+          117
+        ],
+        [
+          199,
+          108
+        ],
+        [
+          222,
+          104
+        ],
+        [
+          241,
+          110
+        ],
+        [
+          254,
+          119
+        ],
+        [
+          262,
+          137
+        ],
+        [
+          271,
+          153
+        ],
+        [
+          272,
+          168
+        ],
+        [
+          277,
+          178
+        ],
+        [
+          284,
+          187
+        ],
+        [
+          279,
+          195
+        ],
+        [
+          277,
+          203
+        ],
+        [
+          275,
+          212
+        ],
+        [
+          269,
+          226
+        ],
+        [
+          266,
+          231
+        ],
+        [
+          253,
+          234
+        ],
+        [
+          239,
+          237
+        ],
+        [
+          236,
+          240
+        ],
+        [
+          236,
+          242
+        ],
+        [
+          237,
+          247
+        ],
+        [
+          244,
+          249
+        ],
+        [
+          266,
+          256
+        ],
+        [
+          312,
+          269
+        ],
+        [
+          329,
+          282
+        ],
+        [
+          348,
+          338
+        ],
+        [
+          358,
+          417
+        ],
+        [
+          327,
+          422
+        ],
+        [
+          310,
+          420
+        ],
+        [
+          300,
+          419
+        ],
+        [
+          302,
+          442
+        ],
+        [
+          286,
+          448
+        ],
+        [
+          125,
+          445
+        ],
+        [
+          118,
+          434
+        ],
+        [
+          115,
+          423
+        ],
+        [
+          107,
+          424
+        ],
+        [
+          87,
+          420
+        ],
+        [
+          75,
+          416
+        ],
+        [
+          67,
+          408
+        ],
+        [
+          67,
+          404
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          229,
+          403
+        ],
+        [
+          419,
+          420
+        ],
+        [
+          416,
+          431
+        ],
+        [
+          226,
+          414
+        ],
+        [
+          228,
+          406
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          269,
+          312
+        ],
+        [
+          418,
+          344
+        ],
+        [
+          418,
+          351
+        ],
+        [
+          186,
+          356
+        ],
+        [
+          177,
+          338
+        ],
+        [
+          359,
+          342
+        ],
+        [
+          267,
+          323
+        ],
+        [
+          269,
+          315
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          206,
+          280
+        ],
+        [
+          410,
+          287
+        ],
+        [
+          406,
+          272
+        ],
+        [
+          201,
+          267
+        ],
+        [
+          204,
+          279
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          207,
+          243
+        ],
+        [
+          409,
+          236
+        ],
+        [
+          411,
+          247
+        ],
+        [
+          206,
+          256
+        ],
+        [
+          204,
+          245
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          203,
+          216
+        ],
+        [
+          405,
+          206
+        ],
+        [
+          401,
+          194
+        ],
+        [
+          202,
+          205
+        ],
+        [
+          202,
+          215
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          255,
+          176
+        ],
+        [
+          408,
+          157
+        ],
+        [
+          411,
+          166
+        ],
+        [
+          253,
+          192
+        ],
+        [
+          252,
+          177
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T1+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T2+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T3+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T4+I0",
+      "type": "imageTitle",
+      "source": "T4",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T6+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "title",
+    "T5": "part_label",
+    "T6": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "larynx ('voice box') trachea (' windpipe') lungs diaphragm - separates chest from abdomen the human respiratory system nasal cavity pharynx"
+  },
+  "questions": [
+    {
+      "question_text": "The voice box is a common name for what organ?",
+      "question_id": "3591.png-2",
+      "answers": [
+        "diaphragm",
+        "larynx",
+        "lungs",
+        "nasal cavity"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "what fills nasal cavity?",
+      "question_id": "3591.png-1",
+      "answers": [
+        "The section of the alimentary canal that extends from the mouth and nasal cavities to the larynx, where it becomes continuous with the esophagus.",
+        "A large air-filled space above and behind the nose in the middle of the face.",
+        "Either of two spongy, saclike respiratory organs in most vertebrates, occupying the chest cavity together with the heart and functioning to remove carbon dioxide from the blood and provide it with oxygen.",
+        "water"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "what is a lungs?",
+      "question_id": "3591.png-0",
+      "answers": [
+        "A large air-filled space above and behind the nose in the middle of the face.",
+        "where it becomes continuous with the esophagus.",
+        "Either of two spongy, saclike respiratory organs in most vertebrates, occupying the chest cavity together with the heart and functioning to remove carbon dioxide from the blood and provide it with oxygen.",
+        "The section of the alimentary canal that extends from the mouth and nasal cavities to the larynx"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

@@ -1,0 +1,518 @@
+{
+  "image_id": "1742",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          266,
+          81
+        ],
+        [
+          348,
+          155
+        ]
+      ],
+      "value": "thrust fault",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          261,
+          327
+        ],
+        [
+          349,
+          417
+        ]
+      ],
+      "value": "STRIKE",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          276,
+          589
+        ],
+        [
+          349,
+          656
+        ]
+      ],
+      "value": "normal fault",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          0,
+          189
+        ],
+        [
+          194,
+          191
+        ],
+        [
+          230,
+          152
+        ],
+        [
+          262,
+          152
+        ],
+        [
+          340,
+          69
+        ],
+        [
+          339,
+          70
+        ],
+        [
+          335,
+          0
+        ],
+        [
+          143,
+          0
+        ],
+        [
+          108,
+          39
+        ],
+        [
+          75,
+          36
+        ],
+        [
+          0,
+          116
+        ],
+        [
+          0,
+          189
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          0,
+          424
+        ],
+        [
+          118,
+          426
+        ],
+        [
+          141,
+          402
+        ],
+        [
+          260,
+          401
+        ],
+        [
+          337,
+          322
+        ],
+        [
+          336,
+          244
+        ],
+        [
+          220,
+          243
+        ],
+        [
+          191,
+          267
+        ],
+        [
+          74,
+          266
+        ],
+        [
+          1,
+          343
+        ],
+        [
+          1,
+          421
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          0,
+          608
+        ],
+        [
+          154,
+          611
+        ],
+        [
+          184,
+          640
+        ],
+        [
+          276,
+          643
+        ],
+        [
+          340,
+          578
+        ],
+        [
+          340,
+          515
+        ],
+        [
+          188,
+          515
+        ],
+        [
+          157,
+          484
+        ],
+        [
+          64,
+          485
+        ],
+        [
+          0,
+          545
+        ],
+        [
+          1,
+          608
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          85,
+          70
+        ],
+        [
+          74,
+          83
+        ],
+        [
+          115,
+          117
+        ],
+        [
+          127,
+          109
+        ],
+        [
+          86,
+          72
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          108,
+          115
+        ],
+        [
+          100,
+          125
+        ],
+        [
+          137,
+          159
+        ],
+        [
+          148,
+          150
+        ],
+        [
+          110,
+          116
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          144,
+          290
+        ],
+        [
+          158,
+          299
+        ],
+        [
+          122,
+          337
+        ],
+        [
+          113,
+          329
+        ],
+        [
+          144,
+          293
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          170,
+          286
+        ],
+        [
+          178,
+          299
+        ],
+        [
+          221,
+          265
+        ],
+        [
+          205,
+          255
+        ],
+        [
+          171,
+          285
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          90,
+          544
+        ],
+        [
+          85,
+          555
+        ],
+        [
+          116,
+          582
+        ],
+        [
+          122,
+          576
+        ],
+        [
+          90,
+          544
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          131,
+          586
+        ],
+        [
+          141,
+          577
+        ],
+        [
+          174,
+          614
+        ],
+        [
+          163,
+          621
+        ],
+        [
+          131,
+          589
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H3",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H4",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H5",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H2",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H1",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T1+B1",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B2",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "thrust fault strike normal fault"
+  },
+  "questions": [
+    {
+      "question_text": "What is it called when the fault plane is inclined at an angle equal to or less than 45\u00b0?",
+      "question_id": "1742.png-3",
+      "answers": [
+        "Angular fault",
+        "Strike-slip fault",
+        "Thrust fault",
+        "Normal fault"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is it called when the hanging wall has moved downward in comparison to the footwall?",
+      "question_id": "1742.png-0",
+      "answers": [
+        "Normal fault",
+        "Angular fault",
+        "Strike-slip fault",
+        "Thrust fault"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "which of the label show normal fault",
+      "question_id": "1742.png-2",
+      "answers": [
+        "d",
+        "c",
+        "b",
+        "a"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "which of the label show thrust fault",
+      "question_id": "1742.png-1",
+      "answers": [
+        "b",
+        "d",
+        "c",
+        "a"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}

@@ -1,0 +1,336 @@
+{
+  "image_id": "550",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          1,
+          0
+        ],
+        [
+          133,
+          19
+        ]
+      ],
+      "value": "FORMATION OF EARTH'S LAYERS",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          54,
+          33
+        ],
+        [
+          96,
+          59
+        ]
+      ],
+      "value": "Core",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          50,
+          76
+        ],
+        [
+          105,
+          98
+        ]
+      ],
+      "value": "Mantle",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          54,
+          115
+        ],
+        [
+          101,
+          138
+        ]
+      ],
+      "value": "Crust",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          130,
+          63
+        ],
+        [
+          148,
+          40
+        ],
+        [
+          164,
+          30
+        ],
+        [
+          187,
+          22
+        ],
+        [
+          207,
+          24
+        ],
+        [
+          226,
+          30
+        ],
+        [
+          244,
+          46
+        ],
+        [
+          257,
+          69
+        ],
+        [
+          264,
+          90
+        ],
+        [
+          261,
+          118
+        ],
+        [
+          250,
+          132
+        ],
+        [
+          228,
+          152
+        ],
+        [
+          212,
+          159
+        ],
+        [
+          190,
+          160
+        ],
+        [
+          168,
+          157
+        ],
+        [
+          151,
+          144
+        ],
+        [
+          135,
+          130
+        ],
+        [
+          128,
+          110
+        ],
+        [
+          124,
+          85
+        ],
+        [
+          127,
+          63
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          92,
+          123
+        ],
+        [
+          136,
+          91
+        ],
+        [
+          139,
+          96
+        ],
+        [
+          97,
+          129
+        ],
+        [
+          93,
+          124
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          100,
+          82
+        ],
+        [
+          164,
+          81
+        ],
+        [
+          163,
+          89
+        ],
+        [
+          99,
+          92
+        ],
+        [
+          100,
+          85
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          93,
+          49
+        ],
+        [
+          194,
+          89
+        ],
+        [
+          197,
+          84
+        ],
+        [
+          95,
+          45
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T2+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T3+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "formation of earth's layers core mantle crust"
+  },
+  "questions": [
+    {
+      "question_text": "In this diagram, which label represents Core ?",
+      "question_id": "550.png-2",
+      "answers": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "Inner part of the Earth is known as?",
+      "question_id": "550.png-0",
+      "answers": [
+        "cox",
+        "Crust",
+        "Mantle",
+        "Core"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Upper layer of the Earth is known as?",
+      "question_id": "550.png-3",
+      "answers": [
+        "Crust",
+        "plants",
+        "Mantle",
+        "Core"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which layer is between Crust and Core ?",
+      "question_id": "550.png-1",
+      "answers": [
+        "Mantle",
+        "None of the above",
+        "Crust",
+        "Core"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

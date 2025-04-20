@@ -1,0 +1,584 @@
+{
+  "image_id": "2887",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          75
+        ],
+        [
+          65,
+          97
+        ]
+      ],
+      "value": "Cuticle",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          102
+        ],
+        [
+          63,
+          123
+        ]
+      ],
+      "value": "Cortex",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          185
+        ],
+        [
+          76,
+          207
+        ]
+      ],
+      "value": "Medulla",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          136
+        ],
+        [
+          102,
+          178
+        ]
+      ],
+      "value": "Sebaceous gland",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          222
+        ],
+        [
+          44,
+          243
+        ]
+      ],
+      "value": "Bulb",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          290
+        ],
+        [
+          131,
+          310
+        ]
+      ],
+      "value": "Dermal papilla",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          301,
+          237
+        ],
+        [
+          398,
+          280
+        ]
+      ],
+      "value": "Outer root sheath",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          293,
+          175
+        ],
+        [
+          399,
+          219
+        ]
+      ],
+      "value": "Arrector pili muscle",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          117,
+          84
+        ],
+        [
+          165,
+          97
+        ],
+        [
+          180,
+          91
+        ],
+        [
+          209,
+          32
+        ],
+        [
+          260,
+          2
+        ],
+        [
+          219,
+          35
+        ],
+        [
+          201,
+          72
+        ],
+        [
+          192,
+          96
+        ],
+        [
+          232,
+          89
+        ],
+        [
+          266,
+          89
+        ],
+        [
+          278,
+          89
+        ],
+        [
+          279,
+          146
+        ],
+        [
+          280,
+          290
+        ],
+        [
+          219,
+          287
+        ],
+        [
+          171,
+          290
+        ],
+        [
+          120,
+          292
+        ],
+        [
+          129,
+          194
+        ],
+        [
+          130,
+          137
+        ],
+        [
+          131,
+          119
+        ],
+        [
+          131,
+          99
+        ],
+        [
+          119,
+          83
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          107,
+          149
+        ],
+        [
+          165,
+          165
+        ],
+        [
+          170,
+          154
+        ],
+        [
+          105,
+          143
+        ],
+        [
+          106,
+          147
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          241,
+          181
+        ],
+        [
+          294,
+          182
+        ],
+        [
+          295,
+          192
+        ],
+        [
+          238,
+          192
+        ],
+        [
+          240,
+          182
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          64,
+          117
+        ],
+        [
+          178,
+          125
+        ],
+        [
+          179,
+          118
+        ],
+        [
+          61,
+          106
+        ],
+        [
+          63,
+          115
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          67,
+          80
+        ],
+        [
+          65,
+          94
+        ],
+        [
+          175,
+          118
+        ],
+        [
+          176,
+          109
+        ],
+        [
+          68,
+          79
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          189,
+          237
+        ],
+        [
+          300,
+          240
+        ],
+        [
+          301,
+          251
+        ],
+        [
+          185,
+          249
+        ],
+        [
+          188,
+          236
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          75,
+          201
+        ],
+        [
+          172,
+          201
+        ],
+        [
+          173,
+          194
+        ],
+        [
+          71,
+          191
+        ],
+        [
+          72,
+          201
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          132,
+          293
+        ],
+        [
+          172,
+          242
+        ],
+        [
+          182,
+          250
+        ],
+        [
+          180,
+          248
+        ],
+        [
+          136,
+          303
+        ],
+        [
+          132,
+          296
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          45,
+          239
+        ],
+        [
+          144,
+          240
+        ],
+        [
+          144,
+          268
+        ],
+        [
+          151,
+          267
+        ],
+        [
+          155,
+          200
+        ],
+        [
+          146,
+          200
+        ],
+        [
+          145,
+          229
+        ],
+        [
+          43,
+          229
+        ],
+        [
+          45,
+          237
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T1+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T2+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T3+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T4+A7+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T5+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T6+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T7+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "cuticle cortex medulla sebaceous gland bulb dermal papilla outer root sheath arrector pili muscle"
+  },
+  "questions": [
+    {
+      "question_text": "What is letter H?",
+      "question_id": "2887.png-0",
+      "answers": [
+        "Arrector pili",
+        "Bulb",
+        "Cortex",
+        "medulla"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "What letter is the Medulla?",
+      "question_id": "2887.png-1",
+      "answers": [
+        "A",
+        "F",
+        "G",
+        "H"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

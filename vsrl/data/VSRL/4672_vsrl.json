@@ -1,0 +1,436 @@
+{
+  "image_id": "4672",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          17,
+          83
+        ],
+        [
+          54,
+          94
+        ]
+      ],
+      "value": "Normal",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          125,
+          82
+        ],
+        [
+          188,
+          97
+        ]
+      ],
+      "value": "Scissors Beak",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          123,
+          193
+        ],
+        [
+          188,
+          207
+        ]
+      ],
+      "value": "Prognathism",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          2,
+          188
+        ],
+        [
+          58,
+          207
+        ]
+      ],
+      "value": "Overgrown",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          0,
+          132
+        ],
+        [
+          47,
+          195
+        ],
+        [
+          54,
+          191
+        ],
+        [
+          56,
+          182
+        ],
+        [
+          63,
+          172
+        ],
+        [
+          61,
+          185
+        ],
+        [
+          66,
+          188
+        ],
+        [
+          81,
+          172
+        ],
+        [
+          91,
+          154
+        ],
+        [
+          82,
+          130
+        ],
+        [
+          70,
+          119
+        ],
+        [
+          49,
+          105
+        ],
+        [
+          20,
+          110
+        ],
+        [
+          10,
+          119
+        ],
+        [
+          0,
+          130
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          115,
+          133
+        ],
+        [
+          168,
+          196
+        ],
+        [
+          172,
+          196
+        ],
+        [
+          177,
+          185
+        ],
+        [
+          181,
+          177
+        ],
+        [
+          186,
+          173
+        ],
+        [
+          203,
+          166
+        ],
+        [
+          211,
+          160
+        ],
+        [
+          210,
+          146
+        ],
+        [
+          208,
+          140
+        ],
+        [
+          197,
+          123
+        ],
+        [
+          191,
+          121
+        ],
+        [
+          180,
+          110
+        ],
+        [
+          160,
+          106
+        ],
+        [
+          146,
+          109
+        ],
+        [
+          134,
+          119
+        ],
+        [
+          126,
+          126
+        ],
+        [
+          117,
+          131
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          0,
+          20
+        ],
+        [
+          20,
+          6
+        ],
+        [
+          39,
+          0
+        ],
+        [
+          59,
+          0
+        ],
+        [
+          77,
+          11
+        ],
+        [
+          93,
+          30
+        ],
+        [
+          92,
+          58
+        ],
+        [
+          87,
+          68
+        ],
+        [
+          82,
+          68
+        ],
+        [
+          76,
+          58
+        ],
+        [
+          69,
+          65
+        ],
+        [
+          60,
+          74
+        ],
+        [
+          57,
+          88
+        ],
+        [
+          0,
+          23
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          121,
+          22
+        ],
+        [
+          180,
+          90
+        ],
+        [
+          189,
+          76
+        ],
+        [
+          193,
+          68
+        ],
+        [
+          200,
+          62
+        ],
+        [
+          205,
+          73
+        ],
+        [
+          215,
+          51
+        ],
+        [
+          215,
+          35
+        ],
+        [
+          209,
+          20
+        ],
+        [
+          201,
+          11
+        ],
+        [
+          190,
+          0
+        ],
+        [
+          162,
+          0
+        ],
+        [
+          144,
+          7
+        ],
+        [
+          133,
+          15
+        ],
+        [
+          124,
+          24
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+B2",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B3",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B1",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "normal scissors beak prognathism overgrown"
+  },
+  "questions": [
+    {
+      "question_text": "Image A represents",
+      "question_id": "4672.png-2",
+      "answers": [
+        "Norma beak",
+        "Overgrown",
+        "none of above",
+        "scissors beak"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which particular beak in the diagram shows a larger top beak compared to the bottom?",
+      "question_id": "4672.png-0",
+      "answers": [
+        "Scissors Beak",
+        "Obtuse Beak",
+        "Prognathism Beak",
+        "Overgrown Beak"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which picture represents scissors beak?",
+      "question_id": "4672.png-1",
+      "answers": [
+        "C",
+        "D",
+        "A",
+        "B"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    }
+  ]
+}

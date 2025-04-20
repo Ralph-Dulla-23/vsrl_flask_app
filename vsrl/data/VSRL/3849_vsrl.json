@@ -1,0 +1,838 @@
+{
+  "image_id": "3849",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          2,
+          2
+        ],
+        [
+          138,
+          28
+        ]
+      ],
+      "value": "Leaf Structure",
+      "replacementText": "K",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          194,
+          30
+        ],
+        [
+          248,
+          50
+        ]
+      ],
+      "value": "Cuticle",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T10": {
+      "id": "T10",
+      "type": "text",
+      "bbox": [
+        [
+          3,
+          65
+        ],
+        [
+          120,
+          134
+        ]
+      ],
+      "value": "Upper Epidermis protective layer coated with a waxy surface (cuticle) which protects the leaf and prevents excess water loss.",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          395,
+          64
+        ],
+        [
+          540,
+          94
+        ]
+      ],
+      "value": "Epidermal Cell Does not contain Chloroplasts",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          462,
+          183
+        ],
+        [
+          557,
+          233
+        ]
+      ],
+      "value": "Spongy Layer Spongy Mesophyll layer containing air spaces",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          464,
+          127
+        ],
+        [
+          559,
+          177
+        ]
+      ],
+      "value": "Layer of Palisade Cells contain lots of Chloroplast",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          360,
+          321
+        ],
+        [
+          470,
+          341
+        ]
+      ],
+      "value": "Lower Epidermis",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          128,
+          274
+        ],
+        [
+          206,
+          294
+        ]
+      ],
+      "value": "Guard Cells",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          2,
+          363
+        ],
+        [
+          206,
+          398
+        ]
+      ],
+      "value": "Structure of a leaf Copyright 2009 science-resources.co.uk",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          165,
+          336
+        ],
+        [
+          259,
+          359
+        ]
+      ],
+      "value": "Stomatal Pore",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          186
+        ],
+        [
+          110,
+          248
+        ]
+      ],
+      "value": "Leaf Vein Helps support the leaf and contains Xylem and Phloem tubes to carry food and water",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          301,
+          316
+        ],
+        [
+          355,
+          304
+        ],
+        [
+          418,
+          292
+        ],
+        [
+          476,
+          283
+        ],
+        [
+          469,
+          269
+        ],
+        [
+          411,
+          226
+        ],
+        [
+          405,
+          178
+        ],
+        [
+          406,
+          117
+        ],
+        [
+          353,
+          81
+        ],
+        [
+          304,
+          54
+        ],
+        [
+          244,
+          64
+        ],
+        [
+          139,
+          84
+        ],
+        [
+          136,
+          146
+        ],
+        [
+          131,
+          163
+        ],
+        [
+          138,
+          184
+        ],
+        [
+          133,
+          206
+        ],
+        [
+          161,
+          223
+        ],
+        [
+          240,
+          272
+        ],
+        [
+          299,
+          319
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          105,
+          97
+        ],
+        [
+          122,
+          98
+        ],
+        [
+          124,
+          107
+        ],
+        [
+          135,
+          107
+        ],
+        [
+          137,
+          102
+        ],
+        [
+          130,
+          100
+        ],
+        [
+          129,
+          87
+        ],
+        [
+          140,
+          87
+        ],
+        [
+          140,
+          80
+        ],
+        [
+          127,
+          82
+        ],
+        [
+          122,
+          89
+        ],
+        [
+          105,
+          90
+        ],
+        [
+          104,
+          96
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          132,
+          166
+        ],
+        [
+          99,
+          197
+        ],
+        [
+          88,
+          194
+        ],
+        [
+          130,
+          156
+        ],
+        [
+          133,
+          164
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          166,
+          231
+        ],
+        [
+          164,
+          275
+        ],
+        [
+          176,
+          278
+        ],
+        [
+          178,
+          232
+        ],
+        [
+          164,
+          230
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          205,
+          290
+        ],
+        [
+          259,
+          287
+        ],
+        [
+          258,
+          280
+        ],
+        [
+          207,
+          279
+        ],
+        [
+          201,
+          291
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          218,
+          339
+        ],
+        [
+          274,
+          297
+        ],
+        [
+          264,
+          289
+        ],
+        [
+          207,
+          328
+        ],
+        [
+          217,
+          339
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          299,
+          318
+        ],
+        [
+          323,
+          330
+        ],
+        [
+          391,
+          313
+        ],
+        [
+          407,
+          324
+        ],
+        [
+          407,
+          312
+        ],
+        [
+          491,
+          294
+        ],
+        [
+          477,
+          281
+        ],
+        [
+          464,
+          281
+        ],
+        [
+          467,
+          289
+        ],
+        [
+          372,
+          311
+        ],
+        [
+          321,
+          321
+        ],
+        [
+          309,
+          313
+        ],
+        [
+          299,
+          316
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          221,
+          50
+        ],
+        [
+          246,
+          85
+        ],
+        [
+          254,
+          83
+        ],
+        [
+          232,
+          49
+        ],
+        [
+          221,
+          51
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          405,
+          121
+        ],
+        [
+          442,
+          91
+        ],
+        [
+          449,
+          102
+        ],
+        [
+          406,
+          133
+        ],
+        [
+          403,
+          121
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          413,
+          130
+        ],
+        [
+          431,
+          131
+        ],
+        [
+          434,
+          152
+        ],
+        [
+          460,
+          155
+        ],
+        [
+          461,
+          167
+        ],
+        [
+          433,
+          162
+        ],
+        [
+          432,
+          179
+        ],
+        [
+          406,
+          181
+        ],
+        [
+          413,
+          179
+        ],
+        [
+          424,
+          173
+        ],
+        [
+          426,
+          140
+        ],
+        [
+          408,
+          140
+        ],
+        [
+          413,
+          129
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          409,
+          183
+        ],
+        [
+          430,
+          183
+        ],
+        [
+          432,
+          203
+        ],
+        [
+          464,
+          203
+        ],
+        [
+          460,
+          209
+        ],
+        [
+          434,
+          210
+        ],
+        [
+          434,
+          230
+        ],
+        [
+          416,
+          229
+        ],
+        [
+          409,
+          223
+        ],
+        [
+          425,
+          223
+        ],
+        [
+          427,
+          189
+        ],
+        [
+          412,
+          189
+        ],
+        [
+          409,
+          184
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T10+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T10",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T2+A7+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T3+A9+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A9",
+      "directional": false
+    },
+    {
+      "id": "T4+A8+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A8",
+      "directional": false
+    },
+    {
+      "id": "T5+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T6+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T6+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T7+I0",
+      "type": "imageCaption",
+      "source": "T7",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T8+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T8",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T9+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T9",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T10": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "leaf structure cuticle upper epidermis protective layer coated with a waxy surface (cuticle) which protects the leaf and prevents excess water loss. epidermal cell does not contain chloroplasts spongy layer spongy mesophyll layer containing air spaces layer of palisade cells contain lots of chloroplast lower epidermis guard cells structure of a leaf copyright 2009 science-resources.co.uk stomatal pore leaf vein helps support the leaf and contains xylem and phloem tubes to carry food and water"
+  },
+  "questions": [
+    {
+      "question_text": "Show the epidermal cell in the left diagram.",
+      "question_id": "3849.png-0",
+      "answers": [
+        "Label H",
+        "Label F",
+        "Label G",
+        "Label B"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "What contains Xylem and phloem tubes?",
+      "question_id": "3849.png-2",
+      "answers": [
+        "Cuticle",
+        "Clam",
+        "Cattle Prod",
+        "Leaf Vein"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What waxy surface protects the the leaf?",
+      "question_id": "3849.png-1",
+      "answers": [
+        "Cuticle",
+        "Vein",
+        "Cell",
+        "Slap"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

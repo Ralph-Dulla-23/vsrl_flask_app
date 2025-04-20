@@ -1,0 +1,1808 @@
+{
+  "image_id": "4178",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          287,
+          409
+        ],
+        [
+          362,
+          431
+        ]
+      ],
+      "value": "melting",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          123,
+          393
+        ],
+        [
+          223,
+          440
+        ]
+      ],
+      "value": "plutonism magma",
+      "replacementText": "P",
+      "category": "label"
+    },
+    "T10": {
+      "id": "T10",
+      "type": "text",
+      "bbox": [
+        [
+          309,
+          115
+        ],
+        [
+          416,
+          129
+        ]
+      ],
+      "value": "sediments",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T11": {
+      "id": "T11",
+      "type": "text",
+      "bbox": [
+        [
+          355,
+          144
+        ],
+        [
+          453,
+          161
+        ]
+      ],
+      "value": "deposition",
+      "replacementText": "S",
+      "category": "label"
+    },
+    "T12": {
+      "id": "T12",
+      "type": "text",
+      "bbox": [
+        [
+          94,
+          144
+        ],
+        [
+          307,
+          165
+        ]
+      ],
+      "value": "weathering and erosion",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T13": {
+      "id": "T13",
+      "type": "text",
+      "bbox": [
+        [
+          257,
+          267
+        ],
+        [
+          307,
+          285
+        ]
+      ],
+      "value": "uplift",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T14": {
+      "id": "T14",
+      "type": "text",
+      "bbox": [
+        [
+          102,
+          201
+        ],
+        [
+          248,
+          218
+        ]
+      ],
+      "value": "igneous rocks",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T15": {
+      "id": "T15",
+      "type": "text",
+      "bbox": [
+        [
+          18,
+          255
+        ],
+        [
+          79,
+          297
+        ]
+      ],
+      "value": "rhyolite and esite basalt",
+      "replacementText": "Q",
+      "category": "label"
+    },
+    "T16": {
+      "id": "T16",
+      "type": "text",
+      "bbox": [
+        [
+          17,
+          229
+        ],
+        [
+          116,
+          248
+        ]
+      ],
+      "value": "vulcanism",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T17": {
+      "id": "T17",
+      "type": "text",
+      "bbox": [
+        [
+          116,
+          222
+        ],
+        [
+          246,
+          236
+        ]
+      ],
+      "value": "crystallization",
+      "replacementText": "O",
+      "category": "label"
+    },
+    "T18": {
+      "id": "T18",
+      "type": "text",
+      "bbox": [
+        [
+          439,
+          249
+        ],
+        [
+          633,
+          267
+        ]
+      ],
+      "value": "sedimentary rocks",
+      "replacementText": "K",
+      "category": "label"
+    },
+    "T19": {
+      "id": "T19",
+      "type": "text",
+      "bbox": [
+        [
+          659,
+          217
+        ],
+        [
+          767,
+          397
+        ]
+      ],
+      "value": "conglomeraste sandstone mudstone siltstone shale greywacke limestone marl chert gypsum salt coal",
+      "replacementText": "N",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          100,
+          449
+        ],
+        [
+          262,
+          463
+        ]
+      ],
+      "value": "granite, diorite, gabbro",
+      "replacementText": "T",
+      "category": "label"
+    },
+    "T20": {
+      "id": "T20",
+      "type": "text",
+      "bbox": [
+        [
+          408,
+          173
+        ],
+        [
+          685,
+          214
+        ]
+      ],
+      "value": "compaction and cementation (lithification and burial) ",
+      "replacementText": "M",
+      "category": "label"
+    },
+    "T21": {
+      "id": "T21",
+      "type": "text",
+      "bbox": [
+        [
+          423,
+          343
+        ],
+        [
+          615,
+          386
+        ]
+      ],
+      "value": "metamorphism (heat and pressure)",
+      "replacementText": "V",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          410,
+          411
+        ],
+        [
+          608,
+          433
+        ]
+      ],
+      "value": "metamorphic rocks",
+      "replacementText": "R",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          343,
+          526
+        ],
+        [
+          713,
+          558
+        ]
+      ],
+      "value": "slate, argillite, schist, gneiss, marble, metasandstone, quartzite, greenstone, serpentinite, metachert",
+      "replacementText": "U",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          206,
+          23
+        ],
+        [
+          468,
+          43
+        ]
+      ],
+      "value": "gravel, sand, silt, mud, clay, lime, soil",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          522,
+          17
+        ],
+        [
+          610,
+          49
+        ]
+      ],
+      "value": "mineral dissolution",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          538,
+          88
+        ],
+        [
+          645,
+          127
+        ]
+      ],
+      "value": "mineral precipitation",
+      "replacementText": "L",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          664,
+          41
+        ],
+        [
+          748,
+          145
+        ]
+      ],
+      "value": "vein calcite vein quartz chert travertine limonite hematite pyrite",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          48,
+          25
+        ],
+        [
+          145,
+          129
+        ]
+      ],
+      "value": "The Rock Cycle",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          122,
+          244
+        ],
+        [
+          151,
+          233
+        ],
+        [
+          170,
+          242
+        ],
+        [
+          197,
+          243
+        ],
+        [
+          237,
+          242
+        ],
+        [
+          244,
+          267
+        ],
+        [
+          220,
+          263
+        ],
+        [
+          206,
+          261
+        ],
+        [
+          176,
+          265
+        ],
+        [
+          153,
+          256
+        ],
+        [
+          121,
+          247
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          68,
+          281
+        ],
+        [
+          74,
+          285
+        ],
+        [
+          100,
+          263
+        ],
+        [
+          110,
+          269
+        ],
+        [
+          127,
+          253
+        ],
+        [
+          140,
+          269
+        ],
+        [
+          157,
+          263
+        ],
+        [
+          207,
+          289
+        ],
+        [
+          224,
+          289
+        ],
+        [
+          227,
+          303
+        ],
+        [
+          216,
+          306
+        ],
+        [
+          217,
+          306
+        ],
+        [
+          231,
+          317
+        ],
+        [
+          225,
+          326
+        ],
+        [
+          240,
+          335
+        ],
+        [
+          235,
+          350
+        ],
+        [
+          240,
+          335
+        ],
+        [
+          235,
+          334
+        ],
+        [
+          238,
+          342
+        ],
+        [
+          245,
+          351
+        ],
+        [
+          245,
+          360
+        ],
+        [
+          253,
+          363
+        ],
+        [
+          250,
+          373
+        ],
+        [
+          262,
+          384
+        ],
+        [
+          257,
+          390
+        ],
+        [
+          270,
+          412
+        ],
+        [
+          267,
+          423
+        ],
+        [
+          275,
+          444
+        ],
+        [
+          81,
+          442
+        ],
+        [
+          81,
+          439
+        ],
+        [
+          91,
+          417
+        ],
+        [
+          81,
+          397
+        ],
+        [
+          88,
+          387
+        ],
+        [
+          76,
+          364
+        ],
+        [
+          77,
+          352
+        ],
+        [
+          71,
+          332
+        ],
+        [
+          76,
+          323
+        ],
+        [
+          65,
+          315
+        ],
+        [
+          72,
+          301
+        ],
+        [
+          65,
+          285
+        ],
+        [
+          71,
+          280
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          194,
+          96
+        ],
+        [
+          206,
+          73
+        ],
+        [
+          232,
+          56
+        ],
+        [
+          242,
+          50
+        ],
+        [
+          263,
+          62
+        ],
+        [
+          297,
+          56
+        ],
+        [
+          313,
+          56
+        ],
+        [
+          328,
+          51
+        ],
+        [
+          347,
+          55
+        ],
+        [
+          360,
+          46
+        ],
+        [
+          403,
+          55
+        ],
+        [
+          511,
+          110
+        ],
+        [
+          512,
+          131
+        ],
+        [
+          492,
+          141
+        ],
+        [
+          448,
+          129
+        ],
+        [
+          418,
+          114
+        ],
+        [
+          384,
+          106
+        ],
+        [
+          350,
+          107
+        ],
+        [
+          323,
+          107
+        ],
+        [
+          294,
+          109
+        ],
+        [
+          272,
+          130
+        ],
+        [
+          242,
+          139
+        ],
+        [
+          216,
+          123
+        ],
+        [
+          195,
+          100
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          548,
+          272
+        ],
+        [
+          538,
+          292
+        ],
+        [
+          543,
+          301
+        ],
+        [
+          537,
+          312
+        ],
+        [
+          541,
+          320
+        ],
+        [
+          540,
+          330
+        ],
+        [
+          554,
+          335
+        ],
+        [
+          568,
+          337
+        ],
+        [
+          583,
+          340
+        ],
+        [
+          634,
+          343
+        ],
+        [
+          636,
+          343
+        ],
+        [
+          653,
+          334
+        ],
+        [
+          646,
+          315
+        ],
+        [
+          646,
+          303
+        ],
+        [
+          635,
+          277
+        ],
+        [
+          614,
+          277
+        ],
+        [
+          597,
+          274
+        ],
+        [
+          547,
+          272
+        ]
+      ],
+      "category": "object"
+    },
+    "B4": {
+      "id": "B4",
+      "type": "blob",
+      "polygon": [
+        [
+          371,
+          461
+        ],
+        [
+          377,
+          442
+        ],
+        [
+          402,
+          433
+        ],
+        [
+          442,
+          439
+        ],
+        [
+          462,
+          449
+        ],
+        [
+          484,
+          431
+        ],
+        [
+          523,
+          436
+        ],
+        [
+          533,
+          444
+        ],
+        [
+          567,
+          440
+        ],
+        [
+          568,
+          447
+        ],
+        [
+          587,
+          441
+        ],
+        [
+          613,
+          431
+        ],
+        [
+          633,
+          442
+        ],
+        [
+          663,
+          452
+        ],
+        [
+          675,
+          506
+        ],
+        [
+          657,
+          513
+        ],
+        [
+          632,
+          507
+        ],
+        [
+          598,
+          519
+        ],
+        [
+          525,
+          510
+        ],
+        [
+          462,
+          520
+        ],
+        [
+          427,
+          515
+        ],
+        [
+          383,
+          492
+        ],
+        [
+          372,
+          461
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          166,
+          199
+        ],
+        [
+          179,
+          199
+        ],
+        [
+          205,
+          165
+        ],
+        [
+          188,
+          161
+        ],
+        [
+          164,
+          197
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          237,
+          166
+        ],
+        [
+          276,
+          264
+        ],
+        [
+          286,
+          267
+        ],
+        [
+          288,
+          258
+        ],
+        [
+          249,
+          161
+        ],
+        [
+          236,
+          168
+        ]
+      ],
+      "category": "connector"
+    },
+    "A10": {
+      "id": "A10",
+      "type": "arrow",
+      "polygon": [
+        [
+          276,
+          142
+        ],
+        [
+          273,
+          136
+        ],
+        [
+          298,
+          125
+        ],
+        [
+          299,
+          120
+        ],
+        [
+          312,
+          119
+        ],
+        [
+          308,
+          131
+        ],
+        [
+          303,
+          130
+        ],
+        [
+          278,
+          143
+        ]
+      ],
+      "category": "connector"
+    },
+    "A11": {
+      "id": "A11",
+      "type": "arrow",
+      "polygon": [
+        [
+          427,
+          122
+        ],
+        [
+          423,
+          128
+        ],
+        [
+          496,
+          164
+        ],
+        [
+          494,
+          167
+        ],
+        [
+          513,
+          170
+        ],
+        [
+          504,
+          155
+        ],
+        [
+          500,
+          158
+        ],
+        [
+          430,
+          123
+        ]
+      ],
+      "category": "connector"
+    },
+    "A12": {
+      "id": "A12",
+      "type": "arrow",
+      "polygon": [
+        [
+          555,
+          105
+        ],
+        [
+          537,
+          97
+        ],
+        [
+          529,
+          84
+        ],
+        [
+          523,
+          64
+        ],
+        [
+          528,
+          59
+        ],
+        [
+          527,
+          55
+        ],
+        [
+          545,
+          47
+        ],
+        [
+          542,
+          60
+        ],
+        [
+          536,
+          62
+        ],
+        [
+          533,
+          74
+        ],
+        [
+          540,
+          88
+        ],
+        [
+          554,
+          95
+        ],
+        [
+          561,
+          97
+        ],
+        [
+          559,
+          103
+        ]
+      ],
+      "category": "connector"
+    },
+    "A13": {
+      "id": "A13",
+      "type": "arrow",
+      "polygon": [
+        [
+          610,
+          35
+        ],
+        [
+          608,
+          48
+        ],
+        [
+          623,
+          53
+        ],
+        [
+          629,
+          61
+        ],
+        [
+          629,
+          69
+        ],
+        [
+          629,
+          81
+        ],
+        [
+          625,
+          81
+        ],
+        [
+          625,
+          97
+        ],
+        [
+          644,
+          90
+        ],
+        [
+          638,
+          83
+        ],
+        [
+          644,
+          72
+        ],
+        [
+          642,
+          62
+        ],
+        [
+          635,
+          50
+        ],
+        [
+          619,
+          38
+        ],
+        [
+          613,
+          37
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          311,
+          275
+        ],
+        [
+          312,
+          282
+        ],
+        [
+          331,
+          286
+        ],
+        [
+          331,
+          280
+        ],
+        [
+          438,
+          265
+        ],
+        [
+          431,
+          255
+        ],
+        [
+          331,
+          270
+        ],
+        [
+          321,
+          270
+        ],
+        [
+          313,
+          277
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          436,
+          269
+        ],
+        [
+          324,
+          391
+        ],
+        [
+          325,
+          408
+        ],
+        [
+          342,
+          404
+        ],
+        [
+          339,
+          395
+        ],
+        [
+          448,
+          273
+        ],
+        [
+          438,
+          266
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          523,
+          271
+        ],
+        [
+          500,
+          342
+        ],
+        [
+          513,
+          345
+        ],
+        [
+          538,
+          274
+        ],
+        [
+          521,
+          271
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          492,
+          379
+        ],
+        [
+          509,
+          380
+        ],
+        [
+          492,
+          412
+        ],
+        [
+          481,
+          412
+        ],
+        [
+          491,
+          382
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          408,
+          414
+        ],
+        [
+          361,
+          416
+        ],
+        [
+          359,
+          425
+        ],
+        [
+          372,
+          430
+        ],
+        [
+          412,
+          425
+        ],
+        [
+          410,
+          417
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          131,
+          391
+        ],
+        [
+          115,
+          331
+        ],
+        [
+          128,
+          328
+        ],
+        [
+          140,
+          387
+        ],
+        [
+          135,
+          391
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          216,
+          425
+        ],
+        [
+          228,
+          418
+        ],
+        [
+          286,
+          416
+        ],
+        [
+          284,
+          427
+        ],
+        [
+          225,
+          435
+        ],
+        [
+          215,
+          426
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          528,
+          209
+        ],
+        [
+          527,
+          241
+        ],
+        [
+          534,
+          251
+        ],
+        [
+          546,
+          238
+        ],
+        [
+          541,
+          209
+        ],
+        [
+          529,
+          209
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H11",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H11",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A10+H6",
+      "type": "arrowHeadTail",
+      "source": "A10",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A11+H12",
+      "type": "arrowHeadTail",
+      "source": "A11",
+      "target": "H12",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A12+H1",
+      "type": "arrowHeadTail",
+      "source": "A12",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A13+H2",
+      "type": "arrowHeadTail",
+      "source": "A13",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H7",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H13",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H13",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H8",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H8",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H5",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H10",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H10",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H3",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A8+H9",
+      "type": "arrowHeadTail",
+      "source": "A8",
+      "target": "H9",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A9+H4",
+      "type": "arrowHeadTail",
+      "source": "A9",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B2+A11+T20",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "T20",
+      "connector": "A11",
+      "directional": true
+    },
+    {
+      "id": "B4+A6+T0",
+      "type": "interObjectLinkage",
+      "source": "B4",
+      "target": "T0",
+      "connector": "A6",
+      "directional": true
+    },
+    {
+      "id": "T1+B1",
+      "type": "intraObjectRegionLabel",
+      "source": "T1",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T10+B2",
+      "type": "intraObjectLabel",
+      "source": "T10",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T12+A10+B2",
+      "type": "interObjectLinkage",
+      "source": "T12",
+      "target": "B2",
+      "connector": "A10",
+      "directional": true
+    },
+    {
+      "id": "T13+A1+T12",
+      "type": "interObjectLinkage",
+      "source": "T13",
+      "target": "T12",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T14+A0+T12",
+      "type": "interObjectLinkage",
+      "source": "T14",
+      "target": "T12",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T15+B1",
+      "type": "intraObjectRegionLabel",
+      "source": "T15",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T16+I0",
+      "type": "sectionTitle",
+      "source": "T16",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T18+A2+T13",
+      "type": "interObjectLinkage",
+      "source": "T18",
+      "target": "T13",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T18+A3+T0",
+      "type": "interObjectLinkage",
+      "source": "T18",
+      "target": "T0",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T18+A4+T21",
+      "type": "interObjectLinkage",
+      "source": "T18",
+      "target": "T21",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T19+I0",
+      "type": "imageCaption",
+      "source": "T19",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B1",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T20+A9+T18",
+      "type": "interObjectLinkage",
+      "source": "T20",
+      "target": "T18",
+      "connector": "A9",
+      "directional": true
+    },
+    {
+      "id": "T21+A5+B4",
+      "type": "interObjectLinkage",
+      "source": "T21",
+      "target": "B4",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T3+B4",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+I0",
+      "type": "imageCaption",
+      "source": "T4",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+B2",
+      "type": "intraObjectLabel",
+      "source": "T5",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+A13+T7",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T7",
+      "connector": "A13",
+      "directional": true
+    },
+    {
+      "id": "T7+A12+T6",
+      "type": "interObjectLinkage",
+      "source": "T7",
+      "target": "T6",
+      "connector": "A12",
+      "directional": true
+    },
+    {
+      "id": "T8+I0",
+      "type": "imageCaption",
+      "source": "T8",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T9+I0",
+      "type": "imageTitle",
+      "source": "T9",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T10": "part_label",
+    "T11": "part_label",
+    "T12": "part_label",
+    "T13": "part_label",
+    "T14": "part_label",
+    "T15": "part_label",
+    "T16": "part_label",
+    "T17": "part_label",
+    "T18": "part_label",
+    "T19": "part_label",
+    "T2": "part_label",
+    "T20": "part_label",
+    "T21": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "title",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "B4": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A10": "connector",
+    "A11": "connector",
+    "A12": "connector",
+    "A13": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "chemistry",
+    "diagram_type": "flow_diagram",
+    "text_content": "melting plutonism magma sediments deposition weathering and erosion uplift igneous rocks rhyolite and esite basalt vulcanism crystallization sedimentary rocks conglomeraste sandstone mudstone siltstone shale greywacke limestone marl chert gypsum salt coal granite, diorite, gabbro compaction and cementation (lithification and burial)  metamorphism (heat and pressure) metamorphic rocks slate, argillite, schist, gneiss, marble, metasandstone, quartzite, greenstone, serpentinite, metachert gravel, sand, silt, mud, clay, lime, soil mineral dissolution mineral precipitation vein calcite vein quartz chert travertine limonite hematite pyrite the rock cycle"
+  },
+  "questions": [
+    {
+      "question_text": "What does the letter \"I\" represent?",
+      "question_id": "4178.png-4",
+      "answers": [
+        "Crystallization",
+        "Metamorphism",
+        "Uplift",
+        "Weathering and Erosion"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is this a cycle of?",
+      "question_id": "4178.png-1",
+      "answers": [
+        "water cycle",
+        "carbon cycle",
+        "none of the above",
+        "rock cycle"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "What kind of rocks does vulcanism form?",
+      "question_id": "4178.png-3",
+      "answers": [
+        "sedimentary",
+        "igneous",
+        "sand",
+        "metamorphic"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What process is needed to turn sedimentary rock into magma?",
+      "question_id": "4178.png-0",
+      "answers": [
+        "uplift",
+        "erosion",
+        "melting",
+        "cooling"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which letter represents \"melting\" of rock?",
+      "question_id": "4178.png-2",
+      "answers": [
+        "R",
+        "S",
+        "M",
+        "D"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    }
+  ]
+}

@@ -1,0 +1,632 @@
+{
+  "image_id": "315",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          12,
+          132
+        ],
+        [
+          72,
+          153
+        ]
+      ],
+      "value": "Green plants (Producers)",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          218,
+          136
+        ],
+        [
+          266,
+          158
+        ]
+      ],
+      "value": "Deer (Herbivore)",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          436,
+          137
+        ],
+        [
+          498,
+          161
+        ]
+      ],
+      "value": "TIGER (CARNIVORE)",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          158,
+          162
+        ],
+        [
+          386,
+          175
+        ]
+      ],
+      "value": "Fig. 8.2 A food chain in a forest ecosystem",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          27,
+          12
+        ],
+        [
+          27,
+          3
+        ],
+        [
+          35,
+          5
+        ],
+        [
+          44,
+          0
+        ],
+        [
+          50,
+          2
+        ],
+        [
+          65,
+          5
+        ],
+        [
+          61,
+          13
+        ],
+        [
+          72,
+          22
+        ],
+        [
+          63,
+          29
+        ],
+        [
+          64,
+          40
+        ],
+        [
+          56,
+          35
+        ],
+        [
+          46,
+          46
+        ],
+        [
+          40,
+          35
+        ],
+        [
+          27,
+          43
+        ],
+        [
+          31,
+          28
+        ],
+        [
+          20,
+          27
+        ],
+        [
+          27,
+          12
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          8,
+          61
+        ],
+        [
+          8,
+          86
+        ],
+        [
+          2,
+          92
+        ],
+        [
+          11,
+          120
+        ],
+        [
+          80,
+          119
+        ],
+        [
+          73,
+          89
+        ],
+        [
+          66,
+          92
+        ],
+        [
+          65,
+          77
+        ],
+        [
+          49,
+          71
+        ],
+        [
+          45,
+          90
+        ],
+        [
+          32,
+          90
+        ],
+        [
+          33,
+          60
+        ],
+        [
+          10,
+          60
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          210,
+          51
+        ],
+        [
+          193,
+          73
+        ],
+        [
+          206,
+          82
+        ],
+        [
+          215,
+          95
+        ],
+        [
+          201,
+          123
+        ],
+        [
+          281,
+          124
+        ],
+        [
+          281,
+          118
+        ],
+        [
+          274,
+          114
+        ],
+        [
+          267,
+          90
+        ],
+        [
+          266,
+          78
+        ],
+        [
+          222,
+          72
+        ],
+        [
+          215,
+          50
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          404,
+          64
+        ],
+        [
+          441,
+          62
+        ],
+        [
+          473,
+          66
+        ],
+        [
+          501,
+          78
+        ],
+        [
+          506,
+          94
+        ],
+        [
+          518,
+          99
+        ],
+        [
+          525,
+          112
+        ],
+        [
+          544,
+          112
+        ],
+        [
+          544,
+          122
+        ],
+        [
+          506,
+          129
+        ],
+        [
+          459,
+          133
+        ],
+        [
+          385,
+          128
+        ],
+        [
+          389,
+          119
+        ],
+        [
+          410,
+          102
+        ],
+        [
+          392,
+          101
+        ],
+        [
+          389,
+          93
+        ],
+        [
+          403,
+          64
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          120,
+          78
+        ],
+        [
+          121,
+          95
+        ],
+        [
+          150,
+          97
+        ],
+        [
+          152,
+          104
+        ],
+        [
+          167,
+          88
+        ],
+        [
+          150,
+          74
+        ],
+        [
+          150,
+          81
+        ],
+        [
+          121,
+          81
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          318,
+          84
+        ],
+        [
+          318,
+          99
+        ],
+        [
+          346,
+          99
+        ],
+        [
+          347,
+          107
+        ],
+        [
+          362,
+          93
+        ],
+        [
+          347,
+          80
+        ],
+        [
+          347,
+          85
+        ],
+        [
+          320,
+          84
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B1+A0+B2",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B2",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "B2+A1+B3",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B3",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T0+B1",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B2",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B3",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+I0",
+      "type": "imageTitle",
+      "source": "T3",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "title",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "A0": "connector",
+    "A1": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "green plants (producers) deer (herbivore) tiger (carnivore) fig. 8.2 a food chain in a forest ecosystem"
+  },
+  "questions": [
+    {
+      "question_text": "If the deer population decreases what happens to the tiger population?",
+      "question_id": "315.png-5",
+      "answers": [
+        "Stays the same",
+        "Decreases as well",
+        "Increases",
+        "None of the above"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the diagram shown, which is the producer?",
+      "question_id": "315.png-7",
+      "answers": [
+        "deer",
+        "green plants",
+        "sun",
+        "carnivore"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the diagram shown, which organism consumes the deer for food?",
+      "question_id": "315.png-3",
+      "answers": [
+        "sun",
+        "green plants",
+        "grasses",
+        "tigers"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "In this diagram, the Tiger represents an",
+      "question_id": "315.png-10",
+      "answers": [
+        "producer",
+        "carnivore",
+        "herbivore",
+        "scavenger"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "In this diagram, which receives it's energy from the deer?",
+      "question_id": "315.png-9",
+      "answers": [
+        "Tiger",
+        "Green Plants",
+        "None of the above",
+        "All of the above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What happen if the herbivores decreases",
+      "question_id": "315.png-0",
+      "answers": [
+        "tiger increases",
+        "plants decreases",
+        "tiger decreases",
+        "no change"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the energy producer?",
+      "question_id": "315.png-8",
+      "answers": [
+        "sun",
+        "plant",
+        "deer",
+        "tiger"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would happen to the tiger population if all of the deer were to die off?",
+      "question_id": "315.png-6",
+      "answers": [
+        "decrease",
+        "stay the same",
+        "increase",
+        "none of the above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which is a carnivore?",
+      "question_id": "315.png-1",
+      "answers": [
+        "deer",
+        "green plant",
+        "sun",
+        "tiger"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which is the top predator in the food web?",
+      "question_id": "315.png-4",
+      "answers": [
+        "Plant",
+        "Deer",
+        "Tiger",
+        "None of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which organism would be affected first by a severe drought resulting in the loss of plants from the ecosystem?",
+      "question_id": "315.png-2",
+      "answers": [
+        "the sun",
+        "deer",
+        "tiger",
+        "none of the above"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

@@ -1,0 +1,394 @@
+{
+  "image_id": "2643",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          97,
+          149
+        ],
+        [
+          153,
+          177
+        ]
+      ],
+      "value": "Sun",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          539,
+          15
+        ],
+        [
+          661,
+          43
+        ]
+      ],
+      "value": "Tidal Bulge",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          600,
+          141
+        ],
+        [
+          692,
+          172
+        ]
+      ],
+      "value": "Moon",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          102,
+          31
+        ],
+        [
+          121,
+          30
+        ],
+        [
+          135,
+          30
+        ],
+        [
+          154,
+          34
+        ],
+        [
+          172,
+          40
+        ],
+        [
+          190,
+          50
+        ],
+        [
+          207,
+          65
+        ],
+        [
+          223,
+          89
+        ],
+        [
+          233,
+          120
+        ],
+        [
+          236,
+          167
+        ],
+        [
+          229,
+          191
+        ],
+        [
+          216,
+          215
+        ],
+        [
+          197,
+          241
+        ],
+        [
+          163,
+          259
+        ],
+        [
+          133,
+          267
+        ],
+        [
+          95,
+          263
+        ],
+        [
+          61,
+          248
+        ],
+        [
+          38,
+          227
+        ],
+        [
+          19,
+          193
+        ],
+        [
+          12,
+          140
+        ],
+        [
+          27,
+          85
+        ],
+        [
+          52,
+          55
+        ],
+        [
+          75,
+          42
+        ],
+        [
+          97,
+          32
+        ],
+        [
+          101,
+          30
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          378,
+          130
+        ],
+        [
+          400,
+          110
+        ],
+        [
+          421,
+          103
+        ],
+        [
+          445,
+          103
+        ],
+        [
+          465,
+          110
+        ],
+        [
+          478,
+          122
+        ],
+        [
+          489,
+          149
+        ],
+        [
+          491,
+          165
+        ],
+        [
+          487,
+          183
+        ],
+        [
+          474,
+          202
+        ],
+        [
+          464,
+          210
+        ],
+        [
+          453,
+          215
+        ],
+        [
+          435,
+          218
+        ],
+        [
+          410,
+          216
+        ],
+        [
+          390,
+          204
+        ],
+        [
+          374,
+          179
+        ],
+        [
+          370,
+          152
+        ],
+        [
+          378,
+          131
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          487,
+          94
+        ],
+        [
+          500,
+          101
+        ],
+        [
+          511,
+          95
+        ],
+        [
+          510,
+          90
+        ],
+        [
+          549,
+          51
+        ],
+        [
+          540,
+          43
+        ],
+        [
+          503,
+          81
+        ],
+        [
+          486,
+          91
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A0+B1",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B1",
+      "connector": "A0",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "sun tidal bulge moon"
+  },
+  "questions": [
+    {
+      "question_text": "What is the natural satellite of earth called?",
+      "question_id": "2643.png-2",
+      "answers": [
+        "Tidal",
+        "Sun",
+        "Moon",
+        "Bulge"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the star that sustains life?",
+      "question_id": "2643.png-0",
+      "answers": [
+        "Moon",
+        "Tidal",
+        "Bulge",
+        "Sun"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which letter does the Moon represent ?",
+      "question_id": "2643.png-4",
+      "answers": [
+        "C",
+        "All of the above",
+        "B",
+        "A"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which letter does the Sun represent ?",
+      "question_id": "2643.png-5",
+      "answers": [
+        "A",
+        "None of the above",
+        "B",
+        "C"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which of the following represents a star that is the basis of the solar system and that sustains life on Earth, being the source of heat and light. It has a mean distance from Earth of about 150 million kilometers (93 million miles) a diameter of approximately 1,390,000 kilometers (864,000 miles) and a mass about 330,000 times that of Earth?",
+      "question_id": "2643.png-3",
+      "answers": [
+        "C",
+        "none of the above",
+        "B",
+        "A"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which of the following represents tidal bulge?",
+      "question_id": "2643.png-1",
+      "answers": [
+        "C",
+        "none of the above",
+        "A",
+        "B"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    }
+  ]
+}

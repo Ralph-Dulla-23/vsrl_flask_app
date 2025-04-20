@@ -1,0 +1,760 @@
+{
+  "image_id": "1530",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          13,
+          371
+        ],
+        [
+          602,
+          429
+        ]
+      ],
+      "value": "To make the circuit, these components are connected together with metal connecting wires.",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          172,
+          24
+        ],
+        [
+          463,
+          64
+        ]
+      ],
+      "value": "simple circuits",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          35,
+          90
+        ],
+        [
+          550,
+          146
+        ]
+      ],
+      "value": "Here is a simple electric circuit. It has a cell, a lamp and a switch",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          113,
+          209
+        ],
+        [
+          151,
+          229
+        ]
+      ],
+      "value": "cell",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          507,
+          205
+        ],
+        [
+          553,
+          225
+        ]
+      ],
+      "value": "wires",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          97,
+          292
+        ],
+        [
+          153,
+          313
+        ]
+      ],
+      "value": "switch",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          507,
+          288
+        ],
+        [
+          553,
+          312
+        ]
+      ],
+      "value": "lamp",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          239,
+          281
+        ],
+        [
+          238,
+          292
+        ],
+        [
+          235,
+          313
+        ],
+        [
+          264,
+          315
+        ],
+        [
+          293,
+          313
+        ],
+        [
+          294,
+          298
+        ],
+        [
+          288,
+          294
+        ],
+        [
+          295,
+          284
+        ],
+        [
+          286,
+          277
+        ],
+        [
+          275,
+          282
+        ],
+        [
+          274,
+          289
+        ],
+        [
+          256,
+          286
+        ],
+        [
+          242,
+          278
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          371,
+          306
+        ],
+        [
+          372,
+          300
+        ],
+        [
+          367,
+          280
+        ],
+        [
+          382,
+          279
+        ],
+        [
+          387,
+          287
+        ],
+        [
+          383,
+          270
+        ],
+        [
+          400,
+          269
+        ],
+        [
+          410,
+          276
+        ],
+        [
+          408,
+          286
+        ],
+        [
+          415,
+          279
+        ],
+        [
+          420,
+          282
+        ],
+        [
+          421,
+          302
+        ],
+        [
+          424,
+          311
+        ],
+        [
+          397,
+          313
+        ],
+        [
+          372,
+          309
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          299,
+          203
+        ],
+        [
+          300,
+          240
+        ],
+        [
+          363,
+          240
+        ],
+        [
+          364,
+          205
+        ],
+        [
+          300,
+          204
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          425,
+          291
+        ],
+        [
+          425,
+          306
+        ],
+        [
+          506,
+          307
+        ],
+        [
+          508,
+          290
+        ],
+        [
+          427,
+          291
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          357,
+          220
+        ],
+        [
+          366,
+          193
+        ],
+        [
+          383,
+          184
+        ],
+        [
+          390,
+          185
+        ],
+        [
+          397,
+          215
+        ],
+        [
+          406,
+          252
+        ],
+        [
+          408,
+          278
+        ],
+        [
+          417,
+          285
+        ],
+        [
+          418,
+          263
+        ],
+        [
+          414,
+          223
+        ],
+        [
+          405,
+          183
+        ],
+        [
+          390,
+          174
+        ],
+        [
+          373,
+          167
+        ],
+        [
+          357,
+          186
+        ],
+        [
+          347,
+          215
+        ],
+        [
+          354,
+          221
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          421,
+          217
+        ],
+        [
+          505,
+          220
+        ],
+        [
+          503,
+          204
+        ],
+        [
+          415,
+          205
+        ],
+        [
+          422,
+          214
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          159,
+          296
+        ],
+        [
+          158,
+          313
+        ],
+        [
+          231,
+          311
+        ],
+        [
+          236,
+          296
+        ],
+        [
+          160,
+          297
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          161,
+          214
+        ],
+        [
+          297,
+          213
+        ],
+        [
+          299,
+          226
+        ],
+        [
+          161,
+          226
+        ],
+        [
+          160,
+          215
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          304,
+          216
+        ],
+        [
+          286,
+          185
+        ],
+        [
+          271,
+          188
+        ],
+        [
+          258,
+          216
+        ],
+        [
+          255,
+          242
+        ],
+        [
+          252,
+          281
+        ],
+        [
+          252,
+          291
+        ],
+        [
+          240,
+          291
+        ],
+        [
+          248,
+          203
+        ],
+        [
+          264,
+          174
+        ],
+        [
+          286,
+          169
+        ],
+        [
+          305,
+          184
+        ],
+        [
+          313,
+          203
+        ],
+        [
+          311,
+          215
+        ],
+        [
+          305,
+          215
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          285,
+          290
+        ],
+        [
+          277,
+          289
+        ],
+        [
+          288,
+          260
+        ],
+        [
+          308,
+          249
+        ],
+        [
+          327,
+          246
+        ],
+        [
+          352,
+          246
+        ],
+        [
+          373,
+          259
+        ],
+        [
+          387,
+          278
+        ],
+        [
+          384,
+          290
+        ],
+        [
+          374,
+          293
+        ],
+        [
+          370,
+          277
+        ],
+        [
+          355,
+          264
+        ],
+        [
+          338,
+          259
+        ],
+        [
+          314,
+          260
+        ],
+        [
+          298,
+          267
+        ],
+        [
+          293,
+          279
+        ],
+        [
+          287,
+          289
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H0",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H2",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H3",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A3+B0",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B0",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "B1+A0+B1",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B1",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "B1+A6+B0",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "B2+A1+B1",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B1",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "B2+A4+B2",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B2",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "B2+A5+B0",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T0+I0",
+      "type": "imageCaption",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+I0",
+      "type": "imageTitle",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+I0",
+      "type": "imageCaption",
+      "source": "T2",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B2",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+A2+B2",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "B2",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T5+B0",
+      "type": "intraObjectLabel",
+      "source": "T5",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+B1",
+      "type": "intraObjectLabel",
+      "source": "T6",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "title",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "to make the circuit, these components are connected together with metal connecting wires. simple circuits here is a simple electric circuit. it has a cell, a lamp and a switch cell wires switch lamp"
+  }
+}

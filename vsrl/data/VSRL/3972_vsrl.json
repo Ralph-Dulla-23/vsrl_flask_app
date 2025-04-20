@@ -1,0 +1,440 @@
+{
+  "image_id": "3972",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          85,
+          27
+        ],
+        [
+          123,
+          42
+        ]
+      ],
+      "value": "bone",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          151,
+          39
+        ],
+        [
+          222,
+          49
+        ]
+      ],
+      "value": "horny hoof",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          278,
+          27
+        ],
+        [
+          357,
+          42
+        ]
+      ],
+      "value": "horny hoof",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          33,
+          231
+        ],
+        [
+          159,
+          249
+        ]
+      ],
+      "value": "longitudinal section",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          346,
+          226
+        ],
+        [
+          443,
+          245
+        ]
+      ],
+      "value": "vertical view",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          49,
+          189
+        ],
+        [
+          53,
+          219
+        ],
+        [
+          87,
+          214
+        ],
+        [
+          120,
+          205
+        ],
+        [
+          152,
+          184
+        ],
+        [
+          176,
+          154
+        ],
+        [
+          202,
+          126
+        ],
+        [
+          215,
+          106
+        ],
+        [
+          236,
+          75
+        ],
+        [
+          238,
+          70
+        ],
+        [
+          217,
+          66
+        ],
+        [
+          189,
+          69
+        ],
+        [
+          143,
+          73
+        ],
+        [
+          104,
+          77
+        ],
+        [
+          81,
+          80
+        ],
+        [
+          74,
+          76
+        ],
+        [
+          56,
+          77
+        ],
+        [
+          29,
+          83
+        ],
+        [
+          32,
+          100
+        ],
+        [
+          35,
+          122
+        ],
+        [
+          37,
+          145
+        ],
+        [
+          48,
+          190
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          409,
+          32
+        ],
+        [
+          377,
+          35
+        ],
+        [
+          343,
+          60
+        ],
+        [
+          325,
+          92
+        ],
+        [
+          326,
+          150
+        ],
+        [
+          344,
+          203
+        ],
+        [
+          366,
+          214
+        ],
+        [
+          395,
+          212
+        ],
+        [
+          420,
+          216
+        ],
+        [
+          438,
+          208
+        ],
+        [
+          466,
+          153
+        ],
+        [
+          475,
+          94
+        ],
+        [
+          455,
+          51
+        ],
+        [
+          412,
+          30
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          99,
+          42
+        ],
+        [
+          104,
+          113
+        ],
+        [
+          113,
+          110
+        ],
+        [
+          111,
+          42
+        ],
+        [
+          100,
+          43
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          175,
+          49
+        ],
+        [
+          164,
+          83
+        ],
+        [
+          172,
+          84
+        ],
+        [
+          184,
+          54
+        ],
+        [
+          175,
+          51
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          324,
+          46
+        ],
+        [
+          349,
+          69
+        ],
+        [
+          354,
+          62
+        ],
+        [
+          329,
+          39
+        ],
+        [
+          325,
+          45
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T2+A2+B1",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B1",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B1",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "bone horny hoof horny hoof longitudinal section vertical view"
+  },
+  "questions": [
+    {
+      "question_text": "What is B in the diagram?",
+      "question_id": "3972.png-3",
+      "answers": [
+        "skin",
+        "bone",
+        "horny hoof",
+        "hair"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true,
+      "refers_to_entity": "T2"
+    },
+    {
+      "question_text": "What is E in the diagram?",
+      "question_id": "3972.png-1",
+      "answers": [
+        "skin",
+        "bone",
+        "horny hoof",
+        "hair"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true,
+      "refers_to_entity": "T0"
+    },
+    {
+      "question_text": "Which organ or part is horny sheath covering the toes or lower part of the foot of a mammal?",
+      "question_id": "3972.png-0",
+      "answers": [
+        "{}",
+        "{}",
+        "hoof",
+        "bone"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which part is found inside the horny hoof?",
+      "question_id": "3972.png-2",
+      "answers": [
+        "{}",
+        "hoof",
+        "bone",
+        "{}"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

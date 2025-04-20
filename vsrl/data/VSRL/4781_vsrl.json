@@ -1,0 +1,430 @@
+{
+  "image_id": "4781",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          45,
+          21
+        ],
+        [
+          201,
+          34
+        ]
+      ],
+      "value": "@jan van os.1994",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          69,
+          345
+        ],
+        [
+          255,
+          383
+        ]
+      ],
+      "value": "Staminate flower",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          321,
+          347
+        ],
+        [
+          489,
+          378
+        ]
+      ],
+      "value": "Pistillate flower",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          108,
+          326
+        ],
+        [
+          98,
+          305
+        ],
+        [
+          98,
+          300
+        ],
+        [
+          71,
+          281
+        ],
+        [
+          45,
+          240
+        ],
+        [
+          35,
+          189
+        ],
+        [
+          46,
+          151
+        ],
+        [
+          67,
+          130
+        ],
+        [
+          77,
+          152
+        ],
+        [
+          98,
+          133
+        ],
+        [
+          125,
+          117
+        ],
+        [
+          147,
+          121
+        ],
+        [
+          163,
+          139
+        ],
+        [
+          178,
+          158
+        ],
+        [
+          186,
+          134
+        ],
+        [
+          194,
+          120
+        ],
+        [
+          216,
+          136
+        ],
+        [
+          218,
+          161
+        ],
+        [
+          223,
+          210
+        ],
+        [
+          207,
+          250
+        ],
+        [
+          184,
+          279
+        ],
+        [
+          158,
+          300
+        ],
+        [
+          159,
+          328
+        ],
+        [
+          128,
+          336
+        ],
+        [
+          110,
+          328
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          377,
+          50
+        ],
+        [
+          368,
+          64
+        ],
+        [
+          345,
+          110
+        ],
+        [
+          336,
+          118
+        ],
+        [
+          331,
+          128
+        ],
+        [
+          327,
+          143
+        ],
+        [
+          319,
+          158
+        ],
+        [
+          309,
+          172
+        ],
+        [
+          297,
+          193
+        ],
+        [
+          288,
+          220
+        ],
+        [
+          288,
+          237
+        ],
+        [
+          291,
+          263
+        ],
+        [
+          297,
+          284
+        ],
+        [
+          307,
+          299
+        ],
+        [
+          325,
+          311
+        ],
+        [
+          341,
+          318
+        ],
+        [
+          359,
+          323
+        ],
+        [
+          371,
+          324
+        ],
+        [
+          382,
+          337
+        ],
+        [
+          394,
+          341
+        ],
+        [
+          417,
+          344
+        ],
+        [
+          436,
+          341
+        ],
+        [
+          440,
+          340
+        ],
+        [
+          443,
+          338
+        ],
+        [
+          451,
+          326
+        ],
+        [
+          487,
+          311
+        ],
+        [
+          509,
+          293
+        ],
+        [
+          526,
+          262
+        ],
+        [
+          526,
+          230
+        ],
+        [
+          521,
+          202
+        ],
+        [
+          507,
+          173
+        ],
+        [
+          471,
+          124
+        ],
+        [
+          463,
+          102
+        ],
+        [
+          451,
+          78
+        ],
+        [
+          443,
+          68
+        ],
+        [
+          441,
+          66
+        ],
+        [
+          439,
+          62
+        ],
+        [
+          437,
+          57
+        ],
+        [
+          430,
+          58
+        ],
+        [
+          421,
+          57
+        ],
+        [
+          411,
+          61
+        ],
+        [
+          405,
+          54
+        ],
+        [
+          397,
+          49
+        ],
+        [
+          393,
+          47
+        ],
+        [
+          387,
+          50
+        ],
+        [
+          381,
+          49
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "misc",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B1",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "B0": "whole",
+    "B1": "whole"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "@jan van os.1994 staminate flower pistillate flower"
+  },
+  "questions": [
+    {
+      "question_text": "How many flowers are shown?",
+      "question_id": "4781.png-0",
+      "answers": [
+        "1",
+        "3",
+        "2",
+        "4"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What object is shown in the diagram above?",
+      "question_id": "4781.png-1",
+      "answers": [
+        "None of the above",
+        "Human",
+        "Grasshopper",
+        "Flower"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which of these flowers has a pistil?",
+      "question_id": "4781.png-2",
+      "answers": [
+        "Neither",
+        "A",
+        "Both",
+        "B"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

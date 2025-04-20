@@ -1,0 +1,780 @@
+{
+  "image_id": "87",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          99,
+          443
+        ],
+        [
+          219,
+          518
+        ]
+      ],
+      "value": "Night",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          222,
+          437
+        ],
+        [
+          434,
+          578
+        ]
+      ],
+      "value": "Equator",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          443,
+          452
+        ],
+        [
+          527,
+          524
+        ]
+      ],
+      "value": "Day ",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          1144,
+          407
+        ],
+        [
+          1363,
+          530
+        ]
+      ],
+      "value": "Sun",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          419,
+          266
+        ],
+        [
+          464,
+          302
+        ],
+        [
+          491,
+          338
+        ],
+        [
+          530,
+          392
+        ],
+        [
+          539,
+          464
+        ],
+        [
+          533,
+          551
+        ],
+        [
+          494,
+          611
+        ],
+        [
+          437,
+          659
+        ],
+        [
+          359,
+          692
+        ],
+        [
+          284,
+          692
+        ],
+        [
+          198,
+          659
+        ],
+        [
+          153,
+          614
+        ],
+        [
+          126,
+          569
+        ],
+        [
+          105,
+          470
+        ],
+        [
+          126,
+          380
+        ],
+        [
+          171,
+          317
+        ],
+        [
+          231,
+          278
+        ],
+        [
+          305,
+          257
+        ],
+        [
+          362,
+          257
+        ],
+        [
+          416,
+          272
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          980,
+          338
+        ],
+        [
+          1030,
+          263
+        ],
+        [
+          1108,
+          225
+        ],
+        [
+          1190,
+          195
+        ],
+        [
+          1264,
+          201
+        ],
+        [
+          1378,
+          237
+        ],
+        [
+          1426,
+          287
+        ],
+        [
+          1483,
+          368
+        ],
+        [
+          1495,
+          422
+        ],
+        [
+          1499,
+          506
+        ],
+        [
+          1483,
+          581
+        ],
+        [
+          1432,
+          659
+        ],
+        [
+          1372,
+          710
+        ],
+        [
+          1306,
+          746
+        ],
+        [
+          1219,
+          764
+        ],
+        [
+          1132,
+          748
+        ],
+        [
+          1070,
+          716
+        ],
+        [
+          1010,
+          668
+        ],
+        [
+          968,
+          608
+        ],
+        [
+          950,
+          536
+        ],
+        [
+          944,
+          464
+        ],
+        [
+          958,
+          377
+        ],
+        [
+          982,
+          338
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          1046,
+          242
+        ],
+        [
+          536,
+          251
+        ],
+        [
+          530,
+          210
+        ],
+        [
+          458,
+          278
+        ],
+        [
+          518,
+          332
+        ],
+        [
+          524,
+          299
+        ],
+        [
+          1036,
+          293
+        ],
+        [
+          1036,
+          240
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          976,
+          314
+        ],
+        [
+          581,
+          323
+        ],
+        [
+          581,
+          290
+        ],
+        [
+          500,
+          344
+        ],
+        [
+          563,
+          389
+        ],
+        [
+          566,
+          356
+        ],
+        [
+          569,
+          356
+        ],
+        [
+          982,
+          353
+        ],
+        [
+          976,
+          314
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          950,
+          380
+        ],
+        [
+          599,
+          383
+        ],
+        [
+          605,
+          359
+        ],
+        [
+          542,
+          407
+        ],
+        [
+          596,
+          461
+        ],
+        [
+          599,
+          431
+        ],
+        [
+          946,
+          428
+        ],
+        [
+          946,
+          386
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          940,
+          458
+        ],
+        [
+          605,
+          464
+        ],
+        [
+          590,
+          428
+        ],
+        [
+          539,
+          488
+        ],
+        [
+          596,
+          536
+        ],
+        [
+          596,
+          500
+        ],
+        [
+          944,
+          497
+        ],
+        [
+          938,
+          467
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          946,
+          536
+        ],
+        [
+          584,
+          542
+        ],
+        [
+          581,
+          512
+        ],
+        [
+          527,
+          557
+        ],
+        [
+          584,
+          605
+        ],
+        [
+          584,
+          581
+        ],
+        [
+          956,
+          578
+        ],
+        [
+          950,
+          554
+        ],
+        [
+          940,
+          542
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          970,
+          599
+        ],
+        [
+          548,
+          602
+        ],
+        [
+          551,
+          572
+        ],
+        [
+          485,
+          629
+        ],
+        [
+          551,
+          683
+        ],
+        [
+          542,
+          641
+        ],
+        [
+          998,
+          647
+        ],
+        [
+          968,
+          605
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          1028,
+          674
+        ],
+        [
+          509,
+          668
+        ],
+        [
+          515,
+          641
+        ],
+        [
+          461,
+          689
+        ],
+        [
+          512,
+          742
+        ],
+        [
+          512,
+          710
+        ],
+        [
+          1070,
+          713
+        ],
+        [
+          1034,
+          674
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H4",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H5",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H6",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B1+A0+B0",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B0",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "B1+A1+B0",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "B1+A2+B0",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B0",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "B1+A3+B0",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B0",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "B1+A4+B0",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B0",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "B1+A5+B0",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B0",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "B1+A6+B0",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B0",
+      "connector": "A6",
+      "directional": true
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B1",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "night equator day  sun"
+  },
+  "questions": [
+    {
+      "question_text": "Letter D indicates what?",
+      "question_id": "87.png-3",
+      "answers": [
+        "Night",
+        "Equator",
+        "International Date Line",
+        "Day"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "What does label D indicate?",
+      "question_id": "87.png-4",
+      "answers": [
+        "Earth's equator",
+        "The tropic of Cancer",
+        "The tropic of Capricorn",
+        "Earth's axis"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is represented by A?",
+      "question_id": "87.png-5",
+      "answers": [
+        "Sun",
+        "Day",
+        "Equator",
+        "Night"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is the line across Earth called?",
+      "question_id": "87.png-2",
+      "answers": [
+        "day",
+        "night",
+        "sun",
+        "equator"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which letter shows the part of the Earth that is night?",
+      "question_id": "87.png-0",
+      "answers": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which side has the night?",
+      "question_id": "87.png-1",
+      "answers": [
+        "south",
+        "right",
+        "left",
+        "north"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

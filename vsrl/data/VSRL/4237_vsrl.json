@@ -1,0 +1,401 @@
+{
+  "image_id": "4237",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          728,
+          3
+        ],
+        [
+          1065,
+          47
+        ]
+      ],
+      "value": "Current Direction",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          12,
+          635
+        ],
+        [
+          453,
+          700
+        ]
+      ],
+      "value": "Kenneth A. Bevis \u00a9 2014",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          722,
+          675
+        ],
+        [
+          1070,
+          732
+        ]
+      ],
+      "value": "Current Direction",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          437,
+          168
+        ],
+        [
+          5,
+          510
+        ],
+        [
+          5,
+          608
+        ],
+        [
+          1020,
+          615
+        ],
+        [
+          1448,
+          287
+        ],
+        [
+          1450,
+          153
+        ],
+        [
+          1423,
+          145
+        ],
+        [
+          1405,
+          110
+        ],
+        [
+          1367,
+          108
+        ],
+        [
+          1335,
+          130
+        ],
+        [
+          1272,
+          165
+        ],
+        [
+          1205,
+          165
+        ],
+        [
+          1173,
+          147
+        ],
+        [
+          1148,
+          117
+        ],
+        [
+          1098,
+          122
+        ],
+        [
+          1035,
+          152
+        ],
+        [
+          985,
+          167
+        ],
+        [
+          947,
+          167
+        ],
+        [
+          918,
+          143
+        ],
+        [
+          888,
+          112
+        ],
+        [
+          832,
+          133
+        ],
+        [
+          777,
+          167
+        ],
+        [
+          702,
+          168
+        ],
+        [
+          668,
+          148
+        ],
+        [
+          638,
+          112
+        ],
+        [
+          585,
+          133
+        ],
+        [
+          500,
+          168
+        ],
+        [
+          440,
+          168
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          440,
+          833
+        ],
+        [
+          7,
+          1172
+        ],
+        [
+          5,
+          1285
+        ],
+        [
+          1055,
+          1290
+        ],
+        [
+          1497,
+          963
+        ],
+        [
+          1493,
+          830
+        ],
+        [
+          1412,
+          828
+        ],
+        [
+          1320,
+          788
+        ],
+        [
+          1273,
+          793
+        ],
+        [
+          1215,
+          830
+        ],
+        [
+          1128,
+          835
+        ],
+        [
+          1047,
+          823
+        ],
+        [
+          980,
+          790
+        ],
+        [
+          925,
+          795
+        ],
+        [
+          870,
+          820
+        ],
+        [
+          793,
+          838
+        ],
+        [
+          707,
+          820
+        ],
+        [
+          630,
+          793
+        ],
+        [
+          600,
+          787
+        ],
+        [
+          555,
+          810
+        ],
+        [
+          497,
+          828
+        ],
+        [
+          437,
+          835
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          1305,
+          72
+        ],
+        [
+          1252,
+          42
+        ],
+        [
+          1255,
+          63
+        ],
+        [
+          570,
+          63
+        ],
+        [
+          572,
+          82
+        ],
+        [
+          1255,
+          82
+        ],
+        [
+          1243,
+          103
+        ],
+        [
+          1308,
+          75
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          533,
+          745
+        ],
+        [
+          598,
+          785
+        ],
+        [
+          593,
+          762
+        ],
+        [
+          1253,
+          757
+        ],
+        [
+          1248,
+          775
+        ],
+        [
+          1305,
+          750
+        ],
+        [
+          1250,
+          718
+        ],
+        [
+          1253,
+          738
+        ],
+        [
+          593,
+          742
+        ],
+        [
+          603,
+          718
+        ],
+        [
+          533,
+          743
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+I0",
+      "type": "misc",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "current direction kenneth a. bevis \u00a9 2014 current direction"
+  },
+  "questions": []
+}

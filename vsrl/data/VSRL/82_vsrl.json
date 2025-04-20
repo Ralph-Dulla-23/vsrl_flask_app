@@ -1,0 +1,496 @@
+{
+  "image_id": "82",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          188,
+          12
+        ],
+        [
+          291,
+          42
+        ]
+      ],
+      "value": "North Pole",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          388,
+          22
+        ],
+        [
+          502,
+          50
+        ]
+      ],
+      "value": "Arctic Circle",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          508,
+          81
+        ],
+        [
+          662,
+          106
+        ]
+      ],
+      "value": "Tropic of Cancer",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          550,
+          154
+        ],
+        [
+          638,
+          182
+        ]
+      ],
+      "value": "Equator",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          568,
+          242
+        ],
+        [
+          748,
+          276
+        ]
+      ],
+      "value": "Tropic of capricorn",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          538,
+          382
+        ],
+        [
+          681,
+          406
+        ]
+      ],
+      "value": "Antarctic Circle",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          386,
+          474
+        ],
+        [
+          484,
+          498
+        ]
+      ],
+      "value": "South Pole",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          228
+        ],
+        [
+          90,
+          256
+        ]
+      ],
+      "value": "Sunlight",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          396,
+          44
+        ],
+        [
+          468,
+          75
+        ],
+        [
+          516,
+          120
+        ],
+        [
+          548,
+          166
+        ],
+        [
+          566,
+          216
+        ],
+        [
+          570,
+          273
+        ],
+        [
+          558,
+          330
+        ],
+        [
+          532,
+          387
+        ],
+        [
+          480,
+          441
+        ],
+        [
+          408,
+          476
+        ],
+        [
+          344,
+          486
+        ],
+        [
+          270,
+          472
+        ],
+        [
+          200,
+          432
+        ],
+        [
+          160,
+          384
+        ],
+        [
+          134,
+          328
+        ],
+        [
+          123,
+          242
+        ],
+        [
+          144,
+          168
+        ],
+        [
+          186,
+          110
+        ],
+        [
+          230,
+          74
+        ],
+        [
+          294,
+          45
+        ],
+        [
+          344,
+          38
+        ],
+        [
+          396,
+          44
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          3,
+          166
+        ],
+        [
+          4,
+          189
+        ],
+        [
+          150,
+          184
+        ],
+        [
+          144,
+          158
+        ],
+        [
+          3,
+          162
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          3,
+          249
+        ],
+        [
+          2,
+          278
+        ],
+        [
+          124,
+          272
+        ],
+        [
+          124,
+          250
+        ],
+        [
+          10,
+          249
+        ],
+        [
+          6,
+          249
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          3,
+          328
+        ],
+        [
+          8,
+          362
+        ],
+        [
+          152,
+          357
+        ],
+        [
+          146,
+          333
+        ],
+        [
+          2,
+          330
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          232,
+          3
+        ],
+        [
+          254,
+          0
+        ],
+        [
+          278,
+          58
+        ],
+        [
+          246,
+          69
+        ],
+        [
+          230,
+          4
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          417,
+          471
+        ],
+        [
+          442,
+          459
+        ],
+        [
+          474,
+          510
+        ],
+        [
+          456,
+          517
+        ],
+        [
+          418,
+          472
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T4",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T5",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T6",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T7+A0",
+      "type": "arrowDescriptor",
+      "source": "T7",
+      "target": "A0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector"
+  },
+  "educational_context": {
+    "subject": "physics",
+    "diagram_type": "labeled_illustration",
+    "text_content": "north pole arctic circle tropic of cancer equator tropic of capricorn antarctic circle south pole sunlight"
+  },
+  "questions": [
+    {
+      "question_text": "How many Poles are listed in this diagram?",
+      "question_id": "82.png-0",
+      "answers": [
+        "1",
+        "None",
+        "7",
+        "2"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What stage is shown at E?",
+      "question_id": "82.png-1",
+      "answers": [
+        "Tropic of Cancer",
+        "Equator",
+        "Tropic of Capricorn",
+        "North pole"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

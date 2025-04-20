@@ -1,0 +1,364 @@
+{
+  "image_id": "4007",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          203,
+          33
+        ],
+        [
+          247,
+          46
+        ]
+      ],
+      "value": "Crust",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          153,
+          89
+        ],
+        [
+          204,
+          111
+        ]
+      ],
+      "value": "Mantle",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          128,
+          161
+        ],
+        [
+          256,
+          215
+        ]
+      ],
+      "value": "1400 Miles Thick Liquid Iron & Nickel",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          17,
+          170
+        ],
+        [
+          97,
+          218
+        ]
+      ],
+      "value": "Outer Core",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          155,
+          249
+        ],
+        [
+          203,
+          284
+        ]
+      ],
+      "value": "Inner Core",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          217,
+          316
+        ],
+        [
+          319,
+          340
+        ]
+      ],
+      "value": "Diagram not drawn to scale",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          68,
+          37
+        ],
+        [
+          184,
+          340
+        ],
+        [
+          198,
+          340
+        ],
+        [
+          311,
+          38
+        ],
+        [
+          291,
+          26
+        ],
+        [
+          285,
+          19
+        ],
+        [
+          283,
+          12
+        ],
+        [
+          277,
+          11
+        ],
+        [
+          267,
+          20
+        ],
+        [
+          258,
+          5
+        ],
+        [
+          250,
+          7
+        ],
+        [
+          248,
+          4
+        ],
+        [
+          241,
+          3
+        ],
+        [
+          231,
+          19
+        ],
+        [
+          223,
+          23
+        ],
+        [
+          216,
+          26
+        ],
+        [
+          199,
+          25
+        ],
+        [
+          184,
+          27
+        ],
+        [
+          172,
+          35
+        ],
+        [
+          166,
+          34
+        ],
+        [
+          148,
+          33
+        ],
+        [
+          141,
+          35
+        ],
+        [
+          134,
+          32
+        ],
+        [
+          116,
+          32
+        ],
+        [
+          114,
+          35
+        ],
+        [
+          72,
+          36
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          23,
+          190
+        ],
+        [
+          115,
+          194
+        ],
+        [
+          117,
+          190
+        ],
+        [
+          128,
+          194
+        ],
+        [
+          130,
+          196
+        ],
+        [
+          117,
+          203
+        ],
+        [
+          113,
+          201
+        ],
+        [
+          24,
+          199
+        ],
+        [
+          22,
+          193
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T4",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+I0",
+      "type": "imageCaption",
+      "source": "T5",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "B0": "whole",
+    "A0": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "crust mantle 1400 miles thick liquid iron & nickel outer core inner core diagram not drawn to scale"
+  },
+  "questions": [
+    {
+      "question_text": "What is connected below the crust?",
+      "question_id": "4007.png-2",
+      "answers": [
+        "Outer Core",
+        "Mantle",
+        "More Crust",
+        "Inner Core"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is directly below the outer core?",
+      "question_id": "4007.png-1",
+      "answers": [
+        "Crust core",
+        "Inner core",
+        "hydrosphere",
+        "more outer core"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which label indicates the mantle?",
+      "question_id": "4007.png-0",
+      "answers": [
+        "F",
+        "D",
+        "A",
+        "C"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

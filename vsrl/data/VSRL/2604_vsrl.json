@@ -1,0 +1,628 @@
+{
+  "image_id": "2604",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          97,
+          195
+        ],
+        [
+          136,
+          222
+        ]
+      ],
+      "value": "North Pole",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          42,
+          98
+        ],
+        [
+          82,
+          134
+        ]
+      ],
+      "value": "high tide",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          129,
+          94
+        ],
+        [
+          203,
+          120
+        ]
+      ],
+      "value": "low tide",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          240,
+          49
+        ],
+        [
+          368,
+          109
+        ]
+      ],
+      "value": "Earth (seen from the North Pole)",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          332,
+          135
+        ],
+        [
+          442,
+          197
+        ]
+      ],
+      "value": "Moon's gravitational pull",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          487,
+          261
+        ],
+        [
+          536,
+          281
+        ]
+      ],
+      "value": "Moon",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          329,
+          266
+        ],
+        [
+          407,
+          286
+        ]
+      ],
+      "value": "high tide",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          133,
+          316
+        ],
+        [
+          203,
+          338
+        ]
+      ],
+      "value": "low tide",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          407,
+          22
+        ],
+        [
+          551,
+          46
+        ]
+      ],
+      "value": "Earth's Tides",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          25,
+          377
+        ],
+        [
+          477,
+          399
+        ]
+      ],
+      "value": "The Moon's pull of gravity creates high and low tides on Earth.",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          178,
+          125
+        ],
+        [
+          193,
+          129
+        ],
+        [
+          215,
+          137
+        ],
+        [
+          226,
+          148
+        ],
+        [
+          240,
+          162
+        ],
+        [
+          253,
+          186
+        ],
+        [
+          258,
+          212
+        ],
+        [
+          256,
+          242
+        ],
+        [
+          247,
+          263
+        ],
+        [
+          238,
+          277
+        ],
+        [
+          222,
+          291
+        ],
+        [
+          206,
+          299
+        ],
+        [
+          190,
+          305
+        ],
+        [
+          172,
+          309
+        ],
+        [
+          151,
+          308
+        ],
+        [
+          123,
+          298
+        ],
+        [
+          100,
+          278
+        ],
+        [
+          86,
+          259
+        ],
+        [
+          78,
+          227
+        ],
+        [
+          79,
+          196
+        ],
+        [
+          89,
+          168
+        ],
+        [
+          110,
+          147
+        ],
+        [
+          135,
+          132
+        ],
+        [
+          156,
+          127
+        ],
+        [
+          179,
+          125
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          482,
+          239
+        ],
+        [
+          499,
+          254
+        ],
+        [
+          519,
+          251
+        ],
+        [
+          537,
+          243
+        ],
+        [
+          548,
+          221
+        ],
+        [
+          546,
+          203
+        ],
+        [
+          534,
+          192
+        ],
+        [
+          516,
+          181
+        ],
+        [
+          496,
+          185
+        ],
+        [
+          483,
+          195
+        ],
+        [
+          476,
+          208
+        ],
+        [
+          475,
+          218
+        ],
+        [
+          479,
+          237
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          249,
+          99
+        ],
+        [
+          267,
+          106
+        ],
+        [
+          224,
+          159
+        ],
+        [
+          213,
+          146
+        ],
+        [
+          248,
+          100
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          295,
+          213
+        ],
+        [
+          295,
+          280
+        ],
+        [
+          335,
+          280
+        ],
+        [
+          333,
+          266
+        ],
+        [
+          315,
+          267
+        ],
+        [
+          315,
+          207
+        ],
+        [
+          296,
+          213
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          323,
+          199
+        ],
+        [
+          323,
+          240
+        ],
+        [
+          437,
+          235
+        ],
+        [
+          437,
+          250
+        ],
+        [
+          463,
+          216
+        ],
+        [
+          439,
+          186
+        ],
+        [
+          439,
+          196
+        ],
+        [
+          324,
+          197
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          33,
+          131
+        ],
+        [
+          45,
+          131
+        ],
+        [
+          45,
+          118
+        ],
+        [
+          23,
+          119
+        ],
+        [
+          24,
+          222
+        ],
+        [
+          41,
+          222
+        ],
+        [
+          39,
+          208
+        ],
+        [
+          33,
+          208
+        ],
+        [
+          35,
+          132
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A2+H0",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T5+B1",
+      "type": "intraObjectLabel",
+      "source": "T5",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T7+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T7",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T8+I0",
+      "type": "imageTitle",
+      "source": "T8",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T9+I0",
+      "type": "imageCaption",
+      "source": "T9",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "title",
+    "T9": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "north pole high tide low tide earth (seen from the north pole) moon's gravitational pull moon high tide low tide earth's tides the moon's pull of gravity creates high and low tides on earth."
+  },
+  "questions": [
+    {
+      "question_text": "What is shown at letters C and I?",
+      "question_id": "2604.png-1",
+      "answers": [
+        "Low tide",
+        "North Pole",
+        "Gravity",
+        "High tide"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "What tides are experienced at points B and E?",
+      "question_id": "2604.png-2",
+      "answers": [
+        "High tides",
+        "Low tides",
+        "Off tides",
+        "Spring tides"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "What tides are experienced at points C and I?",
+      "question_id": "2604.png-0",
+      "answers": [
+        "Summer tides",
+        "High tides",
+        "Low tides",
+        "Neap tides"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

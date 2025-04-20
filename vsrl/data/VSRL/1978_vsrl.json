@@ -1,0 +1,656 @@
+{
+  "image_id": "1978",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          66,
+          16
+        ],
+        [
+          119,
+          29
+        ]
+      ],
+      "value": "raccoon",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          198,
+          12
+        ],
+        [
+          234,
+          27
+        ]
+      ],
+      "value": "robin",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          294,
+          57
+        ],
+        [
+          371,
+          70
+        ]
+      ],
+      "value": "mosquitoes",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          143,
+          106
+        ],
+        [
+          215,
+          126
+        ]
+      ],
+      "value": "groundhog",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          1,
+          106
+        ],
+        [
+          34,
+          126
+        ]
+      ],
+      "value": "worm",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          333,
+          119
+        ],
+        [
+          408,
+          153
+        ]
+      ],
+      "value": "white-tailed deer",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          205,
+          187
+        ],
+        [
+          243,
+          202
+        ]
+      ],
+      "value": "alder",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          50,
+          191
+        ],
+        [
+          94,
+          206
+        ]
+      ],
+      "value": "clover",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          32,
+          109
+        ],
+        [
+          43,
+          128
+        ],
+        [
+          216,
+          38
+        ],
+        [
+          200,
+          16
+        ],
+        [
+          36,
+          109
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          24,
+          104
+        ],
+        [
+          85,
+          30
+        ],
+        [
+          102,
+          30
+        ],
+        [
+          105,
+          43
+        ],
+        [
+          36,
+          112
+        ],
+        [
+          21,
+          106
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          14,
+          129
+        ],
+        [
+          30,
+          119
+        ],
+        [
+          71,
+          183
+        ],
+        [
+          52,
+          196
+        ],
+        [
+          13,
+          133
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          307,
+          69
+        ],
+        [
+          337,
+          125
+        ],
+        [
+          358,
+          111
+        ],
+        [
+          327,
+          55
+        ],
+        [
+          310,
+          68
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          218,
+          118
+        ],
+        [
+          206,
+          100
+        ],
+        [
+          293,
+          56
+        ],
+        [
+          306,
+          75
+        ],
+        [
+          217,
+          121
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          236,
+          30
+        ],
+        [
+          240,
+          13
+        ],
+        [
+          325,
+          46
+        ],
+        [
+          310,
+          65
+        ],
+        [
+          236,
+          32
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          78,
+          179
+        ],
+        [
+          156,
+          114
+        ],
+        [
+          175,
+          136
+        ],
+        [
+          95,
+          197
+        ],
+        [
+          79,
+          178
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          346,
+          137
+        ],
+        [
+          332,
+          141
+        ],
+        [
+          246,
+          189
+        ],
+        [
+          248,
+          202
+        ],
+        [
+          265,
+          205
+        ],
+        [
+          352,
+          153
+        ],
+        [
+          342,
+          136
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H6",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H3",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H7",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H4",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H5",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H2",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H0",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H1",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A5+T2",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T2",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T3+A4+T2",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T2",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T4+A0+T1",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T1",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T4+A1+T0",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T0",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T5+A3+T2",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T2",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T6+A7+T5",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T5",
+      "connector": "A7",
+      "directional": true
+    },
+    {
+      "id": "T7+A2+T4",
+      "type": "interObjectLinkage",
+      "source": "T7",
+      "target": "T4",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T7+A6+T3",
+      "type": "interObjectLinkage",
+      "source": "T7",
+      "target": "T3",
+      "connector": "A6",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "raccoon robin mosquitoes groundhog worm white-tailed deer alder clover"
+  },
+  "questions": [
+    {
+      "question_text": "Clover is a food source for which organism in this food web?",
+      "question_id": "1978.png-5",
+      "answers": [
+        "Robin",
+        "Mosquitoes",
+        "Alder",
+        "Groundhog"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the diagram shown, which is the primary producer?",
+      "question_id": "1978.png-9",
+      "answers": [
+        "raccoon",
+        "groundhog",
+        "clover",
+        "worm"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the diagram shown, which organism consumes worms for a main food source?",
+      "question_id": "1978.png-3",
+      "answers": [
+        "groundhog",
+        "robin",
+        "raccon",
+        "mosquitoes"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the listed food chain, which was does the energy flow?",
+      "question_id": "1978.png-6",
+      "answers": [
+        "white-tailed deer to alder",
+        "worm to robin",
+        "robin to worm",
+        "groundhog to clover"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Name one of the producers in this food chain.",
+      "question_id": "1978.png-0",
+      "answers": [
+        "raccoon",
+        "eagle",
+        "mosquito",
+        "clover"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "The Alder is a food source for which organism",
+      "question_id": "1978.png-1",
+      "answers": [
+        "White-Tailed Deer",
+        "Mosquitoes",
+        "Racoon",
+        "Clover"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "The diagram below shows some of the organisms in a forest ecosystem. What will happen to racoon population if the worms are extinct?",
+      "question_id": "1978.png-10",
+      "answers": [
+        "Population will decrease",
+        "Population will remain the same",
+        "Population will increase",
+        "None of the above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "The diagram below shows some of the organisms in a forest ecosystem. Which among the below is a carnivore?",
+      "question_id": "1978.png-7",
+      "answers": [
+        "Racoon",
+        "worm",
+        "white-tailed deer",
+        "Mosquitoes"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What happens to racoons if worms decrease?",
+      "question_id": "1978.png-2",
+      "answers": [
+        "increase",
+        "nothing",
+        "decrease",
+        "none of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is a producer shown here?",
+      "question_id": "1978.png-4",
+      "answers": [
+        "raccoon",
+        "worm",
+        "clover",
+        "none of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What organism is a herbivore in the given food web?",
+      "question_id": "1978.png-8",
+      "answers": [
+        "White tailed deer",
+        "Robin",
+        "Raccoon",
+        "Clover"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

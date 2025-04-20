@@ -1,0 +1,558 @@
+{
+  "image_id": "416",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          18,
+          38
+        ],
+        [
+          90,
+          55
+        ]
+      ],
+      "value": "Small fish ",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          137,
+          8
+        ],
+        [
+          185,
+          29
+        ]
+      ],
+      "value": "Algae",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          326,
+          6
+        ],
+        [
+          389,
+          31
+        ]
+      ],
+      "value": "Tadpole",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          48,
+          91
+        ],
+        [
+          172,
+          110
+        ]
+      ],
+      "value": "Dragonfly nymph",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          216,
+          155
+        ],
+        [
+          342,
+          175
+        ]
+      ],
+      "value": "Water stick insect",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          68,
+          30
+        ],
+        [
+          74,
+          45
+        ],
+        [
+          136,
+          23
+        ],
+        [
+          129,
+          11
+        ],
+        [
+          70,
+          30
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          85,
+          96
+        ],
+        [
+          95,
+          91
+        ],
+        [
+          66,
+          54
+        ],
+        [
+          59,
+          60
+        ],
+        [
+          85,
+          96
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          49,
+          56
+        ],
+        [
+          24,
+          122
+        ],
+        [
+          198,
+          173
+        ],
+        [
+          201,
+          162
+        ],
+        [
+          37,
+          116
+        ],
+        [
+          37,
+          116
+        ],
+        [
+          59,
+          59
+        ],
+        [
+          51,
+          56
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          187,
+          14
+        ],
+        [
+          187,
+          28
+        ],
+        [
+          328,
+          26
+        ],
+        [
+          328,
+          26
+        ],
+        [
+          326,
+          15
+        ],
+        [
+          187,
+          15
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          175,
+          90
+        ],
+        [
+          180,
+          104
+        ],
+        [
+          340,
+          36
+        ],
+        [
+          334,
+          27
+        ],
+        [
+          334,
+          27
+        ],
+        [
+          175,
+          89
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          357,
+          29
+        ],
+        [
+          304,
+          154
+        ],
+        [
+          316,
+          158
+        ],
+        [
+          367,
+          34
+        ],
+        [
+          358,
+          31
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          123,
+          108
+        ],
+        [
+          117,
+          119
+        ],
+        [
+          213,
+          163
+        ],
+        [
+          213,
+          163
+        ],
+        [
+          219,
+          153
+        ],
+        [
+          125,
+          108
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H4",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H5",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H6",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A1+T3",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T3",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T0+A2+T4",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T4",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T1+A0+T0",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T0",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T1+A3+T2",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T2",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T2+A4+T3",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T3",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T2+A5+T4",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T4",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T3+A6+T4",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T4",
+      "connector": "A6",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "small fish  algae tadpole dragonfly nymph water stick insect"
+  },
+  "questions": [
+    {
+      "question_text": "Algae is classified as what?",
+      "question_id": "416.png-6",
+      "answers": [
+        "Decomposer",
+        "Producer",
+        "Consumer",
+        "None of the above"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the above food web diagram, describe relationship between algae and tadpole",
+      "question_id": "416.png-7",
+      "answers": [
+        "producer- consumer",
+        "producer- secondary consumer",
+        "producer - decomposer",
+        "decomposer- producer"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the above food web diagram, what happen to insect if all dragonfly nymphs dies",
+      "question_id": "416.png-3",
+      "answers": [
+        "decrease",
+        "increase",
+        "remains the same",
+        "NA"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Identify the producer in this food web.",
+      "question_id": "416.png-0",
+      "answers": [
+        "Algae",
+        "Small fish",
+        "Tadpole",
+        "None of the above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What does the water stick insect represent?",
+      "question_id": "416.png-5",
+      "answers": [
+        "producer",
+        "prey",
+        "decomposer",
+        "predator"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is an herbivore?",
+      "question_id": "416.png-8",
+      "answers": [
+        "tadpole",
+        "water stick insect",
+        "algae",
+        "dragonfly nymph"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is at the top of the food chain?",
+      "question_id": "416.png-1",
+      "answers": [
+        "nymph",
+        "water stick insect",
+        "algae",
+        "tadpole"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would happen to tadpoles if algae decrease?",
+      "question_id": "416.png-4",
+      "answers": [
+        "can't determine",
+        "decrease",
+        "stay the same",
+        "increase"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which organism is the primary producer in this food chain?",
+      "question_id": "416.png-9",
+      "answers": [
+        "Fish",
+        "Tadpole",
+        "Algae",
+        "Insect"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which organisms will be most directly affected by a decrease in the amount of algae?",
+      "question_id": "416.png-2",
+      "answers": [
+        "Water stick insect",
+        "Tadpole",
+        "Dragonfly",
+        "None of the above"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

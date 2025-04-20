@@ -1,0 +1,344 @@
+{
+  "image_id": "1712",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          476,
+          33
+        ],
+        [
+          594,
+          62
+        ]
+      ],
+      "value": "Fault Surface",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          78,
+          404
+        ],
+        [
+          154,
+          431
+        ]
+      ],
+      "value": "footwall",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          376,
+          446
+        ],
+        [
+          498,
+          475
+        ]
+      ],
+      "value": "Hanging wall",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          173,
+          545
+        ],
+        [
+          318,
+          604
+        ]
+      ],
+      "value": "Direction of Relative motion",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          59,
+          360
+        ],
+        [
+          215,
+          53
+        ],
+        [
+          310,
+          55
+        ],
+        [
+          346,
+          95
+        ],
+        [
+          750,
+          96
+        ],
+        [
+          755,
+          95
+        ],
+        [
+          756,
+          189
+        ],
+        [
+          660,
+          537
+        ],
+        [
+          363,
+          536
+        ],
+        [
+          288,
+          461
+        ],
+        [
+          71,
+          465
+        ],
+        [
+          62,
+          359
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          300,
+          52
+        ],
+        [
+          302,
+          77
+        ],
+        [
+          471,
+          79
+        ],
+        [
+          469,
+          54
+        ],
+        [
+          300,
+          54
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          206,
+          414
+        ],
+        [
+          196,
+          419
+        ],
+        [
+          194,
+          392
+        ],
+        [
+          194,
+          392
+        ],
+        [
+          218,
+          396
+        ],
+        [
+          213,
+          404
+        ],
+        [
+          262,
+          447
+        ],
+        [
+          256,
+          452
+        ],
+        [
+          209,
+          414
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          225,
+          406
+        ],
+        [
+          231,
+          399
+        ],
+        [
+          280,
+          441
+        ],
+        [
+          289,
+          431
+        ],
+        [
+          294,
+          463
+        ],
+        [
+          269,
+          457
+        ],
+        [
+          273,
+          448
+        ],
+        [
+          226,
+          407
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          227,
+          441
+        ],
+        [
+          239,
+          443
+        ],
+        [
+          242,
+          539
+        ],
+        [
+          227,
+          536
+        ],
+        [
+          228,
+          440
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H0",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "fault surface footwall hanging wall direction of relative motion"
+  },
+  "questions": [
+    {
+      "question_text": "What do the arrows show?",
+      "question_id": "1712.png-0",
+      "answers": [
+        "footwall",
+        "direction of relative motion",
+        "hanging wall",
+        "fault surface"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

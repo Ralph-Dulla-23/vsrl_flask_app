@@ -1,0 +1,330 @@
+{
+  "image_id": "685",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          42,
+          51
+        ],
+        [
+          72,
+          71
+        ]
+      ],
+      "value": "Sun",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          153,
+          102
+        ],
+        [
+          191,
+          119
+        ]
+      ],
+      "value": "Earth",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          363,
+          103
+        ],
+        [
+          399,
+          119
+        ]
+      ],
+      "value": "Moon",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          90,
+          100
+        ],
+        [
+          67,
+          109
+        ],
+        [
+          41,
+          108
+        ],
+        [
+          23,
+          99
+        ],
+        [
+          5,
+          74
+        ],
+        [
+          2,
+          56
+        ],
+        [
+          8,
+          38
+        ],
+        [
+          27,
+          13
+        ],
+        [
+          46,
+          7
+        ],
+        [
+          65,
+          6
+        ],
+        [
+          86,
+          11
+        ],
+        [
+          99,
+          24
+        ],
+        [
+          109,
+          44
+        ],
+        [
+          109,
+          56
+        ],
+        [
+          108,
+          77
+        ],
+        [
+          98,
+          92
+        ],
+        [
+          91,
+          99
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          172,
+          97
+        ],
+        [
+          159,
+          91
+        ],
+        [
+          145,
+          83
+        ],
+        [
+          137,
+          69
+        ],
+        [
+          137,
+          54
+        ],
+        [
+          143,
+          37
+        ],
+        [
+          156,
+          25
+        ],
+        [
+          174,
+          19
+        ],
+        [
+          192,
+          26
+        ],
+        [
+          203,
+          37
+        ],
+        [
+          209,
+          47
+        ],
+        [
+          211,
+          61
+        ],
+        [
+          203,
+          79
+        ],
+        [
+          186,
+          93
+        ],
+        [
+          177,
+          97
+        ],
+        [
+          173,
+          97
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          383,
+          64
+        ],
+        [
+          375,
+          62
+        ],
+        [
+          375,
+          54
+        ],
+        [
+          381,
+          51
+        ],
+        [
+          385,
+          51
+        ],
+        [
+          391,
+          56
+        ],
+        [
+          393,
+          64
+        ],
+        [
+          387,
+          65
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+B0",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B1",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B2",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "sun earth moon"
+  },
+  "questions": [
+    {
+      "question_text": "Which object has mean diameter is 3,475 kilometers (2,160 miles)?",
+      "question_id": "685.png-2",
+      "answers": [
+        "Earth",
+        "Moon",
+        "{}",
+        "Sun"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which object has the diameter of approximately 1,390,000 kilometers (864,000 miles)?",
+      "question_id": "685.png-3",
+      "answers": [
+        "Sun",
+        "Moon",
+        "{}",
+        "Earth"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "what label applies to b?",
+      "question_id": "685.png-1",
+      "answers": [
+        "sun",
+        "moon",
+        "sun",
+        "earth"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "what layer is between layer a and c?",
+      "question_id": "685.png-0",
+      "answers": [
+        "c",
+        "a",
+        "a",
+        "b"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    }
+  ]
+}

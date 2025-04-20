@@ -1,0 +1,476 @@
+{
+  "image_id": "427",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          164,
+          21
+        ],
+        [
+          265,
+          46
+        ]
+      ],
+      "value": "Electromagnet",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          415,
+          55
+        ],
+        [
+          438,
+          78
+        ]
+      ],
+      "value": "A",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          271,
+          127
+        ],
+        [
+          326,
+          150
+        ]
+      ],
+      "value": "USed in",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          61,
+          116
+        ],
+        [
+          165,
+          149
+        ]
+      ],
+      "value": "Determines the strength of",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          62,
+          227
+        ],
+        [
+          93,
+          248
+        ]
+      ],
+      "value": "B",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          211,
+          231
+        ],
+        [
+          283,
+          248
+        ]
+      ],
+      "value": "generates",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          343,
+          233
+        ],
+        [
+          415,
+          265
+        ]
+      ],
+      "value": "Electric Generator",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          69,
+          205
+        ],
+        [
+          90,
+          153
+        ],
+        [
+          101,
+          153
+        ],
+        [
+          80,
+          205
+        ],
+        [
+          73,
+          205
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          108,
+          104
+        ],
+        [
+          126,
+          72
+        ],
+        [
+          105,
+          86
+        ],
+        [
+          136,
+          51
+        ],
+        [
+          143,
+          89
+        ],
+        [
+          133,
+          76
+        ],
+        [
+          122,
+          107
+        ],
+        [
+          101,
+          104
+        ],
+        [
+          108,
+          104
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          273,
+          58
+        ],
+        [
+          279,
+          114
+        ],
+        [
+          294,
+          117
+        ],
+        [
+          290,
+          48
+        ],
+        [
+          273,
+          58
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          350,
+          135
+        ],
+        [
+          398,
+          89
+        ],
+        [
+          405,
+          100
+        ],
+        [
+          357,
+          149
+        ],
+        [
+          353,
+          139
+        ],
+        [
+          350,
+          132
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          328,
+          167
+        ],
+        [
+          342,
+          163
+        ],
+        [
+          353,
+          226
+        ],
+        [
+          336,
+          226
+        ],
+        [
+          332,
+          167
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          308,
+          228
+        ],
+        [
+          311,
+          242
+        ],
+        [
+          297,
+          242
+        ],
+        [
+          297,
+          228
+        ],
+        [
+          311,
+          228
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          192,
+          228
+        ],
+        [
+          168,
+          231
+        ],
+        [
+          181,
+          225
+        ],
+        [
+          181,
+          214
+        ],
+        [
+          147,
+          242
+        ],
+        [
+          171,
+          256
+        ],
+        [
+          171,
+          242
+        ],
+        [
+          195,
+          242
+        ],
+        [
+          195,
+          221
+        ],
+        [
+          192,
+          235
+        ],
+        [
+          192,
+          225
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H1",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H2",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H3",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H4",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A2+T2",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T2",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T2+A3+T1",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T1",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T2+A4+T6",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T6",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T3+A1+T0",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T0",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T4+A0+T3",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T3",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T5+A6+T4",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T4",
+      "connector": "A6",
+      "directional": true
+    },
+    {
+      "id": "T6+A5+T5",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T5",
+      "connector": "A5",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector"
+  },
+  "educational_context": {
+    "subject": "physics",
+    "diagram_type": "flow_diagram",
+    "text_content": "electromagnet a used in determines the strength of b generates electric generator"
+  }
+}

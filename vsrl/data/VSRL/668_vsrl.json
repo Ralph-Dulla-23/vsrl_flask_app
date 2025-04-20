@@ -1,0 +1,580 @@
+{
+  "image_id": "668",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          139,
+          51
+        ],
+        [
+          238,
+          84
+        ]
+      ],
+      "value": "Crater",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          90,
+          233
+        ],
+        [
+          162,
+          264
+        ]
+      ],
+      "value": "Lava",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          59,
+          647
+        ],
+        [
+          166,
+          680
+        ]
+      ],
+      "value": "Mantle",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          360,
+          680
+        ],
+        [
+          627,
+          719
+        ]
+      ],
+      "value": "Magma Chamber",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          758,
+          561
+        ],
+        [
+          842,
+          596
+        ]
+      ],
+      "value": "Crust",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          422,
+          240
+        ],
+        [
+          496,
+          305
+        ]
+      ],
+      "value": "Main Vent",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          631,
+          291
+        ],
+        [
+          682,
+          336
+        ]
+      ],
+      "value": "Side Vent",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          778,
+          80
+        ],
+        [
+          975,
+          113
+        ]
+      ],
+      "value": "Smoke and Ash",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          1023,
+          526
+        ],
+        [
+          1023,
+          770
+        ],
+        [
+          0,
+          770
+        ],
+        [
+          2,
+          516
+        ],
+        [
+          182,
+          313
+        ],
+        [
+          236,
+          233
+        ],
+        [
+          279,
+          152
+        ],
+        [
+          311,
+          88
+        ],
+        [
+          342,
+          70
+        ],
+        [
+          328,
+          47
+        ],
+        [
+          285,
+          33
+        ],
+        [
+          227,
+          25
+        ],
+        [
+          213,
+          10
+        ],
+        [
+          252,
+          6
+        ],
+        [
+          297,
+          4
+        ],
+        [
+          387,
+          2
+        ],
+        [
+          403,
+          14
+        ],
+        [
+          436,
+          6
+        ],
+        [
+          449,
+          18
+        ],
+        [
+          502,
+          6
+        ],
+        [
+          567,
+          2
+        ],
+        [
+          596,
+          6
+        ],
+        [
+          621,
+          16
+        ],
+        [
+          657,
+          16
+        ],
+        [
+          676,
+          27
+        ],
+        [
+          711,
+          29
+        ],
+        [
+          711,
+          78
+        ],
+        [
+          686,
+          66
+        ],
+        [
+          670,
+          59
+        ],
+        [
+          629,
+          43
+        ],
+        [
+          614,
+          43
+        ],
+        [
+          594,
+          37
+        ],
+        [
+          612,
+          66
+        ],
+        [
+          629,
+          84
+        ],
+        [
+          641,
+          115
+        ],
+        [
+          690,
+          150
+        ],
+        [
+          735,
+          168
+        ],
+        [
+          772,
+          172
+        ],
+        [
+          809,
+          205
+        ],
+        [
+          817,
+          250
+        ],
+        [
+          868,
+          291
+        ],
+        [
+          915,
+          352
+        ],
+        [
+          973,
+          440
+        ],
+        [
+          1004,
+          483
+        ],
+        [
+          1023,
+          522
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          236,
+          68
+        ],
+        [
+          403,
+          102
+        ],
+        [
+          408,
+          115
+        ],
+        [
+          449,
+          109
+        ],
+        [
+          416,
+          78
+        ],
+        [
+          408,
+          88
+        ],
+        [
+          233,
+          57
+        ],
+        [
+          229,
+          66
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          164,
+          254
+        ],
+        [
+          225,
+          268
+        ],
+        [
+          225,
+          279
+        ],
+        [
+          262,
+          264
+        ],
+        [
+          231,
+          238
+        ],
+        [
+          221,
+          246
+        ],
+        [
+          162,
+          244
+        ],
+        [
+          162,
+          250
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          692,
+          51
+        ],
+        [
+          702,
+          82
+        ],
+        [
+          711,
+          74
+        ],
+        [
+          752,
+          96
+        ],
+        [
+          750,
+          84
+        ],
+        [
+          723,
+          66
+        ],
+        [
+          727,
+          55
+        ],
+        [
+          700,
+          53
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T4",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T5",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T6",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T7+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "crater lava mantle magma chamber crust main vent side vent smoke and ash"
+  },
+  "questions": [
+    {
+      "question_text": "What is the region that represents the mantle?",
+      "question_id": "668.png-1",
+      "answers": [
+        "f",
+        "d",
+        "b",
+        "a"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which label is pointing to the Crust?",
+      "question_id": "668.png-0",
+      "answers": [
+        "d",
+        "b",
+        "a",
+        "c"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    }
+  ]
+}

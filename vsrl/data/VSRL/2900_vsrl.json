@@ -1,0 +1,556 @@
+{
+  "image_id": "2900",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          207,
+          94
+        ],
+        [
+          251,
+          112
+        ]
+      ],
+      "value": "cancer",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          144,
+          123
+        ],
+        [
+          206,
+          156
+        ]
+      ],
+      "value": "lobe removed",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          28,
+          246
+        ],
+        [
+          154,
+          301
+        ]
+      ],
+      "value": "right upper lobe containing tumor and lymph nodes",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          211,
+          351
+        ],
+        [
+          277,
+          370
+        ]
+      ],
+      "value": "right lung",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          392,
+          353
+        ],
+        [
+          456,
+          369
+        ]
+      ],
+      "value": "left lung",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          366,
+          379
+        ],
+        [
+          491,
+          395
+        ]
+      ],
+      "value": "2009 medicalartstudio.com",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          110,
+          27
+        ],
+        [
+          253,
+          49
+        ]
+      ],
+      "value": "right upper lobectomy",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          387,
+          45
+        ],
+        [
+          468,
+          84
+        ]
+      ],
+      "value": "Normal Lymph Nodes",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          141,
+          112
+        ],
+        [
+          142,
+          151
+        ],
+        [
+          136,
+          164
+        ],
+        [
+          148,
+          201
+        ],
+        [
+          146,
+          231
+        ],
+        [
+          104,
+          244
+        ],
+        [
+          51,
+          242
+        ],
+        [
+          27,
+          222
+        ],
+        [
+          7,
+          199
+        ],
+        [
+          34,
+          148
+        ],
+        [
+          65,
+          102
+        ],
+        [
+          113,
+          82
+        ],
+        [
+          129,
+          92
+        ],
+        [
+          141,
+          112
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          227,
+          122
+        ],
+        [
+          207,
+          170
+        ],
+        [
+          185,
+          224
+        ],
+        [
+          179,
+          282
+        ],
+        [
+          184,
+          334
+        ],
+        [
+          187,
+          354
+        ],
+        [
+          215,
+          359
+        ],
+        [
+          264,
+          364
+        ],
+        [
+          305,
+          346
+        ],
+        [
+          329,
+          313
+        ],
+        [
+          331,
+          269
+        ],
+        [
+          332,
+          229
+        ],
+        [
+          332,
+          196
+        ],
+        [
+          342,
+          195
+        ],
+        [
+          342,
+          246
+        ],
+        [
+          348,
+          306
+        ],
+        [
+          374,
+          345
+        ],
+        [
+          424,
+          358
+        ],
+        [
+          475,
+          354
+        ],
+        [
+          498,
+          330
+        ],
+        [
+          493,
+          254
+        ],
+        [
+          485,
+          207
+        ],
+        [
+          455,
+          134
+        ],
+        [
+          418,
+          96
+        ],
+        [
+          367,
+          80
+        ],
+        [
+          354,
+          78
+        ],
+        [
+          362,
+          55
+        ],
+        [
+          372,
+          8
+        ],
+        [
+          336,
+          5
+        ],
+        [
+          311,
+          5
+        ],
+        [
+          303,
+          20
+        ],
+        [
+          311,
+          53
+        ],
+        [
+          317,
+          86
+        ],
+        [
+          301,
+          88
+        ],
+        [
+          266,
+          87
+        ],
+        [
+          227,
+          123
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          214,
+          107
+        ],
+        [
+          236,
+          106
+        ],
+        [
+          247,
+          168
+        ],
+        [
+          231,
+          173
+        ],
+        [
+          214,
+          109
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          337,
+          66
+        ],
+        [
+          340,
+          85
+        ],
+        [
+          394,
+          70
+        ],
+        [
+          390,
+          58
+        ],
+        [
+          338,
+          68
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          141,
+          158
+        ],
+        [
+          142,
+          175
+        ],
+        [
+          200,
+          178
+        ],
+        [
+          200,
+          162
+        ],
+        [
+          144,
+          159
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A2+H0",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+B1",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B1",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B1",
+      "type": "intraObjectRegionLabel",
+      "source": "T3",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B1",
+      "type": "intraObjectRegionLabel",
+      "source": "T4",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+I0",
+      "type": "misc",
+      "source": "T5",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+I0",
+      "type": "imageTitle",
+      "source": "T6",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T7+A1+B1",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B1",
+      "connector": "A1",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "title",
+    "T7": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "cancer lobe removed right upper lobe containing tumor and lymph nodes right lung left lung 2009 medicalartstudio.com right upper lobectomy normal lymph nodes"
+  },
+  "questions": [
+    {
+      "question_text": "Which is represented by the label B?",
+      "question_id": "2900.png-1",
+      "answers": [
+        "Right Lung",
+        "Lobe Removed",
+        "Normal  Lymph Nodes",
+        "Left Lung"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which label is pointed to Cancer in the above diagram?",
+      "question_id": "2900.png-0",
+      "answers": [
+        "B",
+        "H",
+        "C",
+        "G"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}

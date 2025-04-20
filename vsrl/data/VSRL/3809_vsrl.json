@@ -1,0 +1,426 @@
+{
+  "image_id": "3809",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          145,
+          63
+        ],
+        [
+          196,
+          84
+        ]
+      ],
+      "value": "HEAD",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          148,
+          103
+        ],
+        [
+          216,
+          121
+        ]
+      ],
+      "value": "THORAX",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          143,
+          158
+        ],
+        [
+          235,
+          182
+        ]
+      ],
+      "value": "ABDOMEN",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          54,
+          190
+        ],
+        [
+          28,
+          218
+        ],
+        [
+          22,
+          207
+        ],
+        [
+          33,
+          175
+        ],
+        [
+          35,
+          161
+        ],
+        [
+          45,
+          137
+        ],
+        [
+          44,
+          128
+        ],
+        [
+          30,
+          153
+        ],
+        [
+          13,
+          168
+        ],
+        [
+          0,
+          162
+        ],
+        [
+          16,
+          133
+        ],
+        [
+          35,
+          97
+        ],
+        [
+          59,
+          115
+        ],
+        [
+          58,
+          107
+        ],
+        [
+          42,
+          81
+        ],
+        [
+          46,
+          64
+        ],
+        [
+          23,
+          45
+        ],
+        [
+          30,
+          28
+        ],
+        [
+          48,
+          38
+        ],
+        [
+          68,
+          17
+        ],
+        [
+          71,
+          47
+        ],
+        [
+          75,
+          56
+        ],
+        [
+          87,
+          50
+        ],
+        [
+          86,
+          33
+        ],
+        [
+          94,
+          1
+        ],
+        [
+          106,
+          35
+        ],
+        [
+          120,
+          24
+        ],
+        [
+          136,
+          39
+        ],
+        [
+          111,
+          94
+        ],
+        [
+          135,
+          129
+        ],
+        [
+          154,
+          153
+        ],
+        [
+          148,
+          171
+        ],
+        [
+          117,
+          138
+        ],
+        [
+          119,
+          157
+        ],
+        [
+          119,
+          174
+        ],
+        [
+          137,
+          201
+        ],
+        [
+          137,
+          213
+        ],
+        [
+          120,
+          214
+        ],
+        [
+          105,
+          192
+        ],
+        [
+          84,
+          211
+        ],
+        [
+          68,
+          215
+        ],
+        [
+          57,
+          193
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          76,
+          59
+        ],
+        [
+          76,
+          68
+        ],
+        [
+          221,
+          67
+        ],
+        [
+          221,
+          57
+        ],
+        [
+          78,
+          58
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          76,
+          82
+        ],
+        [
+          77,
+          93
+        ],
+        [
+          222,
+          93
+        ],
+        [
+          223,
+          84
+        ],
+        [
+          76,
+          83
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          82,
+          137
+        ],
+        [
+          223,
+          136
+        ],
+        [
+          222,
+          127
+        ],
+        [
+          82,
+          129
+        ],
+        [
+          83,
+          136
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          81,
+          198
+        ],
+        [
+          222,
+          197
+        ],
+        [
+          222,
+          207
+        ],
+        [
+          78,
+          209
+        ],
+        [
+          79,
+          199
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T0+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T1+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "head thorax abdomen"
+  },
+  "questions": [
+    {
+      "question_text": "Which Organ does B represents ?",
+      "question_id": "3809.png-0",
+      "answers": [
+        "Thorax",
+        "Head",
+        "abdomen",
+        "stomach"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "how many parts are present in the above picture?",
+      "question_id": "3809.png-1",
+      "answers": [
+        "2",
+        "5",
+        "3",
+        "6"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "what is the center part if the above figure?",
+      "question_id": "3809.png-2",
+      "answers": [
+        "head",
+        "abdomen",
+        "thorex",
+        "leg"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

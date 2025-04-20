@@ -1,0 +1,564 @@
+{
+  "image_id": "4868",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          130,
+          18
+        ],
+        [
+          199,
+          33
+        ]
+      ],
+      "value": "sea level",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          289,
+          28
+        ],
+        [
+          407,
+          48
+        ]
+      ],
+      "value": "continental crust",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T10": {
+      "id": "T10",
+      "type": "text",
+      "bbox": [
+        [
+          26,
+          180
+        ],
+        [
+          155,
+          210
+        ]
+      ],
+      "value": "mantle (asthenosphere)",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T11": {
+      "id": "T11",
+      "type": "text",
+      "bbox": [
+        [
+          6,
+          234
+        ],
+        [
+          422,
+          272
+        ]
+      ],
+      "value": "magma is generated at subduction zones where dense oceanic plates are pushed under lighter continental plates.",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          247,
+          65
+        ],
+        [
+          304,
+          81
+        ]
+      ],
+      "value": "volcano",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          202,
+          125
+        ],
+        [
+          275,
+          155
+        ]
+      ],
+      "value": "magma ascension",
+      "replacementText": "L",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          276,
+          116
+        ],
+        [
+          366,
+          147
+        ]
+      ],
+      "value": "mantle (lithosphere)",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          248,
+          172
+        ],
+        [
+          328,
+          205
+        ]
+      ],
+      "value": "magma generation",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          126,
+          139
+        ],
+        [
+          165,
+          157
+        ]
+      ],
+      "value": "plate",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          28,
+          93
+        ],
+        [
+          122,
+          106
+        ]
+      ],
+      "value": "oceanic crust",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          118,
+          71
+        ],
+        [
+          165,
+          89
+        ]
+      ],
+      "value": "trench",
+      "replacementText": "K",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          10,
+          127
+        ],
+        [
+          68,
+          146
+        ]
+      ],
+      "value": "oceanic",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          9,
+          232
+        ],
+        [
+          81,
+          230
+        ],
+        [
+          158,
+          228
+        ],
+        [
+          275,
+          230
+        ],
+        [
+          371,
+          227
+        ],
+        [
+          429,
+          124
+        ],
+        [
+          425,
+          23
+        ],
+        [
+          360,
+          29
+        ],
+        [
+          311,
+          29
+        ],
+        [
+          299,
+          23
+        ],
+        [
+          286,
+          25
+        ],
+        [
+          274,
+          19
+        ],
+        [
+          226,
+          32
+        ],
+        [
+          114,
+          30
+        ],
+        [
+          6,
+          105
+        ],
+        [
+          10,
+          232
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          182,
+          186
+        ],
+        [
+          192,
+          175
+        ],
+        [
+          214,
+          194
+        ],
+        [
+          222,
+          193
+        ],
+        [
+          228,
+          215
+        ],
+        [
+          201,
+          215
+        ],
+        [
+          207,
+          206
+        ],
+        [
+          180,
+          187
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          101,
+          152
+        ],
+        [
+          123,
+          140
+        ],
+        [
+          99,
+          123
+        ],
+        [
+          99,
+          131
+        ],
+        [
+          69,
+          131
+        ],
+        [
+          69,
+          145
+        ],
+        [
+          99,
+          147
+        ],
+        [
+          100,
+          150
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          137,
+          88
+        ],
+        [
+          151,
+          115
+        ],
+        [
+          142,
+          117
+        ],
+        [
+          129,
+          90
+        ],
+        [
+          135,
+          87
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          87,
+          102
+        ],
+        [
+          101,
+          119
+        ],
+        [
+          106,
+          115
+        ],
+        [
+          93,
+          101
+        ],
+        [
+          88,
+          101
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T10+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T10",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T11+I0",
+      "type": "imageCaption",
+      "source": "T11",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T4",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T5",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T6",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T7+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T8+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T8",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T9+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T9",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T10": "part_label",
+    "T11": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "physics",
+    "diagram_type": "labeled_illustration",
+    "text_content": "sea level continental crust mantle (asthenosphere) magma is generated at subduction zones where dense oceanic plates are pushed under lighter continental plates. volcano magma ascension mantle (lithosphere) magma generation plate oceanic crust trench oceanic"
+  },
+  "questions": [
+    {
+      "question_text": "What does the letter B represent?",
+      "question_id": "4868.png-0",
+      "answers": [
+        "The Continental Crust",
+        "The Sea Level",
+        "A Volcano",
+        "A Trench"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}

@@ -1,0 +1,746 @@
+{
+  "image_id": "4345",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          14,
+          22
+        ],
+        [
+          129,
+          43
+        ]
+      ],
+      "value": "Types of Fruit",
+      "replacementText": "K",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          56,
+          63
+        ],
+        [
+          110,
+          98
+        ]
+      ],
+      "value": "Drupe (Peach)",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T10": {
+      "id": "T10",
+      "type": "text",
+      "bbox": [
+        [
+          142,
+          202
+        ],
+        [
+          172,
+          213
+        ]
+      ],
+      "value": "seed",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          266,
+          60
+        ],
+        [
+          331,
+          100
+        ]
+      ],
+      "value": "Berry (tomato)",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          440,
+          60
+        ],
+        [
+          522,
+          119
+        ]
+      ],
+      "value": "Aggregate Fruit",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          356,
+          117
+        ],
+        [
+          390,
+          132
+        ]
+      ],
+      "value": "seeds",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          356,
+          139
+        ],
+        [
+          396,
+          154
+        ]
+      ],
+      "value": "locules",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          357,
+          166
+        ],
+        [
+          402,
+          180
+        ]
+      ],
+      "value": "pericarp",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          142,
+          118
+        ],
+        [
+          187,
+          131
+        ]
+      ],
+      "value": "exocarp",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          143,
+          141
+        ],
+        [
+          196,
+          155
+        ]
+      ],
+      "value": "mesocarp",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          142,
+          167
+        ],
+        [
+          194,
+          189
+        ]
+      ],
+      "value": "endocarp (stone)",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          27,
+          136
+        ],
+        [
+          55,
+          123
+        ],
+        [
+          98,
+          122
+        ],
+        [
+          121,
+          134
+        ],
+        [
+          132,
+          160
+        ],
+        [
+          130,
+          195
+        ],
+        [
+          110,
+          212
+        ],
+        [
+          82,
+          225
+        ],
+        [
+          74,
+          222
+        ],
+        [
+          46,
+          212
+        ],
+        [
+          26,
+          186
+        ],
+        [
+          24,
+          161
+        ],
+        [
+          26,
+          136
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          286,
+          221
+        ],
+        [
+          271,
+          210
+        ],
+        [
+          257,
+          180
+        ],
+        [
+          267,
+          148
+        ],
+        [
+          299,
+          135
+        ],
+        [
+          323,
+          143
+        ],
+        [
+          341,
+          168
+        ],
+        [
+          340,
+          191
+        ],
+        [
+          331,
+          209
+        ],
+        [
+          313,
+          222
+        ],
+        [
+          286,
+          219
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          481,
+          202
+        ],
+        [
+          465,
+          199
+        ],
+        [
+          459,
+          175
+        ],
+        [
+          459,
+          158
+        ],
+        [
+          461,
+          149
+        ],
+        [
+          467,
+          134
+        ],
+        [
+          472,
+          133
+        ],
+        [
+          475,
+          134
+        ],
+        [
+          481,
+          142
+        ],
+        [
+          489,
+          137
+        ],
+        [
+          494,
+          144
+        ],
+        [
+          497,
+          147
+        ],
+        [
+          502,
+          160
+        ],
+        [
+          503,
+          172
+        ],
+        [
+          503,
+          181
+        ],
+        [
+          502,
+          189
+        ],
+        [
+          498,
+          195
+        ],
+        [
+          490,
+          202
+        ],
+        [
+          484,
+          204
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          331,
+          167
+        ],
+        [
+          333,
+          180
+        ],
+        [
+          355,
+          180
+        ],
+        [
+          355,
+          171
+        ],
+        [
+          330,
+          167
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          315,
+          145
+        ],
+        [
+          316,
+          154
+        ],
+        [
+          357,
+          155
+        ],
+        [
+          355,
+          144
+        ],
+        [
+          319,
+          146
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          298,
+          143
+        ],
+        [
+          312,
+          152
+        ],
+        [
+          335,
+          132
+        ],
+        [
+          360,
+          130
+        ],
+        [
+          358,
+          122
+        ],
+        [
+          332,
+          121
+        ],
+        [
+          327,
+          121
+        ],
+        [
+          302,
+          143
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          102,
+          119
+        ],
+        [
+          105,
+          132
+        ],
+        [
+          144,
+          132
+        ],
+        [
+          142,
+          122
+        ],
+        [
+          104,
+          120
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          123,
+          150
+        ],
+        [
+          123,
+          155
+        ],
+        [
+          147,
+          154
+        ],
+        [
+          142,
+          147
+        ],
+        [
+          126,
+          148
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          92,
+          170
+        ],
+        [
+          93,
+          175
+        ],
+        [
+          92,
+          177
+        ],
+        [
+          142,
+          178
+        ],
+        [
+          142,
+          171
+        ],
+        [
+          95,
+          167
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          87,
+          183
+        ],
+        [
+          86,
+          189
+        ],
+        [
+          115,
+          214
+        ],
+        [
+          143,
+          214
+        ],
+        [
+          143,
+          209
+        ],
+        [
+          124,
+          205
+        ],
+        [
+          123,
+          205
+        ],
+        [
+          91,
+          183
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T10+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T10",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T2+B1",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B2",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+A2+B1",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B1",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T5+A1+B1",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B1",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T6+A0+B1",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B1",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T7+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T8+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T8",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T9+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T9",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T10": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "types of fruit drupe (peach) seed berry (tomato) aggregate fruit seeds locules pericarp exocarp mesocarp endocarp (stone)"
+  },
+  "questions": [
+    {
+      "question_text": "What is the fleshy layer of the fruit wall called?",
+      "question_id": "4345.png-1",
+      "answers": [
+        "Locule",
+        "Exocarp",
+        "Stone",
+        "Mesocarp"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which of the above is a Drupe?",
+      "question_id": "4345.png-0",
+      "answers": [
+        "Raspberry",
+        "Seed",
+        "Tomato",
+        "Peach"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    }
+  ]
+}

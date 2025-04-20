@@ -1,0 +1,662 @@
+{
+  "image_id": "2103",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          399,
+          21
+        ],
+        [
+          416,
+          33
+        ]
+      ],
+      "value": "7",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          148,
+          80
+        ],
+        [
+          224,
+          97
+        ]
+      ],
+      "value": "Caterpillar",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          172,
+          140
+        ],
+        [
+          192,
+          158
+        ]
+      ],
+      "value": "w",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          322,
+          141
+        ],
+        [
+          338,
+          156
+        ]
+      ],
+      "value": "x",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          22,
+          82
+        ],
+        [
+          63,
+          98
+        ]
+      ],
+      "value": "Plant",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          158,
+          19
+        ],
+        [
+          209,
+          34
+        ]
+      ],
+      "value": "Aphid",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          288,
+          19
+        ],
+        [
+          304,
+          32
+        ]
+      ],
+      "value": "v",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          227,
+          19
+        ],
+        [
+          261,
+          21
+        ],
+        [
+          261,
+          32
+        ],
+        [
+          226,
+          34
+        ],
+        [
+          226,
+          21
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          406,
+          36
+        ],
+        [
+          416,
+          37
+        ],
+        [
+          413,
+          44
+        ],
+        [
+          348,
+          134
+        ],
+        [
+          334,
+          135
+        ],
+        [
+          333,
+          134
+        ],
+        [
+          340,
+          123
+        ],
+        [
+          404,
+          39
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          230,
+          91
+        ],
+        [
+          391,
+          44
+        ],
+        [
+          388,
+          38
+        ],
+        [
+          378,
+          38
+        ],
+        [
+          228,
+          83
+        ],
+        [
+          228,
+          88
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          334,
+          35
+        ],
+        [
+          335,
+          20
+        ],
+        [
+          367,
+          19
+        ],
+        [
+          368,
+          33
+        ],
+        [
+          333,
+          37
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          218,
+          154
+        ],
+        [
+          292,
+          155
+        ],
+        [
+          294,
+          141
+        ],
+        [
+          217,
+          146
+        ],
+        [
+          218,
+          152
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          35,
+          102
+        ],
+        [
+          140,
+          155
+        ],
+        [
+          146,
+          153
+        ],
+        [
+          145,
+          144
+        ],
+        [
+          51,
+          100
+        ],
+        [
+          36,
+          100
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          78,
+          94
+        ],
+        [
+          139,
+          94
+        ],
+        [
+          140,
+          81
+        ],
+        [
+          80,
+          84
+        ],
+        [
+          80,
+          90
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          51,
+          79
+        ],
+        [
+          150,
+          27
+        ],
+        [
+          149,
+          16
+        ],
+        [
+          34,
+          74
+        ],
+        [
+          47,
+          75
+        ],
+        [
+          51,
+          79
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H3",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H5",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H6",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H0",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H2",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H4",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H1",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H7",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A1+T3",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T3",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T1+A2+T0",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T0",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T2+A4+T3",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T3",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T4+A5+T2",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T2",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T4+A6+T1",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T1",
+      "connector": "A6",
+      "directional": true
+    },
+    {
+      "id": "T4+A7+T5",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T5",
+      "connector": "A7",
+      "directional": true
+    },
+    {
+      "id": "T5+A0+T6",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T6",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T6+A3+T0",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T0",
+      "connector": "A3",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "7 caterpillar w x plant aphid v"
+  },
+  "questions": [
+    {
+      "question_text": "According to the given food web, what is the producer?",
+      "question_id": "2103.png-9",
+      "answers": [
+        "caterpillsr",
+        "aphid",
+        "w",
+        "plant"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "According to the given food web, which organism is a primary consumer?",
+      "question_id": "2103.png-4",
+      "answers": [
+        "X",
+        "Z",
+        "Y",
+        "caterpillar"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Choose the correct producer from the following:",
+      "question_id": "2103.png-2",
+      "answers": [
+        "Aphid",
+        "No consumers are listed.",
+        "Plant",
+        "Caterpillar"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the diagram of the food web shown, the aphid is a consumer of what?",
+      "question_id": "2103.png-6",
+      "answers": [
+        "Y",
+        "X",
+        "plants",
+        "W"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the diagram of the food web shown, what does the organism at Z consume?",
+      "question_id": "2103.png-0",
+      "answers": [
+        "X",
+        "aphid",
+        "plant",
+        "caterpillar"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the diagram shown, which is the producer?",
+      "question_id": "2103.png-1",
+      "answers": [
+        "plants",
+        "aphid",
+        "caterpillar",
+        "Z"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the diagram shown, which organism consumes the caterpillar for food?",
+      "question_id": "2103.png-5",
+      "answers": [
+        "W",
+        "Z",
+        "Y",
+        "X"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What feeds on the aphid?",
+      "question_id": "2103.png-8",
+      "answers": [
+        "y",
+        "z",
+        "caterpillar",
+        "x"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What happens to W if X increases?",
+      "question_id": "2103.png-10",
+      "answers": [
+        "decrease",
+        "increase",
+        "nothing",
+        "NA"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is a producer?",
+      "question_id": "2103.png-3",
+      "answers": [
+        "X",
+        "aphid",
+        "plant",
+        "caterpillar"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the producer in the web diagram?",
+      "question_id": "2103.png-7",
+      "answers": [
+        "aphid",
+        "plant",
+        "caterpillar",
+        "none of the above"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which letter represents tertiary consumers?",
+      "question_id": "2103.png-11",
+      "answers": [
+        "Z",
+        "Y",
+        "W",
+        "X"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

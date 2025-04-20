@@ -1,0 +1,478 @@
+{
+  "image_id": "2910",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          169,
+          146
+        ],
+        [
+          197,
+          159
+        ]
+      ],
+      "value": "Anal",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          75,
+          161
+        ],
+        [
+          111,
+          175
+        ]
+      ],
+      "value": "Pelvic",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          146,
+          86
+        ],
+        [
+          194,
+          99
+        ]
+      ],
+      "value": "Pectoral",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          91,
+          21
+        ],
+        [
+          148,
+          36
+        ]
+      ],
+      "value": "1st Dorsal",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          164,
+          26
+        ],
+        [
+          224,
+          39
+        ]
+      ],
+      "value": "2nd Dorsal",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          238,
+          36
+        ],
+        [
+          286,
+          49
+        ]
+      ],
+      "value": "Adipose",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          325,
+          89
+        ],
+        [
+          366,
+          100
+        ]
+      ],
+      "value": "Caudal",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          16,
+          103
+        ],
+        [
+          39,
+          113
+        ],
+        [
+          76,
+          122
+        ],
+        [
+          78,
+          134
+        ],
+        [
+          93,
+          157
+        ],
+        [
+          100,
+          157
+        ],
+        [
+          105,
+          148
+        ],
+        [
+          103,
+          134
+        ],
+        [
+          93,
+          124
+        ],
+        [
+          140,
+          127
+        ],
+        [
+          159,
+          143
+        ],
+        [
+          193,
+          144
+        ],
+        [
+          233,
+          133
+        ],
+        [
+          221,
+          118
+        ],
+        [
+          256,
+          107
+        ],
+        [
+          283,
+          104
+        ],
+        [
+          329,
+          132
+        ],
+        [
+          320,
+          100
+        ],
+        [
+          330,
+          59
+        ],
+        [
+          299,
+          70
+        ],
+        [
+          271,
+          82
+        ],
+        [
+          255,
+          83
+        ],
+        [
+          244,
+          78
+        ],
+        [
+          253,
+          72
+        ],
+        [
+          226,
+          72
+        ],
+        [
+          224,
+          67
+        ],
+        [
+          240,
+          52
+        ],
+        [
+          161,
+          42
+        ],
+        [
+          148,
+          57
+        ],
+        [
+          139,
+          57
+        ],
+        [
+          125,
+          37
+        ],
+        [
+          89,
+          58
+        ],
+        [
+          59,
+          65
+        ],
+        [
+          14,
+          85
+        ],
+        [
+          33,
+          94
+        ],
+        [
+          14,
+          103
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          246,
+          50
+        ],
+        [
+          246,
+          57
+        ],
+        [
+          241,
+          56
+        ],
+        [
+          239,
+          64
+        ],
+        [
+          246,
+          68
+        ],
+        [
+          258,
+          62
+        ],
+        [
+          256,
+          59
+        ],
+        [
+          252,
+          58
+        ],
+        [
+          252,
+          50
+        ],
+        [
+          249,
+          50
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          129,
+          85
+        ],
+        [
+          130,
+          98
+        ],
+        [
+          145,
+          97
+        ],
+        [
+          145,
+          88
+        ],
+        [
+          133,
+          85
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T4",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T6+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T6",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "anal pelvic pectoral 1st dorsal 2nd dorsal adipose caudal"
+  },
+  "questions": [
+    {
+      "question_text": "What is the animal shown in the image?",
+      "question_id": "2910.png-0",
+      "answers": [
+        "fish",
+        "dog",
+        "cat",
+        "none of the above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the tail end of the fish in the diagram called?",
+      "question_id": "2910.png-1",
+      "answers": [
+        "pelvic",
+        "none of the above",
+        "caudal",
+        "anal"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which part is represented by the label A?",
+      "question_id": "2910.png-2",
+      "answers": [
+        "Adipose",
+        "Caudal",
+        "Pectoral",
+        "Pelvic"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}

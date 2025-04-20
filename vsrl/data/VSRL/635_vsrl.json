@@ -1,0 +1,462 @@
+{
+  "image_id": "635",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          105,
+          12
+        ],
+        [
+          226,
+          30
+        ]
+      ],
+      "value": "Waterfall retreats",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          348,
+          123
+        ],
+        [
+          420,
+          143
+        ]
+      ],
+      "value": "Overhang",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          63,
+          104
+        ],
+        [
+          123,
+          123
+        ]
+      ],
+      "value": "Hard rock",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          21,
+          238
+        ],
+        [
+          114,
+          299
+        ]
+      ],
+      "value": "Steep-sided gorge develops as waterfall retreats",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          172,
+          237
+        ],
+        [
+          240,
+          256
+        ]
+      ],
+      "value": "Plunge pool",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          168,
+          315
+        ],
+        [
+          259,
+          337
+        ]
+      ],
+      "value": "Fallen rocks",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          10,
+          68
+        ],
+        [
+          28,
+          77
+        ],
+        [
+          49,
+          78
+        ],
+        [
+          71,
+          80
+        ],
+        [
+          93,
+          89
+        ],
+        [
+          110,
+          87
+        ],
+        [
+          135,
+          89
+        ],
+        [
+          155,
+          90
+        ],
+        [
+          191,
+          97
+        ],
+        [
+          216,
+          106
+        ],
+        [
+          225,
+          122
+        ],
+        [
+          225,
+          134
+        ],
+        [
+          225,
+          151
+        ],
+        [
+          225,
+          166
+        ],
+        [
+          224,
+          176
+        ],
+        [
+          220,
+          186
+        ],
+        [
+          217,
+          199
+        ],
+        [
+          213,
+          215
+        ],
+        [
+          213,
+          224
+        ],
+        [
+          220,
+          229
+        ],
+        [
+          234,
+          226
+        ],
+        [
+          245,
+          229
+        ],
+        [
+          251,
+          232
+        ],
+        [
+          267,
+          239
+        ],
+        [
+          284,
+          240
+        ],
+        [
+          298,
+          243
+        ],
+        [
+          316,
+          243
+        ],
+        [
+          331,
+          243
+        ],
+        [
+          359,
+          244
+        ],
+        [
+          378,
+          257
+        ],
+        [
+          400,
+          265
+        ],
+        [
+          426,
+          263
+        ],
+        [
+          462,
+          263
+        ],
+        [
+          494,
+          265
+        ],
+        [
+          508,
+          267
+        ],
+        [
+          511,
+          326
+        ],
+        [
+          316,
+          327
+        ],
+        [
+          143,
+          324
+        ],
+        [
+          4,
+          323
+        ],
+        [
+          12,
+          236
+        ],
+        [
+          9,
+          69
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          233,
+          136
+        ],
+        [
+          331,
+          136
+        ],
+        [
+          342,
+          143
+        ],
+        [
+          342,
+          125
+        ],
+        [
+          331,
+          129
+        ],
+        [
+          228,
+          128
+        ],
+        [
+          222,
+          132
+        ],
+        [
+          227,
+          141
+        ],
+        [
+          234,
+          140
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          151,
+          96
+        ],
+        [
+          150,
+          45
+        ],
+        [
+          153,
+          37
+        ],
+        [
+          139,
+          34
+        ],
+        [
+          136,
+          42
+        ],
+        [
+          142,
+          45
+        ],
+        [
+          139,
+          95
+        ],
+        [
+          151,
+          96
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          217,
+          265
+        ],
+        [
+          217,
+          304
+        ],
+        [
+          221,
+          315
+        ],
+        [
+          205,
+          315
+        ],
+        [
+          207,
+          305
+        ],
+        [
+          206,
+          266
+        ],
+        [
+          217,
+          266
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T1+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+I0",
+      "type": "imageCaption",
+      "source": "T3",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T4",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "earth_science",
+    "diagram_type": "labeled_illustration",
+    "text_content": "waterfall retreats overhang hard rock steep-sided gorge develops as waterfall retreats plunge pool fallen rocks"
+  }
+}

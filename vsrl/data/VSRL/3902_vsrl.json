@@ -1,0 +1,730 @@
+{
+  "image_id": "3902",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          66,
+          46
+        ],
+        [
+          561,
+          93
+        ]
+      ],
+      "value": "Herbaceous dicot stem c.s.",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          13,
+          125
+        ],
+        [
+          282,
+          149
+        ]
+      ],
+      "value": "ground tissue parenchyma",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T10": {
+      "id": "T10",
+      "type": "text",
+      "bbox": [
+        [
+          271,
+          441
+        ],
+        [
+          371,
+          464
+        ]
+      ],
+      "value": "epidermis",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          18,
+          152
+        ],
+        [
+          80,
+          173
+        ]
+      ],
+      "value": "Cortex",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          96,
+          151
+        ],
+        [
+          139,
+          175
+        ]
+      ],
+      "value": "pith",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          290,
+          194
+        ],
+        [
+          465,
+          216
+        ]
+      ],
+      "value": "vascular bundles",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          427,
+          257
+        ],
+        [
+          629,
+          285
+        ]
+      ],
+      "value": "sclerenchyma fibers",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          442,
+          292
+        ],
+        [
+          594,
+          313
+        ]
+      ],
+      "value": "primary phloem",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          445,
+          321
+        ],
+        [
+          570,
+          341
+        ]
+      ],
+      "value": "procambium",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          447,
+          347
+        ],
+        [
+          584,
+          369
+        ]
+      ],
+      "value": "primary xylem",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          292,
+          388
+        ],
+        [
+          414,
+          418
+        ]
+      ],
+      "value": "collenchyma",
+      "replacementText": "K",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          353,
+          346
+        ],
+        [
+          394,
+          348
+        ],
+        [
+          403,
+          327
+        ],
+        [
+          402,
+          310
+        ],
+        [
+          406,
+          278
+        ],
+        [
+          396,
+          268
+        ],
+        [
+          358,
+          269
+        ],
+        [
+          352,
+          273
+        ],
+        [
+          347,
+          288
+        ],
+        [
+          348,
+          306
+        ],
+        [
+          351,
+          322
+        ],
+        [
+          351,
+          339
+        ],
+        [
+          351,
+          341
+        ],
+        [
+          351,
+          344
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          284,
+          364
+        ],
+        [
+          263,
+          402
+        ],
+        [
+          232,
+          427
+        ],
+        [
+          163,
+          447
+        ],
+        [
+          81,
+          422
+        ],
+        [
+          37,
+          370
+        ],
+        [
+          27,
+          318
+        ],
+        [
+          29,
+          267
+        ],
+        [
+          63,
+          223
+        ],
+        [
+          111,
+          193
+        ],
+        [
+          159,
+          183
+        ],
+        [
+          218,
+          194
+        ],
+        [
+          265,
+          226
+        ],
+        [
+          295,
+          275
+        ],
+        [
+          297,
+          317
+        ],
+        [
+          284,
+          366
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          216,
+          236
+        ],
+        [
+          286,
+          210
+        ],
+        [
+          290,
+          218
+        ],
+        [
+          220,
+          245
+        ],
+        [
+          218,
+          238
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          339,
+          219
+        ],
+        [
+          333,
+          223
+        ],
+        [
+          365,
+          275
+        ],
+        [
+          373,
+          265
+        ],
+        [
+          340,
+          221
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          42,
+          175
+        ],
+        [
+          55,
+          175
+        ],
+        [
+          86,
+          250
+        ],
+        [
+          75,
+          252
+        ],
+        [
+          45,
+          175
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          121,
+          171
+        ],
+        [
+          130,
+          172
+        ],
+        [
+          160,
+          308
+        ],
+        [
+          147,
+          310
+        ],
+        [
+          120,
+          172
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          264,
+          375
+        ],
+        [
+          261,
+          384
+        ],
+        [
+          288,
+          408
+        ],
+        [
+          292,
+          395
+        ],
+        [
+          265,
+          377
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          240,
+          403
+        ],
+        [
+          249,
+          396
+        ],
+        [
+          280,
+          445
+        ],
+        [
+          273,
+          451
+        ],
+        [
+          237,
+          400
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          377,
+          281
+        ],
+        [
+          432,
+          275
+        ],
+        [
+          434,
+          283
+        ],
+        [
+          379,
+          291
+        ],
+        [
+          377,
+          284
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          447,
+          328
+        ],
+        [
+          445,
+          336
+        ],
+        [
+          378,
+          321
+        ],
+        [
+          382,
+          315
+        ],
+        [
+          448,
+          329
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          443,
+          295
+        ],
+        [
+          445,
+          306
+        ],
+        [
+          386,
+          315
+        ],
+        [
+          383,
+          306
+        ],
+        [
+          445,
+          296
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          380,
+          330
+        ],
+        [
+          450,
+          354
+        ],
+        [
+          448,
+          361
+        ],
+        [
+          375,
+          338
+        ],
+        [
+          377,
+          332
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B1",
+      "type": "intraObjectRegionLabel",
+      "source": "T1",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T10+A5+B1",
+      "type": "intraObjectLinkage",
+      "source": "T10",
+      "target": "B1",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T2+A2+B1",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B1",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T3+A3+B1",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B1",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T4+A0+B1",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B1",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T5+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T6+A8+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A8",
+      "directional": false
+    },
+    {
+      "id": "T7+A7+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T8+A9+B0",
+      "type": "intraObjectLinkage",
+      "source": "T8",
+      "target": "B0",
+      "connector": "A9",
+      "directional": false
+    },
+    {
+      "id": "T9+A4+B1",
+      "type": "intraObjectLinkage",
+      "source": "T9",
+      "target": "B1",
+      "connector": "A4",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T10": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "herbaceous dicot stem c.s. ground tissue parenchyma epidermis cortex pith vascular bundles sclerenchyma fibers primary phloem procambium primary xylem collenchyma"
+  },
+  "questions": [
+    {
+      "question_text": "Which is located below the procambium",
+      "question_id": "3902.png-0",
+      "answers": [
+        "Collenchyma",
+        "Sclerenchyma Fibers",
+        "Primary Phloem",
+        "Primary Xylem"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    }
+  ]
+}

@@ -1,0 +1,350 @@
+{
+  "image_id": "2777",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          239,
+          25
+        ],
+        [
+          285,
+          41
+        ]
+      ],
+      "value": "2 ATP",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          126,
+          0
+        ],
+        [
+          191,
+          19
+        ]
+      ],
+      "value": "Glucose",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          117,
+          52
+        ],
+        [
+          200,
+          69
+        ]
+      ],
+      "value": "2 Pyruvate",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          1,
+          87
+        ],
+        [
+          68,
+          121
+        ]
+      ],
+      "value": "34 more ATP",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          173
+        ],
+        [
+          142,
+          188
+        ]
+      ],
+      "value": "aerobic respiration",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          213,
+          171
+        ],
+        [
+          306,
+          188
+        ]
+      ],
+      "value": "fermentation",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          142,
+          226
+        ],
+        [
+          250,
+          264
+        ]
+      ],
+      "value": "alcohol + CO2 (yeast, plants)",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          273,
+          226
+        ],
+        [
+          345,
+          264
+        ]
+      ],
+      "value": "lactate (animals)",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          182,
+          82
+        ],
+        [
+          247,
+          143
+        ]
+      ],
+      "value": "no oxygen",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          84,
+          83
+        ],
+        [
+          131,
+          130
+        ]
+      ],
+      "value": "oxygen",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          162,
+          21
+        ],
+        [
+          163,
+          46
+        ],
+        [
+          155,
+          41
+        ],
+        [
+          156,
+          46
+        ],
+        [
+          154,
+          18
+        ],
+        [
+          163,
+          18
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          77,
+          155
+        ],
+        [
+          160,
+          74
+        ],
+        [
+          160,
+          74
+        ],
+        [
+          240,
+          156
+        ],
+        [
+          245,
+          148
+        ],
+        [
+          159,
+          66
+        ],
+        [
+          74,
+          148
+        ],
+        [
+          75,
+          154
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          235,
+          215
+        ],
+        [
+          258,
+          185
+        ],
+        [
+          284,
+          216
+        ],
+        [
+          273,
+          217
+        ],
+        [
+          262,
+          198
+        ],
+        [
+          243,
+          225
+        ],
+        [
+          233,
+          214
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A0+T2",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T2",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T2+A1+T5",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T5",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T5+A2+T6",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T6",
+      "connector": "A2",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "2 atp glucose 2 pyruvate 34 more atp aerobic respiration fermentation alcohol + co2 (yeast, plants) lactate (animals) no oxygen oxygen"
+  }
+}

@@ -1,0 +1,432 @@
+{
+  "image_id": "4336",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          49,
+          162
+        ],
+        [
+          101,
+          184
+        ]
+      ],
+      "value": "LEMON",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          197,
+          165
+        ],
+        [
+          253,
+          182
+        ]
+      ],
+      "value": "MANGO",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          37,
+          355
+        ],
+        [
+          112,
+          376
+        ]
+      ],
+      "value": "TANGERINE",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          186,
+          356
+        ],
+        [
+          269,
+          375
+        ]
+      ],
+      "value": "STRAWBERRY",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          28,
+          76
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          71,
+          39
+        ],
+        [
+          100,
+          39
+        ],
+        [
+          118,
+          49
+        ],
+        [
+          123,
+          59
+        ],
+        [
+          130,
+          63
+        ],
+        [
+          132,
+          69
+        ],
+        [
+          130,
+          77
+        ],
+        [
+          125,
+          92
+        ],
+        [
+          119,
+          102
+        ],
+        [
+          96,
+          115
+        ],
+        [
+          78,
+          116
+        ],
+        [
+          64,
+          116
+        ],
+        [
+          42,
+          102
+        ],
+        [
+          32,
+          90
+        ],
+        [
+          28,
+          79
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          165,
+          60
+        ],
+        [
+          190,
+          38
+        ],
+        [
+          214,
+          31
+        ],
+        [
+          244,
+          34
+        ],
+        [
+          264,
+          44
+        ],
+        [
+          277,
+          57
+        ],
+        [
+          285,
+          78
+        ],
+        [
+          282,
+          97
+        ],
+        [
+          270,
+          114
+        ],
+        [
+          253,
+          125
+        ],
+        [
+          215,
+          130
+        ],
+        [
+          178,
+          105
+        ],
+        [
+          162,
+          61
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          37,
+          233
+        ],
+        [
+          57,
+          224
+        ],
+        [
+          83,
+          224
+        ],
+        [
+          105,
+          231
+        ],
+        [
+          122,
+          246
+        ],
+        [
+          135,
+          268
+        ],
+        [
+          131,
+          288
+        ],
+        [
+          117,
+          309
+        ],
+        [
+          92,
+          322
+        ],
+        [
+          57,
+          318
+        ],
+        [
+          28,
+          298
+        ],
+        [
+          22,
+          268
+        ],
+        [
+          36,
+          234
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          176,
+          293
+        ],
+        [
+          193,
+          261
+        ],
+        [
+          214,
+          239
+        ],
+        [
+          220,
+          233
+        ],
+        [
+          222,
+          230
+        ],
+        [
+          226,
+          232
+        ],
+        [
+          236,
+          237
+        ],
+        [
+          245,
+          226
+        ],
+        [
+          260,
+          231
+        ],
+        [
+          266,
+          239
+        ],
+        [
+          270,
+          243
+        ],
+        [
+          276,
+          255
+        ],
+        [
+          281,
+          253
+        ],
+        [
+          271,
+          270
+        ],
+        [
+          272,
+          280
+        ],
+        [
+          264,
+          274
+        ],
+        [
+          260,
+          292
+        ],
+        [
+          242,
+          307
+        ],
+        [
+          206,
+          311
+        ],
+        [
+          184,
+          304
+        ],
+        [
+          174,
+          296
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+B0",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B1",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B2",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B3",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "lemon mango tangerine strawberry"
+  },
+  "questions": [
+    {
+      "question_text": "Picture A represents",
+      "question_id": "4336.png-0",
+      "answers": [
+        "Lemon",
+        "Mango",
+        "Strawberry",
+        "Apple"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which image represents Mango",
+      "question_id": "4336.png-1",
+      "answers": [
+        "A",
+        "C",
+        "B",
+        "D"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

@@ -1,0 +1,638 @@
+{
+  "image_id": "2776",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          120,
+          7
+        ],
+        [
+          149,
+          25
+        ]
+      ],
+      "value": "fats",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          144,
+          37
+        ],
+        [
+          201,
+          55
+        ]
+      ],
+      "value": "glycerol",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          3,
+          38
+        ],
+        [
+          70,
+          54
+        ]
+      ],
+      "value": "glycogen",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          74,
+          79
+        ],
+        [
+          128,
+          98
+        ]
+      ],
+      "value": "glucose",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          71,
+          131
+        ],
+        [
+          131,
+          148
+        ]
+      ],
+      "value": "pyruvate",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          38,
+          180
+        ],
+        [
+          165,
+          195
+        ]
+      ],
+      "value": "acetyl coenzyme A",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          77,
+          239
+        ],
+        [
+          128,
+          273
+        ]
+      ],
+      "value": "Kreb's cycle",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          21,
+          314
+        ],
+        [
+          185,
+          333
+        ]
+      ],
+      "value": "electron transport system",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          62,
+          244
+        ],
+        [
+          84,
+          232
+        ],
+        [
+          123,
+          231
+        ],
+        [
+          143,
+          239
+        ],
+        [
+          147,
+          252
+        ],
+        [
+          144,
+          266
+        ],
+        [
+          124,
+          277
+        ],
+        [
+          89,
+          276
+        ],
+        [
+          73,
+          272
+        ],
+        [
+          64,
+          265
+        ],
+        [
+          57,
+          252
+        ],
+        [
+          59,
+          243
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          93,
+          69
+        ],
+        [
+          86,
+          78
+        ],
+        [
+          84,
+          82
+        ],
+        [
+          47,
+          56
+        ],
+        [
+          58,
+          45
+        ],
+        [
+          90,
+          69
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          111,
+          74
+        ],
+        [
+          160,
+          48
+        ],
+        [
+          168,
+          54
+        ],
+        [
+          120,
+          82
+        ],
+        [
+          114,
+          76
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          146,
+          26
+        ],
+        [
+          161,
+          39
+        ],
+        [
+          169,
+          33
+        ],
+        [
+          146,
+          18
+        ],
+        [
+          145,
+          25
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          97,
+          93
+        ],
+        [
+          108,
+          93
+        ],
+        [
+          108,
+          128
+        ],
+        [
+          96,
+          128
+        ],
+        [
+          96,
+          94
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          97,
+          145
+        ],
+        [
+          110,
+          143
+        ],
+        [
+          110,
+          176
+        ],
+        [
+          97,
+          178
+        ],
+        [
+          98,
+          145
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          98,
+          193
+        ],
+        [
+          109,
+          196
+        ],
+        [
+          109,
+          228
+        ],
+        [
+          101,
+          229
+        ],
+        [
+          98,
+          191
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          148,
+          237
+        ],
+        [
+          149,
+          250
+        ],
+        [
+          182,
+          238
+        ],
+        [
+          199,
+          241
+        ],
+        [
+          197,
+          259
+        ],
+        [
+          191,
+          275
+        ],
+        [
+          160,
+          265
+        ],
+        [
+          149,
+          261
+        ],
+        [
+          144,
+          263
+        ],
+        [
+          143,
+          269
+        ],
+        [
+          152,
+          273
+        ],
+        [
+          161,
+          275
+        ],
+        [
+          169,
+          278
+        ],
+        [
+          179,
+          278
+        ],
+        [
+          193,
+          283
+        ],
+        [
+          205,
+          280
+        ],
+        [
+          212,
+          260
+        ],
+        [
+          207,
+          247
+        ],
+        [
+          201,
+          232
+        ],
+        [
+          190,
+          226
+        ],
+        [
+          170,
+          234
+        ],
+        [
+          149,
+          240
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          95,
+          277
+        ],
+        [
+          109,
+          277
+        ],
+        [
+          109,
+          311
+        ],
+        [
+          96,
+          309
+        ],
+        [
+          98,
+          278
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H4",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H5",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H0",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H2",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H1",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H6",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H3",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H7",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A7+T7",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "T7",
+      "connector": "A7",
+      "directional": true
+    },
+    {
+      "id": "T0+A2+T1",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T1",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T1+A1+T3",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T3",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T2+A0+T3",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T3",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T3+A3+T4",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T4",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T4+A4+T5",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T5",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T5+A5+B0",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T6+B0",
+      "type": "intraObjectLabel",
+      "source": "T6",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "fats glycerol glycogen glucose pyruvate acetyl coenzyme a kreb's cycle electron transport system"
+  }
+}

@@ -1,0 +1,496 @@
+{
+  "image_id": "1103",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          202,
+          82
+        ],
+        [
+          251,
+          106
+        ]
+      ],
+      "value": "Blade",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          185
+        ],
+        [
+          44,
+          208
+        ]
+      ],
+      "value": "Stem",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          269
+        ],
+        [
+          65,
+          291
+        ]
+      ],
+      "value": "Sheath",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          27,
+          303
+        ],
+        [
+          240,
+          375
+        ]
+      ],
+      "value": "Parallel Monocotyledon Leaf Grass Leaf",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          58,
+          176
+        ],
+        [
+          64,
+          170
+        ],
+        [
+          69,
+          170
+        ],
+        [
+          72,
+          177
+        ],
+        [
+          76,
+          185
+        ],
+        [
+          83,
+          170
+        ],
+        [
+          90,
+          147
+        ],
+        [
+          93,
+          120
+        ],
+        [
+          99,
+          87
+        ],
+        [
+          107,
+          46
+        ],
+        [
+          127,
+          19
+        ],
+        [
+          166,
+          18
+        ],
+        [
+          180,
+          28
+        ],
+        [
+          185,
+          61
+        ],
+        [
+          181,
+          99
+        ],
+        [
+          180,
+          140
+        ],
+        [
+          214,
+          173
+        ],
+        [
+          220,
+          193
+        ],
+        [
+          216,
+          238
+        ],
+        [
+          219,
+          256
+        ],
+        [
+          243,
+          276
+        ],
+        [
+          233,
+          279
+        ],
+        [
+          200,
+          244
+        ],
+        [
+          195,
+          199
+        ],
+        [
+          191,
+          184
+        ],
+        [
+          173,
+          174
+        ],
+        [
+          155,
+          152
+        ],
+        [
+          153,
+          118
+        ],
+        [
+          153,
+          73
+        ],
+        [
+          152,
+          66
+        ],
+        [
+          145,
+          86
+        ],
+        [
+          141,
+          144
+        ],
+        [
+          136,
+          187
+        ],
+        [
+          124,
+          207
+        ],
+        [
+          102,
+          221
+        ],
+        [
+          98,
+          225
+        ],
+        [
+          102,
+          228
+        ],
+        [
+          102,
+          238
+        ],
+        [
+          114,
+          276
+        ],
+        [
+          129,
+          301
+        ],
+        [
+          110,
+          308
+        ],
+        [
+          107,
+          308
+        ],
+        [
+          96,
+          285
+        ],
+        [
+          84,
+          253
+        ],
+        [
+          77,
+          236
+        ],
+        [
+          77,
+          229
+        ],
+        [
+          60,
+          179
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          202,
+          92
+        ],
+        [
+          189,
+          101
+        ],
+        [
+          185,
+          98
+        ],
+        [
+          170,
+          117
+        ],
+        [
+          193,
+          113
+        ],
+        [
+          193,
+          109
+        ],
+        [
+          207,
+          98
+        ],
+        [
+          204,
+          89
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          40,
+          193
+        ],
+        [
+          49,
+          193
+        ],
+        [
+          49,
+          189
+        ],
+        [
+          70,
+          197
+        ],
+        [
+          48,
+          206
+        ],
+        [
+          47,
+          200
+        ],
+        [
+          39,
+          200
+        ],
+        [
+          39,
+          189
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          63,
+          278
+        ],
+        [
+          83,
+          280
+        ],
+        [
+          83,
+          275
+        ],
+        [
+          107,
+          283
+        ],
+        [
+          85,
+          290
+        ],
+        [
+          83,
+          284
+        ],
+        [
+          60,
+          287
+        ],
+        [
+          63,
+          279
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T2+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T3+I0",
+      "type": "imageTitle",
+      "source": "T3",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "title",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "blade stem sheath parallel monocotyledon leaf grass leaf"
+  },
+  "questions": [
+    {
+      "question_text": "Label B is pointing to what part?",
+      "question_id": "1103.png-2",
+      "answers": [
+        "Sheath",
+        "Blade",
+        "Stem",
+        "Leaf"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is the expanded part of a leaf or petal called?",
+      "question_id": "1103.png-1",
+      "answers": [
+        "Stem",
+        "Blade",
+        "Sheath",
+        "Root"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is this diagram about?",
+      "question_id": "1103.png-0",
+      "answers": [
+        "Stem",
+        "Blade",
+        "Grass leaf",
+        "Sheath"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

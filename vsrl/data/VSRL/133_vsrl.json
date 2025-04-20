@@ -1,0 +1,496 @@
+{
+  "image_id": "133",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          2,
+          7
+        ],
+        [
+          84,
+          58
+        ]
+      ],
+      "value": "Tidal bulge due to inertia",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          134,
+          42
+        ],
+        [
+          172,
+          73
+        ]
+      ],
+      "value": "Low Tide",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          233,
+          6
+        ],
+        [
+          315,
+          60
+        ]
+      ],
+      "value": "Tidal bulge due to gravity",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          227,
+          95
+        ],
+        [
+          265,
+          129
+        ]
+      ],
+      "value": "HIGH TIDE ",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          283,
+          132
+        ],
+        [
+          328,
+          145
+        ]
+      ],
+      "value": "moon",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          139,
+          156
+        ],
+        [
+          173,
+          186
+        ]
+      ],
+      "value": "Low Tide",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          48,
+          100
+        ],
+        [
+          84,
+          132
+        ]
+      ],
+      "value": "High Tide",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          133,
+          105
+        ],
+        [
+          176,
+          122
+        ]
+      ],
+      "value": "Earth",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          104,
+          89
+        ],
+        [
+          119,
+          81
+        ],
+        [
+          139,
+          77
+        ],
+        [
+          156,
+          75
+        ],
+        [
+          176,
+          77
+        ],
+        [
+          196,
+          83
+        ],
+        [
+          212,
+          91
+        ],
+        [
+          223,
+          106
+        ],
+        [
+          224,
+          121
+        ],
+        [
+          215,
+          137
+        ],
+        [
+          201,
+          146
+        ],
+        [
+          185,
+          154
+        ],
+        [
+          168,
+          157
+        ],
+        [
+          148,
+          156
+        ],
+        [
+          131,
+          154
+        ],
+        [
+          114,
+          147
+        ],
+        [
+          100,
+          138
+        ],
+        [
+          93,
+          127
+        ],
+        [
+          88,
+          116
+        ],
+        [
+          92,
+          102
+        ],
+        [
+          103,
+          90
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          294,
+          100
+        ],
+        [
+          304,
+          98
+        ],
+        [
+          313,
+          100
+        ],
+        [
+          318,
+          104
+        ],
+        [
+          320,
+          116
+        ],
+        [
+          317,
+          128
+        ],
+        [
+          306,
+          132
+        ],
+        [
+          300,
+          132
+        ],
+        [
+          290,
+          127
+        ],
+        [
+          287,
+          118
+        ],
+        [
+          287,
+          109
+        ],
+        [
+          290,
+          105
+        ],
+        [
+          293,
+          102
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          62,
+          54
+        ],
+        [
+          69,
+          55
+        ],
+        [
+          105,
+          102
+        ],
+        [
+          109,
+          102
+        ],
+        [
+          111,
+          118
+        ],
+        [
+          99,
+          113
+        ],
+        [
+          99,
+          108
+        ],
+        [
+          61,
+          56
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          202,
+          106
+        ],
+        [
+          204,
+          118
+        ],
+        [
+          214,
+          115
+        ],
+        [
+          214,
+          109
+        ],
+        [
+          250,
+          57
+        ],
+        [
+          243,
+          54
+        ],
+        [
+          208,
+          105
+        ],
+        [
+          202,
+          106
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B1",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T5",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T6",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T7+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T7",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "tidal bulge due to inertia low tide tidal bulge due to gravity high tide  moon low tide high tide earth"
+  },
+  "questions": [
+    {
+      "question_text": "The diagram shows the Moon orbit causes what type of tide?",
+      "question_id": "133.png-0",
+      "answers": [
+        "Low",
+        "High",
+        "Fast",
+        "Gravity"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is shown at stage D",
+      "question_id": "133.png-1",
+      "answers": [
+        "High tide",
+        "Tidal buldge due to gravity",
+        "Low tide",
+        "Tidal buldge due to inertia"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}

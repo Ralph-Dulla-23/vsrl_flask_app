@@ -1,0 +1,464 @@
+{
+  "image_id": "2744",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          357,
+          0
+        ],
+        [
+          491,
+          28
+        ]
+      ],
+      "value": "Earth Axis",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          1037,
+          55
+        ],
+        [
+          1197,
+          80
+        ]
+      ],
+      "value": "Arctic Circle",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          984,
+          136
+        ],
+        [
+          1196,
+          157
+        ]
+      ],
+      "value": "Tropic of Cancer",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          1092,
+          229
+        ],
+        [
+          1193,
+          255
+        ]
+      ],
+      "value": "Equator",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          951,
+          341
+        ],
+        [
+          1193,
+          369
+        ]
+      ],
+      "value": "Tropic of Capricorn",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          997,
+          537
+        ],
+        [
+          1192,
+          560
+        ]
+      ],
+      "value": "Antarctic circle",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          1051,
+          645
+        ],
+        [
+          1189,
+          672
+        ]
+      ],
+      "value": "Credit : NASA",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          52,
+          307
+        ],
+        [
+          76,
+          428
+        ]
+      ],
+      "value": "Sun rays",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          364,
+          164
+        ],
+        [
+          420,
+          121
+        ],
+        [
+          496,
+          87
+        ],
+        [
+          552,
+          79
+        ],
+        [
+          608,
+          83
+        ],
+        [
+          663,
+          95
+        ],
+        [
+          732,
+          129
+        ],
+        [
+          792,
+          188
+        ],
+        [
+          835,
+          253
+        ],
+        [
+          852,
+          333
+        ],
+        [
+          851,
+          419
+        ],
+        [
+          843,
+          451
+        ],
+        [
+          812,
+          517
+        ],
+        [
+          768,
+          573
+        ],
+        [
+          707,
+          616
+        ],
+        [
+          669,
+          635
+        ],
+        [
+          617,
+          649
+        ],
+        [
+          556,
+          651
+        ],
+        [
+          513,
+          648
+        ],
+        [
+          448,
+          624
+        ],
+        [
+          379,
+          583
+        ],
+        [
+          323,
+          512
+        ],
+        [
+          293,
+          440
+        ],
+        [
+          284,
+          352
+        ],
+        [
+          297,
+          285
+        ],
+        [
+          324,
+          217
+        ],
+        [
+          364,
+          164
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          109,
+          247
+        ],
+        [
+          119,
+          277
+        ],
+        [
+          299,
+          268
+        ],
+        [
+          293,
+          240
+        ],
+        [
+          108,
+          243
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          111,
+          355
+        ],
+        [
+          111,
+          380
+        ],
+        [
+          276,
+          385
+        ],
+        [
+          277,
+          355
+        ],
+        [
+          113,
+          356
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          120,
+          464
+        ],
+        [
+          303,
+          464
+        ],
+        [
+          303,
+          488
+        ],
+        [
+          117,
+          485
+        ],
+        [
+          119,
+          467
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H2",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H1",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+I0",
+      "type": "imageCaption",
+      "source": "T6",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T7+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T7+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T7+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "earth axis arctic circle tropic of cancer equator tropic of capricorn antarctic circle credit : nasa sun rays"
+  },
+  "questions": [
+    {
+      "question_text": "What does F represent?",
+      "question_id": "2744.png-3",
+      "answers": [
+        "Antarctic Circle",
+        "Tropic of Cancer",
+        "Equator",
+        "Arctic Circle"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is indicated by label A?",
+      "question_id": "2744.png-0",
+      "answers": [
+        "Arctic circle",
+        "Earth axis",
+        "Equator",
+        "Antarctic circle"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is indicated by label H?",
+      "question_id": "2744.png-2",
+      "answers": [
+        "Tropic of Cancer",
+        "Antarctic circle",
+        "Tropic of Capricorn",
+        "Equator"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is this a diagram of?",
+      "question_id": "2744.png-1",
+      "answers": [
+        "earth",
+        "Jupiter",
+        "moon",
+        "sun"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

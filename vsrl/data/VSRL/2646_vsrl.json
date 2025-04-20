@@ -1,0 +1,514 @@
+{
+  "image_id": "2646",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          300,
+          52
+        ],
+        [
+          358,
+          74
+        ]
+      ],
+      "value": "Moon",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          74,
+          234
+        ],
+        [
+          114,
+          256
+        ]
+      ],
+      "value": "Sun",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          303,
+          236
+        ],
+        [
+          354,
+          258
+        ]
+      ],
+      "value": "Earth",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          291,
+          57
+        ],
+        [
+          297,
+          44
+        ],
+        [
+          309,
+          34
+        ],
+        [
+          318,
+          28
+        ],
+        [
+          336,
+          26
+        ],
+        [
+          345,
+          28
+        ],
+        [
+          360,
+          41
+        ],
+        [
+          366,
+          54
+        ],
+        [
+          369,
+          68
+        ],
+        [
+          365,
+          79
+        ],
+        [
+          357,
+          93
+        ],
+        [
+          344,
+          99
+        ],
+        [
+          322,
+          103
+        ],
+        [
+          306,
+          95
+        ],
+        [
+          293,
+          82
+        ],
+        [
+          289,
+          62
+        ],
+        [
+          290,
+          57
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          263,
+          317
+        ],
+        [
+          244,
+          280
+        ],
+        [
+          237,
+          232
+        ],
+        [
+          260,
+          179
+        ],
+        [
+          298,
+          155
+        ],
+        [
+          342,
+          146
+        ],
+        [
+          376,
+          162
+        ],
+        [
+          414,
+          210
+        ],
+        [
+          420,
+          275
+        ],
+        [
+          392,
+          327
+        ],
+        [
+          345,
+          348
+        ],
+        [
+          304,
+          346
+        ],
+        [
+          264,
+          316
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          32,
+          238
+        ],
+        [
+          33,
+          230
+        ],
+        [
+          38,
+          216
+        ],
+        [
+          48,
+          205
+        ],
+        [
+          60,
+          192
+        ],
+        [
+          80,
+          184
+        ],
+        [
+          99,
+          183
+        ],
+        [
+          115,
+          184
+        ],
+        [
+          133,
+          194
+        ],
+        [
+          146,
+          205
+        ],
+        [
+          157,
+          218
+        ],
+        [
+          162,
+          241
+        ],
+        [
+          162,
+          261
+        ],
+        [
+          156,
+          278
+        ],
+        [
+          146,
+          295
+        ],
+        [
+          135,
+          306
+        ],
+        [
+          113,
+          315
+        ],
+        [
+          95,
+          315
+        ],
+        [
+          76,
+          312
+        ],
+        [
+          59,
+          304
+        ],
+        [
+          42,
+          290
+        ],
+        [
+          34,
+          272
+        ],
+        [
+          30,
+          255
+        ],
+        [
+          29,
+          240
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          317,
+          118
+        ],
+        [
+          335,
+          106
+        ],
+        [
+          350,
+          122
+        ],
+        [
+          345,
+          126
+        ],
+        [
+          340,
+          126
+        ],
+        [
+          338,
+          140
+        ],
+        [
+          329,
+          143
+        ],
+        [
+          325,
+          133
+        ],
+        [
+          325,
+          124
+        ],
+        [
+          318,
+          122
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          232,
+          232
+        ],
+        [
+          232,
+          265
+        ],
+        [
+          200,
+          256
+        ],
+        [
+          201,
+          271
+        ],
+        [
+          169,
+          246
+        ],
+        [
+          194,
+          226
+        ],
+        [
+          199,
+          238
+        ],
+        [
+          232,
+          232
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B1+A0+B0",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B0",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "B1+A1+B2",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B2",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B2",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B1",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "A0": "connector",
+    "A1": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "moon sun earth"
+  },
+  "questions": [
+    {
+      "question_text": "In the diagram shown to us, what letter corresponds to the sun?",
+      "question_id": "2646.png-1",
+      "answers": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "In the diagram, what is depicted at letter A?",
+      "question_id": "2646.png-4",
+      "answers": [
+        "moon",
+        "star",
+        "earth",
+        "sun"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "What letter represents Earth?",
+      "question_id": "2646.png-3",
+      "answers": [
+        "C",
+        "A",
+        "B",
+        "D"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "What letter represents the moon?",
+      "question_id": "2646.png-2",
+      "answers": [
+        "C",
+        "D",
+        "A",
+        "B"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which phase of the moon is present when you can see the whole moon in the sky?",
+      "question_id": "2646.png-0",
+      "answers": [
+        "Half",
+        "Full",
+        "Whole",
+        "New"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

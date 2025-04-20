@@ -1,0 +1,752 @@
+{
+  "image_id": "2033",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          18,
+          151
+        ],
+        [
+          67,
+          189
+        ]
+      ],
+      "value": "Grass",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          81,
+          151
+        ],
+        [
+          151,
+          169
+        ]
+      ],
+      "value": "eaten by",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          167,
+          153
+        ],
+        [
+          228,
+          189
+        ]
+      ],
+      "value": "snail (animal)",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          245,
+          149
+        ],
+        [
+          321,
+          167
+        ]
+      ],
+      "value": "eaten by",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          355,
+          152
+        ],
+        [
+          414,
+          189
+        ]
+      ],
+      "value": "bird (animal)",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          53,
+          5
+        ],
+        [
+          123,
+          19
+        ]
+      ],
+      "value": "Sunshine",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          320,
+          84
+        ],
+        [
+          328,
+          80
+        ],
+        [
+          340,
+          85
+        ],
+        [
+          368,
+          110
+        ],
+        [
+          398,
+          110
+        ],
+        [
+          405,
+          117
+        ],
+        [
+          381,
+          125
+        ],
+        [
+          382,
+          133
+        ],
+        [
+          385,
+          141
+        ],
+        [
+          405,
+          135
+        ],
+        [
+          422,
+          140
+        ],
+        [
+          433,
+          126
+        ],
+        [
+          421,
+          121
+        ],
+        [
+          425,
+          108
+        ],
+        [
+          440,
+          99
+        ],
+        [
+          493,
+          87
+        ],
+        [
+          505,
+          77
+        ],
+        [
+          404,
+          51
+        ],
+        [
+          340,
+          43
+        ],
+        [
+          325,
+          47
+        ],
+        [
+          315,
+          72
+        ],
+        [
+          311,
+          90
+        ],
+        [
+          321,
+          86
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          156,
+          116
+        ],
+        [
+          202,
+          119
+        ],
+        [
+          242,
+          116
+        ],
+        [
+          246,
+          105
+        ],
+        [
+          249,
+          94
+        ],
+        [
+          241,
+          89
+        ],
+        [
+          238,
+          98
+        ],
+        [
+          231,
+          100
+        ],
+        [
+          221,
+          88
+        ],
+        [
+          218,
+          78
+        ],
+        [
+          203,
+          75
+        ],
+        [
+          184,
+          80
+        ],
+        [
+          177,
+          92
+        ],
+        [
+          179,
+          104
+        ],
+        [
+          180,
+          107
+        ],
+        [
+          174,
+          108
+        ],
+        [
+          159,
+          108
+        ],
+        [
+          155,
+          117
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          57,
+          135
+        ],
+        [
+          47,
+          118
+        ],
+        [
+          50,
+          107
+        ],
+        [
+          59,
+          102
+        ],
+        [
+          68,
+          99
+        ],
+        [
+          80,
+          103
+        ],
+        [
+          88,
+          120
+        ],
+        [
+          84,
+          136
+        ],
+        [
+          60,
+          138
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          23,
+          57
+        ],
+        [
+          27,
+          68
+        ],
+        [
+          33,
+          58
+        ],
+        [
+          36,
+          56
+        ],
+        [
+          50,
+          62
+        ],
+        [
+          46,
+          49
+        ],
+        [
+          59,
+          39
+        ],
+        [
+          49,
+          33
+        ],
+        [
+          45,
+          33
+        ],
+        [
+          51,
+          18
+        ],
+        [
+          42,
+          17
+        ],
+        [
+          38,
+          19
+        ],
+        [
+          30,
+          4
+        ],
+        [
+          25,
+          13
+        ],
+        [
+          23,
+          20
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          6,
+          17
+        ],
+        [
+          10,
+          29
+        ],
+        [
+          0,
+          39
+        ],
+        [
+          10,
+          44
+        ],
+        [
+          8,
+          60
+        ],
+        [
+          19,
+          56
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          58,
+          22
+        ],
+        [
+          76,
+          22
+        ],
+        [
+          82,
+          67
+        ],
+        [
+          58,
+          67
+        ],
+        [
+          60,
+          24
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          69,
+          162
+        ],
+        [
+          168,
+          164
+        ],
+        [
+          168,
+          178
+        ],
+        [
+          72,
+          180
+        ],
+        [
+          70,
+          164
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          224,
+          164
+        ],
+        [
+          347,
+          164
+        ],
+        [
+          346,
+          176
+        ],
+        [
+          227,
+          180
+        ],
+        [
+          227,
+          167
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H2",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H1",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B1+A2+B0",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B0",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "B2+A1+B1",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B1",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "B3+A0+B2",
+      "type": "interObjectLinkage",
+      "source": "B3",
+      "target": "B2",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T0+B2",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B1",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B0",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+B3",
+      "type": "intraObjectLabel",
+      "source": "T5",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "grass eaten by snail (animal) eaten by bird (animal) sunshine"
+  },
+  "questions": [
+    {
+      "question_text": "Based on the food web, which organism would need to find a new source of energy if a forest fire killed all of the grass?",
+      "question_id": "2033.png-4",
+      "answers": [
+        "Grass",
+        "Bird",
+        "Snail",
+        "None of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Based on the food web, which organisms in this food chain serves as a secondary consumer?",
+      "question_id": "2033.png-10",
+      "answers": [
+        "Grass",
+        "Snail",
+        "Bird",
+        "None of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "If the birds in the food web were to disappear, which population would benefit the most?",
+      "question_id": "2033.png-7",
+      "answers": [
+        "Sunshine",
+        "Snail",
+        "Grass",
+        "Snakes"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the diagram shown, which is the producer?",
+      "question_id": "2033.png-2",
+      "answers": [
+        "birds",
+        "grasses",
+        "snails",
+        "sun"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the diagram shown, which organism consumes snails for a food source?",
+      "question_id": "2033.png-3",
+      "answers": [
+        "nothing",
+        "birds",
+        "sun",
+        "grass"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the food web shown, the bird could be referred to as the:",
+      "question_id": "2033.png-9",
+      "answers": [
+        "predator",
+        "producer",
+        "energy source",
+        "prey"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Refer the diagram and choose the right answer accordingly. What will happen to birds if all snails are extinct?",
+      "question_id": "2033.png-11",
+      "answers": [
+        "Grass will starve",
+        "Snails will starve",
+        "Birds will starve",
+        "None of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What do snails eat?",
+      "question_id": "2033.png-1",
+      "answers": [
+        "grass",
+        "sunlight",
+        "bird",
+        "none of the above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What do snails feed on?",
+      "question_id": "2033.png-6",
+      "answers": [
+        "bird",
+        "grass",
+        "sunshine",
+        "none of the above"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is a producer in the web shown?",
+      "question_id": "2033.png-0",
+      "answers": [
+        "grass",
+        "bird",
+        "snail",
+        "none of the above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is needed for grasses to grow well?",
+      "question_id": "2033.png-5",
+      "answers": [
+        "Birds",
+        "Snails",
+        "Sunshine",
+        "None of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which is the prouder in this web?",
+      "question_id": "2033.png-8",
+      "answers": [
+        "grass",
+        "bird",
+        "sun",
+        "none of the above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

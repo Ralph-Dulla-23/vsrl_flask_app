@@ -1,0 +1,456 @@
+{
+  "image_id": "1606",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          132,
+          55
+        ],
+        [
+          157,
+          77
+        ]
+      ],
+      "value": "V",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          132,
+          146
+        ],
+        [
+          166,
+          166
+        ]
+      ],
+      "value": "3V",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          77,
+          4
+        ],
+        [
+          257,
+          28
+        ]
+      ],
+      "value": "Voltmeter reads \"+3 Volts\"",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          12,
+          205
+        ],
+        [
+          108,
+          223
+        ]
+      ],
+      "value": "Test electrode",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          151,
+          204
+        ],
+        [
+          290,
+          224
+        ]
+      ],
+      "value": "Reference electrode",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          136,
+          49
+        ],
+        [
+          127,
+          59
+        ],
+        [
+          126,
+          71
+        ],
+        [
+          135,
+          83
+        ],
+        [
+          151,
+          86
+        ],
+        [
+          161,
+          76
+        ],
+        [
+          165,
+          62
+        ],
+        [
+          157,
+          49
+        ],
+        [
+          137,
+          46
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          100,
+          134
+        ],
+        [
+          100,
+          149
+        ],
+        [
+          97,
+          149
+        ],
+        [
+          95,
+          161
+        ],
+        [
+          100,
+          161
+        ],
+        [
+          100,
+          177
+        ],
+        [
+          191,
+          179
+        ],
+        [
+          191,
+          134
+        ],
+        [
+          101,
+          133
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          164,
+          51
+        ],
+        [
+          197,
+          24
+        ],
+        [
+          207,
+          35
+        ],
+        [
+          169,
+          65
+        ],
+        [
+          163,
+          52
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          201,
+          159
+        ],
+        [
+          210,
+          158
+        ],
+        [
+          221,
+          204
+        ],
+        [
+          221,
+          204
+        ],
+        [
+          214,
+          206
+        ],
+        [
+          214,
+          206
+        ],
+        [
+          207,
+          172
+        ],
+        [
+          203,
+          161
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          74,
+          158
+        ],
+        [
+          66,
+          202
+        ],
+        [
+          66,
+          202
+        ],
+        [
+          73,
+          203
+        ],
+        [
+          86,
+          163
+        ],
+        [
+          77,
+          159
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          165,
+          69
+        ],
+        [
+          220,
+          71
+        ],
+        [
+          220,
+          152
+        ],
+        [
+          195,
+          151
+        ],
+        [
+          194,
+          157
+        ],
+        [
+          194,
+          157
+        ],
+        [
+          227,
+          156
+        ],
+        [
+          227,
+          66
+        ],
+        [
+          166,
+          65
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          122,
+          58
+        ],
+        [
+          63,
+          62
+        ],
+        [
+          63,
+          154
+        ],
+        [
+          89,
+          157
+        ],
+        [
+          93,
+          153
+        ],
+        [
+          70,
+          151
+        ],
+        [
+          71,
+          73
+        ],
+        [
+          71,
+          73
+        ],
+        [
+          120,
+          72
+        ],
+        [
+          123,
+          62
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B1+A3+B0",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "B1+A4+T0",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "T0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T1+B1",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+A0+B0",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T3+A2+B1",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "B1",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T4+A1+B1",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "B1",
+      "connector": "A1",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "v 3v voltmeter reads \"+3 volts\" test electrode reference electrode"
+  }
+}

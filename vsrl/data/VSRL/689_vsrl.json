@@ -1,0 +1,660 @@
+{
+  "image_id": "689",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          491,
+          73
+        ],
+        [
+          665,
+          176
+        ]
+      ],
+      "value": "Solar eclipse",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          893,
+          100
+        ],
+        [
+          1069,
+          203
+        ]
+      ],
+      "value": "Lunar eclipse",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          790,
+          215
+        ],
+        [
+          920,
+          265
+        ]
+      ],
+      "value": "Night",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          502,
+          199
+        ],
+        [
+          598,
+          242
+        ]
+      ],
+      "value": "Day",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          2,
+          247
+        ],
+        [
+          123,
+          306
+        ]
+      ],
+      "value": "Sun",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          359,
+          423
+        ],
+        [
+          500,
+          525
+        ]
+      ],
+      "value": "New moon",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          621,
+          420
+        ],
+        [
+          756,
+          464
+        ]
+      ],
+      "value": "Earth",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          948,
+          395
+        ],
+        [
+          1094,
+          500
+        ]
+      ],
+      "value": "Full moon",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          669,
+          190
+        ],
+        [
+          699,
+          190
+        ],
+        [
+          710,
+          190
+        ],
+        [
+          735,
+          199
+        ],
+        [
+          767,
+          219
+        ],
+        [
+          781,
+          233
+        ],
+        [
+          790,
+          267
+        ],
+        [
+          790,
+          304
+        ],
+        [
+          781,
+          327
+        ],
+        [
+          772,
+          347
+        ],
+        [
+          756,
+          368
+        ],
+        [
+          724,
+          379
+        ],
+        [
+          694,
+          386
+        ],
+        [
+          667,
+          381
+        ],
+        [
+          633,
+          361
+        ],
+        [
+          617,
+          343
+        ],
+        [
+          601,
+          315
+        ],
+        [
+          598,
+          283
+        ],
+        [
+          598,
+          270
+        ],
+        [
+          612,
+          244
+        ],
+        [
+          619,
+          226
+        ],
+        [
+          635,
+          208
+        ],
+        [
+          665,
+          194
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          991,
+          242
+        ],
+        [
+          1010,
+          242
+        ],
+        [
+          1032,
+          256
+        ],
+        [
+          1039,
+          272
+        ],
+        [
+          1042,
+          313
+        ],
+        [
+          1028,
+          333
+        ],
+        [
+          996,
+          343
+        ],
+        [
+          980,
+          333
+        ],
+        [
+          955,
+          313
+        ],
+        [
+          952,
+          290
+        ],
+        [
+          952,
+          272
+        ],
+        [
+          955,
+          258
+        ],
+        [
+          973,
+          254
+        ],
+        [
+          982,
+          247
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          420,
+          238
+        ],
+        [
+          445,
+          242
+        ],
+        [
+          459,
+          258
+        ],
+        [
+          466,
+          281
+        ],
+        [
+          457,
+          311
+        ],
+        [
+          439,
+          331
+        ],
+        [
+          420,
+          331
+        ],
+        [
+          393,
+          329
+        ],
+        [
+          384,
+          315
+        ],
+        [
+          375,
+          299
+        ],
+        [
+          375,
+          270
+        ],
+        [
+          381,
+          258
+        ],
+        [
+          395,
+          244
+        ],
+        [
+          423,
+          242
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          0,
+          155
+        ],
+        [
+          39,
+          160
+        ],
+        [
+          69,
+          180
+        ],
+        [
+          96,
+          201
+        ],
+        [
+          119,
+          228
+        ],
+        [
+          128,
+          254
+        ],
+        [
+          128,
+          317
+        ],
+        [
+          110,
+          361
+        ],
+        [
+          50,
+          413
+        ],
+        [
+          5,
+          418
+        ],
+        [
+          2,
+          162
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          39,
+          416
+        ],
+        [
+          656,
+          397
+        ],
+        [
+          1140,
+          372
+        ],
+        [
+          1140,
+          354
+        ],
+        [
+          537,
+          379
+        ],
+        [
+          48,
+          397
+        ],
+        [
+          41,
+          416
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          53,
+          404
+        ],
+        [
+          596,
+          290
+        ],
+        [
+          601,
+          308
+        ],
+        [
+          53,
+          413
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          23,
+          169
+        ],
+        [
+          601,
+          281
+        ],
+        [
+          603,
+          260
+        ],
+        [
+          27,
+          155
+        ],
+        [
+          27,
+          164
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          34,
+          164
+        ],
+        [
+          1137,
+          228
+        ],
+        [
+          1137,
+          210
+        ],
+        [
+          32,
+          151
+        ],
+        [
+          25,
+          158
+        ],
+        [
+          34,
+          162
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A3+H0",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B3+A1+B0",
+      "type": "interObjectLinkage",
+      "source": "B3",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "B3+A3+B0",
+      "type": "interObjectLinkage",
+      "source": "B3",
+      "target": "B0",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+I0",
+      "type": "sectionTitle",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B3",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+B2",
+      "type": "intraObjectLabel",
+      "source": "T5",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+B0",
+      "type": "intraObjectLabel",
+      "source": "T6",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T7+B1",
+      "type": "intraObjectLabel",
+      "source": "T7",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A3": "connector",
+    "A4": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "solar eclipse lunar eclipse night day sun new moon earth full moon"
+  },
+  "questions": [
+    {
+      "question_text": "What provides the earth with solar energy?",
+      "question_id": "689.png-0",
+      "answers": [
+        "None of the above",
+        "Sun",
+        "New Moon",
+        "Full Moon"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

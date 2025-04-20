@@ -1,0 +1,468 @@
+{
+  "image_id": "761",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          286,
+          28
+        ],
+        [
+          333,
+          48
+        ]
+      ],
+      "value": "Moon",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          258,
+          116
+        ],
+        [
+          298,
+          138
+        ]
+      ],
+      "value": "Earth",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          400,
+          132
+        ],
+        [
+          523,
+          169
+        ]
+      ],
+      "value": "-Apogee (farther from Earth)",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          10,
+          136
+        ],
+        [
+          139,
+          173
+        ]
+      ],
+      "value": "Perigee (closer to Earth)",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          238,
+          148
+        ],
+        [
+          235,
+          139
+        ],
+        [
+          241,
+          131
+        ],
+        [
+          249,
+          131
+        ],
+        [
+          257,
+          136
+        ],
+        [
+          259,
+          147
+        ],
+        [
+          249,
+          152
+        ],
+        [
+          240,
+          153
+        ],
+        [
+          237,
+          146
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          278,
+          51
+        ],
+        [
+          283,
+          42
+        ],
+        [
+          290,
+          43
+        ],
+        [
+          291,
+          52
+        ],
+        [
+          289,
+          57
+        ],
+        [
+          284,
+          54
+        ],
+        [
+          279,
+          49
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          278,
+          53
+        ],
+        [
+          278,
+          45
+        ],
+        [
+          230,
+          49
+        ],
+        [
+          192,
+          65
+        ],
+        [
+          162,
+          95
+        ],
+        [
+          151,
+          117
+        ],
+        [
+          150,
+          143
+        ],
+        [
+          154,
+          171
+        ],
+        [
+          171,
+          196
+        ],
+        [
+          200,
+          218
+        ],
+        [
+          245,
+          233
+        ],
+        [
+          285,
+          233
+        ],
+        [
+          340,
+          214
+        ],
+        [
+          373,
+          177
+        ],
+        [
+          384,
+          148
+        ],
+        [
+          380,
+          114
+        ],
+        [
+          361,
+          84
+        ],
+        [
+          335,
+          64
+        ],
+        [
+          313,
+          53
+        ],
+        [
+          296,
+          49
+        ],
+        [
+          294,
+          56
+        ],
+        [
+          312,
+          60
+        ],
+        [
+          333,
+          70
+        ],
+        [
+          356,
+          89
+        ],
+        [
+          372,
+          115
+        ],
+        [
+          377,
+          146
+        ],
+        [
+          368,
+          175
+        ],
+        [
+          336,
+          205
+        ],
+        [
+          285,
+          224
+        ],
+        [
+          248,
+          224
+        ],
+        [
+          208,
+          213
+        ],
+        [
+          178,
+          193
+        ],
+        [
+          161,
+          169
+        ],
+        [
+          157,
+          143
+        ],
+        [
+          158,
+          118
+        ],
+        [
+          169,
+          99
+        ],
+        [
+          195,
+          73
+        ],
+        [
+          232,
+          59
+        ],
+        [
+          277,
+          54
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          127,
+          150
+        ],
+        [
+          149,
+          150
+        ],
+        [
+          149,
+          136
+        ],
+        [
+          124,
+          136
+        ],
+        [
+          123,
+          149
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          405,
+          146
+        ],
+        [
+          402,
+          132
+        ],
+        [
+          383,
+          134
+        ],
+        [
+          381,
+          145
+        ],
+        [
+          403,
+          147
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H1",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+B1",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "moon earth -apogee (farther from earth) perigee (closer to earth)"
+  },
+  "questions": [
+    {
+      "question_text": "In the diagram, letters A, B, C and D show stages in the moon's cycle around the earth. Which letter shows apogee?",
+      "question_id": "761.png-3",
+      "answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "What letter represents the apogee?",
+      "question_id": "761.png-0",
+      "answers": [
+        "D",
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "What stage represents the perigee?",
+      "question_id": "761.png-2",
+      "answers": [
+        "C",
+        "A",
+        "D",
+        "B"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which stage in this diagram represents apogee?",
+      "question_id": "761.png-1",
+      "answers": [
+        "D",
+        "C",
+        "B",
+        "A"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

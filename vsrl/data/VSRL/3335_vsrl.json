@@ -1,0 +1,742 @@
+{
+  "image_id": "3335",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          4,
+          6
+        ],
+        [
+          150,
+          96
+        ]
+      ],
+      "value": "A TYPICAL ANIMAL CELL",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          265,
+          49
+        ],
+        [
+          326,
+          67
+        ]
+      ],
+      "value": "VACUOLE",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T10": {
+      "id": "T10",
+      "type": "text",
+      "bbox": [
+        [
+          4,
+          357
+        ],
+        [
+          81,
+          377
+        ]
+      ],
+      "value": "CYTOPLASM",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          319,
+          95
+        ],
+        [
+          402,
+          134
+        ]
+      ],
+      "value": "CELL MEMBRANE",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          379,
+          144
+        ],
+        [
+          460,
+          168
+        ]
+      ],
+      "value": "NUCLEOLUS",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          393,
+          191
+        ],
+        [
+          480,
+          218
+        ]
+      ],
+      "value": "NUCLEOPLASM",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          392,
+          236
+        ],
+        [
+          480,
+          273
+        ]
+      ],
+      "value": "NUCLEAR MEMBRANE",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          395,
+          276
+        ],
+        [
+          478,
+          302
+        ]
+      ],
+      "value": "RIBOSOMES",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          365,
+          357
+        ],
+        [
+          475,
+          388
+        ]
+      ],
+      "value": "Mitochondrion",
+      "replacementText": "K",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          240
+        ],
+        [
+          82,
+          280
+        ]
+      ],
+      "value": "CHROMATIN (DNA)",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          188
+        ],
+        [
+          73,
+          215
+        ]
+      ],
+      "value": "ROUGH ER",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          82,
+          181
+        ],
+        [
+          92,
+          152
+        ],
+        [
+          84,
+          89
+        ],
+        [
+          159,
+          24
+        ],
+        [
+          223,
+          22
+        ],
+        [
+          264,
+          42
+        ],
+        [
+          276,
+          65
+        ],
+        [
+          329,
+          141
+        ],
+        [
+          374,
+          157
+        ],
+        [
+          409,
+          228
+        ],
+        [
+          389,
+          331
+        ],
+        [
+          356,
+          381
+        ],
+        [
+          292,
+          419
+        ],
+        [
+          194,
+          425
+        ],
+        [
+          103,
+          377
+        ],
+        [
+          57,
+          260
+        ],
+        [
+          80,
+          179
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          272,
+          60
+        ],
+        [
+          284,
+          65
+        ],
+        [
+          255,
+          158
+        ],
+        [
+          244,
+          152
+        ],
+        [
+          270,
+          61
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          333,
+          157
+        ],
+        [
+          337,
+          164
+        ],
+        [
+          389,
+          133
+        ],
+        [
+          379,
+          122
+        ],
+        [
+          333,
+          158
+        ]
+      ],
+      "category": "connector"
+    },
+    "A10": {
+      "id": "A10",
+      "type": "arrow",
+      "polygon": [
+        [
+          308,
+          270
+        ],
+        [
+          303,
+          290
+        ],
+        [
+          441,
+          310
+        ],
+        [
+          443,
+          296
+        ],
+        [
+          309,
+          273
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          226,
+          215
+        ],
+        [
+          231,
+          230
+        ],
+        [
+          451,
+          168
+        ],
+        [
+          445,
+          158
+        ],
+        [
+          228,
+          212
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          260,
+          239
+        ],
+        [
+          449,
+          214
+        ],
+        [
+          445,
+          200
+        ],
+        [
+          256,
+          228
+        ],
+        [
+          256,
+          239
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          267,
+          242
+        ],
+        [
+          266,
+          250
+        ],
+        [
+          457,
+          259
+        ],
+        [
+          457,
+          248
+        ],
+        [
+          268,
+          243
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          33,
+          206
+        ],
+        [
+          32,
+          218
+        ],
+        [
+          137,
+          219
+        ],
+        [
+          139,
+          206
+        ],
+        [
+          37,
+          205
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          44,
+          254
+        ],
+        [
+          49,
+          267
+        ],
+        [
+          213,
+          254
+        ],
+        [
+          210,
+          242
+        ],
+        [
+          44,
+          253
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          133,
+          318
+        ],
+        [
+          138,
+          327
+        ],
+        [
+          75,
+          356
+        ],
+        [
+          65,
+          347
+        ],
+        [
+          133,
+          316
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          292,
+          318
+        ],
+        [
+          291,
+          329
+        ],
+        [
+          426,
+          364
+        ],
+        [
+          428,
+          350
+        ],
+        [
+          291,
+          318
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          297,
+          294
+        ],
+        [
+          435,
+          309
+        ],
+        [
+          434,
+          297
+        ],
+        [
+          291,
+          286
+        ],
+        [
+          295,
+          296
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T10+A7+B0",
+      "type": "intraObjectLinkage",
+      "source": "T10",
+      "target": "B0",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T2+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T3+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T4+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T5+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T6+A10+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A10",
+      "directional": false
+    },
+    {
+      "id": "T6+A9+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A9",
+      "directional": false
+    },
+    {
+      "id": "T7+A8+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A8",
+      "directional": false
+    },
+    {
+      "id": "T8+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T8",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T9+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T9",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T10": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A10": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "a typical animal cell vacuole cytoplasm cell membrane nucleolus nucleoplasm nuclear membrane ribosomes mitochondrion chromatin (dna) rough er"
+  },
+  "questions": [
+    {
+      "question_text": "What is also called a nuclear envelope?",
+      "question_id": "3335.png-0",
+      "answers": [
+        "Cell membrane",
+        "Nucleoplasm",
+        "Rough ER",
+        "Nuclear membrane"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is depicted by H in the diagram?",
+      "question_id": "3335.png-2",
+      "answers": [
+        "cytoplasm",
+        "protoplasm",
+        "cell membrane",
+        "none of the above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is outermost part?",
+      "question_id": "3335.png-1",
+      "answers": [
+        "cytoplasm",
+        "rough ER",
+        "none of the above",
+        "cell membrane"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is the semipermeable membrane that encloses the cytoplasm of a cell.",
+      "question_id": "3335.png-3",
+      "answers": [
+        "Nucleoplasm",
+        "Rough ER",
+        "Cell membrane",
+        "Nucleus"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

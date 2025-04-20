@@ -1,0 +1,308 @@
+{
+  "image_id": "1757",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          286,
+          13
+        ],
+        [
+          523,
+          132
+        ]
+      ],
+      "value": "Reverse or Thrust Faulting a. A block of crust before Faulting. b. After faulting. Note that the block becomes shorter. c. An eroded reverse fault.  Note that the well  passes through several layers twice.",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          242,
+          151
+        ],
+        [
+          258,
+          163
+        ]
+      ],
+      "value": "a.",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          239,
+          347
+        ],
+        [
+          255,
+          361
+        ]
+      ],
+      "value": "b.",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          527,
+          350
+        ],
+        [
+          540,
+          359
+        ]
+      ],
+      "value": "c.",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          12,
+          88
+        ],
+        [
+          83,
+          17
+        ],
+        [
+          270,
+          17
+        ],
+        [
+          272,
+          97
+        ],
+        [
+          199,
+          176
+        ],
+        [
+          14,
+          173
+        ],
+        [
+          14,
+          87
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          180,
+          396
+        ],
+        [
+          198,
+          379
+        ],
+        [
+          224,
+          350
+        ],
+        [
+          250,
+          324
+        ],
+        [
+          248,
+          238
+        ],
+        [
+          157,
+          237
+        ],
+        [
+          174,
+          197
+        ],
+        [
+          76,
+          196
+        ],
+        [
+          7,
+          271
+        ],
+        [
+          8,
+          353
+        ],
+        [
+          78,
+          354
+        ],
+        [
+          60,
+          396
+        ],
+        [
+          177,
+          395
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          371,
+          199
+        ],
+        [
+          304,
+          268
+        ],
+        [
+          302,
+          270
+        ],
+        [
+          302,
+          356
+        ],
+        [
+          371,
+          356
+        ],
+        [
+          356,
+          395
+        ],
+        [
+          475,
+          397
+        ],
+        [
+          543,
+          324
+        ],
+        [
+          544,
+          240
+        ],
+        [
+          447,
+          239
+        ],
+        [
+          410,
+          200
+        ],
+        [
+          375,
+          198
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageCaption",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B1",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B2",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "reverse or thrust faulting a. a block of crust before faulting. b. after faulting. note that the block becomes shorter. c. an eroded reverse fault.  note that the well  passes through several layers twice. a. b. c."
+  },
+  "questions": [
+    {
+      "question_text": "A block of crust before faulting is ?",
+      "question_id": "1757.png-1",
+      "answers": [
+        "B",
+        "C",
+        "D",
+        "A"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "After Faulting the block becomes shorter in ?",
+      "question_id": "1757.png-2",
+      "answers": [
+        "B",
+        "C",
+        "A",
+        "D"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which item is an eroded reverse fault?",
+      "question_id": "1757.png-0",
+      "answers": [
+        "a",
+        "b",
+        "all of them",
+        "c"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    }
+  ]
+}

@@ -1,0 +1,794 @@
+{
+  "image_id": "2896",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          50,
+          45
+        ],
+        [
+          164,
+          60
+        ]
+      ],
+      "value": "External membrane",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          113,
+          5
+        ],
+        [
+          229,
+          22
+        ]
+      ],
+      "value": "Internal membrane",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T10": {
+      "id": "T10",
+      "type": "text",
+      "bbox": [
+        [
+          501,
+          7
+        ],
+        [
+          560,
+          23
+        ]
+      ],
+      "value": "Ribosome",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          64,
+          23
+        ],
+        [
+          195,
+          40
+        ]
+      ],
+      "value": "Intermembrane space",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          28,
+          76
+        ],
+        [
+          85,
+          93
+        ]
+      ],
+      "value": "Granum",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          4,
+          120
+        ],
+        [
+          69,
+          155
+        ]
+      ],
+      "value": "Chloroplast DNA",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          2,
+          199
+        ],
+        [
+          50,
+          218
+        ]
+      ],
+      "value": "Stroma",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          361,
+          329
+        ],
+        [
+          405,
+          344
+        ]
+      ],
+      "value": "Lamella",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          438,
+          281
+        ],
+        [
+          564,
+          300
+        ]
+      ],
+      "value": "Thylakoid membrane",
+      "replacementText": "K",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          423,
+          302
+        ],
+        [
+          468,
+          323
+        ]
+      ],
+      "value": "Lumen",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          527,
+          233
+        ],
+        [
+          587,
+          252
+        ]
+      ],
+      "value": "Thylakoid",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          561,
+          211
+        ],
+        [
+          297,
+          342
+        ],
+        [
+          239,
+          357
+        ],
+        [
+          192,
+          357
+        ],
+        [
+          92,
+          332
+        ],
+        [
+          50,
+          265
+        ],
+        [
+          75,
+          152
+        ],
+        [
+          144,
+          84
+        ],
+        [
+          204,
+          52
+        ],
+        [
+          283,
+          35
+        ],
+        [
+          485,
+          40
+        ],
+        [
+          562,
+          67
+        ],
+        [
+          595,
+          106
+        ],
+        [
+          599,
+          165
+        ],
+        [
+          582,
+          191
+        ],
+        [
+          561,
+          209
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          227,
+          9
+        ],
+        [
+          220,
+          19
+        ],
+        [
+          300,
+          92
+        ],
+        [
+          316,
+          78
+        ],
+        [
+          231,
+          9
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          198,
+          28
+        ],
+        [
+          188,
+          40
+        ],
+        [
+          267,
+          108
+        ],
+        [
+          279,
+          97
+        ],
+        [
+          198,
+          29
+        ]
+      ],
+      "category": "connector"
+    },
+    "A10": {
+      "id": "A10",
+      "type": "arrow",
+      "polygon": [
+        [
+          483,
+          67
+        ],
+        [
+          499,
+          73
+        ],
+        [
+          519,
+          22
+        ],
+        [
+          505,
+          19
+        ],
+        [
+          485,
+          66
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          161,
+          48
+        ],
+        [
+          159,
+          62
+        ],
+        [
+          245,
+          128
+        ],
+        [
+          251,
+          119
+        ],
+        [
+          163,
+          48
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          88,
+          77
+        ],
+        [
+          81,
+          88
+        ],
+        [
+          252,
+          196
+        ],
+        [
+          259,
+          185
+        ],
+        [
+          90,
+          77
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          56,
+          132
+        ],
+        [
+          51,
+          146
+        ],
+        [
+          210,
+          241
+        ],
+        [
+          210,
+          230
+        ],
+        [
+          56,
+          136
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          50,
+          206
+        ],
+        [
+          48,
+          219
+        ],
+        [
+          191,
+          255
+        ],
+        [
+          190,
+          240
+        ],
+        [
+          51,
+          205
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          293,
+          300
+        ],
+        [
+          290,
+          312
+        ],
+        [
+          354,
+          341
+        ],
+        [
+          360,
+          329
+        ],
+        [
+          297,
+          298
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          390,
+          274
+        ],
+        [
+          382,
+          281
+        ],
+        [
+          421,
+          312
+        ],
+        [
+          431,
+          304
+        ],
+        [
+          390,
+          272
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          404,
+          262
+        ],
+        [
+          399,
+          269
+        ],
+        [
+          439,
+          296
+        ],
+        [
+          445,
+          283
+        ],
+        [
+          406,
+          261
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          475,
+          192
+        ],
+        [
+          466,
+          202
+        ],
+        [
+          527,
+          251
+        ],
+        [
+          534,
+          241
+        ],
+        [
+          471,
+          190
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H9",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H9",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H3",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A10+H0",
+      "type": "arrowHeadTail",
+      "source": "A10",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H7",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H8",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H8",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H10",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H10",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H2",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H6",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H5",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A8+H1",
+      "type": "arrowHeadTail",
+      "source": "A8",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A9+H4",
+      "type": "arrowHeadTail",
+      "source": "A9",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T1+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T10+A10+B0",
+      "type": "intraObjectLinkage",
+      "source": "T10",
+      "target": "B0",
+      "connector": "A10",
+      "directional": false
+    },
+    {
+      "id": "T2+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T3+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T4+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T5+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T6+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T7+A8+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A8",
+      "directional": false
+    },
+    {
+      "id": "T8+A7+B0",
+      "type": "intraObjectLinkage",
+      "source": "T8",
+      "target": "B0",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T9+A9+B0",
+      "type": "intraObjectLinkage",
+      "source": "T9",
+      "target": "B0",
+      "connector": "A9",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T10": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A10": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "external membrane internal membrane ribosome intermembrane space granum chloroplast dna stroma lamella thylakoid membrane lumen thylakoid"
+  },
+  "questions": [
+    {
+      "question_text": "What separates the inner membrane from the outside membrane and brings stuff across?",
+      "question_id": "2896.png-1",
+      "answers": [
+        "Intermembrane space",
+        "stroma",
+        "ribosome",
+        "lumen"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which label represents the Lamella?",
+      "question_id": "2896.png-0",
+      "answers": [
+        "C",
+        "D",
+        "B",
+        "I"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    }
+  ]
+}

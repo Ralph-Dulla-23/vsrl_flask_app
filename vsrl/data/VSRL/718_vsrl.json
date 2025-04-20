@@ -1,0 +1,338 @@
+{
+  "image_id": "718",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          97,
+          61
+        ],
+        [
+          216,
+          125
+        ]
+      ],
+      "value": "biotite mica",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          419,
+          40
+        ],
+        [
+          599,
+          97
+        ]
+      ],
+      "value": "potassium feldspar",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          14,
+          196
+        ],
+        [
+          136,
+          227
+        ]
+      ],
+      "value": "quartz",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          183,
+          184
+        ],
+        [
+          207,
+          364
+        ],
+        [
+          228,
+          422
+        ],
+        [
+          325,
+          410
+        ],
+        [
+          475,
+          396
+        ],
+        [
+          495,
+          381
+        ],
+        [
+          499,
+          348
+        ],
+        [
+          498,
+          332
+        ],
+        [
+          474,
+          232
+        ],
+        [
+          444,
+          137
+        ],
+        [
+          430,
+          122
+        ],
+        [
+          419,
+          122
+        ],
+        [
+          353,
+          131
+        ],
+        [
+          323,
+          140
+        ],
+        [
+          319,
+          145
+        ],
+        [
+          285,
+          155
+        ],
+        [
+          187,
+          184
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          131,
+          206
+        ],
+        [
+          131,
+          215
+        ],
+        [
+          177,
+          215
+        ],
+        [
+          178,
+          224
+        ],
+        [
+          196,
+          211
+        ],
+        [
+          178,
+          193
+        ],
+        [
+          175,
+          202
+        ],
+        [
+          132,
+          204
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          193,
+          118
+        ],
+        [
+          189,
+          123
+        ],
+        [
+          233,
+          163
+        ],
+        [
+          228,
+          169
+        ],
+        [
+          250,
+          175
+        ],
+        [
+          243,
+          150
+        ],
+        [
+          236,
+          151
+        ],
+        [
+          196,
+          119
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          467,
+          91
+        ],
+        [
+          474,
+          99
+        ],
+        [
+          440,
+          134
+        ],
+        [
+          448,
+          141
+        ],
+        [
+          429,
+          147
+        ],
+        [
+          429,
+          123
+        ],
+        [
+          435,
+          125
+        ],
+        [
+          470,
+          93
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T1+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T2+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "biotite mica potassium feldspar quartz"
+  },
+  "questions": [
+    {
+      "question_text": "What is not shown in the diagram?",
+      "question_id": "718.png-0",
+      "answers": [
+        "argon",
+        "quartz",
+        "none of the above",
+        "potassium feldspar"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which of these is shown in the diagram?",
+      "question_id": "718.png-1",
+      "answers": [
+        "iron",
+        "none of the above",
+        "quartz",
+        "silver"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

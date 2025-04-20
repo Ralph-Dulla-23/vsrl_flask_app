@@ -1,0 +1,420 @@
+{
+  "image_id": "2612",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          773,
+          169
+        ],
+        [
+          842,
+          200
+        ]
+      ],
+      "value": "Moon",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          506,
+          256
+        ],
+        [
+          705,
+          309
+        ]
+      ],
+      "value": "gravitational force of the Moon",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          231,
+          71
+        ],
+        [
+          296,
+          100
+        ]
+      ],
+      "value": "Earth",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          82,
+          19
+        ],
+        [
+          832,
+          61
+        ]
+      ],
+      "value": "Tides caused by Gravitational Force of the moon",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          372,
+          459
+        ],
+        [
+          479,
+          490
+        ]
+      ],
+      "value": "high tide",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          44,
+          458
+        ],
+        [
+          148,
+          493
+        ]
+      ],
+      "value": "high tide",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          203,
+          120
+        ],
+        [
+          239,
+          113
+        ],
+        [
+          279,
+          109
+        ],
+        [
+          311,
+          118
+        ],
+        [
+          344,
+          129
+        ],
+        [
+          368,
+          144
+        ],
+        [
+          389,
+          163
+        ],
+        [
+          405,
+          179
+        ],
+        [
+          431,
+          231
+        ],
+        [
+          435,
+          263
+        ],
+        [
+          435,
+          294
+        ],
+        [
+          431,
+          319
+        ],
+        [
+          424,
+          345
+        ],
+        [
+          408,
+          383
+        ],
+        [
+          368,
+          416
+        ],
+        [
+          332,
+          438
+        ],
+        [
+          269,
+          452
+        ],
+        [
+          219,
+          447
+        ],
+        [
+          184,
+          429
+        ],
+        [
+          146,
+          404
+        ],
+        [
+          121,
+          370
+        ],
+        [
+          106,
+          333
+        ],
+        [
+          96,
+          294
+        ],
+        [
+          96,
+          254
+        ],
+        [
+          106,
+          219
+        ],
+        [
+          121,
+          190
+        ],
+        [
+          150,
+          156
+        ],
+        [
+          177,
+          135
+        ],
+        [
+          202,
+          119
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          792,
+          210
+        ],
+        [
+          821,
+          209
+        ],
+        [
+          849,
+          226
+        ],
+        [
+          865,
+          247
+        ],
+        [
+          875,
+          273
+        ],
+        [
+          870,
+          311
+        ],
+        [
+          848,
+          341
+        ],
+        [
+          818,
+          352
+        ],
+        [
+          777,
+          352
+        ],
+        [
+          744,
+          330
+        ],
+        [
+          732,
+          300
+        ],
+        [
+          733,
+          262
+        ],
+        [
+          746,
+          233
+        ],
+        [
+          768,
+          217
+        ],
+        [
+          795,
+          210
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          424,
+          462
+        ],
+        [
+          424,
+          259
+        ],
+        [
+          437,
+          259
+        ],
+        [
+          439,
+          464
+        ],
+        [
+          423,
+          463
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          92,
+          463
+        ],
+        [
+          94,
+          258
+        ],
+        [
+          106,
+          259
+        ],
+        [
+          106,
+          464
+        ],
+        [
+          95,
+          463
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+B1",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+I0",
+      "type": "imageTitle",
+      "source": "T3",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "title",
+    "T4": "part_label",
+    "T5": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "moon gravitational force of the moon earth tides caused by gravitational force of the moon high tide high tide"
+  },
+  "questions": [
+    {
+      "question_text": "What is the cause for the high or low tides to occur?",
+      "question_id": "2612.png-0",
+      "answers": [
+        "Gravitational pull of moon",
+        "Tilted axis of earth",
+        "Gravitational pull of Jupiter",
+        "Seasonal changes"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "What letter best represents the gravitational force of the Moon?",
+      "question_id": "2612.png-1",
+      "answers": [
+        "C",
+        "D",
+        "B",
+        "F"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}

@@ -1,0 +1,402 @@
+{
+  "image_id": "4886",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          129,
+          40
+        ],
+        [
+          505,
+          82
+        ]
+      ],
+      "value": "Forming Igneous Rocks",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          138,
+          133
+        ],
+        [
+          228,
+          150
+        ]
+      ],
+      "value": "Igneous rock",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          300,
+          184
+        ],
+        [
+          413,
+          205
+        ]
+      ],
+      "value": "Volcanic eruption",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          91,
+          273
+        ],
+        [
+          205,
+          292
+        ]
+      ],
+      "value": "Earth's surface",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          396,
+          427
+        ],
+        [
+          476,
+          447
+        ]
+      ],
+      "value": "Molten rock",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          61,
+          455
+        ],
+        [
+          62,
+          288
+        ],
+        [
+          88,
+          291
+        ],
+        [
+          113,
+          288
+        ],
+        [
+          182,
+          289
+        ],
+        [
+          256,
+          281
+        ],
+        [
+          287,
+          284
+        ],
+        [
+          352,
+          248
+        ],
+        [
+          374,
+          233
+        ],
+        [
+          420,
+          201
+        ],
+        [
+          427,
+          197
+        ],
+        [
+          411,
+          185
+        ],
+        [
+          406,
+          178
+        ],
+        [
+          399,
+          176
+        ],
+        [
+          383,
+          172
+        ],
+        [
+          372,
+          178
+        ],
+        [
+          361,
+          172
+        ],
+        [
+          356,
+          165
+        ],
+        [
+          344,
+          170
+        ],
+        [
+          339,
+          164
+        ],
+        [
+          324,
+          155
+        ],
+        [
+          306,
+          151
+        ],
+        [
+          300,
+          134
+        ],
+        [
+          306,
+          129
+        ],
+        [
+          312,
+          127
+        ],
+        [
+          310,
+          119
+        ],
+        [
+          315,
+          118
+        ],
+        [
+          313,
+          112
+        ],
+        [
+          561,
+          113
+        ],
+        [
+          562,
+          119
+        ],
+        [
+          558,
+          123
+        ],
+        [
+          559,
+          132
+        ],
+        [
+          552,
+          138
+        ],
+        [
+          548,
+          141
+        ],
+        [
+          550,
+          145
+        ],
+        [
+          537,
+          152
+        ],
+        [
+          528,
+          159
+        ],
+        [
+          519,
+          158
+        ],
+        [
+          514,
+          165
+        ],
+        [
+          507,
+          170
+        ],
+        [
+          493,
+          167
+        ],
+        [
+          485,
+          167
+        ],
+        [
+          475,
+          170
+        ],
+        [
+          462,
+          173
+        ],
+        [
+          464,
+          180
+        ],
+        [
+          470,
+          185
+        ],
+        [
+          463,
+          188
+        ],
+        [
+          457,
+          193
+        ],
+        [
+          446,
+          196
+        ],
+        [
+          456,
+          202
+        ],
+        [
+          468,
+          207
+        ],
+        [
+          487,
+          225
+        ],
+        [
+          507,
+          240
+        ],
+        [
+          520,
+          251
+        ],
+        [
+          541,
+          273
+        ],
+        [
+          555,
+          284
+        ],
+        [
+          571,
+          284
+        ],
+        [
+          574,
+          455
+        ],
+        [
+          62,
+          455
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+I0",
+      "type": "imageCaption",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T4",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "forming igneous rocks igneous rock volcanic eruption earth's surface molten rock"
+  },
+  "questions": [
+    {
+      "question_text": "which part is deepest in diagram?",
+      "question_id": "4886.png-0",
+      "answers": [
+        "igneous rock",
+        "molten rock",
+        "earth's surface",
+        "volcanic eruption"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

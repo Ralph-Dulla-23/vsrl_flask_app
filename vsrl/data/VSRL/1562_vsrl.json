@@ -1,0 +1,530 @@
+{
+  "image_id": "1562",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          105,
+          0
+        ],
+        [
+          197,
+          43
+        ]
+      ],
+      "value": "Schematic diagram",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          30,
+          193
+        ],
+        [
+          287,
+          215
+        ]
+      ],
+      "value": "Real circuit using jumper wires",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          283,
+          300
+        ],
+        [
+          352,
+          322
+        ]
+      ],
+      "value": "Resistor",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          6,
+          385
+        ],
+        [
+          69,
+          406
+        ]
+      ],
+      "value": "Battery",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          63,
+          77
+        ],
+        [
+          93,
+          76
+        ],
+        [
+          93,
+          78
+        ],
+        [
+          93,
+          99
+        ],
+        [
+          84,
+          108
+        ],
+        [
+          70,
+          108
+        ],
+        [
+          64,
+          98
+        ],
+        [
+          61,
+          96
+        ],
+        [
+          62,
+          78
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          216,
+          74
+        ],
+        [
+          235,
+          75
+        ],
+        [
+          235,
+          112
+        ],
+        [
+          219,
+          112
+        ],
+        [
+          218,
+          76
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          30,
+          258
+        ],
+        [
+          9,
+          304
+        ],
+        [
+          8,
+          379
+        ],
+        [
+          63,
+          381
+        ],
+        [
+          87,
+          335
+        ],
+        [
+          87,
+          258
+        ],
+        [
+          87,
+          258
+        ],
+        [
+          30,
+          257
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          257,
+          295
+        ],
+        [
+          272,
+          295
+        ],
+        [
+          273,
+          341
+        ],
+        [
+          258,
+          339
+        ],
+        [
+          257,
+          295
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          53,
+          242
+        ],
+        [
+          64,
+          248
+        ],
+        [
+          80,
+          243
+        ],
+        [
+          96,
+          250
+        ],
+        [
+          127,
+          275
+        ],
+        [
+          173,
+          326
+        ],
+        [
+          206,
+          353
+        ],
+        [
+          235,
+          368
+        ],
+        [
+          249,
+          367
+        ],
+        [
+          241,
+          357
+        ],
+        [
+          213,
+          345
+        ],
+        [
+          174,
+          310
+        ],
+        [
+          132,
+          263
+        ],
+        [
+          104,
+          242
+        ],
+        [
+          84,
+          235
+        ],
+        [
+          63,
+          234
+        ],
+        [
+          56,
+          240
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          6,
+          258
+        ],
+        [
+          21,
+          257
+        ],
+        [
+          16,
+          241
+        ],
+        [
+          30,
+          233
+        ],
+        [
+          53,
+          229
+        ],
+        [
+          78,
+          231
+        ],
+        [
+          105,
+          237
+        ],
+        [
+          187,
+          265
+        ],
+        [
+          227,
+          283
+        ],
+        [
+          240,
+          289
+        ],
+        [
+          241,
+          276
+        ],
+        [
+          142,
+          239
+        ],
+        [
+          90,
+          225
+        ],
+        [
+          40,
+          220
+        ],
+        [
+          16,
+          224
+        ],
+        [
+          4,
+          239
+        ],
+        [
+          7,
+          257
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          73,
+          72
+        ],
+        [
+          85,
+          73
+        ],
+        [
+          84,
+          55
+        ],
+        [
+          224,
+          55
+        ],
+        [
+          224,
+          75
+        ],
+        [
+          233,
+          75
+        ],
+        [
+          234,
+          45
+        ],
+        [
+          74,
+          46
+        ],
+        [
+          75,
+          70
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          72,
+          109
+        ],
+        [
+          84,
+          108
+        ],
+        [
+          83,
+          134
+        ],
+        [
+          223,
+          135
+        ],
+        [
+          223,
+          114
+        ],
+        [
+          233,
+          114
+        ],
+        [
+          232,
+          142
+        ],
+        [
+          73,
+          143
+        ],
+        [
+          73,
+          112
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "B0+A2+B1",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B1",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "B0+A3+B1",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B1",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "B2+A0+B3",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B3",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "B2+A1+B3",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B3",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T0+I0",
+      "type": "sectionTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+I0",
+      "type": "sectionTitle",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B3",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B2",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "physics",
+    "diagram_type": "labeled_illustration",
+    "text_content": "schematic diagram real circuit using jumper wires resistor battery"
+  }
+}

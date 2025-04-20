@@ -1,0 +1,400 @@
+{
+  "image_id": "3012",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          183,
+          20
+        ],
+        [
+          231,
+          45
+        ]
+      ],
+      "value": "bark",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          163,
+          69
+        ],
+        [
+          247,
+          115
+        ]
+      ],
+      "value": "cambium layer",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          182,
+          157
+        ],
+        [
+          243,
+          179
+        ]
+      ],
+      "value": "wood",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          179,
+          208
+        ],
+        [
+          223,
+          234
+        ]
+      ],
+      "value": "pith",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          10,
+          0
+        ],
+        [
+          6,
+          54
+        ],
+        [
+          3,
+          115
+        ],
+        [
+          0,
+          162
+        ],
+        [
+          0,
+          238
+        ],
+        [
+          0,
+          252
+        ],
+        [
+          75,
+          252
+        ],
+        [
+          120,
+          252
+        ],
+        [
+          153,
+          252
+        ],
+        [
+          163,
+          252
+        ],
+        [
+          169,
+          237
+        ],
+        [
+          171,
+          214
+        ],
+        [
+          162,
+          207
+        ],
+        [
+          159,
+          207
+        ],
+        [
+          156,
+          187
+        ],
+        [
+          159,
+          170
+        ],
+        [
+          166,
+          134
+        ],
+        [
+          166,
+          117
+        ],
+        [
+          165,
+          73
+        ],
+        [
+          165,
+          50
+        ],
+        [
+          167,
+          11
+        ],
+        [
+          171,
+          0
+        ],
+        [
+          171,
+          0
+        ],
+        [
+          110,
+          0
+        ],
+        [
+          24,
+          0
+        ],
+        [
+          8,
+          0
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          134,
+          31
+        ],
+        [
+          186,
+          24
+        ],
+        [
+          186,
+          48
+        ],
+        [
+          141,
+          60
+        ],
+        [
+          136,
+          31
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          123,
+          100
+        ],
+        [
+          181,
+          77
+        ],
+        [
+          186,
+          97
+        ],
+        [
+          134,
+          117
+        ],
+        [
+          125,
+          99
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          109,
+          173
+        ],
+        [
+          184,
+          158
+        ],
+        [
+          188,
+          180
+        ],
+        [
+          114,
+          201
+        ],
+        [
+          110,
+          173
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          74,
+          234
+        ],
+        [
+          184,
+          211
+        ],
+        [
+          189,
+          235
+        ],
+        [
+          72,
+          252
+        ],
+        [
+          70,
+          236
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H3",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H2",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T2+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T3+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "bark cambium layer wood pith"
+  },
+  "questions": [
+    {
+      "question_text": "Where is the bark?",
+      "question_id": "3012.png-0",
+      "answers": [
+        "B",
+        "C",
+        "A",
+        "D"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "Where is the cambium layer?",
+      "question_id": "3012.png-1",
+      "answers": [
+        "D",
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

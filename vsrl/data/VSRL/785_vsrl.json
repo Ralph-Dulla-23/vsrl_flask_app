@@ -1,0 +1,808 @@
+{
+  "image_id": "785",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          125,
+          13
+        ],
+        [
+          305,
+          50
+        ]
+      ],
+      "value": "Nitrogen Cycle",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          326,
+          79
+        ],
+        [
+          425,
+          102
+        ]
+      ],
+      "value": "Waste products",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          299,
+          126
+        ],
+        [
+          363,
+          145
+        ]
+      ],
+      "value": "Ammonia",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          20,
+          141
+        ],
+        [
+          163,
+          162
+        ]
+      ],
+      "value": "ONLY RECYCLES IN NATURE",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          357,
+          191
+        ],
+        [
+          444,
+          214
+        ]
+      ],
+      "value": "Nitrosomonas",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          310,
+          283
+        ],
+        [
+          357,
+          302
+        ]
+      ],
+      "value": "Nitrite",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          336,
+          324
+        ],
+        [
+          413,
+          346
+        ]
+      ],
+      "value": "Nitrobacter ",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          189,
+          344
+        ],
+        [
+          238,
+          366
+        ]
+      ],
+      "value": "Nitrate",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          327
+        ],
+        [
+          86,
+          360
+        ]
+      ],
+      "value": "Build-up of excess Nitrate",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          22,
+          276
+        ],
+        [
+          152,
+          298
+        ]
+      ],
+      "value": "Assimilation by algae",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          157,
+          83
+        ],
+        [
+          174,
+          93
+        ],
+        [
+          180,
+          93
+        ],
+        [
+          214,
+          111
+        ],
+        [
+          211,
+          105
+        ],
+        [
+          215,
+          105
+        ],
+        [
+          205,
+          95
+        ],
+        [
+          219,
+          95
+        ],
+        [
+          245,
+          103
+        ],
+        [
+          249,
+          102
+        ],
+        [
+          241,
+          96
+        ],
+        [
+          247,
+          96
+        ],
+        [
+          257,
+          99
+        ],
+        [
+          265,
+          93
+        ],
+        [
+          265,
+          86
+        ],
+        [
+          265,
+          79
+        ],
+        [
+          260,
+          73
+        ],
+        [
+          251,
+          78
+        ],
+        [
+          246,
+          82
+        ],
+        [
+          251,
+          72
+        ],
+        [
+          245,
+          68
+        ],
+        [
+          237,
+          69
+        ],
+        [
+          203,
+          58
+        ],
+        [
+          191,
+          63
+        ],
+        [
+          180,
+          66
+        ],
+        [
+          163,
+          74
+        ],
+        [
+          159,
+          83
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          83,
+          143
+        ],
+        [
+          113,
+          107
+        ],
+        [
+          138,
+          92
+        ],
+        [
+          131,
+          90
+        ],
+        [
+          159,
+          84
+        ],
+        [
+          144,
+          107
+        ],
+        [
+          142,
+          100
+        ],
+        [
+          96,
+          147
+        ],
+        [
+          82,
+          146
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          267,
+          91
+        ],
+        [
+          276,
+          80
+        ],
+        [
+          317,
+          115
+        ],
+        [
+          318,
+          102
+        ],
+        [
+          327,
+          133
+        ],
+        [
+          305,
+          120
+        ],
+        [
+          310,
+          119
+        ],
+        [
+          268,
+          91
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          327,
+          147
+        ],
+        [
+          348,
+          142
+        ],
+        [
+          362,
+          193
+        ],
+        [
+          358,
+          244
+        ],
+        [
+          348,
+          268
+        ],
+        [
+          359,
+          272
+        ],
+        [
+          335,
+          289
+        ],
+        [
+          338,
+          261
+        ],
+        [
+          343,
+          265
+        ],
+        [
+          351,
+          229
+        ],
+        [
+          347,
+          188
+        ],
+        [
+          331,
+          149
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          235,
+          355
+        ],
+        [
+          254,
+          340
+        ],
+        [
+          254,
+          344
+        ],
+        [
+          255,
+          349
+        ],
+        [
+          291,
+          329
+        ],
+        [
+          324,
+          298
+        ],
+        [
+          334,
+          302
+        ],
+        [
+          294,
+          341
+        ],
+        [
+          259,
+          356
+        ],
+        [
+          262,
+          363
+        ],
+        [
+          237,
+          357
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          191,
+          349
+        ],
+        [
+          152,
+          339
+        ],
+        [
+          110,
+          309
+        ],
+        [
+          117,
+          305
+        ],
+        [
+          93,
+          293
+        ],
+        [
+          101,
+          318
+        ],
+        [
+          104,
+          313
+        ],
+        [
+          148,
+          346
+        ],
+        [
+          106,
+          348
+        ],
+        [
+          112,
+          340
+        ],
+        [
+          87,
+          350
+        ],
+        [
+          109,
+          358
+        ],
+        [
+          107,
+          352
+        ],
+        [
+          189,
+          359
+        ],
+        [
+          191,
+          349
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          80,
+          279
+        ],
+        [
+          67,
+          247
+        ],
+        [
+          67,
+          206
+        ],
+        [
+          73,
+          174
+        ],
+        [
+          68,
+          176
+        ],
+        [
+          84,
+          158
+        ],
+        [
+          87,
+          179
+        ],
+        [
+          82,
+          179
+        ],
+        [
+          76,
+          217
+        ],
+        [
+          82,
+          253
+        ],
+        [
+          95,
+          278
+        ],
+        [
+          85,
+          280
+        ],
+        [
+          81,
+          283
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H4",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H5",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A1+T2",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "T2",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A1",
+      "type": "arrowDescriptor",
+      "source": "T1",
+      "target": "A1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+A2+T5",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T5",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T3+A0+B0",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T4+A2",
+      "type": "arrowDescriptor",
+      "source": "T4",
+      "target": "A2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+A3+T7",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T7",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T6+A3",
+      "type": "arrowDescriptor",
+      "source": "T6",
+      "target": "A3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T7+A4+T9",
+      "type": "interObjectLinkage",
+      "source": "T7",
+      "target": "T9",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T9+A5+T3",
+      "type": "interObjectLinkage",
+      "source": "T9",
+      "target": "T3",
+      "connector": "A5",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "nitrogen cycle waste products ammonia only recycles in nature nitrosomonas nitrite nitrobacter  nitrate build-up of excess nitrate assimilation by algae"
+  },
+  "questions": [
+    {
+      "question_text": "In the Nitrogen Cycle What does letter H represents?",
+      "question_id": "785.png-0",
+      "answers": [
+        "Ammonia",
+        "Assimilation by Algae",
+        "Nitrobacter",
+        "Nitrate"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "In the diagram, which letter corresponds to ammonia?",
+      "question_id": "785.png-3",
+      "answers": [
+        "B",
+        "A",
+        "G",
+        "H"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "Waste products is plural for?",
+      "question_id": "785.png-1",
+      "answers": [
+        "Waste Product",
+        "Products",
+        "Waste",
+        "Algae"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which letter corresponds to nitrite?",
+      "question_id": "785.png-2",
+      "answers": [
+        "B",
+        "G",
+        "J",
+        "H"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}

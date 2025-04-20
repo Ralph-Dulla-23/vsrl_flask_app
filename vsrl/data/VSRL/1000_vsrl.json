@@ -1,0 +1,464 @@
+{
+  "image_id": "1000",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          88,
+          4
+        ],
+        [
+          182,
+          27
+        ]
+      ],
+      "value": "Foot types",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          17,
+          199
+        ],
+        [
+          84,
+          218
+        ]
+      ],
+      "value": "Normal",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          119,
+          196
+        ],
+        [
+          170,
+          220
+        ]
+      ],
+      "value": "Rigid",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          220,
+          197
+        ],
+        [
+          257,
+          219
+        ]
+      ],
+      "value": "Flat",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          28,
+          40
+        ],
+        [
+          21,
+          55
+        ],
+        [
+          27,
+          64
+        ],
+        [
+          20,
+          77
+        ],
+        [
+          23,
+          93
+        ],
+        [
+          40,
+          107
+        ],
+        [
+          50,
+          110
+        ],
+        [
+          50,
+          137
+        ],
+        [
+          38,
+          157
+        ],
+        [
+          28,
+          174
+        ],
+        [
+          30,
+          188
+        ],
+        [
+          48,
+          193
+        ],
+        [
+          62,
+          186
+        ],
+        [
+          68,
+          156
+        ],
+        [
+          74,
+          114
+        ],
+        [
+          79,
+          105
+        ],
+        [
+          72,
+          81
+        ],
+        [
+          81,
+          78
+        ],
+        [
+          80,
+          71
+        ],
+        [
+          69,
+          59
+        ],
+        [
+          55,
+          51
+        ],
+        [
+          48,
+          44
+        ],
+        [
+          29,
+          40
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          118,
+          41
+        ],
+        [
+          129,
+          43
+        ],
+        [
+          143,
+          45
+        ],
+        [
+          150,
+          51
+        ],
+        [
+          165,
+          66
+        ],
+        [
+          173,
+          73
+        ],
+        [
+          172,
+          97
+        ],
+        [
+          156,
+          129
+        ],
+        [
+          156,
+          151
+        ],
+        [
+          158,
+          179
+        ],
+        [
+          150,
+          192
+        ],
+        [
+          133,
+          189
+        ],
+        [
+          127,
+          174
+        ],
+        [
+          138,
+          153
+        ],
+        [
+          151,
+          140
+        ],
+        [
+          151,
+          115
+        ],
+        [
+          147,
+          96
+        ],
+        [
+          141,
+          96
+        ],
+        [
+          134,
+          97
+        ],
+        [
+          119,
+          93
+        ],
+        [
+          118,
+          73
+        ],
+        [
+          120,
+          65
+        ],
+        [
+          116,
+          57
+        ],
+        [
+          119,
+          43
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          220,
+          41
+        ],
+        [
+          212,
+          53
+        ],
+        [
+          217,
+          60
+        ],
+        [
+          214,
+          65
+        ],
+        [
+          212,
+          73
+        ],
+        [
+          212,
+          84
+        ],
+        [
+          216,
+          101
+        ],
+        [
+          208,
+          133
+        ],
+        [
+          212,
+          150
+        ],
+        [
+          218,
+          161
+        ],
+        [
+          219,
+          182
+        ],
+        [
+          228,
+          193
+        ],
+        [
+          247,
+          193
+        ],
+        [
+          257,
+          184
+        ],
+        [
+          254,
+          156
+        ],
+        [
+          267,
+          122
+        ],
+        [
+          268,
+          93
+        ],
+        [
+          265,
+          84
+        ],
+        [
+          272,
+          80
+        ],
+        [
+          268,
+          73
+        ],
+        [
+          264,
+          66
+        ],
+        [
+          253,
+          52
+        ],
+        [
+          242,
+          43
+        ],
+        [
+          223,
+          43
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B1",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B2",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "foot types normal rigid flat"
+  },
+  "questions": [
+    {
+      "question_text": "Diagram D corresponds with what foot type?",
+      "question_id": "1000.png-0",
+      "answers": [
+        "Normal",
+        "Flat",
+        "Rigid",
+        "Big"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "How many types of foot are there?",
+      "question_id": "1000.png-2",
+      "answers": [
+        "2",
+        "4",
+        "3",
+        "1"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What does the image depicts?",
+      "question_id": "1000.png-1",
+      "answers": [
+        "Foot Types",
+        "Knee Types",
+        "Finger Types",
+        "None of the above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

@@ -1,0 +1,502 @@
+{
+  "image_id": "619",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          200,
+          24
+        ],
+        [
+          281,
+          50
+        ]
+      ],
+      "value": "Seedling",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          404,
+          138
+        ],
+        [
+          477,
+          186
+        ]
+      ],
+      "value": "MATURE PLANT",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          207,
+          271
+        ],
+        [
+          275,
+          291
+        ]
+      ],
+      "value": "Flower",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          9,
+          148
+        ],
+        [
+          59,
+          169
+        ]
+      ],
+      "value": "Seed",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          145,
+          148
+        ],
+        [
+          345,
+          172
+        ]
+      ],
+      "value": "Bean Plant Life Cycle",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          27,
+          134
+        ],
+        [
+          37,
+          114
+        ],
+        [
+          55,
+          92
+        ],
+        [
+          87,
+          69
+        ],
+        [
+          114,
+          53
+        ],
+        [
+          149,
+          42
+        ],
+        [
+          176,
+          34
+        ],
+        [
+          178,
+          47
+        ],
+        [
+          148,
+          53
+        ],
+        [
+          119,
+          62
+        ],
+        [
+          87,
+          78
+        ],
+        [
+          87,
+          78
+        ],
+        [
+          70,
+          97
+        ],
+        [
+          54,
+          112
+        ],
+        [
+          43,
+          138
+        ],
+        [
+          28,
+          135
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          305,
+          44
+        ],
+        [
+          331,
+          51
+        ],
+        [
+          355,
+          59
+        ],
+        [
+          355,
+          59
+        ],
+        [
+          376,
+          68
+        ],
+        [
+          396,
+          83
+        ],
+        [
+          414,
+          96
+        ],
+        [
+          428,
+          116
+        ],
+        [
+          445,
+          143
+        ],
+        [
+          445,
+          143
+        ],
+        [
+          452,
+          138
+        ],
+        [
+          433,
+          100
+        ],
+        [
+          415,
+          84
+        ],
+        [
+          415,
+          84
+        ],
+        [
+          393,
+          65
+        ],
+        [
+          359,
+          50
+        ],
+        [
+          359,
+          50
+        ],
+        [
+          327,
+          38
+        ],
+        [
+          327,
+          38
+        ],
+        [
+          315,
+          35
+        ],
+        [
+          315,
+          35
+        ],
+        [
+          307,
+          43
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          313,
+          268
+        ],
+        [
+          357,
+          259
+        ],
+        [
+          387,
+          242
+        ],
+        [
+          410,
+          227
+        ],
+        [
+          435,
+          199
+        ],
+        [
+          442,
+          187
+        ],
+        [
+          448,
+          195
+        ],
+        [
+          430,
+          219
+        ],
+        [
+          404,
+          245
+        ],
+        [
+          404,
+          245
+        ],
+        [
+          374,
+          261
+        ],
+        [
+          341,
+          274
+        ],
+        [
+          313,
+          284
+        ],
+        [
+          312,
+          266
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          30,
+          184
+        ],
+        [
+          46,
+          214
+        ],
+        [
+          71,
+          239
+        ],
+        [
+          103,
+          259
+        ],
+        [
+          134,
+          273
+        ],
+        [
+          176,
+          285
+        ],
+        [
+          177,
+          277
+        ],
+        [
+          177,
+          277
+        ],
+        [
+          135,
+          265
+        ],
+        [
+          101,
+          249
+        ],
+        [
+          72,
+          233
+        ],
+        [
+          58,
+          209
+        ],
+        [
+          51,
+          203
+        ],
+        [
+          38,
+          179
+        ],
+        [
+          30,
+          183
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A1+T1",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T1",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T1+A2+T2",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T2",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T2+A3+T3",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T3",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T3+A0+T0",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T0",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T4+I0",
+      "type": "imageTitle",
+      "source": "T4",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "title",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "seedling mature plant flower seed bean plant life cycle"
+  },
+  "questions": [
+    {
+      "question_text": "The provided diagram depicts the life cycle of a bean plant. Which stage is shown at C?",
+      "question_id": "619.png-1",
+      "answers": [
+        "Seedling",
+        "flower",
+        "Seed",
+        "Mature plant"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which letter corresponds to a Mature Plant?",
+      "question_id": "619.png-0",
+      "answers": [
+        "E",
+        "B",
+        "D",
+        "C"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    }
+  ]
+}

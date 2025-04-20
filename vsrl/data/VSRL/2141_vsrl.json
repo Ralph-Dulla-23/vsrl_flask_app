@@ -1,0 +1,522 @@
+{
+  "image_id": "2141",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          70,
+          41
+        ],
+        [
+          162,
+          73
+        ]
+      ],
+      "value": "The Shark grow up. ",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          287,
+          44
+        ],
+        [
+          360,
+          69
+        ]
+      ],
+      "value": "The Egg is fertalised",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          334,
+          224
+        ],
+        [
+          438,
+          278
+        ]
+      ],
+      "value": "The egg hatches inside the mothers body",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          172,
+          360
+        ],
+        [
+          270,
+          381
+        ]
+      ],
+      "value": "The Pup is born",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          8,
+          203
+        ],
+        [
+          106,
+          300
+        ]
+      ],
+      "value": "The pup swims away without any care from her mother to feed and care for itself",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          137,
+          268
+        ],
+        [
+          135,
+          150
+        ],
+        [
+          299,
+          153
+        ],
+        [
+          305,
+          153
+        ],
+        [
+          306,
+          274
+        ],
+        [
+          135,
+          270
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          172,
+          46
+        ],
+        [
+          194,
+          41
+        ],
+        [
+          222,
+          39
+        ],
+        [
+          247,
+          40
+        ],
+        [
+          245,
+          48
+        ],
+        [
+          250,
+          50
+        ],
+        [
+          274,
+          37
+        ],
+        [
+          259,
+          6
+        ],
+        [
+          257,
+          17
+        ],
+        [
+          196,
+          16
+        ],
+        [
+          172,
+          23
+        ],
+        [
+          172,
+          43
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          360,
+          117
+        ],
+        [
+          381,
+          104
+        ],
+        [
+          395,
+          138
+        ],
+        [
+          404,
+          182
+        ],
+        [
+          413,
+          183
+        ],
+        [
+          395,
+          198
+        ],
+        [
+          374,
+          187
+        ],
+        [
+          381,
+          180
+        ],
+        [
+          361,
+          116
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          286,
+          348
+        ],
+        [
+          284,
+          341
+        ],
+        [
+          275,
+          359
+        ],
+        [
+          294,
+          375
+        ],
+        [
+          292,
+          366
+        ],
+        [
+          314,
+          353
+        ],
+        [
+          342,
+          333
+        ],
+        [
+          361,
+          311
+        ],
+        [
+          349,
+          298
+        ],
+        [
+          333,
+          318
+        ],
+        [
+          313,
+          332
+        ],
+        [
+          286,
+          348
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          81,
+          323
+        ],
+        [
+          85,
+          303
+        ],
+        [
+          109,
+          303
+        ],
+        [
+          104,
+          312
+        ],
+        [
+          134,
+          337
+        ],
+        [
+          174,
+          352
+        ],
+        [
+          165,
+          373
+        ],
+        [
+          128,
+          354
+        ],
+        [
+          110,
+          341
+        ],
+        [
+          88,
+          320
+        ],
+        [
+          81,
+          331
+        ],
+        [
+          81,
+          325
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          41,
+          195
+        ],
+        [
+          46,
+          156
+        ],
+        [
+          59,
+          121
+        ],
+        [
+          53,
+          117
+        ],
+        [
+          72,
+          114
+        ],
+        [
+          82,
+          133
+        ],
+        [
+          76,
+          132
+        ],
+        [
+          73,
+          131
+        ],
+        [
+          64,
+          156
+        ],
+        [
+          58,
+          193
+        ],
+        [
+          59,
+          194
+        ],
+        [
+          43,
+          196
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H4",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H3",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H1",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H2",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+T1",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T1",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T1+A1+T2",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T2",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T2+A2+T3",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T3",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T3+A3+T4",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T4",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T4+A4+T0",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T0",
+      "connector": "A4",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "the shark grow up.  the egg is fertalised the egg hatches inside the mothers body the pup is born the pup swims away without any care from her mother to feed and care for itself"
+  },
+  "questions": [
+    {
+      "question_text": "Base your answers on the diagram below, what happens after the egg hatches inside the mothers body?",
+      "question_id": "2141.png-1",
+      "answers": [
+        "The egg is fertilized",
+        "The shark grows up",
+        "The pup is born",
+        "The pup swims away"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "What does stage E depict ?",
+      "question_id": "2141.png-0",
+      "answers": [
+        "The shark grew up",
+        "The egg is fertilized",
+        "The pup swims away",
+        "The pup is born"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is the term for a baby shark?",
+      "question_id": "2141.png-2",
+      "answers": [
+        "Kit",
+        "Pup",
+        "Duckling",
+        "Cub"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

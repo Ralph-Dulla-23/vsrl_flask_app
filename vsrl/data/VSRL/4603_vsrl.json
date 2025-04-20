@@ -1,0 +1,506 @@
+{
+  "image_id": "4603",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          198,
+          490
+        ],
+        [
+          427,
+          530
+        ]
+      ],
+      "value": "Keckiella cordifolia paired heart-shaped leaves",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          708,
+          356
+        ],
+        [
+          759,
+          374
+        ]
+      ],
+      "value": "JS 7/00",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          559,
+          493
+        ],
+        [
+          808,
+          531
+        ]
+      ],
+      "value": "Keckiella temata linear leaves in whorls of three",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          641,
+          474
+        ],
+        [
+          658,
+          473
+        ],
+        [
+          654,
+          372
+        ],
+        [
+          678,
+          368
+        ],
+        [
+          724,
+          361
+        ],
+        [
+          755,
+          363
+        ],
+        [
+          801,
+          372
+        ],
+        [
+          821,
+          366
+        ],
+        [
+          795,
+          346
+        ],
+        [
+          755,
+          331
+        ],
+        [
+          691,
+          342
+        ],
+        [
+          745,
+          304
+        ],
+        [
+          790,
+          287
+        ],
+        [
+          786,
+          278
+        ],
+        [
+          725,
+          275
+        ],
+        [
+          655,
+          341
+        ],
+        [
+          630,
+          263
+        ],
+        [
+          652,
+          251
+        ],
+        [
+          702,
+          241
+        ],
+        [
+          735,
+          207
+        ],
+        [
+          692,
+          204
+        ],
+        [
+          641,
+          233
+        ],
+        [
+          677,
+          164
+        ],
+        [
+          664,
+          147
+        ],
+        [
+          633,
+          191
+        ],
+        [
+          621,
+          230
+        ],
+        [
+          604,
+          184
+        ],
+        [
+          646,
+          109
+        ],
+        [
+          616,
+          116
+        ],
+        [
+          593,
+          148
+        ],
+        [
+          576,
+          143
+        ],
+        [
+          519,
+          115
+        ],
+        [
+          543,
+          148
+        ],
+        [
+          481,
+          148
+        ],
+        [
+          480,
+          160
+        ],
+        [
+          589,
+          191
+        ],
+        [
+          605,
+          245
+        ],
+        [
+          558,
+          226
+        ],
+        [
+          513,
+          217
+        ],
+        [
+          462,
+          226
+        ],
+        [
+          502,
+          239
+        ],
+        [
+          551,
+          246
+        ],
+        [
+          609,
+          267
+        ],
+        [
+          634,
+          345
+        ],
+        [
+          592,
+          325
+        ],
+        [
+          538,
+          309
+        ],
+        [
+          494,
+          309
+        ],
+        [
+          451,
+          322
+        ],
+        [
+          454,
+          332
+        ],
+        [
+          525,
+          337
+        ],
+        [
+          570,
+          347
+        ],
+        [
+          631,
+          364
+        ],
+        [
+          638,
+          472
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          314,
+          466
+        ],
+        [
+          324,
+          464
+        ],
+        [
+          315,
+          436
+        ],
+        [
+          339,
+          418
+        ],
+        [
+          354,
+          394
+        ],
+        [
+          360,
+          347
+        ],
+        [
+          308,
+          355
+        ],
+        [
+          317,
+          306
+        ],
+        [
+          262,
+          299
+        ],
+        [
+          283,
+          256
+        ],
+        [
+          224,
+          246
+        ],
+        [
+          234,
+          197
+        ],
+        [
+          188,
+          213
+        ],
+        [
+          174,
+          163
+        ],
+        [
+          139,
+          183
+        ],
+        [
+          114,
+          183
+        ],
+        [
+          113,
+          197
+        ],
+        [
+          83,
+          221
+        ],
+        [
+          133,
+          238
+        ],
+        [
+          121,
+          253
+        ],
+        [
+          150,
+          272
+        ],
+        [
+          176,
+          274
+        ],
+        [
+          164,
+          309
+        ],
+        [
+          191,
+          327
+        ],
+        [
+          213,
+          327
+        ],
+        [
+          192,
+          353
+        ],
+        [
+          253,
+          383
+        ],
+        [
+          204,
+          396
+        ],
+        [
+          204,
+          411
+        ],
+        [
+          262,
+          441
+        ],
+        [
+          289,
+          445
+        ],
+        [
+          300,
+          444
+        ],
+        [
+          307,
+          466
+        ],
+        [
+          315,
+          464
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+B1",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+I0",
+      "type": "misc",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "B0": "whole",
+    "B1": "whole"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "keckiella cordifolia paired heart-shaped leaves js 7/00 keckiella temata linear leaves in whorls of three"
+  },
+  "questions": [
+    {
+      "question_text": "Are the leaves on the plant on the left in pairs?",
+      "question_id": "4603.png-0",
+      "answers": [
+        "No, they are not paired leaves.",
+        "You can't force leaves into arranged marriages.",
+        "Yes, they are paired leaves.",
+        "There's no such thing as pairing."
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Label B on the diagram corresponds to:",
+      "question_id": "4603.png-1",
+      "answers": [
+        "Wolf",
+        "Linear leaves in whorls of three",
+        "Paired heart-shaped leaves",
+        "Erosion"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "Label C on the diagram corresponds to:",
+      "question_id": "4603.png-3",
+      "answers": [
+        "Heart-shaped box",
+        "Linear leaves in whorls of three",
+        "Paired heart-shaped leaves",
+        "Linear quadratic"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "The diagram presented above has two different plants. What seems to be the main difference?",
+      "question_id": "4603.png-2",
+      "answers": [
+        "The plant on the right is prettier than the plant on the left.",
+        "The plant on the left has broad leaves, while the one on the right has thin leaves.",
+        "The plant on the left has more leaves than the one on the right.",
+        "The plant on the right is taller than the one on the left."
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

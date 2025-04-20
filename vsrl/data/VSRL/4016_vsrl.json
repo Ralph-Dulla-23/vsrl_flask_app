@@ -1,0 +1,812 @@
+{
+  "image_id": "4016",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          48,
+          43
+        ],
+        [
+          915,
+          132
+        ]
+      ],
+      "value": "Layers of the Earth",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          1065,
+          113
+        ],
+        [
+          1363,
+          155
+        ]
+      ],
+      "value": "ATMOSPHERE",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          900,
+          278
+        ],
+        [
+          1363,
+          322
+        ]
+      ],
+      "value": "CONTINENTAL CRUST",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          1013,
+          440
+        ],
+        [
+          1363,
+          487
+        ]
+      ],
+      "value": "OCEANIC CRUST",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          1060,
+          605
+        ],
+        [
+          1363,
+          645
+        ]
+      ],
+      "value": "LITHOSPHERE",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          985,
+          770
+        ],
+        [
+          1363,
+          807
+        ]
+      ],
+      "value": "ASTHENOSPHERE",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          1032,
+          923
+        ],
+        [
+          1363,
+          975
+        ]
+      ],
+      "value": "UPPER MANTLE",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          1177,
+          1090
+        ],
+        [
+          1365,
+          1135
+        ]
+      ],
+      "value": "MANTLE",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          1082,
+          1255
+        ],
+        [
+          1367,
+          1293
+        ]
+      ],
+      "value": "OUTER CORE",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          1092,
+          1417
+        ],
+        [
+          1363,
+          1455
+        ]
+      ],
+      "value": "INNER CORE",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          497,
+          403
+        ],
+        [
+          588,
+          403
+        ],
+        [
+          683,
+          427
+        ],
+        [
+          808,
+          503
+        ],
+        [
+          897,
+          595
+        ],
+        [
+          958,
+          710
+        ],
+        [
+          995,
+          848
+        ],
+        [
+          970,
+          990
+        ],
+        [
+          922,
+          1117
+        ],
+        [
+          837,
+          1207
+        ],
+        [
+          718,
+          1290
+        ],
+        [
+          603,
+          1333
+        ],
+        [
+          445,
+          1333
+        ],
+        [
+          298,
+          1282
+        ],
+        [
+          103,
+          1088
+        ],
+        [
+          52,
+          948
+        ],
+        [
+          52,
+          793
+        ],
+        [
+          83,
+          690
+        ],
+        [
+          165,
+          562
+        ],
+        [
+          248,
+          488
+        ],
+        [
+          317,
+          443
+        ],
+        [
+          450,
+          403
+        ],
+        [
+          503,
+          403
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          523,
+          432
+        ],
+        [
+          1080,
+          142
+        ],
+        [
+          1063,
+          128
+        ],
+        [
+          503,
+          415
+        ],
+        [
+          522,
+          433
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          668,
+          520
+        ],
+        [
+          905,
+          290
+        ],
+        [
+          917,
+          305
+        ],
+        [
+          688,
+          543
+        ],
+        [
+          668,
+          527
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          773,
+          617
+        ],
+        [
+          1012,
+          450
+        ],
+        [
+          1025,
+          468
+        ],
+        [
+          785,
+          652
+        ],
+        [
+          768,
+          622
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          858,
+          773
+        ],
+        [
+          1060,
+          615
+        ],
+        [
+          1065,
+          633
+        ],
+        [
+          877,
+          777
+        ],
+        [
+          855,
+          775
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          812,
+          768
+        ],
+        [
+          820,
+          790
+        ],
+        [
+          900,
+          790
+        ],
+        [
+          892,
+          775
+        ],
+        [
+          813,
+          763
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          802,
+          815
+        ],
+        [
+          990,
+          772
+        ],
+        [
+          993,
+          807
+        ],
+        [
+          815,
+          842
+        ],
+        [
+          803,
+          818
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          798,
+          852
+        ],
+        [
+          873,
+          845
+        ],
+        [
+          877,
+          863
+        ],
+        [
+          877,
+          872
+        ],
+        [
+          1037,
+          938
+        ],
+        [
+          1040,
+          950
+        ],
+        [
+          908,
+          910
+        ],
+        [
+          833,
+          868
+        ],
+        [
+          807,
+          873
+        ],
+        [
+          795,
+          857
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          677,
+          932
+        ],
+        [
+          770,
+          932
+        ],
+        [
+          1182,
+          1118
+        ],
+        [
+          1188,
+          1103
+        ],
+        [
+          797,
+          928
+        ],
+        [
+          878,
+          928
+        ],
+        [
+          873,
+          913
+        ],
+        [
+          672,
+          913
+        ],
+        [
+          678,
+          928
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          613,
+          965
+        ],
+        [
+          1082,
+          1278
+        ],
+        [
+          1090,
+          1263
+        ],
+        [
+          625,
+          940
+        ],
+        [
+          613,
+          963
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          522,
+          933
+        ],
+        [
+          1100,
+          1448
+        ],
+        [
+          1107,
+          1427
+        ],
+        [
+          540,
+          907
+        ],
+        [
+          523,
+          932
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H2",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H4",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H3",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H0",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H1",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H5",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H8",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H8",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A8+H6",
+      "type": "arrowHeadTail",
+      "source": "A8",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A9+H7",
+      "type": "arrowHeadTail",
+      "source": "A9",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T2+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T3+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T4+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T5+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T6+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T7+A7+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T8+A8+B0",
+      "type": "intraObjectLinkage",
+      "source": "T8",
+      "target": "B0",
+      "connector": "A8",
+      "directional": false
+    },
+    {
+      "id": "T9+A9+B0",
+      "type": "intraObjectLinkage",
+      "source": "T9",
+      "target": "B0",
+      "connector": "A9",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "layers of the earth atmosphere continental crust oceanic crust lithosphere asthenosphere upper mantle mantle outer core inner core"
+  },
+  "questions": [
+    {
+      "question_text": "Name the layer in between inner core and mantle?",
+      "question_id": "4016.png-1",
+      "answers": [
+        "Continental crust",
+        "Lithosphere",
+        "Outer core",
+        "Asthenosphere"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is the deepest layer of the earth?",
+      "question_id": "4016.png-0",
+      "answers": [
+        "Asthenosphere",
+        "Lithosphere",
+        "Inner core",
+        "Mantle"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What lies between the inner core and the mantle?",
+      "question_id": "4016.png-3",
+      "answers": [
+        "Lithosphere",
+        "Outer core",
+        "Asthenosphere",
+        "Crust"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which is the gaseous layer?",
+      "question_id": "4016.png-2",
+      "answers": [
+        "E",
+        "F",
+        "J",
+        "I"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

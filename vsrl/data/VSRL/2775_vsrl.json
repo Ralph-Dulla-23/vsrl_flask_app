@@ -1,0 +1,598 @@
+{
+  "image_id": "2775",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          112,
+          28
+        ],
+        [
+          246,
+          65
+        ]
+      ],
+      "value": "Start with flowers, leaves, or seedlings",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          106,
+          129
+        ],
+        [
+          239,
+          166
+        ]
+      ],
+      "value": "Lyse sample with lysis buffer",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          108,
+          218
+        ],
+        [
+          237,
+          257
+        ]
+      ],
+      "value": "Extract chromatin with extraction buffer",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          112,
+          309
+        ],
+        [
+          197,
+          333
+        ]
+      ],
+      "value": "Obtain isolated chromatin",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          92,
+          1
+        ],
+        [
+          85,
+          13
+        ],
+        [
+          80,
+          16
+        ],
+        [
+          54,
+          13
+        ],
+        [
+          22,
+          27
+        ],
+        [
+          8,
+          53
+        ],
+        [
+          30,
+          49
+        ],
+        [
+          28,
+          74
+        ],
+        [
+          50,
+          66
+        ],
+        [
+          70,
+          91
+        ],
+        [
+          89,
+          68
+        ],
+        [
+          92,
+          38
+        ],
+        [
+          80,
+          25
+        ],
+        [
+          95,
+          3
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          24,
+          83
+        ],
+        [
+          28,
+          92
+        ],
+        [
+          34,
+          91
+        ],
+        [
+          45,
+          106
+        ],
+        [
+          44,
+          111
+        ],
+        [
+          55,
+          119
+        ],
+        [
+          75,
+          119
+        ],
+        [
+          72,
+          171
+        ],
+        [
+          62,
+          192
+        ],
+        [
+          56,
+          187
+        ],
+        [
+          50,
+          167
+        ],
+        [
+          52,
+          122
+        ],
+        [
+          41,
+          113
+        ],
+        [
+          22,
+          86
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          30,
+          167
+        ],
+        [
+          54,
+          201
+        ],
+        [
+          73,
+          204
+        ],
+        [
+          74,
+          252
+        ],
+        [
+          68,
+          277
+        ],
+        [
+          60,
+          276
+        ],
+        [
+          53,
+          252
+        ],
+        [
+          49,
+          208
+        ],
+        [
+          22,
+          179
+        ],
+        [
+          29,
+          167
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          35,
+          333
+        ],
+        [
+          42,
+          328
+        ],
+        [
+          47,
+          334
+        ],
+        [
+          54,
+          343
+        ],
+        [
+          66,
+          336
+        ],
+        [
+          67,
+          346
+        ],
+        [
+          73,
+          351
+        ],
+        [
+          86,
+          343
+        ],
+        [
+          92,
+          343
+        ],
+        [
+          91,
+          330
+        ],
+        [
+          100,
+          327
+        ],
+        [
+          102,
+          319
+        ],
+        [
+          101,
+          312
+        ],
+        [
+          89,
+          311
+        ],
+        [
+          90,
+          302
+        ],
+        [
+          84,
+          295
+        ],
+        [
+          76,
+          296
+        ],
+        [
+          68,
+          301
+        ],
+        [
+          66,
+          291
+        ],
+        [
+          55,
+          289
+        ],
+        [
+          48,
+          295
+        ],
+        [
+          42,
+          306
+        ],
+        [
+          48,
+          310
+        ],
+        [
+          40,
+          315
+        ],
+        [
+          37,
+          308
+        ],
+        [
+          40,
+          299
+        ],
+        [
+          43,
+          290
+        ],
+        [
+          40,
+          281
+        ],
+        [
+          28,
+          281
+        ],
+        [
+          21,
+          288
+        ],
+        [
+          21,
+          295
+        ],
+        [
+          19,
+          303
+        ],
+        [
+          23,
+          304
+        ],
+        [
+          15,
+          311
+        ],
+        [
+          17,
+          314
+        ],
+        [
+          26,
+          317
+        ],
+        [
+          25,
+          333
+        ],
+        [
+          31,
+          333
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          159,
+          74
+        ],
+        [
+          159,
+          123
+        ],
+        [
+          169,
+          123
+        ],
+        [
+          171,
+          73
+        ],
+        [
+          162,
+          73
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          159,
+          170
+        ],
+        [
+          159,
+          187
+        ],
+        [
+          155,
+          187
+        ],
+        [
+          165,
+          219
+        ],
+        [
+          175,
+          193
+        ],
+        [
+          169,
+          190
+        ],
+        [
+          170,
+          170
+        ],
+        [
+          161,
+          170
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          157,
+          256
+        ],
+        [
+          158,
+          301
+        ],
+        [
+          170,
+          301
+        ],
+        [
+          170,
+          254
+        ],
+        [
+          159,
+          254
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A0+B1",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B1",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "B1+A1+B2",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B2",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "B2+A2+B3",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B3",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B1",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B2",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B3",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "start with flowers, leaves, or seedlings lyse sample with lysis buffer extract chromatin with extraction buffer obtain isolated chromatin"
+  }
+}

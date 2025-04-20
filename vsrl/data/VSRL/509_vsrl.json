@@ -1,0 +1,552 @@
+{
+  "image_id": "509",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          337,
+          29
+        ],
+        [
+          406,
+          54
+        ]
+      ],
+      "value": "Ducks",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          356,
+          80
+        ],
+        [
+          452,
+          106
+        ]
+      ],
+      "value": "Minnows",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          133,
+          221
+        ],
+        [
+          388,
+          251
+        ]
+      ],
+      "value": "Algae and floating plants",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          28,
+          147
+        ],
+        [
+          235,
+          172
+        ]
+      ],
+      "value": "Aquatic crustaceans",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          71,
+          77
+        ],
+        [
+          131,
+          98
+        ]
+      ],
+      "value": "Fish",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          19,
+          22
+        ],
+        [
+          135,
+          46
+        ]
+      ],
+      "value": "Raccoons",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          139,
+          30
+        ],
+        [
+          356,
+          89
+        ],
+        [
+          354,
+          99
+        ],
+        [
+          131,
+          43
+        ],
+        [
+          138,
+          29
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          82,
+          49
+        ],
+        [
+          98,
+          77
+        ],
+        [
+          107,
+          77
+        ],
+        [
+          91,
+          44
+        ],
+        [
+          81,
+          48
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          138,
+          83
+        ],
+        [
+          354,
+          87
+        ],
+        [
+          353,
+          103
+        ],
+        [
+          137,
+          96
+        ],
+        [
+          138,
+          84
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          383,
+          108
+        ],
+        [
+          318,
+          218
+        ],
+        [
+          326,
+          222
+        ],
+        [
+          402,
+          113
+        ],
+        [
+          385,
+          106
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          378,
+          57
+        ],
+        [
+          402,
+          83
+        ],
+        [
+          408,
+          77
+        ],
+        [
+          386,
+          51
+        ],
+        [
+          378,
+          57
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          166,
+          172
+        ],
+        [
+          199,
+          220
+        ],
+        [
+          191,
+          225
+        ],
+        [
+          158,
+          180
+        ],
+        [
+          167,
+          169
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          104,
+          112
+        ],
+        [
+          130,
+          148
+        ],
+        [
+          142,
+          144
+        ],
+        [
+          114,
+          103
+        ],
+        [
+          105,
+          113
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H4",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H5",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H6",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A0+T5",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T5",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T1+A2+T4",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T4",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T1+A4+T0",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T0",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T2+A3+T1",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T1",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T2+A5+T3",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T3",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T3+A6+T4",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T4",
+      "connector": "A6",
+      "directional": true
+    },
+    {
+      "id": "T4+A1+T5",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T5",
+      "connector": "A1",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "ducks minnows algae and floating plants aquatic crustaceans fish raccoons"
+  },
+  "questions": [
+    {
+      "question_text": "Based on the given food web, what would happen to the minnows if all the ducks died?",
+      "question_id": "509.png-9",
+      "answers": [
+        "They would increase in number.",
+        "None of these",
+        "They would decrease in number.",
+        "They would not be affected."
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the above food web diagram, algae is",
+      "question_id": "509.png-3",
+      "answers": [
+        "consumer",
+        "producer",
+        "decomposer",
+        "secondary consumer"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the above food web diagram, which species is herbivore",
+      "question_id": "509.png-8",
+      "answers": [
+        "algae",
+        "ducks",
+        "fish",
+        "crustaceans"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "If minnows vanished who will become extinct?",
+      "question_id": "509.png-0",
+      "answers": [
+        "minnows",
+        "fish",
+        "ducks",
+        "none of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Looking at the food chain above, what would happen to the number of fish if the number of raccoons increases?",
+      "question_id": "509.png-2",
+      "answers": [
+        "There will be no change",
+        "Fish population will go down",
+        "There will be more fish",
+        "NA"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Name the primary consumers in the given food web.",
+      "question_id": "509.png-4",
+      "answers": [
+        "Ducks and Raccoons",
+        "None of these",
+        "Fish and Raccoons",
+        "Aquatic crustaceans and Minnows"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Taking into consideration the food chain above, what would happen to the duck community if all of the minnows vanished?",
+      "question_id": "509.png-5",
+      "answers": [
+        "They would have less to eat",
+        "They would have more to eat",
+        "There would be no change.",
+        "NA"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would happen if there were no ducks?",
+      "question_id": "509.png-7",
+      "answers": [
+        "algae would increase",
+        "minnows would increase",
+        "raccoons would decrease",
+        "crustaceans would decrease"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which is an herbivore?",
+      "question_id": "509.png-6",
+      "answers": [
+        "raccooon",
+        "crustacean",
+        "duck",
+        "fish"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Who is the predator for aquatic crustaceans?",
+      "question_id": "509.png-1",
+      "answers": [
+        "Minnows",
+        "ducks",
+        "Fish",
+        "None of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

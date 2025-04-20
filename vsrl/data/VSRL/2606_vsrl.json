@@ -1,0 +1,528 @@
+{
+  "image_id": "2606",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          151,
+          31
+        ],
+        [
+          195,
+          49
+        ]
+      ],
+      "value": "high tide",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          207,
+          26
+        ],
+        [
+          250,
+          46
+        ]
+      ],
+      "value": "low tide",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          284,
+          127
+        ],
+        [
+          322,
+          148
+        ]
+      ],
+      "value": "Earth",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          355,
+          127
+        ],
+        [
+          386,
+          148
+        ]
+      ],
+      "value": "Sun",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          264,
+          229
+        ],
+        [
+          310,
+          248
+        ]
+      ],
+      "value": "high tide",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          211,
+          228
+        ],
+        [
+          252,
+          249
+        ]
+      ],
+      "value": "low tide",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          60,
+          219
+        ],
+        [
+          137,
+          253
+        ]
+      ],
+      "value": "Moon's gravitional pull",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          32,
+          167
+        ],
+        [
+          77,
+          188
+        ]
+      ],
+      "value": "Moon",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          173,
+          116
+        ],
+        [
+          184,
+          97
+        ],
+        [
+          197,
+          85
+        ],
+        [
+          216,
+          74
+        ],
+        [
+          238,
+          73
+        ],
+        [
+          261,
+          83
+        ],
+        [
+          278,
+          97
+        ],
+        [
+          285,
+          120
+        ],
+        [
+          287,
+          144
+        ],
+        [
+          278,
+          171
+        ],
+        [
+          262,
+          195
+        ],
+        [
+          236,
+          201
+        ],
+        [
+          208,
+          203
+        ],
+        [
+          185,
+          184
+        ],
+        [
+          177,
+          163
+        ],
+        [
+          172,
+          140
+        ],
+        [
+          173,
+          117
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          42,
+          117
+        ],
+        [
+          57,
+          114
+        ],
+        [
+          71,
+          123
+        ],
+        [
+          78,
+          141
+        ],
+        [
+          72,
+          156
+        ],
+        [
+          57,
+          166
+        ],
+        [
+          42,
+          163
+        ],
+        [
+          36,
+          151
+        ],
+        [
+          34,
+          135
+        ],
+        [
+          41,
+          117
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          95,
+          157
+        ],
+        [
+          97,
+          222
+        ],
+        [
+          106,
+          221
+        ],
+        [
+          105,
+          154
+        ],
+        [
+          96,
+          154
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          166,
+          137
+        ],
+        [
+          168,
+          47
+        ],
+        [
+          175,
+          46
+        ],
+        [
+          178,
+          137
+        ],
+        [
+          175,
+          141
+        ],
+        [
+          166,
+          138
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          223,
+          45
+        ],
+        [
+          224,
+          73
+        ],
+        [
+          233,
+          74
+        ],
+        [
+          236,
+          47
+        ],
+        [
+          226,
+          47
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          279,
+          150
+        ],
+        [
+          281,
+          233
+        ],
+        [
+          290,
+          233
+        ],
+        [
+          291,
+          151
+        ],
+        [
+          284,
+          151
+        ],
+        [
+          278,
+          148
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          226,
+          199
+        ],
+        [
+          225,
+          233
+        ],
+        [
+          235,
+          233
+        ],
+        [
+          234,
+          198
+        ],
+        [
+          227,
+          199
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T1+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T5+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T7+B1",
+      "type": "intraObjectLabel",
+      "source": "T7",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "high tide low tide earth sun high tide low tide moon's gravitional pull moon"
+  },
+  "questions": [
+    {
+      "question_text": "What is the natural satellite of Earth?",
+      "question_id": "2606.png-3",
+      "answers": [
+        "Moon.",
+        "Sun.",
+        "Earth.",
+        "Star."
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is the source of heat and light?",
+      "question_id": "2606.png-0",
+      "answers": [
+        "Moon.",
+        "Venus.",
+        "Sun.",
+        "Mars."
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which among the below answers has the diameter of approximately 1,390,000 kilometers (864,000 miles)?",
+      "question_id": "2606.png-2",
+      "answers": [
+        "Earth",
+        "Stars",
+        "Moon",
+        "Sun"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which among the below answers has the mean diameter is 3,475 kilometers (2,160 miles)?",
+      "question_id": "2606.png-1",
+      "answers": [
+        "Stars",
+        "Earth",
+        "Sun",
+        "Moon"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    }
+  ]
+}

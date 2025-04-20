@@ -1,0 +1,498 @@
+{
+  "image_id": "596",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          27,
+          18
+        ],
+        [
+          132,
+          78
+        ]
+      ],
+      "value": "Ladybug Life Cycle",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          2,
+          147
+        ],
+        [
+          2,
+          445
+        ],
+        [
+          252,
+          448
+        ],
+        [
+          254,
+          150
+        ],
+        [
+          5,
+          145
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          282,
+          2
+        ],
+        [
+          284,
+          244
+        ],
+        [
+          536,
+          246
+        ],
+        [
+          536,
+          3
+        ],
+        [
+          282,
+          3
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          546,
+          147
+        ],
+        [
+          546,
+          450
+        ],
+        [
+          784,
+          456
+        ],
+        [
+          787,
+          148
+        ],
+        [
+          546,
+          147
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          281,
+          410
+        ],
+        [
+          284,
+          680
+        ],
+        [
+          535,
+          681
+        ],
+        [
+          536,
+          413
+        ],
+        [
+          281,
+          415
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          158,
+          136
+        ],
+        [
+          160,
+          73
+        ],
+        [
+          190,
+          46
+        ],
+        [
+          252,
+          43
+        ],
+        [
+          255,
+          30
+        ],
+        [
+          284,
+          62
+        ],
+        [
+          255,
+          91
+        ],
+        [
+          251,
+          75
+        ],
+        [
+          201,
+          77
+        ],
+        [
+          192,
+          86
+        ],
+        [
+          190,
+          137
+        ],
+        [
+          160,
+          137
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          543,
+          29
+        ],
+        [
+          622,
+          27
+        ],
+        [
+          654,
+          43
+        ],
+        [
+          662,
+          94
+        ],
+        [
+          662,
+          112
+        ],
+        [
+          677,
+          112
+        ],
+        [
+          646,
+          145
+        ],
+        [
+          613,
+          110
+        ],
+        [
+          627,
+          110
+        ],
+        [
+          630,
+          70
+        ],
+        [
+          618,
+          61
+        ],
+        [
+          541,
+          61
+        ],
+        [
+          541,
+          32
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          640,
+          463
+        ],
+        [
+          669,
+          464
+        ],
+        [
+          669,
+          519
+        ],
+        [
+          645,
+          554
+        ],
+        [
+          600,
+          557
+        ],
+        [
+          578,
+          557
+        ],
+        [
+          575,
+          559
+        ],
+        [
+          573,
+          573
+        ],
+        [
+          546,
+          543
+        ],
+        [
+          571,
+          512
+        ],
+        [
+          575,
+          530
+        ],
+        [
+          624,
+          528
+        ],
+        [
+          637,
+          516
+        ],
+        [
+          637,
+          466
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          275,
+          543
+        ],
+        [
+          276,
+          573
+        ],
+        [
+          220,
+          573
+        ],
+        [
+          188,
+          549
+        ],
+        [
+          180,
+          527
+        ],
+        [
+          180,
+          477
+        ],
+        [
+          166,
+          476
+        ],
+        [
+          196,
+          447
+        ],
+        [
+          227,
+          477
+        ],
+        [
+          214,
+          480
+        ],
+        [
+          211,
+          522
+        ],
+        [
+          215,
+          533
+        ],
+        [
+          223,
+          541
+        ],
+        [
+          270,
+          541
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A0+B1",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B1",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "B1+A1+B2",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B2",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "B2+A2+B3",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B3",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "B3+A3+B0",
+      "type": "interObjectLinkage",
+      "source": "B3",
+      "target": "B0",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "ladybug life cycle"
+  },
+  "questions": [
+    {
+      "question_text": "How many stages are shown in the life cycle?",
+      "question_id": "596.png-1",
+      "answers": [
+        "6",
+        "none of the above",
+        "4",
+        "5"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "How many stages in the cycle?",
+      "question_id": "596.png-0",
+      "answers": [
+        "three",
+        "six",
+        "five",
+        "four"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What type of life cycle is shown?",
+      "question_id": "596.png-2",
+      "answers": [
+        "Mosquito",
+        "Butterfly",
+        "lady bug",
+        "Housefly"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

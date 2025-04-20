@@ -1,0 +1,556 @@
+{
+  "image_id": "1976",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          71,
+          34
+        ],
+        [
+          126,
+          54
+        ]
+      ],
+      "value": "Coyote",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          2,
+          101
+        ],
+        [
+          37,
+          120
+        ]
+      ],
+      "value": "Deer",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          135,
+          132
+        ],
+        [
+          186,
+          150
+        ]
+      ],
+      "value": "Rabbit",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          200,
+          32
+        ],
+        [
+          245,
+          54
+        ]
+      ],
+      "value": "Hawk",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          283,
+          99
+        ],
+        [
+          315,
+          118
+        ]
+      ],
+      "value": "Vole",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          99,
+          206
+        ],
+        [
+          223,
+          224
+        ]
+      ],
+      "value": "Meadow Grasses",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          39,
+          107
+        ],
+        [
+          26,
+          93
+        ],
+        [
+          73,
+          44
+        ],
+        [
+          77,
+          53
+        ],
+        [
+          42,
+          104
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          171,
+          128
+        ],
+        [
+          160,
+          124
+        ],
+        [
+          213,
+          53
+        ],
+        [
+          223,
+          57
+        ],
+        [
+          174,
+          129
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          107,
+          51
+        ],
+        [
+          156,
+          122
+        ],
+        [
+          146,
+          128
+        ],
+        [
+          94,
+          55
+        ],
+        [
+          105,
+          52
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          250,
+          44
+        ],
+        [
+          285,
+          96
+        ],
+        [
+          273,
+          99
+        ],
+        [
+          243,
+          55
+        ],
+        [
+          250,
+          49
+        ],
+        [
+          250,
+          44
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          38,
+          122
+        ],
+        [
+          42,
+          114
+        ],
+        [
+          161,
+          197
+        ],
+        [
+          157,
+          203
+        ],
+        [
+          37,
+          125
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          161,
+          201
+        ],
+        [
+          288,
+          123
+        ],
+        [
+          279,
+          112
+        ],
+        [
+          163,
+          192
+        ],
+        [
+          163,
+          202
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          155,
+          153
+        ],
+        [
+          166,
+          153
+        ],
+        [
+          167,
+          200
+        ],
+        [
+          155,
+          190
+        ],
+        [
+          155,
+          154
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H2",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H4",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H1",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H0",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H6",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H3",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H5",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A0+T0",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T0",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T2+A1+T3",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T3",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T2+A2+T0",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T0",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T4+A3+T3",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T3",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T5+A4+T1",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T1",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T5+A5+T4",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T4",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T5+A6+T2",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T2",
+      "connector": "A6",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "coyote deer rabbit hawk vole meadow grasses"
+  },
+  "questions": [
+    {
+      "question_text": "A food web is shown. Which among the below is a producer?",
+      "question_id": "1976.png-1",
+      "answers": [
+        "Rabbit",
+        "Meadow Grasses",
+        "Coyote",
+        "Hawk"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "A food web is shown. Which among the below tops the ecosystem?",
+      "question_id": "1976.png-0",
+      "answers": [
+        "Rabbit",
+        "Hawk",
+        "Deer",
+        "Meadow Grasses"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "If the Deer in the community above were removed, which animal would be most directly affected?",
+      "question_id": "1976.png-9",
+      "answers": [
+        "Vole",
+        "Rabbit",
+        "Coyote",
+        "Hawk"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "If the Meadow Grasses in the community above were removed, which animals would be most directly affected?",
+      "question_id": "1976.png-2",
+      "answers": [
+        "Deer, Rabbit, Hawk",
+        "Deer, Rabbit, Vole",
+        "Rabbit, Vole, Coyote",
+        "Vole, Deer, Hawk"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "If the Rabbits in the community above were removed, which animals would be most directly affected?",
+      "question_id": "1976.png-8",
+      "answers": [
+        "Coyote, Hawk",
+        "Hawk, Meadow Grasses",
+        "Coyote, Deer",
+        "Deer, Vole"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "If the Vole in the community above were removed, which animal would be most directly affected?",
+      "question_id": "1976.png-3",
+      "answers": [
+        "Deer",
+        "Hawk",
+        "Coyote",
+        "Rabbit"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Jackie was studying energy flow in food webs. Which receives its energy from the rabbit?",
+      "question_id": "1976.png-7",
+      "answers": [
+        "coyote",
+        "deer",
+        "meadow grasses",
+        "vole (A) meadow grasses (B) coyote (C) deer"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "The diagram above represents a field ecosystem . Which organism in the community shown would be most directly affected if all the voles were removed?",
+      "question_id": "1976.png-4",
+      "answers": [
+        "Rabbit",
+        "Coyote",
+        "Hawk",
+        "Deer"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What do coyotes feed on?",
+      "question_id": "1976.png-5",
+      "answers": [
+        "hawk",
+        "grass",
+        "rabbit",
+        "none of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What do voles feed on",
+      "question_id": "1976.png-6",
+      "answers": [
+        "hawk",
+        "coyote",
+        "meadow grasses",
+        "none of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

@@ -1,0 +1,636 @@
+{
+  "image_id": "221",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          283,
+          50
+        ],
+        [
+          336,
+          71
+        ]
+      ],
+      "value": "Light bulb",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          42,
+          127
+        ],
+        [
+          138,
+          157
+        ]
+      ],
+      "value": "Direction of flow of electric current",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          46,
+          298
+        ],
+        [
+          137,
+          319
+        ]
+      ],
+      "value": "Negative terminal",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          213,
+          210
+        ],
+        [
+          253,
+          232
+        ]
+      ],
+      "value": "Battery",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          280,
+          297
+        ],
+        [
+          370,
+          316
+        ]
+      ],
+      "value": "Positive terminal",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          167,
+          299
+        ],
+        [
+          163,
+          272
+        ],
+        [
+          170,
+          248
+        ],
+        [
+          257,
+          248
+        ],
+        [
+          253,
+          268
+        ],
+        [
+          254,
+          291
+        ],
+        [
+          259,
+          299
+        ],
+        [
+          265,
+          277
+        ],
+        [
+          263,
+          258
+        ],
+        [
+          257,
+          251
+        ],
+        [
+          252,
+          278
+        ],
+        [
+          260,
+          300
+        ],
+        [
+          167,
+          300
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          204,
+          170
+        ],
+        [
+          212,
+          174
+        ],
+        [
+          219,
+          172
+        ],
+        [
+          228,
+          167
+        ],
+        [
+          234,
+          105
+        ],
+        [
+          248,
+          79
+        ],
+        [
+          251,
+          53
+        ],
+        [
+          235,
+          35
+        ],
+        [
+          212,
+          26
+        ],
+        [
+          182,
+          35
+        ],
+        [
+          171,
+          63
+        ],
+        [
+          182,
+          93
+        ],
+        [
+          196,
+          122
+        ],
+        [
+          200,
+          143
+        ],
+        [
+          200,
+          163
+        ],
+        [
+          203,
+          171
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          139,
+          160
+        ],
+        [
+          167,
+          158
+        ],
+        [
+          167,
+          169
+        ],
+        [
+          135,
+          168
+        ],
+        [
+          139,
+          157
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          253,
+          141
+        ],
+        [
+          288,
+          141
+        ],
+        [
+          287,
+          151
+        ],
+        [
+          252,
+          149
+        ],
+        [
+          251,
+          140
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          319,
+          197
+        ],
+        [
+          320,
+          225
+        ],
+        [
+          333,
+          225
+        ],
+        [
+          329,
+          195
+        ],
+        [
+          321,
+          194
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          278,
+          279
+        ],
+        [
+          304,
+          279
+        ],
+        [
+          303,
+          288
+        ],
+        [
+          279,
+          289
+        ],
+        [
+          279,
+          279
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          131,
+          280
+        ],
+        [
+          159,
+          279
+        ],
+        [
+          159,
+          285
+        ],
+        [
+          130,
+          289
+        ],
+        [
+          133,
+          280
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          100,
+          207
+        ],
+        [
+          100,
+          237
+        ],
+        [
+          107,
+          237
+        ],
+        [
+          109,
+          205
+        ],
+        [
+          99,
+          209
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          179,
+          245
+        ],
+        [
+          208,
+          218
+        ],
+        [
+          215,
+          221
+        ],
+        [
+          216,
+          229
+        ],
+        [
+          207,
+          229
+        ],
+        [
+          187,
+          250
+        ],
+        [
+          179,
+          248
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          135,
+          309
+        ],
+        [
+          144,
+          308
+        ],
+        [
+          175,
+          278
+        ],
+        [
+          176,
+          281
+        ],
+        [
+          150,
+          313
+        ],
+        [
+          135,
+          313
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          248,
+          60
+        ],
+        [
+          287,
+          60
+        ],
+        [
+          284,
+          65
+        ],
+        [
+          247,
+          66
+        ],
+        [
+          247,
+          58
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          246,
+          274
+        ],
+        [
+          280,
+          309
+        ],
+        [
+          283,
+          309
+        ],
+        [
+          283,
+          316
+        ],
+        [
+          243,
+          283
+        ],
+        [
+          248,
+          273
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H1",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H2",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H3",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A6+B0",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "B0+A7+B0",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B0",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "B0+A9+B0",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B0",
+      "connector": "A9",
+      "directional": false
+    },
+    {
+      "id": "B1+A8+B1",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B1",
+      "connector": "A8",
+      "directional": false
+    },
+    {
+      "id": "T0+B1",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A0",
+      "type": "arrowDescriptor",
+      "source": "T1",
+      "target": "A0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B0",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "physics",
+    "diagram_type": "flow_diagram",
+    "text_content": "light bulb direction of flow of electric current negative terminal battery positive terminal"
+  }
+}

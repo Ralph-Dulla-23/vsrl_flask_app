@@ -1,0 +1,407 @@
+{
+  "image_id": "1367",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          197,
+          6
+        ],
+        [
+          405,
+          75
+        ]
+      ],
+      "value": "1 Rivers bring sediment to the ocean.sedimentary rocks containing fossils from on the ocean floor.",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          410,
+          80
+        ],
+        [
+          626,
+          134
+        ]
+      ],
+      "value": "2 Over time, additional strata are added, containing fossils from each time period.",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          606,
+          141
+        ],
+        [
+          799,
+          245
+        ]
+      ],
+      "value": "3 As sea levels change and the seafloor is pushed upward, sedimentary rocks are exposed. Erosion by rivers reveals strata; older strata contain older fossils.",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          128,
+          274
+        ],
+        [
+          294,
+          310
+        ]
+      ],
+      "value": "Younger stratum with more recent fossils",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          131,
+          341
+        ],
+        [
+          275,
+          374
+        ]
+      ],
+      "value": "Older stratum with older fossils",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          6,
+          382
+        ],
+        [
+          346,
+          403
+        ]
+      ],
+      "value": "Copyright Pearson Education, Inc., published as Benjamin Cummings.",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          6,
+          160
+        ],
+        [
+          10,
+          96
+        ],
+        [
+          126,
+          99
+        ],
+        [
+          182,
+          133
+        ],
+        [
+          262,
+          162
+        ],
+        [
+          282,
+          174
+        ],
+        [
+          349,
+          170
+        ],
+        [
+          376,
+          187
+        ],
+        [
+          502,
+          245
+        ],
+        [
+          586,
+          250
+        ],
+        [
+          634,
+          272
+        ],
+        [
+          653,
+          290
+        ],
+        [
+          707,
+          291
+        ],
+        [
+          738,
+          310
+        ],
+        [
+          742,
+          373
+        ],
+        [
+          634,
+          379
+        ],
+        [
+          469,
+          318
+        ],
+        [
+          472,
+          302
+        ],
+        [
+          395,
+          304
+        ],
+        [
+          354,
+          283
+        ],
+        [
+          280,
+          261
+        ],
+        [
+          243,
+          242
+        ],
+        [
+          243,
+          230
+        ],
+        [
+          165,
+          229
+        ],
+        [
+          5,
+          165
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          304,
+          270
+        ],
+        [
+          349,
+          270
+        ],
+        [
+          349,
+          315
+        ],
+        [
+          304,
+          323
+        ],
+        [
+          307,
+          272
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          304,
+          331
+        ],
+        [
+          350,
+          334
+        ],
+        [
+          352,
+          381
+        ],
+        [
+          301,
+          374
+        ],
+        [
+          307,
+          334
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          344,
+          291
+        ],
+        [
+          347,
+          306
+        ],
+        [
+          554,
+          275
+        ],
+        [
+          544,
+          259
+        ],
+        [
+          347,
+          293
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          341,
+          352
+        ],
+        [
+          349,
+          363
+        ],
+        [
+          557,
+          309
+        ],
+        [
+          546,
+          296
+        ],
+        [
+          342,
+          349
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "B0+A0+B1",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B1",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "B0+A1+B2",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B2",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T0+I0",
+      "type": "imageCaption",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+I0",
+      "type": "imageCaption",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+I0",
+      "type": "imageCaption",
+      "source": "T2",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B1",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B2",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+I0",
+      "type": "misc",
+      "source": "T5",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "A0": "connector",
+    "A1": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "1 rivers bring sediment to the ocean.sedimentary rocks containing fossils from on the ocean floor. 2 over time, additional strata are added, containing fossils from each time period. 3 as sea levels change and the seafloor is pushed upward, sedimentary rocks are exposed. erosion by rivers reveals strata; older strata contain older fossils. younger stratum with more recent fossils older stratum with older fossils copyright pearson education, inc., published as benjamin cummings."
+  },
+  "questions": []
+}

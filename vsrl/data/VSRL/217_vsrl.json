@@ -1,0 +1,486 @@
+{
+  "image_id": "217",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          11,
+          9
+        ],
+        [
+          121,
+          31
+        ]
+      ],
+      "value": "Series Circuit",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          223,
+          39
+        ],
+        [
+          275,
+          75
+        ]
+      ],
+      "value": "Copper wire",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          111,
+          80
+        ],
+        [
+          172,
+          101
+        ]
+      ],
+      "value": "Battery",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          178,
+          119
+        ],
+        [
+          227,
+          139
+        ]
+      ],
+      "value": "Bulbs",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          66,
+          76
+        ],
+        [
+          82,
+          94
+        ],
+        [
+          135,
+          73
+        ],
+        [
+          137,
+          62
+        ],
+        [
+          130,
+          43
+        ],
+        [
+          122,
+          31
+        ],
+        [
+          116,
+          27
+        ],
+        [
+          69,
+          39
+        ],
+        [
+          50,
+          59
+        ],
+        [
+          69,
+          77
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          220,
+          155
+        ],
+        [
+          227,
+          175
+        ],
+        [
+          244,
+          177
+        ],
+        [
+          267,
+          174
+        ],
+        [
+          274,
+          162
+        ],
+        [
+          268,
+          145
+        ],
+        [
+          261,
+          140
+        ],
+        [
+          262,
+          119
+        ],
+        [
+          246,
+          110
+        ],
+        [
+          234,
+          115
+        ],
+        [
+          229,
+          127
+        ],
+        [
+          228,
+          143
+        ],
+        [
+          219,
+          149
+        ],
+        [
+          219,
+          153
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          161,
+          197
+        ],
+        [
+          185,
+          209
+        ],
+        [
+          210,
+          203
+        ],
+        [
+          216,
+          194
+        ],
+        [
+          215,
+          183
+        ],
+        [
+          208,
+          170
+        ],
+        [
+          199,
+          163
+        ],
+        [
+          206,
+          147
+        ],
+        [
+          193,
+          142
+        ],
+        [
+          177,
+          142
+        ],
+        [
+          171,
+          152
+        ],
+        [
+          166,
+          160
+        ],
+        [
+          167,
+          174
+        ],
+        [
+          164,
+          181
+        ],
+        [
+          161,
+          198
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          125,
+          41
+        ],
+        [
+          140,
+          40
+        ],
+        [
+          164,
+          32
+        ],
+        [
+          174,
+          35
+        ],
+        [
+          284,
+          118
+        ],
+        [
+          288,
+          130
+        ],
+        [
+          283,
+          139
+        ],
+        [
+          266,
+          147
+        ],
+        [
+          260,
+          145
+        ],
+        [
+          283,
+          130
+        ],
+        [
+          281,
+          121
+        ],
+        [
+          169,
+          38
+        ],
+        [
+          159,
+          38
+        ],
+        [
+          130,
+          48
+        ],
+        [
+          122,
+          40
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          237,
+          160
+        ],
+        [
+          205,
+          178
+        ],
+        [
+          198,
+          178
+        ],
+        [
+          235,
+          156
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          178,
+          189
+        ],
+        [
+          146,
+          208
+        ],
+        [
+          125,
+          211
+        ],
+        [
+          113,
+          210
+        ],
+        [
+          16,
+          113
+        ],
+        [
+          13,
+          100
+        ],
+        [
+          22,
+          87
+        ],
+        [
+          67,
+          68
+        ],
+        [
+          73,
+          72
+        ],
+        [
+          46,
+          84
+        ],
+        [
+          29,
+          91
+        ],
+        [
+          22,
+          98
+        ],
+        [
+          20,
+          105
+        ],
+        [
+          122,
+          206
+        ],
+        [
+          147,
+          203
+        ],
+        [
+          174,
+          187
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "B0+A0+B1",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B1",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "B0+A2+B2",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B2",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "B1+A1+B2",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B2",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A0",
+      "type": "arrowDescriptor",
+      "source": "T1",
+      "target": "A0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B1",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "physics",
+    "diagram_type": "labeled_illustration",
+    "text_content": "series circuit copper wire battery bulbs"
+  }
+}

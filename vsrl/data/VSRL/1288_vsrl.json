@@ -1,0 +1,1448 @@
+{
+  "image_id": "1288",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          2,
+          395
+        ],
+        [
+          87,
+          439
+        ]
+      ],
+      "value": "emergence (10)",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          97,
+          393
+        ],
+        [
+          170,
+          449
+        ]
+      ],
+      "value": "Seedling growth (12)",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          178,
+          391
+        ],
+        [
+          259,
+          451
+        ]
+      ],
+      "value": "Beginning of tillering (21)",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          273,
+          391
+        ],
+        [
+          352,
+          449
+        ]
+      ],
+      "value": "Advanced tillering (23)",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          358,
+          389
+        ],
+        [
+          441,
+          467
+        ]
+      ],
+      "value": "Beginning of stem elongation (31)",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          443,
+          385
+        ],
+        [
+          512,
+          455
+        ]
+      ],
+      "value": "Flag leaf visible (38)",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          534,
+          389
+        ],
+        [
+          617,
+          449
+        ]
+      ],
+      "value": "Advanced booting (49)",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          672,
+          391
+        ],
+        [
+          779,
+          455
+        ]
+      ],
+      "value": "Inflorescence emergence (55)",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          818,
+          393
+        ],
+        [
+          887,
+          447
+        ]
+      ],
+      "value": "Anthesis (65)",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          931,
+          397
+        ],
+        [
+          1002,
+          447
+        ]
+      ],
+      "value": "Maturity (89)",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          36,
+          387
+        ],
+        [
+          40,
+          364
+        ],
+        [
+          51,
+          370
+        ],
+        [
+          51,
+          389
+        ],
+        [
+          43,
+          391
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          121,
+          387
+        ],
+        [
+          109,
+          354
+        ],
+        [
+          138,
+          364
+        ],
+        [
+          156,
+          387
+        ],
+        [
+          123,
+          391
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          213,
+          387
+        ],
+        [
+          200,
+          383
+        ],
+        [
+          208,
+          342
+        ],
+        [
+          235,
+          366
+        ],
+        [
+          221,
+          391
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          306,
+          391
+        ],
+        [
+          283,
+          383
+        ],
+        [
+          283,
+          368
+        ],
+        [
+          271,
+          354
+        ],
+        [
+          271,
+          338
+        ],
+        [
+          287,
+          326
+        ],
+        [
+          312,
+          326
+        ],
+        [
+          336,
+          318
+        ],
+        [
+          340,
+          330
+        ],
+        [
+          322,
+          348
+        ],
+        [
+          338,
+          348
+        ],
+        [
+          314,
+          393
+        ]
+      ],
+      "category": "object"
+    },
+    "B4": {
+      "id": "B4",
+      "type": "blob",
+      "polygon": [
+        [
+          383,
+          387
+        ],
+        [
+          378,
+          374
+        ],
+        [
+          358,
+          368
+        ],
+        [
+          364,
+          354
+        ],
+        [
+          358,
+          338
+        ],
+        [
+          358,
+          328
+        ],
+        [
+          381,
+          332
+        ],
+        [
+          370,
+          312
+        ],
+        [
+          395,
+          322
+        ],
+        [
+          429,
+          312
+        ],
+        [
+          431,
+          326
+        ],
+        [
+          407,
+          336
+        ],
+        [
+          431,
+          338
+        ],
+        [
+          407,
+          348
+        ],
+        [
+          431,
+          352
+        ],
+        [
+          413,
+          370
+        ],
+        [
+          413,
+          387
+        ],
+        [
+          393,
+          397
+        ],
+        [
+          387,
+          389
+        ]
+      ],
+      "category": "object"
+    },
+    "B5": {
+      "id": "B5",
+      "type": "blob",
+      "polygon": [
+        [
+          476,
+          383
+        ],
+        [
+          463,
+          364
+        ],
+        [
+          455,
+          338
+        ],
+        [
+          455,
+          326
+        ],
+        [
+          476,
+          344
+        ],
+        [
+          476,
+          332
+        ],
+        [
+          455,
+          310
+        ],
+        [
+          482,
+          320
+        ],
+        [
+          455,
+          263
+        ],
+        [
+          463,
+          257
+        ],
+        [
+          476,
+          281
+        ],
+        [
+          476,
+          225
+        ],
+        [
+          482,
+          219
+        ],
+        [
+          486,
+          257
+        ],
+        [
+          510,
+          237
+        ],
+        [
+          520,
+          245
+        ],
+        [
+          488,
+          275
+        ],
+        [
+          490,
+          291
+        ],
+        [
+          516,
+          277
+        ],
+        [
+          526,
+          291
+        ],
+        [
+          510,
+          312
+        ],
+        [
+          516,
+          322
+        ],
+        [
+          514,
+          340
+        ],
+        [
+          494,
+          362
+        ],
+        [
+          494,
+          381
+        ],
+        [
+          484,
+          389
+        ],
+        [
+          482,
+          389
+        ]
+      ],
+      "category": "object"
+    },
+    "B6": {
+      "id": "B6",
+      "type": "blob",
+      "polygon": [
+        [
+          565,
+          387
+        ],
+        [
+          561,
+          368
+        ],
+        [
+          549,
+          356
+        ],
+        [
+          532,
+          342
+        ],
+        [
+          532,
+          332
+        ],
+        [
+          561,
+          342
+        ],
+        [
+          549,
+          336
+        ],
+        [
+          553,
+          318
+        ],
+        [
+          561,
+          310
+        ],
+        [
+          565,
+          285
+        ],
+        [
+          526,
+          257
+        ],
+        [
+          526,
+          249
+        ],
+        [
+          559,
+          259
+        ],
+        [
+          565,
+          196
+        ],
+        [
+          559,
+          184
+        ],
+        [
+          532,
+          217
+        ],
+        [
+          520,
+          206
+        ],
+        [
+          544,
+          160
+        ],
+        [
+          575,
+          160
+        ],
+        [
+          581,
+          186
+        ],
+        [
+          581,
+          219
+        ],
+        [
+          603,
+          210
+        ],
+        [
+          640,
+          210
+        ],
+        [
+          636,
+          217
+        ],
+        [
+          583,
+          233
+        ],
+        [
+          577,
+          249
+        ],
+        [
+          629,
+          229
+        ],
+        [
+          631,
+          241
+        ],
+        [
+          597,
+          271
+        ],
+        [
+          597,
+          283
+        ],
+        [
+          621,
+          265
+        ],
+        [
+          627,
+          271
+        ],
+        [
+          607,
+          293
+        ],
+        [
+          609,
+          316
+        ],
+        [
+          591,
+          306
+        ],
+        [
+          591,
+          356
+        ],
+        [
+          605,
+          366
+        ],
+        [
+          607,
+          378
+        ],
+        [
+          587,
+          372
+        ],
+        [
+          587,
+          376
+        ],
+        [
+          581,
+          389
+        ],
+        [
+          569,
+          391
+        ]
+      ],
+      "category": "object"
+    },
+    "B7": {
+      "id": "B7",
+      "type": "blob",
+      "polygon": [
+        [
+          727,
+          391
+        ],
+        [
+          710,
+          391
+        ],
+        [
+          702,
+          370
+        ],
+        [
+          723,
+          372
+        ],
+        [
+          723,
+          340
+        ],
+        [
+          680,
+          362
+        ],
+        [
+          676,
+          348
+        ],
+        [
+          725,
+          330
+        ],
+        [
+          721,
+          279
+        ],
+        [
+          680,
+          320
+        ],
+        [
+          674,
+          306
+        ],
+        [
+          725,
+          261
+        ],
+        [
+          725,
+          227
+        ],
+        [
+          698,
+          243
+        ],
+        [
+          672,
+          279
+        ],
+        [
+          664,
+          267
+        ],
+        [
+          710,
+          217
+        ],
+        [
+          721,
+          204
+        ],
+        [
+          723,
+          172
+        ],
+        [
+          716,
+          148
+        ],
+        [
+          682,
+          178
+        ],
+        [
+          672,
+          178
+        ],
+        [
+          682,
+          154
+        ],
+        [
+          710,
+          132
+        ],
+        [
+          708,
+          101
+        ],
+        [
+          721,
+          97
+        ],
+        [
+          731,
+          105
+        ],
+        [
+          733,
+          160
+        ],
+        [
+          787,
+          213
+        ],
+        [
+          789,
+          219
+        ],
+        [
+          775,
+          215
+        ],
+        [
+          747,
+          192
+        ],
+        [
+          737,
+          184
+        ],
+        [
+          737,
+          255
+        ],
+        [
+          753,
+          251
+        ],
+        [
+          759,
+          210
+        ],
+        [
+          787,
+          241
+        ],
+        [
+          787,
+          255
+        ],
+        [
+          769,
+          253
+        ],
+        [
+          763,
+          257
+        ],
+        [
+          797,
+          261
+        ],
+        [
+          787,
+          277
+        ],
+        [
+          763,
+          285
+        ],
+        [
+          759,
+          308
+        ],
+        [
+          779,
+          314
+        ],
+        [
+          785,
+          322
+        ],
+        [
+          751,
+          324
+        ],
+        [
+          745,
+          352
+        ],
+        [
+          773,
+          348
+        ],
+        [
+          773,
+          358
+        ],
+        [
+          741,
+          374
+        ],
+        [
+          751,
+          378
+        ],
+        [
+          729,
+          397
+        ]
+      ],
+      "category": "object"
+    },
+    "B8": {
+      "id": "B8",
+      "type": "blob",
+      "polygon": [
+        [
+          838,
+          385
+        ],
+        [
+          832,
+          354
+        ],
+        [
+          812,
+          366
+        ],
+        [
+          832,
+          326
+        ],
+        [
+          848,
+          306
+        ],
+        [
+          854,
+          263
+        ],
+        [
+          840,
+          255
+        ],
+        [
+          812,
+          279
+        ],
+        [
+          812,
+          273
+        ],
+        [
+          826,
+          237
+        ],
+        [
+          846,
+          243
+        ],
+        [
+          850,
+          206
+        ],
+        [
+          830,
+          206
+        ],
+        [
+          808,
+          225
+        ],
+        [
+          799,
+          219
+        ],
+        [
+          826,
+          196
+        ],
+        [
+          850,
+          200
+        ],
+        [
+          848,
+          176
+        ],
+        [
+          812,
+          184
+        ],
+        [
+          812,
+          172
+        ],
+        [
+          848,
+          164
+        ],
+        [
+          850,
+          121
+        ],
+        [
+          844,
+          113
+        ],
+        [
+          806,
+          150
+        ],
+        [
+          828,
+          99
+        ],
+        [
+          850,
+          97
+        ],
+        [
+          852,
+          57
+        ],
+        [
+          842,
+          51
+        ],
+        [
+          840,
+          22
+        ],
+        [
+          846,
+          6
+        ],
+        [
+          866,
+          22
+        ],
+        [
+          866,
+          47
+        ],
+        [
+          864,
+          67
+        ],
+        [
+          878,
+          73
+        ],
+        [
+          889,
+          105
+        ],
+        [
+          921,
+          105
+        ],
+        [
+          925,
+          113
+        ],
+        [
+          889,
+          123
+        ],
+        [
+          876,
+          164
+        ],
+        [
+          911,
+          166
+        ],
+        [
+          917,
+          172
+        ],
+        [
+          903,
+          186
+        ],
+        [
+          874,
+          180
+        ],
+        [
+          874,
+          227
+        ],
+        [
+          907,
+          263
+        ],
+        [
+          909,
+          277
+        ],
+        [
+          878,
+          241
+        ],
+        [
+          876,
+          271
+        ],
+        [
+          899,
+          306
+        ],
+        [
+          891,
+          316
+        ],
+        [
+          874,
+          283
+        ],
+        [
+          870,
+          358
+        ],
+        [
+          889,
+          370
+        ],
+        [
+          860,
+          381
+        ],
+        [
+          864,
+          391
+        ],
+        [
+          860,
+          397
+        ],
+        [
+          842,
+          391
+        ]
+      ],
+      "category": "object"
+    },
+    "B9": {
+      "id": "B9",
+      "type": "blob",
+      "polygon": [
+        [
+          957,
+          397
+        ],
+        [
+          967,
+          324
+        ],
+        [
+          951,
+          358
+        ],
+        [
+          963,
+          304
+        ],
+        [
+          967,
+          202
+        ],
+        [
+          951,
+          257
+        ],
+        [
+          963,
+          180
+        ],
+        [
+          961,
+          109
+        ],
+        [
+          951,
+          158
+        ],
+        [
+          941,
+          158
+        ],
+        [
+          963,
+          95
+        ],
+        [
+          959,
+          55
+        ],
+        [
+          947,
+          8
+        ],
+        [
+          969,
+          0
+        ],
+        [
+          980,
+          30
+        ],
+        [
+          992,
+          61
+        ],
+        [
+          980,
+          81
+        ],
+        [
+          990,
+          119
+        ],
+        [
+          1006,
+          178
+        ],
+        [
+          992,
+          160
+        ],
+        [
+          1006,
+          231
+        ],
+        [
+          1008,
+          251
+        ],
+        [
+          996,
+          229
+        ],
+        [
+          1002,
+          308
+        ],
+        [
+          990,
+          300
+        ],
+        [
+          992,
+          356
+        ],
+        [
+          990,
+          364
+        ],
+        [
+          980,
+          352
+        ],
+        [
+          978,
+          409
+        ],
+        [
+          957,
+          401
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+B0",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B1",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B2",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B3",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B4",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+B5",
+      "type": "intraObjectLabel",
+      "source": "T5",
+      "target": "B5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+B6",
+      "type": "intraObjectLabel",
+      "source": "T6",
+      "target": "B6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T7+B7",
+      "type": "intraObjectLabel",
+      "source": "T7",
+      "target": "B7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T8+B8",
+      "type": "intraObjectLabel",
+      "source": "T8",
+      "target": "B8",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T9+B9",
+      "type": "intraObjectLabel",
+      "source": "T9",
+      "target": "B9",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "B4": "whole",
+    "B5": "whole",
+    "B6": "whole",
+    "B7": "whole",
+    "B8": "whole",
+    "B9": "whole"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "emergence (10) seedling growth (12) beginning of tillering (21) advanced tillering (23) beginning of stem elongation (31) flag leaf visible (38) advanced booting (49) inflorescence emergence (55) anthesis (65) maturity (89)"
+  },
+  "questions": [
+    {
+      "question_text": "What stage comes after advanced booting?",
+      "question_id": "1288.png-2",
+      "answers": [
+        "inflorescence emergence",
+        "emergence",
+        "beginning of stem elongation",
+        "flag leaf visible"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "What stage is represented by E?",
+      "question_id": "1288.png-1",
+      "answers": [
+        "maturity",
+        "flag leaf visible",
+        "seedling growth",
+        "emergence"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "What stage of growth is shown at letter B?",
+      "question_id": "1288.png-3",
+      "answers": [
+        "maturity",
+        "beginning of tillering",
+        "advanced booting",
+        "emergence"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which is the final stage?",
+      "question_id": "1288.png-5",
+      "answers": [
+        "Maturity",
+        "Emergence",
+        "Anthesis",
+        "Tillering"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which is the first stage?",
+      "question_id": "1288.png-0",
+      "answers": [
+        "Emergence",
+        "Anthesis",
+        "Maturity",
+        "Tillering"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which stage in the given diagram represents the inflorescence emergence?",
+      "question_id": "1288.png-4",
+      "answers": [
+        "J",
+        "A",
+        "E",
+        "F"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

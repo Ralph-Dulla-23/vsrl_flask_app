@@ -1,0 +1,576 @@
+{
+  "image_id": "2995",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          233,
+          5
+        ],
+        [
+          335,
+          21
+        ]
+      ],
+      "value": "Epidermis/Bark",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          239,
+          34
+        ],
+        [
+          320,
+          50
+        ]
+      ],
+      "value": "Cork Cambium",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          242,
+          61
+        ],
+        [
+          283,
+          74
+        ]
+      ],
+      "value": "Cortex",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          245,
+          87
+        ],
+        [
+          339,
+          102
+        ]
+      ],
+      "value": "Primary Phloem",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          216,
+          153
+        ],
+        [
+          322,
+          169
+        ]
+      ],
+      "value": "Secondary Xylem",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          247,
+          135
+        ],
+        [
+          354,
+          150
+        ]
+      ],
+      "value": "Vascular Cambium",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          194,
+          172
+        ],
+        [
+          278,
+          185
+        ]
+      ],
+      "value": "Primary Xylem",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          241,
+          112
+        ],
+        [
+          349,
+          123
+        ]
+      ],
+      "value": "Secondary Phloem",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          230,
+          142
+        ],
+        [
+          230,
+          83
+        ],
+        [
+          226,
+          70
+        ],
+        [
+          203,
+          46
+        ],
+        [
+          160,
+          35
+        ],
+        [
+          123,
+          32
+        ],
+        [
+          87,
+          35
+        ],
+        [
+          61,
+          40
+        ],
+        [
+          33,
+          48
+        ],
+        [
+          11,
+          68
+        ],
+        [
+          5,
+          87
+        ],
+        [
+          9,
+          151
+        ],
+        [
+          31,
+          165
+        ],
+        [
+          53,
+          175
+        ],
+        [
+          90,
+          179
+        ],
+        [
+          148,
+          179
+        ],
+        [
+          146,
+          145
+        ],
+        [
+          229,
+          144
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          140,
+          29
+        ],
+        [
+          231,
+          9
+        ],
+        [
+          234,
+          16
+        ],
+        [
+          143,
+          37
+        ],
+        [
+          141,
+          30
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          180,
+          50
+        ],
+        [
+          239,
+          35
+        ],
+        [
+          239,
+          42
+        ],
+        [
+          184,
+          56
+        ],
+        [
+          179,
+          49
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          208,
+          77
+        ],
+        [
+          243,
+          62
+        ],
+        [
+          248,
+          72
+        ],
+        [
+          212,
+          84
+        ],
+        [
+          210,
+          78
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          201,
+          94
+        ],
+        [
+          203,
+          100
+        ],
+        [
+          205,
+          102
+        ],
+        [
+          254,
+          96
+        ],
+        [
+          249,
+          86
+        ],
+        [
+          201,
+          94
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          195,
+          100
+        ],
+        [
+          195,
+          111
+        ],
+        [
+          241,
+          118
+        ],
+        [
+          243,
+          110
+        ],
+        [
+          194,
+          100
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          244,
+          140
+        ],
+        [
+          250,
+          138
+        ],
+        [
+          250,
+          133
+        ],
+        [
+          185,
+          110
+        ],
+        [
+          186,
+          117
+        ],
+        [
+          241,
+          139
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          179,
+          123
+        ],
+        [
+          175,
+          129
+        ],
+        [
+          216,
+          163
+        ],
+        [
+          226,
+          157
+        ],
+        [
+          182,
+          123
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          162,
+          126
+        ],
+        [
+          158,
+          132
+        ],
+        [
+          192,
+          176
+        ],
+        [
+          200,
+          172
+        ],
+        [
+          165,
+          126
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          154,
+          122
+        ],
+        [
+          147,
+          123
+        ],
+        [
+          161,
+          193
+        ],
+        [
+          172,
+          190
+        ],
+        [
+          157,
+          123
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T2+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T3+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T4+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T5+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T6+A7+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T7+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "epidermis/bark cork cambium cortex primary phloem secondary xylem vascular cambium primary xylem secondary phloem"
+  },
+  "questions": [
+    {
+      "question_text": "which is between secondary phloem and secondary xylem?",
+      "question_id": "2995.png-0",
+      "answers": [
+        "cork cambium",
+        "Vascular cambium",
+        "pith",
+        "cortex"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

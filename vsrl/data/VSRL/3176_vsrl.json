@@ -1,0 +1,564 @@
+{
+  "image_id": "3176",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          17,
+          37
+        ],
+        [
+          80,
+          60
+        ]
+      ],
+      "value": "flower",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          30,
+          4
+        ],
+        [
+          200,
+          27
+        ]
+      ],
+      "value": "Parts of a Flower",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          7,
+          114
+        ],
+        [
+          62,
+          135
+        ]
+      ],
+      "value": "seeds",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          10,
+          171
+        ],
+        [
+          54,
+          195
+        ]
+      ],
+      "value": "leaf",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          54,
+          214
+        ],
+        [
+          99,
+          239
+        ]
+      ],
+      "value": "stem",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          147,
+          278
+        ],
+        [
+          200,
+          298
+        ]
+      ],
+      "value": "roots",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          157,
+          166
+        ],
+        [
+          197,
+          192
+        ]
+      ],
+      "value": "leaf",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          160,
+          64
+        ],
+        [
+          221,
+          87
+        ]
+      ],
+      "value": "petals",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          88,
+          47
+        ],
+        [
+          159,
+          49
+        ],
+        [
+          165,
+          103
+        ],
+        [
+          125,
+          137
+        ],
+        [
+          168,
+          134
+        ],
+        [
+          166,
+          168
+        ],
+        [
+          115,
+          188
+        ],
+        [
+          117,
+          248
+        ],
+        [
+          180,
+          256
+        ],
+        [
+          202,
+          275
+        ],
+        [
+          151,
+          284
+        ],
+        [
+          131,
+          280
+        ],
+        [
+          128,
+          289
+        ],
+        [
+          116,
+          279
+        ],
+        [
+          105,
+          281
+        ],
+        [
+          107,
+          289
+        ],
+        [
+          97,
+          287
+        ],
+        [
+          83,
+          291
+        ],
+        [
+          76,
+          289
+        ],
+        [
+          81,
+          282
+        ],
+        [
+          41,
+          276
+        ],
+        [
+          43,
+          256
+        ],
+        [
+          98,
+          257
+        ],
+        [
+          104,
+          227
+        ],
+        [
+          104,
+          213
+        ],
+        [
+          104,
+          182
+        ],
+        [
+          54,
+          173
+        ],
+        [
+          38,
+          151
+        ],
+        [
+          70,
+          142
+        ],
+        [
+          102,
+          156
+        ],
+        [
+          104,
+          133
+        ],
+        [
+          83,
+          123
+        ],
+        [
+          61,
+          115
+        ],
+        [
+          60,
+          101
+        ],
+        [
+          57,
+          88
+        ],
+        [
+          59,
+          77
+        ],
+        [
+          67,
+          65
+        ],
+        [
+          74,
+          56
+        ],
+        [
+          87,
+          49
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          49,
+          115
+        ],
+        [
+          58,
+          123
+        ],
+        [
+          111,
+          96
+        ],
+        [
+          107,
+          85
+        ],
+        [
+          51,
+          112
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          184,
+          90
+        ],
+        [
+          158,
+          101
+        ],
+        [
+          148,
+          104
+        ],
+        [
+          144,
+          93
+        ],
+        [
+          164,
+          86
+        ],
+        [
+          181,
+          82
+        ],
+        [
+          183,
+          88
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          48,
+          179
+        ],
+        [
+          49,
+          185
+        ],
+        [
+          50,
+          188
+        ],
+        [
+          80,
+          170
+        ],
+        [
+          76,
+          164
+        ],
+        [
+          46,
+          177
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          99,
+          222
+        ],
+        [
+          102,
+          228
+        ],
+        [
+          115,
+          218
+        ],
+        [
+          109,
+          211
+        ],
+        [
+          101,
+          218
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          153,
+          180
+        ],
+        [
+          159,
+          177
+        ],
+        [
+          147,
+          159
+        ],
+        [
+          142,
+          163
+        ],
+        [
+          150,
+          180
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+B0",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+I0",
+      "type": "imageTitle",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T3+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T4+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T5+B0",
+      "type": "intraObjectLabel",
+      "source": "T5",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T7+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "title",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "flower parts of a flower seeds leaf stem roots leaf petals"
+  },
+  "questions": [
+    {
+      "question_text": "What does Leaf indicates?",
+      "question_id": "3176.png-1",
+      "answers": [
+        "A natural development or outgrowth",
+        "The main ascending axis of a plant",
+        "A usually green, flattened, lateral structure attached to a stem and functioning as a principal organ of photosynthesis and transpiration in most plants.",
+        "The usually underground portion of a plant that lacks buds, leaves, or nodes"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which part is usually underground?",
+      "question_id": "3176.png-0",
+      "answers": [
+        "petals",
+        "leaf",
+        "roots",
+        "stem"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

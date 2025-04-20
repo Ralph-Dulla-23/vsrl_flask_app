@@ -1,0 +1,336 @@
+{
+  "image_id": "378",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          344,
+          58
+        ],
+        [
+          504,
+          112
+        ]
+      ],
+      "value": "Intrusive Igneous Rock (Magma cools off beneath the surface)",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          7,
+          9
+        ],
+        [
+          164,
+          64
+        ]
+      ],
+      "value": "Extrusive Igneous Rock ( Magma comes out as lava and cools on the surface )",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          4,
+          183
+        ],
+        [
+          100,
+          205
+        ]
+      ],
+      "value": "Earth's surface",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          179,
+          231
+        ],
+        [
+          239,
+          254
+        ]
+      ],
+      "value": "Magma",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          511,
+          153
+        ],
+        [
+          467,
+          121
+        ],
+        [
+          428,
+          136
+        ],
+        [
+          397,
+          152
+        ],
+        [
+          380,
+          148
+        ],
+        [
+          370,
+          147
+        ],
+        [
+          333,
+          115
+        ],
+        [
+          329,
+          106
+        ],
+        [
+          318,
+          93
+        ],
+        [
+          308,
+          74
+        ],
+        [
+          296,
+          64
+        ],
+        [
+          279,
+          53
+        ],
+        [
+          270,
+          40
+        ],
+        [
+          258,
+          36
+        ],
+        [
+          235,
+          43
+        ],
+        [
+          229,
+          50
+        ],
+        [
+          219,
+          40
+        ],
+        [
+          210,
+          31
+        ],
+        [
+          186,
+          36
+        ],
+        [
+          173,
+          50
+        ],
+        [
+          150,
+          70
+        ],
+        [
+          127,
+          95
+        ],
+        [
+          113,
+          102
+        ],
+        [
+          112,
+          110
+        ],
+        [
+          89,
+          119
+        ],
+        [
+          78,
+          135
+        ],
+        [
+          59,
+          143
+        ],
+        [
+          41,
+          142
+        ],
+        [
+          2,
+          120
+        ],
+        [
+          1,
+          258
+        ],
+        [
+          511,
+          258
+        ],
+        [
+          511,
+          153
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          61,
+          69
+        ],
+        [
+          69,
+          63
+        ],
+        [
+          107,
+          121
+        ],
+        [
+          100,
+          121
+        ],
+        [
+          61,
+          71
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          354,
+          203
+        ],
+        [
+          363,
+          206
+        ],
+        [
+          394,
+          111
+        ],
+        [
+          389,
+          109
+        ],
+        [
+          354,
+          205
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T1+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "intrusive igneous rock (magma cools off beneath the surface) extrusive igneous rock ( magma comes out as lava and cools on the surface ) earth's surface magma"
+  },
+  "questions": [
+    {
+      "question_text": "What is at the very bottom of the volcano in the diagram?",
+      "question_id": "378.png-0",
+      "answers": [
+        "none of the above",
+        "earth surface",
+        "magma",
+        "intrusive igneous rock"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is formed when lava cools on the surface?",
+      "question_id": "378.png-1",
+      "answers": [
+        "extrusive igneous rock",
+        "intrusive igneous rock",
+        "none of the above",
+        "magma"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

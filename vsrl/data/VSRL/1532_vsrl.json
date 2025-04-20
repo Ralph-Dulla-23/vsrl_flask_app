@@ -1,0 +1,416 @@
+{
+  "image_id": "1532",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          208,
+          23
+        ],
+        [
+          326,
+          47
+        ]
+      ],
+      "value": "Closed Parallel Circuit. All the lightbulbs turn on.",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          150,
+          62
+        ],
+        [
+          143,
+          44
+        ],
+        [
+          151,
+          14
+        ],
+        [
+          162,
+          6
+        ],
+        [
+          174,
+          14
+        ],
+        [
+          181,
+          46
+        ],
+        [
+          170,
+          66
+        ],
+        [
+          170,
+          89
+        ],
+        [
+          150,
+          87
+        ],
+        [
+          150,
+          62
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          153,
+          116
+        ],
+        [
+          146,
+          130
+        ],
+        [
+          144,
+          157
+        ],
+        [
+          156,
+          176
+        ],
+        [
+          152,
+          198
+        ],
+        [
+          173,
+          198
+        ],
+        [
+          174,
+          172
+        ],
+        [
+          174,
+          170
+        ],
+        [
+          179,
+          152
+        ],
+        [
+          181,
+          127
+        ],
+        [
+          175,
+          117
+        ],
+        [
+          157,
+          112
+        ],
+        [
+          153,
+          118
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          151,
+          226
+        ],
+        [
+          146,
+          250
+        ],
+        [
+          153,
+          273
+        ],
+        [
+          153,
+          297
+        ],
+        [
+          174,
+          297
+        ],
+        [
+          173,
+          277
+        ],
+        [
+          183,
+          250
+        ],
+        [
+          172,
+          219
+        ],
+        [
+          161,
+          218
+        ],
+        [
+          149,
+          230
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          17,
+          175
+        ],
+        [
+          34,
+          174
+        ],
+        [
+          46,
+          174
+        ],
+        [
+          52,
+          180
+        ],
+        [
+          52,
+          239
+        ],
+        [
+          20,
+          236
+        ],
+        [
+          18,
+          175
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          31,
+          171
+        ],
+        [
+          42,
+          171
+        ],
+        [
+          41,
+          62
+        ],
+        [
+          109,
+          62
+        ],
+        [
+          108,
+          139
+        ],
+        [
+          110,
+          290
+        ],
+        [
+          152,
+          290
+        ],
+        [
+          153,
+          281
+        ],
+        [
+          119,
+          280
+        ],
+        [
+          118,
+          56
+        ],
+        [
+          30,
+          53
+        ],
+        [
+          32,
+          148
+        ],
+        [
+          31,
+          171
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          24,
+          240
+        ],
+        [
+          41,
+          241
+        ],
+        [
+          38,
+          241
+        ],
+        [
+          38,
+          336
+        ],
+        [
+          253,
+          335
+        ],
+        [
+          255,
+          335
+        ],
+        [
+          255,
+          62
+        ],
+        [
+          206,
+          62
+        ],
+        [
+          206,
+          269
+        ],
+        [
+          205,
+          309
+        ],
+        [
+          159,
+          309
+        ],
+        [
+          161,
+          300
+        ],
+        [
+          166,
+          300
+        ],
+        [
+          168,
+          303
+        ],
+        [
+          197,
+          303
+        ],
+        [
+          197,
+          54
+        ],
+        [
+          265,
+          54
+        ],
+        [
+          267,
+          68
+        ],
+        [
+          267,
+          79
+        ],
+        [
+          265,
+          153
+        ],
+        [
+          262,
+          346
+        ],
+        [
+          271,
+          347
+        ],
+        [
+          27,
+          347
+        ],
+        [
+          29,
+          238
+        ],
+        [
+          25,
+          240
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "B2+A0+B3",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B3",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "B2+A1+B3",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B3",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T0+I0",
+      "type": "sectionTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "A0": "connector",
+    "A1": "connector"
+  },
+  "educational_context": {
+    "subject": "physics",
+    "diagram_type": "labeled_illustration",
+    "text_content": "closed parallel circuit. all the lightbulbs turn on."
+  }
+}

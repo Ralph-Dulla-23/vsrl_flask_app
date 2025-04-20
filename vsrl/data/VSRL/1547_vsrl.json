@@ -1,0 +1,508 @@
+{
+  "image_id": "1547",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          165,
+          57
+        ],
+        [
+          182,
+          77
+        ]
+      ],
+      "value": "R",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          241,
+          59
+        ],
+        [
+          256,
+          75
+        ]
+      ],
+      "value": "R",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          316,
+          60
+        ],
+        [
+          332,
+          78
+        ]
+      ],
+      "value": "R",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          390,
+          58
+        ],
+        [
+          407,
+          76
+        ]
+      ],
+      "value": "R",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          145,
+          2
+        ],
+        [
+          324,
+          30
+        ]
+      ],
+      "value": "Parallel Circuit",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          108
+        ],
+        [
+          63,
+          132
+        ]
+      ],
+      "value": "Battery",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          321,
+          153
+        ],
+        [
+          439,
+          183
+        ]
+      ],
+      "value": "R = Resistor (Such as a lightbul)",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          69,
+          103
+        ],
+        [
+          102,
+          104
+        ],
+        [
+          103,
+          127
+        ],
+        [
+          92,
+          135
+        ],
+        [
+          73,
+          136
+        ],
+        [
+          63,
+          121
+        ],
+        [
+          68,
+          102
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          133,
+          65
+        ],
+        [
+          133,
+          103
+        ],
+        [
+          178,
+          104
+        ],
+        [
+          179,
+          67
+        ],
+        [
+          136,
+          65
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          208,
+          68
+        ],
+        [
+          246,
+          68
+        ],
+        [
+          250,
+          104
+        ],
+        [
+          213,
+          108
+        ],
+        [
+          207,
+          69
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          283,
+          72
+        ],
+        [
+          286,
+          105
+        ],
+        [
+          323,
+          106
+        ],
+        [
+          324,
+          65
+        ],
+        [
+          284,
+          70
+        ]
+      ],
+      "category": "object"
+    },
+    "B4": {
+      "id": "B4",
+      "type": "blob",
+      "polygon": [
+        [
+          358,
+          69
+        ],
+        [
+          361,
+          104
+        ],
+        [
+          399,
+          105
+        ],
+        [
+          400,
+          66
+        ],
+        [
+          361,
+          68
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          81,
+          26
+        ],
+        [
+          202,
+          29
+        ],
+        [
+          346,
+          27
+        ],
+        [
+          391,
+          27
+        ],
+        [
+          390,
+          68
+        ],
+        [
+          390,
+          72
+        ],
+        [
+          376,
+          73
+        ],
+        [
+          379,
+          42
+        ],
+        [
+          311,
+          38
+        ],
+        [
+          237,
+          40
+        ],
+        [
+          184,
+          40
+        ],
+        [
+          151,
+          41
+        ],
+        [
+          88,
+          40
+        ],
+        [
+          89,
+          103
+        ],
+        [
+          89,
+          106
+        ],
+        [
+          87,
+          111
+        ],
+        [
+          76,
+          111
+        ],
+        [
+          77,
+          26
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          76,
+          132
+        ],
+        [
+          92,
+          132
+        ],
+        [
+          91,
+          139
+        ],
+        [
+          377,
+          141
+        ],
+        [
+          376,
+          106
+        ],
+        [
+          376,
+          101
+        ],
+        [
+          392,
+          101
+        ],
+        [
+          391,
+          144
+        ],
+        [
+          391,
+          149
+        ],
+        [
+          340,
+          151
+        ],
+        [
+          266,
+          151
+        ],
+        [
+          187,
+          153
+        ],
+        [
+          119,
+          155
+        ],
+        [
+          80,
+          152
+        ],
+        [
+          77,
+          133
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "B0+A0+B4",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B4",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "B0+A1+B4",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B4",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T0+B1",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B2",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B3",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B4",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+I0",
+      "type": "imageTitle",
+      "source": "T4",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+B0",
+      "type": "intraObjectLabel",
+      "source": "T5",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+I0",
+      "type": "imageCaption",
+      "source": "T6",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "title",
+    "T5": "part_label",
+    "T6": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "B4": "whole",
+    "A0": "connector",
+    "A1": "connector"
+  },
+  "educational_context": {
+    "subject": "physics",
+    "diagram_type": "labeled_illustration",
+    "text_content": "r r r r parallel circuit battery r = resistor (such as a lightbul)"
+  }
+}

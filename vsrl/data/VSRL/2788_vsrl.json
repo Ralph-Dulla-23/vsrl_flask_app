@@ -1,0 +1,576 @@
+{
+  "image_id": "2788",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          354,
+          562
+        ],
+        [
+          423,
+          588
+        ]
+      ],
+      "value": "Root",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          325,
+          143
+        ],
+        [
+          445,
+          174
+        ]
+      ],
+      "value": "Predator",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          314,
+          332
+        ],
+        [
+          446,
+          401
+        ]
+      ],
+      "value": "Root Herbivore",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          329,
+          551
+        ],
+        [
+          332,
+          605
+        ],
+        [
+          446,
+          604
+        ],
+        [
+          448,
+          549
+        ],
+        [
+          326,
+          550
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          287,
+          323
+        ],
+        [
+          291,
+          414
+        ],
+        [
+          465,
+          415
+        ],
+        [
+          469,
+          325
+        ],
+        [
+          291,
+          322
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          309,
+          132
+        ],
+        [
+          309,
+          190
+        ],
+        [
+          460,
+          190
+        ],
+        [
+          463,
+          134
+        ],
+        [
+          313,
+          133
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          317,
+          205
+        ],
+        [
+          319,
+          279
+        ],
+        [
+          308,
+          279
+        ],
+        [
+          334,
+          318
+        ],
+        [
+          354,
+          280
+        ],
+        [
+          344,
+          277
+        ],
+        [
+          344,
+          202
+        ],
+        [
+          323,
+          203
+        ],
+        [
+          317,
+          203
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          412,
+          200
+        ],
+        [
+          446,
+          201
+        ],
+        [
+          444,
+          315
+        ],
+        [
+          414,
+          318
+        ],
+        [
+          413,
+          202
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          319,
+          430
+        ],
+        [
+          343,
+          428
+        ],
+        [
+          349,
+          521
+        ],
+        [
+          333,
+          537
+        ],
+        [
+          315,
+          535
+        ],
+        [
+          318,
+          428
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          435,
+          430
+        ],
+        [
+          458,
+          428
+        ],
+        [
+          466,
+          428
+        ],
+        [
+          464,
+          532
+        ],
+        [
+          441,
+          538
+        ],
+        [
+          434,
+          533
+        ],
+        [
+          429,
+          502
+        ],
+        [
+          433,
+          430
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          296,
+          584
+        ],
+        [
+          270,
+          566
+        ],
+        [
+          263,
+          574
+        ],
+        [
+          204,
+          572
+        ],
+        [
+          155,
+          559
+        ],
+        [
+          145,
+          532
+        ],
+        [
+          147,
+          475
+        ],
+        [
+          144,
+          212
+        ],
+        [
+          158,
+          200
+        ],
+        [
+          211,
+          190
+        ],
+        [
+          301,
+          184
+        ],
+        [
+          297,
+          159
+        ],
+        [
+          231,
+          161
+        ],
+        [
+          162,
+          173
+        ],
+        [
+          120,
+          192
+        ],
+        [
+          122,
+          570
+        ],
+        [
+          152,
+          590
+        ],
+        [
+          199,
+          603
+        ],
+        [
+          250,
+          605
+        ],
+        [
+          263,
+          605
+        ],
+        [
+          274,
+          612
+        ],
+        [
+          298,
+          587
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          473,
+          582
+        ],
+        [
+          581,
+          570
+        ],
+        [
+          638,
+          551
+        ],
+        [
+          634,
+          529
+        ],
+        [
+          632,
+          259
+        ],
+        [
+          628,
+          201
+        ],
+        [
+          569,
+          188
+        ],
+        [
+          518,
+          180
+        ],
+        [
+          508,
+          192
+        ],
+        [
+          470,
+          171
+        ],
+        [
+          514,
+          154
+        ],
+        [
+          514,
+          162
+        ],
+        [
+          614,
+          173
+        ],
+        [
+          654,
+          200
+        ],
+        [
+          655,
+          248
+        ],
+        [
+          658,
+          546
+        ],
+        [
+          645,
+          574
+        ],
+        [
+          551,
+          599
+        ],
+        [
+          476,
+          598
+        ],
+        [
+          474,
+          583
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H3",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H4",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H0",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H2",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H5",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A5+B2",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B2",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "B1+A1+B2",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B2",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "B1+A2+B0",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B0",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "B2+A0+B1",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B1",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "B2+A4+B0",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B0",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T0+A3+T2",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T2",
+      "connector": "A3",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "root predator root herbivore"
+  }
+}

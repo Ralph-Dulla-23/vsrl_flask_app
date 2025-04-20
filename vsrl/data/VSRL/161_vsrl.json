@@ -1,0 +1,826 @@
+{
+  "image_id": "161",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          319,
+          64
+        ],
+        [
+          372,
+          83
+        ]
+      ],
+      "value": "MOON",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          294,
+          111
+        ],
+        [
+          346,
+          128
+        ]
+      ],
+      "value": "Apogee",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          233,
+          178
+        ],
+        [
+          321,
+          213
+        ]
+      ],
+      "value": "Moon's Orbit",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          126,
+          132
+        ],
+        [
+          180,
+          150
+        ]
+      ],
+      "value": "EARTH",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          57,
+          77
+        ],
+        [
+          106,
+          96
+        ]
+      ],
+      "value": "Perigee",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          36,
+          118
+        ],
+        [
+          24,
+          108
+        ],
+        [
+          31,
+          90
+        ],
+        [
+          47,
+          89
+        ],
+        [
+          55,
+          98
+        ],
+        [
+          53,
+          111
+        ],
+        [
+          49,
+          115
+        ],
+        [
+          37,
+          117
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          131,
+          88
+        ],
+        [
+          141,
+          79
+        ],
+        [
+          164,
+          79
+        ],
+        [
+          175,
+          85
+        ],
+        [
+          180,
+          101
+        ],
+        [
+          174,
+          121
+        ],
+        [
+          164,
+          129
+        ],
+        [
+          152,
+          129
+        ],
+        [
+          149,
+          129
+        ],
+        [
+          140,
+          126
+        ],
+        [
+          128,
+          109
+        ],
+        [
+          127,
+          102
+        ],
+        [
+          129,
+          97
+        ],
+        [
+          130,
+          89
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          360,
+          87
+        ],
+        [
+          365,
+          88
+        ],
+        [
+          370,
+          93
+        ],
+        [
+          374,
+          98
+        ],
+        [
+          373,
+          105
+        ],
+        [
+          371,
+          110
+        ],
+        [
+          368,
+          114
+        ],
+        [
+          355,
+          115
+        ],
+        [
+          351,
+          114
+        ],
+        [
+          347,
+          111
+        ],
+        [
+          346,
+          104
+        ],
+        [
+          346,
+          100
+        ],
+        [
+          346,
+          96
+        ],
+        [
+          347,
+          94
+        ],
+        [
+          349,
+          92
+        ],
+        [
+          357,
+          87
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          36,
+          82
+        ],
+        [
+          28,
+          88
+        ],
+        [
+          21,
+          97
+        ],
+        [
+          21,
+          108
+        ],
+        [
+          23,
+          112
+        ],
+        [
+          26,
+          113
+        ],
+        [
+          28,
+          125
+        ],
+        [
+          16,
+          121
+        ],
+        [
+          18,
+          116
+        ],
+        [
+          14,
+          106
+        ],
+        [
+          16,
+          93
+        ],
+        [
+          24,
+          81
+        ],
+        [
+          35,
+          74
+        ],
+        [
+          37,
+          82
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          44,
+          117
+        ],
+        [
+          55,
+          135
+        ],
+        [
+          69,
+          150
+        ],
+        [
+          84,
+          161
+        ],
+        [
+          111,
+          175
+        ],
+        [
+          114,
+          168
+        ],
+        [
+          132,
+          183
+        ],
+        [
+          170,
+          190
+        ],
+        [
+          218,
+          190
+        ],
+        [
+          273,
+          181
+        ],
+        [
+          309,
+          168
+        ],
+        [
+          334,
+          150
+        ],
+        [
+          350,
+          131
+        ],
+        [
+          355,
+          118
+        ],
+        [
+          363,
+          120
+        ],
+        [
+          348,
+          148
+        ],
+        [
+          323,
+          168
+        ],
+        [
+          295,
+          181
+        ],
+        [
+          254,
+          193
+        ],
+        [
+          212,
+          198
+        ],
+        [
+          163,
+          197
+        ],
+        [
+          128,
+          189
+        ],
+        [
+          107,
+          190
+        ],
+        [
+          109,
+          182
+        ],
+        [
+          83,
+          171
+        ],
+        [
+          64,
+          157
+        ],
+        [
+          48,
+          140
+        ],
+        [
+          39,
+          123
+        ],
+        [
+          36,
+          119
+        ],
+        [
+          46,
+          116
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          366,
+          130
+        ],
+        [
+          379,
+          123
+        ],
+        [
+          384,
+          116
+        ],
+        [
+          387,
+          107
+        ],
+        [
+          387,
+          100
+        ],
+        [
+          385,
+          93
+        ],
+        [
+          382,
+          88
+        ],
+        [
+          387,
+          86
+        ],
+        [
+          382,
+          83
+        ],
+        [
+          370,
+          81
+        ],
+        [
+          373,
+          90
+        ],
+        [
+          379,
+          93
+        ],
+        [
+          381,
+          101
+        ],
+        [
+          379,
+          108
+        ],
+        [
+          375,
+          117
+        ],
+        [
+          368,
+          120
+        ],
+        [
+          366,
+          124
+        ],
+        [
+          365,
+          130
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          360,
+          83
+        ],
+        [
+          345,
+          59
+        ],
+        [
+          328,
+          44
+        ],
+        [
+          309,
+          32
+        ],
+        [
+          288,
+          24
+        ],
+        [
+          288,
+          17
+        ],
+        [
+          272,
+          19
+        ],
+        [
+          233,
+          11
+        ],
+        [
+          190,
+          9
+        ],
+        [
+          134,
+          15
+        ],
+        [
+          79,
+          37
+        ],
+        [
+          47,
+          68
+        ],
+        [
+          40,
+          86
+        ],
+        [
+          47,
+          88
+        ],
+        [
+          53,
+          75
+        ],
+        [
+          71,
+          54
+        ],
+        [
+          100,
+          36
+        ],
+        [
+          137,
+          25
+        ],
+        [
+          187,
+          18
+        ],
+        [
+          233,
+          19
+        ],
+        [
+          268,
+          25
+        ],
+        [
+          283,
+          37
+        ],
+        [
+          287,
+          31
+        ],
+        [
+          317,
+          45
+        ],
+        [
+          342,
+          66
+        ],
+        [
+          352,
+          83
+        ],
+        [
+          355,
+          88
+        ],
+        [
+          362,
+          88
+        ],
+        [
+          360,
+          81
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A1+B2",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B2",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "B2+A3+B0",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B0",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T0+B2",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B2",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+A1",
+      "type": "arrowDescriptor",
+      "source": "T2",
+      "target": "A1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B1",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B0",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "moon apogee moon's orbit earth perigee"
+  },
+  "questions": [
+    {
+      "question_text": "Describe stage E on the diagram.",
+      "question_id": "161.png-0",
+      "answers": [
+        "Stage E shows the moon's perigee",
+        "Stage E shows the earth",
+        "Stage E shows the moon's aphogee",
+        "Stage E shows the moon's orbit"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "The point in the orbit of the moon or of an artificial satellite most distant from the center of the earth is called as ?",
+      "question_id": "161.png-4",
+      "answers": [
+        "perigee",
+        "none of the above",
+        "apogee",
+        "both of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "The point nearest the earth's center in the orbit of the moon or a satellite is called as ?",
+      "question_id": "161.png-2",
+      "answers": [
+        "apogee",
+        "none of the above",
+        "perigee",
+        "both of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which answer best represents letter B in the given picture?",
+      "question_id": "161.png-1",
+      "answers": [
+        "Apogee",
+        "Sun",
+        "Moon",
+        "Earth"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which letter from this picture is used to represent the word Perigee?",
+      "question_id": "161.png-3",
+      "answers": [
+        "B",
+        "C",
+        "D",
+        "A"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}

@@ -1,0 +1,468 @@
+{
+  "image_id": "117",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          385,
+          36
+        ],
+        [
+          488,
+          58
+        ]
+      ],
+      "value": "North Pole",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          95,
+          569
+        ],
+        [
+          197,
+          590
+        ]
+      ],
+      "value": "South Pole",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          188,
+          92
+        ],
+        [
+          245,
+          73
+        ],
+        [
+          306,
+          72
+        ],
+        [
+          350,
+          80
+        ],
+        [
+          382,
+          90
+        ],
+        [
+          430,
+          118
+        ],
+        [
+          460,
+          142
+        ],
+        [
+          491,
+          180
+        ],
+        [
+          512,
+          227
+        ],
+        [
+          530,
+          305
+        ],
+        [
+          510,
+          394
+        ],
+        [
+          480,
+          446
+        ],
+        [
+          425,
+          498
+        ],
+        [
+          347,
+          533
+        ],
+        [
+          281,
+          539
+        ],
+        [
+          204,
+          522
+        ],
+        [
+          142,
+          486
+        ],
+        [
+          96,
+          428
+        ],
+        [
+          68,
+          373
+        ],
+        [
+          58,
+          311
+        ],
+        [
+          62,
+          258
+        ],
+        [
+          78,
+          208
+        ],
+        [
+          118,
+          148
+        ],
+        [
+          145,
+          122
+        ],
+        [
+          190,
+          92
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          356,
+          42
+        ],
+        [
+          324,
+          40
+        ],
+        [
+          317,
+          44
+        ],
+        [
+          338,
+          59
+        ],
+        [
+          383,
+          71
+        ],
+        [
+          382,
+          60
+        ],
+        [
+          421,
+          78
+        ],
+        [
+          383,
+          92
+        ],
+        [
+          380,
+          83
+        ],
+        [
+          334,
+          72
+        ],
+        [
+          305,
+          54
+        ],
+        [
+          310,
+          28
+        ],
+        [
+          366,
+          31
+        ],
+        [
+          360,
+          44
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          221,
+          536
+        ],
+        [
+          192,
+          535
+        ],
+        [
+          175,
+          539
+        ],
+        [
+          193,
+          553
+        ],
+        [
+          233,
+          568
+        ],
+        [
+          235,
+          562
+        ],
+        [
+          278,
+          572
+        ],
+        [
+          242,
+          592
+        ],
+        [
+          242,
+          577
+        ],
+        [
+          190,
+          568
+        ],
+        [
+          162,
+          548
+        ],
+        [
+          170,
+          523
+        ],
+        [
+          228,
+          529
+        ],
+        [
+          220,
+          539
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          77,
+          224
+        ],
+        [
+          55,
+          242
+        ],
+        [
+          61,
+          269
+        ],
+        [
+          140,
+          328
+        ],
+        [
+          224,
+          362
+        ],
+        [
+          314,
+          390
+        ],
+        [
+          403,
+          407
+        ],
+        [
+          485,
+          409
+        ],
+        [
+          524,
+          402
+        ],
+        [
+          523,
+          422
+        ],
+        [
+          431,
+          424
+        ],
+        [
+          334,
+          413
+        ],
+        [
+          229,
+          385
+        ],
+        [
+          143,
+          347
+        ],
+        [
+          73,
+          304
+        ],
+        [
+          46,
+          274
+        ],
+        [
+          41,
+          233
+        ],
+        [
+          78,
+          212
+        ],
+        [
+          79,
+          228
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A1+B0",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B0",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "north pole south pole"
+  },
+  "questions": [
+    {
+      "question_text": "What is represented by B?",
+      "question_id": "117.png-1",
+      "answers": [
+        "North Pole",
+        "Moon",
+        "Equator",
+        "South Pole"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is shown in the diagram?",
+      "question_id": "117.png-2",
+      "answers": [
+        "Moon",
+        "Earth",
+        "Mars",
+        "None of the above"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which letter in the diagram represents the south pole?",
+      "question_id": "117.png-0",
+      "answers": [
+        "A",
+        "D",
+        "C",
+        "B"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which way does the earth spin?",
+      "question_id": "117.png-3",
+      "answers": [
+        "None of the above",
+        "It varies",
+        "Counter Clockwise",
+        "Clockwise"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}

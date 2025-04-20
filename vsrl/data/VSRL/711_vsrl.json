@@ -1,0 +1,410 @@
+{
+  "image_id": "711",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          201,
+          35
+        ],
+        [
+          294,
+          77
+        ]
+      ],
+      "value": "sedimentary rock",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          374,
+          84
+        ],
+        [
+          444,
+          127
+        ]
+      ],
+      "value": "heat & pressure",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          372,
+          196
+        ],
+        [
+          471,
+          233
+        ]
+      ],
+      "value": "metamorphic rock",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          199,
+          171
+        ],
+        [
+          316,
+          188
+        ]
+      ],
+      "value": "heat & pressure",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          199,
+          253
+        ],
+        [
+          313,
+          269
+        ]
+      ],
+      "value": "melting magma",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          40,
+          202
+        ],
+        [
+          136,
+          222
+        ]
+      ],
+      "value": "igneous rock",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          53,
+          96
+        ],
+        [
+          136,
+          116
+        ]
+      ],
+      "value": "weathering",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          82,
+          158
+        ],
+        [
+          156,
+          94
+        ],
+        [
+          164,
+          105
+        ],
+        [
+          92,
+          165
+        ],
+        [
+          80,
+          159
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          314,
+          89
+        ],
+        [
+          400,
+          153
+        ],
+        [
+          396,
+          162
+        ],
+        [
+          304,
+          98
+        ],
+        [
+          312,
+          89
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          154,
+          185
+        ],
+        [
+          328,
+          188
+        ],
+        [
+          328,
+          202
+        ],
+        [
+          158,
+          197
+        ],
+        [
+          158,
+          187
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          144,
+          240
+        ],
+        [
+          333,
+          240
+        ],
+        [
+          333,
+          250
+        ],
+        [
+          147,
+          249
+        ],
+        [
+          148,
+          241
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A1+T2",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T2",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T1+A1",
+      "type": "arrowDescriptor",
+      "source": "T1",
+      "target": "A1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+A3+T5",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T5",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T3+A2",
+      "type": "arrowDescriptor",
+      "source": "T3",
+      "target": "A2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+A3",
+      "type": "arrowDescriptor",
+      "source": "T4",
+      "target": "A3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+A0+T0",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T0",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T5+A2+T2",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T2",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T6+A0",
+      "type": "arrowDescriptor",
+      "source": "T6",
+      "target": "A0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "earth_science",
+    "diagram_type": "labeled_illustration",
+    "text_content": "sedimentary rock heat & pressure metamorphic rock heat & pressure melting magma igneous rock weathering"
+  },
+  "questions": [
+    {
+      "question_text": "How the sedimentary rocks are formed?",
+      "question_id": "711.png-0",
+      "answers": [
+        "formed by the cooling of Ice.",
+        "formed by the cooling of water.",
+        "formed by the cooling of molten rock.",
+        "the deposition of weathered remains of other rocks."
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "Stage D converts sedimentary rock to what?",
+      "question_id": "711.png-4",
+      "answers": [
+        "sedimentary rock",
+        "igneous rock",
+        "none",
+        "metamorphic rock"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "What does heat and pressure cause?",
+      "question_id": "711.png-3",
+      "answers": [
+        "rock",
+        "melting magma",
+        "metamorphic rock",
+        "igneous rock"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is magma?",
+      "question_id": "711.png-2",
+      "answers": [
+        "Sedimentary rocks.",
+        "The molten rock material under the earth's crust.",
+        "The rock material on the earth's surface.",
+        "The cooled rock material under the earth's crust."
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "how many stages are in the cycle above",
+      "question_id": "711.png-1",
+      "answers": [
+        "3",
+        "4",
+        "39",
+        "1"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

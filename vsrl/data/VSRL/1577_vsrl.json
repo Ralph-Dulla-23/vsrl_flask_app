@@ -1,0 +1,696 @@
+{
+  "image_id": "1577",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          99,
+          50
+        ],
+        [
+          144,
+          64
+        ]
+      ],
+      "value": "Filament",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          288,
+          50
+        ],
+        [
+          339,
+          63
+        ]
+      ],
+      "value": "Glass bulb",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          98,
+          91
+        ],
+        [
+          144,
+          106
+        ]
+      ],
+      "value": "Inert gas",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          340,
+          272
+        ],
+        [
+          383,
+          285
+        ]
+      ],
+      "value": "Current",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          340,
+          293
+        ],
+        [
+          375,
+          306
+        ]
+      ],
+      "value": "Circuit",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          128,
+          245
+        ],
+        [
+          302,
+          247
+        ],
+        [
+          303,
+          229
+        ],
+        [
+          287,
+          224
+        ],
+        [
+          278,
+          220
+        ],
+        [
+          261,
+          215
+        ],
+        [
+          261,
+          165
+        ],
+        [
+          255,
+          159
+        ],
+        [
+          243,
+          160
+        ],
+        [
+          244,
+          134
+        ],
+        [
+          258,
+          111
+        ],
+        [
+          267,
+          84
+        ],
+        [
+          272,
+          60
+        ],
+        [
+          266,
+          40
+        ],
+        [
+          259,
+          31
+        ],
+        [
+          248,
+          23
+        ],
+        [
+          225,
+          16
+        ],
+        [
+          203,
+          15
+        ],
+        [
+          182,
+          23
+        ],
+        [
+          163,
+          32
+        ],
+        [
+          158,
+          55
+        ],
+        [
+          158,
+          74
+        ],
+        [
+          161,
+          91
+        ],
+        [
+          170,
+          110
+        ],
+        [
+          183,
+          128
+        ],
+        [
+          186,
+          143
+        ],
+        [
+          185,
+          159
+        ],
+        [
+          176,
+          160
+        ],
+        [
+          169,
+          160
+        ],
+        [
+          169,
+          187
+        ],
+        [
+          168,
+          214
+        ],
+        [
+          166,
+          220
+        ],
+        [
+          160,
+          219
+        ],
+        [
+          144,
+          219
+        ],
+        [
+          139,
+          226
+        ],
+        [
+          124,
+          227
+        ],
+        [
+          127,
+          243
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          167,
+          309
+        ],
+        [
+          163,
+          300
+        ],
+        [
+          161,
+          284
+        ],
+        [
+          161,
+          270
+        ],
+        [
+          165,
+          259
+        ],
+        [
+          169,
+          259
+        ],
+        [
+          256,
+          258
+        ],
+        [
+          264,
+          271
+        ],
+        [
+          264,
+          295
+        ],
+        [
+          261,
+          309
+        ],
+        [
+          254,
+          314
+        ],
+        [
+          169,
+          313
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          267,
+          55
+        ],
+        [
+          268,
+          65
+        ],
+        [
+          285,
+          65
+        ],
+        [
+          287,
+          60
+        ],
+        [
+          268,
+          59
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          144,
+          55
+        ],
+        [
+          144,
+          63
+        ],
+        [
+          200,
+          63
+        ],
+        [
+          202,
+          57
+        ],
+        [
+          140,
+          54
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          144,
+          99
+        ],
+        [
+          190,
+          97
+        ],
+        [
+          189,
+          105
+        ],
+        [
+          143,
+          106
+        ],
+        [
+          145,
+          98
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          162,
+          281
+        ],
+        [
+          161,
+          290
+        ],
+        [
+          103,
+          289
+        ],
+        [
+          104,
+          282
+        ],
+        [
+          163,
+          283
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          103,
+          278
+        ],
+        [
+          110,
+          279
+        ],
+        [
+          111,
+          254
+        ],
+        [
+          111,
+          246
+        ],
+        [
+          104,
+          247
+        ],
+        [
+          103,
+          280
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          112,
+          245
+        ],
+        [
+          112,
+          251
+        ],
+        [
+          206,
+          252
+        ],
+        [
+          206,
+          247
+        ],
+        [
+          112,
+          246
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          198,
+          242
+        ],
+        [
+          204,
+          242
+        ],
+        [
+          204,
+          228
+        ],
+        [
+          217,
+          217
+        ],
+        [
+          207,
+          205
+        ],
+        [
+          208,
+          106
+        ],
+        [
+          201,
+          107
+        ],
+        [
+          202,
+          206
+        ],
+        [
+          208,
+          215
+        ],
+        [
+          199,
+          225
+        ],
+        [
+          200,
+          240
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          213,
+          102
+        ],
+        [
+          220,
+          102
+        ],
+        [
+          220,
+          189
+        ],
+        [
+          245,
+          189
+        ],
+        [
+          245,
+          212
+        ],
+        [
+          224,
+          231
+        ],
+        [
+          224,
+          245
+        ],
+        [
+          224,
+          246
+        ],
+        [
+          314,
+          247
+        ],
+        [
+          314,
+          290
+        ],
+        [
+          263,
+          289
+        ],
+        [
+          263,
+          285
+        ],
+        [
+          307,
+          284
+        ],
+        [
+          307,
+          254
+        ],
+        [
+          219,
+          253
+        ],
+        [
+          218,
+          231
+        ],
+        [
+          239,
+          210
+        ],
+        [
+          240,
+          198
+        ],
+        [
+          239,
+          197
+        ],
+        [
+          215,
+          197
+        ],
+        [
+          215,
+          102
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "B0+A0+B0",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "B0+A1+B0",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "B0+A2+B0",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "B0+A3+B1",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B1",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "B0+A7+B1",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B1",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector"
+  },
+  "educational_context": {
+    "subject": "physics",
+    "diagram_type": "flow_diagram",
+    "text_content": "filament glass bulb inert gas current circuit"
+  }
+}

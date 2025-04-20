@@ -1,0 +1,384 @@
+{
+  "image_id": "915",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          32,
+          13
+        ],
+        [
+          86,
+          37
+        ]
+      ],
+      "value": "plant",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          34,
+          176
+        ],
+        [
+          94,
+          198
+        ]
+      ],
+      "value": "python",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          415,
+          178
+        ],
+        [
+          448,
+          199
+        ]
+      ],
+      "value": "fox",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          419,
+          17
+        ],
+        [
+          456,
+          44
+        ]
+      ],
+      "value": "hen",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          97,
+          16
+        ],
+        [
+          96,
+          26
+        ],
+        [
+          414,
+          30
+        ],
+        [
+          415,
+          21
+        ],
+        [
+          97,
+          15
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          77,
+          161
+        ],
+        [
+          83,
+          175
+        ],
+        [
+          430,
+          58
+        ],
+        [
+          426,
+          46
+        ],
+        [
+          78,
+          163
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          99,
+          175
+        ],
+        [
+          99,
+          191
+        ],
+        [
+          395,
+          190
+        ],
+        [
+          396,
+          178
+        ],
+        [
+          99,
+          174
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          432,
+          46
+        ],
+        [
+          445,
+          46
+        ],
+        [
+          445,
+          173
+        ],
+        [
+          431,
+          173
+        ],
+        [
+          431,
+          47
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+T3",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T3",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T2+A2+T1",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T1",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T3+A1+T1",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T1",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T3+A3+T2",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T2",
+      "connector": "A3",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "plant python fox hen"
+  },
+  "questions": [
+    {
+      "question_text": "A food web diagram made by Carmine. If there were a sudden increase in the population of python, which would be most affected?",
+      "question_id": "915.png-1",
+      "answers": [
+        "hen",
+        "plant",
+        "python",
+        "fox"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "A food web is represented in the figure below. One of the creature that is responsible for the consumption of more then one creature is",
+      "question_id": "915.png-7",
+      "answers": [
+        "plant",
+        "python",
+        "fox",
+        "hen"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "A food web is shown below. Which of the following is most likely to lead to an increase in the number of hens over time?",
+      "question_id": "915.png-6",
+      "answers": [
+        "a decrease in foxes",
+        "a decrease in plants",
+        "an increase in foxes",
+        "an increase in pythons"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Below is an example of a food chain. What would cause the number of foxes to increase?",
+      "question_id": "915.png-0",
+      "answers": [
+        "fewer hen",
+        "fewer fox",
+        "fewer python",
+        "fewer plant"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What gets energy from the plant?",
+      "question_id": "915.png-2",
+      "answers": [
+        "hawk",
+        "fox",
+        "hen",
+        "python"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is a producer?",
+      "question_id": "915.png-5",
+      "answers": [
+        "fox",
+        "hen",
+        "plant",
+        "python"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the highest on the food chain?",
+      "question_id": "915.png-4",
+      "answers": [
+        "python",
+        "hen",
+        "plant",
+        "algae"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would happen if the plants all died?",
+      "question_id": "915.png-9",
+      "answers": [
+        "pythons would increase",
+        "hens would decrease",
+        "foxes would decrease",
+        "foxes would increase"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which organism is the primary producer?",
+      "question_id": "915.png-8",
+      "answers": [
+        "plant",
+        "hen",
+        "python",
+        "fox"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Why is the top predator?",
+      "question_id": "915.png-3",
+      "answers": [
+        "plant",
+        "fox",
+        "hen",
+        "python"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    }
+  ]
+}

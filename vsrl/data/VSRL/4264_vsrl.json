@@ -1,0 +1,343 @@
+{
+  "image_id": "4264",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          16,
+          43
+        ],
+        [
+          75,
+          59
+        ]
+      ],
+      "value": "pasture",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          18,
+          17
+        ],
+        [
+          126,
+          36
+        ]
+      ],
+      "value": "Stagnogley",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          17,
+          83
+        ],
+        [
+          121,
+          104
+        ]
+      ],
+      "value": "organic debris",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          14,
+          128
+        ],
+        [
+          67,
+          145
+        ]
+      ],
+      "value": "topsoil",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          17,
+          181
+        ],
+        [
+          142,
+          213
+        ]
+      ],
+      "value": "mottled subsoil (standing water)",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          16,
+          338
+        ],
+        [
+          118,
+          377
+        ]
+      ],
+      "value": "impermeable clay",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          177,
+          96
+        ],
+        [
+          178,
+          351
+        ],
+        [
+          329,
+          412
+        ],
+        [
+          421,
+          356
+        ],
+        [
+          425,
+          99
+        ],
+        [
+          435,
+          78
+        ],
+        [
+          332,
+          30
+        ],
+        [
+          272,
+          13
+        ],
+        [
+          236,
+          16
+        ],
+        [
+          193,
+          38
+        ],
+        [
+          163,
+          63
+        ],
+        [
+          153,
+          77
+        ],
+        [
+          175,
+          97
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          126,
+          92
+        ],
+        [
+          198,
+          101
+        ],
+        [
+          195,
+          109
+        ],
+        [
+          124,
+          101
+        ],
+        [
+          125,
+          94
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          75,
+          145
+        ],
+        [
+          197,
+          132
+        ],
+        [
+          197,
+          132
+        ],
+        [
+          196,
+          122
+        ],
+        [
+          72,
+          134
+        ],
+        [
+          75,
+          145
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          148,
+          187
+        ],
+        [
+          145,
+          200
+        ],
+        [
+          211,
+          214
+        ],
+        [
+          215,
+          199
+        ],
+        [
+          150,
+          188
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          116,
+          350
+        ],
+        [
+          203,
+          336
+        ],
+        [
+          206,
+          342
+        ],
+        [
+          199,
+          346
+        ],
+        [
+          118,
+          361
+        ],
+        [
+          116,
+          352
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T1+I0",
+      "type": "imageTitle",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T3+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T4+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T5+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "title",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "pasture stagnogley organic debris topsoil mottled subsoil (standing water) impermeable clay"
+  },
+  "questions": []
+}

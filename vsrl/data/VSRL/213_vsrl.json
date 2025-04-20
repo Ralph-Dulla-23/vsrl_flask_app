@@ -1,0 +1,280 @@
+{
+  "image_id": "213",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          131,
+          208
+        ],
+        [
+          183,
+          218
+        ]
+      ],
+      "value": "Battery ",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          140,
+          11
+        ],
+        [
+          146,
+          31
+        ],
+        [
+          138,
+          41
+        ],
+        [
+          138,
+          49
+        ],
+        [
+          143,
+          56
+        ],
+        [
+          144,
+          66
+        ],
+        [
+          157,
+          71
+        ],
+        [
+          156,
+          87
+        ],
+        [
+          91,
+          83
+        ],
+        [
+          93,
+          73
+        ],
+        [
+          108,
+          63
+        ],
+        [
+          114,
+          47
+        ],
+        [
+          114,
+          38
+        ],
+        [
+          107,
+          19
+        ],
+        [
+          120,
+          6
+        ],
+        [
+          141,
+          11
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          114,
+          193
+        ],
+        [
+          181,
+          193
+        ],
+        [
+          191,
+          219
+        ],
+        [
+          178,
+          247
+        ],
+        [
+          90,
+          245
+        ],
+        [
+          84,
+          219
+        ],
+        [
+          93,
+          191
+        ],
+        [
+          114,
+          191
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          100,
+          62
+        ],
+        [
+          102,
+          75
+        ],
+        [
+          27,
+          75
+        ],
+        [
+          26,
+          212
+        ],
+        [
+          85,
+          214
+        ],
+        [
+          85,
+          214
+        ],
+        [
+          84,
+          226
+        ],
+        [
+          15,
+          224
+        ],
+        [
+          16,
+          68
+        ],
+        [
+          16,
+          68
+        ],
+        [
+          15,
+          63
+        ],
+        [
+          15,
+          63
+        ],
+        [
+          103,
+          63
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          170,
+          65
+        ],
+        [
+          170,
+          74
+        ],
+        [
+          225,
+          78
+        ],
+        [
+          225,
+          210
+        ],
+        [
+          225,
+          210
+        ],
+        [
+          186,
+          212
+        ],
+        [
+          188,
+          226
+        ],
+        [
+          188,
+          226
+        ],
+        [
+          239,
+          221
+        ],
+        [
+          234,
+          63
+        ],
+        [
+          171,
+          61
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "B0+A0+B1",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B1",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "B0+A1+B1",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B1",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T0+B1",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "battery "
+  }
+}

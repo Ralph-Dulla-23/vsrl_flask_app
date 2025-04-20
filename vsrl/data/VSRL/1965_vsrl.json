@@ -1,0 +1,646 @@
+{
+  "image_id": "1965",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          233,
+          163
+        ],
+        [
+          348,
+          181
+        ]
+      ],
+      "value": "banana aphids",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          237,
+          253
+        ],
+        [
+          349,
+          273
+        ]
+      ],
+      "value": "banana plants",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          3,
+          163
+        ],
+        [
+          142,
+          181
+        ]
+      ],
+      "value": "root borer insects",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          162,
+          72
+        ],
+        [
+          199,
+          87
+        ]
+      ],
+      "value": "ants",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          263,
+          6
+        ],
+        [
+          302,
+          25
+        ]
+      ],
+      "value": "birds",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          368,
+          73
+        ],
+        [
+          423,
+          88
+        ]
+      ],
+      "value": "wasps",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          407,
+          161
+        ],
+        [
+          531,
+          181
+        ]
+      ],
+      "value": "banana skippers",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          287,
+          184
+        ],
+        [
+          301,
+          183
+        ],
+        [
+          301,
+          254
+        ],
+        [
+          287,
+          254
+        ],
+        [
+          286,
+          186
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          196,
+          97
+        ],
+        [
+          201,
+          86
+        ],
+        [
+          295,
+          156
+        ],
+        [
+          287,
+          167
+        ],
+        [
+          194,
+          100
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          314,
+          12
+        ],
+        [
+          330,
+          14
+        ],
+        [
+          378,
+          70
+        ],
+        [
+          366,
+          72
+        ],
+        [
+          312,
+          16
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          405,
+          86
+        ],
+        [
+          478,
+          163
+        ],
+        [
+          463,
+          174
+        ],
+        [
+          392,
+          95
+        ],
+        [
+          402,
+          87
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          357,
+          272
+        ],
+        [
+          475,
+          187
+        ],
+        [
+          468,
+          177
+        ],
+        [
+          466,
+          174
+        ],
+        [
+          346,
+          263
+        ],
+        [
+          353,
+          271
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          235,
+          264
+        ],
+        [
+          224,
+          270
+        ],
+        [
+          73,
+          189
+        ],
+        [
+          84,
+          178
+        ],
+        [
+          236,
+          261
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          167,
+          93
+        ],
+        [
+          163,
+          105
+        ],
+        [
+          87,
+          163
+        ],
+        [
+          72,
+          162
+        ],
+        [
+          150,
+          89
+        ],
+        [
+          171,
+          92
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          257,
+          5
+        ],
+        [
+          266,
+          21
+        ],
+        [
+          195,
+          75
+        ],
+        [
+          185,
+          68
+        ],
+        [
+          258,
+          3
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H2",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H6",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H7",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H4",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H5",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H1",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H3",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A1+T3",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T3",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T1+A0+T0",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T0",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T1+A4+T6",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T6",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T1+A5+T2",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T2",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T2+A6+T3",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T3",
+      "connector": "A6",
+      "directional": true
+    },
+    {
+      "id": "T3+A7+T4",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T4",
+      "connector": "A7",
+      "directional": true
+    },
+    {
+      "id": "T5+A2+T4",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T4",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T6+A3+T5",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T5",
+      "connector": "A3",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "banana aphids banana plants root borer insects ants birds wasps banana skippers"
+  },
+  "questions": [
+    {
+      "question_text": "Based on the given food web, construct a short food chain",
+      "question_id": "1965.png-1",
+      "answers": [
+        "banana skippers-wasps-banana plants",
+        "wasps-banana plants-banana skippers",
+        "all are correct",
+        "banana plants-banana skippers-wasps"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Based on the given food web, select a primary consumer from below?",
+      "question_id": "1965.png-11",
+      "answers": [
+        "ants",
+        "wasps",
+        "birds",
+        "banana aphids"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the diagram of the food web shown, what is a food source for banana aphids?",
+      "question_id": "1965.png-2",
+      "answers": [
+        "ants",
+        "wasps",
+        "birds",
+        "banana plants"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the diagram of the food web shown, what is a food source for wasps?",
+      "question_id": "1965.png-9",
+      "answers": [
+        "ants",
+        "banana skippers",
+        "birds",
+        "root borer insects"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What do ants typically feed on?",
+      "question_id": "1965.png-8",
+      "answers": [
+        "Root borer insects",
+        "Birds",
+        "Wasps",
+        "Banana plants"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What do wasps feed on?",
+      "question_id": "1965.png-5",
+      "answers": [
+        "birds",
+        "banana skippers",
+        "ants",
+        "none of the above"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the producer in the web?",
+      "question_id": "1965.png-6",
+      "answers": [
+        "banana plants",
+        "bird",
+        "aphids",
+        "none of the above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What item in the diagram would be considered a producer?",
+      "question_id": "1965.png-10",
+      "answers": [
+        "Banana Plants",
+        "Ants",
+        "Root borer insects",
+        "Banana Skippers"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which of these is the highest in the food chain in this diagram?",
+      "question_id": "1965.png-0",
+      "answers": [
+        "banana plants",
+        "ants",
+        "wasps",
+        "birds"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which of these is the lowest in the food chain in this diagram?",
+      "question_id": "1965.png-7",
+      "answers": [
+        "ants",
+        "birds",
+        "wasps",
+        "banana plants"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which organism provides the energy for the wasps in this food web?",
+      "question_id": "1965.png-3",
+      "answers": [
+        "banana aphids",
+        "Banana skippers",
+        "root borer insects",
+        "none of above"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which organism supplies the energy for the food web shown?",
+      "question_id": "1965.png-4",
+      "answers": [
+        "wasps",
+        "ants",
+        "birds",
+        "Banana plants"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    }
+  ]
+}

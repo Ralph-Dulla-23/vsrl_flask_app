@@ -1,0 +1,370 @@
+{
+  "image_id": "361",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          54,
+          175
+        ],
+        [
+          315,
+          278
+        ]
+      ],
+      "value": "Water carries small rock particles to lakes and seas",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          342,
+          167
+        ],
+        [
+          612,
+          292
+        ]
+      ],
+      "value": "Dead organisms are buried by layers of sediment, which forms new rock.",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          689,
+          180
+        ],
+        [
+          935,
+          309
+        ]
+      ],
+      "value": "The preserved remains may later be discovered and studied.",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          169,
+          65
+        ],
+        [
+          751,
+          113
+        ]
+      ],
+      "value": "Formation of a Fossil",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          35,
+          309
+        ],
+        [
+          36,
+          459
+        ],
+        [
+          228,
+          495
+        ],
+        [
+          300,
+          451
+        ],
+        [
+          300,
+          363
+        ],
+        [
+          259,
+          357
+        ],
+        [
+          157,
+          346
+        ],
+        [
+          150,
+          324
+        ],
+        [
+          136,
+          319
+        ],
+        [
+          36,
+          334
+        ],
+        [
+          35,
+          313
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          328,
+          355
+        ],
+        [
+          328,
+          438
+        ],
+        [
+          338,
+          447
+        ],
+        [
+          516,
+          480
+        ],
+        [
+          588,
+          440
+        ],
+        [
+          586,
+          369
+        ],
+        [
+          451,
+          351
+        ],
+        [
+          438,
+          328
+        ],
+        [
+          328,
+          351
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          609,
+          342
+        ],
+        [
+          612,
+          445
+        ],
+        [
+          799,
+          480
+        ],
+        [
+          870,
+          438
+        ],
+        [
+          868,
+          394
+        ],
+        [
+          868,
+          384
+        ],
+        [
+          745,
+          372
+        ],
+        [
+          716,
+          324
+        ],
+        [
+          685,
+          326
+        ],
+        [
+          607,
+          344
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          104,
+          351
+        ],
+        [
+          167,
+          334
+        ],
+        [
+          165,
+          326
+        ],
+        [
+          104,
+          342
+        ],
+        [
+          104,
+          348
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          467,
+          422
+        ],
+        [
+          476,
+          422
+        ],
+        [
+          511,
+          348
+        ],
+        [
+          501,
+          346
+        ],
+        [
+          465,
+          422
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          751,
+          417
+        ],
+        [
+          762,
+          420
+        ],
+        [
+          789,
+          346
+        ],
+        [
+          778,
+          346
+        ],
+        [
+          749,
+          417
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "B0+A0+B0",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "B1+A1+B1",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B1",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "B2+A2+B2",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B2",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B1",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B2",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+I0",
+      "type": "imageTitle",
+      "source": "T3",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "title",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "water carries small rock particles to lakes and seas dead organisms are buried by layers of sediment, which forms new rock. the preserved remains may later be discovered and studied. formation of a fossil"
+  }
+}

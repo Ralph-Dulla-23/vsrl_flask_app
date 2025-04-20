@@ -1,0 +1,502 @@
+{
+  "image_id": "435",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          55,
+          4
+        ],
+        [
+          142,
+          32
+        ]
+      ],
+      "value": "Water snake",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          68
+        ],
+        [
+          52,
+          93
+        ]
+      ],
+      "value": "Elodea",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          61,
+          162
+        ],
+        [
+          138,
+          182
+        ]
+      ],
+      "value": "Water flea",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          143,
+          196
+        ],
+        [
+          249,
+          220
+        ]
+      ],
+      "value": "Water boatman",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          193,
+          72
+        ],
+        [
+          247,
+          93
+        ]
+      ],
+      "value": "Catfish",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          141,
+          23
+        ],
+        [
+          148,
+          14
+        ],
+        [
+          219,
+          67
+        ],
+        [
+          212,
+          74
+        ],
+        [
+          141,
+          23
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          51,
+          76
+        ],
+        [
+          51,
+          88
+        ],
+        [
+          185,
+          89
+        ],
+        [
+          186,
+          75
+        ],
+        [
+          52,
+          75
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          19,
+          94
+        ],
+        [
+          29,
+          88
+        ],
+        [
+          83,
+          159
+        ],
+        [
+          73,
+          165
+        ],
+        [
+          20,
+          95
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          194,
+          90
+        ],
+        [
+          205,
+          99
+        ],
+        [
+          139,
+          174
+        ],
+        [
+          129,
+          165
+        ],
+        [
+          195,
+          90
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          209,
+          94
+        ],
+        [
+          221,
+          95
+        ],
+        [
+          220,
+          193
+        ],
+        [
+          208,
+          193
+        ],
+        [
+          209,
+          93
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          89,
+          183
+        ],
+        [
+          96,
+          176
+        ],
+        [
+          146,
+          204
+        ],
+        [
+          142,
+          212
+        ],
+        [
+          89,
+          182
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H4",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H5",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A1+T4",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T4",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T1+A2+T2",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T2",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T2+A3+T4",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T4",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T2+A5+T3",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T3",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T3+A4+T4",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T4",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T4+A0+T0",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T0",
+      "connector": "A0",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "water snake elodea water flea water boatman catfish"
+  },
+  "questions": [
+    {
+      "question_text": "As per the diagram, Catfish is a ?",
+      "question_id": "435.png-9",
+      "answers": [
+        "Consumer",
+        "Producer",
+        "Prey",
+        "None of the above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Elodea is a ?",
+      "question_id": "435.png-1",
+      "answers": [
+        "Primary Consumer",
+        "Producer",
+        "Secondary Consumer",
+        "Tertiary Consumer"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the given food web, which organism has the role in producer?",
+      "question_id": "435.png-6",
+      "answers": [
+        "water boatman",
+        "cat fish",
+        "water flea",
+        "elodea"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "If the wheat catfish died, the population of watersnake would most likely",
+      "question_id": "435.png-8",
+      "answers": [
+        "increase",
+        "remain the same",
+        "decrease",
+        "none of above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "If there were fewer water fleas, which organism would likely increase in number?",
+      "question_id": "435.png-5",
+      "answers": [
+        "Catfish",
+        "Elodea",
+        "Water boatman",
+        "Water snake"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the diagram below, the Water snake could be referred to as the",
+      "question_id": "435.png-2",
+      "answers": [
+        "energy surce",
+        "prey",
+        "predator",
+        "none of above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Name the producer in the given food web",
+      "question_id": "435.png-7",
+      "answers": [
+        "Elodea",
+        "water flea",
+        "Water boatman",
+        "catfish"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What happen if the catfish count in this food web decreases?",
+      "question_id": "435.png-10",
+      "answers": [
+        "water snake increase",
+        "water snake decreases",
+        "elodea decreases",
+        "not affected"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which of the following organism in the food web shown is both predator and prey?",
+      "question_id": "435.png-3",
+      "answers": [
+        "Catfish",
+        "Elodea",
+        "Water snake",
+        "None of above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which of these is the highest in the food chain in this diagram?",
+      "question_id": "435.png-0",
+      "answers": [
+        "elodea",
+        "water flea",
+        "water snake",
+        "catfish"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which of these is the lowest in the food chain in this diagram?",
+      "question_id": "435.png-4",
+      "answers": [
+        "elodea",
+        "water snake",
+        "catfish",
+        "water flea"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

@@ -1,0 +1,502 @@
+{
+  "image_id": "2869",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          37,
+          143
+        ],
+        [
+          130,
+          163
+        ]
+      ],
+      "value": "enamel",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          35,
+          193
+        ],
+        [
+          93,
+          217
+        ]
+      ],
+      "value": "gum",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          37,
+          243
+        ],
+        [
+          114,
+          267
+        ]
+      ],
+      "value": "dentin",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          35,
+          298
+        ],
+        [
+          91,
+          327
+        ]
+      ],
+      "value": "pulp",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          37,
+          358
+        ],
+        [
+          89,
+          379
+        ]
+      ],
+      "value": "root",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          142,
+          466
+        ],
+        [
+          380,
+          468
+        ],
+        [
+          383,
+          187
+        ],
+        [
+          356,
+          181
+        ],
+        [
+          334,
+          183
+        ],
+        [
+          346,
+          165
+        ],
+        [
+          350,
+          135
+        ],
+        [
+          338,
+          114
+        ],
+        [
+          334,
+          109
+        ],
+        [
+          323,
+          93
+        ],
+        [
+          308,
+          81
+        ],
+        [
+          287,
+          78
+        ],
+        [
+          269,
+          87
+        ],
+        [
+          263,
+          90
+        ],
+        [
+          249,
+          81
+        ],
+        [
+          234,
+          81
+        ],
+        [
+          222,
+          87
+        ],
+        [
+          203,
+          89
+        ],
+        [
+          187,
+          100
+        ],
+        [
+          177,
+          115
+        ],
+        [
+          172,
+          148
+        ],
+        [
+          179,
+          176
+        ],
+        [
+          175,
+          177
+        ],
+        [
+          151,
+          176
+        ],
+        [
+          138,
+          181
+        ],
+        [
+          142,
+          468
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          40,
+          156
+        ],
+        [
+          39,
+          170
+        ],
+        [
+          149,
+          173
+        ],
+        [
+          203,
+          135
+        ],
+        [
+          200,
+          121
+        ],
+        [
+          148,
+          159
+        ],
+        [
+          42,
+          159
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          37,
+          213
+        ],
+        [
+          175,
+          213
+        ],
+        [
+          173,
+          226
+        ],
+        [
+          36,
+          226
+        ],
+        [
+          36,
+          213
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          39,
+          268
+        ],
+        [
+          40,
+          276
+        ],
+        [
+          174,
+          275
+        ],
+        [
+          204,
+          255
+        ],
+        [
+          212,
+          254
+        ],
+        [
+          218,
+          247
+        ],
+        [
+          217,
+          237
+        ],
+        [
+          207,
+          237
+        ],
+        [
+          200,
+          242
+        ],
+        [
+          197,
+          247
+        ],
+        [
+          172,
+          265
+        ],
+        [
+          41,
+          264
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          37,
+          330
+        ],
+        [
+          165,
+          332
+        ],
+        [
+          244,
+          232
+        ],
+        [
+          254,
+          226
+        ],
+        [
+          254,
+          218
+        ],
+        [
+          246,
+          213
+        ],
+        [
+          236,
+          219
+        ],
+        [
+          236,
+          226
+        ],
+        [
+          164,
+          320
+        ],
+        [
+          38,
+          323
+        ],
+        [
+          38,
+          328
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          37,
+          376
+        ],
+        [
+          181,
+          376
+        ],
+        [
+          222,
+          346
+        ],
+        [
+          232,
+          366
+        ],
+        [
+          185,
+          390
+        ],
+        [
+          34,
+          390
+        ],
+        [
+          38,
+          377
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T2+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T3+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T4+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "enamel gum dentin pulp root"
+  },
+  "questions": [
+    {
+      "question_text": "What is the diagram above of?",
+      "question_id": "2869.png-2",
+      "answers": [
+        "Tooth",
+        "Nose",
+        "Eye",
+        "Ear"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the pinkish part in the diagram called?",
+      "question_id": "2869.png-1",
+      "answers": [
+        "Gum",
+        "Pulp",
+        "Root",
+        "Dentin"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which is region is closest to the gum",
+      "question_id": "2869.png-0",
+      "answers": [
+        "none",
+        "Dentin",
+        "pulp",
+        "root"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

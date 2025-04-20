@@ -1,0 +1,480 @@
+{
+  "image_id": "4023",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          1158,
+          1430
+        ],
+        [
+          1367,
+          1480
+        ]
+      ],
+      "value": "1821 km",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          1183,
+          722
+        ],
+        [
+          1370,
+          783
+        ]
+      ],
+      "value": "871 km",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          1185,
+          190
+        ],
+        [
+          1373,
+          245
+        ]
+      ],
+      "value": "150 km",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          1205,
+          128
+        ],
+        [
+          1383,
+          178
+        ]
+      ],
+      "value": "50 km",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          1243,
+          80
+        ],
+        [
+          1367,
+          130
+        ]
+      ],
+      "value": "0 km",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          1213,
+          13
+        ],
+        [
+          1372,
+          70
+        ]
+      ],
+      "value": "Depth",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          387,
+          145
+        ],
+        [
+          597,
+          220
+        ]
+      ],
+      "value": "Asthenosphere/ Magma Ocean",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          402,
+          107
+        ],
+        [
+          573,
+          138
+        ]
+      ],
+      "value": "Lithosphere",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          400,
+          461
+        ],
+        [
+          573,
+          506
+        ]
+      ],
+      "value": "Lower Mantle",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          372,
+          948
+        ],
+        [
+          593,
+          988
+        ]
+      ],
+      "value": "Liquid Iron Core",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          18,
+          183
+        ],
+        [
+          487,
+          1473
+        ],
+        [
+          962,
+          183
+        ],
+        [
+          912,
+          167
+        ],
+        [
+          885,
+          117
+        ],
+        [
+          870,
+          95
+        ],
+        [
+          853,
+          82
+        ],
+        [
+          832,
+          72
+        ],
+        [
+          810,
+          78
+        ],
+        [
+          770,
+          68
+        ],
+        [
+          737,
+          82
+        ],
+        [
+          715,
+          93
+        ],
+        [
+          683,
+          113
+        ],
+        [
+          620,
+          105
+        ],
+        [
+          562,
+          100
+        ],
+        [
+          472,
+          100
+        ],
+        [
+          408,
+          105
+        ],
+        [
+          350,
+          107
+        ],
+        [
+          285,
+          115
+        ],
+        [
+          222,
+          125
+        ],
+        [
+          138,
+          148
+        ],
+        [
+          80,
+          162
+        ],
+        [
+          20,
+          185
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          1063,
+          1482
+        ],
+        [
+          1060,
+          90
+        ],
+        [
+          1160,
+          95
+        ],
+        [
+          1177,
+          128
+        ],
+        [
+          1088,
+          120
+        ],
+        [
+          1093,
+          128
+        ],
+        [
+          1152,
+          135
+        ],
+        [
+          1157,
+          162
+        ],
+        [
+          1098,
+          160
+        ],
+        [
+          1097,
+          202
+        ],
+        [
+          1148,
+          207
+        ],
+        [
+          1157,
+          232
+        ],
+        [
+          1093,
+          232
+        ],
+        [
+          1102,
+          732
+        ],
+        [
+          1147,
+          728
+        ],
+        [
+          1148,
+          773
+        ],
+        [
+          1098,
+          770
+        ],
+        [
+          1090,
+          1455
+        ],
+        [
+          1148,
+          1460
+        ],
+        [
+          1152,
+          1493
+        ],
+        [
+          1065,
+          1482
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+I0",
+      "type": "imageCaption",
+      "source": "T4",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+I0",
+      "type": "misc",
+      "source": "T5",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T6",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T7+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T7",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T8+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T8",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T9+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T9",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "A0": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "1821 km 871 km 150 km 50 km 0 km depth asthenosphere/ magma ocean lithosphere lower mantle liquid iron core"
+  },
+  "questions": [
+    {
+      "question_text": "Which portion of the diagram is the Liquid Iron Core?",
+      "question_id": "4023.png-0",
+      "answers": [
+        "G",
+        "H",
+        "A",
+        "F"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}

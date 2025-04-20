@@ -1,0 +1,536 @@
+{
+  "image_id": "908",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          572,
+          160
+        ],
+        [
+          714,
+          254
+        ]
+      ],
+      "value": "Decomposers: bacteria and fungi",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          36,
+          308
+        ],
+        [
+          494,
+          343
+        ]
+      ],
+      "value": "Producers: flowering plants, lichens, mosses, algae",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          36,
+          178
+        ],
+        [
+          455,
+          228
+        ]
+      ],
+      "value": "Primary consumers include pikas, musk oxen, caribou, lemmings, arctic hares",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          44,
+          42
+        ],
+        [
+          432,
+          98
+        ]
+      ],
+      "value": "Secondary consumers include arctic foxes, arctic wolves, snowy owls, brown bears",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          206,
+          410
+        ],
+        [
+          183,
+          407
+        ],
+        [
+          177,
+          442
+        ],
+        [
+          145,
+          476
+        ],
+        [
+          183,
+          496
+        ],
+        [
+          165,
+          544
+        ],
+        [
+          218,
+          531
+        ],
+        [
+          240,
+          568
+        ],
+        [
+          262,
+          537
+        ],
+        [
+          308,
+          546
+        ],
+        [
+          295,
+          497
+        ],
+        [
+          337,
+          479
+        ],
+        [
+          292,
+          455
+        ],
+        [
+          302,
+          416
+        ],
+        [
+          266,
+          425
+        ],
+        [
+          243,
+          393
+        ],
+        [
+          210,
+          411
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          224,
+          160
+        ],
+        [
+          225,
+          127
+        ],
+        [
+          248,
+          127
+        ],
+        [
+          249,
+          160
+        ],
+        [
+          225,
+          160
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          222,
+          293
+        ],
+        [
+          224,
+          263
+        ],
+        [
+          248,
+          263
+        ],
+        [
+          249,
+          293
+        ],
+        [
+          222,
+          295
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          221,
+          398
+        ],
+        [
+          221,
+          361
+        ],
+        [
+          249,
+          361
+        ],
+        [
+          249,
+          398
+        ],
+        [
+          222,
+          398
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          491,
+          106
+        ],
+        [
+          541,
+          163
+        ],
+        [
+          558,
+          153
+        ],
+        [
+          503,
+          92
+        ],
+        [
+          493,
+          103
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          503,
+          184
+        ],
+        [
+          552,
+          184
+        ],
+        [
+          552,
+          207
+        ],
+        [
+          502,
+          207
+        ],
+        [
+          503,
+          184
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          502,
+          321
+        ],
+        [
+          558,
+          271
+        ],
+        [
+          575,
+          289
+        ],
+        [
+          516,
+          339
+        ],
+        [
+          502,
+          321
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H4",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H5",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A2+T1",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "T1",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T1+A1+T2",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T2",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T1+A5+T0",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T0",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T2+A0+T3",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T3",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T2+A4+T0",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T0",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T3+A3+T0",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T0",
+      "connector": "A3",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "decomposers: bacteria and fungi producers: flowering plants, lichens, mosses, algae primary consumers include pikas, musk oxen, caribou, lemmings, arctic hares secondary consumers include arctic foxes, arctic wolves, snowy owls, brown bears"
+  },
+  "questions": [
+    {
+      "question_text": "List a consumer.",
+      "question_id": "908.png-5",
+      "answers": [
+        "Alge",
+        "Plant",
+        "Fox",
+        "None of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "List a decomposer.",
+      "question_id": "908.png-7",
+      "answers": [
+        "Algae",
+        "Fox",
+        "Bacteria",
+        "None of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Primary consumers receives energy from",
+      "question_id": "908.png-1",
+      "answers": [
+        "Sun",
+        "secondary consumers",
+        "Producers",
+        "None of above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Producers receive energy from",
+      "question_id": "908.png-3",
+      "answers": [
+        "Sun",
+        "Secondary consumers",
+        "Primary consumers",
+        "None of above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Shown below is a section of a marsh food web. Which of the following statements accurately describes organisms in this food web?",
+      "question_id": "908.png-8",
+      "answers": [
+        "The decomposers are bacteria.",
+        "In this food web, the algae are consumers.",
+        "The worms exist as carnivores.",
+        "The birds are producers in this food web."
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is a decomposer?",
+      "question_id": "908.png-4",
+      "answers": [
+        "producer",
+        "snowy owl",
+        "arctic hare",
+        "fungi"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is a primary consumer?",
+      "question_id": "908.png-2",
+      "answers": [
+        "arctic hare",
+        "flowering plant",
+        "fungi",
+        "brown bear"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which of the following are carnivores?",
+      "question_id": "908.png-0",
+      "answers": [
+        "Arctic foxes",
+        "Pikas",
+        "Lichens",
+        "Arctic hares"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Who would lose a source of energy if seconday consumers died out?",
+      "question_id": "908.png-6",
+      "answers": [
+        "Producers",
+        "Decomposers",
+        "Primary consumers",
+        "The sun"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

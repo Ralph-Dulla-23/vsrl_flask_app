@@ -1,0 +1,433 @@
+{
+  "image_id": "4238",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          20,
+          2
+        ],
+        [
+          911,
+          64
+        ]
+      ],
+      "value": "Figure 22.3 Formation of sedimentary rock and deposition of fossils from different time periods",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          487,
+          196
+        ],
+        [
+          748,
+          282
+        ]
+      ],
+      "value": "2 Over time, additional strata are added, containing fossils from each time period.",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          234,
+          76
+        ],
+        [
+          485,
+          190
+        ]
+      ],
+      "value": "1 Rivers bring sediment to the ocean. Sedimentary rocks containing fossils form on the ocean floor.",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          719,
+          299
+        ],
+        [
+          948,
+          469
+        ]
+      ],
+      "value": "3 As sea levels change and the seafloor is pushed upward, sedimentary rocks are exposed. Erosion by rivers reveals strata; older strata contain older fossils.",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          147,
+          499
+        ],
+        [
+          349,
+          572
+        ]
+      ],
+      "value": "Younger stratum with more recent fossils",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          156,
+          613
+        ],
+        [
+          327,
+          673
+        ]
+      ],
+      "value": "Older stratum with older fossils",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          16,
+          690
+        ],
+        [
+          418,
+          719
+        ]
+      ],
+      "value": "Copyright Pearson Education, Inc., publishing as Benjamin Cummings.",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          204,
+          439
+        ],
+        [
+          17,
+          334
+        ],
+        [
+          16,
+          227
+        ],
+        [
+          31,
+          224
+        ],
+        [
+          49,
+          223
+        ],
+        [
+          63,
+          227
+        ],
+        [
+          100,
+          225
+        ],
+        [
+          153,
+          224
+        ],
+        [
+          176,
+          251
+        ],
+        [
+          179,
+          257
+        ],
+        [
+          336,
+          341
+        ],
+        [
+          363,
+          345
+        ],
+        [
+          377,
+          343
+        ],
+        [
+          388,
+          342
+        ],
+        [
+          412,
+          341
+        ],
+        [
+          431,
+          347
+        ],
+        [
+          452,
+          374
+        ],
+        [
+          612,
+          462
+        ],
+        [
+          617,
+          467
+        ],
+        [
+          635,
+          467
+        ],
+        [
+          665,
+          462
+        ],
+        [
+          698,
+          468
+        ],
+        [
+          761,
+          500
+        ],
+        [
+          785,
+          542
+        ],
+        [
+          848,
+          542
+        ],
+        [
+          887,
+          566
+        ],
+        [
+          887,
+          679
+        ],
+        [
+          755,
+          681
+        ],
+        [
+          563,
+          575
+        ],
+        [
+          564,
+          555
+        ],
+        [
+          479,
+          559
+        ],
+        [
+          288,
+          451
+        ],
+        [
+          291,
+          442
+        ],
+        [
+          204,
+          443
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          367,
+          602
+        ],
+        [
+          422,
+          603
+        ],
+        [
+          422,
+          679
+        ],
+        [
+          365,
+          679
+        ],
+        [
+          366,
+          602
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          422,
+          541
+        ],
+        [
+          423,
+          554
+        ],
+        [
+          533,
+          535
+        ],
+        [
+          657,
+          512
+        ],
+        [
+          654,
+          499
+        ],
+        [
+          526,
+          523
+        ],
+        [
+          422,
+          541
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          425,
+          645
+        ],
+        [
+          655,
+          566
+        ],
+        [
+          650,
+          554
+        ],
+        [
+          423,
+          634
+        ],
+        [
+          426,
+          645
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageCaption",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+I0",
+      "type": "imageCaption",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+I0",
+      "type": "imageCaption",
+      "source": "T2",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+I0",
+      "type": "imageCaption",
+      "source": "T3",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T5+B1",
+      "type": "intraObjectLabel",
+      "source": "T5",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+I0",
+      "type": "misc",
+      "source": "T6",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "figure 22.3 formation of sedimentary rock and deposition of fossils from different time periods 2 over time, additional strata are added, containing fossils from each time period. 1 rivers bring sediment to the ocean. sedimentary rocks containing fossils form on the ocean floor. 3 as sea levels change and the seafloor is pushed upward, sedimentary rocks are exposed. erosion by rivers reveals strata; older strata contain older fossils. younger stratum with more recent fossils older stratum with older fossils copyright pearson education, inc., publishing as benjamin cummings."
+  },
+  "questions": []
+}

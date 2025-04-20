@@ -1,0 +1,776 @@
+{
+  "image_id": "3457",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          2,
+          8
+        ],
+        [
+          55,
+          24
+        ]
+      ],
+      "value": "Forewing",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          38
+        ],
+        [
+          61,
+          54
+        ]
+      ],
+      "value": "Hindwing",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          93
+        ],
+        [
+          56,
+          112
+        ]
+      ],
+      "value": "Abdomen",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          26,
+          186
+        ],
+        [
+          57,
+          203
+        ]
+      ],
+      "value": "Legs",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          369,
+          159
+        ],
+        [
+          434,
+          177
+        ]
+      ],
+      "value": "Mouthparts",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          365,
+          114
+        ],
+        [
+          408,
+          132
+        ]
+      ],
+      "value": "Head",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          371,
+          61
+        ],
+        [
+          423,
+          76
+        ]
+      ],
+      "value": "Antennae",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          371,
+          4
+        ],
+        [
+          409,
+          25
+        ]
+      ],
+      "value": "Thorax",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          107,
+          147
+        ],
+        [
+          127,
+          159
+        ],
+        [
+          159,
+          157
+        ],
+        [
+          182,
+          157
+        ],
+        [
+          172,
+          180
+        ],
+        [
+          153,
+          195
+        ],
+        [
+          160,
+          203
+        ],
+        [
+          184,
+          183
+        ],
+        [
+          187,
+          159
+        ],
+        [
+          210,
+          159
+        ],
+        [
+          215,
+          179
+        ],
+        [
+          198,
+          208
+        ],
+        [
+          214,
+          202
+        ],
+        [
+          220,
+          189
+        ],
+        [
+          220,
+          170
+        ],
+        [
+          242,
+          163
+        ],
+        [
+          249,
+          152
+        ],
+        [
+          267,
+          164
+        ],
+        [
+          270,
+          167
+        ],
+        [
+          275,
+          190
+        ],
+        [
+          284,
+          197
+        ],
+        [
+          284,
+          207
+        ],
+        [
+          297,
+          197
+        ],
+        [
+          282,
+          173
+        ],
+        [
+          278,
+          159
+        ],
+        [
+          265,
+          152
+        ],
+        [
+          273,
+          138
+        ],
+        [
+          289,
+          150
+        ],
+        [
+          299,
+          134
+        ],
+        [
+          299,
+          123
+        ],
+        [
+          298,
+          119
+        ],
+        [
+          329,
+          85
+        ],
+        [
+          335,
+          80
+        ],
+        [
+          330,
+          73
+        ],
+        [
+          304,
+          99
+        ],
+        [
+          303,
+          104
+        ],
+        [
+          293,
+          94
+        ],
+        [
+          284,
+          88
+        ],
+        [
+          270,
+          97
+        ],
+        [
+          244,
+          98
+        ],
+        [
+          200,
+          10
+        ],
+        [
+          165,
+          0
+        ],
+        [
+          159,
+          37
+        ],
+        [
+          163,
+          60
+        ],
+        [
+          179,
+          80
+        ],
+        [
+          148,
+          55
+        ],
+        [
+          110,
+          52
+        ],
+        [
+          107,
+          72
+        ],
+        [
+          120,
+          98
+        ],
+        [
+          147,
+          110
+        ],
+        [
+          115,
+          128
+        ],
+        [
+          105,
+          135
+        ],
+        [
+          115,
+          150
+        ],
+        [
+          105,
+          144
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          242,
+          97
+        ],
+        [
+          253,
+          112
+        ],
+        [
+          334,
+          23
+        ],
+        [
+          367,
+          23
+        ],
+        [
+          365,
+          11
+        ],
+        [
+          328,
+          8
+        ],
+        [
+          247,
+          98
+        ],
+        [
+          245,
+          98
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          312,
+          86
+        ],
+        [
+          323,
+          94
+        ],
+        [
+          334,
+          75
+        ],
+        [
+          361,
+          74
+        ],
+        [
+          365,
+          62
+        ],
+        [
+          327,
+          66
+        ],
+        [
+          310,
+          86
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          285,
+          120
+        ],
+        [
+          364,
+          120
+        ],
+        [
+          365,
+          129
+        ],
+        [
+          284,
+          128
+        ],
+        [
+          283,
+          120
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          281,
+          138
+        ],
+        [
+          287,
+          132
+        ],
+        [
+          334,
+          165
+        ],
+        [
+          363,
+          165
+        ],
+        [
+          364,
+          173
+        ],
+        [
+          331,
+          172
+        ],
+        [
+          281,
+          140
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          55,
+          186
+        ],
+        [
+          60,
+          202
+        ],
+        [
+          99,
+          197
+        ],
+        [
+          189,
+          169
+        ],
+        [
+          185,
+          156
+        ],
+        [
+          92,
+          187
+        ],
+        [
+          54,
+          185
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          55,
+          97
+        ],
+        [
+          55,
+          109
+        ],
+        [
+          90,
+          108
+        ],
+        [
+          135,
+          143
+        ],
+        [
+          144,
+          142
+        ],
+        [
+          143,
+          133
+        ],
+        [
+          96,
+          99
+        ],
+        [
+          51,
+          97
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          55,
+          42
+        ],
+        [
+          60,
+          54
+        ],
+        [
+          92,
+          51
+        ],
+        [
+          132,
+          76
+        ],
+        [
+          140,
+          69
+        ],
+        [
+          95,
+          39
+        ],
+        [
+          54,
+          42
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          58,
+          22
+        ],
+        [
+          93,
+          22
+        ],
+        [
+          174,
+          51
+        ],
+        [
+          175,
+          35
+        ],
+        [
+          90,
+          11
+        ],
+        [
+          57,
+          11
+        ],
+        [
+          54,
+          23
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A5+H1",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H0",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A7+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T1+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T2+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T3+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T4+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T5+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T6+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T7+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "forewing hindwing abdomen legs mouthparts head antennae thorax"
+  },
+  "questions": [
+    {
+      "question_text": "What is the diagram of?",
+      "question_id": "3457.png-1",
+      "answers": [
+        "bird",
+        "insect",
+        "goat",
+        "none of the above"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What protrudes upward from its head?",
+      "question_id": "3457.png-0",
+      "answers": [
+        "abdomen",
+        "none of the above",
+        "antenna",
+        "legs"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

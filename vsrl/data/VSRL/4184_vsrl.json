@@ -1,0 +1,610 @@
+{
+  "image_id": "4184",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          146,
+          123
+        ],
+        [
+          274,
+          143
+        ]
+      ],
+      "value": "Volcanic Eruption",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          6,
+          220
+        ],
+        [
+          97,
+          234
+        ]
+      ],
+      "value": "Igneous Rock",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          96,
+          338
+        ],
+        [
+          186,
+          372
+        ]
+      ],
+      "value": "Sedimentary Rock",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          255,
+          338
+        ],
+        [
+          353,
+          371
+        ]
+      ],
+      "value": "Metamorphic Rock",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          343,
+          211
+        ],
+        [
+          397,
+          226
+        ]
+      ],
+      "value": "Magma",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          320,
+          204
+        ],
+        [
+          420,
+          208
+        ],
+        [
+          418,
+          126
+        ],
+        [
+          323,
+          128
+        ],
+        [
+          323,
+          204
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          333,
+          254
+        ],
+        [
+          350,
+          322
+        ],
+        [
+          258,
+          325
+        ],
+        [
+          263,
+          263
+        ],
+        [
+          287,
+          247
+        ],
+        [
+          332,
+          251
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          159,
+          328
+        ],
+        [
+          112,
+          288
+        ],
+        [
+          103,
+          288
+        ],
+        [
+          94,
+          279
+        ],
+        [
+          147,
+          246
+        ],
+        [
+          192,
+          264
+        ],
+        [
+          199,
+          283
+        ],
+        [
+          163,
+          330
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          16,
+          212
+        ],
+        [
+          75,
+          213
+        ],
+        [
+          92,
+          194
+        ],
+        [
+          80,
+          137
+        ],
+        [
+          47,
+          138
+        ],
+        [
+          43,
+          143
+        ],
+        [
+          16,
+          144
+        ],
+        [
+          16,
+          214
+        ]
+      ],
+      "category": "object"
+    },
+    "B4": {
+      "id": "B4",
+      "type": "blob",
+      "polygon": [
+        [
+          144,
+          117
+        ],
+        [
+          265,
+          121
+        ],
+        [
+          237,
+          84
+        ],
+        [
+          227,
+          67
+        ],
+        [
+          213,
+          47
+        ],
+        [
+          241,
+          49
+        ],
+        [
+          254,
+          39
+        ],
+        [
+          240,
+          17
+        ],
+        [
+          215,
+          11
+        ],
+        [
+          188,
+          4
+        ],
+        [
+          168,
+          10
+        ],
+        [
+          166,
+          33
+        ],
+        [
+          177,
+          49
+        ],
+        [
+          194,
+          51
+        ],
+        [
+          183,
+          77
+        ],
+        [
+          167,
+          102
+        ],
+        [
+          149,
+          117
+        ],
+        [
+          146,
+          117
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          293,
+          66
+        ],
+        [
+          369,
+          104
+        ],
+        [
+          364,
+          112
+        ],
+        [
+          287,
+          79
+        ],
+        [
+          292,
+          67
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          354,
+          276
+        ],
+        [
+          383,
+          228
+        ],
+        [
+          391,
+          234
+        ],
+        [
+          360,
+          281
+        ],
+        [
+          354,
+          278
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          206,
+          302
+        ],
+        [
+          247,
+          303
+        ],
+        [
+          248,
+          293
+        ],
+        [
+          206,
+          293
+        ],
+        [
+          205,
+          298
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          48,
+          248
+        ],
+        [
+          85,
+          283
+        ],
+        [
+          92,
+          271
+        ],
+        [
+          51,
+          240
+        ],
+        [
+          47,
+          250
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          66,
+          109
+        ],
+        [
+          140,
+          68
+        ],
+        [
+          143,
+          78
+        ],
+        [
+          70,
+          121
+        ],
+        [
+          65,
+          109
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H2",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H0",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H4",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H3",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A0+B4",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B4",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "B1+A1+B0",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "B2+A2+B1",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B1",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "B3+A3+B2",
+      "type": "interObjectLinkage",
+      "source": "B3",
+      "target": "B2",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "B4+A4+B3",
+      "type": "interObjectLinkage",
+      "source": "B4",
+      "target": "B3",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T0+B4",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B3",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B2",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B1",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B0",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "B4": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector"
+  },
+  "educational_context": {
+    "subject": "earth_science",
+    "diagram_type": "labeled_illustration",
+    "text_content": "volcanic eruption igneous rock sedimentary rock metamorphic rock magma"
+  },
+  "questions": [
+    {
+      "question_text": "The materials that make up a volcano are labeled D, C, B, and E. Which material is labeled D?",
+      "question_id": "4184.png-1",
+      "answers": [
+        "Magma",
+        "Igneous Rock",
+        "Sedimentary Rock",
+        "Metamorphic Rock"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "What  image is shown a the top of this cycle?",
+      "question_id": "4184.png-0",
+      "answers": [
+        "Volcanic Eruption",
+        "Sedimentary Rock",
+        "Metamorphic Rock",
+        "Igneous Rock"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

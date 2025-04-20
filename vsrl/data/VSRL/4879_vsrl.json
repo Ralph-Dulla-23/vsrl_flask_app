@@ -1,0 +1,344 @@
+{
+  "image_id": "4879",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          22,
+          90
+        ],
+        [
+          527,
+          185
+        ]
+      ],
+      "value": "Multiple, thin (1-10 m thick), basaltic lava flows",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          340,
+          250
+        ],
+        [
+          722,
+          308
+        ]
+      ],
+      "value": "Base: ~10s-100s km2",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          773,
+          103
+        ],
+        [
+          1113,
+          160
+        ]
+      ],
+      "value": "Crater & lava Lake",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          1170,
+          118
+        ],
+        [
+          1475,
+          188
+        ]
+      ],
+      "value": "Slopes of 5-10\u00b0",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          885,
+          458
+        ],
+        [
+          1198,
+          553
+        ]
+      ],
+      "value": "Basaltic magma chamber",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          15,
+          525
+        ],
+        [
+          362,
+          575
+        ]
+      ],
+      "value": "Kenneth A. Bevis \u00a9 2013",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          7,
+          305
+        ],
+        [
+          185,
+          265
+        ],
+        [
+          562,
+          230
+        ],
+        [
+          698,
+          217
+        ],
+        [
+          770,
+          220
+        ],
+        [
+          1160,
+          252
+        ],
+        [
+          1487,
+          307
+        ],
+        [
+          1492,
+          307
+        ],
+        [
+          1493,
+          573
+        ],
+        [
+          8,
+          578
+        ],
+        [
+          10,
+          305
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          387,
+          163
+        ],
+        [
+          455,
+          240
+        ],
+        [
+          462,
+          217
+        ],
+        [
+          388,
+          135
+        ],
+        [
+          387,
+          167
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          735,
+          222
+        ],
+        [
+          820,
+          160
+        ],
+        [
+          802,
+          145
+        ],
+        [
+          722,
+          212
+        ],
+        [
+          732,
+          217
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          1093,
+          228
+        ],
+        [
+          1190,
+          172
+        ],
+        [
+          1198,
+          192
+        ],
+        [
+          1108,
+          242
+        ],
+        [
+          1088,
+          223
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T3+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T4+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T4",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+I0",
+      "type": "misc",
+      "source": "T5",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "chemistry",
+    "diagram_type": "labeled_illustration",
+    "text_content": "multiple, thin (1-10 m thick), basaltic lava flows base: ~10s-100s km2 crater & lava lake slopes of 5-10\u00b0 basaltic magma chamber kenneth a. bevis \u00a9 2013"
+  },
+  "questions": [
+    {
+      "question_text": "What is at the bottom?",
+      "question_id": "4879.png-1",
+      "answers": [
+        "Basaltic magma chamber",
+        "rocks",
+        "fish",
+        "plants"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Where is the basaltic magma chamber?",
+      "question_id": "4879.png-2",
+      "answers": [
+        "A",
+        "F",
+        "C",
+        "D"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "Where is the crater and lava lake?",
+      "question_id": "4879.png-0",
+      "answers": [
+        "A",
+        "D",
+        "C",
+        "F"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

@@ -1,0 +1,596 @@
+{
+  "image_id": "1083",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          326,
+          14
+        ],
+        [
+          430,
+          37
+        ]
+      ],
+      "value": "Cytoplasm",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          23,
+          10
+        ],
+        [
+          173,
+          31
+        ]
+      ],
+      "value": "Cell membrane",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          222,
+          109
+        ],
+        [
+          396,
+          135
+        ]
+      ],
+      "value": "Prokaryotic Cell",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          414,
+          153
+        ],
+        [
+          563,
+          177
+        ]
+      ],
+      "value": "Cell membrane",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          471,
+          211
+        ],
+        [
+          575,
+          235
+        ]
+      ],
+      "value": "Cytoplasm",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          493,
+          253
+        ],
+        [
+          577,
+          277
+        ]
+      ],
+      "value": "Nucleus",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          484,
+          324
+        ],
+        [
+          591,
+          348
+        ]
+      ],
+      "value": "Organelles",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          26,
+          283
+        ],
+        [
+          192,
+          314
+        ]
+      ],
+      "value": "Eukaryotic Cell",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          285,
+          52
+        ],
+        [
+          302,
+          49
+        ],
+        [
+          313,
+          54
+        ],
+        [
+          321,
+          67
+        ],
+        [
+          321,
+          86
+        ],
+        [
+          308,
+          96
+        ],
+        [
+          287,
+          101
+        ],
+        [
+          279,
+          92
+        ],
+        [
+          275,
+          77
+        ],
+        [
+          277,
+          65
+        ],
+        [
+          285,
+          50
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          303,
+          188
+        ],
+        [
+          339,
+          183
+        ],
+        [
+          375,
+          189
+        ],
+        [
+          409,
+          206
+        ],
+        [
+          428,
+          231
+        ],
+        [
+          440,
+          263
+        ],
+        [
+          450,
+          308
+        ],
+        [
+          447,
+          351
+        ],
+        [
+          422,
+          390
+        ],
+        [
+          386,
+          412
+        ],
+        [
+          336,
+          427
+        ],
+        [
+          291,
+          424
+        ],
+        [
+          257,
+          412
+        ],
+        [
+          225,
+          386
+        ],
+        [
+          217,
+          355
+        ],
+        [
+          217,
+          315
+        ],
+        [
+          229,
+          279
+        ],
+        [
+          246,
+          254
+        ],
+        [
+          264,
+          229
+        ],
+        [
+          285,
+          201
+        ],
+        [
+          299,
+          189
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          188,
+          35
+        ],
+        [
+          191,
+          20
+        ],
+        [
+          281,
+          64
+        ],
+        [
+          273,
+          72
+        ],
+        [
+          187,
+          32
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          302,
+          62
+        ],
+        [
+          328,
+          36
+        ],
+        [
+          332,
+          47
+        ],
+        [
+          306,
+          67
+        ],
+        [
+          302,
+          61
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          392,
+          198
+        ],
+        [
+          397,
+          206
+        ],
+        [
+          423,
+          181
+        ],
+        [
+          422,
+          175
+        ],
+        [
+          392,
+          199
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          393,
+          225
+        ],
+        [
+          394,
+          239
+        ],
+        [
+          471,
+          235
+        ],
+        [
+          466,
+          223
+        ],
+        [
+          396,
+          223
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          321,
+          295
+        ],
+        [
+          325,
+          308
+        ],
+        [
+          498,
+          271
+        ],
+        [
+          498,
+          261
+        ],
+        [
+          321,
+          297
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          391,
+          311
+        ],
+        [
+          388,
+          319
+        ],
+        [
+          466,
+          337
+        ],
+        [
+          276,
+          391
+        ],
+        [
+          276,
+          392
+        ],
+        [
+          483,
+          340
+        ],
+        [
+          483,
+          334
+        ],
+        [
+          391,
+          315
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T1+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+A2+B1",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B1",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T4+A3+B1",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B1",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T5+A4+B1",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B1",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T6+A5+B1",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B1",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T7+B1",
+      "type": "intraObjectLabel",
+      "source": "T7",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "cytoplasm cell membrane prokaryotic cell cell membrane cytoplasm nucleus organelles eukaryotic cell"
+  },
+  "questions": [
+    {
+      "question_text": "What is the middle of the cell called?",
+      "question_id": "1083.png-2",
+      "answers": [
+        "cytoplasm",
+        "cell membrane",
+        "none of the above",
+        "nucleus"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the outer layer of the cell in the diagram called?",
+      "question_id": "1083.png-1",
+      "answers": [
+        "cell membrane",
+        "cytoplasm",
+        "none of the above",
+        "organelles"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which region in the diagram represents the nucleus?",
+      "question_id": "1083.png-3",
+      "answers": [
+        "b",
+        "c",
+        "d",
+        "a"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which region in the diagram represents the organelles?",
+      "question_id": "1083.png-0",
+      "answers": [
+        "c",
+        "a",
+        "h",
+        "d"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}

@@ -1,0 +1,556 @@
+{
+  "image_id": "2950",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          2,
+          6
+        ],
+        [
+          90,
+          42
+        ]
+      ],
+      "value": "Gaseous atmosphere",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          9,
+          52
+        ],
+        [
+          74,
+          92
+        ]
+      ],
+      "value": "Liquid hydrogen",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          12,
+          106
+        ],
+        [
+          105,
+          141
+        ]
+      ],
+      "value": "Liquid metallic hydrogen",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          8,
+          151
+        ],
+        [
+          100,
+          192
+        ]
+      ],
+      "value": "Core of heavy elements",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          296,
+          135
+        ],
+        [
+          381,
+          154
+        ]
+      ],
+      "value": "Rock mantle",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          343,
+          170
+        ],
+        [
+          396,
+          209
+        ]
+      ],
+      "value": "Metallic core",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          258,
+          205
+        ],
+        [
+          297,
+          225
+        ]
+      ],
+      "value": "Earth",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          171,
+          204
+        ],
+        [
+          219,
+          224
+        ]
+      ],
+      "value": "Jupiter",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          150,
+          178
+        ],
+        [
+          193,
+          197
+        ],
+        [
+          212,
+          191
+        ],
+        [
+          227,
+          189
+        ],
+        [
+          243,
+          175
+        ],
+        [
+          261,
+          158
+        ],
+        [
+          273,
+          134
+        ],
+        [
+          280,
+          101
+        ],
+        [
+          277,
+          76
+        ],
+        [
+          271,
+          55
+        ],
+        [
+          262,
+          42
+        ],
+        [
+          243,
+          23
+        ],
+        [
+          223,
+          14
+        ],
+        [
+          195,
+          4
+        ],
+        [
+          186,
+          5
+        ],
+        [
+          161,
+          12
+        ],
+        [
+          131,
+          34
+        ],
+        [
+          115,
+          67
+        ],
+        [
+          109,
+          96
+        ],
+        [
+          112,
+          122
+        ],
+        [
+          117,
+          142
+        ],
+        [
+          135,
+          165
+        ],
+        [
+          151,
+          178
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          266,
+          182
+        ],
+        [
+          274,
+          192
+        ],
+        [
+          283,
+          183
+        ],
+        [
+          283,
+          172
+        ],
+        [
+          276,
+          166
+        ],
+        [
+          266,
+          170
+        ],
+        [
+          265,
+          179
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          67,
+          10
+        ],
+        [
+          67,
+          18
+        ],
+        [
+          173,
+          18
+        ],
+        [
+          174,
+          7
+        ],
+        [
+          68,
+          8
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          51,
+          57
+        ],
+        [
+          51,
+          66
+        ],
+        [
+          146,
+          66
+        ],
+        [
+          145,
+          56
+        ],
+        [
+          51,
+          57
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          101,
+          107
+        ],
+        [
+          102,
+          118
+        ],
+        [
+          162,
+          117
+        ],
+        [
+          159,
+          106
+        ],
+        [
+          103,
+          105
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          187,
+          105
+        ],
+        [
+          193,
+          113
+        ],
+        [
+          101,
+          170
+        ],
+        [
+          98,
+          159
+        ],
+        [
+          188,
+          105
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          277,
+          166
+        ],
+        [
+          283,
+          173
+        ],
+        [
+          302,
+          153
+        ],
+        [
+          294,
+          148
+        ],
+        [
+          278,
+          164
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          275,
+          174
+        ],
+        [
+          275,
+          182
+        ],
+        [
+          274,
+          184
+        ],
+        [
+          341,
+          184
+        ],
+        [
+          342,
+          176
+        ],
+        [
+          274,
+          175
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T2+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T3+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T4+A4+B1",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B1",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T5+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T6+B1",
+      "type": "intraObjectLabel",
+      "source": "T6",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T7+B0",
+      "type": "intraObjectLabel",
+      "source": "T7",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "gaseous atmosphere liquid hydrogen liquid metallic hydrogen core of heavy elements rock mantle metallic core earth jupiter"
+  },
+  "questions": [
+    {
+      "question_text": "How many layers does Jupiter have?",
+      "question_id": "2950.png-1",
+      "answers": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What part of Jupiter is made up of heavy elements?",
+      "question_id": "2950.png-0",
+      "answers": [
+        "mantle",
+        "metallic",
+        "core",
+        "atmosphere"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

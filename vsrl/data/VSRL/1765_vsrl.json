@@ -1,0 +1,614 @@
+{
+  "image_id": "1765",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          303,
+          170
+        ],
+        [
+          352,
+          190
+        ]
+      ],
+      "value": "spider",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          172,
+          248
+        ],
+        [
+          205,
+          266
+        ]
+      ],
+      "value": "bird",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          13,
+          185
+        ],
+        [
+          80,
+          204
+        ]
+      ],
+      "value": "ladybird",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          24,
+          81
+        ],
+        [
+          71,
+          101
+        ]
+      ],
+      "value": "aphid",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          167,
+          10
+        ],
+        [
+          211,
+          28
+        ]
+      ],
+      "value": "plant",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          284,
+          81
+        ],
+        [
+          348,
+          100
+        ]
+      ],
+      "value": "whitefly",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          444,
+          169
+        ],
+        [
+          489,
+          187
+        ]
+      ],
+      "value": "lizard",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          210,
+          247
+        ],
+        [
+          320,
+          196
+        ],
+        [
+          327,
+          210
+        ],
+        [
+          217,
+          262
+        ],
+        [
+          211,
+          249
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          308,
+          108
+        ],
+        [
+          313,
+          162
+        ],
+        [
+          324,
+          164
+        ],
+        [
+          324,
+          109
+        ],
+        [
+          311,
+          108
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          222,
+          25
+        ],
+        [
+          303,
+          70
+        ],
+        [
+          301,
+          72
+        ],
+        [
+          321,
+          77
+        ],
+        [
+          312,
+          63
+        ],
+        [
+          304,
+          62
+        ],
+        [
+          223,
+          17
+        ],
+        [
+          220,
+          24
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          366,
+          185
+        ],
+        [
+          438,
+          184
+        ],
+        [
+          434,
+          171
+        ],
+        [
+          370,
+          173
+        ],
+        [
+          368,
+          181
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          53,
+          67
+        ],
+        [
+          146,
+          17
+        ],
+        [
+          152,
+          26
+        ],
+        [
+          60,
+          79
+        ],
+        [
+          55,
+          67
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          51,
+          110
+        ],
+        [
+          57,
+          164
+        ],
+        [
+          57,
+          177
+        ],
+        [
+          45,
+          181
+        ],
+        [
+          39,
+          176
+        ],
+        [
+          42,
+          110
+        ],
+        [
+          50,
+          108
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          49,
+          220
+        ],
+        [
+          166,
+          261
+        ],
+        [
+          167,
+          248
+        ],
+        [
+          56,
+          210
+        ],
+        [
+          47,
+          220
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H4",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H5",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H6",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H2",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H3",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+T1",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T1",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T0+A3+T6",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T6",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T2+A6+T1",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T1",
+      "connector": "A6",
+      "directional": true
+    },
+    {
+      "id": "T3+A5+T2",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T2",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T4+A2+T5",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T5",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T4+A4+T3",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T3",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T5+A1+T0",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T0",
+      "connector": "A1",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "spider bird ladybird aphid plant whitefly lizard"
+  },
+  "questions": [
+    {
+      "question_text": "From the above food web diagram, if the population of birds increases then population of spider",
+      "question_id": "1765.png-4",
+      "answers": [
+        "decreases",
+        "increases",
+        "remains the same",
+        "NA"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the above food web diagram, what would happen if all the spider dies",
+      "question_id": "1765.png-3",
+      "answers": [
+        "birds increases",
+        "plants decreases",
+        "lizards increases",
+        "birds decreases"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the diagram of the food web shown, if the number of spiders decrease, the population of birds will most likely?",
+      "question_id": "1765.png-1",
+      "answers": [
+        "decrease",
+        "stay same",
+        "can't tell",
+        "increase"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the diagram of the food web shown, the aphid consumes which of these?",
+      "question_id": "1765.png-11",
+      "answers": [
+        "plants",
+        "ladybird",
+        "bird",
+        "spider"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the given diagram, aphids&whitefly are known as?",
+      "question_id": "1765.png-10",
+      "answers": [
+        "primary consumer",
+        "first trophic level",
+        "tertiary consumer",
+        "secondary consumer"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the given diagram, which is the producer?",
+      "question_id": "1765.png-7",
+      "answers": [
+        "lizard",
+        "plant",
+        "aphids",
+        "spider"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What animal in the food web above is an herbivore?",
+      "question_id": "1765.png-6",
+      "answers": [
+        "lizard",
+        "spider",
+        "whitefly",
+        "bird"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What feeds on spiders?",
+      "question_id": "1765.png-8",
+      "answers": [
+        "phid",
+        "whitefly",
+        "plant",
+        "bird"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is a producer?",
+      "question_id": "1765.png-0",
+      "answers": [
+        "spider",
+        "lizard",
+        "bird",
+        "plant"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is an herbivore?",
+      "question_id": "1765.png-5",
+      "answers": [
+        "whitefly",
+        "ladybird",
+        "spider",
+        "bird"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would happen if the lizards died?",
+      "question_id": "1765.png-2",
+      "answers": [
+        "less aphid",
+        "more ladybirds",
+        "less birds",
+        "more spiders"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which organism gives energy to lizard?",
+      "question_id": "1765.png-9",
+      "answers": [
+        "Spider",
+        "bird",
+        "aphid",
+        "plant"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

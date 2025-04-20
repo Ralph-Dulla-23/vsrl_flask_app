@@ -1,0 +1,362 @@
+{
+  "image_id": "1420",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          116,
+          259
+        ],
+        [
+          182,
+          282
+        ]
+      ],
+      "value": "TOTAL",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          359,
+          260
+        ],
+        [
+          444,
+          282
+        ]
+      ],
+      "value": "ANNULAR",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          614,
+          259
+        ],
+        [
+          686,
+          281
+        ]
+      ],
+      "value": "PARTIAL",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          97,
+          54
+        ],
+        [
+          145,
+          38
+        ],
+        [
+          171,
+          43
+        ],
+        [
+          193,
+          51
+        ],
+        [
+          219,
+          72
+        ],
+        [
+          238,
+          109
+        ],
+        [
+          238,
+          147
+        ],
+        [
+          228,
+          176
+        ],
+        [
+          196,
+          207
+        ],
+        [
+          158,
+          222
+        ],
+        [
+          124,
+          217
+        ],
+        [
+          96,
+          203
+        ],
+        [
+          72,
+          176
+        ],
+        [
+          59,
+          128
+        ],
+        [
+          78,
+          73
+        ],
+        [
+          96,
+          54
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          381,
+          41
+        ],
+        [
+          426,
+          40
+        ],
+        [
+          442,
+          54
+        ],
+        [
+          461,
+          64
+        ],
+        [
+          474,
+          78
+        ],
+        [
+          487,
+          109
+        ],
+        [
+          490,
+          147
+        ],
+        [
+          474,
+          190
+        ],
+        [
+          450,
+          211
+        ],
+        [
+          429,
+          215
+        ],
+        [
+          404,
+          222
+        ],
+        [
+          380,
+          220
+        ],
+        [
+          353,
+          207
+        ],
+        [
+          321,
+          174
+        ],
+        [
+          310,
+          148
+        ],
+        [
+          311,
+          94
+        ],
+        [
+          341,
+          53
+        ],
+        [
+          357,
+          45
+        ],
+        [
+          381,
+          41
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          597,
+          204
+        ],
+        [
+          578,
+          184
+        ],
+        [
+          560,
+          155
+        ],
+        [
+          557,
+          123
+        ],
+        [
+          574,
+          75
+        ],
+        [
+          608,
+          46
+        ],
+        [
+          629,
+          40
+        ],
+        [
+          669,
+          40
+        ],
+        [
+          704,
+          57
+        ],
+        [
+          718,
+          70
+        ],
+        [
+          732,
+          85
+        ],
+        [
+          696,
+          73
+        ],
+        [
+          667,
+          75
+        ],
+        [
+          630,
+          93
+        ],
+        [
+          613,
+          105
+        ],
+        [
+          597,
+          137
+        ],
+        [
+          592,
+          152
+        ],
+        [
+          595,
+          182
+        ],
+        [
+          605,
+          209
+        ],
+        [
+          594,
+          204
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+B0",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B1",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B2",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "total annular partial"
+  },
+  "questions": [
+    {
+      "question_text": "Which Eclipse is showing some Sun",
+      "question_id": "1420.png-1",
+      "answers": [
+        "moon rock",
+        "space cat",
+        "Total",
+        "Partial"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which diagram shows a ring pattern",
+      "question_id": "1420.png-0",
+      "answers": [
+        "Dog",
+        "Annular",
+        "Grain",
+        "Mouse"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

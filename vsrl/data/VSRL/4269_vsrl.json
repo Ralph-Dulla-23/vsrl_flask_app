@@ -1,0 +1,454 @@
+{
+  "image_id": "4269",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          5,
+          113
+        ],
+        [
+          87,
+          148
+        ]
+      ],
+      "value": "Eluviation Layer",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          5,
+          173
+        ],
+        [
+          86,
+          210
+        ]
+      ],
+      "value": "Illuviation Layer",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          225,
+          70
+        ],
+        [
+          306,
+          88
+        ]
+      ],
+      "value": "0 Horizon",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          244,
+          114
+        ],
+        [
+          302,
+          128
+        ]
+      ],
+      "value": "Horizon",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          230,
+          181
+        ],
+        [
+          302,
+          201
+        ]
+      ],
+      "value": "B Horizon",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          240,
+          255
+        ],
+        [
+          297,
+          272
+        ]
+      ],
+      "value": "Horizon",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          231,
+          313
+        ],
+        [
+          300,
+          331
+        ]
+      ],
+      "value": "R Horizon",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          87,
+          357
+        ],
+        [
+          225,
+          357
+        ],
+        [
+          224,
+          64
+        ],
+        [
+          212,
+          50
+        ],
+        [
+          221,
+          25
+        ],
+        [
+          209,
+          20
+        ],
+        [
+          201,
+          29
+        ],
+        [
+          207,
+          0
+        ],
+        [
+          202,
+          0
+        ],
+        [
+          175,
+          0
+        ],
+        [
+          174,
+          12
+        ],
+        [
+          160,
+          4
+        ],
+        [
+          131,
+          0
+        ],
+        [
+          107,
+          0
+        ],
+        [
+          102,
+          0
+        ],
+        [
+          99,
+          14
+        ],
+        [
+          99,
+          22
+        ],
+        [
+          99,
+          33
+        ],
+        [
+          99,
+          39
+        ],
+        [
+          99,
+          42
+        ],
+        [
+          99,
+          52
+        ],
+        [
+          100,
+          60
+        ],
+        [
+          104,
+          68
+        ],
+        [
+          91,
+          68
+        ],
+        [
+          86,
+          358
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          99,
+          130
+        ],
+        [
+          101,
+          176
+        ],
+        [
+          105,
+          178
+        ],
+        [
+          112,
+          178
+        ],
+        [
+          112,
+          130
+        ],
+        [
+          99,
+          131
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          149,
+          133
+        ],
+        [
+          151,
+          179
+        ],
+        [
+          160,
+          178
+        ],
+        [
+          161,
+          131
+        ],
+        [
+          151,
+          133
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          200,
+          135
+        ],
+        [
+          201,
+          179
+        ],
+        [
+          213,
+          179
+        ],
+        [
+          211,
+          136
+        ],
+        [
+          200,
+          136
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H2",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H1",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T4",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T5",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T6",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "eluviation layer illuviation layer 0 horizon horizon b horizon horizon r horizon"
+  },
+  "questions": [
+    {
+      "question_text": "What is depicted by C?",
+      "question_id": "4269.png-1",
+      "answers": [
+        "none of the above",
+        "eluviation layer",
+        "illuviation layer",
+        "R horizon"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is the topmost layer",
+      "question_id": "4269.png-2",
+      "answers": [
+        "none of the above",
+        "both above",
+        "r horizon",
+        "O horizon"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which horizon is between R and B horizon?",
+      "question_id": "4269.png-0",
+      "answers": [
+        "O Horizon",
+        "A Horizon",
+        "C Horizon",
+        "None of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

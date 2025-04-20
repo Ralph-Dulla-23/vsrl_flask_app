@@ -1,0 +1,428 @@
+{
+  "image_id": "1360",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          70
+        ],
+        [
+          62,
+          92
+        ]
+      ],
+      "value": "ROCK 2",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          140,
+          66
+        ],
+        [
+          202,
+          85
+        ]
+      ],
+      "value": "cliff face",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          159,
+          103
+        ],
+        [
+          221,
+          132
+        ]
+      ],
+      "value": "exposed rock",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          240,
+          83
+        ],
+        [
+          295,
+          117
+        ]
+      ],
+      "value": "covered rock",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          231,
+          200
+        ],
+        [
+          264,
+          215
+        ]
+      ],
+      "value": "soil",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          121,
+          229
+        ],
+        [
+          186,
+          250
+        ]
+      ],
+      "value": "ROCK 1",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          1,
+          11
+        ],
+        [
+          14,
+          10
+        ],
+        [
+          40,
+          9
+        ],
+        [
+          69,
+          11
+        ],
+        [
+          86,
+          12
+        ],
+        [
+          110,
+          12
+        ],
+        [
+          124,
+          18
+        ],
+        [
+          127,
+          53
+        ],
+        [
+          129,
+          63
+        ],
+        [
+          124,
+          77
+        ],
+        [
+          130,
+          94
+        ],
+        [
+          127,
+          116
+        ],
+        [
+          128,
+          137
+        ],
+        [
+          127,
+          146
+        ],
+        [
+          128,
+          168
+        ],
+        [
+          173,
+          170
+        ],
+        [
+          214,
+          164
+        ],
+        [
+          248,
+          162
+        ],
+        [
+          272,
+          164
+        ],
+        [
+          299,
+          163
+        ],
+        [
+          299,
+          267
+        ],
+        [
+          0,
+          267
+        ],
+        [
+          0,
+          13
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          156,
+          79
+        ],
+        [
+          161,
+          86
+        ],
+        [
+          147,
+          93
+        ],
+        [
+          149,
+          101
+        ],
+        [
+          129,
+          102
+        ],
+        [
+          140,
+          86
+        ],
+        [
+          142,
+          88
+        ],
+        [
+          158,
+          77
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          168,
+          132
+        ],
+        [
+          174,
+          134
+        ],
+        [
+          159,
+          153
+        ],
+        [
+          162,
+          159
+        ],
+        [
+          148,
+          170
+        ],
+        [
+          149,
+          149
+        ],
+        [
+          156,
+          153
+        ],
+        [
+          168,
+          134
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          248,
+          113
+        ],
+        [
+          257,
+          115
+        ],
+        [
+          252,
+          157
+        ],
+        [
+          258,
+          158
+        ],
+        [
+          249,
+          179
+        ],
+        [
+          242,
+          156
+        ],
+        [
+          247,
+          154
+        ],
+        [
+          248,
+          114
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T2+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T3+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T4+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T4",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T5",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "rock 2 cliff face exposed rock covered rock soil rock 1"
+  },
+  "questions": [
+    {
+      "question_text": "which is known as the top layer of the earth's surface ?",
+      "question_id": "1360.png-0",
+      "answers": [
+        "F",
+        "D",
+        "B",
+        "E"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

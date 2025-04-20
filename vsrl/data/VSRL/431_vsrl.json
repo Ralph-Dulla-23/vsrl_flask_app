@@ -1,0 +1,358 @@
+{
+  "image_id": "431",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          69,
+          14
+        ],
+        [
+          112,
+          30
+        ]
+      ],
+      "value": "Plants",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          146,
+          68
+        ],
+        [
+          229,
+          85
+        ]
+      ],
+      "value": "Grasshopper",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          165,
+          150
+        ],
+        [
+          262,
+          166
+        ]
+      ],
+      "value": "Praying Mantis",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          27,
+          147
+        ],
+        [
+          73,
+          163
+        ]
+      ],
+      "value": "Mynah",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          1,
+          73
+        ],
+        [
+          44,
+          88
+        ]
+      ],
+      "value": "Snails",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          94,
+          28
+        ],
+        [
+          167,
+          56
+        ],
+        [
+          160,
+          72
+        ],
+        [
+          90,
+          40
+        ],
+        [
+          32,
+          77
+        ],
+        [
+          20,
+          63
+        ],
+        [
+          91,
+          26
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          190,
+          83
+        ],
+        [
+          225,
+          147
+        ],
+        [
+          213,
+          152
+        ],
+        [
+          184,
+          91
+        ],
+        [
+          55,
+          151
+        ],
+        [
+          52,
+          138
+        ],
+        [
+          189,
+          79
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          18,
+          90
+        ],
+        [
+          29,
+          88
+        ],
+        [
+          45,
+          151
+        ],
+        [
+          35,
+          149
+        ],
+        [
+          17,
+          92
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+A2+T3",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T3",
+      "connector": "A2",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "plants grasshopper praying mantis mynah snails"
+  },
+  "questions": [
+    {
+      "question_text": "Base your answers on the diagram of a food chain below and on your knowledge of science. The plants in this food chain represents a:",
+      "question_id": "431.png-5",
+      "answers": [
+        "producer",
+        "predator",
+        "decomposer",
+        "prey"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Base your answers on the food chain below and on your knowledge of science. Which organism in this food chain depends directly on grasshoppers for food?",
+      "question_id": "431.png-2",
+      "answers": [
+        "Snails",
+        "Praying Mantis",
+        "Plants",
+        "NA"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Based on the given diagram, what would happen to the population of grasshoppers if the number of plants decreased?",
+      "question_id": "431.png-4",
+      "answers": [
+        "Increase",
+        "Neither increase nor decrease",
+        "Both Increase and decrease simultaneously",
+        "Decrease"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the above food web diagram, snails represents",
+      "question_id": "431.png-9",
+      "answers": [
+        "decomposer",
+        "consumer",
+        "producer",
+        "secondary consumer"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the given food web, name the producers.",
+      "question_id": "431.png-6",
+      "answers": [
+        "Mynah",
+        "Grasshopper",
+        "Snail",
+        "Plants"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the given diagram, praying mantis are",
+      "question_id": "431.png-0",
+      "answers": [
+        "prey",
+        "scavengers",
+        "None of these",
+        "predators"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "The given diagram shows a partial food web. Which animal will be most directly affected if all the snails were removed?",
+      "question_id": "431.png-8",
+      "answers": [
+        "Praying Mantis",
+        "Mynah",
+        "None of these",
+        "Plants"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is a food source for the praying mantis?",
+      "question_id": "431.png-1",
+      "answers": [
+        "plant",
+        "snail",
+        "mynah",
+        "grasshopper"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would happen if the snails all died?",
+      "question_id": "431.png-7",
+      "answers": [
+        "plants would increase",
+        "mynah would decrease",
+        "grasshoppers would increase",
+        "praying mantis would decrease"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would happen to grasshoppers if plants decreased?",
+      "question_id": "431.png-3",
+      "answers": [
+        "stay same",
+        "can't predict",
+        "increase",
+        "decrease"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "image_id": "4271",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          82,
+          39
+        ],
+        [
+          118,
+          62
+        ]
+      ],
+      "value": "organic matter",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          83,
+          72
+        ],
+        [
+          115,
+          83
+        ]
+      ],
+      "value": "subsoil",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          84,
+          111
+        ],
+        [
+          121,
+          129
+        ]
+      ],
+      "value": "parent material",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          84,
+          155
+        ],
+        [
+          135,
+          166
+        ]
+      ],
+      "value": "parent rock",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          138,
+          60
+        ],
+        [
+          139,
+          172
+        ],
+        [
+          217,
+          173
+        ],
+        [
+          219,
+          60
+        ],
+        [
+          206,
+          58
+        ],
+        [
+          218,
+          39
+        ],
+        [
+          195,
+          26
+        ],
+        [
+          190,
+          35
+        ],
+        [
+          194,
+          46
+        ],
+        [
+          193,
+          50
+        ],
+        [
+          195,
+          58
+        ],
+        [
+          178,
+          59
+        ],
+        [
+          187,
+          45
+        ],
+        [
+          176,
+          22
+        ],
+        [
+          164,
+          23
+        ],
+        [
+          161,
+          34
+        ],
+        [
+          166,
+          52
+        ],
+        [
+          167,
+          56
+        ],
+        [
+          155,
+          61
+        ],
+        [
+          162,
+          40
+        ],
+        [
+          150,
+          38
+        ],
+        [
+          144,
+          46
+        ],
+        [
+          146,
+          56
+        ],
+        [
+          147,
+          58
+        ],
+        [
+          140,
+          59
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          83,
+          59
+        ],
+        [
+          137,
+          60
+        ],
+        [
+          137,
+          65
+        ],
+        [
+          83,
+          65
+        ],
+        [
+          82,
+          60
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          81,
+          87
+        ],
+        [
+          137,
+          87
+        ],
+        [
+          137,
+          95
+        ],
+        [
+          79,
+          94
+        ],
+        [
+          79,
+          89
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          85,
+          141
+        ],
+        [
+          85,
+          156
+        ],
+        [
+          136,
+          154
+        ],
+        [
+          136,
+          144
+        ],
+        [
+          86,
+          140
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "organic matter subsoil parent material parent rock"
+  },
+  "questions": [
+    {
+      "question_text": "Which region in the diagram represents the subsoil?",
+      "question_id": "4271.png-0",
+      "answers": [
+        "c",
+        "a",
+        "d",
+        "b"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}

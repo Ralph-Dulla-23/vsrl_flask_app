@@ -1,0 +1,862 @@
+{
+  "image_id": "2419",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          224,
+          117
+        ],
+        [
+          277,
+          131
+        ]
+      ],
+      "value": "LARVA",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          405,
+          344
+        ],
+        [
+          444,
+          360
+        ]
+      ],
+      "value": "PUPA",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          149,
+          489
+        ],
+        [
+          200,
+          508
+        ]
+      ],
+      "value": "ADULT",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          27,
+          249
+        ],
+        [
+          56,
+          264
+        ]
+      ],
+      "value": "EGG",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          194,
+          185
+        ],
+        [
+          255,
+          243
+        ]
+      ],
+      "value": "FLEA LIFE CYCLE",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          99,
+          371
+        ],
+        [
+          107,
+          354
+        ],
+        [
+          120,
+          348
+        ],
+        [
+          134,
+          343
+        ],
+        [
+          162,
+          336
+        ],
+        [
+          194,
+          331
+        ],
+        [
+          251,
+          337
+        ],
+        [
+          292,
+          357
+        ],
+        [
+          306,
+          361
+        ],
+        [
+          302,
+          367
+        ],
+        [
+          315,
+          372
+        ],
+        [
+          316,
+          395
+        ],
+        [
+          286,
+          416
+        ],
+        [
+          262,
+          419
+        ],
+        [
+          242,
+          428
+        ],
+        [
+          199,
+          423
+        ],
+        [
+          206,
+          432
+        ],
+        [
+          236,
+          441
+        ],
+        [
+          261,
+          460
+        ],
+        [
+          260,
+          472
+        ],
+        [
+          221,
+          461
+        ],
+        [
+          188,
+          448
+        ],
+        [
+          182,
+          428
+        ],
+        [
+          161,
+          429
+        ],
+        [
+          155,
+          416
+        ],
+        [
+          147,
+          409
+        ],
+        [
+          148,
+          385
+        ],
+        [
+          144,
+          385
+        ],
+        [
+          138,
+          407
+        ],
+        [
+          148,
+          419
+        ],
+        [
+          148,
+          430
+        ],
+        [
+          144,
+          433
+        ],
+        [
+          145,
+          452
+        ],
+        [
+          135,
+          459
+        ],
+        [
+          128,
+          482
+        ],
+        [
+          118,
+          478
+        ],
+        [
+          123,
+          453
+        ],
+        [
+          136,
+          434
+        ],
+        [
+          124,
+          420
+        ],
+        [
+          119,
+          409
+        ],
+        [
+          131,
+          384
+        ],
+        [
+          124,
+          382
+        ],
+        [
+          121,
+          399
+        ],
+        [
+          112,
+          408
+        ],
+        [
+          120,
+          420
+        ],
+        [
+          114,
+          441
+        ],
+        [
+          63,
+          461
+        ],
+        [
+          61,
+          451
+        ],
+        [
+          88,
+          441
+        ],
+        [
+          102,
+          435
+        ],
+        [
+          102,
+          411
+        ],
+        [
+          102,
+          403
+        ],
+        [
+          89,
+          399
+        ],
+        [
+          98,
+          375
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          369,
+          285
+        ],
+        [
+          404,
+          244
+        ],
+        [
+          436,
+          201
+        ],
+        [
+          484,
+          177
+        ],
+        [
+          510,
+          184
+        ],
+        [
+          527,
+          188
+        ],
+        [
+          545,
+          221
+        ],
+        [
+          541,
+          260
+        ],
+        [
+          504,
+          314
+        ],
+        [
+          461,
+          331
+        ],
+        [
+          423,
+          336
+        ],
+        [
+          387,
+          320
+        ],
+        [
+          368,
+          284
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          24,
+          199
+        ],
+        [
+          25,
+          181
+        ],
+        [
+          37,
+          173
+        ],
+        [
+          51,
+          173
+        ],
+        [
+          68,
+          188
+        ],
+        [
+          73,
+          208
+        ],
+        [
+          68,
+          229
+        ],
+        [
+          46,
+          230
+        ],
+        [
+          24,
+          203
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          155,
+          65
+        ],
+        [
+          167,
+          32
+        ],
+        [
+          198,
+          11
+        ],
+        [
+          251,
+          13
+        ],
+        [
+          307,
+          19
+        ],
+        [
+          389,
+          70
+        ],
+        [
+          394,
+          80
+        ],
+        [
+          382,
+          83
+        ],
+        [
+          395,
+          98
+        ],
+        [
+          405,
+          103
+        ],
+        [
+          408,
+          118
+        ],
+        [
+          388,
+          126
+        ],
+        [
+          316,
+          84
+        ],
+        [
+          278,
+          76
+        ],
+        [
+          250,
+          61
+        ],
+        [
+          226,
+          56
+        ],
+        [
+          200,
+          52
+        ],
+        [
+          167,
+          75
+        ],
+        [
+          153,
+          68
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          36,
+          155
+        ],
+        [
+          53,
+          158
+        ],
+        [
+          65,
+          120
+        ],
+        [
+          92,
+          90
+        ],
+        [
+          131,
+          69
+        ],
+        [
+          140,
+          58
+        ],
+        [
+          121,
+          54
+        ],
+        [
+          99,
+          66
+        ],
+        [
+          68,
+          91
+        ],
+        [
+          50,
+          121
+        ],
+        [
+          38,
+          153
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          32,
+          261
+        ],
+        [
+          46,
+          266
+        ],
+        [
+          52,
+          301
+        ],
+        [
+          81,
+          347
+        ],
+        [
+          93,
+          354
+        ],
+        [
+          80,
+          368
+        ],
+        [
+          42,
+          317
+        ],
+        [
+          32,
+          260
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          317,
+          377
+        ],
+        [
+          321,
+          393
+        ],
+        [
+          353,
+          382
+        ],
+        [
+          378,
+          360
+        ],
+        [
+          389,
+          345
+        ],
+        [
+          396,
+          332
+        ],
+        [
+          382,
+          327
+        ],
+        [
+          367,
+          350
+        ],
+        [
+          350,
+          366
+        ],
+        [
+          334,
+          372
+        ],
+        [
+          319,
+          378
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          415,
+          131
+        ],
+        [
+          423,
+          113
+        ],
+        [
+          467,
+          152
+        ],
+        [
+          467,
+          179
+        ],
+        [
+          456,
+          187
+        ],
+        [
+          435,
+          156
+        ],
+        [
+          416,
+          133
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H3",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H2",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H0",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H1",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A1+B2",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B2",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "B1+A2+B0",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B0",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "B2+A0+B3",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B3",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "B3+A3+B1",
+      "type": "interObjectLinkage",
+      "source": "B3",
+      "target": "B1",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T0+B3",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B1",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B2",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+I0",
+      "type": "imageTitle",
+      "source": "T4",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "title",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "larva pupa adult egg flea life cycle"
+  },
+  "questions": [
+    {
+      "question_text": "Explain stage B",
+      "question_id": "2419.png-3",
+      "answers": [
+        "larva",
+        "egg",
+        "Pupa life cycle",
+        "Adult"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "How many stages are there in a flea's life cycle?",
+      "question_id": "2419.png-0",
+      "answers": [
+        "5",
+        "3",
+        "4",
+        "2"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "The diagram depicts the life cycle of a flea. In the diagram, what is the order of the life cycle, from youngest to oldest?",
+      "question_id": "2419.png-4",
+      "answers": [
+        "Egg, Larva, Pupa, Adult",
+        "Egg, Larva, Adult, Pupa",
+        "Egg, Adult, Larva, Pupa",
+        "Egg, Pupa, Larva, Adult"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "When the eggs of a flea hatch, what emerges?",
+      "question_id": "2419.png-1",
+      "answers": [
+        "Nymph",
+        "Larva",
+        "Young adult",
+        "Pupa"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which letter shows the larva stage of flea development?",
+      "question_id": "2419.png-2",
+      "answers": [
+        "A",
+        "C",
+        "B",
+        "E"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    }
+  ]
+}

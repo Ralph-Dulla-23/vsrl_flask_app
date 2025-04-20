@@ -1,0 +1,456 @@
+{
+  "image_id": "4086",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          85,
+          47
+        ],
+        [
+          647,
+          128
+        ]
+      ],
+      "value": "Ganymede Interior",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          660,
+          235
+        ],
+        [
+          805,
+          284
+        ]
+      ],
+      "value": "Ice crust",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          690,
+          332
+        ],
+        [
+          894,
+          379
+        ]
+      ],
+      "value": "Saline ocean",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          751,
+          389
+        ],
+        [
+          916,
+          431
+        ]
+      ],
+      "value": "Ice mantle",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          791,
+          469
+        ],
+        [
+          1009,
+          512
+        ]
+      ],
+      "value": "Rocky mantle",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          820,
+          639
+        ],
+        [
+          963,
+          693
+        ]
+      ],
+      "value": "Iron core",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          485,
+          311
+        ],
+        [
+          540,
+          323
+        ],
+        [
+          600,
+          339
+        ],
+        [
+          659,
+          376
+        ],
+        [
+          711,
+          417
+        ],
+        [
+          760,
+          475
+        ],
+        [
+          785,
+          547
+        ],
+        [
+          800,
+          615
+        ],
+        [
+          791,
+          716
+        ],
+        [
+          763,
+          816
+        ],
+        [
+          727,
+          887
+        ],
+        [
+          663,
+          945
+        ],
+        [
+          576,
+          1003
+        ],
+        [
+          433,
+          1027
+        ],
+        [
+          312,
+          997
+        ],
+        [
+          205,
+          929
+        ],
+        [
+          119,
+          828
+        ],
+        [
+          83,
+          700
+        ],
+        [
+          88,
+          573
+        ],
+        [
+          147,
+          448
+        ],
+        [
+          236,
+          363
+        ],
+        [
+          348,
+          320
+        ],
+        [
+          427,
+          304
+        ],
+        [
+          496,
+          312
+        ],
+        [
+          480,
+          309
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          427,
+          327
+        ],
+        [
+          461,
+          335
+        ],
+        [
+          457,
+          271
+        ],
+        [
+          659,
+          271
+        ],
+        [
+          659,
+          244
+        ],
+        [
+          427,
+          248
+        ],
+        [
+          423,
+          328
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          437,
+          364
+        ],
+        [
+          688,
+          363
+        ],
+        [
+          688,
+          348
+        ],
+        [
+          432,
+          347
+        ],
+        [
+          431,
+          367
+        ],
+        [
+          436,
+          365
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          432,
+          400
+        ],
+        [
+          431,
+          421
+        ],
+        [
+          749,
+          421
+        ],
+        [
+          751,
+          403
+        ],
+        [
+          431,
+          403
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          431,
+          477
+        ],
+        [
+          796,
+          480
+        ],
+        [
+          793,
+          495
+        ],
+        [
+          432,
+          497
+        ],
+        [
+          431,
+          479
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          425,
+          675
+        ],
+        [
+          823,
+          673
+        ],
+        [
+          821,
+          653
+        ],
+        [
+          421,
+          645
+        ],
+        [
+          424,
+          675
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T2+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T3+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T4+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T5+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector"
+  },
+  "educational_context": {
+    "subject": "earth_science",
+    "diagram_type": "labeled_illustration",
+    "text_content": "ganymede interior ice crust saline ocean ice mantle rocky mantle iron core"
+  },
+  "questions": [
+    {
+      "question_text": "Name the outermost layer of Ganymede.",
+      "question_id": "4086.png-0",
+      "answers": [
+        "Saline ocean",
+        "Ice crust",
+        "Rocky mantle",
+        "Iron core"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the layer between iron core and Ice mantle of Ganymede called?",
+      "question_id": "4086.png-1",
+      "answers": [
+        "Rocky mantle",
+        "Rocky crust",
+        "Ice crust",
+        "Saline ocean"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

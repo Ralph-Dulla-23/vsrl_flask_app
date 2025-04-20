@@ -1,0 +1,828 @@
+{
+  "image_id": "2220",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          71,
+          241
+        ],
+        [
+          101,
+          259
+        ]
+      ],
+      "value": "egg",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          158,
+          222
+        ],
+        [
+          236,
+          257
+        ]
+      ],
+      "value": "(larva) caterpillar ",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          328,
+          239
+        ],
+        [
+          397,
+          257
+        ]
+      ],
+      "value": "chrysalis ",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          482,
+          239
+        ],
+        [
+          548,
+          259
+        ]
+      ],
+      "value": "butterfly ",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          340,
+          214
+        ],
+        [
+          389,
+          203
+        ],
+        [
+          400,
+          156
+        ],
+        [
+          416,
+          132
+        ],
+        [
+          389,
+          95
+        ],
+        [
+          384,
+          72
+        ],
+        [
+          375,
+          92
+        ],
+        [
+          345,
+          115
+        ],
+        [
+          336,
+          160
+        ],
+        [
+          337,
+          211
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          511,
+          196
+        ],
+        [
+          546,
+          231
+        ],
+        [
+          568,
+          204
+        ],
+        [
+          575,
+          169
+        ],
+        [
+          555,
+          150
+        ],
+        [
+          571,
+          140
+        ],
+        [
+          583,
+          105
+        ],
+        [
+          577,
+          88
+        ],
+        [
+          584,
+          53
+        ],
+        [
+          569,
+          48
+        ],
+        [
+          559,
+          38
+        ],
+        [
+          533,
+          58
+        ],
+        [
+          516,
+          94
+        ],
+        [
+          509,
+          113
+        ],
+        [
+          496,
+          109
+        ],
+        [
+          473,
+          87
+        ],
+        [
+          459,
+          81
+        ],
+        [
+          466,
+          89
+        ],
+        [
+          488,
+          102
+        ],
+        [
+          497,
+          110
+        ],
+        [
+          486,
+          114
+        ],
+        [
+          478,
+          101
+        ],
+        [
+          462,
+          90
+        ],
+        [
+          451,
+          85
+        ],
+        [
+          453,
+          93
+        ],
+        [
+          469,
+          101
+        ],
+        [
+          483,
+          113
+        ],
+        [
+          483,
+          126
+        ],
+        [
+          490,
+          136
+        ],
+        [
+          495,
+          144
+        ],
+        [
+          483,
+          140
+        ],
+        [
+          483,
+          144
+        ],
+        [
+          489,
+          144
+        ],
+        [
+          494,
+          147
+        ],
+        [
+          493,
+          154
+        ],
+        [
+          483,
+          154
+        ],
+        [
+          480,
+          156
+        ],
+        [
+          497,
+          155
+        ],
+        [
+          497,
+          169
+        ],
+        [
+          485,
+          166
+        ],
+        [
+          485,
+          186
+        ],
+        [
+          471,
+          186
+        ],
+        [
+          471,
+          196
+        ],
+        [
+          481,
+          197
+        ],
+        [
+          483,
+          204
+        ],
+        [
+          495,
+          209
+        ],
+        [
+          506,
+          199
+        ],
+        [
+          513,
+          195
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          86,
+          214
+        ],
+        [
+          102,
+          208
+        ],
+        [
+          100,
+          188
+        ],
+        [
+          109,
+          155
+        ],
+        [
+          96,
+          125
+        ],
+        [
+          72,
+          108
+        ],
+        [
+          53,
+          100
+        ],
+        [
+          17,
+          86
+        ],
+        [
+          32,
+          99
+        ],
+        [
+          38,
+          121
+        ],
+        [
+          36,
+          153
+        ],
+        [
+          45,
+          175
+        ],
+        [
+          60,
+          182
+        ],
+        [
+          86,
+          188
+        ],
+        [
+          85,
+          211
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          157,
+          210
+        ],
+        [
+          176,
+          206
+        ],
+        [
+          185,
+          208
+        ],
+        [
+          190,
+          206
+        ],
+        [
+          202,
+          207
+        ],
+        [
+          217,
+          203
+        ],
+        [
+          231,
+          197
+        ],
+        [
+          227,
+          193
+        ],
+        [
+          249,
+          178
+        ],
+        [
+          257,
+          189
+        ],
+        [
+          263,
+          186
+        ],
+        [
+          252,
+          176
+        ],
+        [
+          260,
+          167
+        ],
+        [
+          265,
+          152
+        ],
+        [
+          257,
+          136
+        ],
+        [
+          248,
+          130
+        ],
+        [
+          245,
+          129
+        ],
+        [
+          244,
+          119
+        ],
+        [
+          251,
+          106
+        ],
+        [
+          241,
+          105
+        ],
+        [
+          240,
+          118
+        ],
+        [
+          243,
+          129
+        ],
+        [
+          231,
+          131
+        ],
+        [
+          235,
+          118
+        ],
+        [
+          237,
+          110
+        ],
+        [
+          226,
+          110
+        ],
+        [
+          228,
+          126
+        ],
+        [
+          228,
+          132
+        ],
+        [
+          224,
+          136
+        ],
+        [
+          217,
+          142
+        ],
+        [
+          222,
+          150
+        ],
+        [
+          215,
+          155
+        ],
+        [
+          209,
+          159
+        ],
+        [
+          199,
+          167
+        ],
+        [
+          192,
+          170
+        ],
+        [
+          178,
+          176
+        ],
+        [
+          161,
+          182
+        ],
+        [
+          155,
+          193
+        ],
+        [
+          154,
+          207
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          121,
+          167
+        ],
+        [
+          152,
+          168
+        ],
+        [
+          152,
+          178
+        ],
+        [
+          174,
+          159
+        ],
+        [
+          154,
+          143
+        ],
+        [
+          152,
+          154
+        ],
+        [
+          121,
+          153
+        ],
+        [
+          120,
+          169
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          276,
+          166
+        ],
+        [
+          304,
+          166
+        ],
+        [
+          305,
+          175
+        ],
+        [
+          326,
+          155
+        ],
+        [
+          307,
+          139
+        ],
+        [
+          307,
+          148
+        ],
+        [
+          276,
+          150
+        ],
+        [
+          275,
+          166
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          420,
+          169
+        ],
+        [
+          448,
+          170
+        ],
+        [
+          447,
+          181
+        ],
+        [
+          468,
+          162
+        ],
+        [
+          450,
+          144
+        ],
+        [
+          449,
+          154
+        ],
+        [
+          419,
+          154
+        ],
+        [
+          422,
+          171
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A2+B1",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B1",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "B2+A0+B3",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B3",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "B3+A1+B0",
+      "type": "interObjectLinkage",
+      "source": "B3",
+      "target": "B0",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T0+B2",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B3",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B1",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "egg (larva) caterpillar  chrysalis  butterfly "
+  },
+  "questions": [
+    {
+      "question_text": "During the transformation, what is the stage just before the butterfly",
+      "question_id": "2220.png-3",
+      "answers": [
+        "Egg",
+        "Larva",
+        "Butterfly junior",
+        "The chrysalis"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "The diagram shown shows the life cycle of a butterfly. Which letter shows the butterfly as an egg?",
+      "question_id": "2220.png-0",
+      "answers": [
+        "D",
+        "B",
+        "A",
+        "C"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "What stage shows the caterpillar going through metamorphosis?",
+      "question_id": "2220.png-2",
+      "answers": [
+        "Larva",
+        "Egg",
+        "Chrysalis",
+        "Butterfly"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which letter in the given diagram represents the stage where the insect is surrounded by a silky cacoon?",
+      "question_id": "2220.png-1",
+      "answers": [
+        "D",
+        "B",
+        "C",
+        "A"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which letter shows the butterfly?",
+      "question_id": "2220.png-4",
+      "answers": [
+        "B",
+        "A",
+        "C",
+        "D"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

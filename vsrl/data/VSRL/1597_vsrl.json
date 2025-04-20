@@ -1,0 +1,454 @@
+{
+  "image_id": "1597",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          269,
+          11
+        ],
+        [
+          342,
+          34
+        ]
+      ],
+      "value": "LED Light",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          432,
+          139
+        ],
+        [
+          484,
+          160
+        ]
+      ],
+      "value": "Battery",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          197,
+          127
+        ],
+        [
+          262,
+          150
+        ]
+      ],
+      "value": "Resistor",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          49,
+          125
+        ],
+        [
+          100,
+          144
+        ]
+      ],
+      "value": "Switch",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          329,
+          118
+        ],
+        [
+          333,
+          189
+        ],
+        [
+          358,
+          203
+        ],
+        [
+          403,
+          204
+        ],
+        [
+          419,
+          204
+        ],
+        [
+          440,
+          192
+        ],
+        [
+          434,
+          162
+        ],
+        [
+          433,
+          113
+        ],
+        [
+          332,
+          116
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          215,
+          7
+        ],
+        [
+          211,
+          30
+        ],
+        [
+          214,
+          67
+        ],
+        [
+          215,
+          77
+        ],
+        [
+          253,
+          78
+        ],
+        [
+          277,
+          77
+        ],
+        [
+          270,
+          32
+        ],
+        [
+          267,
+          9
+        ],
+        [
+          217,
+          10
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          191,
+          102
+        ],
+        [
+          165,
+          104
+        ],
+        [
+          166,
+          182
+        ],
+        [
+          189,
+          187
+        ],
+        [
+          200,
+          182
+        ],
+        [
+          198,
+          103
+        ],
+        [
+          192,
+          101
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          93,
+          104
+        ],
+        [
+          23,
+          112
+        ],
+        [
+          24,
+          155
+        ],
+        [
+          54,
+          188
+        ],
+        [
+          107,
+          186
+        ],
+        [
+          97,
+          105
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          65,
+          45
+        ],
+        [
+          69,
+          122
+        ],
+        [
+          103,
+          123
+        ],
+        [
+          98,
+          54
+        ],
+        [
+          162,
+          49
+        ],
+        [
+          162,
+          107
+        ],
+        [
+          186,
+          109
+        ],
+        [
+          186,
+          53
+        ],
+        [
+          215,
+          49
+        ],
+        [
+          218,
+          22
+        ],
+        [
+          65,
+          29
+        ],
+        [
+          65,
+          45
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          272,
+          29
+        ],
+        [
+          270,
+          46
+        ],
+        [
+          361,
+          48
+        ],
+        [
+          362,
+          112
+        ],
+        [
+          371,
+          119
+        ],
+        [
+          380,
+          122
+        ],
+        [
+          383,
+          28
+        ],
+        [
+          270,
+          29
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          370,
+          196
+        ],
+        [
+          386,
+          196
+        ],
+        [
+          385,
+          251
+        ],
+        [
+          66,
+          249
+        ],
+        [
+          60,
+          177
+        ],
+        [
+          93,
+          175
+        ],
+        [
+          91,
+          231
+        ],
+        [
+          168,
+          234
+        ],
+        [
+          168,
+          183
+        ],
+        [
+          189,
+          183
+        ],
+        [
+          192,
+          232
+        ],
+        [
+          362,
+          234
+        ],
+        [
+          368,
+          198
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "B0+A2+B3",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B3",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "B1+A0+B2",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B2",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "B1+A1+B0",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T0+B1",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B2",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B3",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "physics",
+    "diagram_type": "labeled_illustration",
+    "text_content": "led light battery resistor switch"
+  }
+}

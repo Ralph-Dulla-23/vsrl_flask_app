@@ -1,0 +1,626 @@
+{
+  "image_id": "4297",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          11,
+          16
+        ],
+        [
+          153,
+          65
+        ]
+      ],
+      "value": "Continental Crust",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          220,
+          43
+        ],
+        [
+          335,
+          86
+        ]
+      ],
+      "value": "Sedimentary Deposits",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          392,
+          34
+        ],
+        [
+          489,
+          83
+        ]
+      ],
+      "value": "Oceanic Crust",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          137,
+          184
+        ],
+        [
+          279,
+          210
+        ]
+      ],
+      "value": "Lithosphere",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          222,
+          230
+        ],
+        [
+          468,
+          257
+        ]
+      ],
+      "value": "Plastic Asthenosphere",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          66,
+          263
+        ],
+        [
+          221,
+          317
+        ]
+      ],
+      "value": "Upper Mantle (down to 670 km)",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          542,
+          252
+        ],
+        [
+          600,
+          274
+        ]
+      ],
+      "value": "200 km",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          537,
+          177
+        ],
+        [
+          600,
+          199
+        ]
+      ],
+      "value": "100 km",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          538,
+          123
+        ],
+        [
+          592,
+          148
+        ]
+      ],
+      "value": "10 km",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          0,
+          109
+        ],
+        [
+          24,
+          114
+        ],
+        [
+          37,
+          104
+        ],
+        [
+          68,
+          108
+        ],
+        [
+          76,
+          110
+        ],
+        [
+          105,
+          94
+        ],
+        [
+          148,
+          112
+        ],
+        [
+          199,
+          89
+        ],
+        [
+          216,
+          97
+        ],
+        [
+          230,
+          98
+        ],
+        [
+          267,
+          113
+        ],
+        [
+          288,
+          119
+        ],
+        [
+          289,
+          118
+        ],
+        [
+          500,
+          117
+        ],
+        [
+          503,
+          328
+        ],
+        [
+          1,
+          328
+        ],
+        [
+          0,
+          109
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          109,
+          69
+        ],
+        [
+          172,
+          111
+        ],
+        [
+          182,
+          102
+        ],
+        [
+          114,
+          58
+        ],
+        [
+          108,
+          71
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          123,
+          106
+        ],
+        [
+          137,
+          105
+        ],
+        [
+          136,
+          228
+        ],
+        [
+          125,
+          226
+        ],
+        [
+          121,
+          105
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          47,
+          174
+        ],
+        [
+          62,
+          173
+        ],
+        [
+          64,
+          328
+        ],
+        [
+          52,
+          328
+        ],
+        [
+          49,
+          178
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          408,
+          75
+        ],
+        [
+          367,
+          127
+        ],
+        [
+          380,
+          134
+        ],
+        [
+          417,
+          81
+        ],
+        [
+          411,
+          77
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          291,
+          78
+        ],
+        [
+          276,
+          81
+        ],
+        [
+          307,
+          128
+        ],
+        [
+          318,
+          125
+        ],
+        [
+          293,
+          81
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          503,
+          128
+        ],
+        [
+          537,
+          132
+        ],
+        [
+          535,
+          138
+        ],
+        [
+          499,
+          143
+        ],
+        [
+          504,
+          124
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          500,
+          183
+        ],
+        [
+          536,
+          183
+        ],
+        [
+          536,
+          190
+        ],
+        [
+          501,
+          193
+        ],
+        [
+          500,
+          181
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          500,
+          254
+        ],
+        [
+          532,
+          255
+        ],
+        [
+          537,
+          268
+        ],
+        [
+          500,
+          265
+        ],
+        [
+          501,
+          256
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H4",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H3",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H1",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H2",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H0",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T2+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T3+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T4+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T4",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T6+A7+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T7+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T8+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T8",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "continental crust sedimentary deposits oceanic crust lithosphere plastic asthenosphere upper mantle (down to 670 km) 200 km 100 km 10 km"
+  },
+  "questions": [
+    {
+      "question_text": "According to the given image which layer lies above the upper mantle?",
+      "question_id": "4297.png-1",
+      "answers": [
+        "oceanic crust",
+        "continental crust",
+        "plastic asthenosphere",
+        "lithosphere"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "Choose the option that best describes a zone of the earth's mantle that lies beneath the lithosphere and consists of several hundred kilometers of deformable rock.?",
+      "question_id": "4297.png-0",
+      "answers": [
+        "crust",
+        "lithosphere",
+        "sedimentary",
+        "asthenosphere"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which is the outer part of the earth, consisting of the crust and upper mantle?",
+      "question_id": "4297.png-2",
+      "answers": [
+        "continental",
+        "asthenosphere",
+        "sedimentary",
+        "lithosphere"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    }
+  ]
+}

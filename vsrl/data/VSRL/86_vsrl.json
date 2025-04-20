@@ -1,0 +1,468 @@
+{
+  "image_id": "86",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          386,
+          135
+        ],
+        [
+          469,
+          176
+        ]
+      ],
+      "value": "Night",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          288,
+          137
+        ],
+        [
+          344,
+          181
+        ]
+      ],
+      "value": "Day",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          347,
+          176
+        ],
+        [
+          347,
+          182
+        ]
+      ],
+      "value": " ",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          122,
+          243
+        ],
+        [
+          194,
+          275
+        ]
+      ],
+      "value": "Light",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          408,
+          179
+        ],
+        [
+          434,
+          198
+        ],
+        [
+          457,
+          221
+        ],
+        [
+          462,
+          274
+        ],
+        [
+          446,
+          300
+        ],
+        [
+          424,
+          317
+        ],
+        [
+          408,
+          329
+        ],
+        [
+          381,
+          335
+        ],
+        [
+          333,
+          326
+        ],
+        [
+          310,
+          307
+        ],
+        [
+          296,
+          278
+        ],
+        [
+          291,
+          232
+        ],
+        [
+          310,
+          198
+        ],
+        [
+          349,
+          178
+        ],
+        [
+          402,
+          176
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          3,
+          54
+        ],
+        [
+          16,
+          55
+        ],
+        [
+          36,
+          80
+        ],
+        [
+          63,
+          149
+        ],
+        [
+          76,
+          221
+        ],
+        [
+          76,
+          281
+        ],
+        [
+          70,
+          319
+        ],
+        [
+          55,
+          374
+        ],
+        [
+          31,
+          419
+        ],
+        [
+          13,
+          448
+        ],
+        [
+          1,
+          466
+        ],
+        [
+          4,
+          54
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          105,
+          154
+        ],
+        [
+          108,
+          189
+        ],
+        [
+          243,
+          186
+        ],
+        [
+          243,
+          159
+        ],
+        [
+          106,
+          151
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          105,
+          205
+        ],
+        [
+          106,
+          230
+        ],
+        [
+          242,
+          232
+        ],
+        [
+          245,
+          199
+        ],
+        [
+          106,
+          205
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          106,
+          277
+        ],
+        [
+          109,
+          304
+        ],
+        [
+          246,
+          307
+        ],
+        [
+          246,
+          282
+        ],
+        [
+          105,
+          275
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          108,
+          322
+        ],
+        [
+          108,
+          351
+        ],
+        [
+          246,
+          351
+        ],
+        [
+          246,
+          320
+        ],
+        [
+          108,
+          322
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B1+A0+B0",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B0",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "B1+A1+B0",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "B1+A2+B0",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B0",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "B1+A3+B0",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B0",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+A0",
+      "type": "arrowDescriptor",
+      "source": "T3",
+      "target": "A0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "physics",
+    "diagram_type": "labeled_illustration",
+    "text_content": "night day   light"
+  },
+  "questions": [
+    {
+      "question_text": "In the diagram, which letter shows Night?",
+      "question_id": "86.png-3",
+      "answers": [
+        "{}",
+        "B",
+        "D",
+        "A"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "What causes day to change to night?",
+      "question_id": "86.png-0",
+      "answers": [
+        "The rotation of the earth",
+        "The sun goes dormant on a 12 hour cycle.",
+        "The orbit of the moon around the earth",
+        "The orbit of the earth around the sun"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which label refers to daytime?",
+      "question_id": "86.png-1",
+      "answers": [
+        "C",
+        "B",
+        "D",
+        "A"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "Why is it always day on one side of the earth and night on the other?",
+      "question_id": "86.png-2",
+      "answers": [
+        "Because the light from the sun only shines on one side of the earth at a time.",
+        "Differences in climate",
+        "It is due to the rotation of the sun around the earth.",
+        "The relative distance between the earth and sun changes."
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

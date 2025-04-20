@@ -1,0 +1,394 @@
+{
+  "image_id": "3753",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          379,
+          120
+        ],
+        [
+          501,
+          140
+        ]
+      ],
+      "value": "Superior Lobes",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          378,
+          145
+        ],
+        [
+          479,
+          161
+        ]
+      ],
+      "value": "Middle Lobe",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          379,
+          167
+        ],
+        [
+          489,
+          187
+        ]
+      ],
+      "value": "Inferior Lobes",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          440,
+          257
+        ],
+        [
+          509,
+          301
+        ]
+      ],
+      "value": "Cardiac notch",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          201,
+          415
+        ],
+        [
+          339,
+          438
+        ]
+      ],
+      "value": "Hilum of trachea",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          266,
+          451
+        ],
+        [
+          375,
+          464
+        ]
+      ],
+      "value": "Dr.Asir John Samuel (PT)",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          231,
+          39
+        ],
+        [
+          408,
+          77
+        ]
+      ],
+      "value": "Lung lobes",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          135,
+          238
+        ],
+        [
+          204,
+          176
+        ],
+        [
+          246,
+          178
+        ],
+        [
+          233,
+          131
+        ],
+        [
+          233,
+          101
+        ],
+        [
+          295,
+          107
+        ],
+        [
+          317,
+          117
+        ],
+        [
+          302,
+          174
+        ],
+        [
+          362,
+          186
+        ],
+        [
+          415,
+          257
+        ],
+        [
+          443,
+          344
+        ],
+        [
+          423,
+          427
+        ],
+        [
+          362,
+          427
+        ],
+        [
+          303,
+          414
+        ],
+        [
+          274,
+          390
+        ],
+        [
+          282,
+          314
+        ],
+        [
+          273,
+          292
+        ],
+        [
+          259,
+          401
+        ],
+        [
+          208,
+          417
+        ],
+        [
+          140,
+          416
+        ],
+        [
+          104,
+          396
+        ],
+        [
+          109,
+          345
+        ],
+        [
+          113,
+          252
+        ],
+        [
+          136,
+          237
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          329,
+          331
+        ],
+        [
+          336,
+          347
+        ],
+        [
+          450,
+          284
+        ],
+        [
+          440,
+          272
+        ],
+        [
+          331,
+          333
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          266,
+          420
+        ],
+        [
+          267,
+          247
+        ],
+        [
+          277,
+          247
+        ],
+        [
+          277,
+          421
+        ],
+        [
+          268,
+          421
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageCaption",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+I0",
+      "type": "imageCaption",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+I0",
+      "type": "imageCaption",
+      "source": "T2",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T4+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T5+I0",
+      "type": "misc",
+      "source": "T5",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+I0",
+      "type": "imageTitle",
+      "source": "T6",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "title",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "superior lobes middle lobe inferior lobes cardiac notch hilum of trachea dr.asir john samuel (pt) lung lobes"
+  },
+  "questions": [
+    {
+      "question_text": "What does the letter E represent?",
+      "question_id": "3753.png-2",
+      "answers": [
+        "The Inferior Lobes",
+        "The Cardiac Notch",
+        "The Middle Lobe",
+        "The Hilum of Trachea"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which is the largest part of the lung?",
+      "question_id": "3753.png-0",
+      "answers": [
+        "Inferior lobes",
+        "Cardiac notch",
+        "Superior lobes",
+        "Middle lobe"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which part of the diagram represents the Superior Lobes?",
+      "question_id": "3753.png-1",
+      "answers": [
+        "C",
+        "G",
+        "A",
+        "B"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

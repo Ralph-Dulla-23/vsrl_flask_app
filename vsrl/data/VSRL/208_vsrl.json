@@ -1,0 +1,340 @@
+{
+  "image_id": "208",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          32,
+          47
+        ],
+        [
+          320,
+          85
+        ]
+      ],
+      "value": "electrical circuit!!!",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          93,
+          155
+        ],
+        [
+          113,
+          151
+        ],
+        [
+          113,
+          151
+        ],
+        [
+          117,
+          163
+        ],
+        [
+          117,
+          177
+        ],
+        [
+          116,
+          183
+        ],
+        [
+          116,
+          183
+        ],
+        [
+          138,
+          184
+        ],
+        [
+          147,
+          162
+        ],
+        [
+          159,
+          159
+        ],
+        [
+          176,
+          133
+        ],
+        [
+          180,
+          106
+        ],
+        [
+          145,
+          84
+        ],
+        [
+          115,
+          75
+        ],
+        [
+          93,
+          96
+        ],
+        [
+          93,
+          96
+        ],
+        [
+          70,
+          119
+        ],
+        [
+          92,
+          153
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          187,
+          215
+        ],
+        [
+          253,
+          214
+        ],
+        [
+          253,
+          214
+        ],
+        [
+          260,
+          225
+        ],
+        [
+          260,
+          244
+        ],
+        [
+          257,
+          254
+        ],
+        [
+          188,
+          254
+        ],
+        [
+          185,
+          241
+        ],
+        [
+          186,
+          218
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          334,
+          164
+        ],
+        [
+          346,
+          212
+        ],
+        [
+          346,
+          212
+        ],
+        [
+          366,
+          212
+        ],
+        [
+          386,
+          202
+        ],
+        [
+          372,
+          147
+        ],
+        [
+          335,
+          153
+        ],
+        [
+          335,
+          162
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          122,
+          181
+        ],
+        [
+          123,
+          239
+        ],
+        [
+          187,
+          240
+        ],
+        [
+          189,
+          235
+        ],
+        [
+          129,
+          234
+        ],
+        [
+          128,
+          182
+        ],
+        [
+          123,
+          183
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          260,
+          234
+        ],
+        [
+          351,
+          234
+        ],
+        [
+          352,
+          214
+        ],
+        [
+          361,
+          210
+        ],
+        [
+          358,
+          238
+        ],
+        [
+          259,
+          239
+        ],
+        [
+          259,
+          235
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          151,
+          121
+        ],
+        [
+          357,
+          122
+        ],
+        [
+          357,
+          152
+        ],
+        [
+          353,
+          152
+        ],
+        [
+          353,
+          128
+        ],
+        [
+          206,
+          126
+        ],
+        [
+          154,
+          128
+        ],
+        [
+          154,
+          122
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "B0+A0+B1",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B1",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "B0+A2+B2",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B2",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "B1+A1+B2",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B2",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "physics",
+    "diagram_type": "labeled_illustration",
+    "text_content": "electrical circuit!!!"
+  }
+}

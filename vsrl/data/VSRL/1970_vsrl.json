@@ -1,0 +1,846 @@
+{
+  "image_id": "1970",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          510,
+          294
+        ],
+        [
+          576,
+          329
+        ]
+      ],
+      "value": "Cow",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          320,
+          301
+        ],
+        [
+          368,
+          329
+        ]
+      ],
+      "value": "Bird",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          67,
+          298
+        ],
+        [
+          218,
+          330
+        ]
+      ],
+      "value": "Grasshopper",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          302,
+          442
+        ],
+        [
+          376,
+          475
+        ]
+      ],
+      "value": "Grass",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          103,
+          54
+        ],
+        [
+          588,
+          101
+        ]
+      ],
+      "value": "Farmland Food Web",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          215,
+          158
+        ],
+        [
+          267,
+          181
+        ]
+      ],
+      "value": "Fox",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          391,
+          157
+        ],
+        [
+          479,
+          187
+        ]
+      ],
+      "value": "Human",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          339,
+          301
+        ],
+        [
+          359,
+          299
+        ],
+        [
+          342,
+          260
+        ],
+        [
+          308,
+          245
+        ],
+        [
+          249,
+          236
+        ],
+        [
+          206,
+          241
+        ],
+        [
+          170,
+          234
+        ],
+        [
+          144,
+          222
+        ],
+        [
+          132,
+          209
+        ],
+        [
+          146,
+          187
+        ],
+        [
+          180,
+          178
+        ],
+        [
+          182,
+          193
+        ],
+        [
+          207,
+          174
+        ],
+        [
+          183,
+          150
+        ],
+        [
+          178,
+          164
+        ],
+        [
+          148,
+          164
+        ],
+        [
+          114,
+          189
+        ],
+        [
+          118,
+          232
+        ],
+        [
+          156,
+          255
+        ],
+        [
+          225,
+          258
+        ],
+        [
+          269,
+          256
+        ],
+        [
+          315,
+          276
+        ],
+        [
+          341,
+          302
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          394,
+          454
+        ],
+        [
+          394,
+          473
+        ],
+        [
+          427,
+          473
+        ],
+        [
+          460,
+          468
+        ],
+        [
+          501,
+          458
+        ],
+        [
+          531,
+          435
+        ],
+        [
+          550,
+          396
+        ],
+        [
+          554,
+          378
+        ],
+        [
+          554,
+          363
+        ],
+        [
+          563,
+          357
+        ],
+        [
+          546,
+          333
+        ],
+        [
+          527,
+          353
+        ],
+        [
+          537,
+          364
+        ],
+        [
+          537,
+          382
+        ],
+        [
+          531,
+          405
+        ],
+        [
+          510,
+          432
+        ],
+        [
+          474,
+          450
+        ],
+        [
+          426,
+          457
+        ],
+        [
+          394,
+          455
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          537,
+          288
+        ],
+        [
+          552,
+          288
+        ],
+        [
+          555,
+          225
+        ],
+        [
+          540,
+          180
+        ],
+        [
+          499,
+          164
+        ],
+        [
+          494,
+          153
+        ],
+        [
+          478,
+          172
+        ],
+        [
+          493,
+          197
+        ],
+        [
+          497,
+          183
+        ],
+        [
+          518,
+          191
+        ],
+        [
+          536,
+          228
+        ],
+        [
+          536,
+          285
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          287,
+          467
+        ],
+        [
+          287,
+          450
+        ],
+        [
+          227,
+          452
+        ],
+        [
+          181,
+          436
+        ],
+        [
+          153,
+          413
+        ],
+        [
+          141,
+          374
+        ],
+        [
+          151,
+          355
+        ],
+        [
+          133,
+          333
+        ],
+        [
+          116,
+          352
+        ],
+        [
+          125,
+          375
+        ],
+        [
+          132,
+          409
+        ],
+        [
+          147,
+          431
+        ],
+        [
+          173,
+          452
+        ],
+        [
+          221,
+          469
+        ],
+        [
+          285,
+          468
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          516,
+          323
+        ],
+        [
+          516,
+          309
+        ],
+        [
+          511,
+          301
+        ],
+        [
+          494,
+          267
+        ],
+        [
+          472,
+          250
+        ],
+        [
+          443,
+          238
+        ],
+        [
+          415,
+          237
+        ],
+        [
+          394,
+          232
+        ],
+        [
+          374,
+          221
+        ],
+        [
+          363,
+          205
+        ],
+        [
+          359,
+          185
+        ],
+        [
+          344,
+          170
+        ],
+        [
+          310,
+          162
+        ],
+        [
+          284,
+          153
+        ],
+        [
+          265,
+          169
+        ],
+        [
+          281,
+          191
+        ],
+        [
+          305,
+          182
+        ],
+        [
+          334,
+          186
+        ],
+        [
+          343,
+          195
+        ],
+        [
+          347,
+          211
+        ],
+        [
+          362,
+          230
+        ],
+        [
+          382,
+          246
+        ],
+        [
+          404,
+          253
+        ],
+        [
+          423,
+          254
+        ],
+        [
+          450,
+          259
+        ],
+        [
+          460,
+          266
+        ],
+        [
+          481,
+          280
+        ],
+        [
+          491,
+          296
+        ],
+        [
+          493,
+          312
+        ],
+        [
+          498,
+          324
+        ],
+        [
+          514,
+          326
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          199,
+          327
+        ],
+        [
+          182,
+          337
+        ],
+        [
+          204,
+          380
+        ],
+        [
+          249,
+          423
+        ],
+        [
+          307,
+          414
+        ],
+        [
+          341,
+          379
+        ],
+        [
+          353,
+          354
+        ],
+        [
+          367,
+          350
+        ],
+        [
+          345,
+          326
+        ],
+        [
+          327,
+          351
+        ],
+        [
+          336,
+          353
+        ],
+        [
+          313,
+          378
+        ],
+        [
+          285,
+          402
+        ],
+        [
+          249,
+          394
+        ],
+        [
+          214,
+          362
+        ],
+        [
+          198,
+          327
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H4",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H5",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H1",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H2",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H3",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A2+T6",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T6",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T0+A4+T5",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T5",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T1+A0+T5",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T5",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T2+A5+T1",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T1",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T3+A1+T0",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T0",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T3+A3+T2",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T2",
+      "connector": "A3",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "cow bird grasshopper grass farmland food web fox human"
+  },
+  "questions": [
+    {
+      "question_text": "What animal in the diagram only eats grass?",
+      "question_id": "1970.png-4",
+      "answers": [
+        "Fox",
+        "Bird",
+        "Human",
+        "Cow"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What do humans feed on in the web shown?",
+      "question_id": "1970.png-5",
+      "answers": [
+        "fox",
+        "grasshopper",
+        "cow",
+        "none of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What happens to humans if cows decrease?",
+      "question_id": "1970.png-6",
+      "answers": [
+        "nothing",
+        "increase",
+        "decrease",
+        "none of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the producer here?",
+      "question_id": "1970.png-7",
+      "answers": [
+        "grass",
+        "cow",
+        "bird",
+        "none of the above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What qualifies as a primary producer in the web?",
+      "question_id": "1970.png-3",
+      "answers": [
+        "grass",
+        "fox",
+        "human",
+        "none of the above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What type of eater would a cow be classified as?",
+      "question_id": "1970.png-1",
+      "answers": [
+        "Herbivore",
+        "Scavenger",
+        "Carnivore",
+        "Omnivore"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which of these is the highest in the food chain in this diagram?",
+      "question_id": "1970.png-0",
+      "answers": [
+        "bird",
+        "cow",
+        "grasshopper",
+        "human"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which of these is the lowest in the food chain in this diagram?",
+      "question_id": "1970.png-2",
+      "answers": [
+        "bird",
+        "human",
+        "grass",
+        "cow"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

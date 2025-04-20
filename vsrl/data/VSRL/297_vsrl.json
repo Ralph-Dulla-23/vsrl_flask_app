@@ -1,0 +1,958 @@
+{
+  "image_id": "297",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          83,
+          35
+        ],
+        [
+          160,
+          66
+        ]
+      ],
+      "value": "TREES",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          239,
+          37
+        ],
+        [
+          368,
+          77
+        ]
+      ],
+      "value": "UNDERSTORY PLANTS",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          339,
+          118
+        ],
+        [
+          446,
+          163
+        ]
+      ],
+      "value": "leaves falling plants dying",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          160,
+          102
+        ],
+        [
+          267,
+          138
+        ]
+      ],
+      "value": "roots taking up nutrients",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          7,
+          119
+        ],
+        [
+          65,
+          163
+        ]
+      ],
+      "value": "leaves falling",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          170,
+          179
+        ],
+        [
+          261,
+          228
+        ]
+      ],
+      "value": "FOREST FLOOR",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          284,
+          270
+        ],
+        [
+          386,
+          308
+        ]
+      ],
+      "value": "roots taking up water",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          174,
+          262
+        ],
+        [
+          262,
+          317
+        ]
+      ],
+      "value": "nutrients leaching into soil",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          33,
+          266
+        ],
+        [
+          131,
+          307
+        ]
+      ],
+      "value": "roots taking up water",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          184,
+          358
+        ],
+        [
+          247,
+          390
+        ]
+      ],
+      "value": "SOIL",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          293,
+          196
+        ],
+        [
+          312,
+          200
+        ],
+        [
+          352,
+          189
+        ],
+        [
+          371,
+          168
+        ],
+        [
+          394,
+          118
+        ],
+        [
+          389,
+          107
+        ],
+        [
+          379,
+          70
+        ],
+        [
+          373,
+          57
+        ],
+        [
+          379,
+          46
+        ],
+        [
+          387,
+          56
+        ],
+        [
+          402,
+          114
+        ],
+        [
+          400,
+          124
+        ],
+        [
+          394,
+          160
+        ],
+        [
+          389,
+          169
+        ],
+        [
+          375,
+          189
+        ],
+        [
+          355,
+          202
+        ],
+        [
+          323,
+          211
+        ],
+        [
+          311,
+          214
+        ],
+        [
+          296,
+          218
+        ],
+        [
+          287,
+          210
+        ],
+        [
+          294,
+          193
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          204,
+          169
+        ],
+        [
+          197,
+          162
+        ],
+        [
+          182,
+          160
+        ],
+        [
+          162,
+          160
+        ],
+        [
+          143,
+          163
+        ],
+        [
+          120,
+          163
+        ],
+        [
+          117,
+          146
+        ],
+        [
+          113,
+          129
+        ],
+        [
+          113,
+          107
+        ],
+        [
+          116,
+          84
+        ],
+        [
+          129,
+          86
+        ],
+        [
+          136,
+          95
+        ],
+        [
+          127,
+          104
+        ],
+        [
+          124,
+          122
+        ],
+        [
+          125,
+          139
+        ],
+        [
+          127,
+          146
+        ],
+        [
+          132,
+          155
+        ],
+        [
+          150,
+          156
+        ],
+        [
+          165,
+          150
+        ],
+        [
+          183,
+          148
+        ],
+        [
+          203,
+          151
+        ],
+        [
+          210,
+          159
+        ],
+        [
+          212,
+          164
+        ],
+        [
+          204,
+          170
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          52,
+          61
+        ],
+        [
+          41,
+          89
+        ],
+        [
+          38,
+          112
+        ],
+        [
+          44,
+          132
+        ],
+        [
+          51,
+          156
+        ],
+        [
+          58,
+          168
+        ],
+        [
+          68,
+          183
+        ],
+        [
+          86,
+          189
+        ],
+        [
+          101,
+          195
+        ],
+        [
+          116,
+          199
+        ],
+        [
+          139,
+          200
+        ],
+        [
+          135,
+          212
+        ],
+        [
+          122,
+          213
+        ],
+        [
+          64,
+          198
+        ],
+        [
+          42,
+          173
+        ],
+        [
+          26,
+          126
+        ],
+        [
+          24,
+          103
+        ],
+        [
+          33,
+          62
+        ],
+        [
+          46,
+          46
+        ],
+        [
+          54,
+          48
+        ],
+        [
+          54,
+          57
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          208,
+          242
+        ],
+        [
+          208,
+          323
+        ],
+        [
+          204,
+          333
+        ],
+        [
+          206,
+          339
+        ],
+        [
+          225,
+          339
+        ],
+        [
+          226,
+          324
+        ],
+        [
+          220,
+          311
+        ],
+        [
+          218,
+          287
+        ],
+        [
+          219,
+          239
+        ],
+        [
+          210,
+          240
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          134,
+          376
+        ],
+        [
+          108,
+          358
+        ],
+        [
+          102,
+          344
+        ],
+        [
+          90,
+          314
+        ],
+        [
+          82,
+          259
+        ],
+        [
+          88,
+          198
+        ],
+        [
+          100,
+          124
+        ],
+        [
+          116,
+          108
+        ],
+        [
+          116,
+          98
+        ],
+        [
+          112,
+          84
+        ],
+        [
+          132,
+          86
+        ],
+        [
+          133,
+          98
+        ],
+        [
+          128,
+          102
+        ],
+        [
+          103,
+          196
+        ],
+        [
+          98,
+          245
+        ],
+        [
+          101,
+          290
+        ],
+        [
+          107,
+          320
+        ],
+        [
+          112,
+          333
+        ],
+        [
+          114,
+          345
+        ],
+        [
+          124,
+          356
+        ],
+        [
+          130,
+          361
+        ],
+        [
+          140,
+          369
+        ],
+        [
+          136,
+          376
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          222,
+          169
+        ],
+        [
+          236,
+          159
+        ],
+        [
+          250,
+          157
+        ],
+        [
+          268,
+          160
+        ],
+        [
+          289,
+          164
+        ],
+        [
+          310,
+          155
+        ],
+        [
+          316,
+          137
+        ],
+        [
+          312,
+          112
+        ],
+        [
+          312,
+          96
+        ],
+        [
+          310,
+          80
+        ],
+        [
+          290,
+          83
+        ],
+        [
+          296,
+          103
+        ],
+        [
+          300,
+          106
+        ],
+        [
+          306,
+          137
+        ],
+        [
+          293,
+          156
+        ],
+        [
+          262,
+          153
+        ],
+        [
+          242,
+          149
+        ],
+        [
+          225,
+          153
+        ],
+        [
+          219,
+          159
+        ],
+        [
+          218,
+          168
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          287,
+          369
+        ],
+        [
+          309,
+          353
+        ],
+        [
+          319,
+          324
+        ],
+        [
+          325,
+          314
+        ],
+        [
+          327,
+          264
+        ],
+        [
+          329,
+          230
+        ],
+        [
+          329,
+          202
+        ],
+        [
+          324,
+          177
+        ],
+        [
+          315,
+          134
+        ],
+        [
+          306,
+          115
+        ],
+        [
+          303,
+          102
+        ],
+        [
+          294,
+          93
+        ],
+        [
+          304,
+          83
+        ],
+        [
+          314,
+          87
+        ],
+        [
+          311,
+          99
+        ],
+        [
+          316,
+          111
+        ],
+        [
+          341,
+          221
+        ],
+        [
+          341,
+          259
+        ],
+        [
+          340,
+          289
+        ],
+        [
+          339,
+          317
+        ],
+        [
+          323,
+          353
+        ],
+        [
+          300,
+          376
+        ],
+        [
+          292,
+          376
+        ],
+        [
+          287,
+          372
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H3",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H2",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H0",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H1",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A2+T5",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T5",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T1+A0+T5",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T5",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T2+A4",
+      "type": "arrowDescriptor",
+      "source": "T2",
+      "target": "A4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+A5",
+      "type": "arrowDescriptor",
+      "source": "T3",
+      "target": "A5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+A3",
+      "type": "arrowDescriptor",
+      "source": "T4",
+      "target": "A3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+A1+T0",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T5+A3+T9",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T9",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T5+A5+T1",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T1",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T6+A2",
+      "type": "arrowDescriptor",
+      "source": "T6",
+      "target": "A2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T7+A1",
+      "type": "arrowDescriptor",
+      "source": "T7",
+      "target": "A1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T8+A0",
+      "type": "arrowDescriptor",
+      "source": "T8",
+      "target": "A0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T9+A4+T0",
+      "type": "interObjectLinkage",
+      "source": "T9",
+      "target": "T0",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T9+A6+T1",
+      "type": "interObjectLinkage",
+      "source": "T9",
+      "target": "T1",
+      "connector": "A6",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "trees understory plants leaves falling plants dying roots taking up nutrients leaves falling forest floor roots taking up water nutrients leaching into soil roots taking up water soil"
+  }
+}

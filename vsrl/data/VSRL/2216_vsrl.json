@@ -1,0 +1,534 @@
+{
+  "image_id": "2216",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          107,
+          37
+        ],
+        [
+          137,
+          53
+        ]
+      ],
+      "value": "Seed",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          28,
+          79
+        ],
+        [
+          61,
+          100
+        ]
+      ],
+      "value": "Death",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          29,
+          151
+        ],
+        [
+          62,
+          168
+        ]
+      ],
+      "value": "Flower",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          60,
+          4
+        ],
+        [
+          174,
+          24
+        ]
+      ],
+      "value": "Biennial Growth Cycle",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          94,
+          189
+        ],
+        [
+          149,
+          216
+        ]
+      ],
+      "value": "Vegetative Growth 2",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          184,
+          150
+        ],
+        [
+          235,
+          169
+        ]
+      ],
+      "value": "Dormancy",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          185,
+          80
+        ],
+        [
+          239,
+          106
+        ]
+      ],
+      "value": "Vegetative Growth 1",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          64,
+          86
+        ],
+        [
+          76,
+          93
+        ],
+        [
+          116,
+          65
+        ],
+        [
+          109,
+          53
+        ],
+        [
+          89,
+          61
+        ],
+        [
+          64,
+          85
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          128,
+          52
+        ],
+        [
+          128,
+          66
+        ],
+        [
+          149,
+          75
+        ],
+        [
+          169,
+          92
+        ],
+        [
+          181,
+          82
+        ],
+        [
+          154,
+          60
+        ],
+        [
+          130,
+          53
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          175,
+          102
+        ],
+        [
+          184,
+          99
+        ],
+        [
+          190,
+          119
+        ],
+        [
+          190,
+          139
+        ],
+        [
+          185,
+          141
+        ],
+        [
+          176,
+          138
+        ],
+        [
+          175,
+          103
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          169,
+          150
+        ],
+        [
+          180,
+          156
+        ],
+        [
+          169,
+          171
+        ],
+        [
+          142,
+          188
+        ],
+        [
+          131,
+          185
+        ],
+        [
+          132,
+          176
+        ],
+        [
+          138,
+          171
+        ],
+        [
+          151,
+          168
+        ],
+        [
+          164,
+          159
+        ],
+        [
+          169,
+          152
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          115,
+          177
+        ],
+        [
+          115,
+          188
+        ],
+        [
+          91,
+          180
+        ],
+        [
+          78,
+          173
+        ],
+        [
+          67,
+          157
+        ],
+        [
+          75,
+          150
+        ],
+        [
+          84,
+          159
+        ],
+        [
+          92,
+          168
+        ],
+        [
+          103,
+          173
+        ],
+        [
+          114,
+          177
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          61,
+          142
+        ],
+        [
+          70,
+          141
+        ],
+        [
+          68,
+          122
+        ],
+        [
+          70,
+          106
+        ],
+        [
+          60,
+          101
+        ],
+        [
+          54,
+          113
+        ],
+        [
+          60,
+          141
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H5",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H1",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H4",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H3",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A1+T6",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T6",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T1+A0+T0",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T0",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T2+A5+T1",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T1",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T4+A4+T2",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T2",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T5+A3+T4",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T4",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T6+A2+T5",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T5",
+      "connector": "A2",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "seed death flower biennial growth cycle vegetative growth 2 dormancy vegetative growth 1"
+  },
+  "questions": [
+    {
+      "question_text": "The diagram shows the Biennial Growth Cycle. Between stages E and A, what must occur?",
+      "question_id": "2216.png-3",
+      "answers": [
+        "Vegetative Growth",
+        "Death",
+        "None of the above",
+        "Flower"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is represented by the letter E?",
+      "question_id": "2216.png-0",
+      "answers": [
+        "Seed",
+        "Death",
+        "Dormancy",
+        "Flower"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "What stage of the Bienniel Growth Cycle is shown at B?",
+      "question_id": "2216.png-1",
+      "answers": [
+        "Flower",
+        "Dormancy",
+        "Seed",
+        "Death"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which stage is characteristic of the termination of life?",
+      "question_id": "2216.png-4",
+      "answers": [
+        "Death",
+        "Flower",
+        "Vegetative Growth",
+        "Dormancy"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which state is characteristic of being quiet and inactive restfulness?",
+      "question_id": "2216.png-2",
+      "answers": [
+        "Death",
+        "Vegetative Growth",
+        "Dormancy",
+        "Flower"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

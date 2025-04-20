@@ -1,0 +1,482 @@
+{
+  "image_id": "4464",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          39,
+          229
+        ],
+        [
+          91,
+          244
+        ]
+      ],
+      "value": "Pronated",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          175,
+          229
+        ],
+        [
+          221,
+          243
+        ]
+      ],
+      "value": "Neutral",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          307,
+          227
+        ],
+        [
+          368,
+          245
+        ]
+      ],
+      "value": "Supinated",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          68,
+          2
+        ],
+        [
+          110,
+          31
+        ],
+        [
+          115,
+          56
+        ],
+        [
+          114,
+          81
+        ],
+        [
+          102,
+          123
+        ],
+        [
+          93,
+          153
+        ],
+        [
+          91,
+          168
+        ],
+        [
+          92,
+          199
+        ],
+        [
+          79,
+          215
+        ],
+        [
+          61,
+          224
+        ],
+        [
+          50,
+          219
+        ],
+        [
+          42,
+          209
+        ],
+        [
+          39,
+          197
+        ],
+        [
+          40,
+          157
+        ],
+        [
+          40,
+          117
+        ],
+        [
+          33,
+          98
+        ],
+        [
+          22,
+          75
+        ],
+        [
+          22,
+          56
+        ],
+        [
+          29,
+          41
+        ],
+        [
+          23,
+          32
+        ],
+        [
+          16,
+          16
+        ],
+        [
+          25,
+          3
+        ],
+        [
+          36,
+          0
+        ],
+        [
+          65,
+          0
+        ],
+        [
+          70,
+          1
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          158,
+          30
+        ],
+        [
+          150,
+          11
+        ],
+        [
+          164,
+          0
+        ],
+        [
+          180,
+          0
+        ],
+        [
+          209,
+          5
+        ],
+        [
+          236,
+          29
+        ],
+        [
+          252,
+          58
+        ],
+        [
+          236,
+          126
+        ],
+        [
+          225,
+          169
+        ],
+        [
+          226,
+          195
+        ],
+        [
+          218,
+          216
+        ],
+        [
+          200,
+          224
+        ],
+        [
+          183,
+          219
+        ],
+        [
+          174,
+          209
+        ],
+        [
+          169,
+          185
+        ],
+        [
+          177,
+          155
+        ],
+        [
+          185,
+          133
+        ],
+        [
+          185,
+          109
+        ],
+        [
+          170,
+          99
+        ],
+        [
+          161,
+          85
+        ],
+        [
+          156,
+          54
+        ],
+        [
+          161,
+          39
+        ],
+        [
+          160,
+          29
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          319,
+          214
+        ],
+        [
+          314,
+          205
+        ],
+        [
+          308,
+          195
+        ],
+        [
+          310,
+          185
+        ],
+        [
+          322,
+          170
+        ],
+        [
+          333,
+          155
+        ],
+        [
+          342,
+          134
+        ],
+        [
+          343,
+          118
+        ],
+        [
+          335,
+          108
+        ],
+        [
+          314,
+          90
+        ],
+        [
+          302,
+          75
+        ],
+        [
+          290,
+          64
+        ],
+        [
+          293,
+          39
+        ],
+        [
+          289,
+          22
+        ],
+        [
+          285,
+          2
+        ],
+        [
+          304,
+          0
+        ],
+        [
+          314,
+          2
+        ],
+        [
+          319,
+          7
+        ],
+        [
+          323,
+          9
+        ],
+        [
+          335,
+          5
+        ],
+        [
+          343,
+          7
+        ],
+        [
+          346,
+          10
+        ],
+        [
+          355,
+          11
+        ],
+        [
+          365,
+          19
+        ],
+        [
+          365,
+          21
+        ],
+        [
+          374,
+          26
+        ],
+        [
+          377,
+          39
+        ],
+        [
+          384,
+          53
+        ],
+        [
+          382,
+          64
+        ],
+        [
+          376,
+          90
+        ],
+        [
+          371,
+          122
+        ],
+        [
+          363,
+          160
+        ],
+        [
+          360,
+          184
+        ],
+        [
+          357,
+          203
+        ],
+        [
+          351,
+          218
+        ],
+        [
+          326,
+          219
+        ],
+        [
+          318,
+          214
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+B0",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B1",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B2",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "pronated neutral supinated"
+  },
+  "questions": [
+    {
+      "question_text": "Which label represents Supinated?",
+      "question_id": "4464.png-0",
+      "answers": [
+        "None",
+        "B",
+        "C",
+        "A"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which label represents pronated?",
+      "question_id": "4464.png-1",
+      "answers": [
+        "B",
+        "none",
+        "A",
+        "C"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}

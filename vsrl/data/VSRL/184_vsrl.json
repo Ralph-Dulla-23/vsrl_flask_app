@@ -1,0 +1,440 @@
+{
+  "image_id": "184",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          15,
+          25
+        ],
+        [
+          152,
+          43
+        ]
+      ],
+      "value": "Solid iron inner core",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          19,
+          61
+        ],
+        [
+          59,
+          80
+        ]
+      ],
+      "value": "Crust",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          120,
+          0
+        ],
+        [
+          266,
+          16
+        ]
+      ],
+      "value": "Liquid iron outer core",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          240,
+          61
+        ],
+        [
+          290,
+          80
+        ]
+      ],
+      "value": "Mantle",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          252,
+          390
+        ],
+        [
+          229,
+          401
+        ],
+        [
+          209,
+          408
+        ],
+        [
+          185,
+          412
+        ],
+        [
+          185,
+          412
+        ],
+        [
+          159,
+          412
+        ],
+        [
+          159,
+          412
+        ],
+        [
+          137,
+          411
+        ],
+        [
+          114,
+          406
+        ],
+        [
+          93,
+          397
+        ],
+        [
+          74,
+          386
+        ],
+        [
+          55,
+          372
+        ],
+        [
+          42,
+          360
+        ],
+        [
+          26,
+          337
+        ],
+        [
+          12,
+          316
+        ],
+        [
+          3,
+          289
+        ],
+        [
+          0,
+          267
+        ],
+        [
+          0,
+          267
+        ],
+        [
+          0,
+          239
+        ],
+        [
+          4,
+          206
+        ],
+        [
+          14,
+          179
+        ],
+        [
+          26,
+          154
+        ],
+        [
+          43,
+          134
+        ],
+        [
+          64,
+          115
+        ],
+        [
+          81,
+          103
+        ],
+        [
+          106,
+          92
+        ],
+        [
+          137,
+          83
+        ],
+        [
+          160,
+          80
+        ],
+        [
+          160,
+          80
+        ],
+        [
+          185,
+          83
+        ],
+        [
+          210,
+          86
+        ],
+        [
+          229,
+          94
+        ],
+        [
+          250,
+          102
+        ],
+        [
+          276,
+          122
+        ],
+        [
+          300,
+          145
+        ],
+        [
+          317,
+          172
+        ],
+        [
+          327,
+          200
+        ],
+        [
+          327,
+          200
+        ],
+        [
+          332,
+          228
+        ],
+        [
+          332,
+          257
+        ],
+        [
+          330,
+          285
+        ],
+        [
+          323,
+          309
+        ],
+        [
+          306,
+          339
+        ],
+        [
+          293,
+          356
+        ],
+        [
+          281,
+          368
+        ],
+        [
+          267,
+          380
+        ],
+        [
+          255,
+          390
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          189,
+          16
+        ],
+        [
+          189,
+          212
+        ],
+        [
+          199,
+          211
+        ],
+        [
+          198,
+          17
+        ],
+        [
+          191,
+          16
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          261,
+          80
+        ],
+        [
+          219,
+          169
+        ],
+        [
+          225,
+          173
+        ],
+        [
+          271,
+          81
+        ],
+        [
+          265,
+          78
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          79,
+          45
+        ],
+        [
+          158,
+          237
+        ],
+        [
+          165,
+          234
+        ],
+        [
+          85,
+          42
+        ],
+        [
+          78,
+          47
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          35,
+          84
+        ],
+        [
+          79,
+          173
+        ],
+        [
+          88,
+          165
+        ],
+        [
+          43,
+          81
+        ],
+        [
+          35,
+          83
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T1+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T2+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T3+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "solid iron inner core crust liquid iron outer core mantle"
+  },
+  "questions": [
+    {
+      "question_text": "center portion represent ?",
+      "question_id": "184.png-0",
+      "answers": [
+        "B",
+        "C",
+        "A",
+        "D"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    }
+  ]
+}

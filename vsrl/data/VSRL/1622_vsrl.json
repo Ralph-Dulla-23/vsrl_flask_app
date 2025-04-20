@@ -1,0 +1,286 @@
+{
+  "image_id": "1622",
+  "entities": {
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          1182,
+          472
+        ],
+        [
+          1193,
+          700
+        ],
+        [
+          1405,
+          693
+        ],
+        [
+          1387,
+          458
+        ],
+        [
+          1182,
+          470
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          770,
+          185
+        ],
+        [
+          777,
+          242
+        ],
+        [
+          1013,
+          242
+        ],
+        [
+          1010,
+          188
+        ],
+        [
+          950,
+          48
+        ],
+        [
+          915,
+          62
+        ],
+        [
+          903,
+          95
+        ],
+        [
+          812,
+          178
+        ],
+        [
+          775,
+          185
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          648,
+          967
+        ],
+        [
+          637,
+          1023
+        ],
+        [
+          668,
+          1082
+        ],
+        [
+          720,
+          1107
+        ],
+        [
+          780,
+          1100
+        ],
+        [
+          825,
+          1062
+        ],
+        [
+          838,
+          997
+        ],
+        [
+          803,
+          927
+        ],
+        [
+          747,
+          907
+        ],
+        [
+          702,
+          915
+        ],
+        [
+          665,
+          927
+        ],
+        [
+          648,
+          960
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          1008,
+          225
+        ],
+        [
+          1008,
+          197
+        ],
+        [
+          1303,
+          197
+        ],
+        [
+          1308,
+          472
+        ],
+        [
+          1292,
+          477
+        ],
+        [
+          1288,
+          223
+        ],
+        [
+          1013,
+          225
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          1285,
+          690
+        ],
+        [
+          1308,
+          690
+        ],
+        [
+          1310,
+          1020
+        ],
+        [
+          830,
+          1023
+        ],
+        [
+          833,
+          993
+        ],
+        [
+          1290,
+          997
+        ],
+        [
+          1282,
+          692
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          637,
+          993
+        ],
+        [
+          640,
+          1022
+        ],
+        [
+          140,
+          1020
+        ],
+        [
+          125,
+          250
+        ],
+        [
+          130,
+          193
+        ],
+        [
+          775,
+          200
+        ],
+        [
+          777,
+          222
+        ],
+        [
+          160,
+          223
+        ],
+        [
+          162,
+          993
+        ],
+        [
+          633,
+          997
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "B0+A1+B2",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B2",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "B1+A0+B0",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "B1+A2+B2",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B2",
+      "connector": "A2",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": ""
+  }
+}

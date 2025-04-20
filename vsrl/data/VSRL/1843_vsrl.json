@@ -1,0 +1,516 @@
+{
+  "image_id": "1843",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          136,
+          14
+        ],
+        [
+          290,
+          38
+        ]
+      ],
+      "value": "Disocactus fruticusos",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          16,
+          101
+        ],
+        [
+          106,
+          134
+        ]
+      ],
+      "value": "Gibbererus toxicumamor",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          227,
+          104
+        ],
+        [
+          348,
+          129
+        ]
+      ],
+      "value": "Islandica caballio",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          204,
+          191
+        ],
+        [
+          307,
+          204
+        ]
+      ],
+      "value": "Rodentia pahin",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          97,
+          272
+        ],
+        [
+          210,
+          290
+        ]
+      ],
+      "value": "Boletus aquatica",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          270,
+          268
+        ],
+        [
+          388,
+          292
+        ]
+      ],
+      "value": "Vultur audientes",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          245,
+          125
+        ],
+        [
+          262,
+          127
+        ],
+        [
+          264,
+          187
+        ],
+        [
+          247,
+          188
+        ],
+        [
+          244,
+          126
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          203,
+          40
+        ],
+        [
+          251,
+          89
+        ],
+        [
+          238,
+          99
+        ],
+        [
+          185,
+          48
+        ],
+        [
+          203,
+          40
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          221,
+          107
+        ],
+        [
+          222,
+          121
+        ],
+        [
+          121,
+          124
+        ],
+        [
+          121,
+          108
+        ],
+        [
+          219,
+          106
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          167,
+          49
+        ],
+        [
+          154,
+          41
+        ],
+        [
+          103,
+          92
+        ],
+        [
+          119,
+          102
+        ],
+        [
+          163,
+          49
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          262,
+          222
+        ],
+        [
+          268,
+          214
+        ],
+        [
+          323,
+          263
+        ],
+        [
+          311,
+          271
+        ],
+        [
+          261,
+          222
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          173,
+          261
+        ],
+        [
+          218,
+          211
+        ],
+        [
+          227,
+          226
+        ],
+        [
+          185,
+          274
+        ],
+        [
+          177,
+          261
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          156,
+          261
+        ],
+        [
+          145,
+          272
+        ],
+        [
+          55,
+          151
+        ],
+        [
+          72,
+          142
+        ],
+        [
+          154,
+          260
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H6",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H5",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H1",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H4",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H2",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H3",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H0",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A1+T2",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T2",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T0+A3+T1",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T1",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T1+A2+T2",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T2",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T2+A0+T3",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T3",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T3+A4+T5",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T5",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T3+A5+T4",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T4",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T4+A6+T1",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T1",
+      "connector": "A6",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "disocactus fruticusos gibbererus toxicumamor islandica caballio rodentia pahin boletus aquatica vultur audientes"
+  },
+  "questions": [
+    {
+      "question_text": "According to the food web, what are the consequences if Boletus aquatica decreased in quantity?",
+      "question_id": "1843.png-5",
+      "answers": [
+        "Islandica Caballio will increase.",
+        "Gibberus toxicumamor will also decrease.",
+        "Islandica Caballio will decrease.",
+        "Gibberus toxicumamor will increase."
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Vultur audientes is a/an?",
+      "question_id": "1843.png-0",
+      "answers": [
+        "Secondary Consumer",
+        "Primary Consumer",
+        "Decomposers",
+        "Tertiary Consumer"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What feeds on disocactus fruticusos?",
+      "question_id": "1843.png-6",
+      "answers": [
+        "bletus aquatica",
+        "vultur adientes",
+        "gibbereus toxicumamor",
+        "rodentia pahin"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What feeds on gibbererus toxicumamor?",
+      "question_id": "1843.png-3",
+      "answers": [
+        "islandica caballio",
+        "vultur audientes",
+        "rodentia pahin",
+        "disocactus fruticusos"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What feeds on rodentia pahin",
+      "question_id": "1843.png-1",
+      "answers": [
+        "vultur audientes",
+        "islandica caballio",
+        "disocactus fruitcusos",
+        "gibbererus toxicumamor"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is at the top of the food web?",
+      "question_id": "1843.png-2",
+      "answers": [
+        "rodentia pahin",
+        "disocactus fruticusos",
+        "gibbererus toxicumamor",
+        "vultur audientes"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would cause the rodentia pahin to increase?",
+      "question_id": "1843.png-4",
+      "answers": [
+        "increase islandica caballio",
+        "increase in boletus aquatica",
+        "increase in vultur audientes",
+        "impossible to predict"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

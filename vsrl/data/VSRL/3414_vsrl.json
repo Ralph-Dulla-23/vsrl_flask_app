@@ -1,0 +1,666 @@
+{
+  "image_id": "3414",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          368,
+          55
+        ],
+        [
+          910,
+          147
+        ]
+      ],
+      "value": "BIRD EMBRYO",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          358,
+          227
+        ],
+        [
+          529,
+          270
+        ]
+      ],
+      "value": "Albumen",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          601,
+          261
+        ],
+        [
+          679,
+          303
+        ]
+      ],
+      "value": "Yolk",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          737,
+          237
+        ],
+        [
+          978,
+          277
+        ]
+      ],
+      "value": "Allantoic fluid",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          971,
+          315
+        ],
+        [
+          1242,
+          368
+        ]
+      ],
+      "value": "Amniotic liquid",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          1099,
+          452
+        ],
+        [
+          1245,
+          495
+        ]
+      ],
+      "value": "Embryo",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          160,
+          280
+        ],
+        [
+          315,
+          324
+        ]
+      ],
+      "value": "Eggshell",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          92,
+          389
+        ],
+        [
+          243,
+          428
+        ]
+      ],
+      "value": "Cuticula",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          43,
+          491
+        ],
+        [
+          181,
+          539
+        ]
+      ],
+      "value": "Air cell",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          240,
+          469
+        ],
+        [
+          293,
+          423
+        ],
+        [
+          338,
+          393
+        ],
+        [
+          386,
+          370
+        ],
+        [
+          442,
+          354
+        ],
+        [
+          498,
+          339
+        ],
+        [
+          563,
+          335
+        ],
+        [
+          618,
+          337
+        ],
+        [
+          682,
+          342
+        ],
+        [
+          777,
+          363
+        ],
+        [
+          874,
+          394
+        ],
+        [
+          972,
+          441
+        ],
+        [
+          1047,
+          488
+        ],
+        [
+          1111,
+          545
+        ],
+        [
+          1157,
+          611
+        ],
+        [
+          1173,
+          647
+        ],
+        [
+          1183,
+          680
+        ],
+        [
+          1183,
+          705
+        ],
+        [
+          1177,
+          738
+        ],
+        [
+          1163,
+          793
+        ],
+        [
+          1134,
+          841
+        ],
+        [
+          1088,
+          890
+        ],
+        [
+          1021,
+          942
+        ],
+        [
+          955,
+          979
+        ],
+        [
+          888,
+          1013
+        ],
+        [
+          829,
+          1033
+        ],
+        [
+          770,
+          1050
+        ],
+        [
+          683,
+          1069
+        ],
+        [
+          589,
+          1076
+        ],
+        [
+          501,
+          1072
+        ],
+        [
+          416,
+          1053
+        ],
+        [
+          341,
+          1018
+        ],
+        [
+          270,
+          969
+        ],
+        [
+          212,
+          897
+        ],
+        [
+          170,
+          799
+        ],
+        [
+          159,
+          705
+        ],
+        [
+          168,
+          611
+        ],
+        [
+          198,
+          534
+        ],
+        [
+          240,
+          468
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          130,
+          546
+        ],
+        [
+          140,
+          533
+        ],
+        [
+          256,
+          617
+        ],
+        [
+          244,
+          636
+        ],
+        [
+          130,
+          546
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          160,
+          438
+        ],
+        [
+          243,
+          490
+        ],
+        [
+          253,
+          478
+        ],
+        [
+          163,
+          423
+        ],
+        [
+          159,
+          442
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          240,
+          324
+        ],
+        [
+          341,
+          413
+        ],
+        [
+          325,
+          423
+        ],
+        [
+          228,
+          334
+        ],
+        [
+          235,
+          325
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          420,
+          409
+        ],
+        [
+          438,
+          413
+        ],
+        [
+          442,
+          413
+        ],
+        [
+          445,
+          283
+        ],
+        [
+          425,
+          277
+        ],
+        [
+          420,
+          406
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          615,
+          298
+        ],
+        [
+          634,
+          300
+        ],
+        [
+          620,
+          422
+        ],
+        [
+          601,
+          417
+        ],
+        [
+          614,
+          298
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          858,
+          274
+        ],
+        [
+          881,
+          274
+        ],
+        [
+          880,
+          448
+        ],
+        [
+          857,
+          449
+        ],
+        [
+          858,
+          274
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          1083,
+          377
+        ],
+        [
+          936,
+          638
+        ],
+        [
+          950,
+          649
+        ],
+        [
+          1101,
+          384
+        ],
+        [
+          1079,
+          373
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          1013,
+          760
+        ],
+        [
+          1026,
+          777
+        ],
+        [
+          1184,
+          507
+        ],
+        [
+          1169,
+          498
+        ],
+        [
+          1017,
+          755
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T2+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T3+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T4+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T5+A7+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T6+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T7+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T8+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T8",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "bird embryo albumen yolk allantoic fluid amniotic liquid embryo eggshell cuticula air cell"
+  },
+  "questions": [
+    {
+      "question_text": "Which region in the diagram represents the air cell?",
+      "question_id": "3414.png-0",
+      "answers": [
+        "i",
+        "f",
+        "c",
+        "b"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "what is the outer most layer?",
+      "question_id": "3414.png-1",
+      "answers": [
+        "yolk",
+        "cuticula",
+        "air cell",
+        "embryo"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

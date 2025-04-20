@@ -1,0 +1,392 @@
+{
+  "image_id": "1666",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          438,
+          26
+        ],
+        [
+          615,
+          58
+        ]
+      ],
+      "value": "Solar eclipse:",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          384,
+          90
+        ],
+        [
+          669,
+          181
+        ]
+      ],
+      "value": "Sun, Moon, and Earth line up, with the Moon in the middle.",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          88,
+          187
+        ],
+        [
+          68,
+          176
+        ],
+        [
+          48,
+          144
+        ],
+        [
+          46,
+          106
+        ],
+        [
+          56,
+          76
+        ],
+        [
+          82,
+          52
+        ],
+        [
+          120,
+          33
+        ],
+        [
+          159,
+          42
+        ],
+        [
+          198,
+          75
+        ],
+        [
+          208,
+          117
+        ],
+        [
+          203,
+          155
+        ],
+        [
+          174,
+          183
+        ],
+        [
+          137,
+          198
+        ],
+        [
+          88,
+          188
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          415,
+          297
+        ],
+        [
+          418,
+          281
+        ],
+        [
+          433,
+          272
+        ],
+        [
+          459,
+          272
+        ],
+        [
+          468,
+          297
+        ],
+        [
+          455,
+          319
+        ],
+        [
+          442,
+          322
+        ],
+        [
+          423,
+          313
+        ],
+        [
+          413,
+          298
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          520,
+          309
+        ],
+        [
+          558,
+          297
+        ],
+        [
+          588,
+          305
+        ],
+        [
+          616,
+          332
+        ],
+        [
+          626,
+          375
+        ],
+        [
+          609,
+          407
+        ],
+        [
+          582,
+          425
+        ],
+        [
+          525,
+          426
+        ],
+        [
+          507,
+          399
+        ],
+        [
+          493,
+          355
+        ],
+        [
+          508,
+          326
+        ],
+        [
+          517,
+          309
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          193,
+          72
+        ],
+        [
+          539,
+          339
+        ],
+        [
+          533,
+          342
+        ],
+        [
+          186,
+          74
+        ],
+        [
+          190,
+          68
+        ],
+        [
+          196,
+          71
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          183,
+          72
+        ],
+        [
+          509,
+          402
+        ],
+        [
+          511,
+          399
+        ],
+        [
+          189,
+          67
+        ],
+        [
+          185,
+          68
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          113,
+          191
+        ],
+        [
+          571,
+          303
+        ],
+        [
+          571,
+          312
+        ],
+        [
+          109,
+          194
+        ],
+        [
+          111,
+          188
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          103,
+          195
+        ],
+        [
+          522,
+          348
+        ],
+        [
+          520,
+          358
+        ],
+        [
+          103,
+          194
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+I0",
+      "type": "imageCaption",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "solar eclipse: sun, moon, and earth line up, with the moon in the middle."
+  },
+  "questions": [
+    {
+      "question_text": "What is a solar eclipse?",
+      "question_id": "1666.png-0",
+      "answers": [
+        "sun, moon, and earth line up, with the earth in the middle",
+        "sun, moon, and earth line up, with the moon in the middle",
+        "sun, moon, and earth line up, with the sun in the middle",
+        "sun, moon, and earth line up, with the moon in the outside"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is between the Earth and the Sun during a solar eclipse?",
+      "question_id": "1666.png-1",
+      "answers": [
+        "A meteor.",
+        "Venus.",
+        "The Moon.",
+        "Nothing."
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the phenomenon when the sun, moon, and earth line up, with the moon in the middle known as?",
+      "question_id": "1666.png-2",
+      "answers": [
+        "summer solstice",
+        "equator",
+        "solar eclipse",
+        "winter"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "When does the solar eclipse occur?",
+      "question_id": "1666.png-3",
+      "answers": [
+        "When the Moon is perfectly aligned between the Earth and the Sun.",
+        "When the Earth is perfectly aligned between the Sun and the Moon.",
+        "When the Earth is partially aligned between the Sun and the Moon.",
+        "When the Moon is partially aligned between the Earth and the Sun."
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

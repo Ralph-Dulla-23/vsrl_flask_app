@@ -1,0 +1,936 @@
+{
+  "image_id": "1947",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          32,
+          8
+        ],
+        [
+          143,
+          26
+        ]
+      ],
+      "value": "Bengal Tiger",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          274,
+          27
+        ],
+        [
+          368,
+          48
+        ]
+      ],
+      "value": "King Cobra",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          466,
+          8
+        ],
+        [
+          612,
+          25
+        ]
+      ],
+      "value": "Waglers Pit Viper",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          418,
+          54
+        ],
+        [
+          483,
+          73
+        ]
+      ],
+      "value": "Musang",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          466,
+          96
+        ],
+        [
+          577,
+          114
+        ]
+      ],
+      "value": "Slender Loris",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          35,
+          161
+        ],
+        [
+          216,
+          180
+        ]
+      ],
+      "value": "Sumatran Rhinoceros",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          323,
+          185
+        ],
+        [
+          406,
+          201
+        ]
+      ],
+      "value": "Dawn Bat",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          33,
+          229
+        ],
+        [
+          106,
+          246
+        ]
+      ],
+      "value": "Fig Tree",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          130,
+          248
+        ],
+        [
+          262,
+          269
+        ]
+      ],
+      "value": "Bengal Bamboo",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          417,
+          250
+        ],
+        [
+          489,
+          268
+        ]
+      ],
+      "value": "Tualang",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          44,
+          45
+        ],
+        [
+          71,
+          29
+        ],
+        [
+          93,
+          48
+        ],
+        [
+          76,
+          48
+        ],
+        [
+          76,
+          158
+        ],
+        [
+          66,
+          159
+        ],
+        [
+          66,
+          45
+        ],
+        [
+          51,
+          51
+        ],
+        [
+          45,
+          47
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          150,
+          38
+        ],
+        [
+          239,
+          72
+        ],
+        [
+          277,
+          80
+        ],
+        [
+          311,
+          80
+        ],
+        [
+          352,
+          77
+        ],
+        [
+          390,
+          72
+        ],
+        [
+          419,
+          68
+        ],
+        [
+          415,
+          53
+        ],
+        [
+          332,
+          66
+        ],
+        [
+          289,
+          68
+        ],
+        [
+          239,
+          56
+        ],
+        [
+          181,
+          38
+        ],
+        [
+          167,
+          31
+        ],
+        [
+          185,
+          24
+        ],
+        [
+          180,
+          10
+        ],
+        [
+          149,
+          20
+        ],
+        [
+          139,
+          21
+        ],
+        [
+          137,
+          36
+        ],
+        [
+          135,
+          58
+        ],
+        [
+          145,
+          62
+        ],
+        [
+          150,
+          38
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          439,
+          21
+        ],
+        [
+          344,
+          35
+        ],
+        [
+          344,
+          22
+        ],
+        [
+          433,
+          11
+        ],
+        [
+          427,
+          7
+        ],
+        [
+          434,
+          0
+        ],
+        [
+          452,
+          9
+        ],
+        [
+          452,
+          35
+        ],
+        [
+          441,
+          35
+        ],
+        [
+          440,
+          21
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          460,
+          51
+        ],
+        [
+          470,
+          38
+        ],
+        [
+          460,
+          25
+        ],
+        [
+          492,
+          26
+        ],
+        [
+          493,
+          54
+        ],
+        [
+          485,
+          56
+        ],
+        [
+          478,
+          48
+        ],
+        [
+          466,
+          56
+        ],
+        [
+          461,
+          52
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          485,
+          88
+        ],
+        [
+          483,
+          66
+        ],
+        [
+          515,
+          57
+        ],
+        [
+          515,
+          66
+        ],
+        [
+          505,
+          73
+        ],
+        [
+          525,
+          88
+        ],
+        [
+          523,
+          95
+        ],
+        [
+          515,
+          89
+        ],
+        [
+          498,
+          81
+        ],
+        [
+          492,
+          95
+        ],
+        [
+          485,
+          87
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          75,
+          199
+        ],
+        [
+          76,
+          228
+        ],
+        [
+          64,
+          229
+        ],
+        [
+          63,
+          199
+        ],
+        [
+          54,
+          206
+        ],
+        [
+          44,
+          199
+        ],
+        [
+          69,
+          180
+        ],
+        [
+          92,
+          196
+        ],
+        [
+          86,
+          207
+        ],
+        [
+          76,
+          200
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          146,
+          212
+        ],
+        [
+          151,
+          182
+        ],
+        [
+          186,
+          185
+        ],
+        [
+          185,
+          193
+        ],
+        [
+          167,
+          193
+        ],
+        [
+          210,
+          243
+        ],
+        [
+          205,
+          249
+        ],
+        [
+          161,
+          201
+        ],
+        [
+          157,
+          213
+        ],
+        [
+          147,
+          213
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          523,
+          146
+        ],
+        [
+          483,
+          253
+        ],
+        [
+          474,
+          244
+        ],
+        [
+          513,
+          139
+        ],
+        [
+          495,
+          139
+        ],
+        [
+          494,
+          127
+        ],
+        [
+          529,
+          118
+        ],
+        [
+          540,
+          158
+        ],
+        [
+          528,
+          162
+        ],
+        [
+          523,
+          145
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          403,
+          221
+        ],
+        [
+          399,
+          240
+        ],
+        [
+          385,
+          235
+        ],
+        [
+          393,
+          211
+        ],
+        [
+          397,
+          204
+        ],
+        [
+          440,
+          203
+        ],
+        [
+          439,
+          214
+        ],
+        [
+          420,
+          217
+        ],
+        [
+          465,
+          240
+        ],
+        [
+          459,
+          252
+        ],
+        [
+          404,
+          222
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H3",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H6",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H1",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H4",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H7",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H5",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H8",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H8",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A8+H2",
+      "type": "arrowHeadTail",
+      "source": "A8",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A2+T2",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T2",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T3+A1+T0",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T0",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T3+A3+T2",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T2",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T4+A4+T3",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T3",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T5+A0+T0",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T0",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T7+A5+T5",
+      "type": "interObjectLinkage",
+      "source": "T7",
+      "target": "T5",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T8+A6+T5",
+      "type": "interObjectLinkage",
+      "source": "T8",
+      "target": "T5",
+      "connector": "A6",
+      "directional": true
+    },
+    {
+      "id": "T9+A7+T4",
+      "type": "interObjectLinkage",
+      "source": "T9",
+      "target": "T4",
+      "connector": "A7",
+      "directional": true
+    },
+    {
+      "id": "T9+A8+T6",
+      "type": "interObjectLinkage",
+      "source": "T9",
+      "target": "T6",
+      "connector": "A8",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "bengal tiger king cobra waglers pit viper musang slender loris sumatran rhinoceros dawn bat fig tree bengal bamboo tualang"
+  },
+  "questions": [
+    {
+      "question_text": "According to the food web, what will be the consequences if moire tigers entered the community?",
+      "question_id": "1947.png-2",
+      "answers": [
+        "Sumatran rhinos will decrease.",
+        "Sumatran rhinos will increase.",
+        "Bengal bamboo will dry up.",
+        "none of the above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the above food web diagram, if all the tualang were destroyed which species will mostly affected",
+      "question_id": "1947.png-6",
+      "answers": [
+        "dawn bat",
+        "lion",
+        "trees",
+        "none"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Identify the correct transfer of energy from the pairs below.",
+      "question_id": "1947.png-4",
+      "answers": [
+        "From waglers pit viper to bengal bamboo",
+        "From Sumatran rhinoceros to fig tree",
+        "From tualang to dawn bat",
+        "From bengal tiger to musang"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the diagram of the food web shown, what consumes the sumatran rhinocerous?",
+      "question_id": "1947.png-9",
+      "answers": [
+        "slender lois",
+        "bengal tiger",
+        "waglers pit viper",
+        "dawn bat"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the diagram of the food web shown, what will likely be directly impacted if the supply of fig tree decrease? I",
+      "question_id": "1947.png-0",
+      "answers": [
+        "dawn bat",
+        "sumatran rhinocerous",
+        "slender lois",
+        "bengal bamboo"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Name the organisms that feed on musang.",
+      "question_id": "1947.png-7",
+      "answers": [
+        "Sumatran rhinoceros and king cobra",
+        "Waglers pit viper and bengal tiger",
+        "Bengal tiger and slender loris",
+        "Dawn bat and tualang"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Name the tertiary consumers of this food web.",
+      "question_id": "1947.png-3",
+      "answers": [
+        "Dawn bat",
+        "slender loris",
+        "Rhinoceros",
+        "wagler pit viper"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Using the diagram below, identify which of the following are carnivorous organisms.",
+      "question_id": "1947.png-1",
+      "answers": [
+        "King cobra and slender loris",
+        "Waglers pit viper and bengal tiger",
+        "Sumatran rhinoceros and dawn bat",
+        "Tualang and fig tree"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which of the following is not a producer in the ecosystem shown below?",
+      "question_id": "1947.png-8",
+      "answers": [
+        "Tualang",
+        "Fig tree",
+        "Bengal bamboo",
+        "Dawn bat"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which of the following is not a producer in this ecosystem?",
+      "question_id": "1947.png-5",
+      "answers": [
+        "Fig tree",
+        "Musang",
+        "Tualang",
+        "Bengal bamboo"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

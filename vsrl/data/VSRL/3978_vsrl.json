@@ -1,0 +1,418 @@
+{
+  "image_id": "3978",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          99
+        ],
+        [
+          24,
+          112
+        ]
+      ],
+      "value": "Leaf",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          210,
+          131
+        ],
+        [
+          247,
+          147
+        ]
+      ],
+      "value": "Petiole",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          177,
+          255
+        ],
+        [
+          207,
+          265
+        ]
+      ],
+      "value": "Stem",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          120,
+          0
+        ],
+        [
+          104,
+          21
+        ],
+        [
+          96,
+          38
+        ],
+        [
+          89,
+          42
+        ],
+        [
+          86,
+          56
+        ],
+        [
+          78,
+          63
+        ],
+        [
+          81,
+          82
+        ],
+        [
+          67,
+          85
+        ],
+        [
+          63,
+          105
+        ],
+        [
+          71,
+          135
+        ],
+        [
+          81,
+          156
+        ],
+        [
+          98,
+          174
+        ],
+        [
+          110,
+          181
+        ],
+        [
+          112,
+          197
+        ],
+        [
+          109,
+          207
+        ],
+        [
+          62,
+          229
+        ],
+        [
+          36,
+          240
+        ],
+        [
+          30,
+          245
+        ],
+        [
+          41,
+          254
+        ],
+        [
+          51,
+          253
+        ],
+        [
+          73,
+          243
+        ],
+        [
+          110,
+          227
+        ],
+        [
+          159,
+          203
+        ],
+        [
+          203,
+          185
+        ],
+        [
+          226,
+          175
+        ],
+        [
+          225,
+          158
+        ],
+        [
+          190,
+          176
+        ],
+        [
+          166,
+          185
+        ],
+        [
+          137,
+          197
+        ],
+        [
+          125,
+          200
+        ],
+        [
+          126,
+          182
+        ],
+        [
+          145,
+          172
+        ],
+        [
+          163,
+          157
+        ],
+        [
+          175,
+          137
+        ],
+        [
+          180,
+          117
+        ],
+        [
+          180,
+          96
+        ],
+        [
+          174,
+          90
+        ],
+        [
+          164,
+          89
+        ],
+        [
+          164,
+          62
+        ],
+        [
+          155,
+          53
+        ],
+        [
+          136,
+          22
+        ],
+        [
+          120,
+          0
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          118,
+          188
+        ],
+        [
+          209,
+          133
+        ],
+        [
+          214,
+          143
+        ],
+        [
+          118,
+          201
+        ],
+        [
+          118,
+          188
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          72,
+          230
+        ],
+        [
+          179,
+          258
+        ],
+        [
+          177,
+          265
+        ],
+        [
+          69,
+          243
+        ],
+        [
+          69,
+          231
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          35,
+          214
+        ],
+        [
+          54,
+          217
+        ],
+        [
+          59,
+          214
+        ],
+        [
+          58,
+          208
+        ],
+        [
+          46,
+          205
+        ],
+        [
+          50,
+          16
+        ],
+        [
+          46,
+          8
+        ],
+        [
+          64,
+          2
+        ],
+        [
+          63,
+          0
+        ],
+        [
+          35,
+          0
+        ],
+        [
+          35,
+          100
+        ],
+        [
+          21,
+          101
+        ],
+        [
+          21,
+          114
+        ],
+        [
+          33,
+          114
+        ],
+        [
+          33,
+          215
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T1+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T2+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "leaf petiole stem"
+  },
+  "questions": [
+    {
+      "question_text": "The stalk by which a leaf is attached to a stem.",
+      "question_id": "3978.png-1",
+      "answers": [
+        "leaf",
+        "root",
+        "petiole",
+        "stem"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "leafstalk is also called",
+      "question_id": "3978.png-0",
+      "answers": [
+        "leaf",
+        "petiole",
+        "root",
+        "stem"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

@@ -1,0 +1,430 @@
+{
+  "image_id": "2406",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          9,
+          85
+        ],
+        [
+          70,
+          109
+        ]
+      ],
+      "value": "Adult",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          159,
+          8
+        ],
+        [
+          209,
+          36
+        ]
+      ],
+      "value": "Egg",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          259,
+          106
+        ],
+        [
+          347,
+          132
+        ]
+      ],
+      "value": "Nymph",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          27,
+          78
+        ],
+        [
+          49,
+          77
+        ],
+        [
+          51,
+          71
+        ],
+        [
+          50,
+          63
+        ],
+        [
+          61,
+          52
+        ],
+        [
+          92,
+          37
+        ],
+        [
+          130,
+          29
+        ],
+        [
+          130,
+          33
+        ],
+        [
+          150,
+          21
+        ],
+        [
+          134,
+          9
+        ],
+        [
+          128,
+          16
+        ],
+        [
+          87,
+          25
+        ],
+        [
+          52,
+          41
+        ],
+        [
+          38,
+          61
+        ],
+        [
+          27,
+          75
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          213,
+          15
+        ],
+        [
+          215,
+          28
+        ],
+        [
+          232,
+          29
+        ],
+        [
+          266,
+          46
+        ],
+        [
+          287,
+          68
+        ],
+        [
+          295,
+          81
+        ],
+        [
+          291,
+          85
+        ],
+        [
+          307,
+          103
+        ],
+        [
+          313,
+          81
+        ],
+        [
+          308,
+          83
+        ],
+        [
+          296,
+          54
+        ],
+        [
+          263,
+          26
+        ],
+        [
+          232,
+          16
+        ],
+        [
+          214,
+          13
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          33,
+          123
+        ],
+        [
+          36,
+          116
+        ],
+        [
+          45,
+          117
+        ],
+        [
+          52,
+          127
+        ],
+        [
+          68,
+          140
+        ],
+        [
+          87,
+          150
+        ],
+        [
+          109,
+          158
+        ],
+        [
+          128,
+          162
+        ],
+        [
+          160,
+          166
+        ],
+        [
+          188,
+          168
+        ],
+        [
+          233,
+          164
+        ],
+        [
+          270,
+          156
+        ],
+        [
+          287,
+          147
+        ],
+        [
+          304,
+          136
+        ],
+        [
+          313,
+          141
+        ],
+        [
+          306,
+          153
+        ],
+        [
+          277,
+          168
+        ],
+        [
+          233,
+          178
+        ],
+        [
+          193,
+          180
+        ],
+        [
+          143,
+          181
+        ],
+        [
+          86,
+          166
+        ],
+        [
+          59,
+          155
+        ],
+        [
+          37,
+          135
+        ],
+        [
+          31,
+          132
+        ],
+        [
+          31,
+          124
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+T1",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T1",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T1+A1+T2",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T2",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T2+A2+T0",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T0",
+      "connector": "A2",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "adult egg nymph"
+  },
+  "questions": [
+    {
+      "question_text": "How many changes are shown in the cycle?",
+      "question_id": "2406.png-3",
+      "answers": [
+        "9",
+        "7",
+        "3",
+        "1"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "How many changes are shown in the diagram?",
+      "question_id": "2406.png-4",
+      "answers": [
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is described at letter B?",
+      "question_id": "2406.png-1",
+      "answers": [
+        "Adult",
+        "Egg",
+        "{}",
+        "Nymph"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which letter describes the egg stage?",
+      "question_id": "2406.png-0",
+      "answers": [
+        "B",
+        "A",
+        "C",
+        "{}"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which letter represents the stage that occurs between adult and nymph",
+      "question_id": "2406.png-2",
+      "answers": [
+        "B",
+        "A",
+        "D",
+        "C"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which part of the cycle represents the adult stage?",
+      "question_id": "2406.png-5",
+      "answers": [
+        "C",
+        "A",
+        "D",
+        "B"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

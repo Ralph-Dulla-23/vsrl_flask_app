@@ -1,0 +1,510 @@
+{
+  "image_id": "197",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          232,
+          13
+        ],
+        [
+          534,
+          57
+        ]
+      ],
+      "value": "ENVIRONMENT",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          629,
+          193
+        ],
+        [
+          832,
+          244
+        ]
+      ],
+      "value": "PRODUCT",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          295,
+          367
+        ],
+        [
+          475,
+          425
+        ]
+      ],
+      "value": "PROBLEM",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          8,
+          195
+        ],
+        [
+          105,
+          237
+        ]
+      ],
+      "value": "USER",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          384,
+          72
+        ],
+        [
+          415,
+          128
+        ],
+        [
+          415,
+          138
+        ],
+        [
+          397,
+          135
+        ],
+        [
+          397,
+          292
+        ],
+        [
+          415,
+          294
+        ],
+        [
+          387,
+          352
+        ],
+        [
+          372,
+          330
+        ],
+        [
+          352,
+          295
+        ],
+        [
+          370,
+          292
+        ],
+        [
+          370,
+          135
+        ],
+        [
+          352,
+          130
+        ],
+        [
+          384,
+          73
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          197,
+          230
+        ],
+        [
+          549,
+          232
+        ],
+        [
+          549,
+          257
+        ],
+        [
+          612,
+          215
+        ],
+        [
+          552,
+          180
+        ],
+        [
+          549,
+          200
+        ],
+        [
+          197,
+          203
+        ],
+        [
+          197,
+          177
+        ],
+        [
+          140,
+          215
+        ],
+        [
+          195,
+          252
+        ],
+        [
+          198,
+          230
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          559,
+          52
+        ],
+        [
+          587,
+          105
+        ],
+        [
+          597,
+          102
+        ],
+        [
+          641,
+          140
+        ],
+        [
+          634,
+          147
+        ],
+        [
+          694,
+          178
+        ],
+        [
+          662,
+          118
+        ],
+        [
+          654,
+          125
+        ],
+        [
+          612,
+          85
+        ],
+        [
+          620,
+          75
+        ],
+        [
+          557,
+          53
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          617,
+          280
+        ],
+        [
+          674,
+          257
+        ],
+        [
+          641,
+          314
+        ],
+        [
+          632,
+          310
+        ],
+        [
+          589,
+          347
+        ],
+        [
+          594,
+          357
+        ],
+        [
+          537,
+          382
+        ],
+        [
+          534,
+          379
+        ],
+        [
+          570,
+          325
+        ],
+        [
+          575,
+          332
+        ],
+        [
+          617,
+          294
+        ],
+        [
+          615,
+          282
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          88,
+          257
+        ],
+        [
+          107,
+          297
+        ],
+        [
+          122,
+          315
+        ],
+        [
+          128,
+          309
+        ],
+        [
+          170,
+          347
+        ],
+        [
+          163,
+          355
+        ],
+        [
+          220,
+          382
+        ],
+        [
+          193,
+          327
+        ],
+        [
+          185,
+          332
+        ],
+        [
+          143,
+          295
+        ],
+        [
+          147,
+          285
+        ],
+        [
+          90,
+          260
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          90,
+          172
+        ],
+        [
+          145,
+          152
+        ],
+        [
+          142,
+          142
+        ],
+        [
+          183,
+          103
+        ],
+        [
+          193,
+          107
+        ],
+        [
+          227,
+          50
+        ],
+        [
+          163,
+          80
+        ],
+        [
+          167,
+          87
+        ],
+        [
+          128,
+          125
+        ],
+        [
+          120,
+          120
+        ],
+        [
+          88,
+          172
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H4",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H5",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+T2",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T2",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T0+A2+T1",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T1",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T1+A3+T2",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T2",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T2+A4+T3",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T3",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T3+A1+T1",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T1",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T3+A5+T0",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T0",
+      "connector": "A5",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "environment product problem user"
+  }
+}

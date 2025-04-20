@@ -1,0 +1,558 @@
+{
+  "image_id": "1900",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          66,
+          2
+        ],
+        [
+          116,
+          18
+        ]
+      ],
+      "value": "Hawks",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          59
+        ],
+        [
+          57,
+          79
+        ]
+      ],
+      "value": "Weasels",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          68,
+          105
+        ],
+        [
+          107,
+          123
+        ]
+      ],
+      "value": "Mice",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          163,
+          60
+        ],
+        [
+          232,
+          80
+        ]
+      ],
+      "value": "Raccoons",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          174,
+          152
+        ],
+        [
+          231,
+          187
+        ]
+      ],
+      "value": "Grass/shrubs",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          82,
+          16
+        ],
+        [
+          95,
+          16
+        ],
+        [
+          94,
+          102
+        ],
+        [
+          84,
+          101
+        ],
+        [
+          83,
+          16
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          62,
+          5
+        ],
+        [
+          79,
+          19
+        ],
+        [
+          35,
+          67
+        ],
+        [
+          21,
+          58
+        ],
+        [
+          65,
+          6
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          166,
+          64
+        ],
+        [
+          170,
+          73
+        ],
+        [
+          104,
+          110
+        ],
+        [
+          98,
+          102
+        ],
+        [
+          162,
+          65
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          108,
+          19
+        ],
+        [
+          114,
+          13
+        ],
+        [
+          178,
+          53
+        ],
+        [
+          174,
+          60
+        ],
+        [
+          108,
+          20
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          85,
+          104
+        ],
+        [
+          75,
+          106
+        ],
+        [
+          35,
+          83
+        ],
+        [
+          49,
+          74
+        ],
+        [
+          84,
+          102
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          99,
+          124
+        ],
+        [
+          105,
+          119
+        ],
+        [
+          175,
+          164
+        ],
+        [
+          171,
+          173
+        ],
+        [
+          101,
+          127
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          196,
+          80
+        ],
+        [
+          207,
+          80
+        ],
+        [
+          206,
+          156
+        ],
+        [
+          196,
+          155
+        ],
+        [
+          194,
+          82
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H4",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H5",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H6",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H0",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H1",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H3",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A1+T0",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T0",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T2+A0+T0",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T0",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T2+A2+T3",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T3",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T2+A4+T1",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T1",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T3+A3+T0",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T0",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T4+A5+T2",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T2",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T4+A6+T3",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T3",
+      "connector": "A6",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "hawks weasels mice raccoons grass/shrubs"
+  },
+  "questions": [
+    {
+      "question_text": "According to the food web, what will happen on the event of destruction of grass and shrubs due to forest fire?",
+      "question_id": "1900.png-3",
+      "answers": [
+        "Weasels will increase",
+        "Hawks will increase",
+        "Raccoons and mice will decrease",
+        "none of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "According to the food web, which is the animal that eats plants?",
+      "question_id": "1900.png-2",
+      "answers": [
+        "Mice, raccoons",
+        "weasels",
+        "hawks",
+        "none of the above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the above food web diagram, if the grass were destroyed then which species get directly affected",
+      "question_id": "1900.png-9",
+      "answers": [
+        "weasels",
+        "hawk",
+        "mice",
+        "none"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the above food web diagram, what is the relation between grass and mice",
+      "question_id": "1900.png-11",
+      "answers": [
+        "producer- decomposer",
+        "producer- secondary consumer",
+        "producer- consumer",
+        "decompose- producer"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the above food web diagram, which of the following is correctly paired",
+      "question_id": "1900.png-5",
+      "answers": [
+        "mice- producer",
+        "racoons- decomposer",
+        "mice- primary consumer",
+        "none"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the above food web diagram, which species would starve if all the grass dies",
+      "question_id": "1900.png-6",
+      "answers": [
+        "mice",
+        "racoons",
+        "hawks",
+        "none"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "If weasels decreased, who would suffer?",
+      "question_id": "1900.png-4",
+      "answers": [
+        "Hawks",
+        "Raccoons",
+        "Grass",
+        "Mice"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Refer the diagram shown. What does Racoon eats?",
+      "question_id": "1900.png-1",
+      "answers": [
+        "Weasels",
+        "Hawks",
+        "Mice",
+        "All of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Using the diagram below, which animal is classified as an herbivore?",
+      "question_id": "1900.png-8",
+      "answers": [
+        "Weasels",
+        "Hawks",
+        "Mice",
+        "none of above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would not cause hawks to increase?",
+      "question_id": "1900.png-7",
+      "answers": [
+        "An increase in mice",
+        "A decrease in Weasels",
+        "An increase in weasels",
+        "An increase in raccoons"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which among the below is the category of hawk?",
+      "question_id": "1900.png-0",
+      "answers": [
+        "herbivore",
+        "omnivore",
+        "carnivore",
+        "producer"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which of the following organisms in this food web obtains energy from both producers and consumers?",
+      "question_id": "1900.png-10",
+      "answers": [
+        "Raccoons",
+        "Mice",
+        "Weasels",
+        "none of above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

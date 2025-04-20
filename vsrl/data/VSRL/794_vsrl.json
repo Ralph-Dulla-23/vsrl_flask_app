@@ -1,0 +1,752 @@
+{
+  "image_id": "794",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          17,
+          23
+        ],
+        [
+          78,
+          41
+        ]
+      ],
+      "value": "kestrel",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          168,
+          10
+        ],
+        [
+          196,
+          26
+        ]
+      ],
+      "value": "cat",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          292,
+          21
+        ],
+        [
+          317,
+          43
+        ]
+      ],
+      "value": "fox",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          309,
+          145
+        ],
+        [
+          334,
+          164
+        ]
+      ],
+      "value": "rat",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          159,
+          146
+        ],
+        [
+          214,
+          166
+        ]
+      ],
+      "value": "mouse",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          131,
+          255
+        ],
+        [
+          229,
+          272
+        ]
+      ],
+      "value": "wheat seeds",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          16,
+          148
+        ],
+        [
+          87,
+          166
+        ]
+      ],
+      "value": "sparrow",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          429,
+          187
+        ],
+        [
+          527,
+          230
+        ]
+      ],
+      "value": "*mainly urban foxes",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          72,
+          182
+        ],
+        [
+          135,
+          251
+        ],
+        [
+          146,
+          244
+        ],
+        [
+          83,
+          172
+        ],
+        [
+          70,
+          181
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          182,
+          177
+        ],
+        [
+          184,
+          247
+        ],
+        [
+          195,
+          248
+        ],
+        [
+          197,
+          174
+        ],
+        [
+          183,
+          175
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          226,
+          241
+        ],
+        [
+          306,
+          174
+        ],
+        [
+          315,
+          187
+        ],
+        [
+          236,
+          252
+        ],
+        [
+          226,
+          243
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          318,
+          139
+        ],
+        [
+          316,
+          55
+        ],
+        [
+          328,
+          55
+        ],
+        [
+          329,
+          140
+        ],
+        [
+          317,
+          140
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          309,
+          139
+        ],
+        [
+          209,
+          48
+        ],
+        [
+          218,
+          39
+        ],
+        [
+          314,
+          131
+        ],
+        [
+          308,
+          136
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          210,
+          131
+        ],
+        [
+          286,
+          54
+        ],
+        [
+          297,
+          62
+        ],
+        [
+          217,
+          142
+        ],
+        [
+          211,
+          132
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          78,
+          132
+        ],
+        [
+          167,
+          39
+        ],
+        [
+          176,
+          48
+        ],
+        [
+          86,
+          143
+        ],
+        [
+          79,
+          135
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          167,
+          138
+        ],
+        [
+          59,
+          58
+        ],
+        [
+          66,
+          51
+        ],
+        [
+          173,
+          134
+        ],
+        [
+          165,
+          140
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          185,
+          137
+        ],
+        [
+          185,
+          40
+        ],
+        [
+          197,
+          43
+        ],
+        [
+          196,
+          140
+        ],
+        [
+          184,
+          139
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          35,
+          53
+        ],
+        [
+          38,
+          139
+        ],
+        [
+          47,
+          138
+        ],
+        [
+          47,
+          51
+        ],
+        [
+          36,
+          51
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H4",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H5",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H6",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H7",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A8+H8",
+      "type": "arrowHeadTail",
+      "source": "A8",
+      "target": "H8",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A9+H9",
+      "type": "arrowHeadTail",
+      "source": "A9",
+      "target": "H9",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+A3+T2",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T2",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T3+A4+T1",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T1",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T4+A5+T2",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T2",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T4+A7+T0",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T0",
+      "connector": "A7",
+      "directional": true
+    },
+    {
+      "id": "T4+A8+T1",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T1",
+      "connector": "A8",
+      "directional": true
+    },
+    {
+      "id": "T5+A0+T6",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T6",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T5+A1+T4",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T4",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T5+A2+T3",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T3",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T6+A6+T1",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T1",
+      "connector": "A6",
+      "directional": true
+    },
+    {
+      "id": "T6+A9+T0",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T0",
+      "connector": "A9",
+      "directional": true
+    },
+    {
+      "id": "T7+I0",
+      "type": "misc",
+      "source": "T7",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "kestrel cat fox rat mouse wheat seeds sparrow *mainly urban foxes"
+  },
+  "questions": [
+    {
+      "question_text": "According to the given food chain, What would happen if there is a scarcity of wheat seeds?",
+      "question_id": "794.png-3",
+      "answers": [
+        "cat population will increase",
+        "Sparrow , mouse and rat would become less in number.",
+        "There will be more foxes.",
+        "cat population will decrease"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "According to the given food chain, which kind would be affected if the mice were dead?",
+      "question_id": "794.png-4",
+      "answers": [
+        "fox, cats and kestrels",
+        "sparrows and wheat seeds",
+        "rats",
+        "none"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the above food web diagram, if all the plants removed from food web then which species get directly affected",
+      "question_id": "794.png-7",
+      "answers": [
+        "none",
+        "mouse",
+        "fox",
+        "cat"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the above food web diagram, which species are correctly paired",
+      "question_id": "794.png-0",
+      "answers": [
+        "fox- producer",
+        "rat-consumer",
+        "plants- consumer",
+        "cat- decomposer"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the following diagram which one is mainly not eaten by anyone?",
+      "question_id": "794.png-9",
+      "answers": [
+        "fox",
+        "hawk and snake",
+        "rat",
+        "snake and kinglet"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the food web shown. Which organisms are correctly paired with their roles in this food web?",
+      "question_id": "794.png-8",
+      "answers": [
+        "mouse and sparrow consumers",
+        "fox and mouse -heterotrophs",
+        "kestrel and rat - herbivore",
+        "rat and fox -producers"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Sparrow is the main food for ______?",
+      "question_id": "794.png-6",
+      "answers": [
+        "mouse",
+        "wheat seeds",
+        "rat",
+        "Kestrel"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "The diagram represents the interactions of organisms in a ecosystem. Which of the following organisms in the ecosystem shown would most likely increase in numbers if all the cats left?",
+      "question_id": "794.png-2",
+      "answers": [
+        "Sparrow and mouse.",
+        "Rat only",
+        "Kestrel and sparrow",
+        "Mouse and fox"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Wheat seeds is the food for which of the following?",
+      "question_id": "794.png-11",
+      "answers": [
+        "mouse",
+        "rat",
+        "sparrow",
+        "All of the above"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which of the following wheat seeds food chain represents?",
+      "question_id": "794.png-10",
+      "answers": [
+        "prey",
+        "producers",
+        "predator",
+        "decomposer"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which organism eats rats?",
+      "question_id": "794.png-5",
+      "answers": [
+        "Sparrows",
+        "Mice",
+        "Foxes and Cats",
+        "None of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "\\Which organism is the primary consumer in this food chain?",
+      "question_id": "794.png-1",
+      "answers": [
+        "Sparrow",
+        "Mouse",
+        "Rat",
+        "All of the above"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    }
+  ]
+}

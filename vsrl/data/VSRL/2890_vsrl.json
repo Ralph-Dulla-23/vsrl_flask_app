@@ -1,0 +1,487 @@
+{
+  "image_id": "2890",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          10,
+          44
+        ],
+        [
+          60,
+          54
+        ]
+      ],
+      "value": "cuticle",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          18,
+          77
+        ],
+        [
+          58,
+          91
+        ]
+      ],
+      "value": "cortex",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          4,
+          106
+        ],
+        [
+          54,
+          121
+        ]
+      ],
+      "value": "medulla",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          5,
+          164
+        ],
+        [
+          58,
+          178
+        ]
+      ],
+      "value": "proximal",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          315,
+          59
+        ],
+        [
+          356,
+          73
+        ]
+      ],
+      "value": "distal",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          325,
+          137
+        ],
+        [
+          393,
+          153
+        ]
+      ],
+      "value": "cvoid body",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          316,
+          166
+        ],
+        [
+          390,
+          185
+        ]
+      ],
+      "value": "cortical fusi",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          290,
+          196
+        ],
+        [
+          391,
+          218
+        ]
+      ],
+      "value": "pigment granule",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          120,
+          32
+        ],
+        [
+          156,
+          12
+        ],
+        [
+          183,
+          6
+        ],
+        [
+          211,
+          6
+        ],
+        [
+          239,
+          13
+        ],
+        [
+          277,
+          34
+        ],
+        [
+          302,
+          67
+        ],
+        [
+          312,
+          96
+        ],
+        [
+          316,
+          134
+        ],
+        [
+          305,
+          174
+        ],
+        [
+          286,
+          205
+        ],
+        [
+          252,
+          231
+        ],
+        [
+          211,
+          245
+        ],
+        [
+          164,
+          244
+        ],
+        [
+          122,
+          220
+        ],
+        [
+          95,
+          190
+        ],
+        [
+          83,
+          155
+        ],
+        [
+          79,
+          119
+        ],
+        [
+          89,
+          70
+        ],
+        [
+          108,
+          45
+        ],
+        [
+          120,
+          35
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          216,
+          145
+        ],
+        [
+          222,
+          135
+        ],
+        [
+          296,
+          199
+        ],
+        [
+          289,
+          209
+        ],
+        [
+          215,
+          147
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          261,
+          122
+        ],
+        [
+          270,
+          114
+        ],
+        [
+          324,
+          171
+        ],
+        [
+          317,
+          176
+        ],
+        [
+          259,
+          123
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          297,
+          122
+        ],
+        [
+          320,
+          147
+        ],
+        [
+          330,
+          136
+        ],
+        [
+          309,
+          113
+        ],
+        [
+          299,
+          119
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          163,
+          96
+        ],
+        [
+          55,
+          44
+        ],
+        [
+          50,
+          55
+        ],
+        [
+          158,
+          105
+        ],
+        [
+          164,
+          96
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          139,
+          120
+        ],
+        [
+          136,
+          128
+        ],
+        [
+          49,
+          87
+        ],
+        [
+          51,
+          77
+        ],
+        [
+          139,
+          115
+        ],
+        [
+          138,
+          117
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          112,
+          141
+        ],
+        [
+          109,
+          151
+        ],
+        [
+          48,
+          120
+        ],
+        [
+          52,
+          108
+        ],
+        [
+          111,
+          140
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T1+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T2+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T4",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T6+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T7+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "cuticle cortex medulla proximal distal cvoid body cortical fusi pigment granule"
+  },
+  "questions": []
+}

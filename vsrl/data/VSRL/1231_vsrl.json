@@ -1,0 +1,823 @@
+{
+  "image_id": "1231",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          23,
+          24
+        ],
+        [
+          75,
+          47
+        ]
+      ],
+      "value": "head",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          16,
+          94
+        ],
+        [
+          52,
+          119
+        ]
+      ],
+      "value": "arm",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          37,
+          240
+        ],
+        [
+          74,
+          266
+        ]
+      ],
+      "value": "leg",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          241,
+          199
+        ],
+        [
+          288,
+          224
+        ]
+      ],
+      "value": "knee",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          243,
+          73
+        ],
+        [
+          298,
+          90
+        ]
+      ],
+      "value": "hand",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          292,
+          268
+        ],
+        [
+          340,
+          291
+        ]
+      ],
+      "value": "foot",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          136,
+          307
+        ],
+        [
+          160,
+          307
+        ],
+        [
+          170,
+          297
+        ],
+        [
+          164,
+          280
+        ],
+        [
+          166,
+          252
+        ],
+        [
+          161,
+          224
+        ],
+        [
+          159,
+          201
+        ],
+        [
+          160,
+          180
+        ],
+        [
+          166,
+          208
+        ],
+        [
+          171,
+          238
+        ],
+        [
+          179,
+          262
+        ],
+        [
+          196,
+          284
+        ],
+        [
+          200,
+          301
+        ],
+        [
+          215,
+          291
+        ],
+        [
+          233,
+          280
+        ],
+        [
+          234,
+          270
+        ],
+        [
+          219,
+          274
+        ],
+        [
+          211,
+          275
+        ],
+        [
+          199,
+          238
+        ],
+        [
+          189,
+          183
+        ],
+        [
+          179,
+          150
+        ],
+        [
+          175,
+          120
+        ],
+        [
+          186,
+          90
+        ],
+        [
+          208,
+          61
+        ],
+        [
+          225,
+          26
+        ],
+        [
+          241,
+          11
+        ],
+        [
+          240,
+          0
+        ],
+        [
+          229,
+          0
+        ],
+        [
+          221,
+          6
+        ],
+        [
+          214,
+          9
+        ],
+        [
+          203,
+          0
+        ],
+        [
+          203,
+          6
+        ],
+        [
+          207,
+          14
+        ],
+        [
+          209,
+          21
+        ],
+        [
+          197,
+          48
+        ],
+        [
+          194,
+          56
+        ],
+        [
+          184,
+          70
+        ],
+        [
+          167,
+          84
+        ],
+        [
+          160,
+          70
+        ],
+        [
+          174,
+          59
+        ],
+        [
+          182,
+          52
+        ],
+        [
+          180,
+          41
+        ],
+        [
+          180,
+          23
+        ],
+        [
+          187,
+          23
+        ],
+        [
+          181,
+          19
+        ],
+        [
+          169,
+          11
+        ],
+        [
+          164,
+          0
+        ],
+        [
+          159,
+          1
+        ],
+        [
+          139,
+          2
+        ],
+        [
+          147,
+          6
+        ],
+        [
+          132,
+          7
+        ],
+        [
+          125,
+          17
+        ],
+        [
+          119,
+          32
+        ],
+        [
+          116,
+          39
+        ],
+        [
+          118,
+          54
+        ],
+        [
+          123,
+          55
+        ],
+        [
+          131,
+          64
+        ],
+        [
+          139,
+          72
+        ],
+        [
+          139,
+          80
+        ],
+        [
+          137,
+          84
+        ],
+        [
+          125,
+          83
+        ],
+        [
+          115,
+          100
+        ],
+        [
+          104,
+          131
+        ],
+        [
+          91,
+          165
+        ],
+        [
+          83,
+          184
+        ],
+        [
+          82,
+          196
+        ],
+        [
+          86,
+          198
+        ],
+        [
+          87,
+          209
+        ],
+        [
+          95,
+          206
+        ],
+        [
+          98,
+          191
+        ],
+        [
+          102,
+          190
+        ],
+        [
+          107,
+          197
+        ],
+        [
+          112,
+          194
+        ],
+        [
+          111,
+          183
+        ],
+        [
+          107,
+          169
+        ],
+        [
+          120,
+          136
+        ],
+        [
+          126,
+          112
+        ],
+        [
+          130,
+          130
+        ],
+        [
+          131,
+          153
+        ],
+        [
+          131,
+          188
+        ],
+        [
+          134,
+          216
+        ],
+        [
+          140,
+          244
+        ],
+        [
+          147,
+          274
+        ],
+        [
+          148,
+          294
+        ],
+        [
+          138,
+          296
+        ],
+        [
+          133,
+          299
+        ],
+        [
+          133,
+          306
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          86,
+          28
+        ],
+        [
+          86,
+          44
+        ],
+        [
+          115,
+          50
+        ],
+        [
+          115,
+          59
+        ],
+        [
+          134,
+          54
+        ],
+        [
+          136,
+          38
+        ],
+        [
+          118,
+          30
+        ],
+        [
+          115,
+          36
+        ],
+        [
+          86,
+          30
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          219,
+          14
+        ],
+        [
+          222,
+          35
+        ],
+        [
+          230,
+          40
+        ],
+        [
+          244,
+          61
+        ],
+        [
+          258,
+          61
+        ],
+        [
+          239,
+          32
+        ],
+        [
+          248,
+          29
+        ],
+        [
+          222,
+          13
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          68,
+          114
+        ],
+        [
+          86,
+          123
+        ],
+        [
+          87,
+          134
+        ],
+        [
+          105,
+          135
+        ],
+        [
+          103,
+          116
+        ],
+        [
+          94,
+          112
+        ],
+        [
+          75,
+          104
+        ],
+        [
+          70,
+          113
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          90,
+          245
+        ],
+        [
+          129,
+          251
+        ],
+        [
+          142,
+          242
+        ],
+        [
+          158,
+          256
+        ],
+        [
+          143,
+          271
+        ],
+        [
+          130,
+          264
+        ],
+        [
+          94,
+          262
+        ],
+        [
+          94,
+          245
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          229,
+          220
+        ],
+        [
+          210,
+          226
+        ],
+        [
+          214,
+          234
+        ],
+        [
+          187,
+          226
+        ],
+        [
+          189,
+          209
+        ],
+        [
+          205,
+          205
+        ],
+        [
+          225,
+          208
+        ],
+        [
+          229,
+          215
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          273,
+          276
+        ],
+        [
+          249,
+          278
+        ],
+        [
+          249,
+          269
+        ],
+        [
+          236,
+          274
+        ],
+        [
+          226,
+          289
+        ],
+        [
+          243,
+          298
+        ],
+        [
+          262,
+          291
+        ],
+        [
+          276,
+          291
+        ],
+        [
+          275,
+          279
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H4",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H5",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T2+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T3+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T4+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T5+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "head arm leg knee hand foot"
+  },
+  "questions": []
+}

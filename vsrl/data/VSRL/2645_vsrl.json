@@ -1,0 +1,360 @@
+{
+  "image_id": "2645",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          255,
+          7
+        ],
+        [
+          354,
+          27
+        ]
+      ],
+      "value": "Neap Tides",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          57,
+          34
+        ],
+        [
+          95,
+          51
+        ]
+      ],
+      "value": "Moon",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          56,
+          201
+        ],
+        [
+          96,
+          218
+        ]
+      ],
+      "value": "Earth",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          480,
+          180
+        ],
+        [
+          512,
+          196
+        ]
+      ],
+      "value": "Sun",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          50,
+          39
+        ],
+        [
+          55,
+          58
+        ],
+        [
+          72,
+          65
+        ],
+        [
+          91,
+          67
+        ],
+        [
+          106,
+          45
+        ],
+        [
+          94,
+          19
+        ],
+        [
+          80,
+          17
+        ],
+        [
+          80,
+          17
+        ],
+        [
+          65,
+          18
+        ],
+        [
+          46,
+          37
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          51,
+          124
+        ],
+        [
+          73,
+          118
+        ],
+        [
+          98,
+          121
+        ],
+        [
+          128,
+          139
+        ],
+        [
+          128,
+          139
+        ],
+        [
+          145,
+          167
+        ],
+        [
+          154,
+          202
+        ],
+        [
+          149,
+          241
+        ],
+        [
+          132,
+          268
+        ],
+        [
+          114,
+          286
+        ],
+        [
+          87,
+          295
+        ],
+        [
+          65,
+          295
+        ],
+        [
+          43,
+          287
+        ],
+        [
+          22,
+          264
+        ],
+        [
+          7,
+          242
+        ],
+        [
+          1,
+          210
+        ],
+        [
+          3,
+          184
+        ],
+        [
+          15,
+          155
+        ],
+        [
+          32,
+          136
+        ],
+        [
+          51,
+          123
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          465,
+          157
+        ],
+        [
+          481,
+          152
+        ],
+        [
+          497,
+          148
+        ],
+        [
+          522,
+          150
+        ],
+        [
+          542,
+          166
+        ],
+        [
+          552,
+          189
+        ],
+        [
+          547,
+          214
+        ],
+        [
+          528,
+          230
+        ],
+        [
+          509,
+          239
+        ],
+        [
+          489,
+          240
+        ],
+        [
+          464,
+          226
+        ],
+        [
+          449,
+          207
+        ],
+        [
+          450,
+          189
+        ],
+        [
+          452,
+          174
+        ],
+        [
+          466,
+          158
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B1",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B2",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "neap tides moon earth sun"
+  },
+  "questions": [
+    {
+      "question_text": "The diagram shows the cycle of Neap tides. What is represented by letter B?",
+      "question_id": "2645.png-0",
+      "answers": [
+        "None of the Above",
+        "Sun",
+        "Earth",
+        "Moon"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "What does the given diagram depict?",
+      "question_id": "2645.png-1",
+      "answers": [
+        "The Solar System",
+        "Winter Solstice",
+        "Neap Tides",
+        "Solar Eclpipse"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which letter best represented the Earth?",
+      "question_id": "2645.png-2",
+      "answers": [
+        "B",
+        "A",
+        "C",
+        "D"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

@@ -1,0 +1,612 @@
+{
+  "image_id": "389",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          81,
+          17
+        ],
+        [
+          193,
+          47
+        ]
+      ],
+      "value": "Kingfisher",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          37,
+          123
+        ],
+        [
+          95,
+          152
+        ]
+      ],
+      "value": "Fish",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          151,
+          240
+        ],
+        [
+          225,
+          270
+        ]
+      ],
+      "value": "Algae",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          249,
+          122
+        ],
+        [
+          365,
+          151
+        ]
+      ],
+      "value": "Water flea ",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          366,
+          235
+        ],
+        [
+          448,
+          275
+        ]
+      ],
+      "value": "WATER BOATMAN",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          253,
+          411
+        ],
+        [
+          348,
+          452
+        ]
+      ],
+      "value": "Dragonfly nymph",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          125,
+          58
+        ],
+        [
+          70,
+          107
+        ],
+        [
+          78,
+          115
+        ],
+        [
+          144,
+          63
+        ],
+        [
+          127,
+          56
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          144,
+          132
+        ],
+        [
+          239,
+          132
+        ],
+        [
+          239,
+          146
+        ],
+        [
+          142,
+          145
+        ],
+        [
+          145,
+          133
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          78,
+          170
+        ],
+        [
+          134,
+          231
+        ],
+        [
+          147,
+          222
+        ],
+        [
+          88,
+          166
+        ],
+        [
+          81,
+          173
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          278,
+          167
+        ],
+        [
+          202,
+          225
+        ],
+        [
+          212,
+          233
+        ],
+        [
+          296,
+          171
+        ],
+        [
+          283,
+          165
+        ],
+        [
+          280,
+          166
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          365,
+          165
+        ],
+        [
+          418,
+          233
+        ],
+        [
+          434,
+          223
+        ],
+        [
+          379,
+          160
+        ],
+        [
+          367,
+          165
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          405,
+          281
+        ],
+        [
+          334,
+          400
+        ],
+        [
+          334,
+          400
+        ],
+        [
+          347,
+          405
+        ],
+        [
+          418,
+          285
+        ],
+        [
+          405,
+          285
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          258,
+          249
+        ],
+        [
+          357,
+          249
+        ],
+        [
+          358,
+          263
+        ],
+        [
+          259,
+          261
+        ],
+        [
+          258,
+          249
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          22,
+          165
+        ],
+        [
+          247,
+          435
+        ],
+        [
+          242,
+          446
+        ],
+        [
+          242,
+          446
+        ],
+        [
+          14,
+          173
+        ],
+        [
+          24,
+          163
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H3",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H4",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H5",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H6",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A0+T0",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T0",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T1+A7+T5",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T5",
+      "connector": "A7",
+      "directional": true
+    },
+    {
+      "id": "T2+A2+T1",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T1",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T2+A3+T3",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T3",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T2+A6+T4",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T4",
+      "connector": "A6",
+      "directional": true
+    },
+    {
+      "id": "T3+A1+T1",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T1",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T3+A4+T4",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T4",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T4+A5+T5",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T5",
+      "connector": "A5",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "kingfisher fish algae water flea  water boatman dragonfly nymph"
+  },
+  "questions": [
+    {
+      "question_text": "From the above food web diagram, what cause kingfisher to increase",
+      "question_id": "389.png-7",
+      "answers": [
+        "decrease in fish",
+        "decrease in water boatman",
+        "increase in fish",
+        "increase in algae"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the above food web diagram, which species is top consumer",
+      "question_id": "389.png-9",
+      "answers": [
+        "dragon fly",
+        "water boatman",
+        "algae",
+        "kingfisher"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "If the fish in the community below were destroyed, which population would be most directly affected?",
+      "question_id": "389.png-1",
+      "answers": [
+        "algae",
+        "water boatman",
+        "kingfisher",
+        "water flea"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Part of a aquatic food web is shown above. Which of the following describes the relationship between the algae and the water flea? (",
+      "question_id": "389.png-8",
+      "answers": [
+        "None",
+        "Competition",
+        "Host-Parasite",
+        "Producer-Consumer"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "The diagram represents a simple food web. This food web can show that Algae is",
+      "question_id": "389.png-5",
+      "answers": [
+        "Consumer",
+        "Predator",
+        "Producer",
+        "Parasite"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would happen to kingfisher if all the fish died?",
+      "question_id": "389.png-4",
+      "answers": [
+        "can't determine",
+        "increase",
+        "decrease",
+        "stay the same"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which is a primary producer",
+      "question_id": "389.png-3",
+      "answers": [
+        "dragonfly nymph",
+        "fish",
+        "algae",
+        "kingfisher"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which of the following is most likely to lead to an increase in the number of kingfishers over time?",
+      "question_id": "389.png-2",
+      "answers": [
+        "decrease in dragonfly nymphs",
+        "decrease in water fleas",
+        "decrease in algae",
+        "increase in fish"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which of the following organisms shown in the diagram are producers?",
+      "question_id": "389.png-6",
+      "answers": [
+        "algae",
+        "fish",
+        "kingfisher",
+        "water boatman"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which organism supplies the energy for the food web shown?",
+      "question_id": "389.png-0",
+      "answers": [
+        "Algae",
+        "Fish",
+        "Dragonfly",
+        "Kingfisher"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which part of this food web will be directly affected and will have to look for another source of energy if the all the fishes die?",
+      "question_id": "389.png-10",
+      "answers": [
+        "Algae",
+        "Dragonfly Nymph",
+        "Water flea",
+        "Kingfisher"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    }
+  ]
+}

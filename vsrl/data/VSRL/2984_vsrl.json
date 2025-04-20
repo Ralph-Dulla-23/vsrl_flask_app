@@ -1,0 +1,842 @@
+{
+  "image_id": "2984",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          142,
+          336
+        ],
+        [
+          231,
+          354
+        ]
+      ],
+      "value": "anterior horn",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          7,
+          289
+        ],
+        [
+          102,
+          304
+        ]
+      ],
+      "value": "Central canal",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T10": {
+      "id": "T10",
+      "type": "text",
+      "bbox": [
+        [
+          520,
+          165
+        ],
+        [
+          582,
+          181
+        ]
+      ],
+      "value": "Vertebra",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T11": {
+      "id": "T11",
+      "type": "text",
+      "bbox": [
+        [
+          508,
+          235
+        ],
+        [
+          589,
+          251
+        ]
+      ],
+      "value": "Gray matter",
+      "replacementText": "K",
+      "category": "label"
+    },
+    "T12": {
+      "id": "T12",
+      "type": "text",
+      "bbox": [
+        [
+          442,
+          296
+        ],
+        [
+          545,
+          322
+        ]
+      ],
+      "value": "Epidural space",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          91
+        ],
+        [
+          90,
+          111
+        ]
+      ],
+      "value": "White matter",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          106,
+          1
+        ],
+        [
+          178,
+          18
+        ]
+      ],
+      "value": "Arachnoid",
+      "replacementText": "M",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          63,
+          33
+        ],
+        [
+          142,
+          50
+        ]
+      ],
+      "value": "Dura mater",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          41,
+          63
+        ],
+        [
+          110,
+          81
+        ]
+      ],
+      "value": "Pia mater",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          214,
+          0
+        ],
+        [
+          312,
+          19
+        ]
+      ],
+      "value": "posterior horn",
+      "replacementText": "L",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          343,
+          0
+        ],
+        [
+          488,
+          19
+        ]
+      ],
+      "value": "Subarachnoid space",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          409,
+          41
+        ],
+        [
+          489,
+          60
+        ]
+      ],
+      "value": "Spinal cord",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          448,
+          81
+        ],
+        [
+          550,
+          101
+        ]
+      ],
+      "value": "Epidural space",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          67,
+          117
+        ],
+        [
+          151,
+          129
+        ],
+        [
+          229,
+          106
+        ],
+        [
+          297,
+          54
+        ],
+        [
+          384,
+          117
+        ],
+        [
+          437,
+          120
+        ],
+        [
+          517,
+          111
+        ],
+        [
+          531,
+          125
+        ],
+        [
+          505,
+          158
+        ],
+        [
+          495,
+          192
+        ],
+        [
+          473,
+          275
+        ],
+        [
+          455,
+          269
+        ],
+        [
+          409,
+          283
+        ],
+        [
+          349,
+          327
+        ],
+        [
+          280,
+          337
+        ],
+        [
+          208,
+          310
+        ],
+        [
+          166,
+          276
+        ],
+        [
+          138,
+          291
+        ],
+        [
+          120,
+          286
+        ],
+        [
+          104,
+          243
+        ],
+        [
+          88,
+          210
+        ],
+        [
+          78,
+          207
+        ],
+        [
+          92,
+          169
+        ],
+        [
+          57,
+          143
+        ],
+        [
+          65,
+          118
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          185,
+          13
+        ],
+        [
+          179,
+          17
+        ],
+        [
+          249,
+          144
+        ],
+        [
+          257,
+          139
+        ],
+        [
+          189,
+          10
+        ],
+        [
+          184,
+          11
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          234,
+          144
+        ],
+        [
+          240,
+          138
+        ],
+        [
+          144,
+          39
+        ],
+        [
+          136,
+          50
+        ],
+        [
+          234,
+          146
+        ]
+      ],
+      "category": "connector"
+    },
+    "A10": {
+      "id": "A10",
+      "type": "arrow",
+      "polygon": [
+        [
+          261,
+          245
+        ],
+        [
+          267,
+          254
+        ],
+        [
+          183,
+          339
+        ],
+        [
+          179,
+          327
+        ],
+        [
+          261,
+          244
+        ]
+      ],
+      "category": "connector"
+    },
+    "A11": {
+      "id": "A11",
+      "type": "arrow",
+      "polygon": [
+        [
+          95,
+          97
+        ],
+        [
+          89,
+          105
+        ],
+        [
+          239,
+          214
+        ],
+        [
+          245,
+          207
+        ],
+        [
+          95,
+          98
+        ]
+      ],
+      "category": "connector"
+    },
+    "A12": {
+      "id": "A12",
+      "type": "arrow",
+      "polygon": [
+        [
+          108,
+          87
+        ],
+        [
+          115,
+          75
+        ],
+        [
+          242,
+          176
+        ],
+        [
+          236,
+          188
+        ],
+        [
+          110,
+          90
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          259,
+          19
+        ],
+        [
+          261,
+          175
+        ],
+        [
+          267,
+          175
+        ],
+        [
+          269,
+          20
+        ],
+        [
+          260,
+          17
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          296,
+          149
+        ],
+        [
+          306,
+          149
+        ],
+        [
+          367,
+          18
+        ],
+        [
+          354,
+          13
+        ],
+        [
+          299,
+          147
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          517,
+          122
+        ],
+        [
+          511,
+          129
+        ],
+        [
+          526,
+          163
+        ],
+        [
+          538,
+          154
+        ],
+        [
+          519,
+          123
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          372,
+          157
+        ],
+        [
+          378,
+          164
+        ],
+        [
+          451,
+          100
+        ],
+        [
+          443,
+          91
+        ],
+        [
+          371,
+          156
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          323,
+          163
+        ],
+        [
+          329,
+          167
+        ],
+        [
+          413,
+          54
+        ],
+        [
+          406,
+          46
+        ],
+        [
+          321,
+          162
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          321,
+          215
+        ],
+        [
+          321,
+          227
+        ],
+        [
+          505,
+          250
+        ],
+        [
+          508,
+          237
+        ],
+        [
+          321,
+          217
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          375,
+          247
+        ],
+        [
+          379,
+          242
+        ],
+        [
+          449,
+          294
+        ],
+        [
+          443,
+          305
+        ],
+        [
+          375,
+          249
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          101,
+          289
+        ],
+        [
+          109,
+          299
+        ],
+        [
+          297,
+          221
+        ],
+        [
+          291,
+          211
+        ],
+        [
+          104,
+          287
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A10+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A10",
+      "directional": false
+    },
+    {
+      "id": "T1+A9+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A9",
+      "directional": false
+    },
+    {
+      "id": "T10+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T10",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T11+A7+B0",
+      "type": "intraObjectLinkage",
+      "source": "T11",
+      "target": "B0",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T12+A8+B0",
+      "type": "intraObjectLinkage",
+      "source": "T12",
+      "target": "B0",
+      "connector": "A8",
+      "directional": false
+    },
+    {
+      "id": "T2+A11+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A11",
+      "directional": false
+    },
+    {
+      "id": "T3+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T4+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T5+A12+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A12",
+      "directional": false
+    },
+    {
+      "id": "T6+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T7+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T8+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T8",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T9+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T9",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T10": "part_label",
+    "T11": "part_label",
+    "T12": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A10": "connector",
+    "A11": "connector",
+    "A12": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "anterior horn central canal vertebra gray matter epidural space white matter arachnoid dura mater pia mater posterior horn subarachnoid space spinal cord epidural space"
+  },
+  "questions": [
+    {
+      "question_text": "Which label represents posterior horn?",
+      "question_id": "2984.png-0",
+      "answers": [
+        "F",
+        "L",
+        "E",
+        "M"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

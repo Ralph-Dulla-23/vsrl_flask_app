@@ -1,0 +1,976 @@
+{
+  "image_id": "3957",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          172,
+          21
+        ],
+        [
+          352,
+          39
+        ]
+      ],
+      "value": "TYPICAL LILY FLOWERS",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          111,
+          67
+        ],
+        [
+          165,
+          84
+        ]
+      ],
+      "value": "6 tepals",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          50,
+          108
+        ],
+        [
+          105,
+          126
+        ]
+      ],
+      "value": "3 sepals",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          172,
+          113
+        ],
+        [
+          227,
+          131
+        ]
+      ],
+      "value": "3 petals",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          44,
+          339
+        ],
+        [
+          145,
+          355
+        ]
+      ],
+      "value": "3- parted stigma",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          186,
+          323
+        ],
+        [
+          260,
+          337
+        ]
+      ],
+      "value": "6 stamens",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          391,
+          342
+        ],
+        [
+          437,
+          359
+        ]
+      ],
+      "value": "anther",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          473,
+          326
+        ],
+        [
+          526,
+          342
+        ]
+      ],
+      "value": "stamen",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          392,
+          307
+        ],
+        [
+          452,
+          323
+        ]
+      ],
+      "value": "filament",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          464,
+          161
+        ],
+        [
+          522,
+          190
+        ]
+      ],
+      "value": "3- celled capsule",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          337,
+          158
+        ],
+        [
+          347,
+          162
+        ],
+        [
+          338,
+          185
+        ],
+        [
+          360,
+          201
+        ],
+        [
+          383,
+          266
+        ],
+        [
+          374,
+          268
+        ],
+        [
+          372,
+          267
+        ],
+        [
+          364,
+          278
+        ],
+        [
+          369,
+          333
+        ],
+        [
+          341,
+          352
+        ],
+        [
+          298,
+          336
+        ],
+        [
+          301,
+          283
+        ],
+        [
+          296,
+          271
+        ],
+        [
+          287,
+          274
+        ],
+        [
+          284,
+          267
+        ],
+        [
+          289,
+          206
+        ],
+        [
+          318,
+          183
+        ],
+        [
+          334,
+          158
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          115,
+          211
+        ],
+        [
+          127,
+          179
+        ],
+        [
+          137,
+          147
+        ],
+        [
+          140,
+          121
+        ],
+        [
+          150,
+          107
+        ],
+        [
+          159,
+          100
+        ],
+        [
+          161,
+          108
+        ],
+        [
+          156,
+          130
+        ],
+        [
+          157,
+          160
+        ],
+        [
+          162,
+          179
+        ],
+        [
+          162,
+          206
+        ],
+        [
+          161,
+          213
+        ],
+        [
+          185,
+          201
+        ],
+        [
+          206,
+          192
+        ],
+        [
+          224,
+          170
+        ],
+        [
+          232,
+          150
+        ],
+        [
+          243,
+          135
+        ],
+        [
+          248,
+          133
+        ],
+        [
+          246,
+          158
+        ],
+        [
+          230,
+          183
+        ],
+        [
+          219,
+          202
+        ],
+        [
+          208,
+          223
+        ],
+        [
+          189,
+          241
+        ],
+        [
+          172,
+          245
+        ],
+        [
+          187,
+          254
+        ],
+        [
+          198,
+          260
+        ],
+        [
+          208,
+          258
+        ],
+        [
+          225,
+          242
+        ],
+        [
+          234,
+          219
+        ],
+        [
+          248,
+          213
+        ],
+        [
+          251,
+          213
+        ],
+        [
+          243,
+          237
+        ],
+        [
+          239,
+          253
+        ],
+        [
+          228,
+          267
+        ],
+        [
+          201,
+          279
+        ],
+        [
+          191,
+          285
+        ],
+        [
+          182,
+          289
+        ],
+        [
+          168,
+          288
+        ],
+        [
+          159,
+          282
+        ],
+        [
+          156,
+          283
+        ],
+        [
+          145,
+          292
+        ],
+        [
+          134,
+          302
+        ],
+        [
+          126,
+          302
+        ],
+        [
+          119,
+          298
+        ],
+        [
+          109,
+          294
+        ],
+        [
+          102,
+          285
+        ],
+        [
+          100,
+          274
+        ],
+        [
+          82,
+          276
+        ],
+        [
+          69,
+          266
+        ],
+        [
+          56,
+          240
+        ],
+        [
+          52,
+          199
+        ],
+        [
+          41,
+          159
+        ],
+        [
+          40,
+          118
+        ],
+        [
+          58,
+          146
+        ],
+        [
+          80,
+          179
+        ],
+        [
+          101,
+          199
+        ],
+        [
+          113,
+          210
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          417,
+          198
+        ],
+        [
+          422,
+          201
+        ],
+        [
+          425,
+          198
+        ],
+        [
+          438,
+          151
+        ],
+        [
+          484,
+          122
+        ],
+        [
+          494,
+          100
+        ],
+        [
+          493,
+          93
+        ],
+        [
+          463,
+          74
+        ],
+        [
+          451,
+          79
+        ],
+        [
+          434,
+          99
+        ],
+        [
+          428,
+          117
+        ],
+        [
+          425,
+          141
+        ],
+        [
+          416,
+          197
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          39,
+          115
+        ],
+        [
+          51,
+          114
+        ],
+        [
+          51,
+          105
+        ],
+        [
+          220,
+          104
+        ],
+        [
+          220,
+          116
+        ],
+        [
+          240,
+          116
+        ],
+        [
+          237,
+          93
+        ],
+        [
+          144,
+          92
+        ],
+        [
+          144,
+          83
+        ],
+        [
+          130,
+          83
+        ],
+        [
+          130,
+          90
+        ],
+        [
+          36,
+          93
+        ],
+        [
+          38,
+          115
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          95,
+          333
+        ],
+        [
+          103,
+          340
+        ],
+        [
+          135,
+          295
+        ],
+        [
+          121,
+          288
+        ],
+        [
+          94,
+          332
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          186,
+          329
+        ],
+        [
+          193,
+          318
+        ],
+        [
+          139,
+          281
+        ],
+        [
+          134,
+          291
+        ],
+        [
+          185,
+          330
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          441,
+          301
+        ],
+        [
+          441,
+          310
+        ],
+        [
+          449,
+          309
+        ],
+        [
+          450,
+          353
+        ],
+        [
+          438,
+          356
+        ],
+        [
+          442,
+          368
+        ],
+        [
+          460,
+          367
+        ],
+        [
+          460,
+          340
+        ],
+        [
+          475,
+          340
+        ],
+        [
+          475,
+          329
+        ],
+        [
+          460,
+          329
+        ],
+        [
+          459,
+          299
+        ],
+        [
+          442,
+          299
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          386,
+          355
+        ],
+        [
+          395,
+          347
+        ],
+        [
+          359,
+          312
+        ],
+        [
+          352,
+          321
+        ],
+        [
+          385,
+          354
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          386,
+          320
+        ],
+        [
+          395,
+          313
+        ],
+        [
+          360,
+          280
+        ],
+        [
+          352,
+          289
+        ],
+        [
+          386,
+          318
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          67,
+          122
+        ],
+        [
+          78,
+          128
+        ],
+        [
+          61,
+          175
+        ],
+        [
+          50,
+          169
+        ],
+        [
+          66,
+          122
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          139,
+          161
+        ],
+        [
+          147,
+          170
+        ],
+        [
+          189,
+          138
+        ],
+        [
+          181,
+          128
+        ],
+        [
+          139,
+          159
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A0+B1",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B1",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T2+A6+B1",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B1",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T3+A7+B1",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B1",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T4+A1+B1",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B1",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T5+A2+B1",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B1",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T6+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T7+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T8+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T8",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T9+B2",
+      "type": "intraObjectLabel",
+      "source": "T9",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "typical lily flowers 6 tepals 3 sepals 3 petals 3- parted stigma 6 stamens anther stamen filament 3- celled capsule"
+  },
+  "questions": [
+    {
+      "question_text": "Does a lily flower have twenty petals?",
+      "question_id": "3957.png-2",
+      "answers": [
+        "No, they have more than twenty petals.",
+        "No, they have zero petals.",
+        "No, they do not have so many petals.",
+        "Yes, they have twenty petals."
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is represented by H?",
+      "question_id": "3957.png-0",
+      "answers": [
+        "anther",
+        "stamen",
+        "none of the above",
+        "3 parted stigma"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is the stamen comprised of?",
+      "question_id": "3957.png-1",
+      "answers": [
+        "both above",
+        "none of the above",
+        "filament and anther",
+        "petal and sepal"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}

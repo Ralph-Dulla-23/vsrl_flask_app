@@ -1,0 +1,1520 @@
+{
+  "image_id": "3953",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          194,
+          26
+        ],
+        [
+          521,
+          59
+        ]
+      ],
+      "value": "Birds External Anatomy",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          339,
+          92
+        ],
+        [
+          479,
+          106
+        ]
+      ],
+      "value": "Total length (bill tip to tail tip)",
+      "replacementText": "O",
+      "category": "label"
+    },
+    "T10": {
+      "id": "T10",
+      "type": "text",
+      "bbox": [
+        [
+          143,
+          361
+        ],
+        [
+          215,
+          376
+        ]
+      ],
+      "value": "breast/chest",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T11": {
+      "id": "T11",
+      "type": "text",
+      "bbox": [
+        [
+          300,
+          202
+        ],
+        [
+          345,
+          222
+        ]
+      ],
+      "value": "eyeline",
+      "replacementText": "K",
+      "category": "label"
+    },
+    "T12": {
+      "id": "T12",
+      "type": "text",
+      "bbox": [
+        [
+          354,
+          218
+        ],
+        [
+          387,
+          232
+        ]
+      ],
+      "value": "nape",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T13": {
+      "id": "T13",
+      "type": "text",
+      "bbox": [
+        [
+          585,
+          210
+        ],
+        [
+          610,
+          226
+        ]
+      ],
+      "value": "tail",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T14": {
+      "id": "T14",
+      "type": "text",
+      "bbox": [
+        [
+          507,
+          310
+        ],
+        [
+          629,
+          329
+        ]
+      ],
+      "value": "wing bar (if present)",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T15": {
+      "id": "T15",
+      "type": "text",
+      "bbox": [
+        [
+          473,
+          368
+        ],
+        [
+          509,
+          381
+        ]
+      ],
+      "value": "flank",
+      "replacementText": "P",
+      "category": "label"
+    },
+    "T16": {
+      "id": "T16",
+      "type": "text",
+      "bbox": [
+        [
+          437,
+          428
+        ],
+        [
+          530,
+          450
+        ]
+      ],
+      "value": "toes with claws",
+      "replacementText": "R",
+      "category": "label"
+    },
+    "T17": {
+      "id": "T17",
+      "type": "text",
+      "bbox": [
+        [
+          303,
+          508
+        ],
+        [
+          426,
+          524
+        ]
+      ],
+      "value": "Song Sparrow",
+      "replacementText": "Q",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          141,
+          184
+        ],
+        [
+          239,
+          197
+        ]
+      ],
+      "value": "crest (if present)",
+      "replacementText": "M",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          127,
+          206
+        ],
+        [
+          167,
+          219
+        ]
+      ],
+      "value": "crown",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          114,
+          233
+        ],
+        [
+          176,
+          250
+        ]
+      ],
+      "value": "forehead",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          54,
+          258
+        ],
+        [
+          169,
+          277
+        ]
+      ],
+      "value": "eye ring (if present)",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          97,
+          285
+        ],
+        [
+          125,
+          302
+        ]
+      ],
+      "value": "beak",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          141,
+          308
+        ],
+        [
+          178,
+          322
+        ]
+      ],
+      "value": "chin",
+      "replacementText": "N",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          156,
+          336
+        ],
+        [
+          190,
+          351
+        ]
+      ],
+      "value": "throat",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          153,
+          381
+        ],
+        [
+          239,
+          400
+        ]
+      ],
+      "value": "belly/abdomen",
+      "replacementText": "L",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          203,
+          283
+        ],
+        [
+          221,
+          267
+        ],
+        [
+          232,
+          246
+        ],
+        [
+          249,
+          234
+        ],
+        [
+          280,
+          236
+        ],
+        [
+          309,
+          239
+        ],
+        [
+          361,
+          241
+        ],
+        [
+          391,
+          239
+        ],
+        [
+          444,
+          221
+        ],
+        [
+          456,
+          221
+        ],
+        [
+          557,
+          127
+        ],
+        [
+          571,
+          131
+        ],
+        [
+          585,
+          135
+        ],
+        [
+          596,
+          141
+        ],
+        [
+          604,
+          145
+        ],
+        [
+          601,
+          163
+        ],
+        [
+          503,
+          237
+        ],
+        [
+          513,
+          242
+        ],
+        [
+          464,
+          304
+        ],
+        [
+          459,
+          324
+        ],
+        [
+          442,
+          354
+        ],
+        [
+          408,
+          373
+        ],
+        [
+          417,
+          380
+        ],
+        [
+          367,
+          434
+        ],
+        [
+          384,
+          431
+        ],
+        [
+          397,
+          427
+        ],
+        [
+          403,
+          433
+        ],
+        [
+          397,
+          439
+        ],
+        [
+          363,
+          446
+        ],
+        [
+          356,
+          443
+        ],
+        [
+          329,
+          457
+        ],
+        [
+          320,
+          457
+        ],
+        [
+          319,
+          466
+        ],
+        [
+          309,
+          453
+        ],
+        [
+          316,
+          448
+        ],
+        [
+          303,
+          447
+        ],
+        [
+          307,
+          440
+        ],
+        [
+          316,
+          439
+        ],
+        [
+          324,
+          435
+        ],
+        [
+          339,
+          436
+        ],
+        [
+          397,
+          388
+        ],
+        [
+          381,
+          383
+        ],
+        [
+          340,
+          388
+        ],
+        [
+          321,
+          399
+        ],
+        [
+          345,
+          399
+        ],
+        [
+          357,
+          403
+        ],
+        [
+          341,
+          408
+        ],
+        [
+          323,
+          411
+        ],
+        [
+          308,
+          410
+        ],
+        [
+          271,
+          413
+        ],
+        [
+          263,
+          408
+        ],
+        [
+          257,
+          411
+        ],
+        [
+          254,
+          404
+        ],
+        [
+          246,
+          403
+        ],
+        [
+          252,
+          397
+        ],
+        [
+          270,
+          395
+        ],
+        [
+          284,
+          401
+        ],
+        [
+          300,
+          400
+        ],
+        [
+          321,
+          387
+        ],
+        [
+          283,
+          376
+        ],
+        [
+          268,
+          364
+        ],
+        [
+          252,
+          346
+        ],
+        [
+          243,
+          326
+        ],
+        [
+          228,
+          306
+        ],
+        [
+          224,
+          293
+        ],
+        [
+          204,
+          287
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          539,
+          192
+        ],
+        [
+          557,
+          222
+        ],
+        [
+          591,
+          228
+        ],
+        [
+          589,
+          212
+        ],
+        [
+          567,
+          210
+        ],
+        [
+          549,
+          185
+        ],
+        [
+          541,
+          192
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          397,
+          288
+        ],
+        [
+          508,
+          315
+        ],
+        [
+          505,
+          328
+        ],
+        [
+          389,
+          299
+        ],
+        [
+          398,
+          289
+        ]
+      ],
+      "category": "connector"
+    },
+    "A10": {
+      "id": "A10",
+      "type": "arrow",
+      "polygon": [
+        [
+          172,
+          263
+        ],
+        [
+          253,
+          261
+        ],
+        [
+          254,
+          273
+        ],
+        [
+          171,
+          275
+        ],
+        [
+          171,
+          264
+        ]
+      ],
+      "category": "connector"
+    },
+    "A11": {
+      "id": "A11",
+      "type": "arrow",
+      "polygon": [
+        [
+          169,
+          245
+        ],
+        [
+          191,
+          247
+        ],
+        [
+          221,
+          268
+        ],
+        [
+          231,
+          256
+        ],
+        [
+          199,
+          236
+        ],
+        [
+          165,
+          234
+        ],
+        [
+          167,
+          244
+        ]
+      ],
+      "category": "connector"
+    },
+    "A12": {
+      "id": "A12",
+      "type": "arrow",
+      "polygon": [
+        [
+          168,
+          217
+        ],
+        [
+          200,
+          222
+        ],
+        [
+          236,
+          249
+        ],
+        [
+          250,
+          244
+        ],
+        [
+          213,
+          210
+        ],
+        [
+          162,
+          202
+        ],
+        [
+          164,
+          215
+        ]
+      ],
+      "category": "connector"
+    },
+    "A13": {
+      "id": "A13",
+      "type": "arrow",
+      "polygon": [
+        [
+          234,
+          199
+        ],
+        [
+          256,
+          201
+        ],
+        [
+          276,
+          215
+        ],
+        [
+          280,
+          241
+        ],
+        [
+          293,
+          239
+        ],
+        [
+          286,
+          211
+        ],
+        [
+          266,
+          184
+        ],
+        [
+          232,
+          184
+        ],
+        [
+          237,
+          198
+        ]
+      ],
+      "category": "connector"
+    },
+    "A14": {
+      "id": "A14",
+      "type": "arrow",
+      "polygon": [
+        [
+          300,
+          204
+        ],
+        [
+          281,
+          208
+        ],
+        [
+          285,
+          244
+        ],
+        [
+          277,
+          264
+        ],
+        [
+          289,
+          268
+        ],
+        [
+          300,
+          243
+        ],
+        [
+          295,
+          219
+        ],
+        [
+          307,
+          219
+        ],
+        [
+          300,
+          207
+        ]
+      ],
+      "category": "connector"
+    },
+    "A15": {
+      "id": "A15",
+      "type": "arrow",
+      "polygon": [
+        [
+          307,
+          235
+        ],
+        [
+          328,
+          218
+        ],
+        [
+          359,
+          216
+        ],
+        [
+          357,
+          232
+        ],
+        [
+          337,
+          232
+        ],
+        [
+          315,
+          251
+        ],
+        [
+          306,
+          232
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          440,
+          340
+        ],
+        [
+          453,
+          360
+        ],
+        [
+          479,
+          368
+        ],
+        [
+          475,
+          384
+        ],
+        [
+          447,
+          378
+        ],
+        [
+          426,
+          349
+        ],
+        [
+          438,
+          341
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          352,
+          393
+        ],
+        [
+          384,
+          403
+        ],
+        [
+          418,
+          426
+        ],
+        [
+          442,
+          433
+        ],
+        [
+          441,
+          448
+        ],
+        [
+          410,
+          439
+        ],
+        [
+          379,
+          418
+        ],
+        [
+          350,
+          410
+        ],
+        [
+          350,
+          393
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          318,
+          451
+        ],
+        [
+          331,
+          463
+        ],
+        [
+          353,
+          461
+        ],
+        [
+          437,
+          428
+        ],
+        [
+          443,
+          443
+        ],
+        [
+          358,
+          476
+        ],
+        [
+          328,
+          477
+        ],
+        [
+          310,
+          468
+        ],
+        [
+          316,
+          450
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          319,
+          383
+        ],
+        [
+          307,
+          400
+        ],
+        [
+          287,
+          404
+        ],
+        [
+          239,
+          397
+        ],
+        [
+          239,
+          386
+        ],
+        [
+          280,
+          388
+        ],
+        [
+          295,
+          389
+        ],
+        [
+          309,
+          372
+        ],
+        [
+          320,
+          380
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          272,
+          357
+        ],
+        [
+          244,
+          372
+        ],
+        [
+          216,
+          376
+        ],
+        [
+          216,
+          362
+        ],
+        [
+          241,
+          359
+        ],
+        [
+          266,
+          344
+        ],
+        [
+          273,
+          354
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          251,
+          333
+        ],
+        [
+          232,
+          338
+        ],
+        [
+          210,
+          348
+        ],
+        [
+          188,
+          348
+        ],
+        [
+          190,
+          332
+        ],
+        [
+          209,
+          335
+        ],
+        [
+          237,
+          318
+        ],
+        [
+          255,
+          319
+        ],
+        [
+          252,
+          330
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          232,
+          306
+        ],
+        [
+          217,
+          306
+        ],
+        [
+          194,
+          321
+        ],
+        [
+          175,
+          324
+        ],
+        [
+          171,
+          308
+        ],
+        [
+          190,
+          308
+        ],
+        [
+          214,
+          294
+        ],
+        [
+          236,
+          292
+        ],
+        [
+          235,
+          307
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          204,
+          290
+        ],
+        [
+          172,
+          292
+        ],
+        [
+          131,
+          300
+        ],
+        [
+          129,
+          287
+        ],
+        [
+          170,
+          278
+        ],
+        [
+          210,
+          277
+        ],
+        [
+          204,
+          292
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H14",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H14",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A10+H12",
+      "type": "arrowHeadTail",
+      "source": "A10",
+      "target": "H12",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A11+H4",
+      "type": "arrowHeadTail",
+      "source": "A11",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A12+H7",
+      "type": "arrowHeadTail",
+      "source": "A12",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A13+H3",
+      "type": "arrowHeadTail",
+      "source": "A13",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A14+H15",
+      "type": "arrowHeadTail",
+      "source": "A14",
+      "target": "H15",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A15+H0",
+      "type": "arrowHeadTail",
+      "source": "A15",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H6",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H10",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H10",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H9",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H9",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H11",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H11",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H2",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H13",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H13",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A8+H8",
+      "type": "arrowHeadTail",
+      "source": "A8",
+      "target": "H8",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A9+H5",
+      "type": "arrowHeadTail",
+      "source": "A9",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+I0",
+      "type": "imageCaption",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T10+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T10",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T11+A14+B0",
+      "type": "intraObjectLinkage",
+      "source": "T11",
+      "target": "B0",
+      "connector": "A14",
+      "directional": false
+    },
+    {
+      "id": "T12+A15+B0",
+      "type": "intraObjectLinkage",
+      "source": "T12",
+      "target": "B0",
+      "connector": "A15",
+      "directional": false
+    },
+    {
+      "id": "T13+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T13",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T14+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T14",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T15+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T15",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T16+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T16",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T16+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T16",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T17+I0",
+      "type": "imageTitle",
+      "source": "T17",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+A13+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A13",
+      "directional": false
+    },
+    {
+      "id": "T3+A12+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A12",
+      "directional": false
+    },
+    {
+      "id": "T4+A11+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A11",
+      "directional": false
+    },
+    {
+      "id": "T5+A10+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A10",
+      "directional": false
+    },
+    {
+      "id": "T6+A9+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A9",
+      "directional": false
+    },
+    {
+      "id": "T7+A8+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A8",
+      "directional": false
+    },
+    {
+      "id": "T8+A7+B0",
+      "type": "intraObjectLinkage",
+      "source": "T8",
+      "target": "B0",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T9+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T9",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T10": "part_label",
+    "T11": "part_label",
+    "T12": "part_label",
+    "T13": "part_label",
+    "T14": "part_label",
+    "T15": "part_label",
+    "T16": "part_label",
+    "T17": "title",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A10": "connector",
+    "A11": "connector",
+    "A12": "connector",
+    "A13": "connector",
+    "A14": "connector",
+    "A15": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "chemistry",
+    "diagram_type": "flow_diagram",
+    "text_content": "birds external anatomy total length (bill tip to tail tip) breast/chest eyeline nape tail wing bar (if present) flank toes with claws song sparrow crest (if present) crown forehead eye ring (if present) beak chin throat belly/abdomen"
+  },
+  "questions": [
+    {
+      "question_text": "Which region in the diagram represents the tail?",
+      "question_id": "3953.png-0",
+      "answers": [
+        "q",
+        "j",
+        "h",
+        "p"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}

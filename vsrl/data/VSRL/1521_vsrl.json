@@ -1,0 +1,428 @@
+{
+  "image_id": "1521",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          283,
+          16
+        ],
+        [
+          346,
+          42
+        ]
+      ],
+      "value": "n = 3",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          237,
+          79
+        ],
+        [
+          296,
+          105
+        ]
+      ],
+      "value": "n = 2",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          196,
+          135
+        ],
+        [
+          257,
+          159
+        ]
+      ],
+      "value": "n = 1",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          307,
+          307
+        ],
+        [
+          396,
+          340
+        ]
+      ],
+      "value": "E = hv",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          185,
+          193
+        ],
+        [
+          197,
+          189
+        ],
+        [
+          195,
+          177
+        ],
+        [
+          182,
+          168
+        ],
+        [
+          171,
+          181
+        ],
+        [
+          174,
+          191
+        ],
+        [
+          185,
+          195
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          273,
+          195
+        ],
+        [
+          290,
+          190
+        ],
+        [
+          287,
+          174
+        ],
+        [
+          270,
+          169
+        ],
+        [
+          264,
+          185
+        ],
+        [
+          272,
+          194
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          350,
+          193
+        ],
+        [
+          364,
+          196
+        ],
+        [
+          370,
+          184
+        ],
+        [
+          364,
+          173
+        ],
+        [
+          349,
+          171
+        ],
+        [
+          343,
+          182
+        ],
+        [
+          350,
+          192
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          287,
+          176
+        ],
+        [
+          300,
+          164
+        ],
+        [
+          300,
+          175
+        ],
+        [
+          349,
+          176
+        ],
+        [
+          348,
+          191
+        ],
+        [
+          303,
+          187
+        ],
+        [
+          300,
+          199
+        ],
+        [
+          282,
+          184
+        ],
+        [
+          287,
+          174
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          268,
+          232
+        ],
+        [
+          289,
+          232
+        ],
+        [
+          299,
+          249
+        ],
+        [
+          300,
+          252
+        ],
+        [
+          319,
+          253
+        ],
+        [
+          328,
+          252
+        ],
+        [
+          336,
+          259
+        ],
+        [
+          337,
+          263
+        ],
+        [
+          337,
+          269
+        ],
+        [
+          337,
+          273
+        ],
+        [
+          351,
+          279
+        ],
+        [
+          356,
+          271
+        ],
+        [
+          369,
+          291
+        ],
+        [
+          373,
+          295
+        ],
+        [
+          339,
+          302
+        ],
+        [
+          346,
+          292
+        ],
+        [
+          332,
+          286
+        ],
+        [
+          322,
+          278
+        ],
+        [
+          318,
+          269
+        ],
+        [
+          310,
+          269
+        ],
+        [
+          294,
+          271
+        ],
+        [
+          289,
+          270
+        ],
+        [
+          285,
+          262
+        ],
+        [
+          282,
+          255
+        ],
+        [
+          282,
+          247
+        ],
+        [
+          268,
+          246
+        ],
+        [
+          263,
+          246
+        ],
+        [
+          266,
+          233
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+I0",
+      "type": "imageCaption",
+      "source": "T3",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "A0": "connector",
+    "A1": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "n = 3 n = 2 n = 1 e = hv"
+  },
+  "questions": [
+    {
+      "question_text": "What does the letter B represent?",
+      "question_id": "1521.png-2",
+      "answers": [
+        "n=2",
+        "n=3",
+        "n=1",
+        "n=0"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "What does the letter C represent?",
+      "question_id": "1521.png-3",
+      "answers": [
+        "n=2",
+        "n=0",
+        "n=3",
+        "n=1"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which is the innermost layer?",
+      "question_id": "1521.png-1",
+      "answers": [
+        "n=1",
+        "n=3",
+        "None of the above",
+        "n=2"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which is the outermost layer?",
+      "question_id": "1521.png-0",
+      "answers": [
+        "n=3",
+        "None of the above",
+        "n=1",
+        "n=2"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

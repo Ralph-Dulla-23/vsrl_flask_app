@@ -1,0 +1,354 @@
+{
+  "image_id": "630",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          167,
+          31
+        ],
+        [
+          228,
+          58
+        ]
+      ],
+      "value": "Seed",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          221,
+          106
+        ],
+        [
+          345,
+          140
+        ]
+      ],
+      "value": "Young plant",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          58,
+          116
+        ],
+        [
+          178,
+          137
+        ]
+      ],
+      "value": "Adult plant",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          225,
+          43
+        ],
+        [
+          233,
+          37
+        ],
+        [
+          266,
+          48
+        ],
+        [
+          292,
+          71
+        ],
+        [
+          304,
+          104
+        ],
+        [
+          299,
+          116
+        ],
+        [
+          292,
+          114
+        ],
+        [
+          285,
+          99
+        ],
+        [
+          290,
+          98
+        ],
+        [
+          283,
+          78
+        ],
+        [
+          266,
+          58
+        ],
+        [
+          242,
+          48
+        ],
+        [
+          226,
+          46
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          134,
+          133
+        ],
+        [
+          150,
+          151
+        ],
+        [
+          174,
+          168
+        ],
+        [
+          206,
+          169
+        ],
+        [
+          235,
+          162
+        ],
+        [
+          259,
+          146
+        ],
+        [
+          270,
+          137
+        ],
+        [
+          278,
+          143
+        ],
+        [
+          253,
+          165
+        ],
+        [
+          228,
+          176
+        ],
+        [
+          195,
+          180
+        ],
+        [
+          169,
+          176
+        ],
+        [
+          149,
+          164
+        ],
+        [
+          135,
+          155
+        ],
+        [
+          128,
+          148
+        ],
+        [
+          127,
+          139
+        ],
+        [
+          133,
+          132
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          106,
+          104
+        ],
+        [
+          108,
+          86
+        ],
+        [
+          124,
+          68
+        ],
+        [
+          146,
+          57
+        ],
+        [
+          167,
+          51
+        ],
+        [
+          166,
+          39
+        ],
+        [
+          150,
+          39
+        ],
+        [
+          119,
+          54
+        ],
+        [
+          94,
+          81
+        ],
+        [
+          93,
+          105
+        ],
+        [
+          106,
+          103
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+T1",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T1",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T1+A1+T2",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T2",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T2+A2+T0",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T0",
+      "connector": "A2",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "seed young plant adult plant"
+  },
+  "questions": [
+    {
+      "question_text": "At which point in the life cycle is there a mature plant?",
+      "question_id": "630.png-2",
+      "answers": [
+        "D",
+        "A",
+        "C",
+        "B"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "How many stages are in this cycle?",
+      "question_id": "630.png-3",
+      "answers": [
+        "4",
+        "3",
+        "1",
+        "2"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What stage comes after the young plant?",
+      "question_id": "630.png-1",
+      "answers": [
+        "seedling",
+        "seed",
+        "adult plant",
+        "weeds"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which stage represents Adult plant?",
+      "question_id": "630.png-0",
+      "answers": [
+        "C",
+        "B",
+        "D",
+        "A"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    }
+  ]
+}

@@ -1,0 +1,926 @@
+{
+  "image_id": "179",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          223,
+          31
+        ],
+        [
+          366,
+          69
+        ]
+      ],
+      "value": "Aceh 2004",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          910,
+          28
+        ],
+        [
+          1071,
+          67
+        ]
+      ],
+      "value": "Sumatra 2009",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T10": {
+      "id": "T10",
+      "type": "text",
+      "bbox": [
+        [
+          325,
+          126
+        ],
+        [
+          525,
+          177
+        ]
+      ],
+      "value": "Indonesian Plate",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          720,
+          179
+        ],
+        [
+          928,
+          261
+        ]
+      ],
+      "value": "High stress zone at plate boundary",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          702,
+          423
+        ],
+        [
+          987,
+          497
+        ]
+      ],
+      "value": "Earthquake within Australian plate at interface",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          794,
+          536
+        ],
+        [
+          1171,
+          574
+        ]
+      ],
+      "value": "NO SURFACE DEFORMATION, NO TSUNAMI",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          261,
+          838
+        ],
+        [
+          564,
+          894
+        ]
+      ],
+      "value": "Earthquake as plate snaps back",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          251,
+          751
+        ],
+        [
+          366,
+          782
+        ]
+      ],
+      "value": "tsunami",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          272,
+          605
+        ],
+        [
+          407,
+          651
+        ]
+      ],
+      "value": "High Stress",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          249,
+          369
+        ],
+        [
+          518,
+          423
+        ]
+      ],
+      "value": "Deformation causing stress",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          49,
+          184
+        ],
+        [
+          208,
+          233
+        ]
+      ],
+      "value": "Australian Plate",
+      "replacementText": "K",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          15,
+          87
+        ],
+        [
+          15,
+          72
+        ],
+        [
+          559,
+          74
+        ],
+        [
+          561,
+          266
+        ],
+        [
+          13,
+          264
+        ],
+        [
+          8,
+          90
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          700,
+          72
+        ],
+        [
+          1245,
+          72
+        ],
+        [
+          1245,
+          266
+        ],
+        [
+          702,
+          266
+        ],
+        [
+          702,
+          72
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          692,
+          315
+        ],
+        [
+          1240,
+          313
+        ],
+        [
+          1240,
+          502
+        ],
+        [
+          694,
+          510
+        ],
+        [
+          689,
+          333
+        ],
+        [
+          692,
+          333
+        ],
+        [
+          692,
+          315
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          15,
+          315
+        ],
+        [
+          559,
+          315
+        ],
+        [
+          561,
+          507
+        ],
+        [
+          18,
+          507
+        ],
+        [
+          15,
+          315
+        ]
+      ],
+      "category": "object"
+    },
+    "B4": {
+      "id": "B4",
+      "type": "blob",
+      "polygon": [
+        [
+          18,
+          538
+        ],
+        [
+          564,
+          538
+        ],
+        [
+          564,
+          733
+        ],
+        [
+          13,
+          733
+        ],
+        [
+          13,
+          541
+        ]
+      ],
+      "category": "object"
+    },
+    "B5": {
+      "id": "B5",
+      "type": "blob",
+      "polygon": [
+        [
+          15,
+          769
+        ],
+        [
+          172,
+          769
+        ],
+        [
+          192,
+          766
+        ],
+        [
+          208,
+          753
+        ],
+        [
+          236,
+          782
+        ],
+        [
+          331,
+          787
+        ],
+        [
+          566,
+          769
+        ],
+        [
+          564,
+          969
+        ],
+        [
+          10,
+          969
+        ],
+        [
+          10,
+          766
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          113,
+          154
+        ],
+        [
+          146,
+          167
+        ],
+        [
+          149,
+          179
+        ],
+        [
+          182,
+          179
+        ],
+        [
+          167,
+          141
+        ],
+        [
+          159,
+          136
+        ],
+        [
+          151,
+          149
+        ],
+        [
+          108,
+          141
+        ],
+        [
+          108,
+          156
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          807,
+          156
+        ],
+        [
+          807,
+          141
+        ],
+        [
+          846,
+          156
+        ],
+        [
+          846,
+          144
+        ],
+        [
+          871,
+          179
+        ],
+        [
+          835,
+          177
+        ],
+        [
+          830,
+          167
+        ],
+        [
+          805,
+          161
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          802,
+          395
+        ],
+        [
+          825,
+          410
+        ],
+        [
+          825,
+          423
+        ],
+        [
+          858,
+          407
+        ],
+        [
+          848,
+          384
+        ],
+        [
+          828,
+          379
+        ],
+        [
+          817,
+          397
+        ],
+        [
+          797,
+          387
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          138,
+          384
+        ],
+        [
+          141,
+          407
+        ],
+        [
+          167,
+          415
+        ],
+        [
+          167,
+          425
+        ],
+        [
+          192,
+          418
+        ],
+        [
+          177,
+          384
+        ],
+        [
+          169,
+          402
+        ],
+        [
+          138,
+          384
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          172,
+          641
+        ],
+        [
+          192,
+          653
+        ],
+        [
+          202,
+          669
+        ],
+        [
+          231,
+          659
+        ],
+        [
+          215,
+          628
+        ],
+        [
+          202,
+          628
+        ],
+        [
+          200,
+          641
+        ],
+        [
+          179,
+          628
+        ],
+        [
+          174,
+          633
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          233,
+          766
+        ],
+        [
+          251,
+          766
+        ],
+        [
+          251,
+          776
+        ],
+        [
+          272,
+          764
+        ],
+        [
+          261,
+          748
+        ],
+        [
+          249,
+          751
+        ],
+        [
+          246,
+          756
+        ],
+        [
+          231,
+          756
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          141,
+          761
+        ],
+        [
+          164,
+          771
+        ],
+        [
+          167,
+          764
+        ],
+        [
+          187,
+          764
+        ],
+        [
+          187,
+          753
+        ],
+        [
+          174,
+          753
+        ],
+        [
+          167,
+          743
+        ],
+        [
+          144,
+          758
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          154,
+          874
+        ],
+        [
+          179,
+          866
+        ],
+        [
+          161,
+          840
+        ],
+        [
+          159,
+          853
+        ],
+        [
+          128,
+          843
+        ],
+        [
+          126,
+          858
+        ],
+        [
+          146,
+          866
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H4",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H5",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H6",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H7",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B4+A4+B4",
+      "type": "interObjectLinkage",
+      "source": "B4",
+      "target": "B4",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "B5+A6+B5",
+      "type": "interObjectLinkage",
+      "source": "B5",
+      "target": "B5",
+      "connector": "A6",
+      "directional": true
+    },
+    {
+      "id": "B5+A7+B5",
+      "type": "interObjectLinkage",
+      "source": "B5",
+      "target": "B5",
+      "connector": "A7",
+      "directional": true
+    },
+    {
+      "id": "T0+I0",
+      "type": "sectionTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+I0",
+      "type": "sectionTitle",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T10+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T10",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B1",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B2",
+      "type": "intraObjectRegionLabel",
+      "source": "T3",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B2",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+B5",
+      "type": "intraObjectRegionLabel",
+      "source": "T5",
+      "target": "B5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+B5",
+      "type": "intraObjectLabel",
+      "source": "T6",
+      "target": "B5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T7+B4",
+      "type": "intraObjectRegionLabel",
+      "source": "T7",
+      "target": "B4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T8+B3",
+      "type": "intraObjectRegionLabel",
+      "source": "T8",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T9+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T9",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T10": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "B4": "whole",
+    "B5": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "aceh 2004 sumatra 2009 indonesian plate high stress zone at plate boundary earthquake within australian plate at interface no surface deformation, no tsunami earthquake as plate snaps back tsunami high stress deformation causing stress australian plate"
+  },
+  "questions": [
+    {
+      "question_text": "The letter \"E\" in the diagram indicates",
+      "question_id": "179.png-0",
+      "answers": [
+        "Earthquake",
+        "High stress zone",
+        "Deformation",
+        "Tsunami"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

@@ -1,0 +1,640 @@
+{
+  "image_id": "1698",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          254,
+          100
+        ],
+        [
+          302,
+          114
+        ]
+      ],
+      "value": "Volcano",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          106,
+          10
+        ],
+        [
+          163,
+          26
+        ]
+      ],
+      "value": "Lava flow",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          252,
+          174
+        ],
+        [
+          330,
+          190
+        ]
+      ],
+      "value": "Volcanic pipe",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          351,
+          12
+        ],
+        [
+          411,
+          28
+        ]
+      ],
+      "value": "Lava flow",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          546,
+          16
+        ],
+        [
+          648,
+          49
+        ]
+      ],
+      "value": "Laccolith exposed by erosion",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          444,
+          168
+        ],
+        [
+          472,
+          181
+        ]
+      ],
+      "value": "Sill",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          648,
+          187
+        ],
+        [
+          678,
+          207
+        ]
+      ],
+      "value": "Dike",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          522,
+          220
+        ],
+        [
+          574,
+          232
+        ]
+      ],
+      "value": "Laccolith",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          447,
+          217
+        ],
+        [
+          475,
+          233
+        ]
+      ],
+      "value": "Dike",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          456,
+          284
+        ],
+        [
+          508,
+          298
+        ]
+      ],
+      "value": "Batholith",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          9,
+          60
+        ],
+        [
+          152,
+          58
+        ],
+        [
+          162,
+          48
+        ],
+        [
+          171,
+          58
+        ],
+        [
+          216,
+          59
+        ],
+        [
+          216,
+          59
+        ],
+        [
+          214,
+          51
+        ],
+        [
+          226,
+          48
+        ],
+        [
+          247,
+          44
+        ],
+        [
+          261,
+          54
+        ],
+        [
+          359,
+          54
+        ],
+        [
+          365,
+          60
+        ],
+        [
+          391,
+          60
+        ],
+        [
+          396,
+          54
+        ],
+        [
+          529,
+          52
+        ],
+        [
+          529,
+          52
+        ],
+        [
+          578,
+          73
+        ],
+        [
+          581,
+          80
+        ],
+        [
+          732,
+          151
+        ],
+        [
+          732,
+          151
+        ],
+        [
+          731,
+          344
+        ],
+        [
+          112,
+          343
+        ],
+        [
+          9,
+          179
+        ],
+        [
+          10,
+          60
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          446,
+          223
+        ],
+        [
+          431,
+          227
+        ],
+        [
+          433,
+          237
+        ],
+        [
+          447,
+          233
+        ],
+        [
+          446,
+          222
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          452,
+          178
+        ],
+        [
+          442,
+          189
+        ],
+        [
+          448,
+          193
+        ],
+        [
+          458,
+          183
+        ],
+        [
+          452,
+          178
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          250,
+          179
+        ],
+        [
+          241,
+          187
+        ],
+        [
+          244,
+          192
+        ],
+        [
+          255,
+          186
+        ],
+        [
+          250,
+          179
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          126,
+          27
+        ],
+        [
+          139,
+          28
+        ],
+        [
+          139,
+          150
+        ],
+        [
+          126,
+          150
+        ],
+        [
+          124,
+          27
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          375,
+          28
+        ],
+        [
+          384,
+          28
+        ],
+        [
+          386,
+          118
+        ],
+        [
+          370,
+          115
+        ],
+        [
+          372,
+          29
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          592,
+          47
+        ],
+        [
+          606,
+          48
+        ],
+        [
+          603,
+          109
+        ],
+        [
+          605,
+          128
+        ],
+        [
+          591,
+          126
+        ],
+        [
+          591,
+          48
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          631,
+          194
+        ],
+        [
+          651,
+          194
+        ],
+        [
+          651,
+          201
+        ],
+        [
+          632,
+          205
+        ],
+        [
+          632,
+          195
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H0",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T2+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T3+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T4+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T5+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T6+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T6+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T6",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T7+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T7",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T8+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T8",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T9+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T9",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector"
+  },
+  "educational_context": {
+    "subject": "earth_science",
+    "diagram_type": "flow_diagram",
+    "text_content": "volcano lava flow volcanic pipe lava flow laccolith exposed by erosion sill dike laccolith dike batholith"
+  },
+  "questions": [
+    {
+      "question_text": "Of volcano and volcanic pipes, which are usually narrower ?",
+      "question_id": "1698.png-1",
+      "answers": [
+        "vocano",
+        "None",
+        "volcanic pipes",
+        "Dike"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "The letter H represents which of the following?",
+      "question_id": "1698.png-0",
+      "answers": [
+        "Batholith",
+        "Volcano",
+        "Laccolith exposed by erosion",
+        "Sill"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which letter represents a volcanic pipe?",
+      "question_id": "1698.png-2",
+      "answers": [
+        "D",
+        "B",
+        "C",
+        "A"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}

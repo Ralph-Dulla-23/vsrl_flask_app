@@ -1,0 +1,510 @@
+{
+  "image_id": "473",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          66,
+          14
+        ],
+        [
+          140,
+          30
+        ]
+      ],
+      "value": "duckweed",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          6,
+          72
+        ],
+        [
+          60,
+          92
+        ]
+      ],
+      "value": "TADPOLE",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          189,
+          12
+        ],
+        [
+          233,
+          28
+        ]
+      ],
+      "value": "tilapia",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          220,
+          64
+        ],
+        [
+          290,
+          84
+        ]
+      ],
+      "value": "Kingfisher",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          107,
+          147
+        ],
+        [
+          187,
+          177
+        ]
+      ],
+      "value": "GREAT DIVING BEETLE",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          61,
+          25
+        ],
+        [
+          27,
+          67
+        ],
+        [
+          33,
+          73
+        ],
+        [
+          68,
+          32
+        ],
+        [
+          63,
+          23
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          148,
+          13
+        ],
+        [
+          191,
+          16
+        ],
+        [
+          188,
+          25
+        ],
+        [
+          143,
+          24
+        ],
+        [
+          146,
+          16
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          200,
+          35
+        ],
+        [
+          154,
+          136
+        ],
+        [
+          161,
+          137
+        ],
+        [
+          212,
+          38
+        ],
+        [
+          212,
+          38
+        ],
+        [
+          200,
+          34
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          222,
+          27
+        ],
+        [
+          244,
+          63
+        ],
+        [
+          255,
+          59
+        ],
+        [
+          228,
+          22
+        ],
+        [
+          223,
+          29
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          247,
+          85
+        ],
+        [
+          184,
+          145
+        ],
+        [
+          192,
+          153
+        ],
+        [
+          192,
+          153
+        ],
+        [
+          257,
+          93
+        ],
+        [
+          248,
+          83
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          32,
+          97
+        ],
+        [
+          102,
+          156
+        ],
+        [
+          108,
+          147
+        ],
+        [
+          38,
+          93
+        ],
+        [
+          32,
+          97
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H4",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H5",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+T1",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T1",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T0+A1+T2",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T2",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T1+A5+T4",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T4",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T2+A3+T3",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T3",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T4+A2+T2",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T2",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T4+A4+T3",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T3",
+      "connector": "A4",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "duckweed tadpole tilapia kingfisher great diving beetle"
+  },
+  "questions": [
+    {
+      "question_text": "From the above food chain diagram, tadpole could be referred to as",
+      "question_id": "473.png-6",
+      "answers": [
+        "predator",
+        "energy source",
+        "prey",
+        "producer"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the above food chain diagram, which of the following species compete for the tilapia for food",
+      "question_id": "473.png-10",
+      "answers": [
+        "bettle",
+        "duck",
+        "kingfisher",
+        "tadpole"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "If the Kingfisher in the community below were destroyed, which population would be most directly affected?",
+      "question_id": "473.png-5",
+      "answers": [
+        "Tadpole",
+        "Duckweed",
+        "Tilapia",
+        "None of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is a primary consumer?",
+      "question_id": "473.png-2",
+      "answers": [
+        "great diving beetle",
+        "kingfisher",
+        "duckweed",
+        "tadpole"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is a producer in this diagram?",
+      "question_id": "473.png-8",
+      "answers": [
+        "great diving beetle",
+        "tilapia",
+        "kingfisher",
+        "duckweed"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is a secondary consumer?",
+      "question_id": "473.png-3",
+      "answers": [
+        "duckweed",
+        "great diving beetle",
+        "tadpole",
+        "kingfisher"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the relationship between kingfisher and tilapia?",
+      "question_id": "473.png-9",
+      "answers": [
+        "competition",
+        "host-parasite",
+        "predator-prey",
+        "mutualism"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would happen if the tadpole population increased?",
+      "question_id": "473.png-0",
+      "answers": [
+        "great diving beetles would decrease",
+        "duckweed would decrease",
+        "tilapia would increase",
+        "kingfisher increased"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would happen to the other organisms if the number of tadpoles were decreased?",
+      "question_id": "473.png-1",
+      "answers": [
+        "Kingfisher population would increase",
+        "Beetle population would decrease",
+        "Duckweed would decrease",
+        "None of the above"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which of the following organisms are decomposers?",
+      "question_id": "473.png-4",
+      "answers": [
+        "Worms",
+        "Algae",
+        "Bacteria",
+        "Birds"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which organism is a producer?",
+      "question_id": "473.png-7",
+      "answers": [
+        "Kingfisher",
+        "Duckweed",
+        "Tadpole",
+        "Beetle"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

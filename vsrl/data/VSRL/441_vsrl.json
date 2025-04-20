@@ -1,0 +1,194 @@
+{
+  "image_id": "441",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          14,
+          32
+        ],
+        [
+          46,
+          48
+        ]
+      ],
+      "value": "Earth",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          119,
+          35
+        ],
+        [
+          149,
+          46
+        ]
+      ],
+      "value": "Moon",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          61,
+          87
+        ],
+        [
+          85,
+          102
+        ]
+      ],
+      "value": "Sun",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          90,
+          79
+        ],
+        [
+          109,
+          60
+        ],
+        [
+          112,
+          62
+        ],
+        [
+          118,
+          49
+        ],
+        [
+          105,
+          51
+        ],
+        [
+          107,
+          55
+        ],
+        [
+          82,
+          73
+        ],
+        [
+          88,
+          77
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          35,
+          58
+        ],
+        [
+          51,
+          75
+        ],
+        [
+          48,
+          77
+        ],
+        [
+          61,
+          78
+        ],
+        [
+          58,
+          68
+        ],
+        [
+          54,
+          69
+        ],
+        [
+          43,
+          52
+        ],
+        [
+          36,
+          58
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A1+T2",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T2",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T2+A0+T1",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T1",
+      "connector": "A0",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "A0": "connector",
+    "A1": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "earth moon sun"
+  },
+  "questions": [
+    {
+      "question_text": "What is before the moon in this cycle?",
+      "question_id": "441.png-0",
+      "answers": [
+        "Sun",
+        "Mars",
+        "The other moon",
+        "Earth"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

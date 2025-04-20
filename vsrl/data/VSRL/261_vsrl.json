@@ -1,0 +1,470 @@
+{
+  "image_id": "261",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          8,
+          35
+        ],
+        [
+          171,
+          80
+        ]
+      ],
+      "value": "TUSSOCK GRASS. (producer)",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          250,
+          23
+        ],
+        [
+          393,
+          88
+        ]
+      ],
+      "value": "(herbivore) GRASSHOPPER (primary consumer)",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          444,
+          23
+        ],
+        [
+          586,
+          83
+        ]
+      ],
+      "value": "(carnivore) DRAGON _ (secondary consumer)",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          623,
+          20
+        ],
+        [
+          752,
+          88
+        ]
+      ],
+      "value": "(omnivore) QUOLL (tertiary consumer)",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          354,
+          89
+        ],
+        [
+          490,
+          154
+        ]
+      ],
+      "value": "(omnivore) FOX (tertiary consumer)",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          170,
+          49
+        ],
+        [
+          242,
+          49
+        ],
+        [
+          244,
+          60
+        ],
+        [
+          168,
+          59
+        ],
+        [
+          166,
+          54
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          324,
+          79
+        ],
+        [
+          384,
+          125
+        ],
+        [
+          391,
+          119
+        ],
+        [
+          334,
+          74
+        ],
+        [
+          322,
+          77
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          398,
+          45
+        ],
+        [
+          475,
+          48
+        ],
+        [
+          472,
+          62
+        ],
+        [
+          398,
+          59
+        ],
+        [
+          399,
+          51
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          452,
+          117
+        ],
+        [
+          526,
+          72
+        ],
+        [
+          536,
+          77
+        ],
+        [
+          461,
+          123
+        ],
+        [
+          449,
+          119
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          572,
+          48
+        ],
+        [
+          646,
+          49
+        ],
+        [
+          646,
+          57
+        ],
+        [
+          572,
+          59
+        ],
+        [
+          572,
+          49
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H4",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+T1",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T1",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T1+A2+T2",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T2",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T2+A4+T3",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T3",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T4+A1+T1",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T1",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T4+A3+T2",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T2",
+      "connector": "A3",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "tussock grass. (producer) (herbivore) grasshopper (primary consumer) (carnivore) dragon _ (secondary consumer) (omnivore) quoll (tertiary consumer) (omnivore) fox (tertiary consumer)"
+  },
+  "questions": [
+    {
+      "question_text": "According to the given food web, which is the lowest organism?",
+      "question_id": "261.png-4",
+      "answers": [
+        "dragon",
+        "fox",
+        "tussock grass",
+        "grasshopper"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "According to the given food web, which organism is not a prey?",
+      "question_id": "261.png-7",
+      "answers": [
+        "grass",
+        "fox",
+        "dragon",
+        "grasshopper"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Base your answers on the diagram below and on your knowledge of science. The diagram shows a relationship between several organisms, labeled A, B, C, and D. Which organism in the diagram is a producer?",
+      "question_id": "261.png-3",
+      "answers": [
+        "dragon(B) grasshopper(C) fox(D)tussock grass",
+        "dragon",
+        "tussock grass",
+        "grasshopper"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "How will it most likely affect the ecosystem if the population of grass increases?",
+      "question_id": "261.png-2",
+      "answers": [
+        "Remain same",
+        "Grasshopper will decrease",
+        "Grasshopper will increase",
+        "None of above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "If humans were to eliminate the dragon from the given ecosystem, which organisms would most likely starve?",
+      "question_id": "261.png-8",
+      "answers": [
+        "Grass",
+        "Quoll",
+        "Fox",
+        "Grasshopper"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Tom was studying energy flow in food web. Which receives its energy from the dragon?",
+      "question_id": "261.png-10",
+      "answers": [
+        "Quoll",
+        "Grasshopper",
+        "Tussock Grass",
+        "None of the Above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is a tertiary consumer shown here?",
+      "question_id": "261.png-11",
+      "answers": [
+        "quoll",
+        "dragon",
+        "fox",
+        "grasshopper"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What organism represents the producer of the food web shown?",
+      "question_id": "261.png-5",
+      "answers": [
+        "fox",
+        "water",
+        "tussock grass",
+        "grasshopper"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which is the primary producer in the web?",
+      "question_id": "261.png-9",
+      "answers": [
+        "quoll",
+        "tussock grass",
+        "dragon",
+        "none of the above"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which is the secondary consumer in this food chain?",
+      "question_id": "261.png-0",
+      "answers": [
+        "Dragon",
+        "Quoll",
+        "Fox",
+        "Grasshopper"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which of the following organisms in this food web obtains energy from both primary consumers and secondary consumers?",
+      "question_id": "261.png-6",
+      "answers": [
+        "Fox",
+        "Grass",
+        "Grasshopper",
+        "None of above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which organism does not eat animals?",
+      "question_id": "261.png-1",
+      "answers": [
+        "Grasshopper",
+        "Dragon",
+        "Quoll",
+        "Fox"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

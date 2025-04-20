@@ -1,0 +1,678 @@
+{
+  "image_id": "2553",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          367,
+          21
+        ],
+        [
+          417,
+          41
+        ]
+      ],
+      "value": "Sun",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          516,
+          145
+        ],
+        [
+          692,
+          171
+        ]
+      ],
+      "value": "Morning crescent",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          337,
+          248
+        ],
+        [
+          461,
+          274
+        ]
+      ],
+      "value": "New Moon",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          134,
+          444
+        ],
+        [
+          209,
+          474
+        ]
+      ],
+      "value": "Earth",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          134,
+          139
+        ],
+        [
+          316,
+          175
+        ]
+      ],
+      "value": "Evening crescent",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          193,
+          196
+        ],
+        [
+          178,
+          229
+        ],
+        [
+          207,
+          262
+        ],
+        [
+          241,
+          259
+        ],
+        [
+          250,
+          223
+        ],
+        [
+          210,
+          189
+        ],
+        [
+          198,
+          195
+        ],
+        [
+          194,
+          197
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          370,
+          46
+        ],
+        [
+          361,
+          86
+        ],
+        [
+          378,
+          110
+        ],
+        [
+          433,
+          110
+        ],
+        [
+          428,
+          51
+        ],
+        [
+          388,
+          40
+        ],
+        [
+          368,
+          43
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          543,
+          218
+        ],
+        [
+          592,
+          186
+        ],
+        [
+          630,
+          220
+        ],
+        [
+          612,
+          264
+        ],
+        [
+          563,
+          259
+        ],
+        [
+          545,
+          218
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          406,
+          172
+        ],
+        [
+          432,
+          201
+        ],
+        [
+          424,
+          246
+        ],
+        [
+          367,
+          242
+        ],
+        [
+          353,
+          195
+        ],
+        [
+          405,
+          170
+        ]
+      ],
+      "category": "object"
+    },
+    "B4": {
+      "id": "B4",
+      "type": "blob",
+      "polygon": [
+        [
+          215,
+          529
+        ],
+        [
+          246,
+          403
+        ],
+        [
+          360,
+          331
+        ],
+        [
+          477,
+          338
+        ],
+        [
+          577,
+          412
+        ],
+        [
+          597,
+          539
+        ],
+        [
+          597,
+          539
+        ],
+        [
+          590,
+          538
+        ],
+        [
+          596,
+          534
+        ],
+        [
+          596,
+          534
+        ],
+        [
+          215,
+          533
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          1,
+          318
+        ],
+        [
+          9,
+          315
+        ],
+        [
+          42,
+          314
+        ],
+        [
+          40,
+          305
+        ],
+        [
+          22,
+          308
+        ],
+        [
+          66,
+          282
+        ],
+        [
+          137,
+          253
+        ],
+        [
+          184,
+          238
+        ],
+        [
+          183,
+          231
+        ],
+        [
+          134,
+          248
+        ],
+        [
+          61,
+          277
+        ],
+        [
+          16,
+          305
+        ],
+        [
+          24,
+          286
+        ],
+        [
+          24,
+          281
+        ],
+        [
+          20,
+          281
+        ],
+        [
+          10,
+          303
+        ],
+        [
+          9,
+          308
+        ],
+        [
+          1,
+          316
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          242,
+          219
+        ],
+        [
+          340,
+          208
+        ],
+        [
+          363,
+          208
+        ],
+        [
+          362,
+          214
+        ],
+        [
+          299,
+          218
+        ],
+        [
+          246,
+          226
+        ],
+        [
+          244,
+          218
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          422,
+          204
+        ],
+        [
+          455,
+          207
+        ],
+        [
+          504,
+          212
+        ],
+        [
+          550,
+          219
+        ],
+        [
+          560,
+          222
+        ],
+        [
+          562,
+          231
+        ],
+        [
+          529,
+          224
+        ],
+        [
+          459,
+          214
+        ],
+        [
+          425,
+          215
+        ],
+        [
+          424,
+          207
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          618,
+          236
+        ],
+        [
+          655,
+          249
+        ],
+        [
+          715,
+          273
+        ],
+        [
+          740,
+          287
+        ],
+        [
+          771,
+          283
+        ],
+        [
+          775,
+          287
+        ],
+        [
+          748,
+          293
+        ],
+        [
+          790,
+          318
+        ],
+        [
+          791,
+          327
+        ],
+        [
+          785,
+          324
+        ],
+        [
+          750,
+          300
+        ],
+        [
+          757,
+          317
+        ],
+        [
+          754,
+          317
+        ],
+        [
+          747,
+          317
+        ],
+        [
+          737,
+          297
+        ],
+        [
+          730,
+          289
+        ],
+        [
+          662,
+          260
+        ],
+        [
+          618,
+          247
+        ],
+        [
+          619,
+          239
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H0",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B2+A2+B3",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B3",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "B3+A1+B0",
+      "type": "interObjectLinkage",
+      "source": "B3",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T0+B1",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B2",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B3",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B4",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B0",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "B4": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "sun morning crescent new moon earth evening crescent"
+  },
+  "questions": [
+    {
+      "question_text": "From new moon to full moon phase you see",
+      "question_id": "2553.png-0",
+      "answers": [
+        "an increasing amount of the lighted side of the moon",
+        "a decreasing amount of the lighted side of the moon",
+        "the same amount of the lighted side of the moon",
+        "more of the lighted side, then less of the lighted side of the moon"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is described by B on the diagram?",
+      "question_id": "2553.png-1",
+      "answers": [
+        "new moon",
+        "sun",
+        "earth",
+        "full moon"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is shown by C?",
+      "question_id": "2553.png-3",
+      "answers": [
+        "full moon",
+        "waxing moon",
+        "morning crescent",
+        "half moon"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "What part of the diagram represents the evening crescent?",
+      "question_id": "2553.png-2",
+      "answers": [
+        "A",
+        "B",
+        "D",
+        "C"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "What part of the diagram represents the new moon?",
+      "question_id": "2553.png-4",
+      "answers": [
+        "A",
+        "B",
+        "D",
+        "C"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

@@ -1,0 +1,580 @@
+{
+  "image_id": "1903",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          507,
+          175
+        ],
+        [
+          681,
+          243
+        ]
+      ],
+      "value": "TERTIARY CONSUMER 4TH TROPHIC LEVEL ( POLAR BEAR)",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          118,
+          533
+        ],
+        [
+          284,
+          599
+        ]
+      ],
+      "value": "PRIMARY CONSUMER 2ND TROPHIC LEVEL (ARCTIC HARE)",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          526,
+          531
+        ],
+        [
+          697,
+          599
+        ]
+      ],
+      "value": "PRIMARY PRODUCER 1ST TROPHIC LEVEL (ARCTIC MOSS)",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          93,
+          184
+        ],
+        [
+          283,
+          248
+        ]
+      ],
+      "value": "SECONDARY CONSUMER 3RD TROPHIC LEVEL (TUNDRA WOLF)",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          63,
+          21
+        ],
+        [
+          64,
+          184
+        ],
+        [
+          290,
+          182
+        ],
+        [
+          294,
+          21
+        ],
+        [
+          62,
+          22
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          487,
+          30
+        ],
+        [
+          484,
+          178
+        ],
+        [
+          714,
+          180
+        ],
+        [
+          716,
+          32
+        ],
+        [
+          488,
+          32
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          493,
+          519
+        ],
+        [
+          542,
+          531
+        ],
+        [
+          712,
+          525
+        ],
+        [
+          711,
+          379
+        ],
+        [
+          486,
+          378
+        ],
+        [
+          489,
+          517
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          65,
+          373
+        ],
+        [
+          65,
+          529
+        ],
+        [
+          320,
+          527
+        ],
+        [
+          316,
+          371
+        ],
+        [
+          64,
+          373
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          387,
+          85
+        ],
+        [
+          417,
+          116
+        ],
+        [
+          314,
+          116
+        ],
+        [
+          314,
+          138
+        ],
+        [
+          412,
+          142
+        ],
+        [
+          382,
+          172
+        ],
+        [
+          392,
+          191
+        ],
+        [
+          453,
+          134
+        ],
+        [
+          450,
+          122
+        ],
+        [
+          396,
+          68
+        ],
+        [
+          380,
+          80
+        ],
+        [
+          386,
+          82
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          119,
+          293
+        ],
+        [
+          172,
+          245
+        ],
+        [
+          228,
+          297
+        ],
+        [
+          212,
+          311
+        ],
+        [
+          183,
+          281
+        ],
+        [
+          182,
+          367
+        ],
+        [
+          162,
+          369
+        ],
+        [
+          161,
+          284
+        ],
+        [
+          132,
+          310
+        ],
+        [
+          118,
+          307
+        ],
+        [
+          118,
+          293
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          383,
+          379
+        ],
+        [
+          340,
+          443
+        ],
+        [
+          381,
+          510
+        ],
+        [
+          397,
+          499
+        ],
+        [
+          372,
+          458
+        ],
+        [
+          445,
+          457
+        ],
+        [
+          451,
+          434
+        ],
+        [
+          443,
+          430
+        ],
+        [
+          371,
+          431
+        ],
+        [
+          397,
+          394
+        ],
+        [
+          397,
+          381
+        ],
+        [
+          384,
+          377
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H2",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H1",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A0+B1",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B1",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "B2+A2+B3",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B3",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "B3+A1+B0",
+      "type": "interObjectLinkage",
+      "source": "B3",
+      "target": "B0",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T0+B1",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B3",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B2",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "tertiary consumer 4th trophic level ( polar bear) primary consumer 2nd trophic level (arctic hare) primary producer 1st trophic level (arctic moss) secondary consumer 3rd trophic level (tundra wolf)"
+  },
+  "questions": [
+    {
+      "question_text": "A food chain is shown. Which is the primary producer?",
+      "question_id": "1903.png-8",
+      "answers": [
+        "arctic moss",
+        "arctic hare",
+        "tundra wolf",
+        "polar bear"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the above food web diagram, which of the species is predator and prey",
+      "question_id": "1903.png-7",
+      "answers": [
+        "wolf",
+        "bear",
+        "rabbit",
+        "moss"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "In a food chain, the tertiary consumer included in?",
+      "question_id": "1903.png-5",
+      "answers": [
+        "second trophic level",
+        "fourth trophic level",
+        "first trophic level",
+        "third trophic level"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "The first organism affected by a loss of sunlight in the ecosystem shown below would be:",
+      "question_id": "1903.png-2",
+      "answers": [
+        "Arctic hare",
+        "Tundra wolf",
+        "Polar bear",
+        "Arctic moss"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is at the 2nd trophic level?",
+      "question_id": "1903.png-6",
+      "answers": [
+        "polar bear",
+        "tundra wolf",
+        "arctic hare",
+        "arctic moss"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is at the 3rd trophic level?",
+      "question_id": "1903.png-9",
+      "answers": [
+        "arctic moss",
+        "tundra wolf",
+        "polar bear",
+        "arctic hare"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is at the top of the food chain?",
+      "question_id": "1903.png-4",
+      "answers": [
+        "arctic moss",
+        "tundra wolf",
+        "polar bear",
+        "arctic hare"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is at the top of this food web?",
+      "question_id": "1903.png-0",
+      "answers": [
+        "arctic moss",
+        "arctic hare",
+        "polar bear",
+        "tundra wolf"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the primary producer?",
+      "question_id": "1903.png-1",
+      "answers": [
+        "arctic moss",
+        "polar bear",
+        "tundra wolf",
+        "arctic hare"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What level consumer is the polar bear?",
+      "question_id": "1903.png-10",
+      "answers": [
+        "primary",
+        "tertiary",
+        "secondary",
+        "producer"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which organism provides energy that is used by all the other organisms in the diagram?",
+      "question_id": "1903.png-3",
+      "answers": [
+        "Tundra",
+        "Polar bear",
+        "Arctic moss",
+        "Arctic hare"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

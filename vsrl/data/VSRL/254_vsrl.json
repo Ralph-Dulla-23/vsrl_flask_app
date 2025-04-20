@@ -1,0 +1,978 @@
+{
+  "image_id": "254",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          87,
+          73
+        ],
+        [
+          139,
+          86
+        ]
+      ],
+      "value": "carnivores",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          162,
+          100
+        ],
+        [
+          233,
+          110
+        ]
+      ],
+      "value": "sucking insects",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          3,
+          97
+        ],
+        [
+          66,
+          120
+        ]
+      ],
+      "value": "predatory invertebrates",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          85,
+          169
+        ],
+        [
+          143,
+          182
+        ]
+      ],
+      "value": "detritivores",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          67,
+          268
+        ],
+        [
+          159,
+          290
+        ]
+      ],
+      "value": "primary producers (plants)",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          15,
+          86
+        ],
+        [
+          6,
+          84
+        ],
+        [
+          14,
+          74
+        ],
+        [
+          24,
+          75
+        ],
+        [
+          22,
+          67
+        ],
+        [
+          39,
+          72
+        ],
+        [
+          45,
+          62
+        ],
+        [
+          55,
+          59
+        ],
+        [
+          44,
+          71
+        ],
+        [
+          49,
+          88
+        ],
+        [
+          54,
+          97
+        ],
+        [
+          48,
+          88
+        ],
+        [
+          42,
+          77
+        ],
+        [
+          41,
+          81
+        ],
+        [
+          33,
+          83
+        ],
+        [
+          33,
+          83
+        ],
+        [
+          23,
+          76
+        ],
+        [
+          15,
+          75
+        ],
+        [
+          8,
+          82
+        ],
+        [
+          7,
+          83
+        ],
+        [
+          16,
+          88
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          66,
+          8
+        ],
+        [
+          89,
+          8
+        ],
+        [
+          114,
+          8
+        ],
+        [
+          141,
+          14
+        ],
+        [
+          166,
+          21
+        ],
+        [
+          139,
+          16
+        ],
+        [
+          142,
+          27
+        ],
+        [
+          132,
+          33
+        ],
+        [
+          142,
+          28
+        ],
+        [
+          139,
+          14
+        ],
+        [
+          124,
+          17
+        ],
+        [
+          116,
+          31
+        ],
+        [
+          124,
+          19
+        ],
+        [
+          139,
+          14
+        ],
+        [
+          95,
+          9
+        ],
+        [
+          92,
+          21
+        ],
+        [
+          99,
+          21
+        ],
+        [
+          91,
+          32
+        ],
+        [
+          94,
+          24
+        ],
+        [
+          90,
+          20
+        ],
+        [
+          79,
+          20
+        ],
+        [
+          68,
+          31
+        ],
+        [
+          81,
+          22
+        ],
+        [
+          72,
+          19
+        ],
+        [
+          58,
+          15
+        ],
+        [
+          64,
+          8
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          190,
+          83
+        ],
+        [
+          176,
+          91
+        ],
+        [
+          169,
+          87
+        ],
+        [
+          185,
+          78
+        ],
+        [
+          166,
+          74
+        ],
+        [
+          191,
+          70
+        ],
+        [
+          193,
+          63
+        ],
+        [
+          196,
+          76
+        ],
+        [
+          225,
+          74
+        ],
+        [
+          207,
+          81
+        ],
+        [
+          224,
+          87
+        ],
+        [
+          207,
+          80
+        ],
+        [
+          199,
+          79
+        ],
+        [
+          218,
+          90
+        ],
+        [
+          210,
+          92
+        ],
+        [
+          191,
+          83
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          79,
+          147
+        ],
+        [
+          89,
+          143
+        ],
+        [
+          90,
+          130
+        ],
+        [
+          90,
+          142
+        ],
+        [
+          99,
+          141
+        ],
+        [
+          103,
+          148
+        ],
+        [
+          107,
+          147
+        ],
+        [
+          115,
+          151
+        ],
+        [
+          124,
+          143
+        ],
+        [
+          130,
+          148
+        ],
+        [
+          130,
+          148
+        ],
+        [
+          139,
+          151
+        ],
+        [
+          141,
+          147
+        ],
+        [
+          144,
+          151
+        ],
+        [
+          144,
+          158
+        ],
+        [
+          140,
+          161
+        ],
+        [
+          132,
+          160
+        ],
+        [
+          127,
+          160
+        ],
+        [
+          122,
+          160
+        ],
+        [
+          118,
+          160
+        ],
+        [
+          106,
+          160
+        ],
+        [
+          106,
+          160
+        ],
+        [
+          103,
+          162
+        ],
+        [
+          99,
+          160
+        ],
+        [
+          96,
+          156
+        ],
+        [
+          93,
+          152
+        ],
+        [
+          86,
+          146
+        ],
+        [
+          88,
+          143
+        ],
+        [
+          79,
+          149
+        ]
+      ],
+      "category": "object"
+    },
+    "B4": {
+      "id": "B4",
+      "type": "blob",
+      "polygon": [
+        [
+          91,
+          237
+        ],
+        [
+          85,
+          228
+        ],
+        [
+          98,
+          220
+        ],
+        [
+          92,
+          219
+        ],
+        [
+          99,
+          216
+        ],
+        [
+          102,
+          223
+        ],
+        [
+          114,
+          224
+        ],
+        [
+          123,
+          220
+        ],
+        [
+          136,
+          230
+        ],
+        [
+          132,
+          237
+        ],
+        [
+          122,
+          229
+        ],
+        [
+          112,
+          228
+        ],
+        [
+          114,
+          234
+        ],
+        [
+          115,
+          249
+        ],
+        [
+          119,
+          262
+        ],
+        [
+          101,
+          261
+        ],
+        [
+          107,
+          246
+        ],
+        [
+          108,
+          233
+        ],
+        [
+          104,
+          233
+        ],
+        [
+          99,
+          233
+        ],
+        [
+          98,
+          236
+        ],
+        [
+          92,
+          237
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          63,
+          146
+        ],
+        [
+          44,
+          125
+        ],
+        [
+          51,
+          119
+        ],
+        [
+          73,
+          138
+        ],
+        [
+          66,
+          146
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          102,
+          124
+        ],
+        [
+          105,
+          101
+        ],
+        [
+          122,
+          103
+        ],
+        [
+          117,
+          126
+        ],
+        [
+          104,
+          127
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          145,
+          217
+        ],
+        [
+          188,
+          121
+        ],
+        [
+          201,
+          124
+        ],
+        [
+          155,
+          226
+        ],
+        [
+          144,
+          219
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          187,
+          54
+        ],
+        [
+          168,
+          31
+        ],
+        [
+          176,
+          23
+        ],
+        [
+          194,
+          46
+        ],
+        [
+          189,
+          57
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          31,
+          44
+        ],
+        [
+          48,
+          26
+        ],
+        [
+          59,
+          34
+        ],
+        [
+          37,
+          54
+        ],
+        [
+          31,
+          46
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          103,
+          212
+        ],
+        [
+          106,
+          185
+        ],
+        [
+          120,
+          185
+        ],
+        [
+          118,
+          214
+        ],
+        [
+          106,
+          214
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H4",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H5",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A4+B1",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B1",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "B2+A3+B1",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B1",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "B3+A0+B0",
+      "type": "interObjectLinkage",
+      "source": "B3",
+      "target": "B0",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "B3+A1+B1",
+      "type": "interObjectLinkage",
+      "source": "B3",
+      "target": "B1",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "B4+A2+B2",
+      "type": "interObjectLinkage",
+      "source": "B4",
+      "target": "B2",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "B4+A5+B3",
+      "type": "interObjectLinkage",
+      "source": "B4",
+      "target": "B3",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T0+B1",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B2",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B3",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B4",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B4",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "B4": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "carnivores sucking insects predatory invertebrates detritivores primary producers (plants)"
+  },
+  "questions": [
+    {
+      "question_text": "In the food web diagram that is shown, which is the producer?",
+      "question_id": "254.png-1",
+      "answers": [
+        "plants",
+        "sucking insects",
+        "predatory invertebrates",
+        "carnivores"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the food web diagram that is shown, which organism consumes detritivores as food?",
+      "question_id": "254.png-0",
+      "answers": [
+        "predatory invertebrates",
+        "primary producers",
+        "sucking insects",
+        "carnivores"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Lizards are what type of organism according to this diagram?",
+      "question_id": "254.png-2",
+      "answers": [
+        "sad",
+        "carnivores",
+        "happy",
+        "herbivores"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Plants are what type of producers in this chart?",
+      "question_id": "254.png-5",
+      "answers": [
+        "unimportant",
+        "tertiary",
+        "secondary",
+        "primary"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is on the top of the food chain?",
+      "question_id": "254.png-3",
+      "answers": [
+        "Detritivores",
+        "Sucking insects",
+        "Plants",
+        "Carnivores"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What represents primary producers in the diagram?",
+      "question_id": "254.png-4",
+      "answers": [
+        "Carnivores",
+        "Predatory invertebrates",
+        "Plants",
+        "Sucking insects"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

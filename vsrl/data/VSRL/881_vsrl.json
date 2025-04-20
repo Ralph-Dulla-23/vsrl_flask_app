@@ -1,0 +1,364 @@
+{
+  "image_id": "881",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          344,
+          61
+        ],
+        [
+          408,
+          81
+        ]
+      ],
+      "value": "Chicken",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          284,
+          252
+        ],
+        [
+          372,
+          273
+        ]
+      ],
+      "value": "Earthworm",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          139,
+          164
+        ],
+        [
+          186,
+          183
+        ]
+      ],
+      "value": "Plant",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          91,
+          73
+        ],
+        [
+          123,
+          92
+        ]
+      ],
+      "value": "Fox",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          165,
+          151
+        ],
+        [
+          354,
+          74
+        ],
+        [
+          357,
+          89
+        ],
+        [
+          171,
+          169
+        ],
+        [
+          166,
+          155
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          123,
+          91
+        ],
+        [
+          345,
+          71
+        ],
+        [
+          347,
+          64
+        ],
+        [
+          124,
+          79
+        ],
+        [
+          123,
+          89
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          365,
+          84
+        ],
+        [
+          328,
+          250
+        ],
+        [
+          338,
+          253
+        ],
+        [
+          374,
+          86
+        ],
+        [
+          364,
+          83
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          181,
+          178
+        ],
+        [
+          290,
+          252
+        ],
+        [
+          290,
+          252
+        ],
+        [
+          298,
+          251
+        ],
+        [
+          186,
+          168
+        ],
+        [
+          179,
+          180
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A1+T3",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T3",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T1+A2+T0",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T0",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T2+A0+T0",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T0",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T2+A3+T1",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T1",
+      "connector": "A3",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "chicken earthworm plant fox"
+  },
+  "questions": [
+    {
+      "question_text": "From the above food web diagram, what happens if all the plants dies",
+      "question_id": "881.png-3",
+      "answers": [
+        "earthworm increases",
+        "earthworm decreases",
+        "chicken increases",
+        "fox increases"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the above food web diagram, which species is producer",
+      "question_id": "881.png-1",
+      "answers": [
+        "chicken",
+        "fox",
+        "plants",
+        "earthworm"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the above food web diagram, which species will be most directly affected by a decrease in the amount of plants",
+      "question_id": "881.png-0",
+      "answers": [
+        "earthworm only",
+        "fox only",
+        "chicken only",
+        "chicken and earthworm"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "How many predators does the chicken have?",
+      "question_id": "881.png-6",
+      "answers": [
+        "3",
+        "4",
+        "2",
+        "1"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would happen if all the foxed were removed?",
+      "question_id": "881.png-4",
+      "answers": [
+        "plants would decrease",
+        "plants would increase",
+        "earthworms would die",
+        "chickens wold increase"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which organism in the diagram below would be most affected by a lack of sunlight?",
+      "question_id": "881.png-2",
+      "answers": [
+        "Chicken",
+        "Plant",
+        "Earthworm",
+        "Fox"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which organism is the primary producer in this food chain?",
+      "question_id": "881.png-7",
+      "answers": [
+        "Chicken",
+        "Worm",
+        "Plant",
+        "Fox"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Who feasts on chickens?",
+      "question_id": "881.png-5",
+      "answers": [
+        "Foxes",
+        "None of these",
+        "Worms",
+        "Plants"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

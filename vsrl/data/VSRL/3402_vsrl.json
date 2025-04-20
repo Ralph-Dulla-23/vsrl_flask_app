@@ -1,0 +1,1757 @@
+{
+  "image_id": "3402",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          39,
+          4
+        ],
+        [
+          122,
+          27
+        ]
+      ],
+      "value": "Abdomen",
+      "replacementText": "P",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          196,
+          4
+        ],
+        [
+          259,
+          26
+        ]
+      ],
+      "value": "Thorax",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T10": {
+      "id": "T10",
+      "type": "text",
+      "bbox": [
+        [
+          25,
+          417
+        ],
+        [
+          81,
+          443
+        ]
+      ],
+      "value": "Vagina",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T11": {
+      "id": "T11",
+      "type": "text",
+      "bbox": [
+        [
+          196,
+          508
+        ],
+        [
+          293,
+          546
+        ]
+      ],
+      "value": "Malpighian tubules",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T12": {
+      "id": "T12",
+      "type": "text",
+      "bbox": [
+        [
+          313,
+          501
+        ],
+        [
+          366,
+          522
+        ]
+      ],
+      "value": "Ovary",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T13": {
+      "id": "T13",
+      "type": "text",
+      "bbox": [
+        [
+          380,
+          507
+        ],
+        [
+          458,
+          551
+        ]
+      ],
+      "value": "Tracheal tubes",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T14": {
+      "id": "T14",
+      "type": "text",
+      "bbox": [
+        [
+          467,
+          470
+        ],
+        [
+          519,
+          512
+        ]
+      ],
+      "value": "Nerve cord",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T15": {
+      "id": "T15",
+      "type": "text",
+      "bbox": [
+        [
+          541,
+          484
+        ],
+        [
+          618,
+          505
+        ]
+      ],
+      "value": "Mandible",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T16": {
+      "id": "T16",
+      "type": "text",
+      "bbox": [
+        [
+          640,
+          389
+        ],
+        [
+          771,
+          429
+        ]
+      ],
+      "value": "Subesophageal ganglion",
+      "replacementText": "N",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          300,
+          6
+        ],
+        [
+          350,
+          26
+        ]
+      ],
+      "value": "Head",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          468,
+          116
+        ],
+        [
+          560,
+          137
+        ]
+      ],
+      "value": "Antennae",
+      "replacementText": "M",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          437,
+          163
+        ],
+        [
+          566,
+          184
+        ]
+      ],
+      "value": "Compound eye",
+      "replacementText": "O",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          590,
+          292
+        ],
+        [
+          796,
+          317
+        ]
+      ],
+      "value": "Cerebral ganglion (brain)",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          463,
+          276
+        ],
+        [
+          546,
+          316
+        ]
+      ],
+      "value": "Digestive system",
+      "replacementText": "K",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          334,
+          285
+        ],
+        [
+          395,
+          319
+        ]
+      ],
+      "value": "Dorsal artery",
+      "replacementText": "Q",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          266,
+          287
+        ],
+        [
+          319,
+          309
+        ]
+      ],
+      "value": "Heart",
+      "replacementText": "L",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          36,
+          310
+        ],
+        [
+          83,
+          330
+        ]
+      ],
+      "value": "Anus",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          155,
+          86
+        ],
+        [
+          204,
+          84
+        ],
+        [
+          234,
+          81
+        ],
+        [
+          268,
+          88
+        ],
+        [
+          294,
+          88
+        ],
+        [
+          320,
+          91
+        ],
+        [
+          339,
+          98
+        ],
+        [
+          348,
+          113
+        ],
+        [
+          371,
+          109
+        ],
+        [
+          407,
+          100
+        ],
+        [
+          432,
+          101
+        ],
+        [
+          425,
+          108
+        ],
+        [
+          394,
+          118
+        ],
+        [
+          369,
+          122
+        ],
+        [
+          406,
+          126
+        ],
+        [
+          428,
+          144
+        ],
+        [
+          420,
+          149
+        ],
+        [
+          369,
+          135
+        ],
+        [
+          344,
+          130
+        ],
+        [
+          337,
+          140
+        ],
+        [
+          356,
+          155
+        ],
+        [
+          373,
+          185
+        ],
+        [
+          391,
+          182
+        ],
+        [
+          404,
+          185
+        ],
+        [
+          404,
+          189
+        ],
+        [
+          405,
+          196
+        ],
+        [
+          401,
+          203
+        ],
+        [
+          379,
+          200
+        ],
+        [
+          358,
+          197
+        ],
+        [
+          351,
+          190
+        ],
+        [
+          339,
+          167
+        ],
+        [
+          335,
+          160
+        ],
+        [
+          322,
+          159
+        ],
+        [
+          314,
+          166
+        ],
+        [
+          302,
+          170
+        ],
+        [
+          294,
+          170
+        ],
+        [
+          320,
+          199
+        ],
+        [
+          335,
+          229
+        ],
+        [
+          348,
+          249
+        ],
+        [
+          358,
+          261
+        ],
+        [
+          344,
+          268
+        ],
+        [
+          331,
+          265
+        ],
+        [
+          334,
+          260
+        ],
+        [
+          329,
+          250
+        ],
+        [
+          319,
+          249
+        ],
+        [
+          312,
+          229
+        ],
+        [
+          297,
+          198
+        ],
+        [
+          280,
+          184
+        ],
+        [
+          266,
+          173
+        ],
+        [
+          260,
+          170
+        ],
+        [
+          231,
+          174
+        ],
+        [
+          208,
+          172
+        ],
+        [
+          198,
+          172
+        ],
+        [
+          191,
+          186
+        ],
+        [
+          183,
+          189
+        ],
+        [
+          169,
+          187
+        ],
+        [
+          170,
+          208
+        ],
+        [
+          164,
+          237
+        ],
+        [
+          153,
+          238
+        ],
+        [
+          145,
+          245
+        ],
+        [
+          134,
+          259
+        ],
+        [
+          121,
+          253
+        ],
+        [
+          121,
+          245
+        ],
+        [
+          132,
+          239
+        ],
+        [
+          148,
+          223
+        ],
+        [
+          149,
+          201
+        ],
+        [
+          155,
+          171
+        ],
+        [
+          127,
+          171
+        ],
+        [
+          108,
+          174
+        ],
+        [
+          109,
+          183
+        ],
+        [
+          98,
+          189
+        ],
+        [
+          82,
+          186
+        ],
+        [
+          85,
+          216
+        ],
+        [
+          78,
+          221
+        ],
+        [
+          56,
+          227
+        ],
+        [
+          39,
+          227
+        ],
+        [
+          28,
+          237
+        ],
+        [
+          17,
+          224
+        ],
+        [
+          24,
+          215
+        ],
+        [
+          48,
+          216
+        ],
+        [
+          66,
+          208
+        ],
+        [
+          63,
+          192
+        ],
+        [
+          54,
+          191
+        ],
+        [
+          48,
+          192
+        ],
+        [
+          42,
+          185
+        ],
+        [
+          43,
+          178
+        ],
+        [
+          64,
+          177
+        ],
+        [
+          55,
+          163
+        ],
+        [
+          52,
+          149
+        ],
+        [
+          30,
+          138
+        ],
+        [
+          14,
+          115
+        ],
+        [
+          8,
+          95
+        ],
+        [
+          23,
+          91
+        ],
+        [
+          40,
+          96
+        ],
+        [
+          35,
+          71
+        ],
+        [
+          47,
+          58
+        ],
+        [
+          64,
+          51
+        ],
+        [
+          71,
+          53
+        ],
+        [
+          89,
+          45
+        ],
+        [
+          108,
+          56
+        ],
+        [
+          121,
+          73
+        ],
+        [
+          141,
+          88
+        ],
+        [
+          155,
+          88
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          216,
+          448
+        ],
+        [
+          157,
+          434
+        ],
+        [
+          121,
+          402
+        ],
+        [
+          102,
+          374
+        ],
+        [
+          104,
+          353
+        ],
+        [
+          116,
+          338
+        ],
+        [
+          147,
+          340
+        ],
+        [
+          187,
+          356
+        ],
+        [
+          199,
+          367
+        ],
+        [
+          191,
+          346
+        ],
+        [
+          184,
+          315
+        ],
+        [
+          193,
+          282
+        ],
+        [
+          207,
+          270
+        ],
+        [
+          231,
+          273
+        ],
+        [
+          246,
+          298
+        ],
+        [
+          277,
+          315
+        ],
+        [
+          315,
+          349
+        ],
+        [
+          328,
+          356
+        ],
+        [
+          361,
+          356
+        ],
+        [
+          393,
+          347
+        ],
+        [
+          387,
+          329
+        ],
+        [
+          407,
+          314
+        ],
+        [
+          457,
+          324
+        ],
+        [
+          489,
+          328
+        ],
+        [
+          543,
+          328
+        ],
+        [
+          581,
+          336
+        ],
+        [
+          603,
+          343
+        ],
+        [
+          609,
+          362
+        ],
+        [
+          646,
+          349
+        ],
+        [
+          691,
+          341
+        ],
+        [
+          725,
+          335
+        ],
+        [
+          730,
+          350
+        ],
+        [
+          704,
+          359
+        ],
+        [
+          646,
+          373
+        ],
+        [
+          611,
+          383
+        ],
+        [
+          596,
+          403
+        ],
+        [
+          613,
+          424
+        ],
+        [
+          648,
+          455
+        ],
+        [
+          673,
+          459
+        ],
+        [
+          692,
+          465
+        ],
+        [
+          703,
+          478
+        ],
+        [
+          684,
+          491
+        ],
+        [
+          640,
+          494
+        ],
+        [
+          622,
+          481
+        ],
+        [
+          600,
+          456
+        ],
+        [
+          594,
+          432
+        ],
+        [
+          588,
+          426
+        ],
+        [
+          569,
+          431
+        ],
+        [
+          552,
+          450
+        ],
+        [
+          539,
+          455
+        ],
+        [
+          522,
+          452
+        ],
+        [
+          508,
+          449
+        ],
+        [
+          472,
+          455
+        ],
+        [
+          427,
+          462
+        ],
+        [
+          392,
+          460
+        ],
+        [
+          380,
+          482
+        ],
+        [
+          343,
+          485
+        ],
+        [
+          348,
+          459
+        ],
+        [
+          318,
+          456
+        ],
+        [
+          275,
+          458
+        ],
+        [
+          252,
+          457
+        ],
+        [
+          253,
+          481
+        ],
+        [
+          228,
+          491
+        ],
+        [
+          169,
+          493
+        ],
+        [
+          160,
+          478
+        ],
+        [
+          192,
+          468
+        ],
+        [
+          211,
+          466
+        ],
+        [
+          218,
+          450
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          406,
+          113
+        ],
+        [
+          452,
+          128
+        ],
+        [
+          415,
+          135
+        ],
+        [
+          416,
+          145
+        ],
+        [
+          478,
+          128
+        ],
+        [
+          406,
+          104
+        ],
+        [
+          403,
+          108
+        ],
+        [
+          405,
+          106
+        ],
+        [
+          408,
+          109
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          338,
+          122
+        ],
+        [
+          327,
+          131
+        ],
+        [
+          437,
+          179
+        ],
+        [
+          439,
+          166
+        ],
+        [
+          338,
+          126
+        ]
+      ],
+      "category": "connector"
+    },
+    "A10": {
+      "id": "A10",
+      "type": "arrow",
+      "polygon": [
+        [
+          553,
+          391
+        ],
+        [
+          638,
+          392
+        ],
+        [
+          638,
+          404
+        ],
+        [
+          550,
+          406
+        ],
+        [
+          558,
+          390
+        ],
+        [
+          552,
+          392
+        ]
+      ],
+      "category": "connector"
+    },
+    "A11": {
+      "id": "A11",
+      "type": "arrow",
+      "polygon": [
+        [
+          543,
+          426
+        ],
+        [
+          564,
+          424
+        ],
+        [
+          583,
+          486
+        ],
+        [
+          560,
+          489
+        ],
+        [
+          544,
+          427
+        ]
+      ],
+      "category": "connector"
+    },
+    "A12": {
+      "id": "A12",
+      "type": "arrow",
+      "polygon": [
+        [
+          441,
+          442
+        ],
+        [
+          456,
+          433
+        ],
+        [
+          483,
+          471
+        ],
+        [
+          473,
+          476
+        ],
+        [
+          446,
+          442
+        ],
+        [
+          446,
+          440
+        ],
+        [
+          441,
+          440
+        ]
+      ],
+      "category": "connector"
+    },
+    "A13": {
+      "id": "A13",
+      "type": "arrow",
+      "polygon": [
+        [
+          412,
+          432
+        ],
+        [
+          410,
+          516
+        ],
+        [
+          444,
+          435
+        ],
+        [
+          429,
+          438
+        ],
+        [
+          419,
+          475
+        ],
+        [
+          423,
+          428
+        ],
+        [
+          413,
+          431
+        ]
+      ],
+      "category": "connector"
+    },
+    "A14": {
+      "id": "A14",
+      "type": "arrow",
+      "polygon": [
+        [
+          18,
+          43
+        ],
+        [
+          23,
+          38
+        ],
+        [
+          72,
+          41
+        ],
+        [
+          77,
+          35
+        ],
+        [
+          80,
+          40
+        ],
+        [
+          146,
+          41
+        ],
+        [
+          152,
+          52
+        ],
+        [
+          162,
+          43
+        ],
+        [
+          222,
+          43
+        ],
+        [
+          229,
+          37
+        ],
+        [
+          236,
+          42
+        ],
+        [
+          295,
+          42
+        ],
+        [
+          303,
+          53
+        ],
+        [
+          308,
+          43
+        ],
+        [
+          325,
+          42
+        ],
+        [
+          332,
+          41
+        ],
+        [
+          324,
+          34
+        ],
+        [
+          333,
+          44
+        ],
+        [
+          341,
+          44
+        ],
+        [
+          349,
+          53
+        ],
+        [
+          360,
+          47
+        ],
+        [
+          343,
+          31
+        ],
+        [
+          327,
+          26
+        ],
+        [
+          319,
+          28
+        ],
+        [
+          304,
+          33
+        ],
+        [
+          295,
+          29
+        ],
+        [
+          242,
+          32
+        ],
+        [
+          233,
+          21
+        ],
+        [
+          218,
+          29
+        ],
+        [
+          158,
+          28
+        ],
+        [
+          155,
+          33
+        ],
+        [
+          149,
+          29
+        ],
+        [
+          88,
+          28
+        ],
+        [
+          83,
+          20
+        ],
+        [
+          68,
+          30
+        ],
+        [
+          6,
+          35
+        ],
+        [
+          6,
+          46
+        ],
+        [
+          16,
+          42
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          77,
+          328
+        ],
+        [
+          86,
+          319
+        ],
+        [
+          140,
+          361
+        ],
+        [
+          128,
+          370
+        ],
+        [
+          79,
+          328
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          82,
+          422
+        ],
+        [
+          88,
+          438
+        ],
+        [
+          152,
+          394
+        ],
+        [
+          140,
+          384
+        ],
+        [
+          84,
+          424
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          240,
+          427
+        ],
+        [
+          258,
+          513
+        ],
+        [
+          300,
+          426
+        ],
+        [
+          282,
+          427
+        ],
+        [
+          263,
+          482
+        ],
+        [
+          259,
+          420
+        ],
+        [
+          240,
+          428
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          298,
+          408
+        ],
+        [
+          323,
+          501
+        ],
+        [
+          330,
+          499
+        ],
+        [
+          307,
+          400
+        ],
+        [
+          298,
+          405
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          290,
+          306
+        ],
+        [
+          292,
+          378
+        ],
+        [
+          309,
+          381
+        ],
+        [
+          301,
+          304
+        ],
+        [
+          287,
+          306
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          360,
+          326
+        ],
+        [
+          366,
+          322
+        ],
+        [
+          367,
+          321
+        ],
+        [
+          392,
+          368
+        ],
+        [
+          382,
+          368
+        ],
+        [
+          361,
+          328
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          485,
+          316
+        ],
+        [
+          504,
+          317
+        ],
+        [
+          482,
+          402
+        ],
+        [
+          468,
+          398
+        ],
+        [
+          485,
+          318
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          603,
+          311
+        ],
+        [
+          621,
+          315
+        ],
+        [
+          585,
+          364
+        ],
+        [
+          577,
+          352
+        ],
+        [
+          602,
+          312
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A14+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A14",
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T10+A3+B1",
+      "type": "intraObjectLinkage",
+      "source": "T10",
+      "target": "B1",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T11+A4+B1",
+      "type": "intraObjectLinkage",
+      "source": "T11",
+      "target": "B1",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T12+A5+B1",
+      "type": "intraObjectLinkage",
+      "source": "T12",
+      "target": "B1",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T13+A13+B1",
+      "type": "intraObjectLinkage",
+      "source": "T13",
+      "target": "B1",
+      "connector": "A13",
+      "directional": false
+    },
+    {
+      "id": "T14+A12+B1",
+      "type": "intraObjectLinkage",
+      "source": "T14",
+      "target": "B1",
+      "connector": "A12",
+      "directional": false
+    },
+    {
+      "id": "T15+A11+B1",
+      "type": "intraObjectLinkage",
+      "source": "T15",
+      "target": "B1",
+      "connector": "A11",
+      "directional": false
+    },
+    {
+      "id": "T16+A10+B1",
+      "type": "intraObjectLinkage",
+      "source": "T16",
+      "target": "B1",
+      "connector": "A10",
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T4+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T5+A9+B1",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B1",
+      "connector": "A9",
+      "directional": false
+    },
+    {
+      "id": "T6+A8+B1",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B1",
+      "connector": "A8",
+      "directional": false
+    },
+    {
+      "id": "T7+A7+B1",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B1",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T8+A6+B1",
+      "type": "intraObjectLinkage",
+      "source": "T8",
+      "target": "B1",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T9+A2+B1",
+      "type": "intraObjectLinkage",
+      "source": "T9",
+      "target": "B1",
+      "connector": "A2",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T10": "part_label",
+    "T11": "part_label",
+    "T12": "part_label",
+    "T13": "part_label",
+    "T14": "part_label",
+    "T15": "part_label",
+    "T16": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A10": "connector",
+    "A11": "connector",
+    "A12": "connector",
+    "A13": "connector",
+    "A14": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "abdomen thorax vagina malpighian tubules ovary tracheal tubes nerve cord mandible subesophageal ganglion head antennae compound eye cerebral ganglion (brain) digestive system dorsal artery heart anus"
+  },
+  "questions": []
+}

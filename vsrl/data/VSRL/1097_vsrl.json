@@ -1,0 +1,504 @@
+{
+  "image_id": "1097",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          0
+        ],
+        [
+          27,
+          14
+        ]
+      ],
+      "value": "Leaf",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          6,
+          115
+        ],
+        [
+          45,
+          127
+        ]
+      ],
+      "value": "petiole",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          88,
+          153
+        ],
+        [
+          132,
+          170
+        ]
+      ],
+      "value": "margin",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          6,
+          161
+        ],
+        [
+          45,
+          172
+        ]
+      ],
+      "value": "stipules",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          96,
+          87
+        ],
+        [
+          122,
+          101
+        ]
+      ],
+      "value": "vein",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          95,
+          124
+        ],
+        [
+          125,
+          140
+        ]
+      ],
+      "value": "blade",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          28,
+          49
+        ],
+        [
+          39,
+          34
+        ],
+        [
+          41,
+          34
+        ],
+        [
+          51,
+          26
+        ],
+        [
+          55,
+          24
+        ],
+        [
+          68,
+          16
+        ],
+        [
+          69,
+          18
+        ],
+        [
+          82,
+          10
+        ],
+        [
+          82,
+          13
+        ],
+        [
+          94,
+          7
+        ],
+        [
+          104,
+          6
+        ],
+        [
+          105,
+          8
+        ],
+        [
+          113,
+          7
+        ],
+        [
+          116,
+          7
+        ],
+        [
+          118,
+          9
+        ],
+        [
+          128,
+          6
+        ],
+        [
+          126,
+          11
+        ],
+        [
+          137,
+          11
+        ],
+        [
+          138,
+          11
+        ],
+        [
+          149,
+          15
+        ],
+        [
+          159,
+          16
+        ],
+        [
+          166,
+          18
+        ],
+        [
+          181,
+          17
+        ],
+        [
+          188,
+          18
+        ],
+        [
+          181,
+          23
+        ],
+        [
+          185,
+          29
+        ],
+        [
+          180,
+          35
+        ],
+        [
+          183,
+          37
+        ],
+        [
+          174,
+          43
+        ],
+        [
+          180,
+          45
+        ],
+        [
+          177,
+          51
+        ],
+        [
+          177,
+          52
+        ],
+        [
+          174,
+          56
+        ],
+        [
+          172,
+          61
+        ],
+        [
+          173,
+          63
+        ],
+        [
+          168,
+          74
+        ],
+        [
+          171,
+          75
+        ],
+        [
+          166,
+          83
+        ],
+        [
+          168,
+          84
+        ],
+        [
+          162,
+          94
+        ],
+        [
+          164,
+          96
+        ],
+        [
+          156,
+          107
+        ],
+        [
+          159,
+          109
+        ],
+        [
+          149,
+          123
+        ],
+        [
+          149,
+          125
+        ],
+        [
+          141,
+          130
+        ],
+        [
+          142,
+          134
+        ],
+        [
+          128,
+          143
+        ],
+        [
+          130,
+          149
+        ],
+        [
+          113,
+          152
+        ],
+        [
+          105,
+          151
+        ],
+        [
+          88,
+          140
+        ],
+        [
+          76,
+          124
+        ],
+        [
+          65,
+          116
+        ],
+        [
+          41,
+          134
+        ],
+        [
+          22,
+          154
+        ],
+        [
+          22,
+          158
+        ],
+        [
+          17,
+          160
+        ],
+        [
+          11,
+          160
+        ],
+        [
+          8,
+          156
+        ],
+        [
+          5,
+          153
+        ],
+        [
+          5,
+          142
+        ],
+        [
+          9,
+          139
+        ],
+        [
+          14,
+          148
+        ],
+        [
+          24,
+          141
+        ],
+        [
+          38,
+          131
+        ],
+        [
+          56,
+          113
+        ],
+        [
+          59,
+          106
+        ],
+        [
+          59,
+          98
+        ],
+        [
+          45,
+          87
+        ],
+        [
+          34,
+          76
+        ],
+        [
+          28,
+          53
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T4",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T5",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "B0": "whole"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "leaf petiole margin stipules vein blade"
+  },
+  "questions": [
+    {
+      "question_text": "What is the border of a leaf called?",
+      "question_id": "1097.png-1",
+      "answers": [
+        "Petiole",
+        "Margin",
+        "Blade",
+        "Vein"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which label pertains to the blade?",
+      "question_id": "1097.png-0",
+      "answers": [
+        "C",
+        "A",
+        "E",
+        "D"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which portion of the leaf is also called the leafstalk?",
+      "question_id": "1097.png-2",
+      "answers": [
+        "Petiole",
+        "Blade",
+        "Margin",
+        "Stipule"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

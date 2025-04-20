@@ -1,0 +1,440 @@
+{
+  "image_id": "4248",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          118,
+          25
+        ],
+        [
+          320,
+          52
+        ]
+      ],
+      "value": "Root zone or vadose zone",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          426,
+          68
+        ],
+        [
+          448,
+          210
+        ]
+      ],
+      "value": "Unsaturated zone",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          113,
+          79
+        ],
+        [
+          314,
+          104
+        ]
+      ],
+      "value": "Intermediate vadose zone",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          94,
+          147
+        ],
+        [
+          165,
+          173
+        ]
+      ],
+      "value": "Clay lens",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          328,
+          184
+        ],
+        [
+          403,
+          211
+        ]
+      ],
+      "value": "Clay lens",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          141,
+          248
+        ],
+        [
+          263,
+          277
+        ]
+      ],
+      "value": "Capillary fringe",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          58,
+          276
+        ],
+        [
+          143,
+          291
+        ]
+      ],
+      "value": "Water table",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          178,
+          315
+        ],
+        [
+          245,
+          337
+        ]
+      ],
+      "value": "Aquifer",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          9,
+          9
+        ],
+        [
+          38,
+          10
+        ],
+        [
+          90,
+          13
+        ],
+        [
+          111,
+          12
+        ],
+        [
+          148,
+          11
+        ],
+        [
+          186,
+          13
+        ],
+        [
+          223,
+          13
+        ],
+        [
+          242,
+          13
+        ],
+        [
+          252,
+          11
+        ],
+        [
+          280,
+          10
+        ],
+        [
+          298,
+          8
+        ],
+        [
+          321,
+          8
+        ],
+        [
+          354,
+          10
+        ],
+        [
+          372,
+          6
+        ],
+        [
+          398,
+          6
+        ],
+        [
+          424,
+          6
+        ],
+        [
+          425,
+          351
+        ],
+        [
+          425,
+          355
+        ],
+        [
+          411,
+          355
+        ],
+        [
+          369,
+          355
+        ],
+        [
+          319,
+          355
+        ],
+        [
+          295,
+          356
+        ],
+        [
+          271,
+          354
+        ],
+        [
+          254,
+          353
+        ],
+        [
+          207,
+          358
+        ],
+        [
+          151,
+          358
+        ],
+        [
+          103,
+          357
+        ],
+        [
+          74,
+          354
+        ],
+        [
+          38,
+          352
+        ],
+        [
+          12,
+          351
+        ],
+        [
+          10,
+          310
+        ],
+        [
+          10,
+          209
+        ],
+        [
+          9,
+          109
+        ],
+        [
+          10,
+          41
+        ],
+        [
+          9,
+          9
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          87,
+          123
+        ],
+        [
+          93,
+          123
+        ],
+        [
+          103,
+          138
+        ],
+        [
+          99,
+          140
+        ],
+        [
+          88,
+          126
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          319,
+          166
+        ],
+        [
+          326,
+          164
+        ],
+        [
+          336,
+          183
+        ],
+        [
+          328,
+          182
+        ],
+        [
+          321,
+          169
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T4+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T5+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T5",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T6",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T7+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T7",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "root zone or vadose zone unsaturated zone intermediate vadose zone clay lens clay lens capillary fringe water table aquifer"
+  },
+  "questions": [
+    {
+      "question_text": "which is the bottom most layer",
+      "question_id": "4248.png-0",
+      "answers": [
+        "water table",
+        "clay lens",
+        "root zone",
+        "aquifer"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    }
+  ]
+}

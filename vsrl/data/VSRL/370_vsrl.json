@@ -1,0 +1,405 @@
+{
+  "image_id": "370",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          27,
+          2
+        ],
+        [
+          87,
+          18
+        ]
+      ],
+      "value": "igneous",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          28,
+          27
+        ],
+        [
+          119,
+          42
+        ]
+      ],
+      "value": "sedimentary",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          24,
+          47
+        ],
+        [
+          125,
+          62
+        ]
+      ],
+      "value": "metamorphic",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          250,
+          12
+        ],
+        [
+          278,
+          30
+        ]
+      ],
+      "value": "lava",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          3,
+          91
+        ],
+        [
+          69,
+          106
+        ]
+      ],
+      "value": "sediments",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          211
+        ],
+        [
+          75,
+          227
+        ]
+      ],
+      "value": "magma pool",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          181,
+          156
+        ],
+        [
+          231,
+          170
+        ]
+      ],
+      "value": "magma",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          202,
+          19
+        ],
+        [
+          216,
+          17
+        ],
+        [
+          229,
+          22
+        ],
+        [
+          244,
+          35
+        ],
+        [
+          263,
+          46
+        ],
+        [
+          272,
+          60
+        ],
+        [
+          281,
+          69
+        ],
+        [
+          295,
+          73
+        ],
+        [
+          306,
+          86
+        ],
+        [
+          320,
+          92
+        ],
+        [
+          333,
+          96
+        ],
+        [
+          335,
+          171
+        ],
+        [
+          285,
+          220
+        ],
+        [
+          206,
+          176
+        ],
+        [
+          96,
+          228
+        ],
+        [
+          42,
+          189
+        ],
+        [
+          43,
+          110
+        ],
+        [
+          52,
+          112
+        ],
+        [
+          77,
+          109
+        ],
+        [
+          98,
+          98
+        ],
+        [
+          108,
+          87
+        ],
+        [
+          113,
+          78
+        ],
+        [
+          123,
+          67
+        ],
+        [
+          134,
+          55
+        ],
+        [
+          150,
+          38
+        ],
+        [
+          163,
+          27
+        ],
+        [
+          174,
+          20
+        ],
+        [
+          186,
+          16
+        ],
+        [
+          201,
+          18
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          217,
+          24
+        ],
+        [
+          254,
+          14
+        ],
+        [
+          257,
+          22
+        ],
+        [
+          219,
+          36
+        ],
+        [
+          213,
+          24
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          52,
+          131
+        ],
+        [
+          59,
+          124
+        ],
+        [
+          27,
+          100
+        ],
+        [
+          20,
+          108
+        ],
+        [
+          49,
+          130
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          76,
+          221
+        ],
+        [
+          128,
+          171
+        ],
+        [
+          118,
+          165
+        ],
+        [
+          67,
+          215
+        ],
+        [
+          77,
+          222
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "misc",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+I0",
+      "type": "misc",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+I0",
+      "type": "misc",
+      "source": "T2",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T4+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T5+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T6+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T6",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "igneous sedimentary metamorphic lava sediments magma pool magma"
+  },
+  "questions": []
+}

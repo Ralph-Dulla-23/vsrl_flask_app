@@ -1,0 +1,1566 @@
+{
+  "image_id": "4400",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          417,
+          60
+        ],
+        [
+          758,
+          90
+        ]
+      ],
+      "value": "Leaf Shapes and Types",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          98,
+          387
+        ],
+        [
+          195,
+          417
+        ]
+      ],
+      "value": "Linear",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T10": {
+      "id": "T10",
+      "type": "text",
+      "bbox": [
+        [
+          160,
+          1075
+        ],
+        [
+          273,
+          1102
+        ]
+      ],
+      "value": "Toothed",
+      "replacementText": "P",
+      "category": "label"
+    },
+    "T11": {
+      "id": "T11",
+      "type": "text",
+      "bbox": [
+        [
+          357,
+          1062
+        ],
+        [
+          462,
+          1085
+        ]
+      ],
+      "value": "Crisped",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T12": {
+      "id": "T12",
+      "type": "text",
+      "bbox": [
+        [
+          565,
+          1063
+        ],
+        [
+          688,
+          1095
+        ]
+      ],
+      "value": "Whorled",
+      "replacementText": "Q",
+      "category": "label"
+    },
+    "T13": {
+      "id": "T13",
+      "type": "text",
+      "bbox": [
+        [
+          758,
+          1047
+        ],
+        [
+          892,
+          1073
+        ]
+      ],
+      "value": "Dissected",
+      "replacementText": "L",
+      "category": "label"
+    },
+    "T14": {
+      "id": "T14",
+      "type": "text",
+      "bbox": [
+        [
+          970,
+          1050
+        ],
+        [
+          1093,
+          1075
+        ]
+      ],
+      "value": "Fascicled",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T15": {
+      "id": "T15",
+      "type": "text",
+      "bbox": [
+        [
+          710,
+          1383
+        ],
+        [
+          1045,
+          1418
+        ]
+      ],
+      "value": "Clasping or Sessile Leaves",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T16": {
+      "id": "T16",
+      "type": "text",
+      "bbox": [
+        [
+          318,
+          1387
+        ],
+        [
+          530,
+          1413
+        ]
+      ],
+      "value": "Petiolate Leaves",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          292,
+          388
+        ],
+        [
+          375,
+          415
+        ]
+      ],
+      "value": "Ovate",
+      "replacementText": "M",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          533,
+          390
+        ],
+        [
+          683,
+          420
+        ]
+      ],
+      "value": "Spatulate",
+      "replacementText": "K",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          760,
+          373
+        ],
+        [
+          908,
+          397
+        ]
+      ],
+      "value": "Lanceolate",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          970,
+          375
+        ],
+        [
+          1068,
+          405
+        ]
+      ],
+      "value": "Elliptic",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          97,
+          705
+        ],
+        [
+          335,
+          735
+        ]
+      ],
+      "value": "Connate-perfoliate",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          485,
+          723
+        ],
+        [
+          597,
+          748
+        ]
+      ],
+      "value": "Obovate",
+      "replacementText": "O",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          717,
+          702
+        ],
+        [
+          922,
+          783
+        ]
+      ],
+      "value": "Obovate with Mucronate tip",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          957,
+          710
+        ],
+        [
+          1122,
+          792
+        ]
+      ],
+      "value": "Lanceolate with Caudate tip",
+      "replacementText": "N",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          128,
+          382
+        ],
+        [
+          122,
+          337
+        ],
+        [
+          118,
+          232
+        ],
+        [
+          120,
+          188
+        ],
+        [
+          132,
+          183
+        ],
+        [
+          147,
+          200
+        ],
+        [
+          152,
+          235
+        ],
+        [
+          150,
+          273
+        ],
+        [
+          153,
+          327
+        ],
+        [
+          157,
+          370
+        ],
+        [
+          147,
+          383
+        ],
+        [
+          145,
+          388
+        ],
+        [
+          132,
+          388
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          268,
+          362
+        ],
+        [
+          252,
+          323
+        ],
+        [
+          252,
+          268
+        ],
+        [
+          267,
+          227
+        ],
+        [
+          305,
+          193
+        ],
+        [
+          347,
+          192
+        ],
+        [
+          375,
+          223
+        ],
+        [
+          410,
+          273
+        ],
+        [
+          412,
+          328
+        ],
+        [
+          373,
+          378
+        ],
+        [
+          337,
+          392
+        ],
+        [
+          272,
+          367
+        ]
+      ],
+      "category": "object"
+    },
+    "B10": {
+      "id": "B10",
+      "type": "blob",
+      "polygon": [
+        [
+          397,
+          1042
+        ],
+        [
+          375,
+          1025
+        ],
+        [
+          368,
+          970
+        ],
+        [
+          377,
+          918
+        ],
+        [
+          388,
+          868
+        ],
+        [
+          423,
+          828
+        ],
+        [
+          450,
+          868
+        ],
+        [
+          458,
+          918
+        ],
+        [
+          460,
+          960
+        ],
+        [
+          455,
+          1022
+        ],
+        [
+          442,
+          1043
+        ],
+        [
+          418,
+          1055
+        ],
+        [
+          397,
+          1040
+        ]
+      ],
+      "category": "object"
+    },
+    "B11": {
+      "id": "B11",
+      "type": "blob",
+      "polygon": [
+        [
+          598,
+          1040
+        ],
+        [
+          587,
+          993
+        ],
+        [
+          567,
+          927
+        ],
+        [
+          582,
+          922
+        ],
+        [
+          592,
+          945
+        ],
+        [
+          592,
+          917
+        ],
+        [
+          560,
+          858
+        ],
+        [
+          558,
+          837
+        ],
+        [
+          590,
+          853
+        ],
+        [
+          597,
+          813
+        ],
+        [
+          623,
+          813
+        ],
+        [
+          622,
+          857
+        ],
+        [
+          648,
+          833
+        ],
+        [
+          653,
+          882
+        ],
+        [
+          623,
+          923
+        ],
+        [
+          655,
+          903
+        ],
+        [
+          672,
+          942
+        ],
+        [
+          633,
+          990
+        ],
+        [
+          623,
+          1055
+        ],
+        [
+          597,
+          1057
+        ],
+        [
+          597,
+          1037
+        ]
+      ],
+      "category": "object"
+    },
+    "B12": {
+      "id": "B12",
+      "type": "blob",
+      "polygon": [
+        [
+          788,
+          1035
+        ],
+        [
+          750,
+          957
+        ],
+        [
+          783,
+          833
+        ],
+        [
+          815,
+          815
+        ],
+        [
+          848,
+          853
+        ],
+        [
+          868,
+          945
+        ],
+        [
+          860,
+          1000
+        ],
+        [
+          822,
+          1052
+        ],
+        [
+          792,
+          1037
+        ]
+      ],
+      "category": "object"
+    },
+    "B13": {
+      "id": "B13",
+      "type": "blob",
+      "polygon": [
+        [
+          1000,
+          1035
+        ],
+        [
+          1003,
+          1008
+        ],
+        [
+          943,
+          1013
+        ],
+        [
+          927,
+          985
+        ],
+        [
+          928,
+          970
+        ],
+        [
+          972,
+          972
+        ],
+        [
+          982,
+          897
+        ],
+        [
+          937,
+          853
+        ],
+        [
+          923,
+          833
+        ],
+        [
+          953,
+          822
+        ],
+        [
+          985,
+          853
+        ],
+        [
+          1008,
+          828
+        ],
+        [
+          1037,
+          827
+        ],
+        [
+          1058,
+          840
+        ],
+        [
+          1102,
+          823
+        ],
+        [
+          1110,
+          857
+        ],
+        [
+          1075,
+          895
+        ],
+        [
+          1037,
+          902
+        ],
+        [
+          1038,
+          945
+        ],
+        [
+          1067,
+          938
+        ],
+        [
+          1068,
+          958
+        ],
+        [
+          1128,
+          952
+        ],
+        [
+          1113,
+          1000
+        ],
+        [
+          1037,
+          998
+        ],
+        [
+          1033,
+          1045
+        ],
+        [
+          1002,
+          1037
+        ]
+      ],
+      "category": "object"
+    },
+    "B14": {
+      "id": "B14",
+      "type": "blob",
+      "polygon": [
+        [
+          387,
+          1367
+        ],
+        [
+          378,
+          1327
+        ],
+        [
+          313,
+          1280
+        ],
+        [
+          277,
+          1242
+        ],
+        [
+          325,
+          1242
+        ],
+        [
+          378,
+          1275
+        ],
+        [
+          392,
+          1218
+        ],
+        [
+          412,
+          1178
+        ],
+        [
+          422,
+          1218
+        ],
+        [
+          422,
+          1273
+        ],
+        [
+          465,
+          1222
+        ],
+        [
+          512,
+          1193
+        ],
+        [
+          508,
+          1253
+        ],
+        [
+          447,
+          1298
+        ],
+        [
+          427,
+          1333
+        ],
+        [
+          425,
+          1370
+        ],
+        [
+          380,
+          1373
+        ],
+        [
+          390,
+          1370
+        ]
+      ],
+      "category": "object"
+    },
+    "B15": {
+      "id": "B15",
+      "type": "blob",
+      "polygon": [
+        [
+          843,
+          1370
+        ],
+        [
+          827,
+          1345
+        ],
+        [
+          777,
+          1265
+        ],
+        [
+          743,
+          1223
+        ],
+        [
+          770,
+          1218
+        ],
+        [
+          835,
+          1277
+        ],
+        [
+          840,
+          1193
+        ],
+        [
+          860,
+          1183
+        ],
+        [
+          875,
+          1235
+        ],
+        [
+          865,
+          1290
+        ],
+        [
+          907,
+          1248
+        ],
+        [
+          935,
+          1225
+        ],
+        [
+          953,
+          1250
+        ],
+        [
+          935,
+          1283
+        ],
+        [
+          888,
+          1337
+        ],
+        [
+          880,
+          1373
+        ],
+        [
+          845,
+          1372
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          580,
+          373
+        ],
+        [
+          582,
+          348
+        ],
+        [
+          570,
+          325
+        ],
+        [
+          550,
+          243
+        ],
+        [
+          547,
+          178
+        ],
+        [
+          573,
+          163
+        ],
+        [
+          610,
+          163
+        ],
+        [
+          633,
+          177
+        ],
+        [
+          643,
+          232
+        ],
+        [
+          632,
+          278
+        ],
+        [
+          612,
+          335
+        ],
+        [
+          605,
+          387
+        ],
+        [
+          597,
+          393
+        ],
+        [
+          578,
+          378
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          770,
+          338
+        ],
+        [
+          770,
+          277
+        ],
+        [
+          793,
+          210
+        ],
+        [
+          813,
+          150
+        ],
+        [
+          822,
+          150
+        ],
+        [
+          828,
+          180
+        ],
+        [
+          842,
+          228
+        ],
+        [
+          868,
+          290
+        ],
+        [
+          875,
+          335
+        ],
+        [
+          858,
+          363
+        ],
+        [
+          832,
+          372
+        ],
+        [
+          823,
+          378
+        ],
+        [
+          808,
+          370
+        ],
+        [
+          785,
+          363
+        ],
+        [
+          770,
+          343
+        ]
+      ],
+      "category": "object"
+    },
+    "B4": {
+      "id": "B4",
+      "type": "blob",
+      "polygon": [
+        [
+          968,
+          323
+        ],
+        [
+          953,
+          268
+        ],
+        [
+          978,
+          195
+        ],
+        [
+          1012,
+          165
+        ],
+        [
+          1037,
+          185
+        ],
+        [
+          1063,
+          217
+        ],
+        [
+          1070,
+          270
+        ],
+        [
+          1058,
+          312
+        ],
+        [
+          1025,
+          350
+        ],
+        [
+          1020,
+          367
+        ],
+        [
+          1007,
+          363
+        ],
+        [
+          1012,
+          352
+        ],
+        [
+          973,
+          323
+        ]
+      ],
+      "category": "object"
+    },
+    "B5": {
+      "id": "B5",
+      "type": "blob",
+      "polygon": [
+        [
+          207,
+          498
+        ],
+        [
+          225,
+          498
+        ],
+        [
+          230,
+          497
+        ],
+        [
+          233,
+          568
+        ],
+        [
+          278,
+          572
+        ],
+        [
+          325,
+          593
+        ],
+        [
+          367,
+          593
+        ],
+        [
+          363,
+          622
+        ],
+        [
+          325,
+          645
+        ],
+        [
+          285,
+          650
+        ],
+        [
+          240,
+          650
+        ],
+        [
+          238,
+          700
+        ],
+        [
+          210,
+          700
+        ],
+        [
+          203,
+          655
+        ],
+        [
+          167,
+          653
+        ],
+        [
+          130,
+          640
+        ],
+        [
+          93,
+          623
+        ],
+        [
+          72,
+          617
+        ],
+        [
+          97,
+          600
+        ],
+        [
+          142,
+          583
+        ],
+        [
+          203,
+          563
+        ],
+        [
+          207,
+          500
+        ]
+      ],
+      "category": "object"
+    },
+    "B6": {
+      "id": "B6",
+      "type": "blob",
+      "polygon": [
+        [
+          510,
+          692
+        ],
+        [
+          483,
+          635
+        ],
+        [
+          453,
+          578
+        ],
+        [
+          475,
+          518
+        ],
+        [
+          528,
+          505
+        ],
+        [
+          588,
+          520
+        ],
+        [
+          610,
+          567
+        ],
+        [
+          595,
+          630
+        ],
+        [
+          545,
+          678
+        ],
+        [
+          543,
+          713
+        ],
+        [
+          527,
+          725
+        ],
+        [
+          507,
+          692
+        ]
+      ],
+      "category": "object"
+    },
+    "B7": {
+      "id": "B7",
+      "type": "blob",
+      "polygon": [
+        [
+          787,
+          682
+        ],
+        [
+          757,
+          617
+        ],
+        [
+          777,
+          533
+        ],
+        [
+          817,
+          522
+        ],
+        [
+          832,
+          533
+        ],
+        [
+          872,
+          578
+        ],
+        [
+          843,
+          647
+        ],
+        [
+          822,
+          693
+        ],
+        [
+          815,
+          698
+        ],
+        [
+          785,
+          683
+        ]
+      ],
+      "category": "object"
+    },
+    "B8": {
+      "id": "B8",
+      "type": "blob",
+      "polygon": [
+        [
+          987,
+          667
+        ],
+        [
+          1017,
+          580
+        ],
+        [
+          1030,
+          492
+        ],
+        [
+          1040,
+          483
+        ],
+        [
+          1052,
+          540
+        ],
+        [
+          1058,
+          622
+        ],
+        [
+          1073,
+          678
+        ],
+        [
+          1042,
+          710
+        ],
+        [
+          1035,
+          712
+        ],
+        [
+          1018,
+          708
+        ],
+        [
+          997,
+          697
+        ],
+        [
+          987,
+          663
+        ]
+      ],
+      "category": "object"
+    },
+    "B9": {
+      "id": "B9",
+      "type": "blob",
+      "polygon": [
+        [
+          205,
+          1048
+        ],
+        [
+          177,
+          1013
+        ],
+        [
+          150,
+          957
+        ],
+        [
+          180,
+          880
+        ],
+        [
+          217,
+          830
+        ],
+        [
+          248,
+          848
+        ],
+        [
+          277,
+          895
+        ],
+        [
+          295,
+          962
+        ],
+        [
+          278,
+          1023
+        ],
+        [
+          235,
+          1062
+        ],
+        [
+          217,
+          1067
+        ],
+        [
+          210,
+          1050
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T10+B9",
+      "type": "intraObjectLabel",
+      "source": "T10",
+      "target": "B9",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T11+B10",
+      "type": "intraObjectLabel",
+      "source": "T11",
+      "target": "B10",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T12+B11",
+      "type": "intraObjectLabel",
+      "source": "T12",
+      "target": "B11",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T13+B12",
+      "type": "intraObjectLabel",
+      "source": "T13",
+      "target": "B12",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T14+B13",
+      "type": "intraObjectLabel",
+      "source": "T14",
+      "target": "B13",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T15+B15",
+      "type": "intraObjectLabel",
+      "source": "T15",
+      "target": "B15",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T16+B14",
+      "type": "intraObjectLabel",
+      "source": "T16",
+      "target": "B14",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B1",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B2",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B3",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+B4",
+      "type": "intraObjectLabel",
+      "source": "T5",
+      "target": "B4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+B5",
+      "type": "intraObjectLabel",
+      "source": "T6",
+      "target": "B5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T7+B6",
+      "type": "intraObjectLabel",
+      "source": "T7",
+      "target": "B6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T8+B7",
+      "type": "intraObjectLabel",
+      "source": "T8",
+      "target": "B7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T9+B8",
+      "type": "intraObjectLabel",
+      "source": "T9",
+      "target": "B8",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T10": "part_label",
+    "T11": "part_label",
+    "T12": "part_label",
+    "T13": "part_label",
+    "T14": "part_label",
+    "T15": "part_label",
+    "T16": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B10": "whole",
+    "B11": "whole",
+    "B12": "whole",
+    "B13": "whole",
+    "B14": "whole",
+    "B15": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "B4": "whole",
+    "B5": "whole",
+    "B6": "whole",
+    "B7": "whole",
+    "B8": "whole",
+    "B9": "whole"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "leaf shapes and types linear toothed crisped whorled dissected fascicled clasping or sessile leaves petiolate leaves ovate spatulate lanceolate elliptic connate-perfoliate obovate obovate with mucronate tip lanceolate with caudate tip"
+  },
+  "questions": [
+    {
+      "question_text": "Name the leaf D",
+      "question_id": "4400.png-0",
+      "answers": [
+        "Ovate",
+        "Crisped",
+        "Linear",
+        "Whorled"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which picture represents petiolate leaf",
+      "question_id": "4400.png-1",
+      "answers": [
+        "L",
+        "P",
+        "F",
+        "B"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}

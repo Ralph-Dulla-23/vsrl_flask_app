@@ -1,0 +1,486 @@
+{
+  "image_id": "3797",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          182,
+          87
+        ],
+        [
+          208,
+          111
+        ]
+      ],
+      "value": "A",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          186,
+          146
+        ],
+        [
+          203,
+          164
+        ]
+      ],
+      "value": "B",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          147,
+          222
+        ],
+        [
+          164,
+          239
+        ]
+      ],
+      "value": "C",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          100,
+          25
+        ],
+        [
+          87,
+          17
+        ],
+        [
+          79,
+          15
+        ],
+        [
+          68,
+          19
+        ],
+        [
+          61,
+          24
+        ],
+        [
+          69,
+          32
+        ],
+        [
+          82,
+          39
+        ],
+        [
+          94,
+          45
+        ],
+        [
+          79,
+          46
+        ],
+        [
+          65,
+          52
+        ],
+        [
+          53,
+          57
+        ],
+        [
+          40,
+          68
+        ],
+        [
+          39,
+          76
+        ],
+        [
+          16,
+          83
+        ],
+        [
+          8,
+          87
+        ],
+        [
+          15,
+          94
+        ],
+        [
+          28,
+          98
+        ],
+        [
+          56,
+          97
+        ],
+        [
+          78,
+          94
+        ],
+        [
+          85,
+          99
+        ],
+        [
+          81,
+          110
+        ],
+        [
+          65,
+          111
+        ],
+        [
+          44,
+          113
+        ],
+        [
+          27,
+          119
+        ],
+        [
+          15,
+          133
+        ],
+        [
+          9,
+          140
+        ],
+        [
+          18,
+          145
+        ],
+        [
+          64,
+          129
+        ],
+        [
+          59,
+          145
+        ],
+        [
+          73,
+          141
+        ],
+        [
+          80,
+          135
+        ],
+        [
+          74,
+          161
+        ],
+        [
+          65,
+          216
+        ],
+        [
+          45,
+          227
+        ],
+        [
+          32,
+          234
+        ],
+        [
+          15,
+          236
+        ],
+        [
+          13,
+          247
+        ],
+        [
+          28,
+          253
+        ],
+        [
+          45,
+          253
+        ],
+        [
+          86,
+          251
+        ],
+        [
+          94,
+          237
+        ],
+        [
+          81,
+          216
+        ],
+        [
+          96,
+          144
+        ],
+        [
+          116,
+          159
+        ],
+        [
+          134,
+          176
+        ],
+        [
+          147,
+          183
+        ],
+        [
+          150,
+          169
+        ],
+        [
+          149,
+          152
+        ],
+        [
+          143,
+          133
+        ],
+        [
+          132,
+          123
+        ],
+        [
+          116,
+          118
+        ],
+        [
+          104,
+          114
+        ],
+        [
+          124,
+          113
+        ],
+        [
+          139,
+          112
+        ],
+        [
+          153,
+          111
+        ],
+        [
+          156,
+          101
+        ],
+        [
+          152,
+          88
+        ],
+        [
+          147,
+          78
+        ],
+        [
+          154,
+          70
+        ],
+        [
+          155,
+          59
+        ],
+        [
+          135,
+          56
+        ],
+        [
+          111,
+          64
+        ],
+        [
+          115,
+          49
+        ],
+        [
+          137,
+          43
+        ],
+        [
+          156,
+          38
+        ],
+        [
+          149,
+          22
+        ],
+        [
+          161,
+          5
+        ],
+        [
+          148,
+          3
+        ],
+        [
+          103,
+          24
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          134,
+          104
+        ],
+        [
+          195,
+          105
+        ],
+        [
+          194,
+          93
+        ],
+        [
+          134,
+          94
+        ],
+        [
+          135,
+          102
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          132,
+          148
+        ],
+        [
+          136,
+          163
+        ],
+        [
+          191,
+          161
+        ],
+        [
+          191,
+          146
+        ],
+        [
+          133,
+          148
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          77,
+          238
+        ],
+        [
+          150,
+          236
+        ],
+        [
+          154,
+          226
+        ],
+        [
+          76,
+          230
+        ],
+        [
+          78,
+          235
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T2+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "a b c"
+  },
+  "questions": [
+    {
+      "question_text": "What dose \"B\" represent?",
+      "question_id": "3797.png-1",
+      "answers": [
+        "Roots",
+        "Flower",
+        "Leaves",
+        "Stem"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What dose \"C\" represent?",
+      "question_id": "3797.png-0",
+      "answers": [
+        "Stem",
+        "Leaves",
+        "Roots",
+        "Plants"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "image_id": "1723",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          52,
+          158
+        ],
+        [
+          272,
+          181
+        ]
+      ],
+      "value": "Detachment or Normal Fault",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          85,
+          15
+        ],
+        [
+          12,
+          66
+        ],
+        [
+          12,
+          139
+        ],
+        [
+          207,
+          139
+        ],
+        [
+          248,
+          153
+        ],
+        [
+          322,
+          103
+        ],
+        [
+          323,
+          29
+        ],
+        [
+          126,
+          29
+        ],
+        [
+          86,
+          14
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          192,
+          142
+        ],
+        [
+          167,
+          134
+        ],
+        [
+          171,
+          124
+        ],
+        [
+          198,
+          133
+        ],
+        [
+          195,
+          142
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          161,
+          109
+        ],
+        [
+          157,
+          120
+        ],
+        [
+          179,
+          128
+        ],
+        [
+          184,
+          116
+        ],
+        [
+          165,
+          111
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "detachment or normal fault"
+  },
+  "questions": [
+    {
+      "question_text": "What does the diagram depicts?",
+      "question_id": "1723.png-0",
+      "answers": [
+        "{}",
+        "Detachment or Normal Fault",
+        "None of the above",
+        "{}"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

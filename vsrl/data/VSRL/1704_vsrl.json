@@ -1,0 +1,298 @@
+{
+  "image_id": "1704",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          155,
+          1
+        ],
+        [
+          517,
+          36
+        ]
+      ],
+      "value": "Earthquakes within the crust",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          432,
+          149
+        ],
+        [
+          579,
+          310
+        ]
+      ],
+      "value": "Asthenosphere",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          421,
+          93
+        ],
+        [
+          590,
+          206
+        ]
+      ],
+      "value": "Lithosphere",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          0,
+          243
+        ],
+        [
+          0,
+          400
+        ],
+        [
+          186,
+          397
+        ],
+        [
+          220,
+          367
+        ],
+        [
+          435,
+          364
+        ],
+        [
+          613,
+          136
+        ],
+        [
+          613,
+          136
+        ],
+        [
+          612,
+          4
+        ],
+        [
+          426,
+          0
+        ],
+        [
+          391,
+          38
+        ],
+        [
+          181,
+          37
+        ],
+        [
+          181,
+          37
+        ],
+        [
+          0,
+          247
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          272,
+          66
+        ],
+        [
+          243,
+          98
+        ],
+        [
+          232,
+          91
+        ],
+        [
+          214,
+          148
+        ],
+        [
+          274,
+          124
+        ],
+        [
+          265,
+          117
+        ],
+        [
+          295,
+          86
+        ],
+        [
+          273,
+          66
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          345,
+          138
+        ],
+        [
+          363,
+          156
+        ],
+        [
+          397,
+          125
+        ],
+        [
+          403,
+          130
+        ],
+        [
+          425,
+          80
+        ],
+        [
+          369,
+          102
+        ],
+        [
+          373,
+          110
+        ],
+        [
+          349,
+          138
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          309,
+          33
+        ],
+        [
+          319,
+          25
+        ],
+        [
+          357,
+          60
+        ],
+        [
+          348,
+          69
+        ],
+        [
+          309,
+          32
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H2",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H0",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "earthquakes within the crust asthenosphere lithosphere"
+  },
+  "questions": [
+    {
+      "question_text": "Which part of the Earth's mantle that lies beneath the lithosphere?",
+      "question_id": "1704.png-0",
+      "answers": [
+        "Stratosphere",
+        "Asthenosphere",
+        "Earth core",
+        "Hangingwall"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

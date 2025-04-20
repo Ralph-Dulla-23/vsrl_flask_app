@@ -1,0 +1,456 @@
+{
+  "image_id": "231",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          1,
+          5
+        ],
+        [
+          34,
+          74
+        ]
+      ],
+      "value": "SOUTH",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          42,
+          51
+        ],
+        [
+          82,
+          84
+        ]
+      ],
+      "value": "N",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          252,
+          53
+        ],
+        [
+          283,
+          83
+        ]
+      ],
+      "value": "S",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          123,
+          172
+        ],
+        [
+          207,
+          199
+        ]
+      ],
+      "value": "Battery",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          293,
+          15
+        ],
+        [
+          323,
+          77
+        ]
+      ],
+      "value": "North",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          115,
+          113
+        ],
+        [
+          208,
+          112
+        ],
+        [
+          209,
+          127
+        ],
+        [
+          220,
+          128
+        ],
+        [
+          218,
+          149
+        ],
+        [
+          208,
+          149
+        ],
+        [
+          208,
+          165
+        ],
+        [
+          115,
+          164
+        ],
+        [
+          115,
+          113
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          0,
+          10
+        ],
+        [
+          1,
+          154
+        ],
+        [
+          22,
+          210
+        ],
+        [
+          54,
+          249
+        ],
+        [
+          85,
+          271
+        ],
+        [
+          125,
+          286
+        ],
+        [
+          161,
+          291
+        ],
+        [
+          190,
+          288
+        ],
+        [
+          237,
+          272
+        ],
+        [
+          268,
+          252
+        ],
+        [
+          299,
+          215
+        ],
+        [
+          317,
+          178
+        ],
+        [
+          323,
+          142
+        ],
+        [
+          323,
+          10
+        ],
+        [
+          288,
+          12
+        ],
+        [
+          287,
+          138
+        ],
+        [
+          281,
+          168
+        ],
+        [
+          262,
+          206
+        ],
+        [
+          229,
+          234
+        ],
+        [
+          202,
+          246
+        ],
+        [
+          183,
+          251
+        ],
+        [
+          161,
+          254
+        ],
+        [
+          121,
+          247
+        ],
+        [
+          85,
+          226
+        ],
+        [
+          70,
+          214
+        ],
+        [
+          53,
+          187
+        ],
+        [
+          41,
+          161
+        ],
+        [
+          37,
+          133
+        ],
+        [
+          36,
+          10
+        ],
+        [
+          0,
+          10
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          46,
+          32
+        ],
+        [
+          82,
+          26
+        ],
+        [
+          102,
+          26
+        ],
+        [
+          261,
+          27
+        ],
+        [
+          268,
+          17
+        ],
+        [
+          275,
+          21
+        ],
+        [
+          273,
+          48
+        ],
+        [
+          267,
+          50
+        ],
+        [
+          262,
+          44
+        ],
+        [
+          82,
+          44
+        ],
+        [
+          46,
+          34
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          90,
+          44
+        ],
+        [
+          91,
+          146
+        ],
+        [
+          115,
+          149
+        ],
+        [
+          115,
+          132
+        ],
+        [
+          106,
+          132
+        ],
+        [
+          107,
+          43
+        ],
+        [
+          94,
+          44
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          251,
+          44
+        ],
+        [
+          251,
+          142
+        ],
+        [
+          220,
+          143
+        ],
+        [
+          219,
+          128
+        ],
+        [
+          240,
+          129
+        ],
+        [
+          240,
+          44
+        ],
+        [
+          248,
+          44
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "B0+A0+B2",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B2",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "B0+A1+B2",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B2",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T0+B1",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B1",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B1",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B1",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "A0": "connector",
+    "A1": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "south n s battery north"
+  }
+}

@@ -1,0 +1,848 @@
+{
+  "image_id": "420",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          46,
+          62
+        ],
+        [
+          128,
+          86
+        ]
+      ],
+      "value": "Seals",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          267,
+          69
+        ],
+        [
+          384,
+          102
+        ]
+      ],
+      "value": "Sea Birds",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          637,
+          66
+        ],
+        [
+          706,
+          94
+        ]
+      ],
+      "value": "Squid",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          34,
+          245
+        ],
+        [
+          115,
+          275
+        ]
+      ],
+      "value": "Clams",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          248,
+          254
+        ],
+        [
+          374,
+          280
+        ]
+      ],
+      "value": "Anchovies",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          582,
+          274
+        ],
+        [
+          701,
+          299
+        ]
+      ],
+      "value": "Sardines",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          106,
+          523
+        ],
+        [
+          267,
+          549
+        ]
+      ],
+      "value": "Phytoplankton",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          560,
+          498
+        ],
+        [
+          710,
+          531
+        ]
+      ],
+      "value": "Zooplankton",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          75,
+          86
+        ],
+        [
+          48,
+          126
+        ],
+        [
+          67,
+          128
+        ],
+        [
+          62,
+          227
+        ],
+        [
+          98,
+          227
+        ],
+        [
+          88,
+          128
+        ],
+        [
+          98,
+          125
+        ],
+        [
+          80,
+          88
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          93,
+          98
+        ],
+        [
+          110,
+          130
+        ],
+        [
+          117,
+          123
+        ],
+        [
+          298,
+          240
+        ],
+        [
+          298,
+          240
+        ],
+        [
+          298,
+          240
+        ],
+        [
+          306,
+          222
+        ],
+        [
+          126,
+          109
+        ],
+        [
+          136,
+          91
+        ],
+        [
+          94,
+          96
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          80,
+          299
+        ],
+        [
+          72,
+          344
+        ],
+        [
+          88,
+          334
+        ],
+        [
+          155,
+          496
+        ],
+        [
+          160,
+          496
+        ],
+        [
+          179,
+          493
+        ],
+        [
+          104,
+          328
+        ],
+        [
+          115,
+          318
+        ],
+        [
+          78,
+          301
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          194,
+          478
+        ],
+        [
+          214,
+          499
+        ],
+        [
+          298,
+          339
+        ],
+        [
+          312,
+          344
+        ],
+        [
+          304,
+          298
+        ],
+        [
+          264,
+          322
+        ],
+        [
+          277,
+          331
+        ],
+        [
+          194,
+          478
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          245,
+          491
+        ],
+        [
+          256,
+          517
+        ],
+        [
+          594,
+          336
+        ],
+        [
+          600,
+          349
+        ],
+        [
+          616,
+          307
+        ],
+        [
+          568,
+          302
+        ],
+        [
+          578,
+          323
+        ],
+        [
+          245,
+          488
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          274,
+          520
+        ],
+        [
+          275,
+          555
+        ],
+        [
+          494,
+          539
+        ],
+        [
+          498,
+          557
+        ],
+        [
+          533,
+          520
+        ],
+        [
+          480,
+          494
+        ],
+        [
+          485,
+          517
+        ],
+        [
+          274,
+          522
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          637,
+          307
+        ],
+        [
+          610,
+          349
+        ],
+        [
+          630,
+          349
+        ],
+        [
+          627,
+          498
+        ],
+        [
+          654,
+          491
+        ],
+        [
+          656,
+          350
+        ],
+        [
+          669,
+          347
+        ],
+        [
+          635,
+          304
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          317,
+          96
+        ],
+        [
+          294,
+          134
+        ],
+        [
+          310,
+          138
+        ],
+        [
+          310,
+          238
+        ],
+        [
+          334,
+          238
+        ],
+        [
+          330,
+          139
+        ],
+        [
+          338,
+          138
+        ],
+        [
+          318,
+          98
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          349,
+          112
+        ],
+        [
+          368,
+          150
+        ],
+        [
+          378,
+          136
+        ],
+        [
+          611,
+          274
+        ],
+        [
+          626,
+          251
+        ],
+        [
+          387,
+          115
+        ],
+        [
+          392,
+          99
+        ],
+        [
+          350,
+          112
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          336,
+          230
+        ],
+        [
+          344,
+          248
+        ],
+        [
+          579,
+          144
+        ],
+        [
+          621,
+          120
+        ],
+        [
+          637,
+          136
+        ],
+        [
+          650,
+          91
+        ],
+        [
+          603,
+          83
+        ],
+        [
+          614,
+          104
+        ],
+        [
+          374,
+          208
+        ],
+        [
+          338,
+          230
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H4",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H5",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H6",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H7",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A8+H8",
+      "type": "arrowHeadTail",
+      "source": "A8",
+      "target": "H8",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A9+H9",
+      "type": "arrowHeadTail",
+      "source": "A9",
+      "target": "H9",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+A0+T0",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T0",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T4+A1+T0",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T0",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T4+A7+T1",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T1",
+      "connector": "A7",
+      "directional": true
+    },
+    {
+      "id": "T4+A9+T2",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T2",
+      "connector": "A9",
+      "directional": true
+    },
+    {
+      "id": "T5+A8+T1",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T1",
+      "connector": "A8",
+      "directional": true
+    },
+    {
+      "id": "T6+A2+T3",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T3",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T6+A3+T4",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T4",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T6+A4+T5",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T5",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T6+A5+T7",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T7",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T7+A6+T5",
+      "type": "interObjectLinkage",
+      "source": "T7",
+      "target": "T5",
+      "connector": "A6",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "seals sea birds squid clams anchovies sardines phytoplankton zooplankton"
+  },
+  "questions": [
+    {
+      "question_text": "In this diagram, in what direction is energy being transferred?",
+      "question_id": "420.png-4",
+      "answers": [
+        "From squid to sea birds",
+        "From clams to phytoplankton",
+        "From zooplankton to phytoplankton",
+        "From phytoplankton to anchovies"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Name a predator.",
+      "question_id": "420.png-5",
+      "answers": [
+        "clam",
+        "sea bird",
+        "zooplankton",
+        "phytoplankton"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What competes with the sea bird for anchovies?",
+      "question_id": "420.png-2",
+      "answers": [
+        "zooplankton",
+        "squid",
+        "sardines",
+        "clams"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is a seal?",
+      "question_id": "420.png-7",
+      "answers": [
+        "predator",
+        "producer",
+        "prey",
+        "energy"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the highest in the food chain?",
+      "question_id": "420.png-1",
+      "answers": [
+        "seal",
+        "anchovies",
+        "clam",
+        "phytoplankton"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would happen if the sardines all went extinct?",
+      "question_id": "420.png-0",
+      "answers": [
+        "more clams",
+        "fewer sea birds",
+        "more anchovies",
+        "less zooplankton"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would happen if the seals all died?",
+      "question_id": "420.png-6",
+      "answers": [
+        "fewer zooplankton",
+        "more seabirds",
+        "more clams",
+        "more sardines"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would most likely happen to the clams population if all the seals in the community shown above died from illness in a field community?",
+      "question_id": "420.png-8",
+      "answers": [
+        "The clams population would increase since there only predator is no more existing.",
+        "The squid population would increase due to an increase in the clams population.",
+        "The Sardines population would decrease due to more competition for food.",
+        "The sea birds population would increase."
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which of the animals from this food web is a herbivore in the part of a food web shown above?",
+      "question_id": "420.png-3",
+      "answers": [
+        "Squid",
+        "Clams",
+        "Sea Birds",
+        "Seals"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

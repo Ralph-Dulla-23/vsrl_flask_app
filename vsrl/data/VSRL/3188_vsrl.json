@@ -1,0 +1,462 @@
+{
+  "image_id": "3188",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          277,
+          132
+        ],
+        [
+          359,
+          153
+        ]
+      ],
+      "value": "PLANT",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          412,
+          222
+        ],
+        [
+          482,
+          242
+        ]
+      ],
+      "value": "Leaf",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          333,
+          275
+        ],
+        [
+          438,
+          306
+        ]
+      ],
+      "value": "Flower",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          312,
+          421
+        ],
+        [
+          402,
+          446
+        ]
+      ],
+      "value": "Stem",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          163,
+          546
+        ],
+        [
+          258,
+          576
+        ]
+      ],
+      "value": "Roots",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          287,
+          192
+        ],
+        [
+          315,
+          209
+        ],
+        [
+          315,
+          230
+        ],
+        [
+          362,
+          223
+        ],
+        [
+          412,
+          227
+        ],
+        [
+          421,
+          233
+        ],
+        [
+          409,
+          249
+        ],
+        [
+          372,
+          251
+        ],
+        [
+          391,
+          265
+        ],
+        [
+          399,
+          281
+        ],
+        [
+          392,
+          290
+        ],
+        [
+          441,
+          293
+        ],
+        [
+          443,
+          303
+        ],
+        [
+          403,
+          327
+        ],
+        [
+          371,
+          339
+        ],
+        [
+          385,
+          357
+        ],
+        [
+          467,
+          356
+        ],
+        [
+          481,
+          374
+        ],
+        [
+          346,
+          403
+        ],
+        [
+          314,
+          417
+        ],
+        [
+          315,
+          453
+        ],
+        [
+          419,
+          449
+        ],
+        [
+          499,
+          453
+        ],
+        [
+          485,
+          545
+        ],
+        [
+          459,
+          585
+        ],
+        [
+          327,
+          560
+        ],
+        [
+          309,
+          581
+        ],
+        [
+          268,
+          588
+        ],
+        [
+          231,
+          561
+        ],
+        [
+          182,
+          553
+        ],
+        [
+          167,
+          533
+        ],
+        [
+          147,
+          531
+        ],
+        [
+          138,
+          503
+        ],
+        [
+          143,
+          461
+        ],
+        [
+          148,
+          449
+        ],
+        [
+          211,
+          448
+        ],
+        [
+          291,
+          448
+        ],
+        [
+          279,
+          411
+        ],
+        [
+          216,
+          411
+        ],
+        [
+          170,
+          376
+        ],
+        [
+          187,
+          362
+        ],
+        [
+          264,
+          364
+        ],
+        [
+          285,
+          371
+        ],
+        [
+          260,
+          350
+        ],
+        [
+          267,
+          338
+        ],
+        [
+          251,
+          316
+        ],
+        [
+          242,
+          309
+        ],
+        [
+          220,
+          321
+        ],
+        [
+          195,
+          331
+        ],
+        [
+          167,
+          334
+        ],
+        [
+          152,
+          322
+        ],
+        [
+          174,
+          293
+        ],
+        [
+          191,
+          295
+        ],
+        [
+          202,
+          290
+        ],
+        [
+          177,
+          279
+        ],
+        [
+          158,
+          249
+        ],
+        [
+          173,
+          233
+        ],
+        [
+          206,
+          249
+        ],
+        [
+          215,
+          253
+        ],
+        [
+          229,
+          228
+        ],
+        [
+          225,
+          209
+        ],
+        [
+          247,
+          206
+        ],
+        [
+          267,
+          215
+        ],
+        [
+          281,
+          190
+        ],
+        [
+          288,
+          191
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T4",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "plant leaf flower stem roots"
+  },
+  "questions": [
+    {
+      "question_text": "What is represented by D?",
+      "question_id": "3188.png-1",
+      "answers": [
+        "roots",
+        "leaf",
+        "stem",
+        "none of the above"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is the lowest part of the plant?",
+      "question_id": "3188.png-0",
+      "answers": [
+        "none of the above",
+        "leaf",
+        "stem",
+        "roots"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "What lies under the ground?",
+      "question_id": "3188.png-3",
+      "answers": [
+        "Pistil",
+        "Roots",
+        "Stem",
+        "Filament"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What organism is shown in the diagram above?",
+      "question_id": "3188.png-2",
+      "answers": [
+        "Human",
+        "Dog",
+        "Cat",
+        "Plant"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    }
+  ]
+}

@@ -1,0 +1,472 @@
+{
+  "image_id": "1603",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          20,
+          20
+        ],
+        [
+          64,
+          40
+        ]
+      ],
+      "value": "Direction of Current",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          7,
+          132
+        ],
+        [
+          36,
+          152
+        ]
+      ],
+      "value": "North Pole",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          187,
+          105
+        ],
+        [
+          212,
+          124
+        ]
+      ],
+      "value": "South Pole",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          111,
+          14
+        ],
+        [
+          111,
+          78
+        ],
+        [
+          124,
+          81
+        ],
+        [
+          152,
+          81
+        ],
+        [
+          156,
+          73
+        ],
+        [
+          155,
+          11
+        ],
+        [
+          135,
+          5
+        ],
+        [
+          111,
+          13
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          45,
+          133
+        ],
+        [
+          60,
+          126
+        ],
+        [
+          151,
+          114
+        ],
+        [
+          156,
+          108
+        ],
+        [
+          164,
+          108
+        ],
+        [
+          169,
+          114
+        ],
+        [
+          172,
+          124
+        ],
+        [
+          170,
+          128
+        ],
+        [
+          164,
+          130
+        ],
+        [
+          160,
+          131
+        ],
+        [
+          153,
+          129
+        ],
+        [
+          66,
+          140
+        ],
+        [
+          51,
+          136
+        ],
+        [
+          48,
+          135
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          46,
+          52
+        ],
+        [
+          37,
+          87
+        ],
+        [
+          52,
+          89
+        ],
+        [
+          62,
+          47
+        ],
+        [
+          44,
+          48
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          170,
+          62
+        ],
+        [
+          156,
+          80
+        ],
+        [
+          186,
+          98
+        ],
+        [
+          200,
+          83
+        ],
+        [
+          172,
+          63
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          136,
+          1
+        ],
+        [
+          139,
+          22
+        ],
+        [
+          120,
+          20
+        ],
+        [
+          96,
+          27
+        ],
+        [
+          78,
+          49
+        ],
+        [
+          61,
+          79
+        ],
+        [
+          63,
+          100
+        ],
+        [
+          83,
+          109
+        ],
+        [
+          84,
+          118
+        ],
+        [
+          63,
+          128
+        ],
+        [
+          54,
+          141
+        ],
+        [
+          48,
+          119
+        ],
+        [
+          57,
+          111
+        ],
+        [
+          47,
+          97
+        ],
+        [
+          51,
+          69
+        ],
+        [
+          64,
+          42
+        ],
+        [
+          83,
+          21
+        ],
+        [
+          103,
+          7
+        ],
+        [
+          137,
+          2
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          148,
+          67
+        ],
+        [
+          133,
+          80
+        ],
+        [
+          153,
+          88
+        ],
+        [
+          168,
+          94
+        ],
+        [
+          164,
+          97
+        ],
+        [
+          168,
+          116
+        ],
+        [
+          175,
+          128
+        ],
+        [
+          166,
+          133
+        ],
+        [
+          156,
+          133
+        ],
+        [
+          153,
+          125
+        ],
+        [
+          131,
+          131
+        ],
+        [
+          135,
+          151
+        ],
+        [
+          168,
+          163
+        ],
+        [
+          188,
+          137
+        ],
+        [
+          207,
+          116
+        ],
+        [
+          198,
+          99
+        ],
+        [
+          171,
+          70
+        ],
+        [
+          149,
+          69
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H3",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H2",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A2+B1",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B1",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "B1+A3+B0",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B0",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T0+A0+T1",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T1",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T1+I0",
+      "type": "sectionTitle",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+A1+B0",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T2+I0",
+      "type": "sectionTitle",
+      "source": "T2",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "direction of current north pole south pole"
+  }
+}

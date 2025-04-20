@@ -1,0 +1,302 @@
+{
+  "image_id": "134",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          147,
+          99
+        ],
+        [
+          267,
+          125
+        ]
+      ],
+      "value": "SPRING TIDE",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          111,
+          376
+        ],
+        [
+          186,
+          393
+        ]
+      ],
+      "value": "Not to Scale ",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          121,
+          309
+        ],
+        [
+          161,
+          320
+        ]
+      ],
+      "value": "EARTH",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          219,
+          1
+        ],
+        [
+          215,
+          25
+        ],
+        [
+          202,
+          49
+        ],
+        [
+          173,
+          74
+        ],
+        [
+          150,
+          82
+        ],
+        [
+          121,
+          81
+        ],
+        [
+          98,
+          74
+        ],
+        [
+          79,
+          62
+        ],
+        [
+          67,
+          49
+        ],
+        [
+          56,
+          27
+        ],
+        [
+          53,
+          13
+        ],
+        [
+          50,
+          1
+        ],
+        [
+          219,
+          2
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          148,
+          176
+        ],
+        [
+          154,
+          183
+        ],
+        [
+          152,
+          194
+        ],
+        [
+          143,
+          200
+        ],
+        [
+          131,
+          197
+        ],
+        [
+          128,
+          191
+        ],
+        [
+          128,
+          186
+        ],
+        [
+          132,
+          179
+        ],
+        [
+          139,
+          175
+        ],
+        [
+          145,
+          174
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          169,
+          281
+        ],
+        [
+          176,
+          298
+        ],
+        [
+          179,
+          309
+        ],
+        [
+          179,
+          327
+        ],
+        [
+          174,
+          339
+        ],
+        [
+          162,
+          356
+        ],
+        [
+          149,
+          361
+        ],
+        [
+          132,
+          359
+        ],
+        [
+          125,
+          353
+        ],
+        [
+          118,
+          345
+        ],
+        [
+          113,
+          334
+        ],
+        [
+          109,
+          315
+        ],
+        [
+          114,
+          293
+        ],
+        [
+          127,
+          278
+        ],
+        [
+          140,
+          272
+        ],
+        [
+          153,
+          272
+        ],
+        [
+          167,
+          281
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageCaption",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+I0",
+      "type": "misc",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B2",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "spring tide not to scale  earth"
+  },
+  "questions": [
+    {
+      "question_text": "What is the Spring Tide?",
+      "question_id": "134.png-0",
+      "answers": [
+        "When earth is closest to sun.",
+        "When the moon is closest to earth.",
+        "The exceptionally high and low tides that occur at the time of the new moon or the full moon when the sun, moon, and earth are approximately aligned.",
+        "The exceptionally high and low tides that occur at the time of the new moon or the full moon when the sun, moon, and earth are not aligned."
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which letter corresponds to a Spring Tide?",
+      "question_id": "134.png-1",
+      "answers": [
+        "C",
+        "B",
+        "None of the above",
+        "A"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

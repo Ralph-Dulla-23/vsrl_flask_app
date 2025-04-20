@@ -1,0 +1,302 @@
+{
+  "image_id": "4894",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          173,
+          104
+        ],
+        [
+          248,
+          135
+        ]
+      ],
+      "value": "magma chamber",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          8,
+          152
+        ],
+        [
+          114,
+          173
+        ]
+      ],
+      "value": "upper mantle",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          6,
+          132
+        ],
+        [
+          54,
+          145
+        ]
+      ],
+      "value": "crust",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          35,
+          204
+        ],
+        [
+          142,
+          218
+        ]
+      ],
+      "value": "lower mantle",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          135,
+          237
+        ],
+        [
+          177,
+          249
+        ]
+      ],
+      "value": "core",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          19,
+          98
+        ],
+        [
+          57,
+          78
+        ],
+        [
+          65,
+          73
+        ],
+        [
+          72,
+          58
+        ],
+        [
+          76,
+          49
+        ],
+        [
+          92,
+          41
+        ],
+        [
+          115,
+          32
+        ],
+        [
+          122,
+          18
+        ],
+        [
+          131,
+          8
+        ],
+        [
+          153,
+          5
+        ],
+        [
+          156,
+          9
+        ],
+        [
+          177,
+          10
+        ],
+        [
+          196,
+          53
+        ],
+        [
+          208,
+          66
+        ],
+        [
+          214,
+          76
+        ],
+        [
+          219,
+          87
+        ],
+        [
+          262,
+          118
+        ],
+        [
+          277,
+          128
+        ],
+        [
+          281,
+          244
+        ],
+        [
+          21,
+          244
+        ],
+        [
+          21,
+          98
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          150,
+          116
+        ],
+        [
+          153,
+          122
+        ],
+        [
+          178,
+          116
+        ],
+        [
+          173,
+          107
+        ],
+        [
+          151,
+          112
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T4",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole",
+    "A0": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "magma chamber upper mantle crust lower mantle core"
+  },
+  "questions": [
+    {
+      "question_text": "What is the layer above the upper mantle?",
+      "question_id": "4894.png-0",
+      "answers": [
+        "core",
+        "mouth",
+        "magma chamber",
+        "crust"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Where has the magma collected above the earth's surface?",
+      "question_id": "4894.png-1",
+      "answers": [
+        "c",
+        "b",
+        "e",
+        "a"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which is just above the upper mantle and below the magma chamber?",
+      "question_id": "4894.png-2",
+      "answers": [
+        "Upper mantle",
+        "Crust",
+        "Core",
+        "Lower mantle"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

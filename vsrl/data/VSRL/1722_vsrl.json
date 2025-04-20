@@ -1,0 +1,218 @@
+{
+  "image_id": "1722",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          396,
+          6
+        ],
+        [
+          478,
+          61
+        ]
+      ],
+      "value": "Inyo-White Mountains-Horst",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          11,
+          193
+        ],
+        [
+          137,
+          228
+        ]
+      ],
+      "value": "Sierra Nevada- Tilted Fault Block",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          178,
+          229
+        ],
+        [
+          278,
+          263
+        ]
+      ],
+      "value": "Owens Valley- Graben",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          4,
+          263
+        ],
+        [
+          5,
+          188
+        ],
+        [
+          155,
+          93
+        ],
+        [
+          173,
+          91
+        ],
+        [
+          191,
+          87
+        ],
+        [
+          213,
+          81
+        ],
+        [
+          236,
+          72
+        ],
+        [
+          272,
+          72
+        ],
+        [
+          291,
+          64
+        ],
+        [
+          319,
+          68
+        ],
+        [
+          332,
+          64
+        ],
+        [
+          343,
+          89
+        ],
+        [
+          359,
+          92
+        ],
+        [
+          369,
+          79
+        ],
+        [
+          399,
+          76
+        ],
+        [
+          429,
+          67
+        ],
+        [
+          437,
+          75
+        ],
+        [
+          449,
+          83
+        ],
+        [
+          449,
+          89
+        ],
+        [
+          485,
+          92
+        ],
+        [
+          489,
+          167
+        ],
+        [
+          336,
+          265
+        ],
+        [
+          4,
+          264
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "B0": "whole"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "inyo-white mountains-horst sierra nevada- tilted fault block owens valley- graben"
+  },
+  "questions": [
+    {
+      "question_text": "Which of the label applies to the sierra nevada tilted fault block?",
+      "question_id": "1722.png-1",
+      "answers": [
+        "C",
+        "B",
+        "A",
+        "C & B"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "which of the label applies to the owens valley graben?",
+      "question_id": "1722.png-0",
+      "answers": [
+        "C",
+        "B",
+        "A",
+        "A & C"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

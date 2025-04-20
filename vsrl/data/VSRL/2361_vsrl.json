@@ -1,0 +1,348 @@
+{
+  "image_id": "2361",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          109,
+          3
+        ],
+        [
+          149,
+          22
+        ]
+      ],
+      "value": "Seed",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          4,
+          65
+        ],
+        [
+          64,
+          104
+        ]
+      ],
+      "value": "Flowers appear",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          101,
+          134
+        ],
+        [
+          147,
+          165
+        ]
+      ],
+      "value": "Fruits appear",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          166,
+          66
+        ],
+        [
+          246,
+          104
+        ]
+      ],
+      "value": "Young plant appears",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          40,
+          55
+        ],
+        [
+          80,
+          28
+        ],
+        [
+          80,
+          24
+        ],
+        [
+          95,
+          21
+        ],
+        [
+          89,
+          34
+        ],
+        [
+          87,
+          33
+        ],
+        [
+          45,
+          62
+        ],
+        [
+          42,
+          57
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          172,
+          20
+        ],
+        [
+          201,
+          46
+        ],
+        [
+          204,
+          44
+        ],
+        [
+          206,
+          57
+        ],
+        [
+          194,
+          54
+        ],
+        [
+          196,
+          50
+        ],
+        [
+          167,
+          24
+        ],
+        [
+          173,
+          18
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          213,
+          113
+        ],
+        [
+          186,
+          140
+        ],
+        [
+          184,
+          139
+        ],
+        [
+          180,
+          149
+        ],
+        [
+          192,
+          148
+        ],
+        [
+          192,
+          144
+        ],
+        [
+          218,
+          117
+        ],
+        [
+          215,
+          114
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          71,
+          148
+        ],
+        [
+          43,
+          122
+        ],
+        [
+          41,
+          124
+        ],
+        [
+          34,
+          112
+        ],
+        [
+          49,
+          114
+        ],
+        [
+          48,
+          117
+        ],
+        [
+          75,
+          143
+        ],
+        [
+          73,
+          147
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H2",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H1",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A1+T3",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T3",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T1+A0+T0",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T0",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T2+A3+T1",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T1",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T3+A2+T2",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T2",
+      "connector": "A2",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "seed flowers appear fruits appear young plant appears"
+  },
+  "questions": [
+    {
+      "question_text": "What comes before Young Plant Appears?",
+      "question_id": "2361.png-0",
+      "answers": [
+        "flowers appear",
+        "Seed",
+        "seed two",
+        "flowers appear"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the seed in the diagram?",
+      "question_id": "2361.png-2",
+      "answers": [
+        "A",
+        "none of the above",
+        "C",
+        "D"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "When do the fruits appear?",
+      "question_id": "2361.png-1",
+      "answers": [
+        "A",
+        "B",
+        "C",
+        "none of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}

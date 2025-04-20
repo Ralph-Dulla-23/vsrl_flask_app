@@ -1,0 +1,866 @@
+{
+  "image_id": "2546",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          344,
+          139
+        ],
+        [
+          618,
+          192
+        ]
+      ],
+      "value": "New moon",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          163,
+          716
+        ],
+        [
+          562,
+          740
+        ]
+      ],
+      "value": "Gravitational forces exerted by the Sun",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          157,
+          805
+        ],
+        [
+          586,
+          827
+        ]
+      ],
+      "value": "Gravitational forces exerted by the Moon",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          680,
+          355
+        ],
+        [
+          819,
+          380
+        ]
+      ],
+      "value": "Spring Tide",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          532,
+          458
+        ],
+        [
+          599,
+          517
+        ]
+      ],
+      "value": "New",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          900,
+          412
+        ],
+        [
+          981,
+          444
+        ]
+      ],
+      "value": "Earth",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          261,
+          417
+        ],
+        [
+          322,
+          450
+        ]
+      ],
+      "value": "Sun",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          242,
+          280
+        ],
+        [
+          193,
+          309
+        ],
+        [
+          152,
+          339
+        ],
+        [
+          130,
+          399
+        ],
+        [
+          132,
+          471
+        ],
+        [
+          165,
+          536
+        ],
+        [
+          203,
+          564
+        ],
+        [
+          304,
+          589
+        ],
+        [
+          364,
+          566
+        ],
+        [
+          417,
+          529
+        ],
+        [
+          450,
+          471
+        ],
+        [
+          456,
+          401
+        ],
+        [
+          418,
+          318
+        ],
+        [
+          344,
+          279
+        ],
+        [
+          242,
+          279
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          593,
+          395
+        ],
+        [
+          613,
+          390
+        ],
+        [
+          639,
+          406
+        ],
+        [
+          650,
+          425
+        ],
+        [
+          646,
+          442
+        ],
+        [
+          621,
+          469
+        ],
+        [
+          588,
+          469
+        ],
+        [
+          567,
+          455
+        ],
+        [
+          564,
+          421
+        ],
+        [
+          589,
+          398
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          883,
+          357
+        ],
+        [
+          857,
+          387
+        ],
+        [
+          852,
+          429
+        ],
+        [
+          860,
+          459
+        ],
+        [
+          897,
+          498
+        ],
+        [
+          916,
+          505
+        ],
+        [
+          951,
+          510
+        ],
+        [
+          1001,
+          493
+        ],
+        [
+          1028,
+          445
+        ],
+        [
+          1025,
+          396
+        ],
+        [
+          986,
+          350
+        ],
+        [
+          932,
+          336
+        ],
+        [
+          881,
+          360
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          740,
+          404
+        ],
+        [
+          740,
+          391
+        ],
+        [
+          878,
+          391
+        ],
+        [
+          878,
+          415
+        ],
+        [
+          740,
+          406
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          703,
+          431
+        ],
+        [
+          703,
+          417
+        ],
+        [
+          870,
+          417
+        ],
+        [
+          870,
+          436
+        ],
+        [
+          703,
+          433
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          732,
+          463
+        ],
+        [
+          730,
+          447
+        ],
+        [
+          797,
+          442
+        ],
+        [
+          878,
+          445
+        ],
+        [
+          878,
+          461
+        ],
+        [
+          734,
+          464
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          46,
+          710
+        ],
+        [
+          43,
+          699
+        ],
+        [
+          130,
+          694
+        ],
+        [
+          130,
+          711
+        ],
+        [
+          48,
+          710
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          52,
+          727
+        ],
+        [
+          52,
+          718
+        ],
+        [
+          151,
+          716
+        ],
+        [
+          151,
+          735
+        ],
+        [
+          52,
+          734
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          48,
+          759
+        ],
+        [
+          46,
+          743
+        ],
+        [
+          132,
+          740
+        ],
+        [
+          132,
+          757
+        ],
+        [
+          51,
+          757
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          48,
+          795
+        ],
+        [
+          48,
+          772
+        ],
+        [
+          143,
+          789
+        ],
+        [
+          138,
+          800
+        ],
+        [
+          49,
+          799
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          52,
+          819
+        ],
+        [
+          52,
+          805
+        ],
+        [
+          157,
+          810
+        ],
+        [
+          157,
+          821
+        ],
+        [
+          54,
+          821
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          49,
+          846
+        ],
+        [
+          49,
+          832
+        ],
+        [
+          132,
+          829
+        ],
+        [
+          132,
+          845
+        ],
+        [
+          51,
+          849
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          597,
+          385
+        ],
+        [
+          616,
+          391
+        ],
+        [
+          689,
+          214
+        ],
+        [
+          824,
+          114
+        ],
+        [
+          952,
+          90
+        ],
+        [
+          1101,
+          122
+        ],
+        [
+          1201,
+          208
+        ],
+        [
+          1263,
+          330
+        ],
+        [
+          1268,
+          479
+        ],
+        [
+          1237,
+          580
+        ],
+        [
+          1153,
+          686
+        ],
+        [
+          1006,
+          754
+        ],
+        [
+          892,
+          746
+        ],
+        [
+          776,
+          699
+        ],
+        [
+          680,
+          605
+        ],
+        [
+          620,
+          467
+        ],
+        [
+          599,
+          471
+        ],
+        [
+          615,
+          566
+        ],
+        [
+          670,
+          664
+        ],
+        [
+          757,
+          737
+        ],
+        [
+          909,
+          794
+        ],
+        [
+          1025,
+          783
+        ],
+        [
+          1149,
+          726
+        ],
+        [
+          1236,
+          648
+        ],
+        [
+          1302,
+          490
+        ],
+        [
+          1306,
+          366
+        ],
+        [
+          1279,
+          268
+        ],
+        [
+          1217,
+          179
+        ],
+        [
+          1133,
+          103
+        ],
+        [
+          1041,
+          68
+        ],
+        [
+          930,
+          55
+        ],
+        [
+          816,
+          81
+        ],
+        [
+          721,
+          135
+        ],
+        [
+          654,
+          208
+        ],
+        [
+          607,
+          309
+        ],
+        [
+          599,
+          387
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H4",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H5",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H7",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H2",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H8",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H8",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H1",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A8+H6",
+      "type": "arrowHeadTail",
+      "source": "A8",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B1",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+B2",
+      "type": "intraObjectLabel",
+      "source": "T5",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+B0",
+      "type": "intraObjectLabel",
+      "source": "T6",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "new moon gravitational forces exerted by the sun gravitational forces exerted by the moon spring tide new earth sun"
+  },
+  "questions": [
+    {
+      "question_text": "The diagram depicts a new moon. Which part of the diagram best represents Spring Tide?",
+      "question_id": "2546.png-0",
+      "answers": [
+        "D",
+        "B",
+        "E",
+        "G"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is depicted by label B?",
+      "question_id": "2546.png-2",
+      "answers": [
+        "gravitational forces exerted by the sun",
+        "gravitational forces exerted by the moon",
+        "spring tide",
+        "earth"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is shown at letter C?",
+      "question_id": "2546.png-1",
+      "answers": [
+        "spring tide",
+        "earth",
+        "sun",
+        "new moon"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    }
+  ]
+}

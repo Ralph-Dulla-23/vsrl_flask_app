@@ -1,0 +1,602 @@
+{
+  "image_id": "3780",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          220,
+          125
+        ],
+        [
+          270,
+          138
+        ]
+      ],
+      "value": "Stomach ",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          225,
+          178
+        ],
+        [
+          274,
+          207
+        ]
+      ],
+      "value": "Colon (shaded) ",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          207,
+          285
+        ],
+        [
+          237,
+          298
+        ]
+      ],
+      "value": "Anus ",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          20,
+          236
+        ],
+        [
+          70,
+          265
+        ]
+      ],
+      "value": "Small intestine ",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          22,
+          280
+        ],
+        [
+          67,
+          294
+        ]
+      ],
+      "value": "Rectum ",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          11,
+          147
+        ],
+        [
+          73,
+          162
+        ]
+      ],
+      "value": "Duodenum ",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          201,
+          63
+        ],
+        [
+          267,
+          78
+        ]
+      ],
+      "value": "Esophagus ",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          90,
+          293
+        ],
+        [
+          89,
+          256
+        ],
+        [
+          92,
+          242
+        ],
+        [
+          72,
+          235
+        ],
+        [
+          63,
+          232
+        ],
+        [
+          63,
+          209
+        ],
+        [
+          68,
+          168
+        ],
+        [
+          70,
+          135
+        ],
+        [
+          75,
+          111
+        ],
+        [
+          83,
+          106
+        ],
+        [
+          91,
+          103
+        ],
+        [
+          106,
+          100
+        ],
+        [
+          120,
+          93
+        ],
+        [
+          99,
+          85
+        ],
+        [
+          93,
+          64
+        ],
+        [
+          100,
+          38
+        ],
+        [
+          108,
+          15
+        ],
+        [
+          126,
+          10
+        ],
+        [
+          150,
+          13
+        ],
+        [
+          169,
+          17
+        ],
+        [
+          172,
+          37
+        ],
+        [
+          169,
+          61
+        ],
+        [
+          161,
+          70
+        ],
+        [
+          171,
+          91
+        ],
+        [
+          201,
+          99
+        ],
+        [
+          210,
+          111
+        ],
+        [
+          213,
+          146
+        ],
+        [
+          221,
+          199
+        ],
+        [
+          233,
+          223
+        ],
+        [
+          233,
+          234
+        ],
+        [
+          216,
+          240
+        ],
+        [
+          194,
+          238
+        ],
+        [
+          200,
+          263
+        ],
+        [
+          203,
+          290
+        ],
+        [
+          172,
+          296
+        ],
+        [
+          142,
+          300
+        ],
+        [
+          101,
+          301
+        ],
+        [
+          90,
+          296
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          145,
+          198
+        ],
+        [
+          142,
+          206
+        ],
+        [
+          57,
+          167
+        ],
+        [
+          61,
+          161
+        ],
+        [
+          142,
+          197
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          63,
+          247
+        ],
+        [
+          123,
+          238
+        ],
+        [
+          124,
+          228
+        ],
+        [
+          59,
+          242
+        ],
+        [
+          59,
+          247
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          71,
+          283
+        ],
+        [
+          139,
+          267
+        ],
+        [
+          142,
+          275
+        ],
+        [
+          73,
+          293
+        ],
+        [
+          71,
+          285
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          146,
+          279
+        ],
+        [
+          143,
+          290
+        ],
+        [
+          204,
+          296
+        ],
+        [
+          204,
+          285
+        ],
+        [
+          150,
+          280
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          143,
+          109
+        ],
+        [
+          197,
+          70
+        ],
+        [
+          202,
+          79
+        ],
+        [
+          148,
+          119
+        ],
+        [
+          143,
+          110
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          160,
+          181
+        ],
+        [
+          221,
+          140
+        ],
+        [
+          209,
+          130
+        ],
+        [
+          151,
+          176
+        ],
+        [
+          157,
+          182
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          177,
+          220
+        ],
+        [
+          227,
+          195
+        ],
+        [
+          221,
+          189
+        ],
+        [
+          171,
+          211
+        ],
+        [
+          178,
+          220
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T1+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T2+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T3+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T4+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T5+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T6+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "stomach  colon (shaded)  anus  small intestine  rectum  duodenum  esophagus "
+  },
+  "questions": [
+    {
+      "question_text": "In which organ digestion is completed?",
+      "question_id": "3780.png-0",
+      "answers": [
+        "B",
+        "D",
+        "E",
+        "None of above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "What does food pass through to get to the stomach?",
+      "question_id": "3780.png-3",
+      "answers": [
+        "Esophagus",
+        "Colon",
+        "Nose",
+        "Small intestines"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the upper part of the digestive system where nutrients are absorbed?",
+      "question_id": "3780.png-1",
+      "answers": [
+        "Nose",
+        "Lungs",
+        "Small intestines",
+        "Liver"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which label is pointing to stomach?",
+      "question_id": "3780.png-2",
+      "answers": [
+        "E",
+        "G",
+        "B",
+        "None of above"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    }
+  ]
+}

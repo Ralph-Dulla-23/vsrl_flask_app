@@ -1,0 +1,460 @@
+{
+  "image_id": "3143",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          284,
+          23
+        ],
+        [
+          368,
+          43
+        ]
+      ],
+      "value": "Mouth cells",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          368,
+          125
+        ],
+        [
+          441,
+          158
+        ]
+      ],
+      "value": "Split in inner cells",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          77,
+          347
+        ],
+        [
+          161,
+          368
+        ]
+      ],
+      "value": "Aboral Pole",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          173,
+          389
+        ],
+        [
+          281,
+          418
+        ]
+      ],
+      "value": "The Planula",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          35,
+          238
+        ],
+        [
+          116,
+          273
+        ]
+      ],
+      "value": "Ectodermal cells",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          92,
+          56
+        ],
+        [
+          176,
+          83
+        ]
+      ],
+      "value": "Oral Pole",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          161,
+          341
+        ],
+        [
+          147,
+          316
+        ],
+        [
+          141,
+          281
+        ],
+        [
+          136,
+          253
+        ],
+        [
+          132,
+          200
+        ],
+        [
+          139,
+          140
+        ],
+        [
+          155,
+          95
+        ],
+        [
+          194,
+          69
+        ],
+        [
+          239,
+          54
+        ],
+        [
+          276,
+          58
+        ],
+        [
+          319,
+          93
+        ],
+        [
+          334,
+          147
+        ],
+        [
+          342,
+          211
+        ],
+        [
+          350,
+          282
+        ],
+        [
+          325,
+          328
+        ],
+        [
+          292,
+          361
+        ],
+        [
+          233,
+          373
+        ],
+        [
+          184,
+          364
+        ],
+        [
+          161,
+          343
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          229,
+          201
+        ],
+        [
+          244,
+          173
+        ],
+        [
+          248,
+          184
+        ],
+        [
+          360,
+          139
+        ],
+        [
+          363,
+          146
+        ],
+        [
+          249,
+          193
+        ],
+        [
+          252,
+          202
+        ],
+        [
+          233,
+          203
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          281,
+          23
+        ],
+        [
+          284,
+          31
+        ],
+        [
+          263,
+          47
+        ],
+        [
+          253,
+          61
+        ],
+        [
+          257,
+          62
+        ],
+        [
+          258,
+          66
+        ],
+        [
+          240,
+          72
+        ],
+        [
+          235,
+          52
+        ],
+        [
+          242,
+          51
+        ],
+        [
+          280,
+          22
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          94,
+          260
+        ],
+        [
+          130,
+          256
+        ],
+        [
+          128,
+          249
+        ],
+        [
+          149,
+          252
+        ],
+        [
+          143,
+          270
+        ],
+        [
+          136,
+          263
+        ],
+        [
+          117,
+          267
+        ],
+        [
+          96,
+          271
+        ],
+        [
+          95,
+          261
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H2",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H0",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T1+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+I0",
+      "type": "imageTitle",
+      "source": "T3",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T5+B0",
+      "type": "intraObjectLabel",
+      "source": "T5",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "title",
+    "T4": "part_label",
+    "T5": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "mouth cells split in inner cells aboral pole the planula ectodermal cells oral pole"
+  },
+  "questions": [
+    {
+      "question_text": "The flat, free-swimming, ciliated larva of a coelenterate is called as __________",
+      "question_id": "3143.png-2",
+      "answers": [
+        "Oral Pole",
+        "Mouth Cells",
+        "Planula",
+        "Aboral Pole"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What does F represent ?",
+      "question_id": "3143.png-3",
+      "answers": [
+        "Mouth cells",
+        "Ectodermal cells",
+        "Oral pole",
+        "Aboral pole"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is Located opposite to or away from the mouth in the above diagram?",
+      "question_id": "3143.png-0",
+      "answers": [
+        "Oral Pole",
+        "Ectodermal Cells",
+        "Aboral Pole",
+        "Mouth cells"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which label represents the Mouth cells ?",
+      "question_id": "3143.png-1",
+      "answers": [
+        "B",
+        "D",
+        "A",
+        "E"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

@@ -1,0 +1,400 @@
+{
+  "image_id": "2529",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          0
+        ],
+        [
+          325,
+          30
+        ]
+      ],
+      "value": "Tidal buldge due to centrifugal forces",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          417,
+          106
+        ],
+        [
+          454,
+          121
+        ]
+      ],
+      "value": "Moon",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          239,
+          94
+        ],
+        [
+          321,
+          147
+        ]
+      ],
+      "value": "Moon's gravitational",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          235,
+          189
+        ],
+        [
+          479,
+          214
+        ]
+      ],
+      "value": "Tidal buldge due to gravity",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          403,
+          113
+        ],
+        [
+          405,
+          101
+        ],
+        [
+          412,
+          90
+        ],
+        [
+          421,
+          84
+        ],
+        [
+          432,
+          82
+        ],
+        [
+          451,
+          82
+        ],
+        [
+          459,
+          91
+        ],
+        [
+          464,
+          101
+        ],
+        [
+          466,
+          112
+        ],
+        [
+          467,
+          125
+        ],
+        [
+          459,
+          135
+        ],
+        [
+          451,
+          142
+        ],
+        [
+          431,
+          144
+        ],
+        [
+          421,
+          140
+        ],
+        [
+          412,
+          133
+        ],
+        [
+          405,
+          123
+        ],
+        [
+          402,
+          115
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          88,
+          117
+        ],
+        [
+          88,
+          105
+        ],
+        [
+          95,
+          88
+        ],
+        [
+          102,
+          76
+        ],
+        [
+          111,
+          67
+        ],
+        [
+          123,
+          59
+        ],
+        [
+          137,
+          51
+        ],
+        [
+          149,
+          47
+        ],
+        [
+          162,
+          47
+        ],
+        [
+          176,
+          47
+        ],
+        [
+          197,
+          53
+        ],
+        [
+          211,
+          62
+        ],
+        [
+          220,
+          74
+        ],
+        [
+          228,
+          89
+        ],
+        [
+          233,
+          106
+        ],
+        [
+          235,
+          124
+        ],
+        [
+          231,
+          139
+        ],
+        [
+          225,
+          152
+        ],
+        [
+          214,
+          164
+        ],
+        [
+          204,
+          172
+        ],
+        [
+          190,
+          180
+        ],
+        [
+          180,
+          185
+        ],
+        [
+          159,
+          186
+        ],
+        [
+          143,
+          187
+        ],
+        [
+          132,
+          182
+        ],
+        [
+          115,
+          173
+        ],
+        [
+          102,
+          156
+        ],
+        [
+          95,
+          139
+        ],
+        [
+          87,
+          115
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          15,
+          18
+        ],
+        [
+          30,
+          74
+        ],
+        [
+          39,
+          72
+        ],
+        [
+          25,
+          15
+        ],
+        [
+          17,
+          17
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          306,
+          144
+        ],
+        [
+          393,
+          143
+        ],
+        [
+          389,
+          92
+        ],
+        [
+          309,
+          92
+        ],
+        [
+          305,
+          142
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          287,
+          168
+        ],
+        [
+          297,
+          164
+        ],
+        [
+          307,
+          190
+        ],
+        [
+          299,
+          198
+        ],
+        [
+          286,
+          169
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "physics",
+    "diagram_type": "labeled_illustration",
+    "text_content": "tidal buldge due to centrifugal forces moon moon's gravitational tidal buldge due to gravity"
+  },
+  "questions": [
+    {
+      "question_text": "What does the moon's gravitational pull result in on earth?",
+      "question_id": "2529.png-0",
+      "answers": [
+        "Global warming",
+        "Tidal bulge",
+        "Seasons",
+        "Weather changes"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

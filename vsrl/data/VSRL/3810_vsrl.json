@@ -1,0 +1,514 @@
+{
+  "image_id": "3810",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          85,
+          8
+        ],
+        [
+          151,
+          29
+        ]
+      ],
+      "value": "(3) Iris",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          5,
+          48
+        ],
+        [
+          99,
+          69
+        ]
+      ],
+      "value": "(1) Cornea",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          6,
+          131
+        ],
+        [
+          80,
+          150
+        ]
+      ],
+      "value": "(2) Pupil",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          44,
+          216
+        ],
+        [
+          137,
+          254
+        ]
+      ],
+      "value": "(6) Ciliary Muscle",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          176,
+          125
+        ],
+        [
+          250,
+          145
+        ]
+      ],
+      "value": "(4) Lens",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          352,
+          113
+        ],
+        [
+          435,
+          153
+        ]
+      ],
+      "value": "(7) Optic Nerve",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          323,
+          213
+        ],
+        [
+          410,
+          234
+        ]
+      ],
+      "value": "(5) Retina",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          109,
+          87
+        ],
+        [
+          88,
+          123
+        ],
+        [
+          87,
+          166
+        ],
+        [
+          110,
+          200
+        ],
+        [
+          116,
+          204
+        ],
+        [
+          161,
+          248
+        ],
+        [
+          223,
+          258
+        ],
+        [
+          284,
+          246
+        ],
+        [
+          321,
+          202
+        ],
+        [
+          351,
+          207
+        ],
+        [
+          366,
+          162
+        ],
+        [
+          334,
+          158
+        ],
+        [
+          338,
+          114
+        ],
+        [
+          310,
+          61
+        ],
+        [
+          260,
+          31
+        ],
+        [
+          213,
+          22
+        ],
+        [
+          167,
+          33
+        ],
+        [
+          126,
+          63
+        ],
+        [
+          110,
+          85
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          62,
+          136
+        ],
+        [
+          116,
+          139
+        ],
+        [
+          116,
+          147
+        ],
+        [
+          60,
+          147
+        ],
+        [
+          60,
+          139
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          111,
+          218
+        ],
+        [
+          120,
+          224
+        ],
+        [
+          146,
+          201
+        ],
+        [
+          136,
+          194
+        ],
+        [
+          111,
+          217
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          286,
+          201
+        ],
+        [
+          294,
+          191
+        ],
+        [
+          329,
+          219
+        ],
+        [
+          324,
+          229
+        ],
+        [
+          287,
+          201
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          338,
+          173
+        ],
+        [
+          365,
+          148
+        ],
+        [
+          370,
+          153
+        ],
+        [
+          343,
+          183
+        ],
+        [
+          336,
+          173
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          144,
+          131
+        ],
+        [
+          178,
+          132
+        ],
+        [
+          176,
+          142
+        ],
+        [
+          143,
+          140
+        ],
+        [
+          145,
+          134
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          111,
+          25
+        ],
+        [
+          123,
+          25
+        ],
+        [
+          135,
+          104
+        ],
+        [
+          122,
+          106
+        ],
+        [
+          110,
+          28
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          78,
+          71
+        ],
+        [
+          88,
+          64
+        ],
+        [
+          114,
+          103
+        ],
+        [
+          104,
+          110
+        ],
+        [
+          77,
+          74
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T1+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T2+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T3+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T4+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T5+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T6+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "(3) iris (1) cornea (2) pupil (6) ciliary muscle (4) lens (7) optic nerve (5) retina"
+  },
+  "questions": [
+    {
+      "question_text": "The opening in the iris is called the _?",
+      "question_id": "3810.png-2",
+      "answers": [
+        "Pupil",
+        "Cornea",
+        "Optic nerve",
+        "Blood vessel"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What part of the eye is between C and B in the figure shown here?",
+      "question_id": "3810.png-1",
+      "answers": [
+        "Lens",
+        "Pupil",
+        "Cilliary muscle",
+        "Retina"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which region in the figure represents the cornea ?",
+      "question_id": "3810.png-0",
+      "answers": [
+        "G",
+        "C",
+        "B",
+        "A"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}

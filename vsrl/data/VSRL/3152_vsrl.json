@@ -1,0 +1,391 @@
+{
+  "image_id": "3152",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          73,
+          21
+        ],
+        [
+          120,
+          35
+        ]
+      ],
+      "value": "media",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          188,
+          16
+        ],
+        [
+          232,
+          39
+        ]
+      ],
+      "value": "costa",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          252,
+          15
+        ],
+        [
+          299,
+          35
+        ]
+      ],
+      "value": "radius",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          228,
+          174
+        ],
+        [
+          275,
+          195
+        ]
+      ],
+      "value": "jugal",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          107,
+          177
+        ],
+        [
+          170,
+          194
+        ]
+      ],
+      "value": "cubitus",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          8,
+          175
+        ],
+        [
+          90,
+          194
+        ]
+      ],
+      "value": "cross vein",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          266,
+          60
+        ],
+        [
+          130,
+          49
+        ],
+        [
+          56,
+          51
+        ],
+        [
+          15,
+          77
+        ],
+        [
+          26,
+          127
+        ],
+        [
+          76,
+          153
+        ],
+        [
+          156,
+          184
+        ],
+        [
+          215,
+          175
+        ],
+        [
+          237,
+          151
+        ],
+        [
+          266,
+          143
+        ],
+        [
+          269,
+          59
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          125,
+          25
+        ],
+        [
+          165,
+          89
+        ],
+        [
+          158,
+          96
+        ],
+        [
+          114,
+          34
+        ],
+        [
+          122,
+          24
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          208,
+          31
+        ],
+        [
+          220,
+          36
+        ],
+        [
+          211,
+          65
+        ],
+        [
+          195,
+          59
+        ],
+        [
+          209,
+          32
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          206,
+          77
+        ],
+        [
+          268,
+          33
+        ],
+        [
+          280,
+          38
+        ],
+        [
+          216,
+          88
+        ],
+        [
+          207,
+          77
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          252,
+          129
+        ],
+        [
+          253,
+          177
+        ],
+        [
+          246,
+          177
+        ],
+        [
+          242,
+          131
+        ],
+        [
+          255,
+          128
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          141,
+          178
+        ],
+        [
+          174,
+          115
+        ],
+        [
+          160,
+          111
+        ],
+        [
+          129,
+          174
+        ],
+        [
+          142,
+          178
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          37,
+          172
+        ],
+        [
+          90,
+          115
+        ],
+        [
+          103,
+          123
+        ],
+        [
+          49,
+          181
+        ],
+        [
+          38,
+          175
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T2+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T3+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T4+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T5+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "media costa radius jugal cubitus cross vein"
+  },
+  "questions": []
+}

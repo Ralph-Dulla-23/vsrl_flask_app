@@ -1,0 +1,585 @@
+{
+  "image_id": "3570",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          136,
+          64
+        ],
+        [
+          504,
+          104
+        ]
+      ],
+      "value": "Structure of a leaf",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          458,
+          221
+        ],
+        [
+          551,
+          252
+        ]
+      ],
+      "value": "spongy mesophyll",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          454,
+          179
+        ],
+        [
+          542,
+          218
+        ]
+      ],
+      "value": "palisade mesophyll",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          466,
+          259
+        ],
+        [
+          536,
+          285
+        ]
+      ],
+      "value": "moist air space",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          460,
+          122
+        ],
+        [
+          542,
+          140
+        ]
+      ],
+      "value": "epidermis",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          456,
+          364
+        ],
+        [
+          555,
+          381
+        ]
+      ],
+      "value": "guard cells",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          458,
+          155
+        ],
+        [
+          496,
+          171
+        ]
+      ],
+      "value": "vein",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          184,
+          424
+        ],
+        [
+          230,
+          445
+        ]
+      ],
+      "value": "O2 out",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          119,
+          426
+        ],
+        [
+          166,
+          444
+        ]
+      ],
+      "value": "CO2 in",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          298,
+          111
+        ],
+        [
+          153,
+          116
+        ],
+        [
+          73,
+          188
+        ],
+        [
+          36,
+          226
+        ],
+        [
+          37,
+          325
+        ],
+        [
+          41,
+          409
+        ],
+        [
+          62,
+          422
+        ],
+        [
+          97,
+          417
+        ],
+        [
+          129,
+          421
+        ],
+        [
+          160,
+          416
+        ],
+        [
+          204,
+          422
+        ],
+        [
+          233,
+          418
+        ],
+        [
+          287,
+          417
+        ],
+        [
+          353,
+          354
+        ],
+        [
+          402,
+          293
+        ],
+        [
+          394,
+          241
+        ],
+        [
+          401,
+          118
+        ],
+        [
+          347,
+          108
+        ],
+        [
+          296,
+          111
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          392,
+          127
+        ],
+        [
+          462,
+          127
+        ],
+        [
+          463,
+          134
+        ],
+        [
+          391,
+          137
+        ],
+        [
+          391,
+          130
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          166,
+          193
+        ],
+        [
+          167,
+          204
+        ],
+        [
+          464,
+          170
+        ],
+        [
+          459,
+          157
+        ],
+        [
+          168,
+          193
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          388,
+          180
+        ],
+        [
+          387,
+          189
+        ],
+        [
+          459,
+          205
+        ],
+        [
+          462,
+          195
+        ],
+        [
+          390,
+          183
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          386,
+          218
+        ],
+        [
+          385,
+          229
+        ],
+        [
+          462,
+          237
+        ],
+        [
+          463,
+          228
+        ],
+        [
+          388,
+          219
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          267,
+          240
+        ],
+        [
+          266,
+          253
+        ],
+        [
+          467,
+          274
+        ],
+        [
+          467,
+          263
+        ],
+        [
+          268,
+          239
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          189,
+          353
+        ],
+        [
+          190,
+          363
+        ],
+        [
+          469,
+          342
+        ],
+        [
+          466,
+          330
+        ],
+        [
+          190,
+          354
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          191,
+          371
+        ],
+        [
+          193,
+          380
+        ],
+        [
+          462,
+          376
+        ],
+        [
+          462,
+          364
+        ],
+        [
+          192,
+          371
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          161,
+          362
+        ],
+        [
+          173,
+          365
+        ],
+        [
+          155,
+          425
+        ],
+        [
+          142,
+          421
+        ],
+        [
+          162,
+          361
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          176,
+          365
+        ],
+        [
+          185,
+          362
+        ],
+        [
+          201,
+          422
+        ],
+        [
+          188,
+          425
+        ],
+        [
+          174,
+          367
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T2+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T3+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T4+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T5+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T6+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T7+A8+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A8",
+      "directional": false
+    },
+    {
+      "id": "T8+A7+B0",
+      "type": "intraObjectLinkage",
+      "source": "T8",
+      "target": "B0",
+      "connector": "A7",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "structure of a leaf spongy mesophyll palisade mesophyll moist air space epidermis guard cells vein o2 out co2 in"
+  },
+  "questions": []
+}

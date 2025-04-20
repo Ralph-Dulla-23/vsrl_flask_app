@@ -1,0 +1,552 @@
+{
+  "image_id": "1331",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          50,
+          48
+        ],
+        [
+          110,
+          69
+        ]
+      ],
+      "value": "Pharynx",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          48,
+          112
+        ],
+        [
+          111,
+          130
+        ]
+      ],
+      "value": "Trachea",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          13,
+          176
+        ],
+        [
+          56,
+          214
+        ]
+      ],
+      "value": "Right lung",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          303,
+          35
+        ],
+        [
+          393,
+          56
+        ]
+      ],
+      "value": "Nasal cavity",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          308,
+          79
+        ],
+        [
+          360,
+          98
+        ]
+      ],
+      "value": "Nostril",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          300,
+          123
+        ],
+        [
+          351,
+          145
+        ]
+      ],
+      "value": "Larynx",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          344,
+          196
+        ],
+        [
+          380,
+          233
+        ]
+      ],
+      "value": "Left lung",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          328,
+          301
+        ],
+        [
+          398,
+          319
+        ]
+      ],
+      "value": "A.D.A.M.",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          142,
+          45
+        ],
+        [
+          160,
+          19
+        ],
+        [
+          190,
+          10
+        ],
+        [
+          231,
+          18
+        ],
+        [
+          246,
+          37
+        ],
+        [
+          252,
+          62
+        ],
+        [
+          252,
+          72
+        ],
+        [
+          262,
+          89
+        ],
+        [
+          255,
+          95
+        ],
+        [
+          256,
+          104
+        ],
+        [
+          253,
+          110
+        ],
+        [
+          252,
+          123
+        ],
+        [
+          222,
+          132
+        ],
+        [
+          228,
+          141
+        ],
+        [
+          262,
+          152
+        ],
+        [
+          303,
+          171
+        ],
+        [
+          322,
+          200
+        ],
+        [
+          319,
+          244
+        ],
+        [
+          323,
+          300
+        ],
+        [
+          68,
+          298
+        ],
+        [
+          68,
+          253
+        ],
+        [
+          68,
+          213
+        ],
+        [
+          75,
+          176
+        ],
+        [
+          111,
+          159
+        ],
+        [
+          158,
+          137
+        ],
+        [
+          162,
+          102
+        ],
+        [
+          143,
+          73
+        ],
+        [
+          142,
+          47
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          107,
+          64
+        ],
+        [
+          203,
+          108
+        ],
+        [
+          206,
+          98
+        ],
+        [
+          114,
+          57
+        ],
+        [
+          111,
+          62
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          112,
+          118
+        ],
+        [
+          107,
+          128
+        ],
+        [
+          200,
+          165
+        ],
+        [
+          202,
+          158
+        ],
+        [
+          114,
+          119
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          54,
+          184
+        ],
+        [
+          55,
+          193
+        ],
+        [
+          165,
+          192
+        ],
+        [
+          165,
+          183
+        ],
+        [
+          57,
+          183
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          234,
+          203
+        ],
+        [
+          234,
+          211
+        ],
+        [
+          342,
+          211
+        ],
+        [
+          342,
+          201
+        ],
+        [
+          237,
+          202
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          199,
+          131
+        ],
+        [
+          201,
+          140
+        ],
+        [
+          298,
+          140
+        ],
+        [
+          298,
+          130
+        ],
+        [
+          200,
+          133
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          231,
+          84
+        ],
+        [
+          238,
+          91
+        ],
+        [
+          304,
+          48
+        ],
+        [
+          296,
+          41
+        ],
+        [
+          231,
+          81
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          247,
+          86
+        ],
+        [
+          247,
+          93
+        ],
+        [
+          305,
+          94
+        ],
+        [
+          303,
+          84
+        ],
+        [
+          248,
+          88
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T2+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T3+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T4+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T5+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T6+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T7+I0",
+      "type": "misc",
+      "source": "T7",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "pharynx trachea right lung nasal cavity nostril larynx left lung a.d.a.m."
+  },
+  "questions": [
+    {
+      "question_text": "Oxygen enters the body externally through?",
+      "question_id": "1331.png-0",
+      "answers": [
+        "F",
+        "E",
+        "A",
+        "G"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    }
+  ]
+}

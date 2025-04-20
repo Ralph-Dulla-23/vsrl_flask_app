@@ -1,0 +1,784 @@
+{
+  "image_id": "2092",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          0
+        ],
+        [
+          125,
+          34
+        ]
+      ],
+      "value": "Photosynthesis and Chemosynthesis",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          132,
+          34
+        ],
+        [
+          305,
+          69
+        ]
+      ],
+      "value": "Organic material in PRODUCERS (Autotrophs)",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          80,
+          170
+        ],
+        [
+          181,
+          203
+        ]
+      ],
+      "value": "Free inorganic materials",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          308,
+          162
+        ],
+        [
+          392,
+          214
+        ]
+      ],
+      "value": "May involve several steps in food chain",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          189,
+          312
+        ],
+        [
+          391,
+          353
+        ]
+      ],
+      "value": "Organic material in CONSUMERS (Heterotrophs)",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          13,
+          362
+        ],
+        [
+          125,
+          376
+        ]
+      ],
+      "value": "DECOMPOSERS",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          53,
+          33
+        ],
+        [
+          62,
+          35
+        ],
+        [
+          62,
+          45
+        ],
+        [
+          63,
+          55
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          67,
+          74
+        ],
+        [
+          69,
+          82
+        ],
+        [
+          75,
+          92
+        ],
+        [
+          80,
+          99
+        ],
+        [
+          88,
+          109
+        ],
+        [
+          95,
+          118
+        ],
+        [
+          102,
+          125
+        ],
+        [
+          107,
+          127
+        ],
+        [
+          117,
+          133
+        ],
+        [
+          115,
+          139
+        ],
+        [
+          110,
+          141
+        ],
+        [
+          103,
+          141
+        ],
+        [
+          100,
+          137
+        ],
+        [
+          100,
+          134
+        ],
+        [
+          83,
+          117
+        ],
+        [
+          69,
+          101
+        ],
+        [
+          65,
+          92
+        ],
+        [
+          57,
+          67
+        ],
+        [
+          55,
+          33
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          178,
+          73
+        ],
+        [
+          180,
+          84
+        ],
+        [
+          176,
+          89
+        ],
+        [
+          173,
+          89
+        ],
+        [
+          169,
+          88
+        ],
+        [
+          164,
+          95
+        ],
+        [
+          156,
+          102
+        ],
+        [
+          149,
+          112
+        ],
+        [
+          143,
+          125
+        ],
+        [
+          135,
+          141
+        ],
+        [
+          132,
+          153
+        ],
+        [
+          121,
+          155
+        ],
+        [
+          120,
+          145
+        ],
+        [
+          130,
+          122
+        ],
+        [
+          145,
+          101
+        ],
+        [
+          160,
+          82
+        ],
+        [
+          162,
+          80
+        ],
+        [
+          177,
+          71
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          82,
+          363
+        ],
+        [
+          89,
+          361
+        ],
+        [
+          84,
+          331
+        ],
+        [
+          88,
+          297
+        ],
+        [
+          102,
+          270
+        ],
+        [
+          113,
+          259
+        ],
+        [
+          120,
+          251
+        ],
+        [
+          125,
+          253
+        ],
+        [
+          131,
+          240
+        ],
+        [
+          112,
+          239
+        ],
+        [
+          113,
+          244
+        ],
+        [
+          97,
+          261
+        ],
+        [
+          91,
+          267
+        ],
+        [
+          81,
+          287
+        ],
+        [
+          75,
+          305
+        ],
+        [
+          73,
+          325
+        ],
+        [
+          74,
+          346
+        ],
+        [
+          79,
+          361
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          129,
+          217
+        ],
+        [
+          122,
+          233
+        ],
+        [
+          126,
+          237
+        ],
+        [
+          138,
+          279
+        ],
+        [
+          144,
+          293
+        ],
+        [
+          159,
+          315
+        ],
+        [
+          168,
+          325
+        ],
+        [
+          179,
+          332
+        ],
+        [
+          183,
+          334
+        ],
+        [
+          187,
+          327
+        ],
+        [
+          182,
+          321
+        ],
+        [
+          167,
+          307
+        ],
+        [
+          150,
+          284
+        ],
+        [
+          141,
+          259
+        ],
+        [
+          136,
+          235
+        ],
+        [
+          137,
+          224
+        ],
+        [
+          128,
+          217
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          241,
+          73
+        ],
+        [
+          243,
+          65
+        ],
+        [
+          254,
+          72
+        ],
+        [
+          267,
+          85
+        ],
+        [
+          277,
+          98
+        ],
+        [
+          292,
+          126
+        ],
+        [
+          304,
+          181
+        ],
+        [
+          302,
+          221
+        ],
+        [
+          298,
+          253
+        ],
+        [
+          281,
+          293
+        ],
+        [
+          285,
+          295
+        ],
+        [
+          272,
+          305
+        ],
+        [
+          268,
+          286
+        ],
+        [
+          271,
+          283
+        ],
+        [
+          276,
+          287
+        ],
+        [
+          293,
+          235
+        ],
+        [
+          296,
+          181
+        ],
+        [
+          278,
+          116
+        ],
+        [
+          243,
+          75
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          153,
+          211
+        ],
+        [
+          135,
+          223
+        ],
+        [
+          149,
+          240
+        ],
+        [
+          158,
+          232
+        ],
+        [
+          160,
+          228
+        ],
+        [
+          202,
+          216
+        ],
+        [
+          225,
+          199
+        ],
+        [
+          243,
+          171
+        ],
+        [
+          251,
+          152
+        ],
+        [
+          253,
+          121
+        ],
+        [
+          253,
+          95
+        ],
+        [
+          249,
+          70
+        ],
+        [
+          239,
+          73
+        ],
+        [
+          241,
+          93
+        ],
+        [
+          241,
+          125
+        ],
+        [
+          239,
+          149
+        ],
+        [
+          233,
+          169
+        ],
+        [
+          227,
+          180
+        ],
+        [
+          217,
+          189
+        ],
+        [
+          209,
+          196
+        ],
+        [
+          203,
+          201
+        ],
+        [
+          185,
+          209
+        ],
+        [
+          165,
+          214
+        ],
+        [
+          151,
+          213
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H5",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H3",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H0",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H4",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H1",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H2",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+T2",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T2",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T1+A4+T4",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T4",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T1+A5+T2",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T2",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T2+A1+T1",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T1",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T4+A3+T2",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T2",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T5+A2+T2",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T2",
+      "connector": "A2",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "photosynthesis and chemosynthesis organic material in producers (autotrophs) free inorganic materials may involve several steps in food chain organic material in consumers (heterotrophs) decomposers"
+  },
+  "questions": [
+    {
+      "question_text": "What is at the highest of the food chain in this diagram?",
+      "question_id": "2092.png-0",
+      "answers": [
+        "decomposers",
+        "consumers",
+        "producers",
+        "photosynthesis"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is in consumers?",
+      "question_id": "2092.png-1",
+      "answers": [
+        "inorganic material",
+        "organic material",
+        "chemosynthesis",
+        "autotrophs"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is in produceres?",
+      "question_id": "2092.png-2",
+      "answers": [
+        "organic materials",
+        "photosynthesis",
+        "decomposers",
+        "inorganic materials"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

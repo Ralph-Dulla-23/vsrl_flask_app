@@ -1,0 +1,350 @@
+{
+  "image_id": "2988",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          52,
+          87
+        ],
+        [
+          193,
+          145
+        ]
+      ],
+      "value": "ICE CRUST <- 75 km",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          262,
+          14
+        ],
+        [
+          448,
+          72
+        ]
+      ],
+      "value": "GANYMEDE DENSITY = 1.9 g/cm3",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          527,
+          92
+        ],
+        [
+          639,
+          177
+        ]
+      ],
+      "value": "WATER OR ICE MANTLE",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          321,
+          471
+        ],
+        [
+          382,
+          495
+        ]
+      ],
+      "value": "MOON",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          313,
+          508
+        ],
+        [
+          401,
+          532
+        ]
+      ],
+      "value": "MERCURY",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          186,
+          192
+        ],
+        [
+          234,
+          117
+        ],
+        [
+          301,
+          86
+        ],
+        [
+          405,
+          80
+        ],
+        [
+          509,
+          130
+        ],
+        [
+          535,
+          193
+        ],
+        [
+          552,
+          332
+        ],
+        [
+          473,
+          414
+        ],
+        [
+          391,
+          456
+        ],
+        [
+          266,
+          438
+        ],
+        [
+          208,
+          389
+        ],
+        [
+          163,
+          280
+        ],
+        [
+          176,
+          195
+        ],
+        [
+          188,
+          187
+        ],
+        [
+          186,
+          189
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          195,
+          95
+        ],
+        [
+          222,
+          95
+        ],
+        [
+          235,
+          115
+        ],
+        [
+          240,
+          115
+        ],
+        [
+          246,
+          137
+        ],
+        [
+          225,
+          129
+        ],
+        [
+          226,
+          125
+        ],
+        [
+          213,
+          108
+        ],
+        [
+          192,
+          109
+        ],
+        [
+          192,
+          97
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          354,
+          117
+        ],
+        [
+          352,
+          111
+        ],
+        [
+          331,
+          126
+        ],
+        [
+          352,
+          134
+        ],
+        [
+          353,
+          130
+        ],
+        [
+          490,
+          111
+        ],
+        [
+          522,
+          114
+        ],
+        [
+          522,
+          97
+        ],
+        [
+          455,
+          103
+        ],
+        [
+          354,
+          114
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H1",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+I0",
+      "type": "imageTitle",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+I0",
+      "type": "imageCaption",
+      "source": "T4",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "title",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "ice crust <- 75 km ganymede density = 1.9 g/cm3 water or ice mantle moon mercury"
+  },
+  "questions": [
+    {
+      "question_text": "The mantle is indicated by which letter?",
+      "question_id": "2988.png-1",
+      "answers": [
+        "B",
+        "E",
+        "C",
+        "A"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which label is pointing at the ice crust?",
+      "question_id": "2988.png-0",
+      "answers": [
+        "A",
+        "C",
+        "E",
+        "B"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}

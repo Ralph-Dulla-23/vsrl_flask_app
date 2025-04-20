@@ -1,0 +1,404 @@
+{
+  "image_id": "664",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          303,
+          279
+        ],
+        [
+          498,
+          333
+        ]
+      ],
+      "value": "Hard rock",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          267,
+          456
+        ],
+        [
+          453,
+          516
+        ]
+      ],
+      "value": "Soft rock",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          201,
+          555
+        ],
+        [
+          444,
+          606
+        ]
+      ],
+      "value": "(1) Undercutting",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          24,
+          177
+        ],
+        [
+          60,
+          189
+        ],
+        [
+          90,
+          186
+        ],
+        [
+          117,
+          174
+        ],
+        [
+          138,
+          168
+        ],
+        [
+          198,
+          168
+        ],
+        [
+          216,
+          177
+        ],
+        [
+          285,
+          177
+        ],
+        [
+          363,
+          192
+        ],
+        [
+          393,
+          204
+        ],
+        [
+          429,
+          204
+        ],
+        [
+          477,
+          204
+        ],
+        [
+          501,
+          219
+        ],
+        [
+          528,
+          213
+        ],
+        [
+          537,
+          201
+        ],
+        [
+          558,
+          201
+        ],
+        [
+          612,
+          198
+        ],
+        [
+          639,
+          201
+        ],
+        [
+          651,
+          231
+        ],
+        [
+          675,
+          237
+        ],
+        [
+          690,
+          315
+        ],
+        [
+          687,
+          369
+        ],
+        [
+          687,
+          480
+        ],
+        [
+          681,
+          558
+        ],
+        [
+          714,
+          573
+        ],
+        [
+          759,
+          621
+        ],
+        [
+          792,
+          615
+        ],
+        [
+          855,
+          615
+        ],
+        [
+          885,
+          633
+        ],
+        [
+          987,
+          648
+        ],
+        [
+          1095,
+          666
+        ],
+        [
+          1164,
+          675
+        ],
+        [
+          1215,
+          684
+        ],
+        [
+          1251,
+          696
+        ],
+        [
+          1320,
+          696
+        ],
+        [
+          1359,
+          690
+        ],
+        [
+          1380,
+          690
+        ],
+        [
+          1398,
+          702
+        ],
+        [
+          1410,
+          708
+        ],
+        [
+          1437,
+          717
+        ],
+        [
+          1458,
+          744
+        ],
+        [
+          1461,
+          762
+        ],
+        [
+          51,
+          747
+        ],
+        [
+          36,
+          495
+        ],
+        [
+          48,
+          252
+        ],
+        [
+          33,
+          180
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          456,
+          135
+        ],
+        [
+          558,
+          144
+        ],
+        [
+          687,
+          174
+        ],
+        [
+          711,
+          153
+        ],
+        [
+          669,
+          129
+        ],
+        [
+          576,
+          108
+        ],
+        [
+          468,
+          111
+        ],
+        [
+          480,
+          87
+        ],
+        [
+          399,
+          90
+        ],
+        [
+          396,
+          120
+        ],
+        [
+          456,
+          171
+        ],
+        [
+          468,
+          141
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          444,
+          588
+        ],
+        [
+          540,
+          528
+        ],
+        [
+          522,
+          498
+        ],
+        [
+          432,
+          576
+        ],
+        [
+          444,
+          594
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          612,
+          411
+        ],
+        [
+          702,
+          390
+        ],
+        [
+          699,
+          354
+        ],
+        [
+          597,
+          390
+        ],
+        [
+          609,
+          414
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "earth_science",
+    "diagram_type": "labeled_illustration",
+    "text_content": "hard rock soft rock (1) undercutting"
+  }
+}

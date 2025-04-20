@@ -1,0 +1,226 @@
+{
+  "image_id": "2244",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          116,
+          19
+        ],
+        [
+          167,
+          50
+        ]
+      ],
+      "value": "Egg",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          11,
+          126
+        ],
+        [
+          73,
+          152
+        ]
+      ],
+      "value": "Adult",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          209,
+          127
+        ],
+        [
+          294,
+          155
+        ]
+      ],
+      "value": "Nymph",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          75,
+          147
+        ],
+        [
+          76,
+          132
+        ],
+        [
+          207,
+          133
+        ],
+        [
+          207,
+          150
+        ],
+        [
+          77,
+          148
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          165,
+          43
+        ],
+        [
+          246,
+          127
+        ],
+        [
+          253,
+          115
+        ],
+        [
+          178,
+          30
+        ],
+        [
+          166,
+          42
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          102,
+          34
+        ],
+        [
+          119,
+          45
+        ],
+        [
+          60,
+          128
+        ],
+        [
+          48,
+          121
+        ],
+        [
+          103,
+          36
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H2",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H1",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A2+T1",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T1",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T1+A0+T2",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T2",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T2+A1+T0",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T0",
+      "connector": "A1",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "egg adult nymph"
+  },
+  "questions": [
+    {
+      "question_text": "How many stages are in the life cycle shown?",
+      "question_id": "2244.png-1",
+      "answers": [
+        "4",
+        "5",
+        "3",
+        "none of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "The stages in its life cycle are labeled A, B, and C. Which stage is shown at C?",
+      "question_id": "2244.png-0",
+      "answers": [
+        "Larva",
+        "Nymph",
+        "Egg",
+        "Adult"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    }
+  ]
+}

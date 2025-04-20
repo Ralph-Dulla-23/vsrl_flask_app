@@ -1,0 +1,968 @@
+{
+  "image_id": "3872",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          361,
+          144
+        ],
+        [
+          398,
+          164
+        ]
+      ],
+      "value": "lateral vein",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          359,
+          92
+        ],
+        [
+          393,
+          108
+        ]
+      ],
+      "value": "midrib",
+      "replacementText": "M",
+      "category": "label"
+    },
+    "T10": {
+      "id": "T10",
+      "type": "text",
+      "bbox": [
+        [
+          151,
+          285
+        ],
+        [
+          197,
+          297
+        ]
+      ],
+      "value": "Leaf bud",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T11": {
+      "id": "T11",
+      "type": "text",
+      "bbox": [
+        [
+          234,
+          268
+        ],
+        [
+          278,
+          278
+        ]
+      ],
+      "value": "Leaf axil",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "T12": {
+      "id": "T12",
+      "type": "text",
+      "bbox": [
+        [
+          246,
+          242
+        ],
+        [
+          341,
+          256
+        ]
+      ],
+      "value": "Leaf stalk (petiole)",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T13": {
+      "id": "T13",
+      "type": "text",
+      "bbox": [
+        [
+          327,
+          194
+        ],
+        [
+          380,
+          213
+        ]
+      ],
+      "value": "Sublateral vein",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          371,
+          42
+        ],
+        [
+          394,
+          56
+        ]
+      ],
+      "value": "tip",
+      "replacementText": "K",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          183,
+          69
+        ],
+        [
+          228,
+          82
+        ]
+      ],
+      "value": "margin",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          151,
+          122
+        ],
+        [
+          201,
+          145
+        ]
+      ],
+      "value": "Leaf blade (lamina)",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          168,
+          186
+        ],
+        [
+          195,
+          202
+        ]
+      ],
+      "value": "base",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          91,
+          214
+        ],
+        [
+          133,
+          240
+        ]
+      ],
+      "value": "parallel veins",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          152,
+          0
+        ],
+        [
+          260,
+          12
+        ]
+      ],
+      "value": "parts of a leaf",
+      "replacementText": "L",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          24,
+          304
+        ],
+        [
+          141,
+          318
+        ]
+      ],
+      "value": "Monocotyledon leaf",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          208,
+          305
+        ],
+        [
+          307,
+          318
+        ]
+      ],
+      "value": "Dicotyledon leaf",
+      "replacementText": "N",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          0,
+          263
+        ],
+        [
+          5,
+          233
+        ],
+        [
+          19,
+          197
+        ],
+        [
+          42,
+          161
+        ],
+        [
+          64,
+          130
+        ],
+        [
+          96,
+          93
+        ],
+        [
+          129,
+          62
+        ],
+        [
+          156,
+          42
+        ],
+        [
+          170,
+          37
+        ],
+        [
+          163,
+          53
+        ],
+        [
+          156,
+          66
+        ],
+        [
+          140,
+          85
+        ],
+        [
+          129,
+          107
+        ],
+        [
+          116,
+          130
+        ],
+        [
+          103,
+          167
+        ],
+        [
+          66,
+          231
+        ],
+        [
+          48,
+          258
+        ],
+        [
+          34,
+          280
+        ],
+        [
+          0,
+          266
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          147,
+          228
+        ],
+        [
+          165,
+          225
+        ],
+        [
+          196,
+          253
+        ],
+        [
+          195,
+          236
+        ],
+        [
+          207,
+          246
+        ],
+        [
+          220,
+          221
+        ],
+        [
+          214,
+          178
+        ],
+        [
+          214,
+          169
+        ],
+        [
+          209,
+          156
+        ],
+        [
+          216,
+          140
+        ],
+        [
+          224,
+          114
+        ],
+        [
+          246,
+          84
+        ],
+        [
+          274,
+          66
+        ],
+        [
+          306,
+          53
+        ],
+        [
+          322,
+          48
+        ],
+        [
+          352,
+          27
+        ],
+        [
+          362,
+          23
+        ],
+        [
+          356,
+          38
+        ],
+        [
+          351,
+          46
+        ],
+        [
+          350,
+          57
+        ],
+        [
+          349,
+          71
+        ],
+        [
+          352,
+          89
+        ],
+        [
+          355,
+          114
+        ],
+        [
+          349,
+          134
+        ],
+        [
+          340,
+          163
+        ],
+        [
+          327,
+          181
+        ],
+        [
+          309,
+          200
+        ],
+        [
+          285,
+          214
+        ],
+        [
+          270,
+          221
+        ],
+        [
+          243,
+          226
+        ],
+        [
+          231,
+          231
+        ],
+        [
+          220,
+          244
+        ],
+        [
+          224,
+          268
+        ],
+        [
+          233,
+          285
+        ],
+        [
+          243,
+          293
+        ],
+        [
+          222,
+          296
+        ],
+        [
+          145,
+          228
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          295,
+          119
+        ],
+        [
+          359,
+          107
+        ],
+        [
+          359,
+          95
+        ],
+        [
+          288,
+          111
+        ],
+        [
+          294,
+          115
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          54,
+          207
+        ],
+        [
+          89,
+          225
+        ],
+        [
+          93,
+          215
+        ],
+        [
+          55,
+          195
+        ],
+        [
+          53,
+          210
+        ]
+      ],
+      "category": "connector"
+    },
+    "A10": {
+      "id": "A10",
+      "type": "arrow",
+      "polygon": [
+        [
+          314,
+          139
+        ],
+        [
+          312,
+          149
+        ],
+        [
+          363,
+          154
+        ],
+        [
+          365,
+          143
+        ],
+        [
+          313,
+          141
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          219,
+          219
+        ],
+        [
+          225,
+          212
+        ],
+        [
+          191,
+          187
+        ],
+        [
+          186,
+          195
+        ],
+        [
+          218,
+          219
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          166,
+          286
+        ],
+        [
+          175,
+          287
+        ],
+        [
+          203,
+          260
+        ],
+        [
+          197,
+          255
+        ],
+        [
+          165,
+          284
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          232,
+          277
+        ],
+        [
+          235,
+          269
+        ],
+        [
+          212,
+          253
+        ],
+        [
+          209,
+          259
+        ],
+        [
+          228,
+          278
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          206,
+          242
+        ],
+        [
+          245,
+          253
+        ],
+        [
+          247,
+          243
+        ],
+        [
+          211,
+          235
+        ],
+        [
+          206,
+          239
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          195,
+          141
+        ],
+        [
+          247,
+          142
+        ],
+        [
+          244,
+          141
+        ],
+        [
+          243,
+          130
+        ],
+        [
+          194,
+          130
+        ],
+        [
+          196,
+          140
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          221,
+          80
+        ],
+        [
+          251,
+          94
+        ],
+        [
+          253,
+          88
+        ],
+        [
+          224,
+          74
+        ],
+        [
+          223,
+          78
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          341,
+          41
+        ],
+        [
+          374,
+          54
+        ],
+        [
+          375,
+          45
+        ],
+        [
+          344,
+          34
+        ],
+        [
+          340,
+          40
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          298,
+          180
+        ],
+        [
+          326,
+          203
+        ],
+        [
+          330,
+          197
+        ],
+        [
+          300,
+          172
+        ],
+        [
+          296,
+          177
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A10+B1",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B1",
+      "connector": "A10",
+      "directional": false
+    },
+    {
+      "id": "T1+A0+B1",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B1",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T10+A3+B1",
+      "type": "intraObjectLinkage",
+      "source": "T10",
+      "target": "B1",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T11+A4+B1",
+      "type": "intraObjectLinkage",
+      "source": "T11",
+      "target": "B1",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T12+A5+B1",
+      "type": "intraObjectLinkage",
+      "source": "T12",
+      "target": "B1",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T13+A9+B1",
+      "type": "intraObjectLinkage",
+      "source": "T13",
+      "target": "B1",
+      "connector": "A9",
+      "directional": false
+    },
+    {
+      "id": "T2+A8+B1",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B1",
+      "connector": "A8",
+      "directional": false
+    },
+    {
+      "id": "T3+A7+B1",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B1",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T4+A6+B1",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B1",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T5+A2+B1",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B1",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T6+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T7+B1",
+      "type": "intraObjectLabel",
+      "source": "T7",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T8+B1",
+      "type": "intraObjectLabel",
+      "source": "T8",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T9+B1",
+      "type": "intraObjectLabel",
+      "source": "T9",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T10": "part_label",
+    "T11": "part_label",
+    "T12": "part_label",
+    "T13": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A10": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "chemistry",
+    "diagram_type": "flow_diagram",
+    "text_content": "lateral vein midrib leaf bud leaf axil leaf stalk (petiole) sublateral vein tip margin leaf blade (lamina) base parallel veins parts of a leaf monocotyledon leaf dicotyledon leaf"
+  },
+  "questions": [
+    {
+      "question_text": "What is the outermost border of a leaf?",
+      "question_id": "3872.png-1",
+      "answers": [
+        "Base",
+        "Margin",
+        "Leaf Axil",
+        "Tip"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which Part is known as the central or principal vein of a leaf ?",
+      "question_id": "3872.png-0",
+      "answers": [
+        "A",
+        "M",
+        "H",
+        "G"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "what is the upper angle between a lateral organ ?",
+      "question_id": "3872.png-2",
+      "answers": [
+        "J",
+        "H",
+        "L",
+        "B"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

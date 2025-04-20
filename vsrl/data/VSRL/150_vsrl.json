@@ -1,0 +1,562 @@
+{
+  "image_id": "150",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          22,
+          32
+        ],
+        [
+          113,
+          68
+        ]
+      ],
+      "value": "Ocean",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          175,
+          113
+        ],
+        [
+          285,
+          170
+        ]
+      ],
+      "value": "Earth's rotation",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          444,
+          89
+        ],
+        [
+          605,
+          156
+        ]
+      ],
+      "value": "Tidal bulge offset",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          680,
+          81
+        ],
+        [
+          764,
+          129
+        ]
+      ],
+      "value": "Moon ",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          509,
+          304
+        ],
+        [
+          751,
+          342
+        ]
+      ],
+      "value": "DIRECTION OF MOTION",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          166,
+          94
+        ],
+        [
+          119,
+          153
+        ],
+        [
+          119,
+          153
+        ],
+        [
+          115,
+          207
+        ],
+        [
+          115,
+          207
+        ],
+        [
+          137,
+          255
+        ],
+        [
+          137,
+          255
+        ],
+        [
+          191,
+          291
+        ],
+        [
+          191,
+          291
+        ],
+        [
+          271,
+          302
+        ],
+        [
+          271,
+          302
+        ],
+        [
+          345,
+          280
+        ],
+        [
+          353,
+          271
+        ],
+        [
+          393,
+          234
+        ],
+        [
+          393,
+          234
+        ],
+        [
+          420,
+          178
+        ],
+        [
+          420,
+          178
+        ],
+        [
+          408,
+          116
+        ],
+        [
+          398,
+          108
+        ],
+        [
+          361,
+          73
+        ],
+        [
+          361,
+          73
+        ],
+        [
+          288,
+          53
+        ],
+        [
+          288,
+          53
+        ],
+        [
+          199,
+          68
+        ],
+        [
+          199,
+          68
+        ],
+        [
+          170,
+          92
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          651,
+          129
+        ],
+        [
+          611,
+          153
+        ],
+        [
+          611,
+          153
+        ],
+        [
+          610,
+          196
+        ],
+        [
+          610,
+          196
+        ],
+        [
+          635,
+          226
+        ],
+        [
+          635,
+          226
+        ],
+        [
+          678,
+          231
+        ],
+        [
+          678,
+          231
+        ],
+        [
+          712,
+          204
+        ],
+        [
+          712,
+          204
+        ],
+        [
+          713,
+          174
+        ],
+        [
+          713,
+          169
+        ],
+        [
+          704,
+          146
+        ],
+        [
+          704,
+          146
+        ],
+        [
+          688,
+          132
+        ],
+        [
+          688,
+          132
+        ],
+        [
+          650,
+          131
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          94,
+          65
+        ],
+        [
+          99,
+          56
+        ],
+        [
+          156,
+          102
+        ],
+        [
+          153,
+          111
+        ],
+        [
+          89,
+          65
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          204,
+          180
+        ],
+        [
+          218,
+          169
+        ],
+        [
+          224,
+          202
+        ],
+        [
+          248,
+          215
+        ],
+        [
+          277,
+          210
+        ],
+        [
+          291,
+          202
+        ],
+        [
+          298,
+          167
+        ],
+        [
+          287,
+          166
+        ],
+        [
+          285,
+          140
+        ],
+        [
+          307,
+          153
+        ],
+        [
+          302,
+          162
+        ],
+        [
+          309,
+          194
+        ],
+        [
+          277,
+          234
+        ],
+        [
+          236,
+          229
+        ],
+        [
+          205,
+          183
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          634,
+          299
+        ],
+        [
+          657,
+          269
+        ],
+        [
+          664,
+          245
+        ],
+        [
+          665,
+          118
+        ],
+        [
+          635,
+          64
+        ],
+        [
+          616,
+          49
+        ],
+        [
+          608,
+          25
+        ],
+        [
+          635,
+          32
+        ],
+        [
+          648,
+          46
+        ],
+        [
+          681,
+          110
+        ],
+        [
+          680,
+          244
+        ],
+        [
+          653,
+          306
+        ],
+        [
+          635,
+          306
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H1",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A1",
+      "type": "arrowDescriptor",
+      "source": "T1",
+      "target": "A1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B1",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+A2",
+      "type": "arrowDescriptor",
+      "source": "T4",
+      "target": "A2",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "ocean earth's rotation tidal bulge offset moon  direction of motion"
+  },
+  "questions": [
+    {
+      "question_text": "As shown in the diagram, what letter is the moon represented by?",
+      "question_id": "150.png-0",
+      "answers": [
+        "C",
+        "B",
+        "A",
+        "D"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "In the shown photo, the earth's rotation is depicted by which of the following letters?",
+      "question_id": "150.png-3",
+      "answers": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is the natural satellite that has a slightly elliptical orbit called?",
+      "question_id": "150.png-1",
+      "answers": [
+        "Earth",
+        "Direction of Motion",
+        "Moon",
+        "Bulge Offset"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the occurence at point C called in the diagram?>",
+      "question_id": "150.png-2",
+      "answers": [
+        "tidal bulge offset",
+        "direction of motion",
+        "moon",
+        "earth's rotation"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is the process of turning around a center or axis called?",
+      "question_id": "150.png-4",
+      "answers": [
+        "Tidal",
+        "Rotation",
+        "Bulge Offset",
+        "Direction of Motion"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

@@ -1,0 +1,608 @@
+{
+  "image_id": "260",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          18,
+          82
+        ],
+        [
+          69,
+          103
+        ]
+      ],
+      "value": "oak tree",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          118,
+          86
+        ],
+        [
+          199,
+          102
+        ]
+      ],
+      "value": "woodmouse",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          243,
+          86
+        ],
+        [
+          298,
+          100
+        ]
+      ],
+      "value": "weasel",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          372,
+          88
+        ],
+        [
+          398,
+          100
+        ]
+      ],
+      "value": "owl",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          27,
+          9
+        ],
+        [
+          11,
+          23
+        ],
+        [
+          5,
+          43
+        ],
+        [
+          9,
+          61
+        ],
+        [
+          26,
+          78
+        ],
+        [
+          58,
+          79
+        ],
+        [
+          77,
+          58
+        ],
+        [
+          79,
+          34
+        ],
+        [
+          61,
+          11
+        ],
+        [
+          43,
+          6
+        ],
+        [
+          28,
+          9
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          124,
+          24
+        ],
+        [
+          121,
+          35
+        ],
+        [
+          119,
+          50
+        ],
+        [
+          127,
+          68
+        ],
+        [
+          144,
+          80
+        ],
+        [
+          168,
+          80
+        ],
+        [
+          185,
+          64
+        ],
+        [
+          193,
+          41
+        ],
+        [
+          181,
+          18
+        ],
+        [
+          161,
+          9
+        ],
+        [
+          140,
+          10
+        ],
+        [
+          126,
+          21
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          247,
+          14
+        ],
+        [
+          237,
+          31
+        ],
+        [
+          233,
+          51
+        ],
+        [
+          242,
+          67
+        ],
+        [
+          257,
+          80
+        ],
+        [
+          284,
+          77
+        ],
+        [
+          304,
+          58
+        ],
+        [
+          304,
+          32
+        ],
+        [
+          290,
+          15
+        ],
+        [
+          265,
+          7
+        ],
+        [
+          249,
+          13
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          388,
+          8
+        ],
+        [
+          367,
+          9
+        ],
+        [
+          351,
+          24
+        ],
+        [
+          347,
+          44
+        ],
+        [
+          353,
+          65
+        ],
+        [
+          372,
+          80
+        ],
+        [
+          401,
+          77
+        ],
+        [
+          416,
+          60
+        ],
+        [
+          418,
+          31
+        ],
+        [
+          410,
+          17
+        ],
+        [
+          390,
+          9
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          79,
+          40
+        ],
+        [
+          120,
+          39
+        ],
+        [
+          120,
+          49
+        ],
+        [
+          80,
+          49
+        ],
+        [
+          78,
+          40
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          192,
+          39
+        ],
+        [
+          233,
+          39
+        ],
+        [
+          232,
+          49
+        ],
+        [
+          193,
+          49
+        ],
+        [
+          193,
+          36
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          307,
+          42
+        ],
+        [
+          346,
+          42
+        ],
+        [
+          345,
+          51
+        ],
+        [
+          306,
+          49
+        ],
+        [
+          309,
+          40
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A0+B1",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B1",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "B1+A1+B2",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B2",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "B2+A2+B3",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B3",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B1",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B2",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B3",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "oak tree woodmouse weasel owl"
+  },
+  "questions": [
+    {
+      "question_text": "Based on the given diagram, what would happen to the weasel population if there were no owls?",
+      "question_id": "260.png-11",
+      "answers": [
+        "The population would decrease initially and then increase.",
+        "The population would decrease.",
+        "The population would increase.",
+        "Neither increase nor decrease."
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the diagram what would happen to the population of weasel if there were no owls?",
+      "question_id": "260.png-8",
+      "answers": [
+        "It would increase.",
+        "It would decrease.",
+        "Neither increase nor decrease.",
+        "It would increase due to less competition for food."
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the food chain diagram shown below, what direction of energy flow is correct?",
+      "question_id": "260.png-7",
+      "answers": [
+        "From Owl to Weasel",
+        "From Weasel to Oak tree",
+        "From Oak tree to Woodmouse",
+        "From Oak tree to sun"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the given food chain which organism prepares its own food with the help of Sun's energy?",
+      "question_id": "260.png-10",
+      "answers": [
+        "woodmouse",
+        "Oak tree",
+        "weasel",
+        "owl"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "How would the weasel population be affected if there were no owls?",
+      "question_id": "260.png-2",
+      "answers": [
+        "Decrease due to less competition for food",
+        "Increase",
+        "Neither increase nor decrease",
+        "Decrease"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "If the oak tree disappeared from the ecosystem shown, which organism would most likely suffer from starvation?",
+      "question_id": "260.png-4",
+      "answers": [
+        "The oak tree",
+        "The weasel",
+        "The owl",
+        "The woodmouse"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the diagram of the flow of energy, which organism is the primary producer?",
+      "question_id": "260.png-5",
+      "answers": [
+        "Owl",
+        "Oak tree",
+        "Weasel",
+        "Woodmouse"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the diagram shown, we could refer to the woodmouse as a",
+      "question_id": "260.png-1",
+      "answers": [
+        "predator",
+        "producer",
+        "energy source",
+        "prey"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the given diagram, the woodmouse is a",
+      "question_id": "260.png-9",
+      "answers": [
+        "energy source",
+        "predator",
+        "producer",
+        "prey"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What eats weasels?",
+      "question_id": "260.png-3",
+      "answers": [
+        "oak trees",
+        "owls",
+        "woodmice",
+        "hawks"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would happen if the oak trees disappeared?",
+      "question_id": "260.png-0",
+      "answers": [
+        "weasels would increase",
+        "woodmice would decrease",
+        "owls would decrease",
+        "owls would increase"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which organism would be directly affected due to a decline in the number of oak trees? (Base your answer on the given diagram)",
+      "question_id": "260.png-6",
+      "answers": [
+        "woodmouse",
+        "owl",
+        "hawk",
+        "weasel"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

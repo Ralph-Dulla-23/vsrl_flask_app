@@ -1,0 +1,202 @@
+{
+  "image_id": "1694",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          4,
+          133
+        ],
+        [
+          290,
+          175
+        ]
+      ],
+      "value": "Where plates converge, one plate is drawn slowly beneath the other. This takes place over thousands of years. ",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          23,
+          110
+        ],
+        [
+          227,
+          109
+        ],
+        [
+          273,
+          66
+        ],
+        [
+          273,
+          13
+        ],
+        [
+          184,
+          9
+        ],
+        [
+          181,
+          5
+        ],
+        [
+          177,
+          7
+        ],
+        [
+          170,
+          4
+        ],
+        [
+          164,
+          5
+        ],
+        [
+          158,
+          1
+        ],
+        [
+          155,
+          7
+        ],
+        [
+          79,
+          7
+        ],
+        [
+          22,
+          49
+        ],
+        [
+          22,
+          111
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          68,
+          59
+        ],
+        [
+          106,
+          62
+        ],
+        [
+          117,
+          67
+        ],
+        [
+          121,
+          69
+        ],
+        [
+          125,
+          64
+        ],
+        [
+          133,
+          76
+        ],
+        [
+          119,
+          82
+        ],
+        [
+          119,
+          76
+        ],
+        [
+          92,
+          71
+        ],
+        [
+          70,
+          72
+        ],
+        [
+          68,
+          63
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+I0",
+      "type": "imageCaption",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "B0": "whole",
+    "A0": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "where plates converge, one plate is drawn slowly beneath the other. this takes place over thousands of years. "
+  },
+  "questions": [
+    {
+      "question_text": "How many years does it take for one plate to slide beneath another?",
+      "question_id": "1694.png-0",
+      "answers": [
+        "Millions",
+        "Fifty",
+        "Thousands",
+        "Ten"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "What is property of earth plates is depicted in the diagram?",
+      "question_id": "1694.png-2",
+      "answers": [
+        "Slips of earth plate one over other",
+        "Soil on earth",
+        "Ocean on earth",
+        "Ocean waves"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which part of the earth is depicted in the diagram?",
+      "question_id": "1694.png-1",
+      "answers": [
+        "Earth plates",
+        "Earth bowls",
+        "Earth counts",
+        "Earth sheets"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

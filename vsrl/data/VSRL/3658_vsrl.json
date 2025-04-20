@@ -1,0 +1,876 @@
+{
+  "image_id": "3658",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          316,
+          261
+        ],
+        [
+          384,
+          289
+        ]
+      ],
+      "value": "Right ventricle",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          22,
+          52
+        ],
+        [
+          98,
+          80
+        ]
+      ],
+      "value": "Superior vena cava",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T10": {
+      "id": "T10",
+      "type": "text",
+      "bbox": [
+        [
+          316,
+          79
+        ],
+        [
+          397,
+          111
+        ]
+      ],
+      "value": "Pulmonary artery",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T11": {
+      "id": "T11",
+      "type": "text",
+      "bbox": [
+        [
+          319,
+          151
+        ],
+        [
+          399,
+          170
+        ]
+      ],
+      "value": "Left atrium",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T12": {
+      "id": "T12",
+      "type": "text",
+      "bbox": [
+        [
+          315,
+          176
+        ],
+        [
+          399,
+          205
+        ]
+      ],
+      "value": "Bicuspid mitral valve",
+      "replacementText": "L",
+      "category": "label"
+    },
+    "T13": {
+      "id": "T13",
+      "type": "text",
+      "bbox": [
+        [
+          315,
+          225
+        ],
+        [
+          382,
+          255
+        ]
+      ],
+      "value": "Left ventricle",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          22,
+          89
+        ],
+        [
+          94,
+          127
+        ]
+      ],
+      "value": "Aortic semilunar valve",
+      "replacementText": "M",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          135
+        ],
+        [
+          116,
+          165
+        ]
+      ],
+      "value": "Pulmonary semilunar valve",
+      "replacementText": "K",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          11,
+          169
+        ],
+        [
+          101,
+          186
+        ]
+      ],
+      "value": "Right atrium",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          1,
+          209
+        ],
+        [
+          113,
+          226
+        ]
+      ],
+      "value": "Tricuspid valve",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          20,
+          236
+        ],
+        [
+          98,
+          266
+        ]
+      ],
+      "value": "Inferior vena cava",
+      "replacementText": "N",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          16,
+          0
+        ],
+        [
+          162,
+          42
+        ]
+      ],
+      "value": "Mammal and Bird Heart",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          316,
+          22
+        ],
+        [
+          358,
+          41
+        ]
+      ],
+      "value": "Aorta",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T9": {
+      "id": "T9",
+      "type": "text",
+      "bbox": [
+        [
+          315,
+          115
+        ],
+        [
+          398,
+          144
+        ]
+      ],
+      "value": "Pulmonary veins",
+      "replacementText": "J",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          234,
+          0
+        ],
+        [
+          170,
+          28
+        ],
+        [
+          181,
+          51
+        ],
+        [
+          181,
+          51
+        ],
+        [
+          139,
+          55
+        ],
+        [
+          142,
+          97
+        ],
+        [
+          117,
+          100
+        ],
+        [
+          132,
+          237
+        ],
+        [
+          144,
+          275
+        ],
+        [
+          168,
+          275
+        ],
+        [
+          166,
+          263
+        ],
+        [
+          304,
+          281
+        ],
+        [
+          308,
+          208
+        ],
+        [
+          279,
+          149
+        ],
+        [
+          314,
+          147
+        ],
+        [
+          294,
+          80
+        ],
+        [
+          255,
+          86
+        ],
+        [
+          253,
+          56
+        ],
+        [
+          238,
+          40
+        ],
+        [
+          237,
+          1
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          235,
+          62
+        ],
+        [
+          233,
+          55
+        ],
+        [
+          315,
+          28
+        ],
+        [
+          318,
+          35
+        ],
+        [
+          237,
+          63
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          278,
+          86
+        ],
+        [
+          317,
+          86
+        ],
+        [
+          318,
+          93
+        ],
+        [
+          280,
+          93
+        ],
+        [
+          278,
+          87
+        ]
+      ],
+      "category": "connector"
+    },
+    "A10": {
+      "id": "A10",
+      "type": "arrow",
+      "polygon": [
+        [
+          102,
+          176
+        ],
+        [
+          173,
+          176
+        ],
+        [
+          173,
+          182
+        ],
+        [
+          102,
+          182
+        ],
+        [
+          102,
+          177
+        ]
+      ],
+      "category": "connector"
+    },
+    "A11": {
+      "id": "A11",
+      "type": "arrow",
+      "polygon": [
+        [
+          115,
+          143
+        ],
+        [
+          206,
+          143
+        ],
+        [
+          206,
+          149
+        ],
+        [
+          116,
+          148
+        ],
+        [
+          115,
+          144
+        ]
+      ],
+      "category": "connector"
+    },
+    "A12": {
+      "id": "A12",
+      "type": "arrow",
+      "polygon": [
+        [
+          79,
+          113
+        ],
+        [
+          188,
+          135
+        ],
+        [
+          186,
+          140
+        ],
+        [
+          79,
+          119
+        ],
+        [
+          79,
+          114
+        ]
+      ],
+      "category": "connector"
+    },
+    "A13": {
+      "id": "A13",
+      "type": "arrow",
+      "polygon": [
+        [
+          97,
+          74
+        ],
+        [
+          163,
+          74
+        ],
+        [
+          164,
+          79
+        ],
+        [
+          97,
+          78
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          278,
+          117
+        ],
+        [
+          319,
+          121
+        ],
+        [
+          318,
+          128
+        ],
+        [
+          277,
+          124
+        ],
+        [
+          277,
+          118
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          282,
+          137
+        ],
+        [
+          311,
+          123
+        ],
+        [
+          314,
+          127
+        ],
+        [
+          285,
+          142
+        ],
+        [
+          282,
+          139
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          262,
+          146
+        ],
+        [
+          317,
+          157
+        ],
+        [
+          317,
+          162
+        ],
+        [
+          262,
+          151
+        ],
+        [
+          263,
+          146
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          267,
+          163
+        ],
+        [
+          317,
+          179
+        ],
+        [
+          315,
+          185
+        ],
+        [
+          266,
+          170
+        ],
+        [
+          268,
+          163
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          271,
+          225
+        ],
+        [
+          316,
+          246
+        ],
+        [
+          313,
+          252
+        ],
+        [
+          268,
+          230
+        ],
+        [
+          270,
+          225
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          213,
+          248
+        ],
+        [
+          316,
+          267
+        ],
+        [
+          316,
+          274
+        ],
+        [
+          211,
+          254
+        ],
+        [
+          213,
+          248
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          94,
+          255
+        ],
+        [
+          155,
+          254
+        ],
+        [
+          155,
+          261
+        ],
+        [
+          96,
+          261
+        ],
+        [
+          94,
+          256
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          113,
+          215
+        ],
+        [
+          191,
+          214
+        ],
+        [
+          192,
+          222
+        ],
+        [
+          113,
+          221
+        ],
+        [
+          114,
+          215
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A7+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T1+A13+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A13",
+      "directional": false
+    },
+    {
+      "id": "T10+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T10",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T11+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T11",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T12+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T12",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T13+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T13",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T2+A12+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A12",
+      "directional": false
+    },
+    {
+      "id": "T3+A11+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A11",
+      "directional": false
+    },
+    {
+      "id": "T4+A10+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A10",
+      "directional": false
+    },
+    {
+      "id": "T5+A9+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A9",
+      "directional": false
+    },
+    {
+      "id": "T6+A8+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A8",
+      "directional": false
+    },
+    {
+      "id": "T7+I0",
+      "type": "imageTitle",
+      "source": "T7",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T8+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T8",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T9+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T9",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T9+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T9",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T10": "part_label",
+    "T11": "part_label",
+    "T12": "part_label",
+    "T13": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "title",
+    "T8": "part_label",
+    "T9": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A10": "connector",
+    "A11": "connector",
+    "A12": "connector",
+    "A13": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "right ventricle superior vena cava pulmonary artery left atrium bicuspid mitral valve left ventricle aortic semilunar valve pulmonary semilunar valve right atrium tricuspid valve inferior vena cava mammal and bird heart aorta pulmonary veins"
+  },
+  "questions": [
+    {
+      "question_text": "Which chamber of the heart receives oxygenated blood from the lungs?",
+      "question_id": "3658.png-0",
+      "answers": [
+        "d",
+        "b",
+        "a",
+        "c"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}

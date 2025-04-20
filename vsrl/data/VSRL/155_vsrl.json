@@ -1,0 +1,792 @@
+{
+  "image_id": "155",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          239,
+          44
+        ],
+        [
+          295,
+          63
+        ]
+      ],
+      "value": "Earth",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          408,
+          9
+        ],
+        [
+          479,
+          31
+        ]
+      ],
+      "value": "NO MOON",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          397,
+          257
+        ],
+        [
+          489,
+          278
+        ]
+      ],
+      "value": "With Moon",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          402,
+          297
+        ],
+        [
+          474,
+          330
+        ]
+      ],
+      "value": "Tidal Bulge in Ocean",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          16,
+          392
+        ],
+        [
+          70,
+          418
+        ]
+      ],
+      "value": "Moon",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          381,
+          55
+        ],
+        [
+          431,
+          78
+        ]
+      ],
+      "value": "Ocean",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          295,
+          31
+        ],
+        [
+          335,
+          53
+        ],
+        [
+          356,
+          88
+        ],
+        [
+          365,
+          122
+        ],
+        [
+          358,
+          162
+        ],
+        [
+          331,
+          198
+        ],
+        [
+          293,
+          218
+        ],
+        [
+          253,
+          220
+        ],
+        [
+          212,
+          206
+        ],
+        [
+          179,
+          171
+        ],
+        [
+          166,
+          124
+        ],
+        [
+          180,
+          76
+        ],
+        [
+          207,
+          45
+        ],
+        [
+          239,
+          28
+        ],
+        [
+          269,
+          24
+        ],
+        [
+          295,
+          30
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          278,
+          274
+        ],
+        [
+          317,
+          280
+        ],
+        [
+          358,
+          303
+        ],
+        [
+          375,
+          325
+        ],
+        [
+          385,
+          345
+        ],
+        [
+          386,
+          374
+        ],
+        [
+          376,
+          402
+        ],
+        [
+          353,
+          428
+        ],
+        [
+          317,
+          447
+        ],
+        [
+          275,
+          456
+        ],
+        [
+          231,
+          452
+        ],
+        [
+          187,
+          436
+        ],
+        [
+          156,
+          407
+        ],
+        [
+          143,
+          370
+        ],
+        [
+          152,
+          329
+        ],
+        [
+          183,
+          297
+        ],
+        [
+          212,
+          282
+        ],
+        [
+          244,
+          273
+        ],
+        [
+          268,
+          271
+        ],
+        [
+          278,
+          273
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          41,
+          334
+        ],
+        [
+          59,
+          336
+        ],
+        [
+          72,
+          352
+        ],
+        [
+          73,
+          368
+        ],
+        [
+          69,
+          383
+        ],
+        [
+          59,
+          391
+        ],
+        [
+          42,
+          397
+        ],
+        [
+          22,
+          388
+        ],
+        [
+          13,
+          372
+        ],
+        [
+          11,
+          353
+        ],
+        [
+          24,
+          338
+        ],
+        [
+          40,
+          333
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          248,
+          119
+        ],
+        [
+          251,
+          133
+        ],
+        [
+          251,
+          133
+        ],
+        [
+          261,
+          139
+        ],
+        [
+          261,
+          139
+        ],
+        [
+          280,
+          140
+        ],
+        [
+          280,
+          140
+        ],
+        [
+          278,
+          127
+        ],
+        [
+          278,
+          127
+        ],
+        [
+          264,
+          132
+        ],
+        [
+          264,
+          132
+        ],
+        [
+          261,
+          127
+        ],
+        [
+          261,
+          127
+        ],
+        [
+          259,
+          117
+        ],
+        [
+          259,
+          117
+        ],
+        [
+          250,
+          118
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          249,
+          110
+        ],
+        [
+          258,
+          104
+        ],
+        [
+          258,
+          104
+        ],
+        [
+          273,
+          107
+        ],
+        [
+          273,
+          107
+        ],
+        [
+          285,
+          120
+        ],
+        [
+          285,
+          120
+        ],
+        [
+          277,
+          126
+        ],
+        [
+          277,
+          126
+        ],
+        [
+          274,
+          118
+        ],
+        [
+          274,
+          118
+        ],
+        [
+          269,
+          117
+        ],
+        [
+          269,
+          117
+        ],
+        [
+          259,
+          119
+        ],
+        [
+          259,
+          119
+        ],
+        [
+          252,
+          112
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          362,
+          96
+        ],
+        [
+          390,
+          69
+        ],
+        [
+          390,
+          69
+        ],
+        [
+          381,
+          64
+        ],
+        [
+          381,
+          64
+        ],
+        [
+          360,
+          88
+        ],
+        [
+          358,
+          89
+        ],
+        [
+          362,
+          93
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          380,
+          347
+        ],
+        [
+          417,
+          323
+        ],
+        [
+          415,
+          329
+        ],
+        [
+          388,
+          356
+        ],
+        [
+          388,
+          356
+        ],
+        [
+          381,
+          346
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          41,
+          318
+        ],
+        [
+          49,
+          298
+        ],
+        [
+          50,
+          297
+        ],
+        [
+          57,
+          276
+        ],
+        [
+          60,
+          272
+        ],
+        [
+          74,
+          252
+        ],
+        [
+          74,
+          252
+        ],
+        [
+          73,
+          258
+        ],
+        [
+          73,
+          258
+        ],
+        [
+          62,
+          283
+        ],
+        [
+          62,
+          283
+        ],
+        [
+          54,
+          318
+        ],
+        [
+          54,
+          318
+        ],
+        [
+          50,
+          322
+        ],
+        [
+          50,
+          322
+        ],
+        [
+          40,
+          318
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          46,
+          423
+        ],
+        [
+          49,
+          438
+        ],
+        [
+          49,
+          438
+        ],
+        [
+          55,
+          452
+        ],
+        [
+          61,
+          471
+        ],
+        [
+          61,
+          471
+        ],
+        [
+          77,
+          469
+        ],
+        [
+          77,
+          469
+        ],
+        [
+          68,
+          451
+        ],
+        [
+          68,
+          451
+        ],
+        [
+          56,
+          419
+        ],
+        [
+          55,
+          419
+        ],
+        [
+          45,
+          423
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+I0",
+      "type": "sectionTitle",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+I0",
+      "type": "sectionTitle",
+      "source": "T2",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+A3+B1",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B1",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T4+B2",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "earth no moon with moon tidal bulge in ocean moon ocean"
+  },
+  "questions": [
+    {
+      "question_text": "What does the diagram show of the Earth's oceans with a Moon?",
+      "question_id": "155.png-1",
+      "answers": [
+        "It shows the oceans swelling around the Earth's middle.",
+        "That's no Moon.",
+        "It shows the oceans shrinking around the Earth's middle.",
+        "It shows the oceans evaporating away from the Earth."
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the earth in the diagram?",
+      "question_id": "155.png-0",
+      "answers": [
+        "b",
+        "E",
+        "C",
+        "none of the above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

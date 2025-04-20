@@ -1,0 +1,390 @@
+{
+  "image_id": "4043",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          127,
+          213
+        ],
+        [
+          178,
+          235
+        ]
+      ],
+      "value": "Core",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          56,
+          301
+        ],
+        [
+          128,
+          331
+        ]
+      ],
+      "value": "Mantle",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          190,
+          406
+        ],
+        [
+          212,
+          429
+        ]
+      ],
+      "value": "S",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          16,
+          15
+        ],
+        [
+          70,
+          39
+        ]
+      ],
+      "value": "Start",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          28,
+          70
+        ],
+        [
+          93,
+          117
+        ]
+      ],
+      "value": "Crust",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          190,
+          21
+        ],
+        [
+          211,
+          42
+        ]
+      ],
+      "value": "N",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          269,
+          120
+        ],
+        [
+          343,
+          147
+        ]
+      ],
+      "value": "Mantle",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          198,
+          46
+        ],
+        [
+          239,
+          50
+        ],
+        [
+          269,
+          62
+        ],
+        [
+          310,
+          82
+        ],
+        [
+          353,
+          136
+        ],
+        [
+          375,
+          184
+        ],
+        [
+          383,
+          241
+        ],
+        [
+          370,
+          281
+        ],
+        [
+          355,
+          317
+        ],
+        [
+          325,
+          353
+        ],
+        [
+          287,
+          385
+        ],
+        [
+          237,
+          400
+        ],
+        [
+          173,
+          404
+        ],
+        [
+          125,
+          388
+        ],
+        [
+          81,
+          361
+        ],
+        [
+          49,
+          317
+        ],
+        [
+          21,
+          252
+        ],
+        [
+          27,
+          176
+        ],
+        [
+          57,
+          117
+        ],
+        [
+          90,
+          78
+        ],
+        [
+          146,
+          53
+        ],
+        [
+          191,
+          44
+        ],
+        [
+          205,
+          45
+        ],
+        [
+          195,
+          44
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          164,
+          152
+        ],
+        [
+          161,
+          167
+        ],
+        [
+          184,
+          179
+        ],
+        [
+          226,
+          179
+        ],
+        [
+          239,
+          165
+        ],
+        [
+          236,
+          153
+        ],
+        [
+          203,
+          142
+        ],
+        [
+          179,
+          146
+        ],
+        [
+          177,
+          152
+        ],
+        [
+          187,
+          157
+        ],
+        [
+          211,
+          156
+        ],
+        [
+          227,
+          160
+        ],
+        [
+          223,
+          167
+        ],
+        [
+          205,
+          169
+        ],
+        [
+          181,
+          168
+        ],
+        [
+          174,
+          163
+        ],
+        [
+          177,
+          156
+        ],
+        [
+          173,
+          152
+        ],
+        [
+          164,
+          152
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T0",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+I0",
+      "type": "imageTitle",
+      "source": "T3",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T4",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T6",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "title",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "B0": "whole",
+    "A0": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "core mantle s start crust n mantle"
+  },
+  "questions": [
+    {
+      "question_text": "What is the center part of the structure?",
+      "question_id": "4043.png-0",
+      "answers": [
+        "mantle",
+        "crust",
+        "core",
+        "none of the above"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

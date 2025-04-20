@@ -1,0 +1,418 @@
+{
+  "image_id": "2998",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          85,
+          21
+        ],
+        [
+          318,
+          61
+        ]
+      ],
+      "value": "Parts of the Brain",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          409,
+          137
+        ],
+        [
+          618,
+          272
+        ]
+      ],
+      "value": "Three Main Parts of the Brain",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          294,
+          279
+        ],
+        [
+          387,
+          305
+        ]
+      ],
+      "value": "Cerebrum",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          202,
+          381
+        ],
+        [
+          375,
+          406
+        ]
+      ],
+      "value": "Brain Stem (medulla)",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          27,
+          353
+        ],
+        [
+          125,
+          377
+        ]
+      ],
+      "value": "Cerebellum",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          107,
+          78
+        ],
+        [
+          176,
+          66
+        ],
+        [
+          281,
+          80
+        ],
+        [
+          294,
+          93
+        ],
+        [
+          333,
+          123
+        ],
+        [
+          355,
+          157
+        ],
+        [
+          356,
+          198
+        ],
+        [
+          340,
+          233
+        ],
+        [
+          324,
+          247
+        ],
+        [
+          288,
+          253
+        ],
+        [
+          282,
+          278
+        ],
+        [
+          256,
+          290
+        ],
+        [
+          219,
+          295
+        ],
+        [
+          205,
+          288
+        ],
+        [
+          204,
+          305
+        ],
+        [
+          196,
+          319
+        ],
+        [
+          183,
+          329
+        ],
+        [
+          171,
+          346
+        ],
+        [
+          158,
+          364
+        ],
+        [
+          156,
+          382
+        ],
+        [
+          150,
+          412
+        ],
+        [
+          146,
+          436
+        ],
+        [
+          116,
+          434
+        ],
+        [
+          112,
+          415
+        ],
+        [
+          125,
+          341
+        ],
+        [
+          70,
+          332
+        ],
+        [
+          47,
+          311
+        ],
+        [
+          13,
+          283
+        ],
+        [
+          1,
+          211
+        ],
+        [
+          22,
+          166
+        ],
+        [
+          42,
+          122
+        ],
+        [
+          70,
+          96
+        ],
+        [
+          106,
+          76
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          101,
+          294
+        ],
+        [
+          82,
+          357
+        ],
+        [
+          72,
+          354
+        ],
+        [
+          88,
+          290
+        ],
+        [
+          100,
+          292
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          135,
+          382
+        ],
+        [
+          136,
+          398
+        ],
+        [
+          201,
+          398
+        ],
+        [
+          199,
+          388
+        ],
+        [
+          138,
+          385
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          288,
+          213
+        ],
+        [
+          336,
+          285
+        ],
+        [
+          346,
+          280
+        ],
+        [
+          304,
+          206
+        ],
+        [
+          292,
+          213
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+I0",
+      "type": "imageTitle",
+      "source": "T1",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T3+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T4+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "title",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "parts of the brain three main parts of the brain cerebrum brain stem (medulla) cerebellum"
+  },
+  "questions": [
+    {
+      "question_text": "What is directly above the brain stem?",
+      "question_id": "2998.png-0",
+      "answers": [
+        "Skull",
+        "Cerebellum",
+        "Cerebrum",
+        "Blood"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which is the biggest part of the human brain?",
+      "question_id": "2998.png-1",
+      "answers": [
+        "Cerbellum",
+        "Stem",
+        "Cerebrum",
+        "Head"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which letter denotes the largest part of the brain responsible for thinking?",
+      "question_id": "2998.png-3",
+      "answers": [
+        "C",
+        "{}",
+        "B",
+        "A"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which part of the brain is responsible for the maintenance of posture and balance?",
+      "question_id": "2998.png-2",
+      "answers": [
+        "B- Cerebellum",
+        "E- Brain",
+        "A- Cerebrum",
+        "C- Medulla"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "image_id": "4846",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          146,
+          53
+        ],
+        [
+          532,
+          105
+        ]
+      ],
+      "value": "Types of Volcanoes",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          91,
+          118
+        ],
+        [
+          286,
+          144
+        ]
+      ],
+      "value": "Shield volcano",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          521,
+          195
+        ],
+        [
+          780,
+          224
+        ]
+      ],
+      "value": "Cinder cone volcano",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          211,
+          436
+        ],
+        [
+          458,
+          462
+        ]
+      ],
+      "value": "Composite volcano",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          28,
+          342
+        ],
+        [
+          96,
+          325
+        ],
+        [
+          94,
+          145
+        ],
+        [
+          480,
+          144
+        ],
+        [
+          486,
+          345
+        ],
+        [
+          357,
+          346
+        ],
+        [
+          359,
+          363
+        ],
+        [
+          198,
+          363
+        ],
+        [
+          160,
+          390
+        ],
+        [
+          27,
+          367
+        ],
+        [
+          27,
+          340
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          589,
+          450
+        ],
+        [
+          621,
+          428
+        ],
+        [
+          773,
+          428
+        ],
+        [
+          773,
+          418
+        ],
+        [
+          887,
+          418
+        ],
+        [
+          889,
+          229
+        ],
+        [
+          523,
+          229
+        ],
+        [
+          523,
+          393
+        ],
+        [
+          460,
+          407
+        ],
+        [
+          463,
+          429
+        ],
+        [
+          585,
+          449
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          624,
+          465
+        ],
+        [
+          629,
+          662
+        ],
+        [
+          507,
+          659
+        ],
+        [
+          506,
+          669
+        ],
+        [
+          351,
+          674
+        ],
+        [
+          315,
+          700
+        ],
+        [
+          183,
+          677
+        ],
+        [
+          180,
+          653
+        ],
+        [
+          243,
+          639
+        ],
+        [
+          244,
+          466
+        ],
+        [
+          625,
+          466
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B1",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B2",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole"
+  },
+  "educational_context": {
+    "subject": "earth_science",
+    "diagram_type": "labeled_illustration",
+    "text_content": "types of volcanoes shield volcano cinder cone volcano composite volcano"
+  },
+  "questions": [
+    {
+      "question_text": "How many kind of volcanoes are shown above?",
+      "question_id": "4846.png-0",
+      "answers": [
+        "3",
+        "6",
+        "5",
+        "4"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

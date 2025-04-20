@@ -1,0 +1,864 @@
+{
+  "image_id": "727",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          1,
+          129
+        ],
+        [
+          238,
+          180
+        ]
+      ],
+      "value": "Adult Monarchs lay one small egg on an individual milkweed plant. The egg is about the size of the period at the end of this sentence. ",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          253,
+          141
+        ],
+        [
+          303,
+          177
+        ]
+      ],
+      "value": "Egg",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          318,
+          132
+        ],
+        [
+          557,
+          209
+        ]
+      ],
+      "value": "Progressing from egg to adult takes about one month depending on temperature. Larvae consume a lot of milkweed and grow very rapidly. They grow so fast, they need to shed their skin five times before they pupate.",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          149,
+          264
+        ],
+        [
+          220,
+          294
+        ]
+      ],
+      "value": "Adult",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          333,
+          263
+        ],
+        [
+          410,
+          293
+        ]
+      ],
+      "value": "Larva",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          1,
+          350
+        ],
+        [
+          239,
+          433
+        ]
+      ],
+      "value": "Monarch wings are folded in the chrysalis.  The Monarch must pump up its wings using fluid stored in its abdomen.  Monarchs live from 2-5 weeks before reproducing and laying eggs of the next generation.",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          248,
+          410
+        ],
+        [
+          312,
+          439
+        ]
+      ],
+      "value": "Pupa",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          319,
+          350
+        ],
+        [
+          548,
+          418
+        ]
+      ],
+      "value": "Monarch larvae transform into pupa, also known as chrysalis. The pupa turns to a jade color with gold markings. The chrysalis becomes clear just prior to emergence.",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          138,
+          557
+        ],
+        [
+          418,
+          553
+        ],
+        [
+          419,
+          447
+        ],
+        [
+          140,
+          447
+        ],
+        [
+          140,
+          557
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          490,
+          347
+        ],
+        [
+          454,
+          343
+        ],
+        [
+          429,
+          323
+        ],
+        [
+          419,
+          294
+        ],
+        [
+          419,
+          263
+        ],
+        [
+          430,
+          236
+        ],
+        [
+          459,
+          215
+        ],
+        [
+          491,
+          210
+        ],
+        [
+          522,
+          219
+        ],
+        [
+          543,
+          238
+        ],
+        [
+          553,
+          267
+        ],
+        [
+          556,
+          286
+        ],
+        [
+          543,
+          316
+        ],
+        [
+          531,
+          330
+        ],
+        [
+          513,
+          345
+        ],
+        [
+          487,
+          349
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          103,
+          343
+        ],
+        [
+          72,
+          352
+        ],
+        [
+          41,
+          342
+        ],
+        [
+          23,
+          331
+        ],
+        [
+          9,
+          310
+        ],
+        [
+          2,
+          282
+        ],
+        [
+          10,
+          253
+        ],
+        [
+          23,
+          231
+        ],
+        [
+          40,
+          217
+        ],
+        [
+          75,
+          209
+        ],
+        [
+          104,
+          215
+        ],
+        [
+          125,
+          234
+        ],
+        [
+          136,
+          255
+        ],
+        [
+          142,
+          281
+        ],
+        [
+          138,
+          305
+        ],
+        [
+          122,
+          329
+        ],
+        [
+          105,
+          344
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          260,
+          142
+        ],
+        [
+          238,
+          130
+        ],
+        [
+          218,
+          106
+        ],
+        [
+          211,
+          78
+        ],
+        [
+          215,
+          45
+        ],
+        [
+          231,
+          21
+        ],
+        [
+          254,
+          10
+        ],
+        [
+          266,
+          3
+        ],
+        [
+          295,
+          4
+        ],
+        [
+          316,
+          13
+        ],
+        [
+          333,
+          30
+        ],
+        [
+          342,
+          48
+        ],
+        [
+          349,
+          67
+        ],
+        [
+          345,
+          88
+        ],
+        [
+          339,
+          111
+        ],
+        [
+          321,
+          131
+        ],
+        [
+          302,
+          136
+        ],
+        [
+          283,
+          142
+        ],
+        [
+          260,
+          144
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          29,
+          113
+        ],
+        [
+          29,
+          88
+        ],
+        [
+          37,
+          65
+        ],
+        [
+          55,
+          42
+        ],
+        [
+          77,
+          31
+        ],
+        [
+          93,
+          31
+        ],
+        [
+          97,
+          22
+        ],
+        [
+          127,
+          45
+        ],
+        [
+          94,
+          68
+        ],
+        [
+          94,
+          60
+        ],
+        [
+          77,
+          58
+        ],
+        [
+          63,
+          73
+        ],
+        [
+          57,
+          89
+        ],
+        [
+          54,
+          119
+        ],
+        [
+          25,
+          114
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          442,
+          31
+        ],
+        [
+          445,
+          58
+        ],
+        [
+          462,
+          53
+        ],
+        [
+          485,
+          61
+        ],
+        [
+          500,
+          73
+        ],
+        [
+          504,
+          95
+        ],
+        [
+          491,
+          95
+        ],
+        [
+          515,
+          124
+        ],
+        [
+          538,
+          94
+        ],
+        [
+          524,
+          92
+        ],
+        [
+          521,
+          70
+        ],
+        [
+          513,
+          54
+        ],
+        [
+          498,
+          37
+        ],
+        [
+          461,
+          30
+        ],
+        [
+          445,
+          32
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          114,
+          500
+        ],
+        [
+          114,
+          525
+        ],
+        [
+          93,
+          524
+        ],
+        [
+          66,
+          522
+        ],
+        [
+          54,
+          512
+        ],
+        [
+          37,
+          491
+        ],
+        [
+          30,
+          465
+        ],
+        [
+          21,
+          465
+        ],
+        [
+          21,
+          465
+        ],
+        [
+          44,
+          437
+        ],
+        [
+          44,
+          437
+        ],
+        [
+          67,
+          464
+        ],
+        [
+          54,
+          465
+        ],
+        [
+          59,
+          482
+        ],
+        [
+          72,
+          496
+        ],
+        [
+          93,
+          505
+        ],
+        [
+          93,
+          505
+        ],
+        [
+          114,
+          499
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          429,
+          513
+        ],
+        [
+          436,
+          514
+        ],
+        [
+          466,
+          538
+        ],
+        [
+          466,
+          528
+        ],
+        [
+          483,
+          522
+        ],
+        [
+          506,
+          510
+        ],
+        [
+          520,
+          493
+        ],
+        [
+          530,
+          465
+        ],
+        [
+          527,
+          443
+        ],
+        [
+          502,
+          444
+        ],
+        [
+          500,
+          466
+        ],
+        [
+          500,
+          482
+        ],
+        [
+          491,
+          490
+        ],
+        [
+          470,
+          503
+        ],
+        [
+          465,
+          503
+        ],
+        [
+          464,
+          491
+        ],
+        [
+          430,
+          515
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "B0+A2+B2",
+      "type": "interObjectLinkage",
+      "source": "B0",
+      "target": "B2",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "B1+A3+B0",
+      "type": "interObjectLinkage",
+      "source": "B1",
+      "target": "B0",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "B2+A0+B3",
+      "type": "interObjectLinkage",
+      "source": "B2",
+      "target": "B3",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "B3+A1+B1",
+      "type": "interObjectLinkage",
+      "source": "B3",
+      "target": "B1",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T0+A0",
+      "type": "arrowDescriptor",
+      "source": "T0",
+      "target": "A0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B3",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+A1",
+      "type": "arrowDescriptor",
+      "source": "T2",
+      "target": "A1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B2",
+      "type": "intraObjectLabel",
+      "source": "T3",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B1",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T5+A2",
+      "type": "arrowDescriptor",
+      "source": "T5",
+      "target": "A2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T6+B0",
+      "type": "intraObjectLabel",
+      "source": "T6",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T7+A3",
+      "type": "arrowDescriptor",
+      "source": "T7",
+      "target": "A3",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "adult monarchs lay one small egg on an individual milkweed plant. the egg is about the size of the period at the end of this sentence.  egg progressing from egg to adult takes about one month depending on temperature. larvae consume a lot of milkweed and grow very rapidly. they grow so fast, they need to shed their skin five times before they pupate. adult larva monarch wings are folded in the chrysalis.  the monarch must pump up its wings using fluid stored in its abdomen.  monarchs live from 2-5 weeks before reproducing and laying eggs of the next generation. pupa monarch larvae transform into pupa, also known as chrysalis. the pupa turns to a jade color with gold markings. the chrysalis becomes clear just prior to emergence."
+  },
+  "questions": [
+    {
+      "question_text": "During which stage does the larvae transform into a chrysalis?",
+      "question_id": "727.png-1",
+      "answers": [
+        "Egg",
+        "Egg",
+        "Adult",
+        "Pupa"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which letter in the given diagram represents the larva stage?",
+      "question_id": "727.png-0",
+      "answers": [
+        "C",
+        "D",
+        "H",
+        "B"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

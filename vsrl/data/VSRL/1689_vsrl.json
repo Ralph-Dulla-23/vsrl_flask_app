@@ -1,0 +1,424 @@
+{
+  "image_id": "1689",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          422,
+          53
+        ],
+        [
+          504,
+          74
+        ]
+      ],
+      "value": "Penumbra",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          423,
+          145
+        ],
+        [
+          482,
+          167
+        ]
+      ],
+      "value": "Umbra",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          401,
+          98
+        ],
+        [
+          397,
+          110
+        ],
+        [
+          399,
+          122
+        ],
+        [
+          411,
+          129
+        ],
+        [
+          419,
+          128
+        ],
+        [
+          430,
+          117
+        ],
+        [
+          429,
+          100
+        ],
+        [
+          416,
+          92
+        ],
+        [
+          400,
+          95
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          426,
+          97
+        ],
+        [
+          439,
+          98
+        ],
+        [
+          460,
+          102
+        ],
+        [
+          502,
+          108
+        ],
+        [
+          472,
+          117
+        ],
+        [
+          425,
+          125
+        ],
+        [
+          445,
+          132
+        ],
+        [
+          513,
+          140
+        ],
+        [
+          522,
+          133
+        ],
+        [
+          530,
+          114
+        ],
+        [
+          522,
+          88
+        ],
+        [
+          512,
+          83
+        ],
+        [
+          425,
+          93
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          516,
+          142
+        ],
+        [
+          508,
+          125
+        ],
+        [
+          506,
+          102
+        ],
+        [
+          518,
+          74
+        ],
+        [
+          529,
+          62
+        ],
+        [
+          542,
+          53
+        ],
+        [
+          555,
+          52
+        ],
+        [
+          576,
+          52
+        ],
+        [
+          592,
+          57
+        ],
+        [
+          608,
+          71
+        ],
+        [
+          616,
+          86
+        ],
+        [
+          622,
+          105
+        ],
+        [
+          619,
+          127
+        ],
+        [
+          608,
+          149
+        ],
+        [
+          596,
+          157
+        ],
+        [
+          581,
+          165
+        ],
+        [
+          557,
+          169
+        ],
+        [
+          539,
+          164
+        ],
+        [
+          525,
+          155
+        ],
+        [
+          516,
+          143
+        ]
+      ],
+      "category": "object"
+    },
+    "B3": {
+      "id": "B3",
+      "type": "blob",
+      "polygon": [
+        [
+          21,
+          64
+        ],
+        [
+          45,
+          47
+        ],
+        [
+          71,
+          33
+        ],
+        [
+          101,
+          35
+        ],
+        [
+          120,
+          38
+        ],
+        [
+          142,
+          57
+        ],
+        [
+          155,
+          79
+        ],
+        [
+          162,
+          101
+        ],
+        [
+          164,
+          127
+        ],
+        [
+          152,
+          158
+        ],
+        [
+          136,
+          172
+        ],
+        [
+          121,
+          182
+        ],
+        [
+          107,
+          186
+        ],
+        [
+          79,
+          190
+        ],
+        [
+          55,
+          183
+        ],
+        [
+          38,
+          174
+        ],
+        [
+          24,
+          161
+        ],
+        [
+          14,
+          146
+        ],
+        [
+          10,
+          116
+        ],
+        [
+          11,
+          91
+        ],
+        [
+          19,
+          63
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          430,
+          141
+        ],
+        [
+          433,
+          108
+        ],
+        [
+          441,
+          108
+        ],
+        [
+          444,
+          140
+        ],
+        [
+          434,
+          142
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          471,
+          75
+        ],
+        [
+          471,
+          95
+        ],
+        [
+          485,
+          95
+        ],
+        [
+          486,
+          73
+        ],
+        [
+          473,
+          73
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+B1",
+      "type": "intraObjectLabel",
+      "source": "T0",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "B3": "whole",
+    "A0": "connector",
+    "A1": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "penumbra umbra"
+  },
+  "questions": [
+    {
+      "question_text": "What is the darkest part of the shadow?",
+      "question_id": "1689.png-1",
+      "answers": [
+        "The penumbra",
+        "The umbra",
+        "The darkness within the human heart.",
+        "The void beyond the stars"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "partial shadow portion",
+      "question_id": "1689.png-0",
+      "answers": [
+        "none of above",
+        "All of above",
+        "umbra",
+        "penumbra"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    }
+  ]
+}

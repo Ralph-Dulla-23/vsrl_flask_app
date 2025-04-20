@@ -1,0 +1,342 @@
+{
+  "image_id": "716",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          184,
+          0
+        ],
+        [
+          238,
+          19
+        ]
+      ],
+      "value": "Quartz",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          13,
+          0
+        ],
+        [
+          84,
+          18
+        ]
+      ],
+      "value": "Feldspar",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          81,
+          230
+        ],
+        [
+          135,
+          248
+        ]
+      ],
+      "value": "Biotite",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          41,
+          46
+        ],
+        [
+          76,
+          35
+        ],
+        [
+          146,
+          33
+        ],
+        [
+          191,
+          39
+        ],
+        [
+          249,
+          52
+        ],
+        [
+          247,
+          206
+        ],
+        [
+          43,
+          193
+        ],
+        [
+          35,
+          162
+        ],
+        [
+          32,
+          139
+        ],
+        [
+          37,
+          96
+        ],
+        [
+          44,
+          83
+        ],
+        [
+          42,
+          68
+        ],
+        [
+          40,
+          47
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          205,
+          21
+        ],
+        [
+          222,
+          22
+        ],
+        [
+          209,
+          54
+        ],
+        [
+          203,
+          22
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          61,
+          63
+        ],
+        [
+          53,
+          67
+        ],
+        [
+          76,
+          96
+        ],
+        [
+          77,
+          58
+        ],
+        [
+          71,
+          61
+        ],
+        [
+          56,
+          16
+        ],
+        [
+          51,
+          18
+        ],
+        [
+          58,
+          58
+        ],
+        [
+          60,
+          62
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          78,
+          177
+        ],
+        [
+          78,
+          203
+        ],
+        [
+          80,
+          208
+        ],
+        [
+          80,
+          209
+        ],
+        [
+          85,
+          209
+        ],
+        [
+          94,
+          228
+        ],
+        [
+          101,
+          225
+        ],
+        [
+          92,
+          206
+        ],
+        [
+          97,
+          202
+        ],
+        [
+          80,
+          176
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T2+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "quartz feldspar biotite"
+  },
+  "questions": [
+    {
+      "question_text": "In this diagram,which is pointed out by the label A?",
+      "question_id": "716.png-1",
+      "answers": [
+        "Feldspar",
+        "Biotite",
+        "Quartz",
+        "None of the above"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "In this diagram,which label is represented by Quartz?",
+      "question_id": "716.png-3",
+      "answers": [
+        "None of the above",
+        "C",
+        "A",
+        "B"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "This is A very hard mineral that is mostly made up of silica.",
+      "question_id": "716.png-2",
+      "answers": [
+        "granite",
+        "quartz",
+        "sand",
+        "diamond"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is a dark colored mica usually found on several types of rocks?",
+      "question_id": "716.png-0",
+      "answers": [
+        "moss",
+        "biotite",
+        "fungus",
+        "quartz"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

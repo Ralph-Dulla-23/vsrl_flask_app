@@ -1,0 +1,752 @@
+{
+  "image_id": "923",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          137,
+          0
+        ],
+        [
+          163,
+          16
+        ]
+      ],
+      "value": "Fish",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          106,
+          43
+        ],
+        [
+          192,
+          61
+        ]
+      ],
+      "value": "Zooplankton",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          113,
+          89
+        ],
+        [
+          200,
+          107
+        ]
+      ],
+      "value": "Small grazers",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          109,
+          133
+        ],
+        [
+          206,
+          149
+        ]
+      ],
+      "value": "Phytoplankton",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          237,
+          67
+        ],
+        [
+          266,
+          87
+        ]
+      ],
+      "value": "CO 2",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          64
+        ],
+        [
+          65,
+          101
+        ]
+      ],
+      "value": "Nutrients (N, P, etc)",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          124,
+          2
+        ],
+        [
+          33,
+          55
+        ],
+        [
+          42,
+          63
+        ],
+        [
+          131,
+          15
+        ],
+        [
+          124,
+          7
+        ],
+        [
+          124,
+          5
+        ]
+      ],
+      "category": "connector"
+    },
+    "A11": {
+      "id": "A11",
+      "type": "arrow",
+      "polygon": [
+        [
+          141,
+          11
+        ],
+        [
+          141,
+          47
+        ],
+        [
+          156,
+          48
+        ],
+        [
+          154,
+          12
+        ],
+        [
+          144,
+          12
+        ]
+      ],
+      "category": "connector"
+    },
+    "A13": {
+      "id": "A13",
+      "type": "arrow",
+      "polygon": [
+        [
+          142,
+          57
+        ],
+        [
+          155,
+          57
+        ],
+        [
+          155,
+          57
+        ],
+        [
+          155,
+          93
+        ],
+        [
+          140,
+          93
+        ],
+        [
+          139,
+          56
+        ]
+      ],
+      "category": "connector"
+    },
+    "A15": {
+      "id": "A15",
+      "type": "arrow",
+      "polygon": [
+        [
+          141,
+          103
+        ],
+        [
+          157,
+          103
+        ],
+        [
+          156,
+          141
+        ],
+        [
+          139,
+          143
+        ],
+        [
+          138,
+          104
+        ]
+      ],
+      "category": "connector"
+    },
+    "A17": {
+      "id": "A17",
+      "type": "arrow",
+      "polygon": [
+        [
+          189,
+          51
+        ],
+        [
+          228,
+          73
+        ],
+        [
+          231,
+          67
+        ],
+        [
+          190,
+          44
+        ],
+        [
+          189,
+          51
+        ]
+      ],
+      "category": "connector"
+    },
+    "A18": {
+      "id": "A18",
+      "type": "arrow",
+      "polygon": [
+        [
+          234,
+          77
+        ],
+        [
+          192,
+          94
+        ],
+        [
+          192,
+          94
+        ],
+        [
+          197,
+          103
+        ],
+        [
+          244,
+          85
+        ],
+        [
+          236,
+          77
+        ]
+      ],
+      "category": "connector"
+    },
+    "A19": {
+      "id": "A19",
+      "type": "arrow",
+      "polygon": [
+        [
+          255,
+          90
+        ],
+        [
+          203,
+          142
+        ],
+        [
+          194,
+          134
+        ],
+        [
+          251,
+          81
+        ],
+        [
+          254,
+          92
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          102,
+          47
+        ],
+        [
+          58,
+          67
+        ],
+        [
+          59,
+          71
+        ],
+        [
+          58,
+          68
+        ],
+        [
+          58,
+          68
+        ],
+        [
+          60,
+          74
+        ],
+        [
+          108,
+          56
+        ],
+        [
+          104,
+          47
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          70,
+          74
+        ],
+        [
+          67,
+          82
+        ],
+        [
+          107,
+          100
+        ],
+        [
+          109,
+          93
+        ],
+        [
+          72,
+          75
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          104,
+          131
+        ],
+        [
+          27,
+          92
+        ],
+        [
+          22,
+          100
+        ],
+        [
+          101,
+          144
+        ],
+        [
+          104,
+          133
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          163,
+          0
+        ],
+        [
+          250,
+          62
+        ],
+        [
+          244,
+          71
+        ],
+        [
+          153,
+          9
+        ],
+        [
+          163,
+          1
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A11+H1",
+      "type": "arrowHeadTail",
+      "source": "A11",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A13+H2",
+      "type": "arrowHeadTail",
+      "source": "A13",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A15+H3",
+      "type": "arrowHeadTail",
+      "source": "A15",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A17+H4",
+      "type": "arrowHeadTail",
+      "source": "A17",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A18+H5",
+      "type": "arrowHeadTail",
+      "source": "A18",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A19+H6",
+      "type": "arrowHeadTail",
+      "source": "A19",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H7",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H8",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H8",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H9",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H9",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A9+H10",
+      "type": "arrowHeadTail",
+      "source": "A9",
+      "target": "H10",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A1+T5",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T5",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T0+A9+T4",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T4",
+      "connector": "A9",
+      "directional": true
+    },
+    {
+      "id": "T1+A11+T0",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T0",
+      "connector": "A11",
+      "directional": true
+    },
+    {
+      "id": "T1+A17+T4",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T4",
+      "connector": "A17",
+      "directional": true
+    },
+    {
+      "id": "T1+A3+T5",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T5",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T2+A13+T1",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T1",
+      "connector": "A13",
+      "directional": true
+    },
+    {
+      "id": "T2+A18+T4",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T4",
+      "connector": "A18",
+      "directional": true
+    },
+    {
+      "id": "T2+A5+T5",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T5",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T3+A15+T2",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T2",
+      "connector": "A15",
+      "directional": true
+    },
+    {
+      "id": "T4+A19+T3",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T3",
+      "connector": "A19",
+      "directional": true
+    },
+    {
+      "id": "T5+A7+T3",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T3",
+      "connector": "A7",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "A1": "connector",
+    "A11": "connector",
+    "A13": "connector",
+    "A15": "connector",
+    "A17": "connector",
+    "A18": "connector",
+    "A19": "connector",
+    "A3": "connector",
+    "A5": "connector",
+    "A7": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "fish zooplankton small grazers phytoplankton co 2 nutrients (n, p, etc)"
+  },
+  "questions": [
+    {
+      "question_text": "A food web is shown. An owl is a/an",
+      "question_id": "923.png-0",
+      "answers": [
+        "producer",
+        "energy source",
+        "predator",
+        "prey"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Below is an example of a food chain. Choose the correct option which is a source of energy to the mouse",
+      "question_id": "923.png-2",
+      "answers": [
+        "an owl",
+        "the grass",
+        "an eagle",
+        "a fox"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the above food chain diagram, main source of energy for zooplankton is",
+      "question_id": "923.png-6",
+      "answers": [
+        "phytoplankton",
+        "co2",
+        "nutrients",
+        "small grazers"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the above food chain diagram, what would happen to small grazers if all phytoplankton died out",
+      "question_id": "923.png-8",
+      "answers": [
+        "remains the same",
+        "decrease",
+        "increase",
+        "NA"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the above food chain diagram, which of the following species is producer",
+      "question_id": "923.png-9",
+      "answers": [
+        "small grazers",
+        "co2",
+        "fish",
+        "phytoplankton"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "From the above food chain diagram, which species is omnivore",
+      "question_id": "923.png-3",
+      "answers": [
+        "small grazers",
+        "phytoplankton",
+        "fish",
+        "co2"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which organism does the Small Grazers feast on?",
+      "question_id": "923.png-5",
+      "answers": [
+        "Phytoplankton",
+        "Fish",
+        "Impossible to tell",
+        "None of the above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which organism is the primary producer in this food chain?",
+      "question_id": "923.png-7",
+      "answers": [
+        "Phytoplankton",
+        "Small Grazers",
+        "Zooplankton",
+        "Fish"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which predator is atop this food chain?",
+      "question_id": "923.png-4",
+      "answers": [
+        "Fish",
+        "Zooplankton",
+        "Phytoplankton",
+        "Small Grazers"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "Who is at the top of the food chain?",
+      "question_id": "923.png-1",
+      "answers": [
+        "Fish",
+        "Small grazers",
+        "Zooplankton",
+        "None of the above"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    }
+  ]
+}

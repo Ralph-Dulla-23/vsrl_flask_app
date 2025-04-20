@@ -1,0 +1,376 @@
+{
+  "image_id": "1269",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          56,
+          41
+        ],
+        [
+          77,
+          60
+        ]
+      ],
+      "value": "1",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          328,
+          41
+        ],
+        [
+          347,
+          59
+        ]
+      ],
+      "value": "2",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          314,
+          129
+        ],
+        [
+          359,
+          149
+        ]
+      ],
+      "value": "Plants",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          163,
+          204
+        ],
+        [
+          245,
+          252
+        ]
+      ],
+      "value": "Atmospheric Carbon dioxide",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          40,
+          114
+        ],
+        [
+          95,
+          160
+        ]
+      ],
+      "value": "Plants and Animals",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          161,
+          36
+        ],
+        [
+          247,
+          69
+        ]
+      ],
+      "value": "Atmospheric oxygen",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          266,
+          54
+        ],
+        [
+          299,
+          75
+        ],
+        [
+          328,
+          104
+        ],
+        [
+          352,
+          103
+        ],
+        [
+          319,
+          70
+        ],
+        [
+          269,
+          43
+        ],
+        [
+          268,
+          54
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          139,
+          59
+        ],
+        [
+          106,
+          73
+        ],
+        [
+          74,
+          107
+        ],
+        [
+          56,
+          105
+        ],
+        [
+          92,
+          67
+        ],
+        [
+          140,
+          45
+        ],
+        [
+          140,
+          60
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          60,
+          169
+        ],
+        [
+          82,
+          201
+        ],
+        [
+          141,
+          234
+        ],
+        [
+          142,
+          224
+        ],
+        [
+          91,
+          197
+        ],
+        [
+          74,
+          171
+        ],
+        [
+          62,
+          169
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          264,
+          222
+        ],
+        [
+          306,
+          203
+        ],
+        [
+          337,
+          172
+        ],
+        [
+          345,
+          171
+        ],
+        [
+          313,
+          210
+        ],
+        [
+          265,
+          233
+        ],
+        [
+          267,
+          223
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H1",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H2",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A1",
+      "type": "arrowDescriptor",
+      "source": "T0",
+      "target": "A1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+A0",
+      "type": "arrowDescriptor",
+      "source": "T1",
+      "target": "A0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+A0+T5",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T5",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T3+A3+T2",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T2",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T4+A2+T3",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T3",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T5+A1+T4",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T4",
+      "connector": "A1",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "1 2 plants atmospheric carbon dioxide plants and animals atmospheric oxygen"
+  },
+  "questions": [
+    {
+      "question_text": "How many stages are in this cycle?",
+      "question_id": "1269.png-1",
+      "answers": [
+        "3",
+        "4",
+        "2",
+        "5"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "In the given diagram, what letter represents plants?",
+      "question_id": "1269.png-2",
+      "answers": [
+        "B",
+        "C",
+        "D",
+        "A"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which letter represents atmospheric oxygen?",
+      "question_id": "1269.png-0",
+      "answers": [
+        "D",
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": true
+    }
+  ]
+}

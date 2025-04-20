@@ -1,0 +1,862 @@
+{
+  "image_id": "2802",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          119,
+          12
+        ],
+        [
+          207,
+          33
+        ]
+      ],
+      "value": "vulnerability",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          11,
+          186
+        ],
+        [
+          88,
+          234
+        ]
+      ],
+      "value": "New Complaints (NC)",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          132,
+          121
+        ],
+        [
+          205,
+          163
+        ]
+      ],
+      "value": "level of complaints (LC)",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          269,
+          93
+        ],
+        [
+          333,
+          113
+        ]
+      ],
+      "value": "hindrance",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          259,
+          197
+        ],
+        [
+          339,
+          225
+        ]
+      ],
+      "value": "actions (LSA, SCA, PCA)",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          140,
+          199
+        ],
+        [
+          202,
+          221
+        ]
+      ],
+      "value": "recovery",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          382,
+          192
+        ],
+        [
+          474,
+          223
+        ]
+      ],
+      "value": "knowledge (KLS, KSC, KPC)",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          440,
+          284
+        ],
+        [
+          541,
+          312
+        ]
+      ],
+      "value": "rate of learning (RoL)",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          120,
+          36
+        ],
+        [
+          129,
+          39
+        ],
+        [
+          65,
+          190
+        ],
+        [
+          56,
+          184
+        ],
+        [
+          118,
+          34
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          145,
+          33
+        ],
+        [
+          158,
+          31
+        ],
+        [
+          158,
+          122
+        ],
+        [
+          146,
+          122
+        ],
+        [
+          147,
+          34
+        ]
+      ],
+      "category": "connector"
+    },
+    "A10": {
+      "id": "A10",
+      "type": "arrow",
+      "polygon": [
+        [
+          445,
+          215
+        ],
+        [
+          432,
+          239
+        ],
+        [
+          419,
+          273
+        ],
+        [
+          394,
+          293
+        ],
+        [
+          360,
+          306
+        ],
+        [
+          315,
+          314
+        ],
+        [
+          279,
+          314
+        ],
+        [
+          238,
+          306
+        ],
+        [
+          201,
+          290
+        ],
+        [
+          167,
+          262
+        ],
+        [
+          158,
+          234
+        ],
+        [
+          145,
+          232
+        ],
+        [
+          158,
+          273
+        ],
+        [
+          196,
+          306
+        ],
+        [
+          257,
+          327
+        ],
+        [
+          333,
+          328
+        ],
+        [
+          394,
+          308
+        ],
+        [
+          437,
+          273
+        ],
+        [
+          448,
+          238
+        ],
+        [
+          454,
+          235
+        ],
+        [
+          449,
+          217
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          165,
+          118
+        ],
+        [
+          209,
+          99
+        ],
+        [
+          247,
+          101
+        ],
+        [
+          245,
+          91
+        ],
+        [
+          274,
+          106
+        ],
+        [
+          247,
+          118
+        ],
+        [
+          243,
+          107
+        ],
+        [
+          170,
+          128
+        ],
+        [
+          163,
+          117
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          92,
+          211
+        ],
+        [
+          147,
+          163
+        ],
+        [
+          154,
+          173
+        ],
+        [
+          102,
+          220
+        ],
+        [
+          95,
+          212
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          167,
+          159
+        ],
+        [
+          153,
+          180
+        ],
+        [
+          161,
+          184
+        ],
+        [
+          161,
+          209
+        ],
+        [
+          172,
+          205
+        ],
+        [
+          172,
+          185
+        ],
+        [
+          179,
+          183
+        ],
+        [
+          170,
+          158
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          299,
+          192
+        ],
+        [
+          298,
+          183
+        ],
+        [
+          297,
+          168
+        ],
+        [
+          302,
+          133
+        ],
+        [
+          305,
+          101
+        ],
+        [
+          310,
+          107
+        ],
+        [
+          312,
+          126
+        ],
+        [
+          312,
+          154
+        ],
+        [
+          315,
+          174
+        ],
+        [
+          316,
+          191
+        ],
+        [
+          309,
+          204
+        ],
+        [
+          300,
+          192
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          330,
+          202
+        ],
+        [
+          341,
+          186
+        ],
+        [
+          378,
+          176
+        ],
+        [
+          415,
+          185
+        ],
+        [
+          443,
+          192
+        ],
+        [
+          448,
+          197
+        ],
+        [
+          446,
+          180
+        ],
+        [
+          433,
+          169
+        ],
+        [
+          394,
+          165
+        ],
+        [
+          359,
+          164
+        ],
+        [
+          334,
+          170
+        ],
+        [
+          324,
+          180
+        ],
+        [
+          318,
+          198
+        ],
+        [
+          318,
+          209
+        ],
+        [
+          333,
+          201
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          362,
+          106
+        ],
+        [
+          389,
+          97
+        ],
+        [
+          387,
+          102
+        ],
+        [
+          429,
+          114
+        ],
+        [
+          460,
+          162
+        ],
+        [
+          461,
+          196
+        ],
+        [
+          452,
+          198
+        ],
+        [
+          441,
+          151
+        ],
+        [
+          420,
+          126
+        ],
+        [
+          388,
+          115
+        ],
+        [
+          382,
+          119
+        ],
+        [
+          358,
+          108
+        ]
+      ],
+      "category": "connector"
+    },
+    "A8": {
+      "id": "A8",
+      "type": "arrow",
+      "polygon": [
+        [
+          460,
+          233
+        ],
+        [
+          447,
+          255
+        ],
+        [
+          454,
+          257
+        ],
+        [
+          452,
+          284
+        ],
+        [
+          466,
+          285
+        ],
+        [
+          463,
+          257
+        ],
+        [
+          468,
+          256
+        ],
+        [
+          462,
+          234
+        ]
+      ],
+      "category": "connector"
+    },
+    "A9": {
+      "id": "A9",
+      "type": "arrow",
+      "polygon": [
+        [
+          165,
+          217
+        ],
+        [
+          178,
+          237
+        ],
+        [
+          252,
+          245
+        ],
+        [
+          304,
+          230
+        ],
+        [
+          312,
+          230
+        ],
+        [
+          306,
+          245
+        ],
+        [
+          233,
+          256
+        ],
+        [
+          160,
+          246
+        ],
+        [
+          152,
+          226
+        ],
+        [
+          164,
+          214
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H7",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H9",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H9",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A10+H3",
+      "type": "arrowHeadTail",
+      "source": "A10",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H1",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H8",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H8",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H5",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H4",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H6",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A8+H10",
+      "type": "arrowHeadTail",
+      "source": "A8",
+      "target": "H10",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A9+H0",
+      "type": "arrowHeadTail",
+      "source": "A9",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+T1",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T1",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T1+A3+T2",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T2",
+      "connector": "A3",
+      "directional": true
+    },
+    {
+      "id": "T2+A1+T0",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T0",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T2+A2+T3",
+      "type": "interObjectLinkage",
+      "source": "T2",
+      "target": "T3",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T3+A5+T4",
+      "type": "interObjectLinkage",
+      "source": "T3",
+      "target": "T4",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T4+A9+T5",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T5",
+      "connector": "A9",
+      "directional": true
+    },
+    {
+      "id": "T5+A10+T6",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T6",
+      "connector": "A10",
+      "directional": true
+    },
+    {
+      "id": "T5+A4+T2",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T2",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T6+A6+T4",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T4",
+      "connector": "A6",
+      "directional": true
+    },
+    {
+      "id": "T6+A7+T3",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T3",
+      "connector": "A7",
+      "directional": true
+    },
+    {
+      "id": "T7+A8+T6",
+      "type": "interObjectLinkage",
+      "source": "T7",
+      "target": "T6",
+      "connector": "A8",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A10": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector",
+    "A8": "connector",
+    "A9": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "vulnerability new complaints (nc) level of complaints (lc) hindrance actions (lsa, sca, pca) recovery knowledge (kls, ksc, kpc) rate of learning (rol)"
+  }
+}

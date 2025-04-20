@@ -1,0 +1,497 @@
+{
+  "image_id": "3390",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          198,
+          233
+        ],
+        [
+          271,
+          264
+        ]
+      ],
+      "value": "hindwing",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          106,
+          213
+        ],
+        [
+          192,
+          238
+        ]
+      ],
+      "value": "abdomen",
+      "replacementText": "H",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          8,
+          234
+        ],
+        [
+          105,
+          261
+        ]
+      ],
+      "value": "proboscis",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          102,
+          47
+        ],
+        [
+          208,
+          66
+        ]
+      ],
+      "value": "BillyBear4Kids.com",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          239,
+          17
+        ],
+        [
+          299,
+          41
+        ]
+      ],
+      "value": "wingtip",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          156,
+          6
+        ],
+        [
+          236,
+          34
+        ]
+      ],
+      "value": "forewing",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          44,
+          19
+        ],
+        [
+          129,
+          40
+        ]
+      ],
+      "value": "antennae",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T7": {
+      "id": "T7",
+      "type": "text",
+      "bbox": [
+        [
+          20,
+          64
+        ],
+        [
+          57,
+          82
+        ]
+      ],
+      "value": "eye",
+      "replacementText": "I",
+      "category": "label"
+    },
+    "T8": {
+      "id": "T8",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          161
+        ],
+        [
+          61,
+          188
+        ]
+      ],
+      "value": "thorax",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          57,
+          37
+        ],
+        [
+          263,
+          38
+        ],
+        [
+          266,
+          223
+        ],
+        [
+          54,
+          220
+        ],
+        [
+          55,
+          38
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          132,
+          227
+        ],
+        [
+          155,
+          196
+        ],
+        [
+          144,
+          194
+        ],
+        [
+          128,
+          222
+        ],
+        [
+          129,
+          225
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          60,
+          238
+        ],
+        [
+          106,
+          125
+        ],
+        [
+          101,
+          125
+        ],
+        [
+          52,
+          237
+        ],
+        [
+          58,
+          238
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          34,
+          173
+        ],
+        [
+          122,
+          137
+        ],
+        [
+          120,
+          131
+        ],
+        [
+          29,
+          168
+        ],
+        [
+          32,
+          173
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          42,
+          83
+        ],
+        [
+          119,
+          120
+        ],
+        [
+          119,
+          115
+        ],
+        [
+          44,
+          78
+        ],
+        [
+          41,
+          82
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          102,
+          37
+        ],
+        [
+          95,
+          70
+        ],
+        [
+          86,
+          67
+        ],
+        [
+          99,
+          36
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          164,
+          25
+        ],
+        [
+          212,
+          108
+        ],
+        [
+          215,
+          101
+        ],
+        [
+          169,
+          22
+        ],
+        [
+          164,
+          22
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          267,
+          35
+        ],
+        [
+          248,
+          107
+        ],
+        [
+          240,
+          103
+        ],
+        [
+          261,
+          34
+        ],
+        [
+          266,
+          33
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          176,
+          174
+        ],
+        [
+          222,
+          246
+        ],
+        [
+          227,
+          239
+        ],
+        [
+          182,
+          170
+        ],
+        [
+          178,
+          172
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A7+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A7",
+      "directional": false
+    },
+    {
+      "id": "T1+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T2+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T3+I0",
+      "type": "misc",
+      "source": "T3",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T5+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T5",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T6+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T6",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T7+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T7",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T8+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T8",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "T7": "part_label",
+    "T8": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "hindwing abdomen proboscis billybear4kids.com wingtip forewing antennae eye thorax"
+  },
+  "questions": []
+}

@@ -1,0 +1,264 @@
+{
+  "image_id": "4256",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          38,
+          184
+        ],
+        [
+          128,
+          203
+        ]
+      ],
+      "value": "Layers of soil",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          173,
+          149
+        ],
+        [
+          230,
+          167
+        ]
+      ],
+      "value": "bed rock",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          169,
+          103
+        ],
+        [
+          227,
+          125
+        ]
+      ],
+      "value": "sub soil",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          170,
+          68
+        ],
+        [
+          226,
+          85
+        ]
+      ],
+      "value": "top soil",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          4,
+          52
+        ],
+        [
+          2,
+          174
+        ],
+        [
+          174,
+          174
+        ],
+        [
+          168,
+          53
+        ],
+        [
+          132,
+          53
+        ],
+        [
+          134,
+          32
+        ],
+        [
+          146,
+          27
+        ],
+        [
+          160,
+          39
+        ],
+        [
+          161,
+          26
+        ],
+        [
+          151,
+          17
+        ],
+        [
+          125,
+          31
+        ],
+        [
+          119,
+          0
+        ],
+        [
+          118,
+          20
+        ],
+        [
+          93,
+          15
+        ],
+        [
+          113,
+          29
+        ],
+        [
+          93,
+          31
+        ],
+        [
+          84,
+          48
+        ],
+        [
+          110,
+          51
+        ],
+        [
+          69,
+          53
+        ],
+        [
+          81,
+          29
+        ],
+        [
+          55,
+          21
+        ],
+        [
+          33,
+          28
+        ],
+        [
+          32,
+          33
+        ],
+        [
+          36,
+          51
+        ],
+        [
+          6,
+          50
+        ]
+      ],
+      "category": "object"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T2",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+B0",
+      "type": "intraObjectRegionLabel",
+      "source": "T3",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "B0": "whole"
+  },
+  "educational_context": {
+    "subject": "earth_science",
+    "diagram_type": "labeled_illustration",
+    "text_content": "layers of soil bed rock sub soil top soil"
+  },
+  "questions": [
+    {
+      "question_text": "What is the bottom most layer in the diagram?",
+      "question_id": "4256.png-2",
+      "answers": [
+        "sub soil",
+        "goats",
+        "top soil",
+        "Bed rock"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is the first layer of soil near the plants?",
+      "question_id": "4256.png-0",
+      "answers": [
+        "sub soil",
+        "surface",
+        "Top soil",
+        "bed rock"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which layer does C represent ?",
+      "question_id": "4256.png-1",
+      "answers": [
+        "Bed Rock",
+        "Gravel",
+        "Sub Soil",
+        "Top Soil"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}

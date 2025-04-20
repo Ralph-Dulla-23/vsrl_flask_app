@@ -1,0 +1,510 @@
+{
+  "image_id": "3125",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          280,
+          12
+        ],
+        [
+          436,
+          37
+        ]
+      ],
+      "value": "sclerenchyma",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          329,
+          56
+        ],
+        [
+          625,
+          90
+        ]
+      ],
+      "value": "scattered vascular bundles",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          375,
+          99
+        ],
+        [
+          506,
+          134
+        ]
+      ],
+      "value": "hypodermis",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          436,
+          165
+        ],
+        [
+          543,
+          192
+        ]
+      ],
+      "value": "epidermis",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          347,
+          262
+        ],
+        [
+          498,
+          290
+        ]
+      ],
+      "value": "parenchyma",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          265,
+          56
+        ],
+        [
+          291,
+          79
+        ],
+        [
+          309,
+          102
+        ],
+        [
+          319,
+          122
+        ],
+        [
+          325,
+          142
+        ],
+        [
+          327,
+          169
+        ],
+        [
+          323,
+          201
+        ],
+        [
+          312,
+          230
+        ],
+        [
+          295,
+          258
+        ],
+        [
+          272,
+          285
+        ],
+        [
+          231,
+          310
+        ],
+        [
+          207,
+          319
+        ],
+        [
+          175,
+          329
+        ],
+        [
+          150,
+          334
+        ],
+        [
+          120,
+          327
+        ],
+        [
+          88,
+          312
+        ],
+        [
+          62,
+          290
+        ],
+        [
+          46,
+          270
+        ],
+        [
+          30,
+          240
+        ],
+        [
+          16,
+          202
+        ],
+        [
+          14,
+          166
+        ],
+        [
+          29,
+          109
+        ],
+        [
+          64,
+          65
+        ],
+        [
+          113,
+          35
+        ],
+        [
+          151,
+          27
+        ],
+        [
+          194,
+          28
+        ],
+        [
+          219,
+          32
+        ],
+        [
+          254,
+          50
+        ],
+        [
+          264,
+          55
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          205,
+          212
+        ],
+        [
+          340,
+          284
+        ],
+        [
+          346,
+          268
+        ],
+        [
+          214,
+          203
+        ],
+        [
+          208,
+          210
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          313,
+          185
+        ],
+        [
+          431,
+          192
+        ],
+        [
+          431,
+          174
+        ],
+        [
+          314,
+          177
+        ],
+        [
+          314,
+          180
+        ],
+        [
+          315,
+          185
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          235,
+          119
+        ],
+        [
+          241,
+          128
+        ],
+        [
+          328,
+          85
+        ],
+        [
+          329,
+          78
+        ],
+        [
+          235,
+          119
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          251,
+          137
+        ],
+        [
+          319,
+          85
+        ],
+        [
+          328,
+          89
+        ],
+        [
+          257,
+          144
+        ],
+        [
+          252,
+          138
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          304,
+          144
+        ],
+        [
+          309,
+          155
+        ],
+        [
+          379,
+          127
+        ],
+        [
+          374,
+          116
+        ],
+        [
+          304,
+          145
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          240,
+          101
+        ],
+        [
+          318,
+          77
+        ],
+        [
+          322,
+          84
+        ],
+        [
+          242,
+          110
+        ],
+        [
+          242,
+          101
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          209,
+          64
+        ],
+        [
+          279,
+          30
+        ],
+        [
+          283,
+          43
+        ],
+        [
+          217,
+          74
+        ],
+        [
+          208,
+          63
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+A6+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A6",
+      "directional": false
+    },
+    {
+      "id": "T1+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    },
+    {
+      "id": "T1+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T1+A5+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A5",
+      "directional": false
+    },
+    {
+      "id": "T2+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T3+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T4+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "flow_diagram",
+    "text_content": "sclerenchyma scattered vascular bundles hypodermis epidermis parenchyma"
+  },
+  "questions": [
+    {
+      "question_text": "Which region in the diagram represents the parenchyma?",
+      "question_id": "3125.png-0",
+      "answers": [
+        "d",
+        "b",
+        "e",
+        "c"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    },
+    {
+      "question_text": "Which region in the diagram represents the sclerenchyma?",
+      "question_id": "3125.png-1",
+      "answers": [
+        "c",
+        "b",
+        "d",
+        "a"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": true
+    }
+  ]
+}

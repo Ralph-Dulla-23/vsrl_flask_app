@@ -1,0 +1,626 @@
+{
+  "image_id": "440",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          62
+        ],
+        [
+          83,
+          90
+        ]
+      ],
+      "value": "water plant",
+      "replacementText": "G",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          131,
+          69
+        ],
+        [
+          180,
+          88
+        ]
+      ],
+      "value": "shrimp",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          274,
+          66
+        ],
+        [
+          349,
+          87
+        ]
+      ],
+      "value": "snakehead",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          280,
+          10
+        ],
+        [
+          349,
+          34
+        ]
+      ],
+      "value": "kingfisher",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          137,
+          13
+        ],
+        [
+          174,
+          36
+        ]
+      ],
+      "value": "fish",
+      "replacementText": "F",
+      "category": "label"
+    },
+    "T5": {
+      "id": "T5",
+      "type": "text",
+      "bbox": [
+        [
+          125,
+          112
+        ],
+        [
+          179,
+          133
+        ]
+      ],
+      "value": "tadpole",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T6": {
+      "id": "T6",
+      "type": "text",
+      "bbox": [
+        [
+          225,
+          119
+        ],
+        [
+          338,
+          135
+        ]
+      ],
+      "value": "dragonfly nymph",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          53,
+          62
+        ],
+        [
+          135,
+          28
+        ],
+        [
+          141,
+          38
+        ],
+        [
+          60,
+          73
+        ],
+        [
+          55,
+          64
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          159,
+          25
+        ],
+        [
+          268,
+          66
+        ],
+        [
+          257,
+          78
+        ],
+        [
+          152,
+          30
+        ],
+        [
+          161,
+          23
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          169,
+          17
+        ],
+        [
+          284,
+          17
+        ],
+        [
+          283,
+          30
+        ],
+        [
+          169,
+          28
+        ],
+        [
+          166,
+          19
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          293,
+          77
+        ],
+        [
+          282,
+          120
+        ],
+        [
+          286,
+          122
+        ],
+        [
+          305,
+          83
+        ],
+        [
+          295,
+          81
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          77,
+          75
+        ],
+        [
+          133,
+          74
+        ],
+        [
+          132,
+          85
+        ],
+        [
+          73,
+          81
+        ],
+        [
+          76,
+          77
+        ]
+      ],
+      "category": "connector"
+    },
+    "A5": {
+      "id": "A5",
+      "type": "arrow",
+      "polygon": [
+        [
+          67,
+          84
+        ],
+        [
+          130,
+          117
+        ],
+        [
+          120,
+          128
+        ],
+        [
+          61,
+          87
+        ],
+        [
+          61,
+          87
+        ],
+        [
+          69,
+          82
+        ]
+      ],
+      "category": "connector"
+    },
+    "A6": {
+      "id": "A6",
+      "type": "arrow",
+      "polygon": [
+        [
+          175,
+          74
+        ],
+        [
+          267,
+          75
+        ],
+        [
+          266,
+          81
+        ],
+        [
+          173,
+          83
+        ],
+        [
+          174,
+          76
+        ]
+      ],
+      "category": "connector"
+    },
+    "A7": {
+      "id": "A7",
+      "type": "arrow",
+      "polygon": [
+        [
+          175,
+          119
+        ],
+        [
+          226,
+          121
+        ],
+        [
+          226,
+          121
+        ],
+        [
+          227,
+          129
+        ],
+        [
+          176,
+          129
+        ],
+        [
+          176,
+          129
+        ],
+        [
+          176,
+          119
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H0",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H1",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H2",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H3",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H4",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A5+H5",
+      "type": "arrowHeadTail",
+      "source": "A5",
+      "target": "H5",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A6+H6",
+      "type": "arrowHeadTail",
+      "source": "A6",
+      "target": "H6",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A7+H7",
+      "type": "arrowHeadTail",
+      "source": "A7",
+      "target": "H7",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+T4",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T4",
+      "connector": "A0",
+      "directional": true
+    },
+    {
+      "id": "T0+A4+T1",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T1",
+      "connector": "A4",
+      "directional": true
+    },
+    {
+      "id": "T0+A5+T5",
+      "type": "interObjectLinkage",
+      "source": "T0",
+      "target": "T5",
+      "connector": "A5",
+      "directional": true
+    },
+    {
+      "id": "T1+A6+T2",
+      "type": "interObjectLinkage",
+      "source": "T1",
+      "target": "T2",
+      "connector": "A6",
+      "directional": true
+    },
+    {
+      "id": "T4+A1+T2",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T2",
+      "connector": "A1",
+      "directional": true
+    },
+    {
+      "id": "T4+A2+T3",
+      "type": "interObjectLinkage",
+      "source": "T4",
+      "target": "T3",
+      "connector": "A2",
+      "directional": true
+    },
+    {
+      "id": "T5+A7+T6",
+      "type": "interObjectLinkage",
+      "source": "T5",
+      "target": "T6",
+      "connector": "A7",
+      "directional": true
+    },
+    {
+      "id": "T6+A3+T2",
+      "type": "interObjectLinkage",
+      "source": "T6",
+      "target": "T2",
+      "connector": "A3",
+      "directional": true
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "T5": "part_label",
+    "T6": "part_label",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector",
+    "A5": "connector",
+    "A6": "connector",
+    "A7": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "flow_diagram",
+    "text_content": "water plant shrimp snakehead kingfisher fish tadpole dragonfly nymph"
+  },
+  "questions": [
+    {
+      "question_text": "From the above food web diagram, how energy flows",
+      "question_id": "440.png-9",
+      "answers": [
+        "from tadpole to shrimp",
+        "from plant to snakehead",
+        "from tadpole to dragonfly nymph",
+        "from shrimp to tadpole"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "Using the food web above, what would happen if the number of shrimp increased?",
+      "question_id": "440.png-6",
+      "answers": [
+        "increase in kingfishers",
+        "the dragonfly nymph population would increase",
+        "tadpole population would decrease",
+        "the snakehead population would increase"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is a carnivore?",
+      "question_id": "440.png-4",
+      "answers": [
+        "fish",
+        "kingfisher",
+        "water plant",
+        "shrimp"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is a producer?",
+      "question_id": "440.png-7",
+      "answers": [
+        "shrimp",
+        "kingfisher",
+        "water plant",
+        "snakehead"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What is an herbivore?",
+      "question_id": "440.png-8",
+      "answers": [
+        "kingfisher",
+        "snakehead",
+        "fish",
+        "nymph"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would be directly affected by a decrease in water plant?",
+      "question_id": "440.png-5",
+      "answers": [
+        "nymph",
+        "snakehead",
+        "kingfisher",
+        "tadpole"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would happen if all the fish died?",
+      "question_id": "440.png-3",
+      "answers": [
+        "more tadpoles",
+        "more water plants",
+        "fewer kingfish",
+        "fewer snakehead"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would happen if the tadpoles all died?",
+      "question_id": "440.png-0",
+      "answers": [
+        "fewer dragonfly nymph",
+        "fewer water plant",
+        "more shrimp",
+        "more fish"
+      ],
+      "correct_answer_index": 0,
+      "abc_label": false
+    },
+    {
+      "question_text": "What would happen to fish with a decrease in water plant?",
+      "question_id": "440.png-2",
+      "answers": [
+        "can't predict",
+        "stay same",
+        "increase",
+        "decrease"
+      ],
+      "correct_answer_index": 3,
+      "abc_label": false
+    },
+    {
+      "question_text": "Which organism is the primary producer?",
+      "question_id": "440.png-1",
+      "answers": [
+        "shrimp",
+        "kingfisher",
+        "water plant",
+        "snakehead"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": false
+    }
+  ]
+}

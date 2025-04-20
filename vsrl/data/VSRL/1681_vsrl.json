@@ -1,0 +1,346 @@
+{
+  "image_id": "1681",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          185,
+          8
+        ],
+        [
+          327,
+          33
+        ]
+      ],
+      "value": "Lunar Eclipse",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          48,
+          147
+        ],
+        [
+          96,
+          166
+        ]
+      ],
+      "value": "Moon",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          154,
+          150
+        ],
+        [
+          202,
+          169
+        ]
+      ],
+      "value": "Earth",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          151,
+          213
+        ],
+        [
+          352,
+          232
+        ]
+      ],
+      "value": "Phase of the Moon:FULL",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          435,
+          155
+        ],
+        [
+          469,
+          172
+        ]
+      ],
+      "value": "SUN",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          74,
+          121
+        ],
+        [
+          81,
+          112
+        ],
+        [
+          76,
+          102
+        ],
+        [
+          68,
+          102
+        ],
+        [
+          61,
+          106
+        ],
+        [
+          60,
+          115
+        ],
+        [
+          70,
+          122
+        ]
+      ],
+      "category": "object"
+    },
+    "B1": {
+      "id": "B1",
+      "type": "blob",
+      "polygon": [
+        [
+          159,
+          88
+        ],
+        [
+          151,
+          96
+        ],
+        [
+          143,
+          112
+        ],
+        [
+          149,
+          129
+        ],
+        [
+          162,
+          141
+        ],
+        [
+          176,
+          138
+        ],
+        [
+          191,
+          128
+        ],
+        [
+          195,
+          110
+        ],
+        [
+          178,
+          89
+        ],
+        [
+          161,
+          87
+        ]
+      ],
+      "category": "object"
+    },
+    "B2": {
+      "id": "B2",
+      "type": "blob",
+      "polygon": [
+        [
+          435,
+          88
+        ],
+        [
+          425,
+          107
+        ],
+        [
+          428,
+          129
+        ],
+        [
+          442,
+          142
+        ],
+        [
+          462,
+          146
+        ],
+        [
+          485,
+          137
+        ],
+        [
+          493,
+          114
+        ],
+        [
+          485,
+          89
+        ],
+        [
+          459,
+          79
+        ],
+        [
+          435,
+          88
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          7,
+          83
+        ],
+        [
+          444,
+          74
+        ],
+        [
+          430,
+          91
+        ],
+        [
+          7,
+          100
+        ],
+        [
+          6,
+          80
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          8,
+          127
+        ],
+        [
+          432,
+          134
+        ],
+        [
+          433,
+          152
+        ],
+        [
+          10,
+          145
+        ],
+        [
+          9,
+          129
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "T0+I0",
+      "type": "imageTitle",
+      "source": "T0",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T1+B0",
+      "type": "intraObjectLabel",
+      "source": "T1",
+      "target": "B0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T2+B1",
+      "type": "intraObjectLabel",
+      "source": "T2",
+      "target": "B1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T3+I0",
+      "type": "imageTitle",
+      "source": "T3",
+      "target": "I0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T4+B2",
+      "type": "intraObjectLabel",
+      "source": "T4",
+      "target": "B2",
+      "connector": null,
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "title",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "title",
+    "T4": "part_label",
+    "B0": "whole",
+    "B1": "whole",
+    "B2": "whole",
+    "A0": "connector",
+    "A1": "connector"
+  },
+  "educational_context": {
+    "subject": "biology",
+    "diagram_type": "labeled_illustration",
+    "text_content": "lunar eclipse moon earth phase of the moon:full sun"
+  },
+  "questions": [
+    {
+      "question_text": "What is between the sun and moon in a lunar eclipse?",
+      "question_id": "1681.png-0",
+      "answers": [
+        "venus",
+        "earth",
+        "none of the above",
+        "star"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    }
+  ]
+}

@@ -1,0 +1,482 @@
+{
+  "image_id": "3815",
+  "entities": {
+    "T0": {
+      "id": "T0",
+      "type": "text",
+      "bbox": [
+        [
+          24,
+          33
+        ],
+        [
+          74,
+          49
+        ]
+      ],
+      "value": "plumule",
+      "replacementText": "E",
+      "category": "label"
+    },
+    "T1": {
+      "id": "T1",
+      "type": "text",
+      "bbox": [
+        [
+          208,
+          60
+        ],
+        [
+          252,
+          75
+        ]
+      ],
+      "value": "radicle",
+      "replacementText": "C",
+      "category": "label"
+    },
+    "T2": {
+      "id": "T2",
+      "type": "text",
+      "bbox": [
+        [
+          189,
+          144
+        ],
+        [
+          250,
+          157
+        ]
+      ],
+      "value": "micropyle",
+      "replacementText": "B",
+      "category": "label"
+    },
+    "T3": {
+      "id": "T3",
+      "type": "text",
+      "bbox": [
+        [
+          199,
+          205
+        ],
+        [
+          233,
+          223
+        ]
+      ],
+      "value": "testa",
+      "replacementText": "D",
+      "category": "label"
+    },
+    "T4": {
+      "id": "T4",
+      "type": "text",
+      "bbox": [
+        [
+          0,
+          105
+        ],
+        [
+          60,
+          121
+        ]
+      ],
+      "value": "cotyledon",
+      "replacementText": "A",
+      "category": "label"
+    },
+    "B0": {
+      "id": "B0",
+      "type": "blob",
+      "polygon": [
+        [
+          136,
+          4
+        ],
+        [
+          175,
+          18
+        ],
+        [
+          202,
+          85
+        ],
+        [
+          189,
+          128
+        ],
+        [
+          186,
+          142
+        ],
+        [
+          191,
+          169
+        ],
+        [
+          179,
+          214
+        ],
+        [
+          156,
+          235
+        ],
+        [
+          120,
+          238
+        ],
+        [
+          84,
+          219
+        ],
+        [
+          64,
+          146
+        ],
+        [
+          73,
+          59
+        ],
+        [
+          112,
+          16
+        ],
+        [
+          133,
+          4
+        ]
+      ],
+      "category": "object"
+    },
+    "A0": {
+      "id": "A0",
+      "type": "arrow",
+      "polygon": [
+        [
+          72,
+          34
+        ],
+        [
+          72,
+          48
+        ],
+        [
+          104,
+          48
+        ],
+        [
+          107,
+          51
+        ],
+        [
+          137,
+          44
+        ],
+        [
+          108,
+          33
+        ],
+        [
+          108,
+          38
+        ],
+        [
+          73,
+          36
+        ]
+      ],
+      "category": "connector"
+    },
+    "A1": {
+      "id": "A1",
+      "type": "arrow",
+      "polygon": [
+        [
+          170,
+          67
+        ],
+        [
+          195,
+          77
+        ],
+        [
+          197,
+          72
+        ],
+        [
+          212,
+          71
+        ],
+        [
+          211,
+          64
+        ],
+        [
+          196,
+          65
+        ],
+        [
+          196,
+          60
+        ],
+        [
+          169,
+          66
+        ]
+      ],
+      "category": "connector"
+    },
+    "A2": {
+      "id": "A2",
+      "type": "arrow",
+      "polygon": [
+        [
+          58,
+          113
+        ],
+        [
+          113,
+          118
+        ],
+        [
+          113,
+          129
+        ],
+        [
+          57,
+          126
+        ],
+        [
+          56,
+          115
+        ]
+      ],
+      "category": "connector"
+    },
+    "A3": {
+      "id": "A3",
+      "type": "arrow",
+      "polygon": [
+        [
+          185,
+          121
+        ],
+        [
+          192,
+          142
+        ],
+        [
+          195,
+          142
+        ],
+        [
+          199,
+          145
+        ],
+        [
+          206,
+          142
+        ],
+        [
+          203,
+          138
+        ],
+        [
+          207,
+          134
+        ],
+        [
+          184,
+          116
+        ],
+        [
+          186,
+          117
+        ]
+      ],
+      "category": "connector"
+    },
+    "A4": {
+      "id": "A4",
+      "type": "arrow",
+      "polygon": [
+        [
+          188,
+          217
+        ],
+        [
+          168,
+          205
+        ],
+        [
+          198,
+          203
+        ],
+        [
+          198,
+          210
+        ],
+        [
+          201,
+          207
+        ],
+        [
+          199,
+          216
+        ],
+        [
+          195,
+          216
+        ],
+        [
+          194,
+          222
+        ],
+        [
+          187,
+          217
+        ]
+      ],
+      "category": "connector"
+    }
+  },
+  "relationships": [
+    {
+      "id": "A0+H2",
+      "type": "arrowHeadTail",
+      "source": "A0",
+      "target": "H2",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A1+H0",
+      "type": "arrowHeadTail",
+      "source": "A1",
+      "target": "H0",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A2+H4",
+      "type": "arrowHeadTail",
+      "source": "A2",
+      "target": "H4",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A3+H1",
+      "type": "arrowHeadTail",
+      "source": "A3",
+      "target": "H1",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "A4+H3",
+      "type": "arrowHeadTail",
+      "source": "A4",
+      "target": "H3",
+      "connector": null,
+      "directional": false
+    },
+    {
+      "id": "T0+A0+B0",
+      "type": "intraObjectLinkage",
+      "source": "T0",
+      "target": "B0",
+      "connector": "A0",
+      "directional": false
+    },
+    {
+      "id": "T1+A1+B0",
+      "type": "intraObjectLinkage",
+      "source": "T1",
+      "target": "B0",
+      "connector": "A1",
+      "directional": false
+    },
+    {
+      "id": "T2+A3+B0",
+      "type": "intraObjectLinkage",
+      "source": "T2",
+      "target": "B0",
+      "connector": "A3",
+      "directional": false
+    },
+    {
+      "id": "T3+A4+B0",
+      "type": "intraObjectLinkage",
+      "source": "T3",
+      "target": "B0",
+      "connector": "A4",
+      "directional": false
+    },
+    {
+      "id": "T4+A2+B0",
+      "type": "intraObjectLinkage",
+      "source": "T4",
+      "target": "B0",
+      "connector": "A2",
+      "directional": false
+    }
+  ],
+  "semantic_roles": {
+    "T0": "part_label",
+    "T1": "part_label",
+    "T2": "part_label",
+    "T3": "part_label",
+    "T4": "part_label",
+    "B0": "whole",
+    "A0": "connector",
+    "A1": "connector",
+    "A2": "connector",
+    "A3": "connector",
+    "A4": "connector"
+  },
+  "educational_context": {
+    "subject": "unknown",
+    "diagram_type": "labeled_illustration",
+    "text_content": "plumule radicle micropyle testa cotyledon"
+  },
+  "questions": [
+    {
+      "question_text": "Hard outer coat of a seed is known as?",
+      "question_id": "3815.png-0",
+      "answers": [
+        "Plumule",
+        "Testa",
+        "Micropyle",
+        "Cotyledon"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": false
+    },
+    {
+      "question_text": "Where is the micropyle?",
+      "question_id": "3815.png-2",
+      "answers": [
+        "C",
+        "B",
+        "E",
+        "A"
+      ],
+      "correct_answer_index": 1,
+      "abc_label": true
+    },
+    {
+      "question_text": "Where is the testa?",
+      "question_id": "3815.png-1",
+      "answers": [
+        "A",
+        "C",
+        "D",
+        "B"
+      ],
+      "correct_answer_index": 2,
+      "abc_label": true
+    }
+  ]
+}
