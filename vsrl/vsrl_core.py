@@ -87,6 +87,13 @@ def initialize_vsrl_data():
 # Initialize VSRL data at module import
 initialize_vsrl_data()
 
+def get_vsrl_visualization_path(image_id):
+    """Get the path to a pre-existing VSRL visualization"""
+    visualization_path = f"C:\\GithubRepos\\TechWrite\\vsrl_flask_app\\vsrl\\data\\VSRL\\visualizations\\{image_id}.png"
+    if os.path.exists(visualization_path):
+        return visualization_path
+    return None
+
 # Optimized visual element detection
 def detect_visual_elements(image_path):
     """Detect visual elements with optimized performance"""
@@ -540,8 +547,182 @@ def get_explanation_from_vsrl_data(subject, key_terms, max_samples=3):
         print(f"Error generating explanation from VSRL data: {e}")
         return f"This diagram illustrates concepts related to {subject}."
 
+def generate_fallback_explanation(examples_data, subject, key_terms):
+    """Generate a fallback explanation if the API call fails"""
+    try:
+        if not examples_data:
+            return f"This diagram illustrates concepts related to {subject}."
+        
+        # Extract common elements across examples
+        all_entities = []
+        for example in examples_data:
+            for entity in example.get("entities", []):
+                if entity.get("role") == "part_label":
+                    all_entities.append(entity.get("text", "").lower())
+        
+        # Count frequency of entities
+        entity_counts = {}
+        for entity in all_entities:
+            if entity:
+                entity_counts[entity] = entity_counts.get(entity, 0) + 1
+        
+        # Sort by frequency
+        sorted_entities = sorted(entity_counts.items(), key=lambda x: x[1], reverse=True)
+        top_entities = [e[0] for e in sorted_entities[:5]]
+        
+        # Generate simple explanation
+        explanation = f"This diagram illustrates {subject} concepts. "
+        
+        if top_entities:
+            explanation += f"Key components often include {', '.join(top_entities)}. "
+            explanation += f"Understanding the relationships between these elements is important for mastering {subject} concepts."
+        
+        return explanation
+        
+    except Exception as e:
+        print(f"Fallback explanation error: {e}")
+        return f"This diagram shows concepts related to {subject}."
+
+def get_concept_explanation_from_gemini(subject, key_terms, max_words=100):
+    """Get a concept explanation from Gemini based on VSRL training data"""
+    global VSRL_DATA
+    
+    try:
+        # Only use API if we have enough content to justify it
+        if not key_terms or len(key_terms) < 2:
+            return ""
+            
+        # Extract relevant data from VSRL dataset to provide to Gemini
+        relevant_examples = []
+        subject_ids = VSRL_DATA["by_subject"].get(subject, [])
+        
+        # Find relevant examples by keyword matching
+        keyword_matches = {}
+        for term in key_terms:
+            term = term.lower()
+            if term in VSRL_DATA["by_keyword"]:
+                for img_id in VSRL_DATA["by_keyword"][term]:
+                    if img_id not in keyword_matches:
+                        keyword_matches[img_id] = 0
+                    keyword_matches[img_id] += 1
+        
+        # Get top matches (prioritizing those that match both subject and keywords)
+        matches_with_scores = []
+        for img_id, keyword_score in keyword_matches.items():
+            subject_match = 1 if img_id in subject_ids else 0
+            matches_with_scores.append((img_id, keyword_score, subject_match))
+        
+        # Sort by subject match (primary) and keyword score (secondary)
+        matches_with_scores.sort(key=lambda x: (x[2], x[1]), reverse=True)
+        
+        # Take top 3 examples
+        top_examples = matches_with_scores[:3]
+        
+        # Extract data from top examples
+        examples_data = []
+        for img_id, _, _ in top_examples:
+            if img_id in VSRL_DATA["by_id"]:
+                data = VSRL_DATA["by_id"][img_id]
+                
+                # Get key details from this example
+                subject = data.get("educational_context", {}).get("subject", "")
+                diagram_type = data.get("educational_context", {}).get("diagram_type", "")
+                
+                # Extract text entities and their roles
+                entities_info = []
+                for entity_id, entity in data.get("entities", {}).items():
+                    if entity.get("type") == "text" and "value" in entity:
+                        role = data.get("semantic_roles", {}).get(entity_id, "unknown")
+                        entities_info.append({
+                            "text": entity["value"],
+                            "role": role
+                        })
+                
+                # Get relationships
+                relationships = []
+                for rel in data.get("relationships", []):
+                    rel_type = rel.get("type", "")
+                    source_id = rel.get("source", "")
+                    target_id = rel.get("target", "")
+                    
+                    # Get source and target text if available
+                    source_text = ""
+                    target_text = ""
+                    if source_id in data.get("entities", {}):
+                        source_text = data["entities"][source_id].get("value", "")
+                    if target_id in data.get("entities", {}):
+                        target_text = data["entities"][target_id].get("value", "")
+                    
+                    if source_text and target_text:
+                        relationships.append({
+                            "type": rel_type,
+                            "source": source_text,
+                            "target": target_text
+                        })
+                
+                examples_data.append({
+                    "subject": subject,
+                    "diagram_type": diagram_type,
+                    "entities": entities_info,
+                    "relationships": relationships
+                })
+        
+        # Create a structured prompt with the VSRL data
+        structured_data = json.dumps(examples_data, indent=2)
+        
+        # Create a focused prompt that asks Gemini to use only the provided data
+        prompt = f"""
+Based ONLY on the following educational diagram data, write a brief explanation (max {max_words} words) about {subject} concepts related to {', '.join(key_terms)}.
+
+VSRL DATA:
+{structured_data}
+
+Your explanation should ONLY use information from the provided data. Focus on explaining the key components and their relationships as shown in similar diagrams. Do not add any information not supported by the data.
+"""
+        
+        # Call the Gemini API
+        api_key = os.getenv('GEMINI_API_KEY')  # Get API key from environment variables
+        if not api_key:
+            print("Warning: GEMINI_API_KEY not found in environment variables")
+            return ""
+            
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
+        
+        headers = {"Content-Type": "application/json"}
+        data = {
+            "contents": [{
+                "parts": [{"text": prompt}]
+            }],
+            "generationConfig": {
+                "maxOutputTokens": 150,  # Limit token usage
+                "temperature": 0.2       # More deterministic output
+            },
+            "safetySettings": [
+                {
+                    "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                    "threshold": "BLOCK_MEDIUM_AND_ABOVE"
+                }
+            ]
+        }
+        
+        response = requests.post(url, headers=headers, json=data, timeout=5)
+        
+        if response.status_code == 200:
+            result = response.json()
+            if "candidates" in result and result["candidates"] and "content" in result["candidates"][0]:
+                parts = result["candidates"][0]["content"].get("parts", [])
+                concept_text = "".join([part.get("text", "") for part in parts])
+                return concept_text
+        
+        # If API call fails, generate a simple explanation from the data
+        return generate_fallback_explanation(examples_data, subject, key_terms)
+        
+    except Exception as e:
+        print(f"Gemini API call error: {e}")
+        return ""  # Return empty on any error
+
 def generate_simple_explanation(subject, diagram_type, detected_texts, labeled_parts):
-    """Generate a simple explanation using local VSRL data"""
+    """Generate a simple explanation using VSRL data and Gemini"""
     text_str = ", ".join(detected_texts)
     
     # Extract key terms for searching VSRL data
@@ -550,8 +731,20 @@ def generate_simple_explanation(subject, diagram_type, detected_texts, labeled_p
         if len(text) > 3 and not text.isdigit():
             key_terms.append(text)
     
-    # Use local VSRL data instead of Gemini API
-    vsrl_explanation = get_explanation_from_vsrl_data(subject, key_terms)
+    # First get a local data-based explanation as a fallback
+    local_explanation = get_explanation_from_vsrl_data(subject, key_terms)
+    
+    # Try to enhance with Gemini if we have enough data
+    if VSRL_DATA and key_terms:
+        gemini_explanation = get_concept_explanation_from_gemini(subject, key_terms, max_words=100)
+        if gemini_explanation:
+            # If Gemini returned something useful, use it
+            vsrl_explanation = gemini_explanation
+        else:
+            # Otherwise fall back to local explanation
+            vsrl_explanation = local_explanation
+    else:
+        vsrl_explanation = local_explanation
     
     # Create the explanation using the VSRL-based content
     explanation = f"""
